@@ -33,7 +33,7 @@ export function useUserLibrary() {
     if (exists) {
       newFavs = favorites.filter(f => f.seriesId !== series.id);
     } else {
-      newFavs = [{ seriesId: series.id, slug: series.slug, title: series.title, thumbnail: series.thumbnail || series.coverImage || '', savedAt: Date.now() }, ...favorites];
+      newFavs = [{ seriesId: series.id, slug: series.slug, title: series.title, thumbnail: series.thumbnail || '', savedAt: Date.now() }, ...favorites];
     }
     setFavorites(newFavs);
     saveToLocalStorage('dao_favorites', newFavs);
@@ -45,7 +45,7 @@ export function useUserLibrary() {
 
   const addToHistory = (series: Series, part: number) => {
     const filtered = history.filter(h => h.seriesId !== series.id);
-    const newHist = [{ seriesId: series.id, slug: series.slug, title: series.title, thumbnail: series.thumbnail || series.coverImage || '', savedAt: Date.now(), lastPart: part }, ...filtered].slice(0, 50);
+    const newHist = [{ seriesId: series.id, slug: series.slug, title: series.title, thumbnail: series.thumbnail || '', savedAt: Date.now(), lastPart: part }, ...filtered].slice(0, 50);
     setHistory(newHist);
     saveToLocalStorage('dao_history', newHist);
   };
