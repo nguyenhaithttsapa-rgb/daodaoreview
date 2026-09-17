@@ -71,3 +71,24 @@ export function updateAllSeries(newList: Series[]): void {
   seriesList = newList;
   writeData(seriesList);
 }
+
+export function updateSeries(seriesId: string, updates: Partial<Series>): Series | null {
+  seriesList = readData();
+  const index = seriesList.findIndex((s) => s.id === seriesId);
+  if (index === -1) return null;
+
+  seriesList[index] = {
+    ...seriesList[index],
+    ...updates,
+    updatedAt: new Date().toISOString().split('T')[0],
+  };
+
+  if (updates.title && seriesList[index].episodes?.length) {
+    seriesList[index].episodes.forEach((ep) => {
+      ep.title = updates.title!;
+    });
+  }
+
+  writeData(seriesList);
+  return seriesList[index];
+}

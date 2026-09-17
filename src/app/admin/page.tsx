@@ -165,6 +165,33 @@ export default function AdminPage() {
   }
 
 
+  const handleRenameSeries = async () => {
+    if (!selectedSeriesId) return;
+    const current = seriesList.find(s => s.id === selectedSeriesId);
+    if (!current) return;
+
+    const newTitle = prompt('Nhập tên mới theo chuẩn SEO cho bộ phim này:\n(Ví dụ: Tên Phim - Review Tóm Tắt - Thể Loại - Full Thuyết Minh)', current.title);
+    if (!newTitle || !newTitle.trim() || newTitle.trim() === current.title) return;
+
+    try {
+      setDeleteStatus('Đang đổi tên...');
+      const res = await fetch('/api/series', {
+        method: 'PATCH',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: selectedSeriesId, title: newTitle.trim() })
+      });
+      if (res.ok) {
+        setDeleteStatus('Đã đổi tên thành công!');
+        fetchSeries();
+      } else {
+        const err = await res.json();
+        setDeleteStatus('Lỗi khi đổi tên: ' + (err.error || 'Thất bại'));
+      }
+    } catch (err: any) {
+      setDeleteStatus('Lỗi kết nối: ' + err.message);
+    }
+  };
+
   const handleDeleteSeries = async () => {
     if (!selectedSeriesId) return;
     if (!confirm('Bạn có chắc chắn muốn xóa nguyên bộ phim này không?')) return;
@@ -601,8 +628,23 @@ export default function AdminPage() {
                   </option>
                 ))}
               </select>
-            {deleteStatus && <p className="text-xs text-rose-500">{deleteStatus}</p>}
-<button type="button" onClick={handleDeleteSeries} className="w-full mt-2 bg-rose-900/40 hover:bg-rose-900/80 border border-rose-700/50 text-rose-400 font-bold py-2 rounded-xl transition text-xs">🗑️ XÓA TOÀN BỘ PHIM NÀY</button>
+            {deleteStatus && <p className="text-xs text-cyan-400 mt-1">{deleteStatus}</p>}
+            <div className="flex gap-2 mt-2">
+              <button
+                type="button"
+                onClick={handleRenameSeries}
+                className="flex-1 bg-amber-600/30 hover:bg-amber-600/60 border border-amber-500/50 text-amber-300 font-bold py-2 rounded-xl transition text-xs flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                ✏️ ĐỔI TÊN PHIM
+              </button>
+              <button
+                type="button"
+                onClick={handleDeleteSeries}
+                className="flex-1 bg-rose-900/40 hover:bg-rose-900/80 border border-rose-700/50 text-rose-400 font-bold py-2 rounded-xl transition text-xs flex items-center justify-center gap-1.5 cursor-pointer"
+              >
+                🗑️ XÓA PHIM
+              </button>
+            </div>
             
 <div className="mt-6 border-t border-slate-700/50 pt-4">
   <label className="block text-xs font-semibold text-slate-300 mb-2">Quản lý các tập phim (Xóa từng tập)</label>

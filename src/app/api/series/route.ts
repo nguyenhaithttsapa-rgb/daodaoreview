@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getAllSeries, addSeries } from '@/lib/store';
+import { getAllSeries, addSeries, updateSeries } from '@/lib/store';
 import { slugify } from '@/lib/parser';
 import { Series } from '@/types/video';
 
@@ -35,5 +35,31 @@ export async function POST(req: Request) {
     return NextResponse.json(saved, { status: 201 });
   } catch (error) {
     return NextResponse.json({ error: 'Lỗi server khi thêm bộ phim' }, { status: 500 });
+  }
+}
+
+export async function PATCH(req: Request) {
+  try {
+    const body = await req.json();
+    const { id, title, categories, description } = body;
+
+    if (!id || !title) {
+      return NextResponse.json({ error: 'Thiếu ID hoặc tiêu đề phim' }, { status: 400 });
+    }
+
+    const updated = updateSeries(id, {
+      title: title.trim(),
+      slug: slugify(title) + '-' + id.slice(-4),
+      categories: categories || undefined,
+      description: description || undefined,
+    });
+
+    if (!updated) {
+      return NextResponse.json({ error: 'Không tìm thấy bộ phim' }, { status: 404 });
+    }
+
+    return NextResponse.json({ success: true, series: updated });
+  } catch (error: any) {
+    return NextResponse.json({ error: 'Lỗi khi sửa bộ phim: ' + error?.message }, { status: 500 });
   }
 }
