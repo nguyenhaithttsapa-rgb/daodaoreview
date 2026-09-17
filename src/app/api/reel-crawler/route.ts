@@ -8,26 +8,31 @@ import { isReelEmbeddable } from '@/lib/videoChecker';
 const DB_PATH = path.join(process.cwd(), 'src/data/database.json');
 
 const TITLE_TEMPLATES = [
-  { title: 'Mối Tình Học Đường Của Nữ Thần Thanh Xuân', category: 'Thanh Xuân', genre: 'Thanh Xuân, Học Đường, Ngôn Tình', desc: 'Hồi ức thanh xuân ngọt ngào nhưng đầy trắc trở của cô gái nhỏ nơi sân trường đầy kỷ niệm.' },
-  { title: 'Nước Mắt Mỹ Nhân: Nỗi Đau Giấu Kín Sau Nụ Cười', category: 'Ngôn Tình', genre: 'Tình Cảm, Tâm Lý, Đô Thị', desc: 'Nỗi lòng của người con gái khi người thân yêu nhất quay lưng phản bội.' },
-  { title: 'Cổ Trang Huyền Ảo: Nàng Y Nữ Tuyệt Sắc Chữa Lành Vết Thương Thiên Hạ', category: 'Cổ Trang', genre: 'Cổ Trang, Huyền Huyễn, Tu Tiên', desc: 'Hành trình hành y cứu người của nữ thần y bí ẩn giữa thời loạn lạc tranh đoạt giang hồ.' },
-  { title: 'Tình Yêu Sau Bức Rèm Nhung: Bí Mật Chốn Hào Môn', category: 'Đô Thị', genre: 'Đô Thị, Ngôn Tình, Kịch Tính', desc: 'Khoảnh khắc ngọt ngào lẫn toan tính sau cánh cửa gia tộc tài phiệt quyền lực.' },
-  { title: 'Chiến Thần Hắc Giáp: Ma Quân Tái Sinh Trấn Áp Tam Giới', category: 'Tu Tiên', genre: 'Tu Tiên, Huyền Huyễn, Nhiệt Huyết', desc: 'Thiếu niên khoác lên mình chiến giáp tử thần, một kiếm phá vỡ gông xiềng phong ấn ngàn năm.' },
-  { title: 'Bé Con Đáng Yêu: Siêu Quậy Xuyên Không Gây Bão Gia Đình', category: 'Hài Hước', genre: 'Hoạt Hình 3D, Hài Hước, Gia Đình', desc: 'Những pha xử lý dở khóc dở cười của cô bé dễ thương khiến người lớn phải chào thua.' },
-  { title: 'Nhan Sắc Khuynh Thành: Nữ Sát Thủ Bí Ẩn Dưới Ánh Đèn Đô Thị', category: 'Đô Thị', genre: 'Đô Thị, Kịch Tính, Hành Động', desc: 'Đằng sau vẻ đẹp kiêu sa là thân phận sát thủ ngầm chưa từng thất bại một nhiệm vụ nào.' },
-  { title: 'Nữ Tổng Tài Quyền Lực: Một Tay Thao Túng Thị Trường Tài Chính', category: 'Đô Thị', genre: 'Đô Thị, Ngôn Tình, Thương Trường', desc: 'Bản lĩnh sắc lạnh của người phụ nữ đứng trên đỉnh cao quyền lực giới kinh doanh.' },
-  { title: 'Ánh Mắt U Uất: Đoạn Tuyệt Duyên Nợ Kiếp Này', category: 'Ngôn Tình', genre: 'Tình Cảm, Bi Kịch, Đô Thị', desc: 'Khi tình cảm chân thành bị chà đạp, sự rời đi thanh thản là lời đáp trả đắt giá nhất.' },
-  { title: 'Công Chúa Tiên Giới: Giáng Trần Tìm Lại Phong Ấn Ký Ức', category: 'Cổ Trang', genre: 'Cổ Trang, Tiên Hiệp, Huyền Huyễn', desc: 'Nàng tiên kiều diễm bước chân xuống nhân gian để giải mã bí mật thân thế kiếp trước.' },
-  { title: 'Thân Phận Thật Sự Của Chàng Lái Xe Khiến Cả Khách Sạn Kinh Ngạc', category: 'Đô Thị', genre: 'Đô Thị, Huyền Huyễn, Kịch Tính', desc: 'Ẩn nhẫn suốt 3 năm làm người bình thường, ngày thân phận bại lộ chấn động toàn bộ giới thượng lưu.' },
-  { title: 'Màn Lật Kèo Không Ngờ Khiến Kẻ Hãm Hại Phải Quỳ Gối Xin Lỗi', category: 'Kịch Tính', genre: 'Kịch Tính, Đô Thị, Hành Động', desc: 'Kẻ mưu mô tưởng chừng nắm chắc chiến thắng, ngờ đâu tất cả chỉ là cái bẫy giăng sẵn.' },
-  { title: 'Đoạn Kết Mãn Nhãn Của Cuộc Đấu Trí Quyền Lực Và Tình Yêu', category: 'Ngôn Tình', genre: 'Ngôn Tình, Tâm Lý, Đô Thị', desc: 'Trải qua muôn vàn sóng gió trắc trở, chân tướng sự thật rốt cuộc cũng được đưa ra ánh sáng.' },
-  { title: 'Đại Chiến Đô Thị: Người Hùng Ẩn Danh Cứu Nguy Cả Thành Phố', category: 'Hành Động', genre: 'Hành Động, Siêu Nhiên, Kịch Tính', desc: 'Khi bóng tối bao trùm, một bóng hình bí ẩn xuất hiện lập lại trật tự công lý.' }
+  { film: 'Chiến Thần Hắc Giáp', category: 'Tu Tiên', genre: 'Tu Tiên, Huyền Huyễn, Nhiệt Huyết', desc: 'Thiếu niên khoác lên mình chiến giáp tử thần, một kiếm phá vỡ gông xiềng phong ấn ngàn năm.' },
+  { film: 'Vạn Cổ Đệ Nhất Thần', category: 'Huyền Huyễn', genre: 'Huyền Huyễn, Tu Tiên, Hành Động', desc: 'Thiếu niên thức tỉnh thần mạch thượng cổ, trấn áp vạn giới thần ma đỉnh phong.' },
+  { film: 'Phàm Nhân Tu Tiên Chi Lộ', category: 'Tu Tiên', genre: 'Tu Tiên, Huyền Huyễn, Cổ Trang', desc: 'Hành trình từ một thiếu niên bình phàm bước từng bước lên đỉnh cao tiên giới huyền ảo.' },
+  { film: 'Đại Chiến Đô Thị 3D', category: 'Hành Động', genre: 'Hành Động, Đô Thị, Kịch Tính', desc: 'Khi bóng tối bao trùm, người hùng ẩn danh thức tỉnh sức mạnh siêu nhiên lập lại trật tự.' },
+  { film: 'Trọng Sinh Thành Bá Chủ', category: 'Trọng Sinh', genre: 'Trọng Sinh, Huyền Huyễn, Nghịch Thiên', desc: 'Trọng sinh quay lại thời khắc khởi nguyên, nắm rõ tương lai trả thù tất cả kẻ thù kiếp trước.' },
+  { film: 'Nữ Tổng Tài Quyền Lực', category: 'Đô Thị', genre: 'Đô Thị, Kịch Tính, Thương Trường', desc: 'Bản lĩnh sắc lạnh của nữ cường nhân đứng trên đỉnh cao giới tài chính thương trường.' },
+  { film: 'Thần Y Rể Quý Xuất Sơn', category: 'Kịch Tính', genre: 'Kịch Tính, Đô Thị, Hành Động', desc: 'Ẩn nhẫn suốt 3 năm làm người bình thường, ngày thân phận bại lộ chấn động toàn bộ giới thượng lưu.' },
+  { film: 'Cổ Trang Tuyệt Sắc Y Nữ', category: 'Cổ Trang', genre: 'Cổ Trang, Huyền Huyễn, Tu Tiên', desc: 'Hành trình hành y cứu người của nữ thần y bí ẩn giữa thời loạn lạc tranh đoạt giang hồ.' },
+  { film: 'Nghịch Thiên Chí Tôn', category: 'Nghịch Thiên', genre: 'Nghịch Thiên, Tu Tiên, Huyền Huyễn', desc: 'Thiên đạo bất công, một mình một kiếm nghịch thiên sửa mệnh chém tan cấm chế.' },
+  { film: 'Màn Lật Kèo Kinh Điển', category: 'Kịch Tính', genre: 'Kịch Tính, Đô Thị, Hành Động', desc: 'Kẻ mưu mô tưởng chừng nắm chắc chiến thắng, ngờ đâu tất cả chỉ là cái bẫy giăng sẵn.' },
+  { film: 'Công Chúa Tiên Giới', category: 'Cổ Trang', genre: 'Cổ Trang, Tiên Hiệp, Huyền Huyễn', desc: 'Nàng tiên kiều diễm bước chân xuống nhân gian để giải mã bí mật thân thế kiếp trước.' },
+  { film: 'Đoạn Kết Mãn Nhãn', category: 'Kịch Tính', genre: 'Kịch Tính, Tâm Lý, Đô Thị', desc: 'Trải qua muôn vàn sóng gió trắc trở, chân tướng sự thật rốt cuộc cũng được đưa ra ánh sáng.' }
 ];
 
 export async function POST(req: Request) {
   let browser = null;
   try {
-    const { url, channelName, uploadedImage, maxVideos = 50 } = await req.json();
+    const { 
+      url, 
+      channelName, 
+      filmName, 
+      category, 
+      uploadedImage, 
+      maxVideos = 50 
+    } = await req.json();
 
     const targetUrl = (url && url.trim()) ? (url.trim().startsWith('http') ? url.trim() : 'https://' + url.trim()) : 'https://www.facebook.com/profile.php?id=61590438917651&sk=reels_tab';
 
@@ -154,8 +159,30 @@ export async function POST(req: Request) {
       }
 
       const template = TITLE_TEMPLATES[idx % TITLE_TEMPLATES.length];
-      const videoTitle = template.title + ' #' + (idx + 1);
-      const slug = template.title
+
+      // Lấy Tên Phim và Thể Loại
+      let baseFilm = filmName?.trim();
+      let cat = category?.trim();
+
+      if (!baseFilm) {
+        if (r.rawCaption && r.rawCaption.length >= 6 && !r.rawCaption.startsWith('http')) {
+          let firstLine = r.rawCaption.split('\n')[0].replace(/#\w+/g, '').replace(/[🔥⚡💥✨🎉🎬❤️👍👇👉\[\]\(\)]/g, '').trim();
+          if (firstLine.length > 40) firstLine = firstLine.slice(0, 40).trim();
+          baseFilm = firstLine || template.film;
+        } else {
+          baseFilm = template.film;
+        }
+      }
+
+      if (!cat) {
+        cat = template.category;
+      }
+
+      // CẤU TRÚC CHUẨN SEO: [Tên Phim] + Review Tóm Tắt + [Thể loại] + Full Thuyết Minh
+      const episodeSuffix = reels.length > 1 ? ` (Tập ${idx + 1})` : '';
+      const videoTitle = `${baseFilm}${episodeSuffix} - Review Tóm Tắt - ${cat} - Full Thuyết Minh`;
+
+      const slug = (baseFilm + '-' + (idx + 1))
         .toLowerCase()
         .normalize('NFD')
         .replace(/[\u0300-\u036f]/g, '')
@@ -173,8 +200,8 @@ export async function POST(req: Request) {
         thumbnail: posterImg,
         coverImage: posterImg,
         channelName: effectiveChannelName,
-        genres: [template.category, 'Hoạt Hình 3D', 'Reels', template.genre.split(', ')[0]],
-        categories: [template.category, 'Hoạt Hình 3D', 'Reels'],
+        genres: [cat, 'Hoạt Hình 3D', 'Reels', 'Review Tóm Tắt', 'Full Thuyết Minh'],
+        categories: [cat, 'Hoạt Hình 3D', 'Reels'],
         totalEpisodes: 1,
         featured: false,
         updatedAt: new Date().toISOString().split('T')[0],

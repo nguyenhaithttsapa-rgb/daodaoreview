@@ -40,6 +40,8 @@ export default function AdminPage() {
   // Bot Cào Tự Động Facebook Reels Theo Kênh / URL / Hình Ảnh
   const [reelCrawlUrl, setReelCrawlUrl] = useState('');
   const [reelCrawlChannel, setReelCrawlChannel] = useState('');
+  const [reelCrawlFilmName, setReelCrawlFilmName] = useState('');
+  const [reelCrawlCategory, setReelCrawlCategory] = useState('Tu Tiên');
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [reelCrawlLoading, setReelCrawlLoading] = useState(false);
   const [reelCrawlResult, setReelCrawlResult] = useState<any>(null);
@@ -65,6 +67,8 @@ export default function AdminPage() {
         body: JSON.stringify({
           url: reelCrawlUrl.trim(),
           channelName: reelCrawlChannel.trim(),
+          filmName: reelCrawlFilmName.trim(),
+          category: reelCrawlCategory.trim(),
           uploadedImage: uploadedImage || undefined,
           maxVideos: 50,
         }),
@@ -462,6 +466,49 @@ export default function AdminPage() {
                 className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
               />
             </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-3 pt-1">
+            <div className="md:col-span-8">
+              <label className="block text-xs font-semibold text-slate-400 mb-1.5">
+                Tên Phim muốn đặt (Tùy chọn - Để trống Bot sẽ tự đặt theo nội dung)
+              </label>
+              <input
+                type="text"
+                value={reelCrawlFilmName}
+                onChange={(e) => setReelCrawlFilmName(e.target.value)}
+                placeholder="VD: Đấu La Đại Lục, Phàm Nhân Tu Tiên, Chiến Thần..."
+                className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
+              />
+            </div>
+            <div className="md:col-span-4">
+              <label className="block text-xs font-semibold text-slate-400 mb-1.5">
+                Thể Loại Phim
+              </label>
+              <select
+                value={reelCrawlCategory}
+                onChange={(e) => setReelCrawlCategory(e.target.value)}
+                className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium cursor-pointer"
+              >
+                <option value="Tu Tiên">Tu Tiên</option>
+                <option value="Huyền Huyễn">Huyền Huyễn</option>
+                <option value="Đô Thị">Đô Thị</option>
+                <option value="Kịch Tính">Kịch Tính</option>
+                <option value="Hành Động">Hành Động</option>
+                <option value="Trọng Sinh">Trọng Sinh</option>
+                <option value="Nghịch Thiên">Nghịch Thiên</option>
+                <option value="Cổ Trang">Cổ Trang</option>
+                <option value="Khoa Huyễn 3D">Khoa Huyễn 3D</option>
+                <option value="Phim Ngắn">Phim Ngắn</option>
+              </select>
+            </div>
+          </div>
+
+          <div className="bg-purple-950/40 border border-purple-500/30 rounded-xl p-3 text-xs text-purple-300 flex items-center gap-2">
+            <Sparkles className="w-4 h-4 text-cyan-400 shrink-0" />
+            <span>
+              <strong>Cấu trúc SEO tự động:</strong> Tên video khi cào sẽ tự động đổi thành: <code className="text-cyan-300 bg-black/40 px-1.5 py-0.5 rounded font-mono">[Tên Phim] - Review Tóm Tắt - [Thể loại] - Full Thuyết Minh</code>
+            </span>
           </div>
         </div>
 
