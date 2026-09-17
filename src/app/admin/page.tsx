@@ -515,14 +515,14 @@ export default function AdminPage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-3 pt-1">
             <div className="md:col-span-8">
               <label className="block text-xs font-semibold text-slate-400 mb-1.5">
-                Link Fanpage / Mục Reels (Bot sẽ bóc tách link & poster theo hình ảnh)
+                Link Reel Lẻ hoặc Link Mục Reels của Fanpage
               </label>
               <div className="relative">
                 <input
                   type="text"
                   value={reelCrawlUrl}
                   onChange={(e) => setReelCrawlUrl(e.target.value)}
-                  placeholder="https://www.facebook.com/profile.php?id=...&sk=reels_tab"
+                  placeholder="VD: https://www.facebook.com/reel/2727877390943294 hoặc link Page ...&sk=reels_tab"
                   className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
                 />
               </div>
