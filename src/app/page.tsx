@@ -21,13 +21,13 @@ export default async function Home() {
       const raw = fs.readFileSync(dbPath, 'utf8');
       const all = JSON.parse(raw);
       
-      // Tính tổng lượt xem của từng bộ phim và sắp xếp giảm dần
+      // Tính tổng lượt xem của từng bộ phim để hiển thị số liệu
       all.forEach((s: any) => {
         const totalViews = s.episodes?.reduce((sum: number, ep: any) => sum + (ep.viewsCount || 0), 0) || 0;
         s.totalViews = totalViews;
       });
       
-      all.sort((a: any, b: any) => b.totalViews - a.totalViews);
+      // Giữ nguyên thứ tự mới nhất được thêm/duyệt ở đầu danh sách
 
       // Tối ưu hóa dung lượng: Cắt gọt bớt các dữ liệu không cần thiết trên trang chủ
       series = all.map((s: any) => ({
