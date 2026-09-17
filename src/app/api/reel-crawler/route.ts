@@ -53,13 +53,21 @@ export async function POST(req: Request) {
     await page.keyboard.press('Escape');
 
     let allReels: any[] = [];
-    const isSingleReel = targetUrl.includes('/reel/') && !targetUrl.includes('sk=reels_tab');
+    const currentUrl = page.url();
+    const isSingleReel = (
+      (targetUrl.includes('/reel/') || targetUrl.includes('/share/') || targetUrl.includes('/watch') || targetUrl.includes('/videos/')) &&
+      !targetUrl.includes('sk=reels_tab')
+    ) || (
+      (currentUrl.includes('/reel/') || currentUrl.includes('/watch') || currentUrl.includes('/videos/')) &&
+      !currentUrl.includes('sk=reels_tab')
+    );
 
     if (isSingleReel) {
-      // 1. Chế độ bóc tách chính xác Reel đơn lẻ
-      const reelMatch = targetUrl.match(/reel\/(\d+)/);
-      const reelId = reelMatch ? reelMatch[1] : Date.now().toString();
-      const reelUrl = `https://www.facebook.com/reel/${reelId}/`;
+      // 1. Chế độ bóc tách chính xác Reel / Video đơn lẻ (hỗ trợ cả link rút gọn share/v/)
+      const effectiveUrl = currentUrl.includes('/reel/') || currentUrl.includes('/watch') ? currentUrl : targetUrl;
+      const reelMatch = effectiveUrl.match(/(?:reel|videos|v)[/=]([0-9]+)/) || targetUrl.match(/(?:reel|videos|v)[/=]([0-9]+)/);
+      const reelId = reelMatch ? reelMatch[1] : (effectiveUrl.match(/\/([a-zA-Z0-9_-]+)(?:\/|\?|$)/)?.[1] || Date.now().toString());
+      const reelUrl = reelMatch ? `https://www.facebook.com/reel/${reelId}/` : effectiveUrl.split('?')[0];
 
       const singleData = await page.evaluate(() => {
         const ogDesc = document.querySelector('meta[property="og:description"]')?.getAttribute('content');

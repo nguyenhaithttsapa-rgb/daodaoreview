@@ -522,7 +522,7 @@ export default function AdminPage() {
                   type="text"
                   value={reelCrawlUrl}
                   onChange={(e) => setReelCrawlUrl(e.target.value)}
-                  placeholder="VD: https://www.facebook.com/reel/2727877390943294 hoặc link Page ...&sk=reels_tab"
+                  placeholder="VD: https://www.facebook.com/share/v/1DZH7KEVZ4/ hoặc /reel/27278... hoặc link Page"
                   className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
                 />
               </div>
