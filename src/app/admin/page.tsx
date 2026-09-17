@@ -17,6 +17,7 @@ export default function AdminPage() {
   const [previewParse, setPreviewParse] = useState<any>(null);
   const [epStatus, setEpStatus] = useState<string | null>(null);
   const [deleteStatus, setDeleteStatus] = useState<string | null>(null);
+  const [epDelStatus, setEpDelStatus] = useState<string | null>(null);
 
   // Form Thêm Bộ Phim Mới
   const [newSeriesTitle, setNewSeriesTitle] = useState('');
@@ -513,6 +514,20 @@ export default function AdminPage() {
               </select>
             {deleteStatus && <p className="text-xs text-rose-500">{deleteStatus}</p>}
 <button type="button" onClick={handleDeleteSeries} className="w-full mt-2 bg-rose-900/40 hover:bg-rose-900/80 border border-rose-700/50 text-rose-400 font-bold py-2 rounded-xl transition text-xs">🗑️ XÓA TOÀN BỘ PHIM NÀY</button>
+            
+<div className="mt-6 border-t border-slate-700/50 pt-4">
+  <label className="block text-xs font-semibold text-slate-300 mb-2">Quản lý các tập phim (Xóa từng tập)</label>
+  {epDelStatus && <p className="text-xs text-rose-500 mb-2">{epDelStatus}</p>}
+  <div className="max-h-48 overflow-y-auto space-y-2 pr-1 custom-scrollbar">
+    {seriesList.find(s => s.id === selectedSeriesId)?.episodes?.map(ep => (
+      <div key={ep.id} className="flex justify-between items-center bg-slate-950/50 p-2 rounded-lg border border-slate-800">
+        <span className="text-xs text-slate-300 truncate pr-2 flex-1">{ep.title}</span>
+        <button type="button" onClick={() => handleDeleteEpisode(ep.id)} className="text-xs bg-rose-500/20 text-rose-400 hover:bg-rose-500 hover:text-white px-2 py-1 rounded transition whitespace-nowrap">Xóa tập</button>
+      </div>
+    )) || <p className="text-xs text-slate-500 italic">Không có tập nào</p>}
+  </div>
+</div>
+
             </div>
 
             <div>
