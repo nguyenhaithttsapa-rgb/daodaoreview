@@ -13,12 +13,24 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
   const [isFullscreen, setIsFullscreen] = useState(false);
 
   const toggleFullscreen = async () => {
-    if (!document.fullscreenElement) {
-      await containerRef.current?.requestFullscreen().catch(err => console.log(err));
-      setIsFullscreen(true);
-    } else {
-      await document.exitFullscreen();
-      setIsFullscreen(false);
+    try {
+      if (!document.fullscreenElement) {
+        await containerRef.current?.requestFullscreen();
+        setIsFullscreen(true);
+        // Ép xoay ngang màn hình trên điện thoại
+        if (screen.orientation && screen.orientation.lock) {
+          await screen.orientation.lock('landscape').catch(() => {});
+        }
+      } else {
+        await document.exitFullscreen();
+        setIsFullscreen(false);
+        // Trả lại xoay dọc
+        if (screen.orientation && screen.orientation.unlock) {
+          screen.orientation.unlock();
+        }
+      }
+    } catch (err) {
+      console.log('Fullscreen error:', err);
     }
   };
 
