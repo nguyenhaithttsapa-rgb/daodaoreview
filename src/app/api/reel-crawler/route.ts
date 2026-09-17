@@ -251,7 +251,7 @@ export async function POST(req: Request) {
 
     const resultMessage = addedItems.length > 0
       ? `🎉 Bot đã cào xong! Tìm thấy ${addedItems.length} video hợp lệ (Đã lọc ${blockedCount} video lỗi/chặn). Bạn hãy kiểm tra, chỉnh sửa tiêu đề/thể loại bên dưới rồi bấm 'Duyệt Vào Web'! 🚀`
-      : `✅ Kênh ${effectiveChannelName}: Đã quét ${reels.length} video (Bỏ qua ${blockedCount} video không hợp lệ), không có video mới nào cần thêm!`;
+      : `✅ Đã quét ${reels.length} video (Bỏ qua ${blockedCount} video không hợp lệ), không có video mới nào cần thêm!`;
 
     return NextResponse.json({
       success: true,

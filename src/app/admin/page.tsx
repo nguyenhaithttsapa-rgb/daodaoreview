@@ -39,9 +39,9 @@ export default function AdminPage() {
 
   // Bot Cào Tự Động Facebook Reels Theo Kênh / URL / Hình Ảnh
   const [reelCrawlUrl, setReelCrawlUrl] = useState('');
-  const [reelCrawlChannel, setReelCrawlChannel] = useState('Đại Đạo Review');
+  const [reelCrawlChannel, setReelCrawlChannel] = useState('');
   const [reelCrawlFilmName, setReelCrawlFilmName] = useState('');
-  const [reelCrawlCategory, setReelCrawlCategory] = useState('Tu Tiên');
+  const [reelCrawlCategory, setReelCrawlCategory] = useState('');
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
   const [reelCrawlLoading, setReelCrawlLoading] = useState(false);
   const [reelCrawlResult, setReelCrawlResult] = useState<any>(null);
@@ -535,7 +535,7 @@ export default function AdminPage() {
                 type="text"
                 value={reelCrawlChannel}
                 onChange={(e) => setReelCrawlChannel(e.target.value)}
-                placeholder="Đại Đạo Review"
+                placeholder=""
                 className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
               />
             </div>
@@ -550,7 +550,7 @@ export default function AdminPage() {
                 type="text"
                 value={reelCrawlFilmName}
                 onChange={(e) => setReelCrawlFilmName(e.target.value)}
-                placeholder="VD: Đấu La Đại Lục, Phàm Nhân Tu Tiên, Chiến Thần..."
+                placeholder=""
                 className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
               />
             </div>
@@ -563,6 +563,7 @@ export default function AdminPage() {
                 onChange={(e) => setReelCrawlCategory(e.target.value)}
                 className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium cursor-pointer"
               >
+                <option value="">-- Mặc định (Tự động) --</option>
                 <option value="Tu Tiên">Tu Tiên</option>
                 <option value="Huyền Huyễn">Huyền Huyễn</option>
                 <option value="Đô Thị">Đô Thị</option>
