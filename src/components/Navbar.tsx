@@ -25,16 +25,7 @@ export default function Navbar() {
 
 
 
-        {/* Navigation Actions */}
-        <div className="flex items-center gap-3">
-          <Link
-            href="/admin"
-            className="flex items-center gap-1.5 bg-gradient-to-r from-purple-600 to-cyan-600 hover:from-purple-500 hover:to-cyan-500 text-white px-3.5 py-1.5 rounded-lg text-sm font-medium shadow-[0_0_15px_rgba(6,182,212,0.4)] transition transform hover:-translate-y-0.5 border border-cyan-400/30"
-          >
-            <PlusCircle className="w-4 h-4" />
-            <span>Thêm Video</span>
-          </Link>
-        </div>
+        
       </div>
     </header>
   );
