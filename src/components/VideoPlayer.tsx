@@ -17,15 +17,17 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
       if (!document.fullscreenElement) {
         await containerRef.current?.requestFullscreen();
         setIsFullscreen(true);
-        // Ép xoay ngang màn hình trên điện thoại
+        // @ts-ignore
         if (screen.orientation && screen.orientation.lock) {
+          // @ts-ignore
           await screen.orientation.lock('landscape').catch(() => {});
         }
       } else {
         await document.exitFullscreen();
         setIsFullscreen(false);
-        // Trả lại xoay dọc
+        // @ts-ignore
         if (screen.orientation && screen.orientation.unlock) {
+          // @ts-ignore
           screen.orientation.unlock();
         }
       }
