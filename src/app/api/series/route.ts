@@ -5,6 +5,9 @@ import { Series } from '@/types/video';
 
 export async function GET() {
   const series = getAllSeries();
+  series.forEach((s: any) => {
+    s.totalViews = s.episodes?.reduce((sum: number, ep: any) => sum + (ep.viewsCount || 0), 0) || 0;
+  });
   return NextResponse.json(series);
 }
 

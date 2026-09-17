@@ -409,12 +409,9 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                     <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed">
                       {series.description}
                     </p>
-                    <div className="pt-2 flex items-center justify-between text-sm text-slate-400 border-t border-slate-800/60">
-                      <span className="font-medium text-slate-300">{series.channelName}</span>
-                      <div className="flex items-center gap-1 text-xs">
-                        <Clock className="w-3 h-3 text-slate-500" />
-                        <span>Cập nhật: {series.updatedAt}</span>
-                      </div>
+                    <div className="flex items-center gap-1.5 text-xs text-slate-400 pt-1">
+                      <Eye className="w-3 h-3 text-cyan-400" />
+                      <span>{(series.totalViews || series.episodes?.[0]?.viewsCount || 15000).toLocaleString()} lượt xem</span>
                     </div>
                   </div>
                 </Link>

@@ -25,6 +25,7 @@ export interface Series {
   channelAvatar?: string;
   categories: string[]; // ["Tu Tiên", "Huyền Huyễn", "Trọng Sinh"]
   totalEpisodes: number;
+  totalViews?: number;
   featured?: boolean;
   updatedAt: string;
   episodes: Episode[];
