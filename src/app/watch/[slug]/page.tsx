@@ -3,6 +3,7 @@ import VideoPlayer from '@/components/VideoPlayer';
 import AdBanner from '@/components/AdBanner';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import UserInteractions from '@/components/UserInteractions';
 import { Play, Share2, ThumbsUp, MessageSquare, ChevronRight, CheckCircle2, Bookmark } from 'lucide-react';
 
 interface WatchPageProps {
@@ -99,7 +100,8 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
                 <p className="text-sm text-slate-400 mt-2">
                   Thuộc bộ: <span className="text-slate-200 font-medium">{series.title}</span> • Đăng ngày {currentEpisode.publishedAt}
                 </p>
-              </div>
+              <div className="mt-4"><UserInteractions series={series} currentPart={currentEpisode.partNumber} /></div>
+</div>
 
               {/* Nút chuyển tập kế tiếp nhanh */}
               {nextEpisode && (

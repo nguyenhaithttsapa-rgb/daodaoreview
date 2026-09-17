@@ -5,9 +5,11 @@ import AdBanner from '@/components/AdBanner';
 import VideoPlayer from '@/components/VideoPlayer';
 import { Play, Sparkles, Flame, Eye, Layers, Clock, Search, Filter, X, ChevronRight } from 'lucide-react';
 import { useState, useEffect, useMemo } from 'react';
+import { useUserLibrary } from '@/hooks/useUserLibrary';
 import { Series } from '@/types/video';
 
 export default function HomePageClient({ initialSeries = [] }: { initialSeries: Series[] }) {
+  const { favorites, history, mounted } = useUserLibrary();
   const [seriesList, setSeriesList] = useState<Series[]>(initialSeries);
   const [activeCategory, setActiveCategory] = useState('Tất cả');
   const [searchQuery, setSearchQuery] = useState('');
@@ -123,14 +125,10 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
               </button>
             </li>
             <li>
-              <button className="w-full flex items-center gap-3 px-4 py-2.5 rounded-xl hover:bg-purple-900/30 text-slate-400 hover:text-cyan-300 transition">
-                🕒 Lịch Sử Xem
-              </button>
+              <Link href="/history" className="w-full flex items-center gap-3 px-4 py-2.5 rounded-xl hover:bg-purple-900/30 text-slate-400 hover:text-cyan-300 transition">🕒 Lịch Sử Xem</Link>
             </li>
             <li>
-              <button className="w-full flex items-center gap-3 px-4 py-2.5 rounded-xl hover:bg-purple-900/30 text-slate-400 hover:text-cyan-300 transition">
-                ❤️ Yêu Thích
-              </button>
+              <Link href="/favorites" className="w-full flex items-center gap-3 px-4 py-2.5 rounded-xl hover:bg-purple-900/30 text-slate-400 hover:text-cyan-300 transition">❤️ Yêu Thích</Link>
             </li>
           </ul>
         </div>
@@ -445,11 +443,20 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
         </div>
 
         <div className="bg-gradient-to-br from-purple-900/40 to-cyan-900/20 backdrop-blur-md border border-purple-500/30 rounded-3xl p-5 text-center shadow-[0_0_20px_rgba(168,85,247,0.2)]">
-          <h4 className="text-cyan-300 font-bold mb-2">Đăng Nhập Ngay</h4>
-          <p className="text-xs text-slate-400 mb-4">Lưu lại tiến trình xem và tạo danh sách yêu thích của riêng bạn.</p>
-          <button className="w-full py-2.5 rounded-xl bg-gradient-to-r from-cyan-600 to-purple-600 text-white font-bold shadow-[0_0_15px_rgba(168,85,247,0.5)] hover:shadow-[0_0_25px_rgba(6,182,212,0.6)] transition-all">
-            Đăng Nhập
-          </button>
+          <h4 className="text-cyan-300 font-bold mb-3">Tủ Phim Của Bạn</h4>
+          <div className="flex justify-between items-center bg-slate-900/60 rounded-xl p-3 mb-4 border border-purple-500/20">
+            <div className="text-center w-1/2 border-r border-slate-700">
+              <p className="text-xs text-slate-400">Đã Lưu</p>
+              <p className="text-xl font-bold text-pink-400">{mounted ? favorites.length : 0}</p>
+            </div>
+            <div className="text-center w-1/2">
+              <p className="text-xs text-slate-400">Lịch Sử</p>
+              <p className="text-xl font-bold text-cyan-400">{mounted ? history.length : 0}</p>
+            </div>
+          </div>
+          <Link href="/favorites" className="block w-full py-2 rounded-xl bg-gradient-to-r from-cyan-600 to-purple-600 text-white font-bold shadow-[0_0_15px_rgba(168,85,247,0.5)] hover:shadow-[0_0_25px_rgba(6,182,212,0.6)] transition-all">
+            Mở Tủ Phim
+          </Link>
         </div>
       </aside>
   
