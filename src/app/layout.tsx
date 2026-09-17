@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Script from "next/script";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,6 +31,17 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
       <body className="min-h-full flex flex-col bg-[#05010a] text-slate-100 font-sans selection:bg-cyan-500 selection:text-white relative overflow-x-hidden">
+        {/* Google Analytics */}
+        <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-HYVH98WXZN" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HYVH98WXZN');
+          `}
+        </Script>
+
         {/* Hieu ung May mu / Neon Fog */}
         <div className="fixed inset-0 pointer-events-none overflow-hidden z-[-1]">
           <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-purple-600/20 rounded-full blur-[120px] animate-drift"></div>
