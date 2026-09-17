@@ -1,5 +1,7 @@
 'use client';
 
+import { useState, useRef } from 'react';
+import { Maximize, Minimize } from 'lucide-react';
 import { Episode } from '@/types/video';
 
 interface VideoPlayerProps {
@@ -7,14 +9,37 @@ interface VideoPlayerProps {
 }
 
 export default function VideoPlayer({ episode }: VideoPlayerProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  const toggleFullscreen = async () => {
+    if (!document.fullscreenElement) {
+      await containerRef.current?.requestFullscreen().catch(err => console.log(err));
+      setIsFullscreen(true);
+    } else {
+      await document.exitFullscreen();
+      setIsFullscreen(false);
+    }
+  };
+
   const isVertical = episode.aspectRatio === '9:16';
 
   return (
-    <div
-      className={`flex flex-col items-center rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(168,85,247,0.15)] border border-purple-900/40 p-2 sm:p-4 space-y-3 transition-all duration-300 ${
+    <div ref={containerRef}
+      className={`flex flex-col relative group items-center rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(168,85,247,0.15)] border border-purple-900/40 p-2 sm:p-4 space-y-3 transition-all duration-300 ${
         isVertical ? 'w-full max-w-[420px] mx-auto bg-[#0a0514]/80 backdrop-blur-xl' : 'w-full bg-[#0a0514]/80 backdrop-blur-md'
       }`}
     >
+
+      {/* Nút phóng to / quay ngang */}
+      <button 
+        onClick={toggleFullscreen} 
+        className="absolute top-16 right-4 z-[60] bg-black/60 hover:bg-black/80 text-white p-2.5 rounded-full shadow-[0_0_15px_rgba(6,182,212,0.6)] border border-cyan-500/80 backdrop-blur-sm transition-all flex items-center justify-center opacity-80 hover:opacity-100"
+        title="Toàn màn hình (Quay ngang)"
+      >
+        {isFullscreen ? <Minimize className="w-6 h-6 text-rose-400" /> : <Maximize className="w-6 h-6 text-cyan-400" />}
+      </button>
+
       <div
         className={`relative w-full ${
           isVertical ? 'aspect-[9/16]' : 'max-w-4xl aspect-video'
