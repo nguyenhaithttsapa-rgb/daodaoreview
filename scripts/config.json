@@ -1,0 +1,11 @@
+{
+  "fanpages": [
+    {
+      "name": "Đại Đạo Fanpage",
+      "url": "https://www.facebook.com/profile.php?id=61566431730101&sk=reels_tab"
+    }
+  ],
+  "checkIntervalMinutes": 30,
+  "headless": true
+}
+
