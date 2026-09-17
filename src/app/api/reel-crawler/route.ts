@@ -187,7 +187,7 @@ export async function POST(req: Request) {
       const exists = db.some((s: any) => s.episodes?.some((ep: any) => 
         (ep.originalUrl && (ep.originalUrl === r.url || ep.originalUrl.includes(cleanId)))
       ));
-      if (exists && !isSingleReel) continue;
+      if (exists) continue;
 
       // KIỂM TRA QUYỀN NHÚNG: Bỏ qua video nếu Facebook chặn nhúng ngoại trang
       const canEmbed = await isReelEmbeddable(r.url);
