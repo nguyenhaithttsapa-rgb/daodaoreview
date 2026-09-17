@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { Series } from '@/types/video';
 import { parseVideoUrl } from '@/lib/parser';
-import { PlusCircle, Link as LinkIcon, Film, CheckCircle2, AlertCircle, PlaySquare, Layers, Search, Bot, Trash2, ShieldCheck, Sparkles, Video, Upload, Image as ImageIcon, Eye } from 'lucide-react';
+import { PlusCircle, Link as LinkIcon, Film, CheckCircle2, AlertCircle, PlaySquare, Layers, Search, Bot, Trash2, ShieldCheck, Sparkles, Video, Upload, Image as ImageIcon, Eye, Play } from 'lucide-react';
 
 export default function AdminPage() {
   const [seriesList, setSeriesList] = useState<Series[]>([]);
@@ -46,6 +46,11 @@ export default function AdminPage() {
   const [reelCrawlLoading, setReelCrawlLoading] = useState(false);
   const [reelCrawlResult, setReelCrawlResult] = useState<any>(null);
 
+  // Danh sách video chờ duyệt & chỉnh sửa trước khi đưa vào web
+  const [stagedItems, setStagedItems] = useState<any[]>([]);
+  const [approving, setApproving] = useState(false);
+  const [approveStatus, setApproveStatus] = useState<string | null>(null);
+
   function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -60,6 +65,7 @@ export default function AdminPage() {
   async function runReelCrawlerBot() {
     setReelCrawlLoading(true);
     setReelCrawlResult(null);
+    setApproveStatus(null);
     try {
       const res = await fetch('/api/reel-crawler', {
         method: 'POST',
@@ -75,8 +81,8 @@ export default function AdminPage() {
       });
       const data = await res.json();
       setReelCrawlResult(data);
-      if (data.success) {
-        fetchSeries();
+      if (data.success && data.stagedItems) {
+        setStagedItems(data.stagedItems);
       }
     } catch (err: any) {
       setReelCrawlResult({ error: 'Lỗi khi kích hoạt bot: ' + err.message });
@@ -84,6 +90,46 @@ export default function AdminPage() {
       setReelCrawlLoading(false);
     }
   }
+
+  const handleUpdateStagedItem = (index: number, field: string, value: string) => {
+    setStagedItems((prev) => {
+      const copy = [...prev];
+      copy[index] = { ...copy[index], [field]: value };
+      return copy;
+    });
+  };
+
+  const handleRemoveStagedItem = (index: number) => {
+    setStagedItems((prev) => prev.filter((_, i) => i !== index));
+  };
+
+  const handleApproveAll = async () => {
+    if (stagedItems.length === 0) return;
+    setApproving(true);
+    setApproveStatus(null);
+    try {
+      const res = await fetch('/api/approve-reels', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          items: stagedItems,
+          channelName: reelCrawlChannel.trim() || 'Đại Đạo Review',
+        }),
+      });
+      const data = await res.json();
+      if (data.success) {
+        setApproveStatus(data.message);
+        setStagedItems([]);
+        fetchSeries();
+      } else {
+        setApproveStatus('Lỗi khi duyệt: ' + (data.error || 'Thất bại'));
+      }
+    } catch (err: any) {
+      setApproveStatus('Lỗi kết nối: ' + err.message);
+    } finally {
+      setApproving(false);
+    }
+  };
 
   async function runCleanerBot() {
     setCleanerLoading(true);
@@ -569,33 +615,135 @@ export default function AdminPage() {
               : 'bg-rose-950/60 border-cyan-500/50 text-rose-300'
           }`}>
             <div className="flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 text-fuchsia-400" />
+              <CheckCircle2 className="w-4 h-4 text-fuchsia-400 shrink-0" />
               <span>{reelCrawlResult.message || reelCrawlResult.error}</span>
             </div>
+          </div>
+        )}
 
-            {reelCrawlResult.success && reelCrawlResult.previewItems?.length > 0 && (
-              <div className="space-y-2 pt-2 border-t border-fuchsia-500/30">
-                <p className="text-[11px] uppercase tracking-wider text-slate-400 font-bold">
-                  Hình ảnh poster & video vừa cào thành công:
-                </p>
-                <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2">
-                  {reelCrawlResult.previewItems.map((item: any, i: number) => (
-                    <div key={i} className="group relative rounded-xl overflow-hidden bg-slate-900 border border-fuchsia-500/30">
-                      <div className="aspect-[9/14] bg-slate-950 relative overflow-hidden">
-                        {item.poster ? (
-                          <img src={item.poster} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition" />
-                        ) : (
-                          <div className="w-full h-full flex items-center justify-center text-slate-600 text-[10px]">No Poster</div>
-                        )}
-                        <span className="absolute bottom-1 left-1 right-1 bg-black/80 backdrop-blur-sm px-1 py-0.5 rounded text-[9px] text-white truncate text-center">
-                          {item.genre}
-                        </span>
-                      </div>
-                    </div>
-                  ))}
+        {/* BẢNG XEM TRƯỚC, SỬA TÊN VÀ DUYỆT VÀO WEBSITE */}
+        {stagedItems.length > 0 && (
+          <div className="bg-slate-900/90 border-2 border-fuchsia-500/60 rounded-3xl p-6 shadow-2xl space-y-6">
+            <div className="flex items-center justify-between flex-wrap gap-4 border-b border-slate-800 pb-4">
+              <div>
+                <div className="flex items-center gap-2">
+                  <Sparkles className="w-5 h-5 text-fuchsia-400" />
+                  <h3 className="text-xl font-bold text-white">
+                    Danh Sách Chờ Duyệt ({stagedItems.length} video)
+                  </h3>
                 </div>
+                <p className="text-xs text-slate-400 mt-1">
+                  Bạn có thể xem và <strong>sửa trực tiếp tiêu đề hoặc đổi thể loại</strong> bên dưới trước khi cho phép xuất bản lên trang chủ!
+                </p>
               </div>
-            )}
+
+              <button
+                type="button"
+                onClick={handleApproveAll}
+                disabled={approving}
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-2xl font-bold text-sm bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white shadow-xl shadow-emerald-950/50 transition transform hover:-translate-y-0.5 disabled:opacity-50 cursor-pointer"
+              >
+                {approving ? (
+                  <span>Đang đưa vào web...</span>
+                ) : (
+                  <>
+                    <CheckCircle2 className="w-5 h-5" />
+                    <span>✅ DUYỆT & ĐƯA ({stagedItems.length}) PHIM LÊN WEB NGAY</span>
+                  </>
+                )}
+              </button>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {stagedItems.map((item, idx) => (
+                <div key={idx} className="bg-slate-950 border border-fuchsia-500/30 rounded-2xl p-3.5 flex gap-3 items-start relative group shadow-lg">
+                  {/* Poster Thumbnail */}
+                  <div className="w-24 aspect-[9/14] bg-slate-900 rounded-xl overflow-hidden shrink-0 border border-slate-800 relative">
+                    {item.poster ? (
+                      <img src={item.poster} alt={item.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full flex items-center justify-center text-[10px] text-slate-500">No Poster</div>
+                    )}
+                    <span className="absolute top-1 left-1 bg-black/80 px-1.5 py-0.5 rounded text-[10px] font-bold text-fuchsia-300">
+                      #{idx + 1}
+                    </span>
+                  </div>
+
+                  {/* Form Sửa Tên & Thể loại Trực Tiếp */}
+                  <div className="flex-1 space-y-2 min-w-0">
+                    <div>
+                      <div className="flex items-center justify-between text-[11px] font-bold text-slate-400 mb-1">
+                        <span>Tiêu đề (Sửa tại đây):</span>
+                        <a href={item.url} target="_blank" rel="noreferrer" className="text-cyan-400 hover:underline flex items-center gap-0.5 text-[10px]">
+                          <Play className="w-2.5 h-2.5" /> Xem thử
+                        </a>
+                      </div>
+                      <textarea
+                        rows={3}
+                        value={item.title}
+                        onChange={(e) => handleUpdateStagedItem(idx, 'title', e.target.value)}
+                        className="w-full bg-slate-900 border border-slate-700 rounded-xl p-2 text-xs text-white focus:outline-none focus:border-cyan-400 focus:ring-1 focus:ring-cyan-400 resize-none font-medium"
+                      />
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <select
+                        value={item.category}
+                        onChange={(e) => handleUpdateStagedItem(idx, 'category', e.target.value)}
+                        className="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-2 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-cyan-400 cursor-pointer"
+                      >
+                        <option value="Tu Tiên">Tu Tiên</option>
+                        <option value="Huyền Huyễn">Huyền Huyễn</option>
+                        <option value="Cổ Trang">Cổ Trang</option>
+                        <option value="Đô Thị">Đô Thị</option>
+                        <option value="Kịch Tính">Kịch Tính</option>
+                        <option value="Hành Động">Hành Động</option>
+                        <option value="Trọng Sinh">Trọng Sinh</option>
+                        <option value="Nghịch Thiên">Nghịch Thiên</option>
+                        <option value="Hài Hước">Hài Hước</option>
+                        <option value="Khoa Huyễn 3D">Khoa Huyễn 3D</option>
+                        <option value="Phim Ngắn">Phim Ngắn</option>
+                      </select>
+
+                      <button
+                        type="button"
+                        onClick={() => handleRemoveStagedItem(idx)}
+                        className="px-2.5 py-1.5 bg-rose-900/30 hover:bg-rose-900/60 border border-rose-500/40 text-rose-400 rounded-xl text-xs font-bold transition whitespace-nowrap cursor-pointer"
+                        title="Bỏ qua video này, không đưa vào web"
+                      >
+                        ❌ Bỏ
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Bottom Action Bar */}
+            <div className="pt-4 border-t border-slate-800 flex justify-end">
+              <button
+                type="button"
+                onClick={handleApproveAll}
+                disabled={approving}
+                className="inline-flex items-center gap-2 px-10 py-4 rounded-2xl font-bold text-base bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white shadow-xl shadow-emerald-950/50 transition transform hover:-translate-y-0.5 disabled:opacity-50 cursor-pointer"
+              >
+                {approving ? (
+                  <span>Đang đưa vào web...</span>
+                ) : (
+                  <>
+                    <CheckCircle2 className="w-5 h-5" />
+                    <span>✅ DUYỆT & ĐƯA ({stagedItems.length}) PHIM LÊN WEB NGAY</span>
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        )}
+
+        {approveStatus && (
+          <div className="p-4 rounded-2xl border border-emerald-500/50 bg-emerald-950/60 text-emerald-300 text-sm font-bold flex items-center gap-2">
+            <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+            <span>{approveStatus}</span>
           </div>
         )}
       </div>

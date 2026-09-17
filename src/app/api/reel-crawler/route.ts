@@ -223,76 +223,27 @@ export async function POST(req: Request) {
 
       const posterImg = r.poster || uploadedImage || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80';
 
-      const newFilm = {
-        id: 'series-2am-' + cleanId,
-        slug,
-        title: videoTitle,
-        description: template.desc,
-        thumbnail: posterImg,
-        coverImage: posterImg,
-        channelName: effectiveChannelName,
-        genres: [cat, 'Hoạt Hình 3D', 'Reels', 'Review Tóm Tắt', 'Full Thuyết Minh'],
-        categories: [cat, 'Hoạt Hình 3D', 'Reels'],
-        totalEpisodes: 1,
-        featured: false,
-        updatedAt: new Date().toISOString().split('T')[0],
-        episodes: [
-          {
-            id: 'ep-2am-' + cleanId,
-            seriesId: 'series-2am-' + cleanId,
-            partNumber: 1,
-            title: videoTitle,
-            originalUrl: r.url,
-            embedUrl: 'https://www.facebook.com/plugins/video.php?href=' + encodeURIComponent(r.url) + '&show_text=0&autoplay=0',
-            platform: 'facebook',
-            aspectRatio: '9:16',
-            duration: '01:30',
-            thumbnail: posterImg,
-            viewsCount: 15000 + Math.floor(Math.random() * 85000),
-            publishedAt: new Date().toISOString().split('T')[0]
-          }
-        ]
-      };
-
-      db.unshift(newFilm);
-      addedCount++;
       addedItems.push({
-        title: videoTitle,
+        id: cleanId,
         url: r.url,
+        title: videoTitle,
+        category: cat,
         poster: posterImg,
-        genre: template.category
+        channelName: effectiveChannelName
       });
     }
 
-    // Lưu trực tiếp từng video là 1 tác phẩm độc lập (không gom ép các video khác nhau vào cùng 1 bộ)
-    if (addedCount > 0) {
-      db.forEach((s: any) => s.featured = false);
-      db[0].featured = true;
-      fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), 'utf-8');
-    }
-
-    const channelVideos = db.filter((s: any) => s.channelName === effectiveChannelName || s.id.startsWith('series-2am-') || s.id.startsWith('series-'));
-    const previewList = addedItems.length > 0 
-      ? addedItems 
-      : channelVideos.slice(0, 10).map((s: any) => ({
-          title: s.title,
-          url: s.episodes[0]?.originalUrl,
-          poster: s.thumbnail,
-          genre: s.genres?.[0] || 'Hoạt Hình 3D'
-        }));
-
-    const resultMessage = addedCount > 0
-      ? `🎉 Bot đã cào thành công! Tìm thấy ${reels.length} video (Loại bỏ ${blockedCount} video bị chặn nhúng), đã nạp mới ${addedCount} video hợp lệ vào web!`
-      : `✅ Kênh ${effectiveChannelName}: Đã quét ${reels.length} video (Bỏ qua ${blockedCount} video không hợp lệ/bị chặn), không có video mới nào cần thêm!`;
+    const resultMessage = addedItems.length > 0
+      ? `🎉 Bot đã cào xong! Tìm thấy ${addedItems.length} video hợp lệ (Đã lọc ${blockedCount} video lỗi/chặn). Bạn hãy kiểm tra, chỉnh sửa tiêu đề/thể loại bên dưới rồi bấm 'Duyệt Vào Web'! 🚀`
+      : `✅ Kênh ${effectiveChannelName}: Đã quét ${reels.length} video (Bỏ qua ${blockedCount} video không hợp lệ), không có video mới nào cần thêm!`;
 
     return NextResponse.json({
       success: true,
       foundCount: reels.length,
       blockedCount,
-      addedCount,
       channelName: effectiveChannelName,
       message: resultMessage,
-      previewItems: previewList
+      stagedItems: addedItems
     });
 
   } catch (error: any) {
