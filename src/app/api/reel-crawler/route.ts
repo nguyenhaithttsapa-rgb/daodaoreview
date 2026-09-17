@@ -217,9 +217,17 @@ export async function POST(req: Request) {
         cat = template.category;
       }
 
-      // CẤU TRÚC CHUẨN SEO: [Tên Phim] + Review Tóm Tắt + [Thể loại] + Full Thuyết Minh
-      const episodeSuffix = reels.length > 1 ? ` (Tập ${idx + 1})` : '';
-      const videoTitle = `${baseFilm}${episodeSuffix} - Review Tóm Tắt - ${cat} - Full Thuyết Minh`;
+      // Làm sạch các chữ tập/part trong baseFilm nếu có
+      baseFilm = baseFilm
+        .replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '')
+        .replace(/#\d+/g, '')
+        .replace(/\s*-\s*$/, '')
+        .replace(/\s*:\s*$/, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+
+      // CẤU TRÚC CHUẨN SEO: [Tên Phim] - Review Tóm Tắt - [Thể loại] - Full Thuyết Minh
+      const videoTitle = `${baseFilm} - Review Tóm Tắt - ${cat} - Full Thuyết Minh`;
 
       const slug = (baseFilm + '-' + (idx + 1))
         .toLowerCase()

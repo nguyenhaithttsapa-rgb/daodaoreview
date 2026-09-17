@@ -77,7 +77,7 @@ export async function POST(req: Request) {
           id: 'ep-' + Date.now() + '-' + Math.floor(Math.random() * 1000),
           seriesId: matchedSeries.id,
           partNumber: item.partNumber,
-          title: `Tập ${item.partNumber}: ${item.rawCaption.slice(0, 70)}...`,
+          title: item.rawCaption ? item.rawCaption.replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '').replace(/#\d+/g, '').replace(/\s*-\s*$/, '').replace(/\s+/g, ' ').trim().slice(0, 80) : matchedSeries.title,
           originalUrl: item.originalUrl,
           embedUrl: parsedVideo.embedUrl,
           platform: parsedVideo.platform,

@@ -48,9 +48,6 @@ export default function HistoryPage() {
               <div className="aspect-[3/4] relative">
                 <img src={item.thumbnail} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition" />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition" />
-                <div className="absolute bottom-2 left-2 bg-black/80 px-2 py-1 rounded text-xs text-white font-bold border border-slate-700">
-                  Tập {item.lastPart || 1}
-                </div>
               </div>
               <div className="p-3">
                 <h3 className="text-sm font-bold text-white line-clamp-2 group-hover:text-cyan-300">{item.title}</h3>

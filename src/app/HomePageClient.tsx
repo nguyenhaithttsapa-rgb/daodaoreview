@@ -254,7 +254,7 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                       {filteredSeries[0].title}
                     </h3>
                     <p className="text-sm text-slate-400 mt-2">
-                      Kênh: <strong className="text-slate-200">{filteredSeries[0].channelName}</strong> • {filteredSeries[0].totalEpisodes} Tập
+                      Kênh: <strong className="text-slate-200">{filteredSeries[0].channelName}</strong>
                     </p>
                   </div>
 
@@ -345,9 +345,6 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                     {ep.platform}
                   </div>
                   <div className="relative z-20 space-y-1">
-                    <span className="inline-block px-1.5 py-0.5 rounded bg-fuchsia-600 text-xs shadow-[0_0_10px_rgba(168,85,247,0.6)] font-bold text-white shadow">
-                      Tập {ep.partNumber}
-                    </span>
                     <h3 className="text-sm font-semibold text-white line-clamp-2 leading-tight group-hover:text-cyan-300 transition group-hover:neon-text-blue">
                       {ep.title}
                     </h3>
@@ -403,10 +400,6 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                         </span>
                       ))}
                     </div>
-                    <div className="absolute bottom-3 right-3 px-2 py-1 rounded-md bg-black/80 backdrop-blur text-sm font-semibold text-white flex items-center gap-1">
-                      <Play className="w-3 h-3 fill-fuchsia-500 text-fuchsia-500" />
-                      <span>{series.totalEpisodes || series.episodes?.length || 0} Tập</span>
-                    </div>
                   </div>
 
                   <div className="p-4 space-y-2">
@@ -460,7 +453,6 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                 </div>
                 <div className="flex-1">
                   <h4 className="text-sm font-semibold text-slate-300 group-hover:text-cyan-300 line-clamp-2 leading-snug transition">{series.title}</h4>
-                  <p className="text-xs text-fuchsia-400 mt-1">{series.episodes?.length || 1} Tập</p>
                 </div>
               </Link>
             ))}

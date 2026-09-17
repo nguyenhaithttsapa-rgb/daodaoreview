@@ -21,6 +21,10 @@ export function cleanCaption(raw: string): string {
   title = title
     .replace(/#\w+/g, '')
     .replace(/[🔥⚡💥✨🎉🎬❤️👍👇👉\[\]\(\)]/g, '')
+    .replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '')
+    .replace(/#\d+/g, '')
+    .replace(/\s*-\s*$/, '')
+    .replace(/\s*:\s*$/, '')
     .replace(/\s+/g, ' ')
     .trim();
 
