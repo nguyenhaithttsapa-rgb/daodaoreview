@@ -16,6 +16,7 @@ export default function AdminPage() {
   const [partNumber, setPartNumber] = useState('');
   const [previewParse, setPreviewParse] = useState<any>(null);
   const [epStatus, setEpStatus] = useState<string | null>(null);
+  const [deleteStatus, setDeleteStatus] = useState<string | null>(null);
 
   // Form Thêm Bộ Phim Mới
   const [newSeriesTitle, setNewSeriesTitle] = useState('');
@@ -510,6 +511,8 @@ export default function AdminPage() {
                   </option>
                 ))}
               </select>
+            {deleteStatus && <p className="text-xs text-rose-500">{deleteStatus}</p>}
+<button type="button" onClick={handleDeleteSeries} className="w-full mt-2 bg-rose-900/40 hover:bg-rose-900/80 border border-rose-700/50 text-rose-400 font-bold py-2 rounded-xl transition text-xs">🗑️ XÓA TOÀN BỘ PHIM NÀY</button>
             </div>
 
             <div>
