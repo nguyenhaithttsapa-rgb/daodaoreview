@@ -3,6 +3,8 @@ import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 
+import { isReelEmbeddable } from '@/lib/videoChecker';
+
 const DB_PATH = path.join(process.cwd(), 'src/data/database.json');
 
 const TITLE_TEMPLATES = [
@@ -130,16 +132,26 @@ export async function POST(req: Request) {
     const fileData = fs.readFileSync(DB_PATH, 'utf-8');
     let db = JSON.parse(fileData);
     let addedCount = 0;
+    let blockedCount = 0;
     const addedItems: any[] = [];
     const effectiveChannelName = channelName?.trim() || 'Khu Trú Ẩn 2AM';
 
-    // 1. Nạp video mới vào cơ sở dữ liệu
-    reels.forEach((r, idx) => {
+    // 1. Nạp video mới vào cơ sở dữ liệu (Có kiểm tra quyền nhúng trước khi lưu)
+    for (let idx = 0; idx < reels.length; idx++) {
+      const r = reels[idx];
       const cleanId = r.id;
       const exists = db.some((s: any) => s.episodes?.some((ep: any) => 
         (ep.originalUrl && (ep.originalUrl === r.url || ep.originalUrl.includes(cleanId)))
       ));
-      if (exists) return;
+      if (exists) continue;
+
+      // KIỂM TRA QUYỀN NHÚNG: Bỏ qua video nếu Facebook chặn nhúng ngoại trang
+      const canEmbed = await isReelEmbeddable(r.url);
+      if (!canEmbed) {
+        console.log(`[ReelCrawler] ❌ Bỏ qua video bị chặn nhúng hoặc riêng tư: ${r.url}`);
+        blockedCount++;
+        continue;
+      }
 
       const template = TITLE_TEMPLATES[idx % TITLE_TEMPLATES.length];
       const videoTitle = template.title + ' #' + (idx + 1);
@@ -192,7 +204,7 @@ export async function POST(req: Request) {
         poster: posterImg,
         genre: template.category
       });
-    });
+    }
 
     // Lưu trực tiếp từng video là 1 tác phẩm độc lập (không gom ép các video khác nhau vào cùng 1 bộ)
     if (addedCount > 0) {
@@ -212,12 +224,13 @@ export async function POST(req: Request) {
         }));
 
     const resultMessage = addedCount > 0
-      ? '🎉 Bot đã cào thành công! Tìm thấy ' + reels.length + ' video, nạp mới ' + addedCount + ' video độc lập ra trang chính!'
-      : '✅ Kênh ' + effectiveChannelName + ': Tất cả ' + reels.length + ' video Reels đã hiển thị đầy đủ thành từng tác phẩm độc lập trên web!';
+      ? `🎉 Bot đã cào thành công! Tìm thấy ${reels.length} video (Loại bỏ ${blockedCount} video bị chặn nhúng), đã nạp mới ${addedCount} video hợp lệ vào web!`
+      : `✅ Kênh ${effectiveChannelName}: Đã quét ${reels.length} video (Bỏ qua ${blockedCount} video không hợp lệ/bị chặn), không có video mới nào cần thêm!`;
 
     return NextResponse.json({
       success: true,
       foundCount: reels.length,
+      blockedCount,
       addedCount,
       channelName: effectiveChannelName,
       message: resultMessage,

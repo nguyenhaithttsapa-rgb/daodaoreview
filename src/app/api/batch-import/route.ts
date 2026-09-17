@@ -3,6 +3,7 @@ import { getAllSeries, addSeries, addEpisodeToSeries } from '@/lib/store';
 import { parseBatchReels } from '@/lib/smartParser';
 import { parseVideoUrl, slugify } from '@/lib/parser';
 import { Series, Episode } from '@/types/video';
+import { isReelEmbeddable } from '@/lib/videoChecker';
 
 export async function POST(req: Request) {
   try {
@@ -26,8 +27,17 @@ export async function POST(req: Request) {
     let newlyCreatedSeriesCount = 0;
     let newlyAddedEpisodesCount = 0;
 
+    let blockedCount = 0;
+
     // 2. Gom nhóm và thêm vào CSDL
     for (const item of extractedList) {
+      // Kiểm tra quyền nhúng trước khi import
+      const canEmbed = await isReelEmbeddable(item.originalUrl);
+      if (!canEmbed) {
+        blockedCount++;
+        continue;
+      }
+
       const parsedVideo = parseVideoUrl(item.originalUrl);
 
       // Tìm bộ phim tương ứng dựa trên tên tương đồng
@@ -85,6 +95,7 @@ export async function POST(req: Request) {
     return NextResponse.json({
       success: true,
       scrapedCount: extractedList.length,
+      blockedCount,
       createdSeriesCount: newlyCreatedSeriesCount,
       addedEpisodesCount: newlyAddedEpisodesCount,
       items: extractedList,
