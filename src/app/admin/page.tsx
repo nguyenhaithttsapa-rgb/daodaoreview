@@ -39,7 +39,7 @@ export default function AdminPage() {
 
   // Bot Cào Tự Động Facebook Reels Theo Kênh / URL / Hình Ảnh
   const [reelCrawlUrl, setReelCrawlUrl] = useState('');
-  const [reelCrawlChannel, setReelCrawlChannel] = useState('');
+  const [reelCrawlChannel, setReelCrawlChannel] = useState('Đại Đạo Review');
   const [reelCrawlFilmName, setReelCrawlFilmName] = useState('');
   const [reelCrawlCategory, setReelCrawlCategory] = useState('Tu Tiên');
   const [uploadedImage, setUploadedImage] = useState<string | null>(null);
@@ -535,7 +535,7 @@ export default function AdminPage() {
                 type="text"
                 value={reelCrawlChannel}
                 onChange={(e) => setReelCrawlChannel(e.target.value)}
-                placeholder="Khu Trú Ẩn 2AM"
+                placeholder="Đại Đạo Review"
                 className="w-full bg-slate-950 border border-fuchsia-500/40 rounded-2xl px-4 py-3 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-fuchsia-400 focus:ring-1 focus:ring-fuchsia-400 font-medium"
               />
             </div>

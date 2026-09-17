@@ -178,7 +178,7 @@ export async function POST(req: Request) {
     let addedCount = 0;
     let blockedCount = 0;
     const addedItems: any[] = [];
-    const effectiveChannelName = channelName?.trim() || 'Khu Trú Ẩn 2AM';
+    const effectiveChannelName = channelName?.trim() || 'Đại Đạo Review';
 
     // 1. Nạp video mới vào cơ sở dữ liệu (Có kiểm tra quyền nhúng trước khi lưu)
     for (let idx = 0; idx < reels.length; idx++) {
@@ -187,7 +187,7 @@ export async function POST(req: Request) {
       const exists = db.some((s: any) => s.episodes?.some((ep: any) => 
         (ep.originalUrl && (ep.originalUrl === r.url || ep.originalUrl.includes(cleanId)))
       ));
-      if (exists) continue;
+      if (exists && !isSingleReel) continue;
 
       // KIỂM TRA QUYỀN NHÚNG: Bỏ qua video nếu Facebook chặn nhúng ngoại trang
       const canEmbed = await isReelEmbeddable(r.url);
