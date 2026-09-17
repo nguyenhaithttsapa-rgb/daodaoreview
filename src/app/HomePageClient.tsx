@@ -14,6 +14,12 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
   const [activeCategory, setActiveCategory] = useState('Tất cả');
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(24);
+
+  // Reset số lượng hiển thị khi đổi danh mục hoặc tìm kiếm
+  useEffect(() => {
+    setVisibleCount(24);
+  }, [activeCategory, searchQuery]);
 
   useEffect(() => {
     // Nếu chưa có data ban đầu, mới tải qua API
@@ -328,6 +334,8 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                   <img
                     src={ep.seriesThumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80'}
                     alt={ep.title}
+                    loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-110 transition duration-500"
                   />
                   {/* Gradient tối dần từ dưới lên để chữ hiển thị rõ nét */}
@@ -372,49 +380,66 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
             Chưa có bộ phim nào thuộc thể loại này. Bạn có thể thêm trong trang Admin!
           </div>
         ) : (
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-            {filteredSeries.map((series) => (
-              <Link
-                key={series.id}
-                href={`/watch/${series.slug}`}
-                className="group bg-slate-900/60 rounded-2xl border border-slate-800/80 border-purple-900/30 hover:border-cyan-500/50 overflow-hidden shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(6,182,212,0.2)]"
-              >
-                <div className="relative aspect-video w-full overflow-hidden bg-slate-800">
-                  <img
-                    src={series.thumbnail}
-                    alt={series.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                  />
-                  <div className="absolute top-3 left-3 flex gap-1.5">
-                    {series.categories?.slice(0, 2).map((cat) => (
-                      <span key={cat} className="px-2 py-0.5 rounded bg-black/70 backdrop-blur text-xs font-medium text-cyan-200 border border-cyan-500/40 shadow-[0_0_10px_rgba(6,182,212,0.2)]">
-                        {cat}
-                      </span>
-                    ))}
-                  </div>
-                  <div className="absolute bottom-3 right-3 px-2 py-1 rounded-md bg-black/80 backdrop-blur text-sm font-semibold text-white flex items-center gap-1">
-                    <Play className="w-3 h-3 fill-fuchsia-500 text-fuchsia-500" />
-                    <span>{series.totalEpisodes || series.episodes?.length || 0} Tập</span>
-                  </div>
-                </div>
-
-                <div className="p-4 space-y-2">
-                  <h3 className="font-bold text-lg text-white group-hover:text-fuchsia-300 line-clamp-2 transition leading-snug">
-                    {series.title}
-                  </h3>
-                  <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed">
-                    {series.description}
-                  </p>
-                  <div className="pt-2 flex items-center justify-between text-sm text-slate-400 border-t border-slate-800/60">
-                    <span className="font-medium text-slate-300">{series.channelName}</span>
-                    <div className="flex items-center gap-1 text-xs">
-                      <Clock className="w-3 h-3 text-slate-500" />
-                      <span>Cập nhật: {series.updatedAt}</span>
+          <div className="space-y-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+              {filteredSeries.slice(0, visibleCount).map((series) => (
+                <Link
+                  key={series.id}
+                  href={`/watch/${series.slug}`}
+                  className="group bg-slate-900/60 rounded-2xl border border-slate-800/80 border-purple-900/30 hover:border-cyan-500/50 overflow-hidden shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-[0_0_25px_rgba(6,182,212,0.2)]"
+                >
+                  <div className="relative aspect-video w-full overflow-hidden bg-slate-800">
+                    <img
+                      src={series.thumbnail}
+                      alt={series.title}
+                      loading="lazy"
+                      decoding="async"
+                      className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                    />
+                    <div className="absolute top-3 left-3 flex gap-1.5">
+                      {series.categories?.slice(0, 2).map((cat) => (
+                        <span key={cat} className="px-2 py-0.5 rounded bg-black/70 backdrop-blur text-xs font-medium text-cyan-200 border border-cyan-500/40 shadow-[0_0_10px_rgba(6,182,212,0.2)]">
+                          {cat}
+                        </span>
+                      ))}
+                    </div>
+                    <div className="absolute bottom-3 right-3 px-2 py-1 rounded-md bg-black/80 backdrop-blur text-sm font-semibold text-white flex items-center gap-1">
+                      <Play className="w-3 h-3 fill-fuchsia-500 text-fuchsia-500" />
+                      <span>{series.totalEpisodes || series.episodes?.length || 0} Tập</span>
                     </div>
                   </div>
-                </div>
-              </Link>
-            ))}
+
+                  <div className="p-4 space-y-2">
+                    <h3 className="font-bold text-lg text-white group-hover:text-fuchsia-300 line-clamp-2 transition leading-snug">
+                      {series.title}
+                    </h3>
+                    <p className="text-sm text-slate-400 line-clamp-2 leading-relaxed">
+                      {series.description}
+                    </p>
+                    <div className="pt-2 flex items-center justify-between text-sm text-slate-400 border-t border-slate-800/60">
+                      <span className="font-medium text-slate-300">{series.channelName}</span>
+                      <div className="flex items-center gap-1 text-xs">
+                        <Clock className="w-3 h-3 text-slate-500" />
+                        <span>Cập nhật: {series.updatedAt}</span>
+                      </div>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+
+            {visibleCount < filteredSeries.length && (
+              <div className="pt-6 pb-2 text-center">
+                <button
+                  type="button"
+                  onClick={() => setVisibleCount((prev) => prev + 24)}
+                  className="inline-flex items-center gap-2 px-8 py-3.5 rounded-2xl bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:to-purple-500 text-white font-bold text-base shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] transition transform hover:-translate-y-0.5 cursor-pointer border border-cyan-400/30"
+                >
+                  <span>Xem Thêm Phim (Còn {filteredSeries.length - visibleCount} bộ)</span>
+                  <ChevronRight className="w-5 h-5" />
+                </button>
+              </div>
+            )}
           </div>
         )}
       </section>
