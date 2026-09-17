@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 
 import { isReelEmbeddable } from '@/lib/videoChecker';
+import { cleanCaption } from '@/lib/captionCleaner';
 
 const DB_PATH = path.join(process.cwd(), 'src/data/database.json');
 
@@ -51,75 +52,105 @@ export async function POST(req: Request) {
     await page.waitForTimeout(2500);
     await page.keyboard.press('Escape');
 
-    let noChangeCount = 0;
-    let previousCount = 0;
-    
-    // Lưu danh sách reels thu thập được qua các lần cuộn (chống DOM ảo của FB)
     let allReels: any[] = [];
+    const isSingleReel = targetUrl.includes('/reel/') && !targetUrl.includes('sk=reels_tab');
 
-    // Scroll liên tục cho đến khi không còn video mới (không giới hạn)
-    for (let i = 0; i < 100; i++) { // Giới hạn tối đa 100 lần cuộn để tránh vô hạn
-      const currentBatch = await page.evaluate(() => {
-        const results: any[] = [];
-        const links = Array.from(document.querySelectorAll('a[href*="/reel/"]'));
-        for (const a of links) {
-          const href = (a as HTMLAnchorElement).href;
-          const match = href.match(/reel\/(\d+)/);
-          if (!match) continue;
-          const reelId = match[1];
-          const reelUrl = 'https://www.facebook.com/reel/' + reelId + '/';
-          const img = a.querySelector('img') || a.parentElement?.querySelector('img');
-          const poster = img ? (img as HTMLImageElement).src : '';
-          let text = (a as HTMLElement).innerText || a.getAttribute('aria-label') || '';
-          if (!text && a.parentElement) {
-            text = (a.parentElement as HTMLElement).innerText || '';
+    if (isSingleReel) {
+      // 1. Chế độ bóc tách chính xác Reel đơn lẻ
+      const reelMatch = targetUrl.match(/reel\/(\d+)/);
+      const reelId = reelMatch ? reelMatch[1] : Date.now().toString();
+      const reelUrl = `https://www.facebook.com/reel/${reelId}/`;
+
+      const singleData = await page.evaluate(() => {
+        const ogDesc = document.querySelector('meta[property="og:description"]')?.getAttribute('content');
+        const desc = document.querySelector('meta[name="description"]')?.getAttribute('content');
+        const ogTitle = document.querySelector('meta[property="og:title"]')?.getAttribute('content');
+        const ogImage = document.querySelector('meta[property="og:image"]')?.getAttribute('content');
+
+        // Tìm caption từ DOM
+        const elements = Array.from(document.querySelectorAll('div[dir="auto"], span[dir="auto"]'));
+        const texts = elements.map(el => (el as HTMLElement).innerText?.trim()).filter(Boolean);
+        const validCaption = texts.find(t => t.length > 15 && !t.includes('Đăng nhập') && !t.includes('người theo dõi') && !t.includes('Facebook'));
+
+        return {
+          rawCaption: ogDesc || desc || validCaption || ogTitle || '',
+          poster: ogImage || ''
+        };
+      });
+
+      const extractedTitle = cleanCaption(singleData.rawCaption);
+
+      allReels = [{
+        id: reelId,
+        url: reelUrl,
+        poster: singleData.poster,
+        rawCaption: extractedTitle || singleData.rawCaption
+      }];
+    } else {
+      // 2. Chế độ cào hàng loạt theo mục Reels của Fanpage
+      let noChangeCount = 0;
+      let previousCount = 0;
+
+      for (let i = 0; i < 100; i++) {
+        const currentBatch = await page.evaluate(() => {
+          const results: any[] = [];
+          const links = Array.from(document.querySelectorAll('a[href*="/reel/"]'));
+          for (const a of links) {
+            const href = (a as HTMLAnchorElement).href;
+            const match = href.match(/reel\/(\d+)/);
+            if (!match) continue;
+            const reelId = match[1];
+            const reelUrl = 'https://www.facebook.com/reel/' + reelId + '/';
+            const img = a.querySelector('img') || a.parentElement?.querySelector('img');
+            const poster = img ? (img as HTMLImageElement).src : '';
+            let text = (a as HTMLElement).innerText || a.getAttribute('aria-label') || '';
+            if (!text && a.parentElement) {
+              text = (a.parentElement as HTMLElement).innerText || '';
+            }
+            results.push({
+              id: reelId,
+              url: reelUrl,
+              poster,
+              rawCaption: text.replace(/\n+/g, ' ').trim()
+            });
           }
-          results.push({
-            id: reelId,
-            url: reelUrl,
-            poster,
-            rawCaption: text.replace(/\n+/g, ' ').trim()
-          });
+          return results;
+        });
+
+        for (const reel of currentBatch) {
+          if (!allReels.some(r => r.id === reel.id)) {
+            allReels.push(reel);
+          }
         }
-        return results;
-      });
 
-      // Thêm các video chưa có vào mảng tổng
-      for (const reel of currentBatch) {
-        if (!allReels.some(r => r.id === reel.id)) {
-          allReels.push(reel);
+        if (allReels.length === previousCount) {
+          noChangeCount++;
+          if (noChangeCount >= 4) {
+            break;
+          }
+        } else {
+          noChangeCount = 0;
+          previousCount = allReels.length;
         }
-      }
 
-      if (allReels.length === previousCount) {
-        noChangeCount++;
-        if (noChangeCount >= 4) {
-          break; // Đã cuộn 4 lần mà không thêm được video nào
+        await page.evaluate(() => {
+          document.body.style.overflow = 'auto';
+          document.documentElement.style.overflow = 'auto';
+          document.querySelectorAll('div[role="dialog"]').forEach(d => d.remove());
+        });
+
+        await page.keyboard.press('Escape');
+        await page.waitForTimeout(300);
+        
+        for (let j = 0; j < 5; j++) {
+          await page.mouse.wheel(0, 2000);
+          await page.waitForTimeout(500);
+          await page.keyboard.press('PageDown');
+          await page.waitForTimeout(500);
         }
-      } else {
-        noChangeCount = 0;
-        previousCount = allReels.length;
+
+        await page.waitForTimeout(2000);
       }
-
-      // Xóa các block ẩn bằng JS để đề phòng
-      await page.evaluate(() => {
-        document.body.style.overflow = 'auto';
-        document.documentElement.style.overflow = 'auto';
-        document.querySelectorAll('div[role="dialog"]').forEach(d => d.remove());
-      });
-
-      // Bắt buộc dùng phím và chuột thật của Playwright để kích hoạt sự kiện React
-      await page.keyboard.press('Escape');
-      await page.waitForTimeout(300);
-      
-      for (let j = 0; j < 5; j++) {
-        await page.mouse.wheel(0, 2000);
-        await page.waitForTimeout(500);
-        await page.keyboard.press('PageDown');
-        await page.waitForTimeout(500);
-      }
-
-      await page.waitForTimeout(2000); // Chờ 2s để API Facebook trả data
     }
 
     const reels = allReels;
@@ -167,7 +198,7 @@ export async function POST(req: Request) {
       if (!baseFilm) {
         if (r.rawCaption && r.rawCaption.length >= 6 && !r.rawCaption.startsWith('http')) {
           let firstLine = r.rawCaption.split('\n')[0].replace(/#\w+/g, '').replace(/[🔥⚡💥✨🎉🎬❤️👍👇👉\[\]\(\)]/g, '').trim();
-          if (firstLine.length > 40) firstLine = firstLine.slice(0, 40).trim();
+          if (firstLine.length > 100) firstLine = firstLine.slice(0, 100).trim();
           baseFilm = firstLine || template.film;
         } else {
           baseFilm = template.film;
