@@ -26,9 +26,25 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
     series.episodes.find((ep) => ep.partNumber === requestedPart) ||
     series.episodes[0];
 
+
   const nextEpisode = series.episodes.find(
     (ep) => ep.partNumber === (currentEpisode?.partNumber || 1) + 1
   );
+  
+  // Logic nút Xem Tiếp
+  let nextUrl = '';
+  let nextText = '';
+  if (nextEpisode) {
+    nextUrl = `/watch/${series.slug}?part=${nextEpisode.partNumber}`;
+    nextText = `Tập Tiếp Theo (${nextEpisode.partNumber})`;
+  } else {
+    const allSeries = getAllSeries();
+    const otherSeries = allSeries.filter(s => s.id !== series.id);
+    const randomSeries = otherSeries.length > 0 ? otherSeries[Math.floor(Math.random() * otherSeries.length)] : series;
+    nextUrl = `/watch/${randomSeries.slug}`;
+    nextText = 'Chuyển Phim Khác (Ngẫu nhiên)';
+  }
+
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
@@ -46,8 +62,32 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Cột chính: Trình phát Video + Thông tin */}
         <div className="lg:col-span-2 space-y-6">
-          {/* Trình phát Video Nhúng */}
+                    {/* Trình phát Video Nhúng */}
           <VideoPlayer episode={currentEpisode} />
+          
+          {/* Nút Xem Tiếp Khổng Lồ */}
+          <div className="w-full mt-2">
+            <Link 
+              href={nextUrl}
+              className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold text-lg py-4 rounded-2xl shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all animate-pulse-slow border border-cyan-400/30"
+            >
+              <span>{nextText}</span>
+              <ChevronRight className="w-6 h-6" />
+            </Link>
+          </div>
+
+          
+          {/* Nút Xem Tiếp Khổng Lồ */}
+          <div className="w-full mt-2">
+            <Link 
+              href={nextUrl}
+              className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold text-lg py-4 rounded-2xl shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all animate-pulse-slow border border-cyan-400/30"
+            >
+              <span>{nextText}</span>
+              <ChevronRight className="w-6 h-6" />
+            </Link>
+          </div>
+
 
           {/* Tiêu đề & Tác vụ */}
           <div className="space-y-4">
