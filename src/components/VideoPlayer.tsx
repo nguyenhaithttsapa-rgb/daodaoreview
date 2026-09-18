@@ -74,8 +74,8 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
         />
       </div>
 
-      {/* Nút xem trực tiếp trên Facebook dự phòng trường hợp Facebook chặn iframe một số video */}
-      {!isFullscreen && episode.platform === 'facebook' && (
+      {/* Nút xem trực tiếp dự phòng trường hợp YouTube/Facebook chặn iframe */}
+      {!isFullscreen && (
         <div className="w-full max-w-[380px] flex items-center justify-between text-sm text-purple-300 bg-purple-900/20 px-3 py-2 rounded-xl border border-purple-500/30 opacity-0 hover:opacity-100 transition-opacity duration-300">
           <span>Nếu video không hiển thị:</span>
           <a
@@ -84,7 +84,7 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
             rel="noopener noreferrer"
             className="text-cyan-400 hover:text-cyan-300 neon-text-blue font-semibold underline flex items-center gap-1"
           >
-            Mở xem trực tiếp trên Facebook ↗
+            Mở xem trực tiếp trên {episode.platform === 'youtube' ? 'YouTube' : 'Facebook'} ↗
           </a>
         </div>
       )}
