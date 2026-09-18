@@ -79,7 +79,13 @@ export default function AdminPage() {
           maxVideos: 50,
         }),
       });
-      const data = await res.json();
+      const resText = await res.text();
+      let data: any;
+      try {
+        data = JSON.parse(resText);
+      } catch (e) {
+        throw new Error(res.status === 504 ? 'Máy chủ phản hồi quá thời gian (504 Gateway Timeout). Bạn hãy thử cào từng link lẻ hoặc giảm tải!' : `Máy chủ trả về lỗi (${res.status}): ${resText.slice(0, 150)}`);
+      }
       setReelCrawlResult(data);
       if (data.success && data.stagedItems) {
         setStagedItems(data.stagedItems);

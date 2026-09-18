@@ -48,8 +48,12 @@ export async function POST(req: Request) {
     });
 
     const page = await context.newPage();
-    await page.goto(targetUrl, { waitUntil: 'networkidle', timeout: 45000 });
-    await page.waitForTimeout(2500);
+    try {
+      await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
+    } catch (_) {
+      // Tiếp tục nếu dom đã tải xong một phần
+    }
+    await page.waitForTimeout(2000);
     await page.keyboard.press('Escape');
 
     let allReels: any[] = [];
@@ -99,7 +103,7 @@ export async function POST(req: Request) {
       let noChangeCount = 0;
       let previousCount = 0;
 
-      for (let i = 0; i < 100; i++) {
+      for (let i = 0; i < 15; i++) {
         const currentBatch = await page.evaluate(() => {
           const results: any[] = [];
           const links = Array.from(document.querySelectorAll('a[href*="/reel/"]'));
@@ -131,9 +135,13 @@ export async function POST(req: Request) {
           }
         }
 
+        if (allReels.length >= maxVideos) {
+          break;
+        }
+
         if (allReels.length === previousCount) {
           noChangeCount++;
-          if (noChangeCount >= 4) {
+          if (noChangeCount >= 3) {
             break;
           }
         } else {
@@ -148,16 +156,9 @@ export async function POST(req: Request) {
         });
 
         await page.keyboard.press('Escape');
-        await page.waitForTimeout(300);
-        
-        for (let j = 0; j < 5; j++) {
-          await page.mouse.wheel(0, 2000);
-          await page.waitForTimeout(500);
-          await page.keyboard.press('PageDown');
-          await page.waitForTimeout(500);
-        }
-
-        await page.waitForTimeout(2000);
+        await page.mouse.wheel(0, 3000);
+        await page.keyboard.press('PageDown');
+        await page.waitForTimeout(1000);
       }
     }
 
