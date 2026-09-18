@@ -70,7 +70,7 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
 
       {/* Nút xem trực tiếp trên Facebook dự phòng trường hợp Facebook chặn iframe một số video */}
       {episode.platform === 'facebook' && (
-        <div className="w-full max-w-[380px] flex items-center justify-between text-sm text-purple-300 bg-purple-900/20 px-3 py-2 rounded-xl border border-purple-500/30">
+        <div className="w-full max-w-[380px] flex items-center justify-between text-sm text-purple-300 bg-purple-900/20 px-3 py-2 rounded-xl border border-purple-500/30 opacity-0 hover:opacity-100 transition-opacity duration-300">
           <span>Nếu video không hiển thị:</span>
           <a
             href={episode.originalUrl}
