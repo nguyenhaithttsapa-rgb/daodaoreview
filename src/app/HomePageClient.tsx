@@ -106,7 +106,7 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
           seriesSlug: s.slug,
           seriesThumbnail: ep.thumbnail || s.thumbnail,
         }));
-    });
+    }).sort((a, b) => (b.viewsCount || 0) - (a.viewsCount || 0));
   }, [seriesList, searchQuery, activeCategory]);
 
 
@@ -308,10 +308,10 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
             <div className="flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-fuchsia-400 neon-text-purple" />
               <h2 className="text-2xl font-bold text-white tracking-tight">
-                {searchQuery ? `Reels Khớp Từ Khóa (${filteredShortEpisodes.length})` : 'Reels & Phim Ngắn Mới Nhất'}
+                {searchQuery ? `Reels Khớp Từ Khóa (${filteredShortEpisodes.length})` : 'Reels & Phim Ngắn Nhiều Lượt Xem Nhất'}
               </h2>
             </div>
-            <span className="text-sm text-cyan-400 font-medium">✨ Cập nhật mới nhất</span>
+            <span className="text-sm text-cyan-400 font-medium">🔥 Xem nhiều nhất</span>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
