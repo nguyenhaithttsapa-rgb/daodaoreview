@@ -21,14 +21,9 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
         setIsFullscreen(true);
         // @ts-ignore
         if (screen.orientation && screen.orientation.lock) {
+          // Luôn khóa xoay ngang màn hình (Landscape) khi bấm phóng to để xem to và rõ nhất
           // @ts-ignore
-          if (isVertical) {
-            // @ts-ignore
-            await screen.orientation.lock('portrait').catch(() => {});
-          } else {
-            // @ts-ignore
-            await screen.orientation.lock('landscape').catch(() => {});
-          }
+          await screen.orientation.lock('landscape').catch(() => {});
         }
       } else {
         await document.exitFullscreen();
