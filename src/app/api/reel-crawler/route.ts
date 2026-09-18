@@ -54,6 +54,16 @@ export async function POST(req: Request) {
             }
           });
           const html = await ytRes.text();
+
+          // KIỂM TRA BẢN QUYỀN / TÍNH NĂNG NHÚNG:
+          // Nếu video bị chủ sở hữu tắt tính năng nhúng hoặc chặn website ngoài:
+          if (html.includes('"playableInEmbed":false')) {
+            return NextResponse.json({
+              success: false,
+              message: `⚠️ Video YouTube này (${videoId}) ĐÃ BỊ CHỦ KÊNH TẮT TÍNH NĂNG NHÚNG (Playable in embed: false)! YouTube không cho phép phát trên website ngoài. Hệ thống đã tự động lọc bỏ video này.`
+            });
+          }
+
           const matchTitle = html.match(/<meta property="og:title" content="([^"]+)"/);
           const matchThumb = html.match(/<meta property="og:image" content="([^"]+)"/);
           if (!filmName && matchTitle && matchTitle[1]) {
