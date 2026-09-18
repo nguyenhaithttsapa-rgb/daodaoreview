@@ -39,6 +39,14 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
     }
   };
 
+  // Tối ưu link embed để loại bỏ tối đa đề xuất rác & chú thích thừa
+  let cleanEmbedUrl = episode.embedUrl;
+  if (episode.platform === 'youtube' || cleanEmbedUrl.includes('youtube.com/embed/')) {
+    const separator = cleanEmbedUrl.includes('?') ? '&' : '?';
+    // rel=0: không hiện video ngoài kênh; modestbranding=1: ẩn logo lớn; iv_load_policy=3: ẩn annotations/popup
+    cleanEmbedUrl = `${cleanEmbedUrl}${separator}rel=0&modestbranding=1&iv_load_policy=3`;
+  }
+
   return (
     <div ref={containerRef}
       className={`flex flex-col relative group items-center overflow-hidden transition-all duration-300 ${
@@ -67,7 +75,7 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
         } bg-black ${isFullscreen ? '' : 'rounded-xl border border-cyan-500/20 shadow-inner'} overflow-hidden`}
       >
         <iframe
-          src={episode.embedUrl}
+          src={cleanEmbedUrl}
           title={episode.title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
