@@ -341,9 +341,6 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                   {/* Gradient tối dần từ dưới lên để chữ hiển thị rõ nét */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-black/20 z-10" />
 
-                  <div className="absolute top-2.5 right-2.5 z-20 px-2 py-0.5 rounded-md bg-black/70 backdrop-blur text-[11px] font-semibold text-cyan-300 border border-cyan-500/40 shadow-[0_0_10px_rgba(6,182,212,0.3)] uppercase tracking-wider">
-                    {ep.platform}
-                  </div>
                   <div className="relative z-20 space-y-1">
                     <h3 className="text-sm font-semibold text-white line-clamp-2 leading-tight group-hover:text-cyan-300 transition group-hover:neon-text-blue">
                       {ep.title}
