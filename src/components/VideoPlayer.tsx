@@ -12,6 +12,8 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [isFullscreen, setIsFullscreen] = useState(false);
 
+  const isVertical = episode.aspectRatio === '9:16' || (episode.title && (episode.title.includes('Dọc') || episode.title.includes('Reel')));
+
   const toggleFullscreen = async () => {
     try {
       if (!document.fullscreenElement) {
@@ -20,7 +22,13 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
         // @ts-ignore
         if (screen.orientation && screen.orientation.lock) {
           // @ts-ignore
-          await screen.orientation.lock('landscape').catch(() => {});
+          if (isVertical) {
+            // @ts-ignore
+            await screen.orientation.lock('portrait').catch(() => {});
+          } else {
+            // @ts-ignore
+            await screen.orientation.lock('landscape').catch(() => {});
+          }
         }
       } else {
         await document.exitFullscreen();
@@ -35,8 +43,6 @@ export default function VideoPlayer({ episode }: VideoPlayerProps) {
       console.log('Fullscreen error:', err);
     }
   };
-
-  const isVertical = episode.aspectRatio === '9:16';
 
   return (
     <div ref={containerRef}
