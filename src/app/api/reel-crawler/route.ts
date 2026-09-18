@@ -37,6 +37,68 @@ export async function POST(req: Request) {
 
     const targetUrl = (url && url.trim()) ? (url.trim().startsWith('http') ? url.trim() : 'https://' + url.trim()) : 'https://www.facebook.com/profile.php?id=61590438917651&sk=reels_tab';
 
+    // 0. XỬ LÝ NHANH CHO LINK YOUTUBE (KHÔNG CẦN BẬT TRÌNH DUYỆT NẶNG NỀ)
+    if (targetUrl.includes('youtube.com') || targetUrl.includes('youtu.be')) {
+      const ytMatch = targetUrl.match(/(?:watch\?v=|shorts\/|youtu\.be\/)([a-zA-Z0-9_-]{11})/);
+      if (ytMatch) {
+        const videoId = ytMatch[1];
+        let ytTitle = filmName?.trim() || '';
+        let ytPoster = uploadedImage || `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
+        let ytCat = category?.trim() || 'Tu Tiên';
+
+        try {
+          const ytRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
+            headers: {
+              'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+              'Accept-Language': 'vi-VN,vi;q=0.9,en-US;q=0.8,en;q=0.7'
+            }
+          });
+          const html = await ytRes.text();
+          const matchTitle = html.match(/<meta property="og:title" content="([^"]+)"/);
+          const matchThumb = html.match(/<meta property="og:image" content="([^"]+)"/);
+          if (!filmName && matchTitle && matchTitle[1]) {
+            ytTitle = matchTitle[1].replace(/ - YouTube$/, '').trim();
+          }
+          if (!uploadedImage && matchThumb && matchThumb[1]) {
+            ytPoster = matchThumb[1];
+          }
+        } catch (_) {}
+
+        if (!ytTitle) ytTitle = 'Phim Hay Tu Tiên Mới';
+
+        // Xóa các chữ tập thừa nếu có
+        ytTitle = ytTitle
+          .replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '')
+          .replace(/#\d+/g, '')
+          .replace(/\s*-\s*$/, '')
+          .replace(/\s*:\s*$/, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+
+        const videoTitle = `${ytTitle} - Review Tóm Tắt - ${ytCat} - Full Thuyết Minh`;
+
+        const stagedItem = {
+          id: videoId,
+          url: `https://www.youtube.com/watch?v=${videoId}`,
+          title: videoTitle,
+          category: ytCat,
+          poster: ytPoster,
+          channelName: channelName?.trim() || 'Mỡ Lạc Review',
+          platform: 'youtube',
+          embedUrl: `https://www.youtube.com/embed/${videoId}`
+        };
+
+        return NextResponse.json({
+          success: true,
+          foundCount: 1,
+          blockedCount: 0,
+          channelName: stagedItem.channelName,
+          message: `🎉 Đã bóc tách thành công video YouTube! Bạn hãy kiểm tra thông tin bên dưới rồi bấm 'Duyệt Vào Web'! 🚀`,
+          stagedItems: [stagedItem]
+        });
+      }
+    }
+
     browser = await chromium.launch({
       headless: true,
       args: ['--no-sandbox', '--disable-setuid-sandbox']

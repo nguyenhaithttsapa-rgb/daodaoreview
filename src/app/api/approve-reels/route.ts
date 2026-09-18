@@ -52,9 +52,11 @@ export async function POST(req: Request) {
             partNumber: 1,
             title,
             originalUrl: item.url,
-            embedUrl: 'https://www.facebook.com/plugins/video.php?href=' + encodeURIComponent(item.url) + '&show_text=0&autoplay=0',
-            platform: 'facebook',
-            aspectRatio: '9:16',
+            embedUrl: item.embedUrl || (item.url.includes('youtube.com') || item.url.includes('youtu.be')
+              ? `https://www.youtube.com/embed/${cleanId}`
+              : 'https://www.facebook.com/plugins/video.php?href=' + encodeURIComponent(item.url) + '&show_text=0&autoplay=0'),
+            platform: item.platform || (item.url.includes('youtube.com') || item.url.includes('youtu.be') ? 'youtube' : 'facebook'),
+            aspectRatio: (item.url.includes('youtube.com') || item.url.includes('youtu.be')) ? '16:9' : '9:16',
             duration: '01:30',
             thumbnail: posterImg,
             viewsCount: 15000 + Math.floor(Math.random() * 85000),
