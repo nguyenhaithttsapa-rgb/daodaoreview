@@ -44,7 +44,20 @@ export async function POST(req: Request) {
         const videoId = ytMatch[1];
         let ytTitle = filmName?.trim() || '';
         let ytPoster = uploadedImage || `https://i.ytimg.com/vi/${videoId}/maxresdefault.jpg`;
-        let ytCat = category?.trim() || 'Tu Tiên';
+        let ytCat = category?.trim();
+        if (!ytCat) {
+          const textToScan = (filmName || ytTitle || '').toLowerCase();
+          if (textToScan.includes('trọng sinh') || textToScan.includes('chuyển sinh')) ytCat = 'Trọng Sinh';
+          else if (textToScan.includes('đô thị') || textToScan.includes('tổng tài') || textToScan.includes('thiếu gia')) ytCat = 'Đô Thị';
+          else if (textToScan.includes('cổ trang') || textToScan.includes('hoàng cung') || textToScan.includes('vương gia')) ytCat = 'Cổ Trang';
+          else if (textToScan.includes('nghịch thiên') || textToScan.includes('vô địch')) ytCat = 'Nghịch Thiên';
+          else if (textToScan.includes('khoa huyễn') || textToScan.includes('tận thế') || textToScan.includes('hệ thống')) ytCat = 'Khoa Huyễn 3D';
+          else if (textToScan.includes('hành động') || textToScan.includes('chiến thần')) ytCat = 'Hành Động';
+          else if (textToScan.includes('hài hước') || textToScan.includes('tấu hài')) ytCat = 'Hài Hước';
+          else if (textToScan.includes('huyền huyễn') || textToScan.includes('thần ma')) ytCat = 'Huyền Huyễn';
+          else if (textToScan.includes('tu tiên') || textToScan.includes('nguyên anh') || textToScan.includes('linh căn')) ytCat = 'Tu Tiên';
+          else ytCat = 'Phim Ngắn';
+        }
 
         try {
           const ytRes = await fetch(`https://www.youtube.com/watch?v=${videoId}`, {
@@ -287,7 +300,30 @@ export async function POST(req: Request) {
       }
 
       if (!cat) {
-        cat = template.category;
+        const textToScan = ((r.rawCaption || '') + ' ' + (baseFilm || '')).toLowerCase();
+        if (textToScan.includes('trọng sinh') || textToScan.includes('chuyển sinh') || textToScan.includes('hồi sinh')) {
+          cat = 'Trọng Sinh';
+        } else if (textToScan.includes('đô thị') || textToScan.includes('tổng tài') || textToScan.includes('thiếu gia') || textToScan.includes('chủ tịch')) {
+          cat = 'Đô Thị';
+        } else if (textToScan.includes('cổ trang') || textToScan.includes('hoàng cung') || textToScan.includes('vương gia') || textToScan.includes('nữ nhi') || textToScan.includes('hoàng phi')) {
+          cat = 'Cổ Trang';
+        } else if (textToScan.includes('nghịch thiên') || textToScan.includes('phá giới') || textToScan.includes('sát phạt') || textToScan.includes('vô địch')) {
+          cat = 'Nghịch Thiên';
+        } else if (textToScan.includes('khoa huyễn') || textToScan.includes('tận thế') || textToScan.includes('hệ thống') || textToScan.includes('mecha') || textToScan.includes('tinh không')) {
+          cat = 'Khoa Huyễn 3D';
+        } else if (textToScan.includes('kịch tính') || textToScan.includes('lật kèo') || textToScan.includes('trả thù') || textToScan.includes('hãm hại')) {
+          cat = 'Kịch Tính';
+        } else if (textToScan.includes('hành động') || textToScan.includes('chiến thần') || textToScan.includes('đánh nhau') || textToScan.includes('combat')) {
+          cat = 'Hành Động';
+        } else if (textToScan.includes('hài hước') || textToScan.includes('tấu hài') || textToScan.includes('bựa')) {
+          cat = 'Hài Hước';
+        } else if (textToScan.includes('tu tiên') || textToScan.includes('nguyên anh') || textToScan.includes('luyện đan') || textToScan.includes('tông môn') || textToScan.includes('độ kiếp') || textToScan.includes('linh căn')) {
+          cat = 'Tu Tiên';
+        } else if (textToScan.includes('huyền huyễn') || textToScan.includes('dị giới') || textToScan.includes('thần ma') || textToScan.includes('đại lục')) {
+          cat = 'Huyền Huyễn';
+        } else {
+          cat = 'Phim Ngắn';
+        }
       }
 
       // Làm sạch các chữ tập/part trong baseFilm nếu có
