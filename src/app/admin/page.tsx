@@ -100,7 +100,18 @@ export default function AdminPage() {
   const handleUpdateStagedItem = (index: number, field: string, value: string) => {
     setStagedItems((prev) => {
       const copy = [...prev];
-      copy[index] = { ...copy[index], [field]: value };
+      const current = copy[index];
+      if (field === 'category') {
+        const oldCat = current.category || 'Tu Tiên';
+        // Tự động cập nhật thể loại mới vào tiêu đề SEO nếu có dạng "... - Review Tóm Tắt - [Cũ] - ..."
+        let newTitle = current.title;
+        if (newTitle.includes(`Review Tóm Tắt - ${oldCat}`)) {
+          newTitle = newTitle.replace(`Review Tóm Tắt - ${oldCat}`, `Review Tóm Tắt - ${value}`);
+        }
+        copy[index] = { ...current, category: value, title: newTitle };
+      } else {
+        copy[index] = { ...current, [field]: value };
+      }
       return copy;
     });
   };
