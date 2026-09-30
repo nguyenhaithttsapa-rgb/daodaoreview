@@ -164,8 +164,6 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
       {/* Main Content Area */}
       <div className="flex-1 min-w-0 max-w-4xl mx-auto space-y-8">
   
-      {/* Banner Quảng cáo Vị trí Top */}
-      <AdBanner position="top" />
 
       {/* THANH TÌM KIẾM VIDEO DUY NHẤT & BỘ LỌC THỂ LOẠI TỐI ƯU */}
       <div className="bg-[#0a0514]/70 border border-cyan-500/20 rounded-3xl shadow-[0_0_25px_rgba(6,182,212,0.1)] p-5 sm:p-6 shadow-2xl space-y-4 backdrop-blur-md">

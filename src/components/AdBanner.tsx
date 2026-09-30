@@ -7,29 +7,9 @@ interface AdBannerProps {
 
 export default function AdBanner({ position = 'top', className = '' }: AdBannerProps) {
   if (position === 'top') {
-    return (
-      <div className={`w-full bg-gradient-to-r from-amber-950/40 via-slate-900 to-rose-950/40 border border-amber-500/30 rounded-xl p-3 sm:p-4 my-4 flex items-center justify-between gap-4 text-slate-200 shadow-lg ${className}`}>
-        <div className="flex items-center gap-3">
-          <div className="p-2 rounded-lg bg-amber-500/20 text-amber-400">
-            <Sparkles className="w-5 h-5" />
-          </div>
-          <div>
-            <div className="flex items-center gap-2">
-              <span className="text-[10px] font-bold uppercase tracking-wider bg-amber-500/20 text-amber-400 px-1.5 py-0.5 rounded border border-amber-500/30">
-                Tài Trợ
-              </span>
-              <span className="font-semibold text-sm text-white">Kiếm Hiệp Tình 3D: Tặng 100 Vé Quay Thần Tướng Miễn Phí</span>
-            </div>
-            <p className="text-xs text-slate-400 mt-0.5">Tải ngay hôm nay, nhận trang bị Hoàng Kim và Code Tân Thủ cực đỉnh!</p>
-          </div>
-        </div>
-        <button className="flex-shrink-0 flex items-center gap-1 text-xs font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 px-3 py-1.5 rounded-lg transition">
-          <span>Tải Game</span>
-          <ExternalLink className="w-3.5 h-3.5" />
-        </button>
-      </div>
-    );
+    return null;
   }
+
 
   if (position === 'sidebar') {
     return (

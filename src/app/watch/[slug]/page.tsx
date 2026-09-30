@@ -163,8 +163,6 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
               </div>
             </div>
 
-            {/* Banner quảng cáo chân trang xem */}
-            <AdBanner position="top" />
           </div>
         </div>
 
