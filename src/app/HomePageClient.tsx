@@ -67,12 +67,12 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
   }, [seriesList, activeCategory, searchQuery]);
 
 
-  // Lọc ra các video ngắn (Reels/Shorts tỷ lệ 9:16), tự động lọc theo từ khóa tìm kiếm & thể loại
+  // Lọc ra các video ngắn (Reels/Shorts tỷ lệ 9:16), tự động lọc theo từ khóa tìm kiếm & thể loại, sắp xếp MỚI NHẤT
   const filteredShortEpisodes = useMemo(() => {
     const seenEpisodeUrls = new Set<string>();
     const query = searchQuery.trim().toLowerCase();
 
-    return seriesList.flatMap((s) => {
+    const results = seriesList.flatMap((s, sIndex) => {
       const matchCategory =
         activeCategory === 'Tất cả' ||
         s.categories?.some((c) => c.toLowerCase().includes(activeCategory.toLowerCase()));
@@ -104,11 +104,21 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
         })
         .map((ep) => ({
           ...ep,
+          orderIndex: sIndex,
+          postedDate: s.updatedAt || ep.publishedAt || '',
           seriesTitle: s.title,
           seriesSlug: s.slug,
           seriesThumbnail: getSafeThumbnail(ep.thumbnail || s.thumbnail, ep.id || s.id || ep.title),
         }));
-    }).sort((a, b) => (b.viewsCount || 0) - (a.viewsCount || 0));
+    });
+
+    // Sắp xếp video đăng mới nhất lên đầu tiên
+    return results.sort((a, b) => {
+      const dateA = new Date(a.postedDate || 0).getTime();
+      const dateB = new Date(b.postedDate || 0).getTime();
+      if (dateB !== dateA) return dateB - dateA;
+      return a.orderIndex - b.orderIndex;
+    });
   }, [seriesList, searchQuery, activeCategory]);
 
 
@@ -308,10 +318,10 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
             <div className="flex items-center gap-2">
               <Sparkles className="w-5 h-5 text-fuchsia-400 neon-text-purple" />
               <h2 className="text-2xl font-bold text-white tracking-tight">
-                {searchQuery ? `Reels Khớp Từ Khóa (${filteredShortEpisodes.length})` : 'Reels & Phim Ngắn Nhiều Lượt Xem Nhất'}
+                {searchQuery ? `Reels Khớp Từ Khóa (${filteredShortEpisodes.length})` : 'Reels & Phim Ngắn Đăng Mới Nhất'}
               </h2>
             </div>
-            <span className="text-sm text-cyan-400 font-medium">🔥 Xem nhiều nhất</span>
+            <span className="text-sm text-cyan-400 font-medium">⚡ Mới cập nhật</span>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
