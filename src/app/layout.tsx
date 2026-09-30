@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dao Dao Review - Tóm Tắt Hoạt Hình 3D & Truyện Hay",
   description: "Trang tổng hợp video review, tóm tắt hoạt hình 3D tu tiên, huyền huyễn chất lượng cao.",
+  other: {
+    'msvalidate.01': '5D1A03A3348433D435E89B34514DE8F0',
+  },
 };
 
 export default function RootLayout({
