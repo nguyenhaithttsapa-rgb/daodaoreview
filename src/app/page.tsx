@@ -1,6 +1,7 @@
 import HomePageClient from './HomePageClient';
 import fs from 'fs';
 import path from 'path';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 
 // Bật bộ nhớ đệm 60 giây để máy chủ phản hồi trong chớp mắt
 export const revalidate = 60;
@@ -35,7 +36,7 @@ export default async function Home() {
         slug: s.slug,
         title: s.title,
         description: s.description ? s.description.slice(0, 120) : '',
-        thumbnail: s.thumbnail || s.coverImage || '',
+        thumbnail: getSafeThumbnail(s.thumbnail || s.coverImage, s.id || s.title),
         channelName: s.channelName,
         categories: s.categories || [],
         totalEpisodes: s.totalEpisodes || s.episodes?.length || 1,
@@ -50,7 +51,7 @@ export default async function Home() {
           platform: ep.platform,
           originalUrl: ep.originalUrl,
           embedUrl: ep.embedUrl,
-          thumbnail: ep.thumbnail
+          thumbnail: getSafeThumbnail(ep.thumbnail, ep.id || ep.title)
         }))
       }));
 

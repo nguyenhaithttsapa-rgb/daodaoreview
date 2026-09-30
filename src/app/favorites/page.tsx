@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useUserLibrary } from '@/hooks/useUserLibrary';
 import { Heart, ArrowLeft } from 'lucide-react';
+import { getFallbackPoster } from '@/lib/thumbnailHelper';
+
 
 export default function FavoritesPage() {
   const { favorites, mounted } = useUserLibrary();
@@ -37,7 +39,16 @@ export default function FavoritesPage() {
               className="group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-pink-500/50 transition duration-300"
             >
               <div className="aspect-[3/4] relative">
-                <img src={item.thumbnail} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition" />
+                <img
+                  src={item.thumbnail}
+                  alt={item.title}
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.onerror = null;
+                    target.src = getFallbackPoster(item.seriesId || item.title);
+                  }}
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition" />
                 <div className="absolute top-2 right-2 bg-pink-500 rounded-full p-1.5 shadow-[0_0_10px_rgba(236,72,153,0.8)]">
                    <Heart className="w-3 h-3 text-white fill-white" />

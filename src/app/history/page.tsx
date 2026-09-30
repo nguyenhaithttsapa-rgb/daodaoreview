@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useUserLibrary } from '@/hooks/useUserLibrary';
 import { Play, Clock, Trash2, ArrowLeft } from 'lucide-react';
+import { getFallbackPoster } from '@/lib/thumbnailHelper';
+
 
 export default function HistoryPage() {
   const { history, clearHistory, mounted } = useUserLibrary();
@@ -46,7 +48,16 @@ export default function HistoryPage() {
               className="group relative bg-slate-900 rounded-2xl overflow-hidden border border-slate-800 hover:border-cyan-500/50 transition duration-300"
             >
               <div className="aspect-[3/4] relative">
-                <img src={item.thumbnail} alt={item.title} className="w-full h-full object-cover group-hover:scale-105 transition" />
+                <img
+                  src={item.thumbnail}
+                  alt={item.title}
+                  onError={(e) => {
+                    const target = e.currentTarget;
+                    target.onerror = null;
+                    target.src = getFallbackPoster(item.seriesId || item.title);
+                  }}
+                  className="w-full h-full object-cover group-hover:scale-105 transition"
+                />
                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition" />
               </div>
               <div className="p-3">

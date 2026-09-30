@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { slugify } from '@/lib/parser';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
+
 
 const DB_PATH = path.join(process.cwd(), 'src/data/database.json');
 
@@ -30,7 +32,7 @@ export async function POST(req: Request) {
       const cat = item.category || 'Tu Tiên';
       const title = item.title.trim();
       const slug = slugify(title) + '-' + cleanId.slice(-4);
-      const posterImg = item.poster || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80';
+      const posterImg = getSafeThumbnail(item.poster, cleanId || title);
 
       const newFilm = {
         id: 'series-2am-' + cleanId,

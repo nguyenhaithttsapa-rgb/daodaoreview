@@ -7,6 +7,8 @@ import { Play, Sparkles, Flame, Eye, Layers, Clock, Search, Filter, X, ChevronRi
 import { useState, useEffect, useMemo } from 'react';
 import { useUserLibrary } from '@/hooks/useUserLibrary';
 import { Series } from '@/types/video';
+import { getSafeThumbnail, getFallbackPoster } from '@/lib/thumbnailHelper';
+
 
 export default function HomePageClient({ initialSeries = [] }: { initialSeries: Series[] }) {
   const { favorites, history, mounted } = useUserLibrary();
@@ -104,7 +106,7 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
           ...ep,
           seriesTitle: s.title,
           seriesSlug: s.slug,
-          seriesThumbnail: ep.thumbnail || s.thumbnail,
+          seriesThumbnail: getSafeThumbnail(ep.thumbnail || s.thumbnail, ep.id || s.id || ep.title),
         }));
     }).sort((a, b) => (b.viewsCount || 0) - (a.viewsCount || 0));
   }, [seriesList, searchQuery, activeCategory]);
@@ -332,10 +334,15 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                 >
                   {/* Ảnh Poster Đại Diện Của Phim / Tập */}
                   <img
-                    src={ep.seriesThumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80'}
+                    src={getSafeThumbnail(ep.seriesThumbnail, ep.id || ep.title)}
                     alt={ep.title}
                     loading="lazy"
                     decoding="async"
+                    onError={(e) => {
+                      const target = e.currentTarget;
+                      target.onerror = null;
+                      target.src = getFallbackPoster(ep.id || ep.title);
+                    }}
                     className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-110 transition duration-500"
                   />
                   {/* Gradient tối dần từ dưới lên để chữ hiển thị rõ nét */}
@@ -384,10 +391,15 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                 >
                   <div className="relative aspect-video w-full overflow-hidden bg-slate-800">
                     <img
-                      src={series.thumbnail}
+                      src={getSafeThumbnail(series.thumbnail, series.id || series.title)}
                       alt={series.title}
                       loading="lazy"
                       decoding="async"
+                      onError={(e) => {
+                        const target = e.currentTarget;
+                        target.onerror = null;
+                        target.src = getFallbackPoster(series.id || series.title);
+                      }}
                       className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
                     />
                     <div className="absolute top-3 left-3 flex gap-1.5">
