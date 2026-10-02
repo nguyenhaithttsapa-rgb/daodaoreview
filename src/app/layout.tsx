@@ -16,8 +16,41 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Dao Dao Review - Tóm Tắt Hoạt Hình 3D & Truyện Hay",
-  description: "Trang tổng hợp video review, tóm tắt hoạt hình 3D tu tiên, huyền huyễn chất lượng cao.",
+  metadataBase: new URL('https://daodaoreview.com'),
+  title: "Dao Dao Review - Thế Giới Review Phim Hoạt Hình 3D & Truyện Tranh Đỉnh Cao",
+  description: "Trang tổng hợp video review, tóm tắt hoạt hình 3D tu tiên, huyền huyễn, anime và truyện tranh chất lượng cao hoàn toàn không quảng cáo khó chịu.",
+  keywords: ["Dao Dao Review", "daodaoreview", "hoạt hình 3D", "tu tiên", "anime", "truyện tranh", "review phim", "tóm tắt phim", "đấu phá thương khung", "phàm nhân tu tiên"],
+  authors: [{ name: "Dao Dao Review" }],
+  creator: "Dao Dao Review",
+  openGraph: {
+    title: "Dao Dao Review - Thế Giới Review Phim Hoạt Hình 3D & Truyện Tranh Đỉnh Cao",
+    description: "Trải nghiệm giải trí tinh gọn, đỉnh cao và hoàn toàn miễn phí. Đồ họa chuẩn điện ảnh, tóm tắt tinh gọn không quảng cáo.",
+    url: "https://daodaoreview.com",
+    siteName: "Dao Dao Review",
+    images: [
+      {
+        url: "https://daodaoreview.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Dao Dao Review - Thế Giới Review Phim Hoạt Hình 3D & Truyện Tranh Đỉnh Cao",
+      },
+    ],
+    locale: "vi_VN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dao Dao Review - Thế Giới Review Phim Hoạt Hình 3D & Truyện Tranh Đỉnh Cao",
+    description: "Trải nghiệm giải trí tinh gọn, đỉnh cao và hoàn toàn miễn phí. Không quảng cáo rác.",
+    images: ["https://daodaoreview.com/og-image.jpg"],
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/avatar.jpg", sizes: "512x512", type: "image/jpeg" }
+    ],
+    apple: "/apple-touch-icon.png",
+  },
   other: {
     'msvalidate.01': '5D1A03A3348433D435E89B34514DE8F0',
   },
