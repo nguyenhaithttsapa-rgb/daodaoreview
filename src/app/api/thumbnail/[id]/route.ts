@@ -54,9 +54,11 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
       }
     }
 
-    // Chuyển hướng về ảnh mặc định nếu không tải được từ FB
-    return NextResponse.redirect('https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80', 302);
+    // Chuyển hướng về ảnh nhận diện thương hiệu chính thức nếu không tải được từ FB
+    const origin = new URL(req.url).origin;
+    return NextResponse.redirect(`${origin}/avatar.jpg`, 302);
   } catch (error) {
-    return NextResponse.redirect('https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80', 302);
+    const origin = new URL(req.url).origin;
+    return NextResponse.redirect(`${origin}/avatar.jpg`, 302);
   }
 }

@@ -31,48 +31,54 @@ https://www.facebook.com/plugins/video.php?href={encodeURIComponent(reelUrl)}&sh
 
 ---
 
-## 2. Quy Trình Xử Lý Ảnh Đại Diện (Thumbnail) Vĩnh Viễn Không Bị Lỗi
+## 2. Quy Trình Xử Lý Ảnh Đại Diện Gốc Của Video (Thumbnail) Chuẩn Tuyệt Đối
 
 > [!CAUTION]
-> **TUYỆT ĐỐI KHÔNG DÙNG TRỰC TIẾP LINK `fbcdn.net`!**
+> **1. BẮT BUỘC DÙNG ẢNH GỐC CỦA VIDEO - CẤM GÁN ẢNH STOCK/UNSPLASH LUNG TUNG!**
+> Người xem cần thấy chính xác hình ảnh trích xuất từ nội dung video. Tuyệt đối không được gán ảnh stock Unsplash hay ảnh ngoại luồng không liên quan. Nếu không tải được ảnh gốc từ video, tuyệt đối không được nạp video đó vào CSDL!
+>
+> **2. TUYỆT ĐỐI KHÔNG DÙNG TRỰC TIẾP LINK `fbcdn.net`!**
 > Link ảnh CDN của Facebook (`*.fbcdn.net`) luôn có tham số hết hạn `oe=...` (tự động chết sau 24-48 giờ) và Facebook chặn truy cập ngoại trang (lỗi 403 Forbidden).
 
 ### Quy Trình Tải & Lưu Ảnh Thật Của Video:
 1. Khi cào hoặc duyệt video từ link Facebook Reel:
    * Gửi request HTTP với User-Agent: `facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)`.
    * Trích xuất thẻ meta `<meta property="og:image" content="...">`.
-   * Tải file ảnh thực tế về và lưu cục bộ tại `public/thumbnails/{cleanId}.jpg`.
+   * Tải file ảnh thực tế về và lưu vĩnh viễn tại `public/thumbnails/{cleanId}.jpg`.
 2. Lưu đường dẫn trong `database.json`:
    * `thumbnail`: `/thumbnails/{cleanId}.jpg`
    * `coverImage`: `/thumbnails/{cleanId}.jpg`
-3. Luôn bảo vệ thẻ `<img>` ở giao diện bằng helper an toàn:
-   ```tsx
-   <img
-     src={getSafeThumbnail(ep.thumbnail, ep.id || ep.title)}
-     alt={ep.title}
-     loading="lazy"
-     onError={(e) => {
-       const target = e.currentTarget;
-       target.onerror = null;
-       target.src = getFallbackPoster(ep.id || ep.title);
-     }}
-   />
-   ```
-4. API On-Demand Cứu Cánh: Route `/api/thumbnail/[id]` tự động bắt và tải ảnh gốc lưu vào `public/thumbnails/` nếu chưa có sẵn.
+3. Luôn bảo vệ thẻ `<img>` ở giao diện bằng helper an toàn `getSafeThumbnail()`. Nếu gặp sự cố, ảnh dự phòng duy nhất là logo thương hiệu `/avatar.jpg`.
+4. API On-Demand Cứu Cánh: Route `/api/thumbnail/[id]` tự động bắt và tải ảnh gốc lưu vào `public/thumbnails/` nếu chưa có sẵn trên đĩa.
 
 ---
 
-## 3. Quy Trình Cào & Duyệt Video Tự Động (Crawler Runbook)
+## 3. Quy Trình Kiểm Tra Quyền Nhúng Nghiêm Ngặt (Embed Gatekeeper)
 
-1. **Kiểm Tra Quyền Nhúng Trước Khi Lưu (`isReelEmbeddable`):**
-   * Nhiều video Reels bị chủ kênh đặt ở chế độ riêng tư hoặc tắt tính năng nhúng ngoài trang.
-   * Phải kiểm tra trước qua API `src/lib/videoChecker.ts`. Nếu video không cho nhúng -> Tự động bỏ qua, không đưa vào database.
-2. **Làm Sạch Tiêu Đề & Phân Loại Thông Minh:**
-   * Dùng `cleanCaption` để loại bỏ hashtag (`#xuhuong`, `#reviewphim`), số điện thoại, link rác, icon phản cảm.
-   * Tự động gán thể loại theo từ khóa: Tu Tiên, Đô Thị, Huyền Huyễn, Trọng Sinh, Cổ Trang, Kịch Tính.
-3. **Thứ Tự Sắp Xếp (Newest First):**
-   * Luôn dùng `db.unshift(newFilm)` để video mới nhất nằm ở đầu danh sách.
-   * Trang chủ sắp xếp mục Reels theo thời gian cập nhật mới nhất, không chỉ dựa vào lượt xem.
+> [!IMPORTANT]
+> Nhiều video Reels Facebook bị chủ kênh tắt quyền nhúng ngoài trang hoặc bị giới hạn bản quyền âm nhạc/nội dung.
+> Facebook sẽ hiển thị lỗi: *"Không khả dụng - Video này không nhúng được do có thể chứa nội dung thuộc sở hữu của người khác."*
+
+### Thuật Toán Kiểm Tra Nhúng Chuẩn Xác 100%:
+Khi kiểm tra link nhúng `https://www.facebook.com/plugins/video.php?href=...`:
+Bắt buộc quét HTML trả về để phát hiện các dấu hiệu lỗi cấm nhúng:
+```javascript
+const isBlocked =
+  html.includes('_3i0p') ||
+  html.includes('_3i0o') ||
+  html.includes('_2go0') ||
+  html.includes('không nhúng được') ||
+  html.includes('Không khả dụng') ||
+  html.includes('không thể phát') ||
+  html.includes('cannot be embedded') ||
+  html.includes('cannot be played') ||
+  html.includes('error_subcode') ||
+  html.includes('thuộc sở hữu của người khác') ||
+  html.includes('Video không hiển thị') ||
+  html.includes('Video Unavailable') ||
+  html.includes('không tồn tại nữa hoặc bạn không có quyền xem');
+```
+* **Nếu `isBlocked === true`:** LẬP TỨC LOẠI BỎ VIDEO, KHÔNG NẠP VÀO CSDL.
 
 ---
 
@@ -98,23 +104,8 @@ Luôn chạy lệnh build kiểm tra lỗi biên dịch TypeScript:
 ```powershell
 cmd.exe /c "npm run build"
 ```
-Đảm bảo 100% không có lỗi type trước khi commit git.
 
-### Bước 2: Commit & Push lên GitHub
-```bash
-git add .
-git commit -m "feat/fix: mô tả ngắn gọn thay đổi"
-git push origin main
-```
-
-### Bước 3: Cập nhật lên VPS máy chủ (iNET OneDash)
-Do file `database.json` trên VPS có thể được ghi thêm số lượt xem thực tế khi có người truy cập, lệnh `git pull` thông thường sẽ báo lỗi conflict. **Luôn sử dụng lệnh chuẩn 1-dòng sau trên OneDash Terminal:**
-
+### Bước 2: Lệnh triển khai 1-dòng chuẩn trên VPS
 ```bash
 cd /var/www/daodaoreview && git reset --hard && git pull && npm run build && pm2 restart all
 ```
-Lệnh trên đảm bảo:
-* Chuyển đúng vào thư mục dự án `/var/www/daodaoreview`.
-* Reset sạch xung đột database tạm.
-* Kéo mã nguồn mới nhất từ GitHub.
-* Build Next.js tối ưu và khởi động lại PM2 tức thì.

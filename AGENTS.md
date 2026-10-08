@@ -18,15 +18,16 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
 - **Tối Ưu Mobile Fullscreen:** Phải bảo tồn cơ chế tự động xoay ngang toàn màn hình (Landscape) trên điện thoại di động khi người dùng bấm xem toàn màn hình.
 - **Lọc Sạch Tham Số YouTube:** Luôn giữ `rel=0&iv_load_policy=3&modestbranding=1` để triệt tiêu gợi ý video rác.
 
-## 2. Quy Tắc Sống Còn Về Ảnh Đại Diện (Thumbnail)
+## 2. Quy Tắc Sống Còn Về Ảnh Đại Diện Gốc Của Video (Thumbnail)
+- **BẮT BUỘC DÙNG ẢNH GỐC CỦA VIDEO:** Mỗi video bắt buộc phải hiển thị ảnh bìa thật trích xuất từ chính video Reels Facebook đó. Tải qua User-Agent `facebookexternalhit/1.1` và lưu vĩnh viễn tại `public/thumbnails/{cleanId}.jpg`.
+- **CẤM DÙNG ẢNH NGOẠI LUỒNG / UNSPLASH LUNG TUNG:** Tuyệt đối không được gán ảnh stock Unsplash hay ảnh ngẫu nhiên không liên quan vào phim. Nếu không tải được ảnh gốc từ video, tuyệt đối KHÔNG ĐƯỢC nạp video đó vào CSDL.
 - **CẤM DÙNG TRỰC TIẾP LINK `fbcdn.net`:** Link CDN Facebook luôn có chữ ký hết hạn `oe=...` (chết sau 24-48 giờ) và bị chặn ngoại trang (403 Forbidden).
-- **Lưu Ảnh Thật Cục Bộ:** Ảnh của video Facebook Reels phải được tải qua User-Agent `facebookexternalhit/1.1` và lưu vĩnh viễn tại `public/thumbnails/{cleanId}.jpg`.
-- **Bắt Buộc Có Cơ Chế Tự Phục Hồi (`onError`):** Mọi thẻ `<img>` hiển thị poster/thumbnail trên web phải bọc bằng `getSafeThumbnail()` và gắn `onError` tự động chuyển sang poster Cyberpunk dự phòng. Tuyệt đối không để lộ biểu tượng ảnh vỡ (broken image icon) trên giao diện.
+- **Cơ Chế Phục Hồi Ảnh Nội Bộ:** Mọi thẻ `<img>` hiển thị poster/thumbnail trên web phải bọc bằng `getSafeThumbnail()`. Nếu ảnh gốc gặp sự cố, ảnh dự phòng duy nhất được phép dùng là avatar thương hiệu chính thức `/avatar.jpg`. Tuyệt đối không để lộ biểu tượng ảnh vỡ (broken image icon) trên giao diện.
 
 ## 3. Quy Tắc Cơ Sở Dữ Liệu & Bộ Cào Dữ Liệu (Crawler)
+- **Kiểm Tra Bản Quyền Nhúng Nghiêm Ngặt (Embed Gatekeeper):** Trước khi nạp bất kỳ video nào, bắt buộc gọi `checkEmbeddable(url)`. Nếu HTML trả về chứa bất kỳ dấu hiệu cấm nhúng: `_3i0p`, `_3i0o`, `_2go0`, `không nhúng được`, `Không khả dụng`, `thuộc sở hữu của người khác`, `cannot be embedded`, `không thể phát`, `Video không hiển thị`, `Video Unavailable` -> Lập tức BỎ QUA video đó. Tuyệt đối không để video lỗi lọt vào website.
 - **Thứ Tự Sắp Xếp (Newest First):** Video mới thêm/duyệt phải luôn được `unshift` lên đầu mảng trong `src/data/database.json`. Mục Reels trên trang chủ phải hiển thị các video đăng mới nhất lên đầu danh sách.
-- **Kiểm Tra Bản Quyền Nhúng Trước:** Khi cào hoặc duyệt video, luôn gọi hàm `isReelEmbeddable(url)`. Bỏ qua video nếu chủ kênh bật chế độ riêng tư hoặc cấm nhúng ngoài trang.
-- **Làm Sạch Caption:** Tự động loại bỏ hashtag spam, số điện thoại, icon rác trước khi lưu tiêu đề phim.
+- **Làm Sạch Caption:** Tự động loại bỏ hashtag spam, số điện thoại, link Shopee/Lazada affiliate, icon rác trước khi lưu tiêu đề và mô tả phim.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.
