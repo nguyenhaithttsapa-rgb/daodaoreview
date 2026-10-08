@@ -1,5 +1,83 @@
 [
   {
+    "id": "series-long-851844721287242",
+    "slug": "doi-den-ngay-tan-the-ta-tro-thanh-vua-phimtrungquoc-phimhay-phimngan-phimre-7242",
+    "title": "Đợi Đến Ngày Tận Thế, Ta Trở Thành VUA #phimtrungquoc #phimhay #phimngan #phimreview #reviewphim #phimhot #xuhuong #reels #viral #fyp #PhimNganVietsub | Phim Ngắn Vietsub",
+    "description": "Đợi Đến Ngày Tận Thế, Ta Trở Thành VUA",
+    "thumbnail": "/thumbnails/851844721287242.jpg",
+    "coverImage": "/thumbnails/851844721287242.jpg",
+    "channelName": "Phim Ngắn Vietsub Tuyển Chọn",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-long-851844721287242",
+        "seriesId": "series-long-851844721287242",
+        "partNumber": 1,
+        "title": "Đợi Đến Ngày Tận Thế, Ta Trở Thành VUA #phimtrungquoc #phimhay #phimngan #phimreview #reviewphim #phimhot #xuhuong #reels #viral #fyp #PhimNganVietsub | Phim Ngắn Vietsub",
+        "originalUrl": "https://www.facebook.com/watch/?v=851844721287242",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D851844721287242&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:06:34",
+        "thumbnail": "/thumbnails/851844721287242.jpg",
+        "viewsCount": 41083,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1007173919008505",
+    "slug": "49k-luot-xem-460-cam-xuc-ngu-day-sau-300-nam-tieu-thu-toi-nuoi-thanh-yeu-to-8505",
+    "title": "49K lượt xem · 460 cảm xúc | Ngủ dậy sau 300 năm, Tiểu Thú tôi nuôi thành Yêu Tổ cả rồi!!!! #phimhay #phimhoathinh #hoathinhtrungquoc #phimtrungquoc #tienhiep #xianxia #yeuto #phimhaymoingay #reels #facebookreels #reviewphim #motphim | Phim Ngắn Vietsub",
+    "description": "Ngủ dậy sau 300 năm, Tiểu Thú tôi nuôi thành Yêu Tổ cả rồi!!!! ...",
+    "thumbnail": "/thumbnails/1007173919008505.jpg",
+    "coverImage": "/thumbnails/1007173919008505.jpg",
+    "channelName": "Phim Ngắn Vietsub Tuyển Chọn",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-long-1007173919008505",
+        "seriesId": "series-long-1007173919008505",
+        "partNumber": 1,
+        "title": "49K lượt xem · 460 cảm xúc | Ngủ dậy sau 300 năm, Tiểu Thú tôi nuôi thành Yêu Tổ cả rồi!!!! #phimhay #phimhoathinh #hoathinhtrungquoc #phimtrungquoc #tienhiep #xianxia #yeuto #phimhaymoingay #reels #facebookreels #reviewphim #motphim | Phim Ngắn Vietsub",
+        "originalUrl": "https://www.facebook.com/watch/?v=1007173919008505",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1007173919008505&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:11:30",
+        "thumbnail": "/thumbnails/1007173919008505.jpg",
+        "viewsCount": 29240,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
     "id": "series-reels-1371363707923090",
     "slug": "xuyen-ko-sieu-hay-luon-3090",
     "title": "Xuyên ko siêu hay luôn.",

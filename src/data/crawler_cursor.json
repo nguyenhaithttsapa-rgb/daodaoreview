@@ -1,12 +1,12 @@
 {
-  "currentChannelIndex": 7,
-  "cycleCount": 3,
+  "currentBatchIndex": 0,
+  "cycleCount": 4,
   "lastRunChannels": [
-    "Review 3D Hay (Hoạt Hình Tu Tiên)",
-    "HH3D Vietsub (Donghua Tu Chân)",
-    "Hoạt Hình 3D VN",
-    "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
-    "Phim Ngắn Tổng Tài Hay"
+    "Donghua 3D Hay",
+    "Review Phim 3D Donghua",
+    "Hoạt Hình 3D Hay",
+    "Phim Ngắn Vietsub Tuyển Chọn",
+    "Review Phim Ngắn TQ"
   ],
-  "updatedAt": "2026-10-08T17:03:55.800Z"
+  "updatedAt": "2026-10-08T17:12:23.221Z"
 }
