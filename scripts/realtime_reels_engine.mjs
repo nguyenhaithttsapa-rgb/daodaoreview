@@ -414,12 +414,22 @@ export async function runCrawlAndReport() {
     searchAttempts++;
   }
 
+  // Khi đã quét trọn vẹn toàn bộ các Lô độc lập của chu kỳ hiện tại, bắt đầu chu kỳ mới:
+  if (searchAttempts >= CHANNEL_BATCHES.length) {
+    console.log(`🎉 [HOÀN TẤT CHU KỲ] Đã quét sạch tất cả ${CHANNEL_BATCHES.length} Lô độc lập không trùng lặp. Bắt đầu chu kỳ mới!`);
+    batchIdx = 0;
+    activeSources = CHANNEL_BATCHES[batchIdx];
+    allPreviousChannels.clear();
+  }
+
   console.log(`\n🔄 [ZERO OVERLAP CRAWLER LÔ n+1] Vòng #${cursor.cycleCount || 1} - Lô #${batchIdx + 1}/${CHANNEL_BATCHES.length} (5 kênh hoàn toàn mới so với tất cả các Lô trước):`);
   activeSources.forEach((s, idx) => console.log(`   👉 ${idx + 1}. [${s.name}]`));
 
   const nextBatchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
   const nextCycle = nextBatchIdx === 0 ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
-  const updatedPreviousChannels = Array.from(new Set([...(cursor.allPreviousScannedChannels || []), ...activeSources.map((s) => s.name)]));
+  const updatedPreviousChannels = nextBatchIdx === 0 
+    ? [] 
+    : Array.from(new Set([...allPreviousChannels, ...activeSources.map((s) => s.name)]));
 
   fs.writeFileSync(
     CURSOR_PATH,
