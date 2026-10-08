@@ -31,16 +31,17 @@ const TARGET_SOURCES = [
   }
 ];
 
-// Danh sách các từ khóa hợp lệ bắt buộc (Phim truyện AI tu tiên, trùng sinh, 3D Trung Quốc...)
 const VALID_KEYWORDS = [
-  'tu tiên', 'trùng sinh', 'xuyên không', 'huyền huyễn', '3d trung quốc',
-  'donghua', 'anime 3d', 'đấu phá thương khung', 'phàm nhân tu tiên',
-  'nghịch thiên', 'hệ thống', 'truyện ai', 'tiên hiệp', 'cao võ',
-  'thần ma', 'vạn cổ', 'chiến thần', 'cổ trang', 'y nữ', 'bá chủ',
-  'phim ngắn', 'kịch tính', 'hào môn', 'tổng tài', 'học đường',
+  'ngôn tình', 'tổng tài', 'lọ lem', 'hào môn', 'bảo bối', 'phu nhân', 'tiểu thư', 'thiếu gia',
+  'báo thù', 'trùng sinh', 'trọng sinh', 'nghịch thiên', 'nghịch tập', 'kiếp trước', 'tái sinh',
+  'xuyên không', 'xuyên sách', 'cổ đại', 'cổ trang', 'hóa thân', 'vương phi', 'y nữ',
+  'tiên hiệp', 'tiên sư xuống núi', 'tiên sư', 'xuống núi', 'tu tiên', 'kiếm tiên', 'chiến thần',
+  'mạt thế', 'pháo đài di động', 'pháo đài', 'khoa học viễn tưởng', 'khoa huyễn', 'tận thế', 'sinh tồn',
+  'cung đấu', 'gia đấu', 'trạch đấu', 'hầu môn', 'tranh sủng', 'hậu cung', 'tranh đoạt',
+  '3d trung quốc', 'donghua', 'anime 3d', 'đấu phá thương khung', 'phàm nhân tu tiên',
+  'thần ma', 'vạn cổ', 'bá chủ', 'phim ngắn', 'kịch tính', 'hệ thống', 'truyện ai',
   'thế giới hoàn mỹ', 'già thiên', 'thôn phệ tinh không', 'đại chúa tể',
-  'aigc', 'aivideo', 'chineseaesthetics', 'neochinese', 'hoạt hình',
-  'tu chân', 'tiên giới', 'võ đạo', 'võ thần', 'chúa tể'
+  'aigc', 'aivideo', 'chineseaesthetics', 'hoạt hình'
 ];
 
 const BLACKLIST_KEYWORDS = [
@@ -223,16 +224,27 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-function detectCategory(title) {
-  const lower = title.toLowerCase();
-  if (lower.includes('trọng sinh') || lower.includes('trùng sinh')) return 'Trọng Sinh';
-  if (lower.includes('tu tiên') || lower.includes('tiên hiệp') || lower.includes('tu chân')) return 'Tu Tiên';
-  if (lower.includes('huyền huyễn')) return 'Huyền Huyễn';
-  if (lower.includes('xuyên không')) return 'Xuyên Không';
-  if (lower.includes('nghịch thiên')) return 'Nghịch Thiên';
-  if (lower.includes('đô thị') || lower.includes('tổng tài')) return 'Đô Thị';
-  if (lower.includes('cổ trang')) return 'Cổ Trang';
-  return 'Tu Tiên';
+function detectCategory(title, desc = '') {
+  const lower = (title + ' ' + desc).toLowerCase();
+  if (lower.includes('tổng tài') || lower.includes('lọ lem') || lower.includes('ngôn tình') || lower.includes('bảo bối') || lower.includes('hào môn')) {
+    return 'Ngôn Tình - Tổng Tài';
+  }
+  if (lower.includes('báo thù') || lower.includes('trùng sinh') || lower.includes('trọng sinh') || lower.includes('sát phạt') || lower.includes('nghịch tập')) {
+    return 'Báo Thù - Trùng Sinh';
+  }
+  if (lower.includes('xuyên không') || lower.includes('xuyên sách') || lower.includes('cổ đại') || lower.includes('hóa thân') || lower.includes('cổ trang')) {
+    return 'Xuyên Không - Cổ Đại';
+  }
+  if (lower.includes('tiên sư') || lower.includes('xuống núi') || lower.includes('tu tiên') || lower.includes('tiên hiệp') || lower.includes('kiếm tiên')) {
+    return 'Tiên Hiệp - Tiên Sư Xuống Núi';
+  }
+  if (lower.includes('mạt thế') || lower.includes('pháo đài') || lower.includes('viễn tưởng') || lower.includes('tận thế') || lower.includes('khoa huyễn')) {
+    return 'Mạt Thế - Pháo Đài Di Động';
+  }
+  if (lower.includes('cung đấu') || lower.includes('gia đấu') || lower.includes('trạch đấu') || lower.includes('hầu môn') || lower.includes('hậu cung')) {
+    return 'Cung Đấu - Gia Đấu';
+  }
+  return 'Ngôn Tình - Tổng Tài';
 }
 
 // 5. Quét danh sách link Reels từ 1 Fanpage bằng Playwright

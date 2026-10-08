@@ -42,15 +42,39 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
     }
   }, [initialSeries]);
 
-  const categoriesList = ['Tất cả', 'Phim Ngắn', 'Kịch Tính', 'Đô Thị', 'Tu Tiên', 'Huyền Huyễn', 'Trọng Sinh', 'Nghịch Thiên', 'Khoa Huyễn 3D'];
+  const categoriesList = [
+    'Tất cả',
+    'Ngôn Tình - Tổng Tài',
+    'Báo Thù - Trùng Sinh',
+    'Xuyên Không - Cổ Đại',
+    'Tiên Hiệp - Tiên Sư Xuống Núi',
+    'Mạt Thế - Pháo Đài Di Động',
+    'Cung Đấu - Gia Đấu',
+    'Tu Tiên 3D'
+  ];
+
+  // Hàm kiểm tra khớp danh mục
+  const checkCategoryMatch = (s: any, cat: string) => {
+    if (cat === 'Tất cả') return true;
+    const catLower = cat.toLowerCase();
+    if (cat === 'Tu Tiên 3D') {
+      return (
+        s.categories?.some((c: string) => c.toLowerCase().includes('tiên') || c.toLowerCase().includes('tu tiên')) ||
+        s.genres?.some((g: string) => g.toLowerCase().includes('tiên') || g.toLowerCase().includes('tu tiên'))
+      );
+    }
+    return (
+      s.categories?.some((c: string) => c.toLowerCase().includes(catLower)) ||
+      s.genres?.some((g: string) => g.toLowerCase().includes(catLower)) ||
+      s.title?.toLowerCase().includes(catLower)
+    );
+  };
 
   // Lọc phim thông minh: Theo Tên phim, Theo Thể loại, Theo Kênh và Nội dung mô tả
   const filteredSeries = useMemo(() => {
     return seriesList.filter((s) => {
       // Lọc theo thể loại
-      const matchCategory =
-        activeCategory === 'Tất cả' ||
-        s.categories?.some((c) => c.toLowerCase().includes(activeCategory.toLowerCase()));
+      const matchCategory = checkCategoryMatch(s, activeCategory);
 
       // Lọc theo từ khóa tìm kiếm (Tên phim, mô tả, thể loại, kênh)
       const query = searchQuery.trim().toLowerCase();
@@ -73,9 +97,7 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
     const query = searchQuery.trim().toLowerCase();
 
     const results = seriesList.flatMap((s, sIndex) => {
-      const matchCategory =
-        activeCategory === 'Tất cả' ||
-        s.categories?.some((c) => c.toLowerCase().includes(activeCategory.toLowerCase()));
+      const matchCategory = checkCategoryMatch(s, activeCategory);
 
       if (!matchCategory) return [];
 

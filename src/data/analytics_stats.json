@@ -1,11 +1,12 @@
 {
-  "timestamp": "2026-10-08T14:35:04.329Z",
-  "formattedTime": "21:35:04 8/10/2026",
-  "totalSeries": 1321,
-  "totalEpisodes": 1321,
-  "totalViews": 76129813,
-  "newlyAddedInSession": 2,
-  "blockedNonEmbeddable": 28,
+  "timestamp": "2026-10-08T14:40:02.645Z",
+  "formattedTime": "21:40:02 8/10/2026",
+  "totalSeries": 1327,
+  "totalEpisodes": 1327,
+  "totalViews": 77570513,
+  "newlyAddedFlagships": 6,
+  "retaggedSeries": 1321,
+  "fixedExpiredThumbnails": 50,
   "googleAnalyticsId": "G-HYVH98WXZN",
   "status": "ACTIVE_REALTIME"
 }

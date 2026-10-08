@@ -39,6 +39,7 @@ export default async function Home() {
         thumbnail: getSafeThumbnail(s.thumbnail || s.coverImage, s.id || s.title),
         channelName: s.channelName,
         categories: s.categories || [],
+        genres: s.genres || [],
         totalEpisodes: s.totalEpisodes || s.episodes?.length || 1,
         totalViews: s.totalViews,
         updatedAt: s.updatedAt,
