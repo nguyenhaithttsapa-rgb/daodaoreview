@@ -34,6 +34,12 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
   - Mọi phim và video nạp vào CSDL bắt buộc phải có thời lượng tối thiểu từ 30 phút trở lên (`duration >= 1800s`), ưu tiên hàng đầu các phim full trọn bộ 45 phút, 1h, 2h, 3h, 5h, 10h review tóm tắt cốt truyện hoàn chỉnh.
   - Bộ cào dữ liệu (Crawler) chuyển mục tiêu quét sang tab `/videos/` (Video dài) của các Fanpage, trích xuất thời lượng thật (`HH:MM:SS` hoặc `MM:SS`) và tính ra giây. Nếu thời lượng dưới 30 phút (< 30:00) -> LOẠI BỎ LẬP TỨC, không nạp vào website.
 - **TUYỆT ĐỐI CẤM VIDEO CA NHẠC / MV / OST / KARAOKE / CLIP LỒNG NHẠC VU VƠ:** Hệ thống chỉ đăng tải phim dài full, phim hoạt hình 3D Donghua review tóm tắt có cốt truyện và lời thoại / thuyết minh hoàn chỉnh. ƯU TIÊN HÀNG ĐẦU các video phim full trọn bộ (Full tập, Full 5h, 8h, 9h, 10h, Trọn bộ). Nghiêm cấm cào các clip ngắn 1-3 phút chỉ ghép nhạc nền, MV ca khúc OST vietsub/karaoke (như OST phim, nhạc hoa vietsub), hoặc clip status tâm trạng vu vơ không có cốt truyện phim. Bất kỳ nguồn nào đăng clip ca nhạc/karaoke/status tình cảm phải bị loại bỏ vĩnh viễn khỏi danh sách kênh mục tiêu.
+- **QUY CHUẨN XOAY VÒNG KÊNH KHÔNG TRÙNG LẶP (ZERO OVERLAP ROUND-ROBIN):**
+  - Bot cào hoạt động định kỳ theo chu kỳ xoay vòng 5 phút/lần, mỗi lần quét đúng 5 kênh.
+  - **5 trang cào trong đợt hiện tại TUYỆT ĐỐI KHÔNG ĐƯỢC TRÙNG với bất kỳ trang nào đã cào ở đợt liền trước đó (`Set(current) ∩ Set(previous) = ∅`).**
+  - Danh sách nguồn được phân chia thành các lô độc lập (Lô 1, Lô 2, Lô 3...), mỗi lô gồm 5 kênh riêng biệt. Quét tuần tự theo từng lô, hoàn thành tất cả các lô mới xoay vòng lại từ đầu.
+  - Lưu trạng thái và kiểm tra chéo qua `crawler_cursor.json` để bảo đảm 0% trùng lặp giữa 2 đợt quét liên tiếp.
+  - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.

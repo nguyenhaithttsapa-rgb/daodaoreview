@@ -21,47 +21,34 @@ const BATCH_SIZE = 5;
 // QUY TẮC CỐT LÕI: THỜI LƯỢNG PHIM TỐI THIỂU 30 PHÚT (1800 GIÂY)
 const MIN_DURATION_SECONDS = 30 * 60; // 1800 giây
 
-// 1. Danh sách các kênh/Fanpage mục tiêu chất lượng cao (quét tab /videos)
-const ALL_TARGET_SOURCES = [
-  // --- Nhóm 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao ---
-  {
-    name: 'Hoạt Hình 3D Trung Quốc',
-    url: 'https://www.facebook.com/hh3dtq/videos'
-  },
-  {
-    name: 'Hoạt Hình 3D Review',
-    url: 'https://www.facebook.com/hoathinh3dreview/videos'
-  },
-  {
-    name: 'Review 3D Hay (Hoạt Hình Tu Tiên)',
-    url: 'https://www.facebook.com/review3dhay/videos'
-  },
-  {
-    name: 'HH3D Vietsub (Donghua Tu Chân)',
-    url: 'https://www.facebook.com/hh3d.vietsub/videos'
-  },
-  {
-    name: 'Hoạt Hình 3D VN',
-    url: 'https://www.facebook.com/hoathinh3d.vn/videos'
-  },
+// 1. Danh sách các LÔ KÊNH mục tiêu chất lượng cao (Mỗi lô đúng 5 kênh độc lập, ZERO TRÙNG LẶP)
+const CHANNEL_BATCHES = [
+  // --- LÔ 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao (5 kênh) ---
+  [
+    { name: 'Hoạt Hình 3D Trung Quốc', url: 'https://www.facebook.com/hh3dtq/videos' },
+    { name: 'Hoạt Hình 3D Review', url: 'https://www.facebook.com/hoathinh3dreview/videos' },
+    { name: 'Review 3D Hay (Hoạt Hình Tu Tiên)', url: 'https://www.facebook.com/review3dhay/videos' },
+    { name: 'HH3D Vietsub (Donghua Tu Chân)', url: 'https://www.facebook.com/hh3d.vietsub/videos' },
+    { name: 'Hoạt Hình 3D VN', url: 'https://www.facebook.com/hoathinh3d.vn/videos' }
+  ],
 
-  // --- Nhóm 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang ---
-  {
-    name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)',
-    url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=videos'
-  },
-  {
-    name: 'Phim Ngắn Tổng Tài Hay',
-    url: 'https://www.facebook.com/phimngan.tongtai/videos'
-  },
-  {
-    name: 'Review Phim Trung Quốc (Donghua & Phim Ngắn)',
-    url: 'https://www.facebook.com/reviewphimtrungquoc/videos'
-  },
-  {
-    name: 'Review Phim Ngắn Hay',
-    url: 'https://www.facebook.com/reviewphimngan.hay/videos'
-  }
+  // --- LÔ 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang (5 kênh KHÔNG TRÙNG LÔ 1) ---
+  [
+    { name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)', url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=videos' },
+    { name: 'Phim Ngắn Tổng Tài Hay', url: 'https://www.facebook.com/phimngan.tongtai/videos' },
+    { name: 'Review Phim Trung Quốc (Donghua & Phim Ngắn)', url: 'https://www.facebook.com/reviewphimtrungquoc/videos' },
+    { name: 'Review Phim Ngắn Hay', url: 'https://www.facebook.com/reviewphimngan.hay/videos' },
+    { name: 'Phim Ngắn Trọng Sinh Kịch Tính', url: 'https://www.facebook.com/phimngan.trongsinh/videos' }
+  ],
+
+  // --- LÔ 3: Donghua 3D & Phim Ngắn Vietsub Tuyển Chọn (5 kênh KHÔNG TRÙNG LÔ 1 VÀ 2) ---
+  [
+    { name: 'Donghua 3D Hay', url: 'https://www.facebook.com/donghua3dhay/videos' },
+    { name: 'Review Phim 3D Donghua', url: 'https://www.facebook.com/reviewphim3d.donghua/videos' },
+    { name: 'Hoạt Hình 3D Hay', url: 'https://www.facebook.com/hoathinh3d.hay/videos' },
+    { name: 'Phim Ngắn Vietsub Tuyển Chọn', url: 'https://www.facebook.com/phimngan.vietsub/videos' },
+    { name: 'Review Phim Ngắn TQ', url: 'https://www.facebook.com/reviewphimngan.tq/videos' }
+  ]
 ];
 
 // Danh sách trang hoặc từ khóa BỊ CẤM VĨNH VIỄN
@@ -384,31 +371,37 @@ export async function runCrawlAndReport() {
   let blockedCount = 0;
   let shortRejectedCount = 0;
 
-  // Cơ chế xoay vòng thông minh (Round-Robin: 5 kênh/lần)
-  let cursor = { currentChannelIndex: 0, cycleCount: 1 };
+  // 6. Cơ chế xoay vòng thông minh KHÔNG TRÙNG LẶP (Zero Overlap Round-Robin: Đúng 5 kênh/đợt)
+  let cursor = { currentBatchIndex: 0, cycleCount: 1, lastRunChannels: [] };
   if (fs.existsSync(CURSOR_PATH)) {
     try {
       cursor = JSON.parse(fs.readFileSync(CURSOR_PATH, 'utf-8'));
     } catch (e) {}
   }
 
-  const startIdx = (cursor.currentChannelIndex || 0) % ALL_TARGET_SOURCES.length;
-  const activeSources = [];
-  for (let i = 0; i < BATCH_SIZE; i++) {
-    const idx = (startIdx + i) % ALL_TARGET_SOURCES.length;
-    activeSources.push(ALL_TARGET_SOURCES[idx]);
+  let batchIdx = (cursor.currentBatchIndex || 0) % CHANNEL_BATCHES.length;
+  let activeSources = CHANNEL_BATCHES[batchIdx];
+
+  // KIỂM TRA BẢO VỆ TUYỆT ĐỐI (ZERO OVERLAP CHECK):
+  // 5 trang cào hiện tại TUYỆT ĐỐI KHÔNG ĐƯỢC trùng với bất kỳ trang nào đã cào ở đợt liền trước đó!
+  const lastChannels = cursor.lastRunChannels || [];
+  const overlap = activeSources.filter((s) => lastChannels.includes(s.name));
+  if (overlap.length > 0) {
+    console.log(`⚠️ [ZERO OVERLAP GUARD] Phát hiện ${overlap.length} kênh trùng (${overlap.map((o) => o.name).join(', ')}), tự động chuyển sang Lô tiếp theo!`);
+    batchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
+    activeSources = CHANNEL_BATCHES[batchIdx];
   }
 
-  console.log(`\n🔄 [ROUND-ROBIN CRAWLER] Vòng #${cursor.cycleCount || 1} - Quét 5 kênh xoay vòng (Từ vị trí #${startIdx + 1}/${ALL_TARGET_SOURCES.length}):`);
+  console.log(`\n🔄 [ZERO OVERLAP CRAWLER] Vòng #${cursor.cycleCount || 1} - Lô #${batchIdx + 1}/${CHANNEL_BATCHES.length} (5 kênh hoàn toàn mới so với đợt trước):`);
   activeSources.forEach((s, idx) => console.log(`   👉 ${idx + 1}. [${s.name}]`));
 
-  const nextIdx = (startIdx + BATCH_SIZE) % ALL_TARGET_SOURCES.length;
-  const nextCycle = nextIdx < startIdx ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
+  const nextBatchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
+  const nextCycle = nextBatchIdx === 0 ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
   fs.writeFileSync(
     CURSOR_PATH,
     JSON.stringify(
       {
-        currentChannelIndex: nextIdx,
+        currentBatchIndex: nextBatchIdx,
         cycleCount: nextCycle,
         lastRunChannels: activeSources.map((s) => s.name),
         updatedAt: new Date().toISOString()
