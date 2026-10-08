@@ -396,7 +396,7 @@ export async function runCrawlAndReport() {
       const slug = slugify(title) + '-' + item.id.slice(-4);
 
       const newFilm = {
-        id: 'series-2am-' + item.id,
+        id: 'series-reels-' + item.id,
         slug,
         title,
         description: cleanDescription(meta.description, title),
@@ -410,8 +410,8 @@ export async function runCrawlAndReport() {
         updatedAt: new Date().toISOString().split('T')[0],
         episodes: [
           {
-            id: 'ep-2am-' + item.id,
-            seriesId: 'series-2am-' + item.id,
+            id: 'ep-reels-' + item.id,
+            seriesId: 'series-reels-' + item.id,
             partNumber: 1,
             title,
             originalUrl: item.url,

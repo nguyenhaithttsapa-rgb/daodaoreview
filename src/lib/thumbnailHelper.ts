@@ -3,11 +3,7 @@ export const BRAND_POSTER = '/avatar.jpg';
 export const BRAND_OG_IMAGE = '/og-image.jpg';
 
 export function getFallbackPoster(seed: string = ''): string {
-  // Nếu seed chứa mã số ID của video Reel Facebook, chuyển hướng đến ảnh gốc của video đó
-  const matchId = seed.match(/(\d{10,25})/);
-  if (matchId) {
-    return `/thumbnails/${matchId[1]}.jpg`;
-  }
+  // Ảnh dự phòng duy nhất khi ảnh gốc gặp sự cố là logo thương hiệu chính thức /avatar.jpg
   return BRAND_POSTER;
 }
 
