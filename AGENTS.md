@@ -29,6 +29,10 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
 - **Thứ Tự Sắp Xếp (Newest First):** Video mới thêm/duyệt phải luôn được `unshift` lên đầu mảng trong `src/data/database.json`. Mục Reels trên trang chủ phải hiển thị các video đăng mới nhất lên đầu danh sách.
 - **Làm Sạch Caption:** Tự động loại bỏ hashtag spam, số điện thoại, link Shopee/Lazada affiliate, icon rác trước khi lưu tiêu đề và mô tả phim.
 - **CẤM CÀO TỪ MARSX FILES / KHU TRÚ ẨN 2AM:** Nghiêm cấm cào video từ fanpage `Khu Trú Ẩn 2AM` (ID: `61590438917651`) hoặc bất kỳ nguồn nào đăng clip ngắn AI 20 giây đóng dấu `Marsx Files`. Website chỉ đăng tải phim ngắn drama, phim hoạt hình 3D review tóm tắt có diễn biến câu chuyện và lời thoại hoàn chỉnh, tuyệt đối không nhận clip demo cảnh AI ngắn vô nghĩa.
+- **TIÊU CHUẨN THỜI LƯỢNG TỐI THIỂU: PHIM PHẢI TỪ 30 PHÚT TRỞ LÊN (>= 1800 GIÂY):**
+  - Tuyệt đối LOẠI BỎ và NGHIÊM CẤM tất cả các video/clip ngắn chỉ vài phút (các clip Reels 1-3 phút).
+  - Mọi phim và video nạp vào CSDL bắt buộc phải có thời lượng tối thiểu từ 30 phút trở lên (`duration >= 1800s`), ưu tiên hàng đầu các phim full trọn bộ 45 phút, 1h, 2h, 3h, 5h, 10h review tóm tắt cốt truyện hoàn chỉnh.
+  - Bộ cào dữ liệu (Crawler) chuyển mục tiêu quét sang tab `/videos/` (Video dài) của các Fanpage, trích xuất thời lượng thật (`HH:MM:SS` hoặc `MM:SS`) và tính ra giây. Nếu thời lượng dưới 30 phút (< 30:00) -> LOẠI BỎ LẬP TỨC, không nạp vào website.
 - **TUYỆT ĐỐI CẤM VIDEO CA NHẠC / MV / OST / KARAOKE / CLIP LỒNG NHẠC VU VƠ:** Hệ thống chỉ đăng tải phim dài full, phim hoạt hình 3D Donghua review tóm tắt có cốt truyện và lời thoại / thuyết minh hoàn chỉnh. ƯU TIÊN HÀNG ĐẦU các video phim full trọn bộ (Full tập, Full 5h, 8h, 9h, 10h, Trọn bộ). Nghiêm cấm cào các clip ngắn 1-3 phút chỉ ghép nhạc nền, MV ca khúc OST vietsub/karaoke (như OST phim, nhạc hoa vietsub), hoặc clip status tâm trạng vu vơ không có cốt truyện phim. Bất kỳ nguồn nào đăng clip ca nhạc/karaoke/status tình cảm phải bị loại bỏ vĩnh viễn khỏi danh sách kênh mục tiêu.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu

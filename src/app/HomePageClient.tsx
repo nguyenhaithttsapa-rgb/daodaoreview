@@ -439,6 +439,14 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
                         </span>
                       ))}
                     </div>
+                    {series.episodes?.[0]?.duration && (
+                      <div className="absolute bottom-3 right-3 z-20">
+                        <span className="px-2 py-0.5 rounded-md bg-black/80 backdrop-blur-md text-[11px] font-mono font-bold text-amber-300 border border-amber-500/40 shadow-sm flex items-center gap-1">
+                          <Clock className="w-3 h-3 text-amber-400" />
+                          {series.episodes[0].duration}
+                        </span>
+                      </div>
+                    )}
                   </div>
 
                   <div className="p-4 space-y-2">

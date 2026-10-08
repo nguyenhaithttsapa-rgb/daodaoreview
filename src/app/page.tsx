@@ -48,6 +48,7 @@ export default async function Home() {
           title: ep.title,
           partNumber: ep.partNumber,
           aspectRatio: ep.aspectRatio,
+          duration: ep.duration,
           viewsCount: ep.viewsCount,
           platform: ep.platform,
           originalUrl: ep.originalUrl,
