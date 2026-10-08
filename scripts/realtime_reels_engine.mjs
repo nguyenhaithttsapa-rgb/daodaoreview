@@ -359,7 +359,7 @@ export async function runCrawlAndReport() {
 
   // 6.1 Quét từ các nguồn Fanpage chuyên môn
   for (const source of TARGET_SOURCES) {
-    const rawReels = await scrapeFanpageReels(source.url, source.name, 10);
+    const rawReels = await scrapeFanpageReels(source.url, source.name, 40);
 
     for (const item of rawReels) {
       // Bỏ qua nếu video đã có trong database
