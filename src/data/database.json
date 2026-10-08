@@ -1,5 +1,44 @@
 [
   {
+    "id": "series-long-486097983844510",
+    "slug": "10k-luot-xem-78-cam-xuc-full-phim-tron-bo-review-phim-than-chu-vo-van-thanh-4510",
+    "title": "10K lượt xem · 78 cảm xúc | Full Phim ( trọn bộ ) Review phim   Thần chủ vô vạn thành   nam chính cưới vợ của em trai song sinh và trở thành thần chủ | Cuộc Sống Muôn Màu T6",
+    "description": "Full Phim ( trọn bộ ) Review phim Thần chủ vô vạn thành nam chính cưới vợ của em trai song sinh và trở thành thần chủ",
+    "thumbnail": "/thumbnails/486097983844510.jpg",
+    "coverImage": "/thumbnails/486097983844510.jpg",
+    "channelName": "Võ Thần Chúa Tể Review #68",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-long-486097983844510",
+        "seriesId": "series-long-486097983844510",
+        "partNumber": 1,
+        "title": "10K lượt xem · 78 cảm xúc | Full Phim ( trọn bộ ) Review phim   Thần chủ vô vạn thành   nam chính cưới vợ của em trai song sinh và trở thành thần chủ | Cuộc Sống Muôn Màu T6",
+        "originalUrl": "https://www.facebook.com/watch/?v=486097983844510",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D486097983844510&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:50",
+        "thumbnail": "/thumbnails/486097983844510.jpg",
+        "viewsCount": 54103,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
     "id": "series-long-1431414324725248",
     "slug": "review-phim-van-co-sinh-tu-tron-bo-adg-review-5248",
     "title": "REVIEW PHIM : VÁN CỜ SINH TỬ.TRỌN BỘ | AĐG Review",
