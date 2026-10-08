@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-08T16:02:12.527Z",
-  "formattedTime": "23:02:12 8/10/2026",
-  "totalSeries": 154,
-  "totalEpisodes": 154,
-  "totalViews": 8722247,
-  "newlyAddedInSession": 1,
-  "blockedNonEmbeddable": 0,
+  "timestamp": "2026-10-08T16:21:49.799Z",
+  "formattedTime": "23:21:49 8/10/2026",
+  "totalSeries": 274,
+  "totalEpisodes": 274,
+  "totalViews": 15767220,
+  "newlyAddedInSession": 120,
+  "blockedNonEmbeddable": 13,
   "googleAnalyticsId": "G-HYVH98WXZN",
   "status": "ACTIVE_REALTIME"
 }

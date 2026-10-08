@@ -15,15 +15,57 @@ if (!fs.existsSync(THUMB_DIR)) {
   fs.mkdirSync(THUMB_DIR, { recursive: true });
 }
 
-// 1. Danh sách các kênh/Fanpage mục tiêu chuyên về Phim truyện AI, Hoạt hình 3D, Tu tiên, Trùng sinh Trung Quốc
-const TARGET_SOURCES = [
+const CURSOR_PATH = path.join(rootDir, 'src', 'data', 'crawler_cursor.json');
+const BATCH_SIZE = 5;
+
+// 1. Danh sách toàn bộ các kênh/Fanpage mục tiêu chất lượng cao (chia theo nhóm chuyên môn)
+const ALL_TARGET_SOURCES = [
+  // --- Nhóm 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao ---
+  {
+    name: 'Review 3D Hay (Hoạt Hình Tu Tiên)',
+    url: 'https://www.facebook.com/review3dhay/reels'
+  },
+  {
+    name: 'Hoạt Hình 3D Trung Quốc',
+    url: 'https://www.facebook.com/hh3dtq/reels'
+  },
+  {
+    name: 'Hoạt Hình 3D Review',
+    url: 'https://www.facebook.com/hoathinh3dreview/reels'
+  },
+  {
+    name: 'HH3D Vietsub (Donghua Tu Chân)',
+    url: 'https://www.facebook.com/hh3d.vietsub/reels'
+  },
+  {
+    name: 'Hoạt Hình 3D VN',
+    url: 'https://www.facebook.com/hoathinh3d.vn/reels'
+  },
+
+  // --- Nhóm 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang ---
   {
     name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)',
     url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=reels_tab'
   },
   {
-    name: 'Hoạt Hình 3D Trung Quốc',
-    url: 'https://www.facebook.com/hh3dtq/reels'
+    name: 'Phim Ngắn Tổng Tài Hay',
+    url: 'https://www.facebook.com/phimngan.tongtai/reels'
+  },
+  {
+    name: 'Review Phim Trung Quốc (Donghua & Phim Ngắn)',
+    url: 'https://www.facebook.com/reviewphimtrungquoc/reels'
+  },
+  {
+    name: 'Ghiền Phim Trung Quốc (Ngôn Tình & Trọng Sinh)',
+    url: 'https://www.facebook.com/ghienphimtrungquoc/reels'
+  },
+  {
+    name: 'Review Phim Ngắn Hay',
+    url: 'https://www.facebook.com/reviewphimngan.hay/reels'
+  },
+  {
+    name: 'Mê Phim Trung Quốc (Review Kịch Tính)',
+    url: 'https://www.facebook.com/mephimtrungquoc/reels'
   }
 ];
 
@@ -42,14 +84,15 @@ const VALID_KEYWORDS = [
   'tiên hiệp', 'tiên sư xuống núi', 'tiên sư', 'xuống núi', 'tu tiên', 'kiếm tiên', 'chiến thần',
   'mạt thế', 'pháo đài di động', 'pháo đài', 'khoa học viễn tưởng', 'khoa huyễn', 'tận thế', 'sinh tồn',
   'cung đấu', 'gia đấu', 'trạch đấu', 'hầu môn', 'tranh sủng', 'hậu cung', 'tranh đoạt',
-  '3d trung quốc', 'donghua', 'anime 3d', 'đấu phá thương khung', 'phàm nhân tu tiên',
+  '3d trung quốc', 'donghua', 'anime 3d', 'đấu phá thương khung', 'phàm nhân tu tiên', 'tiên nghịch',
   'thần ma', 'vạn cổ', 'bá chủ', 'phim ngắn', 'kịch tính', 'hệ thống', 'truyện ai',
-  'thế giới hoàn mỹ', 'già thiên', 'thôn phệ tinh không', 'đại chúa tể',
-  'aigc', 'aivideo', 'chineseaesthetics', 'hoạt hình'
+  'thế giới hoàn mỹ', 'già thiên', 'thôn phệ tinh không', 'đại chúa tể', 'thạch hạo', 'liễu thần',
+  'aigc', 'aivideo', 'chineseaesthetics', 'hoạt hình', 'tương dạ', 'hoang thiên đế'
 ];
 
 const BLACKLIST_KEYWORDS = [
-  'bóng đá', 'thời sự', 'tai nạn', 'chính trị', 'tin tức', 'scandal', 'xổ số', 'lô đề', 'cá độ'
+  'bóng đá', 'thời sự', 'tai nạn', 'chính trị', 'tin tức', 'scandal', 'xổ số', 'lô đề', 'cá độ',
+  'song joong ki', 'hanbok', 'kpop', 'running man', 'bts', 'blackpink', 'sao hàn'
 ];
 
 function decodeHtmlEntities(str) {
@@ -173,8 +216,8 @@ function cleanTitle(rawCaption, fallback = 'Hoạt Hình 3D Đỉnh Cao') {
     .split('\n')[0]
     .replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '')
     .replace(/#[\w\u00C0-\u1EF9]+/g, '')
-    .replace(/[🔥⚡💥✨🎉🎬❤️👍👇👉\[\]\(\)\{\}]/g, '')
     .replace(/(?:0\d{9,10}|\+84\d{9,10})/g, '')
+    .replace(/[^\p{L}\p{N}\s,.\-!?:;'"“”‘’]/gu, '')
     .replace(/\s+/g, ' ')
     .trim();
   return text.length > 5 ? text.slice(0, 80).trim() : fallback;
@@ -241,26 +284,131 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-function detectCategory(title, desc = '') {
-  const lower = (title + ' ' + desc).toLowerCase();
-  if (lower.includes('tổng tài') || lower.includes('lọ lem') || lower.includes('ngôn tình') || lower.includes('bảo bối') || lower.includes('hào môn')) {
-    return 'Ngôn Tình - Tổng Tài';
-  }
-  if (lower.includes('báo thù') || lower.includes('trùng sinh') || lower.includes('trọng sinh') || lower.includes('sát phạt') || lower.includes('nghịch tập')) {
-    return 'Báo Thù - Trùng Sinh';
-  }
-  if (lower.includes('xuyên không') || lower.includes('xuyên sách') || lower.includes('cổ đại') || lower.includes('hóa thân') || lower.includes('cổ trang')) {
-    return 'Xuyên Không - Cổ Đại';
-  }
-  if (lower.includes('tiên sư') || lower.includes('xuống núi') || lower.includes('tu tiên') || lower.includes('tiên hiệp') || lower.includes('kiếm tiên')) {
-    return 'Tiên Hiệp - Tiên Sư Xuống Núi';
-  }
-  if (lower.includes('mạt thế') || lower.includes('pháo đài') || lower.includes('viễn tưởng') || lower.includes('tận thế') || lower.includes('khoa huyễn')) {
+function detectCategory(title, desc = '', channel = '') {
+  const text = (title + ' ' + desc + ' ' + channel).toLowerCase();
+  
+  // 1. Mạt Thế - Pháo Đài Di Động
+  if (
+    text.includes('mạt thế') ||
+    text.includes('pháo đài') ||
+    text.includes('tận thế') ||
+    text.includes('khoa học viễn tưởng') ||
+    text.includes('khoa huyễn') ||
+    text.includes('zombie') ||
+    text.includes('tang thi') ||
+    text.includes('sinh tồn') ||
+    text.includes('hậu tận thế')
+  ) {
     return 'Mạt Thế - Pháo Đài Di Động';
   }
-  if (lower.includes('cung đấu') || lower.includes('gia đấu') || lower.includes('trạch đấu') || lower.includes('hầu môn') || lower.includes('hậu cung')) {
+
+  // 2. Tiên Hiệp - Tiên Sư Xuống Núi & Hoạt Hình 3D Tu Tiên
+  if (
+    text.includes('tiên sư') ||
+    text.includes('xuống núi') ||
+    text.includes('tu tiên') ||
+    text.includes('tiên hiệp') ||
+    text.includes('kiếm tiên') ||
+    text.includes('tu vi') ||
+    text.includes('tu luyện') ||
+    text.includes('tiên tôn') ||
+    text.includes('tiên nữ') ||
+    text.includes('thần tiên') ||
+    text.includes('linh căn') ||
+    text.includes('linh khí') ||
+    text.includes('ma tôn') ||
+    text.includes('tông môn') ||
+    text.includes('thiên đạo') ||
+    text.includes('đấu phá') ||
+    text.includes('phàm nhân') ||
+    text.includes('hoàn mỹ') ||
+    text.includes('già thiên') ||
+    text.includes('thôn phệ') ||
+    text.includes('chí tôn') ||
+    text.includes('kiếm vượt') ||
+    text.includes('kiếm trấn') ||
+    text.includes('táng phủ') ||
+    text.includes('tam giới') ||
+    text.includes('đấu khí') ||
+    text.includes('thiên kiêu') ||
+    text.includes('lục địa thần tiên') ||
+    text.includes('tạp dịch') ||
+    text.includes('hạ nhân') ||
+    channel.toLowerCase().includes('3d')
+  ) {
+    return 'Tiên Hiệp - Tiên Sư Xuống Núi';
+  }
+
+  // 3. Cung Đấu - Gia Đấu
+  if (
+    text.includes('cung đấu') ||
+    text.includes('gia đấu') ||
+    text.includes('trạch đấu') ||
+    text.includes('hầu môn') ||
+    text.includes('hậu cung') ||
+    text.includes('hoàng phi') ||
+    text.includes('hoàng hậu') ||
+    text.includes('phi tần') ||
+    text.includes('tranh sủng') ||
+    text.includes('nữ đế')
+  ) {
     return 'Cung Đấu - Gia Đấu';
   }
+
+  // 4. Xuyên Không - Cổ Đại
+  if (
+    text.includes('xuyên không') ||
+    text.includes('xuyên sách') ||
+    text.includes('cổ đại') ||
+    text.includes('hóa thân') ||
+    text.includes('cổ trang') ||
+    text.includes('vương phi') ||
+    text.includes('vương gia') ||
+    text.includes('hoàng tử') ||
+    text.includes('đại minh')
+  ) {
+    return 'Xuyên Không - Cổ Đại';
+  }
+
+  // 5. Báo Thù - Trùng Sinh
+  if (
+    text.includes('báo thù') ||
+    text.includes('trùng sinh') ||
+    text.includes('trọng sinh') ||
+    text.includes('sát phạt') ||
+    text.includes('nghịch tập') ||
+    text.includes('kiếp trước') ||
+    text.includes('tái sinh') ||
+    text.includes('hủy hôn')
+  ) {
+    return 'Báo Thù - Trùng Sinh';
+  }
+
+  // 6. Ngôn Tình - Tổng Tài
+  if (
+    text.includes('tổng tài') ||
+    text.includes('lọ lem') ||
+    text.includes('ngôn tình') ||
+    text.includes('bảo bối') ||
+    text.includes('hào môn') ||
+    text.includes('ở rể') ||
+    text.includes('tỷ phú') ||
+    text.includes('thiên kim') ||
+    text.includes('thực tập sinh') ||
+    text.includes('học bá') ||
+    text.includes('ly hôn') ||
+    text.includes('bạn trai') ||
+    text.includes('vợ') ||
+    text.includes('chồng') ||
+    text.includes('đính hôn') ||
+    text.includes('kết hôn') ||
+    text.includes('hợp đồng') ||
+    text.includes('thủ khoa') ||
+    text.includes('bác sĩ')
+  ) {
+    return 'Ngôn Tình - Tổng Tài';
+  }
+
   return 'Ngôn Tình - Tổng Tài';
 }
 
@@ -286,7 +434,7 @@ async function scrapeFanpageReels(pageUrl, channelName, maxToExtract = 15) {
     await page.waitForTimeout(2500);
 
     // Cuộn trang để nạp thêm video Reels mới
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < 8; i++) {
       // Đóng dialog đăng nhập nếu xuất hiện chặn cuộn
       try {
         const closeBtn = await page.$('div[aria-label="Đóng"], div[aria-label="Close"], [role="button"]:has-text("Đóng")');
@@ -362,8 +510,43 @@ export async function runCrawlAndReport() {
   let newlyAdded = 0;
   let blockedCount = 0;
 
-  // 6.1 Quét từ các nguồn Fanpage chuyên môn
-  for (const source of TARGET_SOURCES) {
+  // 6.1 Cơ chế xoay vòng thông minh (Round-Robin Rotating Crawl: 5 kênh/lần)
+  let cursor = { currentChannelIndex: 0, cycleCount: 1 };
+  if (fs.existsSync(CURSOR_PATH)) {
+    try {
+      cursor = JSON.parse(fs.readFileSync(CURSOR_PATH, 'utf-8'));
+    } catch (e) {}
+  }
+
+  const startIdx = (cursor.currentChannelIndex || 0) % ALL_TARGET_SOURCES.length;
+  const activeSources = [];
+  for (let i = 0; i < BATCH_SIZE; i++) {
+    const idx = (startIdx + i) % ALL_TARGET_SOURCES.length;
+    activeSources.push(ALL_TARGET_SOURCES[idx]);
+  }
+
+  console.log(`\n🔄 [ROUND-ROBIN CRAWLER] Vòng #${cursor.cycleCount || 1} - Quét 5 kênh xoay vòng (Từ vị trí #${startIdx + 1}/${ALL_TARGET_SOURCES.length}):`);
+  activeSources.forEach((s, idx) => console.log(`   👉 ${idx + 1}. [${s.name}]`));
+
+  // Cập nhật vị trí xoay vòng cho lần kế tiếp và lưu file
+  const nextIdx = (startIdx + BATCH_SIZE) % ALL_TARGET_SOURCES.length;
+  const nextCycle = nextIdx < startIdx ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
+  fs.writeFileSync(
+    CURSOR_PATH,
+    JSON.stringify(
+      {
+        currentChannelIndex: nextIdx,
+        cycleCount: nextCycle,
+        lastRunChannels: activeSources.map((s) => s.name),
+        updatedAt: new Date().toISOString()
+      },
+      null,
+      2
+    ),
+    'utf-8'
+  );
+
+  for (const source of activeSources) {
     const rawReels = await scrapeFanpageReels(source.url, source.name, 40);
 
     for (const item of rawReels) {
@@ -401,7 +584,7 @@ export async function runCrawlAndReport() {
       const posterPath = meta.localThumbnail;
       const fallbackTitle = `Hoạt Hình 3D #${item.id.slice(-4)}`;
       const title = extractFilmTitle(meta, item.rawCaption, fallbackTitle);
-      const cat = detectCategory(title, meta.description || '');
+      const cat = detectCategory(title, meta.description || '', source.name);
       const slug = slugify(title) + '-' + item.id.slice(-4);
 
       const newFilm = {
@@ -438,6 +621,7 @@ export async function runCrawlAndReport() {
       // ĐƯA LÊN ĐẦU (Newest First)
       db.unshift(newFilm);
       newlyAdded++;
+      fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), 'utf-8');
       console.log(`🎉 [THÀNH CÔNG] Đã nạp video mới: "${title}" (Thể loại: ${cat}) | Ảnh gốc: ${posterPath}`);
     }
   }
@@ -480,13 +664,20 @@ export async function runCrawlAndReport() {
   return stats;
 }
 
-// Chế độ chạy liên tục ngầm (Daemon mode mỗi 5 phút)
+// Chế độ chạy liên tục ngầm (Daemon mode an toàn mỗi 5 phút, không trùng lặp)
 if (process.argv.includes('--daemon')) {
-  console.log(`🤖 [DAEMON] Khởi động tiến trình cào ngầm định kỳ 5 phút/lần...`);
-  runCrawlAndReport();
-  setInterval(() => {
-    runCrawlAndReport();
-  }, 5 * 60 * 1000);
+  console.log(`🤖 [DAEMON] Khởi động tiến trình cào ngầm tuần tự 5 phút/lần...`);
+  (async () => {
+    while (true) {
+      try {
+        await runCrawlAndReport();
+      } catch (err) {
+        console.error('⚠️ [DAEMON] Lỗi trong phiên quét:', err.message);
+      }
+      console.log(`⏳ [DAEMON] Đang nghỉ 5 phút trước phiên quét tiếp theo...\n`);
+      await new Promise((resolve) => setTimeout(resolve, 5 * 60 * 1000));
+    }
+  })();
 } else {
   runCrawlAndReport();
 }
