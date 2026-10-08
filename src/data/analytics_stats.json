@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-08T14:51:14.641Z",
-  "formattedTime": "21:51:14 8/10/2026",
-  "totalSeries": 1319,
-  "totalEpisodes": 1319,
-  "totalViews": 76016404,
-  "fixedThumbs": 1218,
+  "timestamp": "2026-10-08T14:55:53.777Z",
+  "formattedTime": "21:55:53 8/10/2026",
+  "totalSeries": 123,
+  "totalEpisodes": 123,
+  "totalViews": 7253816,
+  "removedMarsx2AMCount": 1196,
   "googleAnalyticsId": "G-HYVH98WXZN",
-  "status": "ACTIVE_CLEANED"
+  "status": "MARSX_2AM_PERMANENTLY_REMOVED"
 }

@@ -18,10 +18,6 @@ if (!fs.existsSync(THUMB_DIR)) {
 // 1. Danh sách các kênh/Fanpage mục tiêu chuyên về Phim truyện AI, Hoạt hình 3D, Tu tiên, Trùng sinh Trung Quốc
 const TARGET_SOURCES = [
   {
-    name: 'Khu Trú Ẩn 2AM (3D Anime & Tu Tiên)',
-    url: 'https://www.facebook.com/profile.php?id=61590438917651&sk=reels_tab'
-  },
-  {
     name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)',
     url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=reels_tab'
   },
@@ -29,6 +25,14 @@ const TARGET_SOURCES = [
     name: 'Hoạt Hình 3D Trung Quốc',
     url: 'https://www.facebook.com/hh3dtq/reels'
   }
+];
+
+// Danh sách trang hoặc từ khóa BỊ CẤM VĨNH VIỄN (Loại bỏ triệt để video ngắn Marsx Files, clip AI 20s không phải phim)
+const BLACKLISTED_SOURCES = [
+  '61590438917651', // Khu Trú Ẩn 2AM
+  'marsx',
+  'marsx files',
+  'celestial court'
 ];
 
 const VALID_KEYWORDS = [
@@ -63,6 +67,9 @@ function decodeHtmlEntities(str) {
 function isGenreMatched(text, isTrustedChannel = true) {
   if (!text) return isTrustedChannel;
   const lower = text.toLowerCase();
+  if (BLACKLISTED_SOURCES.some((kw) => lower.includes(kw))) {
+    return false;
+  }
   if (BLACKLIST_KEYWORDS.some((kw) => lower.includes(kw))) {
     return false;
   }

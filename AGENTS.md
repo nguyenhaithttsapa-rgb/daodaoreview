@@ -28,6 +28,7 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
 - **Kiểm Tra Bản Quyền Nhúng Nghiêm Ngặt (Embed Gatekeeper):** Trước khi nạp bất kỳ video nào, bắt buộc gọi `checkEmbeddable(url)`. Nếu HTML trả về chứa bất kỳ dấu hiệu cấm nhúng: `_3i0p`, `_3i0o`, `_2go0`, `không nhúng được`, `Không khả dụng`, `thuộc sở hữu của người khác`, `cannot be embedded`, `không thể phát`, `Video không hiển thị`, `Video Unavailable` -> Lập tức BỎ QUA video đó. Tuyệt đối không để video lỗi lọt vào website.
 - **Thứ Tự Sắp Xếp (Newest First):** Video mới thêm/duyệt phải luôn được `unshift` lên đầu mảng trong `src/data/database.json`. Mục Reels trên trang chủ phải hiển thị các video đăng mới nhất lên đầu danh sách.
 - **Làm Sạch Caption:** Tự động loại bỏ hashtag spam, số điện thoại, link Shopee/Lazada affiliate, icon rác trước khi lưu tiêu đề và mô tả phim.
+- **CẤM CÀO TỪ MARSX FILES / KHU TRÚ ẨN 2AM:** Nghiêm cấm cào video từ fanpage `Khu Trú Ẩn 2AM` (ID: `61590438917651`) hoặc bất kỳ nguồn nào đăng clip ngắn AI 20 giây đóng dấu `Marsx Files`. Website chỉ đăng tải phim ngắn drama, phim hoạt hình 3D review tóm tắt có diễn biến câu chuyện và lời thoại hoàn chỉnh, tuyệt đối không nhận clip demo cảnh AI ngắn vô nghĩa.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.

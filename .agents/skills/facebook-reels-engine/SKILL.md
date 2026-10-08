@@ -79,6 +79,7 @@ const isBlocked =
   html.includes('không tồn tại nữa hoặc bạn không có quyền xem');
 ```
 * **Nếu `isBlocked === true`:** LẬP TỨC LOẠI BỎ VIDEO, KHÔNG NẠP VÀO CSDL.
+* **CẤM CÀO NGUỒN MARSX FILES / KHU TRÚ ẨN 2AM:** Tuyệt đối không cào từ fanpage `Khu Trú Ẩn 2AM` (ID: `61590438917651`) hoặc bất kỳ nguồn clip demo cảnh AI ngắn 20 giây đóng dấu `Marsx Files`. Chỉ nhận phim review, phim ngắn có kịch bản, lời thoại rõ ràng.
 
 ---
 
