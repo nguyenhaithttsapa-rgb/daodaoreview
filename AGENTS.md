@@ -40,6 +40,10 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
   - Danh sách nguồn được phân chia thành các lô độc lập (Lô 1, Lô 2, Lô 3...), mỗi lô gồm 5 kênh riêng biệt. Quét tuần tự theo từng lô, hoàn thành tất cả các lô mới xoay vòng lại từ đầu.
   - Lưu trạng thái và kiểm tra chéo qua `crawler_cursor.json` để bảo đảm 0% trùng lặp giữa 2 đợt quét liên tiếp.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
+- **QUY CHUẨN ĐIỀU CHỈNH LÔ TIẾP THEO 5 KÊNH MỚI HOÀN TOÀN & LƯU FILE WORD:**
+  - 5 kênh trong Lô tiếp theo bắt buộc phải là **5 kênh MỚI HOÀN TOÀN**, tuyệt đối không trùng lặp với bất kỳ kênh nào trong các Lô đã cào trước đó (`NewBatch ∩ (Batch1 ∪ Batch2 ∪ Batch3 ...) = ∅`).
+  - Toàn bộ danh sách các kênh đã cào, kênh mới đang theo dõi và các lô cào bắt buộc phải được lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
+  - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.

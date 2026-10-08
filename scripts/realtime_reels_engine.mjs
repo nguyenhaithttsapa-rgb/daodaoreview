@@ -2,6 +2,7 @@ import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -48,6 +49,15 @@ const CHANNEL_BATCHES = [
     { name: 'Hoạt Hình 3D Hay', url: 'https://www.facebook.com/hoathinh3d.hay/videos' },
     { name: 'Phim Ngắn Vietsub Tuyển Chọn', url: 'https://www.facebook.com/phimngan.vietsub/videos' },
     { name: 'Review Phim Ngắn TQ', url: 'https://www.facebook.com/reviewphimngan.tq/videos' }
+  ],
+
+  // --- LÔ 4 (LÔ TIẾP THEO): 5 KÊNH MỚI HOÀN TOÀN (100% KHÔNG TRÙNG LÔ 1, 2, 3) ---
+  [
+    { name: 'Hoạt Hình 3D Thuyết Minh', url: 'https://www.facebook.com/hoathinh3df/videos' },
+    { name: 'Mê Hoạt Hình 3D Trung Quốc', url: 'https://www.facebook.com/mehoathinh3dtq/videos' },
+    { name: 'Review Phim Hay Mỗi Ngày', url: 'https://www.facebook.com/reviewphimhaymoingay/videos' },
+    { name: 'Phim Hay Tuyển Chọn', url: 'https://www.facebook.com/phimhaytuyenchon.official/videos' },
+    { name: 'Kho Phim Hoạt Hình 3D', url: 'https://www.facebook.com/khophimhoathinh3d/videos' }
   ]
 ];
 
@@ -519,6 +529,14 @@ export async function runCrawlAndReport() {
   console.log(`- Video bị chặn nhúng (đã lọc bỏ): ${blockedCount}`);
   console.log(`- Tổng số phim dài chuẩn hiện có trong CSDL: ${db.length}`);
   console.log(`======================================================\n`);
+
+  // Tự động cập nhật và đồng bộ file Word danh sách kênh
+  try {
+    execSync('python scripts/export_channel_list_docx.py', { cwd: rootDir, stdio: 'ignore' });
+    console.log('📄 [FILE WORD] Đã tự động cập nhật danh sách kênh vào Danh_Sach_Kenh_Da_Cao.docx');
+  } catch (docxErr) {
+    console.warn('⚠️ Lỗi cập nhật file Word:', docxErr.message);
+  }
 
   return { newlyAdded, total: db.length, blockedCount, shortRejectedCount };
 }
