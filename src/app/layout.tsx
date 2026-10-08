@@ -44,6 +44,20 @@ export const metadata: Metadata = {
     description: "Trải nghiệm giải trí tinh gọn, đỉnh cao và hoàn toàn miễn phí. Không quảng cáo rác.",
     images: ["https://daodaoreview.com/og-image.jpg"],
   },
+  alternates: {
+    canonical: 'https://daodaoreview.com/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   icons: {
     icon: [
       { url: "/favicon.ico" },
@@ -53,6 +67,7 @@ export const metadata: Metadata = {
   },
   other: {
     'msvalidate.01': '5D1A03A3348433D435E89B34514DE8F0',
+    'robots': 'index, follow, max-image-preview:large',
   },
 };
 
@@ -66,6 +81,10 @@ export default function RootLayout({
       lang="vi"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
+      <head>
+        <link rel="canonical" href="https://daodaoreview.com/" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
+      </head>
       <body className="min-h-full flex flex-col bg-[#05010a] text-slate-100 font-sans selection:bg-cyan-500 selection:text-white relative overflow-x-hidden">
         {/* Google Analytics */}
         <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-HYVH98WXZN" />

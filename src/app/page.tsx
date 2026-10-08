@@ -62,5 +62,10 @@ export default async function Home() {
     console.error('Failed to read db:', err);
   }
 
-  return <HomePageClient initialSeries={series} />;
+  return (
+    <>
+      <h1 className="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
+      <HomePageClient initialSeries={series} />
+    </>
+  );
 }
