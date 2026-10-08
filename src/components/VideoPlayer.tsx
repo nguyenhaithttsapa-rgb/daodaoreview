@@ -38,6 +38,13 @@ export default function VideoPlayer({
     episode.aspectRatio === '9:16' ||
     (episode.title && (episode.title.includes('Dọc') || episode.title.includes('Reel')));
 
+  // Tối ưu link embed để loại bỏ tối đa đề xuất rác & chú thích thừa
+  let cleanEmbedUrl = episode.embedUrl;
+  if (episode.platform === 'youtube' || cleanEmbedUrl.includes('youtube.com/embed/')) {
+    const separator = cleanEmbedUrl.includes('?') ? '&' : '?';
+    cleanEmbedUrl = `${cleanEmbedUrl}${separator}rel=0&modestbranding=1&iv_load_policy=3`;
+  }
+
   // Pre-load các trang phim kế tiếp và trước đó để chuyển trang siêu tốc
   useEffect(() => {
     if (prevFilm?.slug) {
@@ -47,6 +54,11 @@ export default function VideoPlayer({
       router.prefetch(`/watch/${nextFilm.slug}`);
     }
   }, [prevFilm?.slug, nextFilm?.slug, router]);
+
+  // Reset trạng thái transitioning khi đổi phim (đảm bảo không bao giờ bị kẹt)
+  useEffect(() => {
+    setTransitioning(null);
+  }, [episode.id, cleanEmbedUrl]);
 
   // Lắng nghe sự kiện thoát Fullscreen (bằng nút cứng điện thoại hoặc phím Esc)
   useEffect(() => {
@@ -59,17 +71,19 @@ export default function VideoPlayer({
 
   // Điều hướng sang phim trước
   const navigateToPrev = useCallback(() => {
-    if (!prevFilm?.slug || transitioning) return;
+    if (!prevFilm?.slug) return;
     setTransitioning({ direction: 'prev', title: prevFilm.title });
     router.push(`/watch/${prevFilm.slug}`);
-  }, [prevFilm, transitioning, router]);
+    setTimeout(() => setTransitioning(null), 2000);
+  }, [prevFilm, router]);
 
   // Điều hướng sang phim tiếp theo
   const navigateToNext = useCallback(() => {
-    if (!nextFilm?.slug || transitioning) return;
+    if (!nextFilm?.slug) return;
     setTransitioning({ direction: 'next', title: nextFilm.title });
     router.push(`/watch/${nextFilm.slug}`);
-  }, [nextFilm, transitioning, router]);
+    setTimeout(() => setTransitioning(null), 2000);
+  }, [nextFilm, router]);
 
   // Lắng nghe phím điều hướng bàn phím (Desktop)
   useEffect(() => {
@@ -120,21 +134,18 @@ export default function VideoPlayer({
       const diffX = endX - startX;
       const diffY = endY - startY;
 
-      // Vuốt quá chậm (> 600ms) thường là thao tác đọc lướt, không phải vuốt chuyển phim
-      if (duration > 600) return;
+      // Cho phép thời gian vuốt thoải mái lên đến 900ms
+      if (duration > 900) return;
 
       const absX = Math.abs(diffX);
       const absY = Math.abs(diffY);
-      const minDistance = 45;
+      const minDistance = 30;
 
       if (absX < minDistance && absY < minDistance) return;
 
-      // Nếu đang cuộn sâu đọc mô tả phía dưới thì không chặn vuốt dọc đọc nội dung
-      const isScrolledDeep = typeof window !== 'undefined' && window.scrollY > 300;
-
+      // Ưu tiên trục vuốt lớn hơn
       if (absY > absX) {
-        // Vuốt dọc
-        if (isScrolledDeep) return;
+        // Vuốt dọc (Lên / Xuống)
         if (diffY < -minDistance) {
           // Vuốt lên -> Phim tiếp theo
           navigateToNext();
@@ -143,7 +154,7 @@ export default function VideoPlayer({
           navigateToPrev();
         }
       } else {
-        // Vuốt ngang (trái/phải)
+        // Vuốt ngang (Trái / Phải)
         if (diffX < -minDistance) {
           // Vuốt sang trái -> Phim tiếp theo
           navigateToNext();
@@ -182,13 +193,13 @@ export default function VideoPlayer({
     const endX = e.changedTouches[0].clientX;
     const endY = e.changedTouches[0].clientY;
     const duration = Date.now() - start.time;
-    if (duration > 700) return;
+    if (duration > 900) return;
 
     const diffX = endX - start.x;
     const diffY = endY - start.y;
     const absX = Math.abs(diffX);
     const absY = Math.abs(diffY);
-    const minDistance = 40;
+    const minDistance = 30;
 
     if (absX < minDistance && absY < minDistance) return;
 
@@ -231,13 +242,6 @@ export default function VideoPlayer({
       console.log('Fullscreen error:', err);
     }
   };
-
-  // Tối ưu link embed để loại bỏ tối đa đề xuất rác & chú thích thừa
-  let cleanEmbedUrl = episode.embedUrl;
-  if (episode.platform === 'youtube' || cleanEmbedUrl.includes('youtube.com/embed/')) {
-    const separator = cleanEmbedUrl.includes('?') ? '&' : '?';
-    cleanEmbedUrl = `${cleanEmbedUrl}${separator}rel=0&modestbranding=1&iv_load_policy=3`;
-  }
 
   return (
     <div
@@ -282,8 +286,9 @@ export default function VideoPlayer({
             : 'max-w-4xl aspect-video'
         } bg-black ${isFullscreen ? '' : 'rounded-xl border border-cyan-500/20 shadow-inner'} overflow-hidden`}
       >
-        {/* Iframe trình phát video */}
+        {/* Iframe trình phát video: BẮT BUỘC có key={cleanEmbedUrl} để React hủy video cũ và nạp ngay video mới khi vuốt */}
         <iframe
+          key={cleanEmbedUrl}
           src={cleanEmbedUrl}
           title={episode.title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -291,23 +296,23 @@ export default function VideoPlayer({
           className="absolute top-0 left-0 w-full h-full border-0"
         />
 
-        {/* Dải bắt cử chỉ mép trái & phải: Cho phép vuốt chuyển phim từ 2 bên rìa mà không chặn nút play ở trung tâm */}
+        {/* Dải bắt cử chỉ mép trái & phải: Bắt trọn thao tác vuốt từ mép màn hình */}
         <div
-          className="absolute top-12 bottom-14 left-0 w-8 z-20 pointer-events-auto touch-none"
+          className="absolute top-12 bottom-16 left-0 w-10 z-20 pointer-events-auto touch-none"
           onTouchStart={handlePlayerTouchStart}
           onTouchEnd={handlePlayerTouchEnd}
           aria-label="Vuốt mép trái đổi phim"
         />
         <div
-          className="absolute top-12 bottom-14 right-0 w-8 z-20 pointer-events-auto touch-none"
+          className="absolute top-12 bottom-16 right-0 w-10 z-20 pointer-events-auto touch-none"
           onTouchStart={handlePlayerTouchStart}
           onTouchEnd={handlePlayerTouchEnd}
           aria-label="Vuốt mép phải đổi phim"
         />
 
-        {/* Thanh cử chỉ và chuyển phim nổi ở đáy video */}
+        {/* Thanh cử chỉ và chuyển phim nổi ở đáy video: Bắt trọn thao tác vuốt lên/xuống của ngón tay */}
         <div
-          className="absolute bottom-0 inset-x-0 h-12 bg-gradient-to-t from-black/95 via-black/60 to-transparent z-20 flex items-center justify-between px-3 text-xs font-semibold select-none pointer-events-auto backdrop-blur-[2px]"
+          className="absolute bottom-0 inset-x-0 h-14 bg-gradient-to-t from-black/95 via-black/75 to-transparent z-20 flex items-center justify-between px-3 text-xs font-semibold select-none pointer-events-auto backdrop-blur-[2px]"
           onTouchStart={handlePlayerTouchStart}
           onTouchEnd={handlePlayerTouchEnd}
         >
@@ -317,16 +322,19 @@ export default function VideoPlayer({
               navigateToPrev();
             }}
             disabled={!prevFilm}
-            className="flex items-center gap-1 text-slate-300 hover:text-cyan-400 py-1.5 px-2 rounded-lg hover:bg-white/10 transition-colors disabled:opacity-40"
+            className="flex items-center gap-1.5 text-slate-200 hover:text-cyan-400 py-2 px-3 rounded-xl bg-black/50 border border-white/10 hover:bg-white/10 transition-colors disabled:opacity-40"
             title={prevFilm ? `Phim trước: ${prevFilm.title}` : 'Không có'}
           >
             <ChevronLeft className="w-4 h-4 text-cyan-400" />
-            <span className="hidden sm:inline text-[11px]">Phim trước</span>
+            <span className="text-xs font-bold">Phim trước</span>
           </button>
 
-          <div className="flex items-center gap-1.5 text-cyan-300/90 bg-cyan-950/70 border border-cyan-500/30 px-3 py-1 rounded-full shadow-[0_0_12px_rgba(6,182,212,0.3)]">
-            <ArrowUpDown className="w-3.5 h-3.5 text-cyan-400 animate-pulse" />
-            <span className="text-[11px] tracking-wide">Vuốt để đổi phim</span>
+          <div
+            onClick={() => navigateToNext()}
+            className="flex items-center gap-1.5 text-cyan-300 bg-cyan-950/90 border border-cyan-500/50 px-3 py-1.5 rounded-full shadow-[0_0_12px_rgba(6,182,212,0.4)] cursor-pointer hover:bg-cyan-900/80 transition-colors"
+          >
+            <ArrowUpDown className="w-4 h-4 text-cyan-400 animate-bounce" />
+            <span className="text-xs font-bold tracking-wide">Vuốt lên đổi phim</span>
           </div>
 
           <button
@@ -335,10 +343,10 @@ export default function VideoPlayer({
               navigateToNext();
             }}
             disabled={!nextFilm}
-            className="flex items-center gap-1 text-slate-300 hover:text-purple-400 py-1.5 px-2 rounded-lg hover:bg-white/10 transition-colors disabled:opacity-40"
+            className="flex items-center gap-1.5 text-slate-200 hover:text-purple-400 py-2 px-3 rounded-xl bg-black/50 border border-white/10 hover:bg-white/10 transition-colors disabled:opacity-40"
             title={nextFilm ? `Phim tiếp: ${nextFilm.title}` : 'Không có'}
           >
-            <span className="hidden sm:inline text-[11px]">Phim tiếp</span>
+            <span className="text-xs font-bold">Phim tiếp</span>
             <ChevronRight className="w-4 h-4 text-purple-400" />
           </button>
         </div>

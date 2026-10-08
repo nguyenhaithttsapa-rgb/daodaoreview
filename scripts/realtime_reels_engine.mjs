@@ -290,9 +290,9 @@ async function scrapeFanpageReels(pageUrl, channelName, maxToExtract = 15) {
     await page.waitForTimeout(2500);
 
     // Cuộn trang để nạp thêm video Reels mới
-    for (let i = 0; i < 3; i++) {
-      await page.evaluate(() => window.scrollBy(0, 1800));
-      await page.waitForTimeout(1500);
+    for (let i = 0; i < 6; i++) {
+      await page.evaluate(() => window.scrollBy(0, 2000));
+      await page.waitForTimeout(1200);
     }
 
     const items = await page.evaluate(() => {
@@ -475,13 +475,13 @@ export async function runCrawlAndReport() {
   return stats;
 }
 
-// Chế độ chạy liên tục ngầm (Daemon mode mỗi 15 phút)
+// Chế độ chạy liên tục ngầm (Daemon mode mỗi 5 phút)
 if (process.argv.includes('--daemon')) {
-  console.log(`🤖 [DAEMON] Khởi động tiến trình cào ngầm định kỳ 15 phút/lần...`);
+  console.log(`🤖 [DAEMON] Khởi động tiến trình cào ngầm định kỳ 5 phút/lần...`);
   runCrawlAndReport();
   setInterval(() => {
     runCrawlAndReport();
-  }, 15 * 60 * 1000);
+  }, 5 * 60 * 1000);
 } else {
   runCrawlAndReport();
 }
