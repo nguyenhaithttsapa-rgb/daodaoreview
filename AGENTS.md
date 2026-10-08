@@ -40,9 +40,10 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
   - Danh sách nguồn được phân chia thành các lô độc lập (Lô 1, Lô 2, Lô 3...), mỗi lô gồm 5 kênh riêng biệt. Quét tuần tự theo từng lô, hoàn thành tất cả các lô mới xoay vòng lại từ đầu.
   - Lưu trạng thái và kiểm tra chéo qua `crawler_cursor.json` để bảo đảm 0% trùng lặp giữa 2 đợt quét liên tiếp.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
-- **QUY CHUẨN ĐIỀU CHỈNH LÔ TIẾP THEO 5 KÊNH MỚI HOÀN TOÀN & LƯU FILE WORD:**
-  - 5 kênh trong Lô tiếp theo bắt buộc phải là **5 kênh MỚI HOÀN TOÀN**, tuyệt đối không trùng lặp với bất kỳ kênh nào trong các Lô đã cào trước đó (`NewBatch ∩ (Batch1 ∪ Batch2 ∪ Batch3 ...) = ∅`).
-  - Toàn bộ danh sách các kênh đã cào, kênh mới đang theo dõi và các lô cào bắt buộc phải được lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
+- **QUY CHUẨN LÔ KẾ TIẾP (LÔ n+1) TUYỆT ĐỐI KHÔNG TRÙNG VỚI TẤT CẢ CÁC LÔ TRƯỚC & LƯU FILE WORD:**
+  - Khi bot cào các video ở Lô kế tiếp là **Lô (n+1)**, toàn bộ các kênh được quét ở Lô $(n+1)$ **BẮT BUỘC KHÔNG ĐƯỢC TRÙNG với bất kỳ kênh nào của tất cả các Lô trước đó** (từ Lô 1 đến Lô $n$):
+    $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^{n} \text{Lô}_i \right) = \emptyset$$
+  - Toàn bộ các kênh đã quét qua từng Lô bắt buộc phải được lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu

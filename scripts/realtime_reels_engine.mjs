@@ -58,6 +58,15 @@ const CHANNEL_BATCHES = [
     { name: 'Review Phim Hay Mỗi Ngày', url: 'https://www.facebook.com/reviewphimhaymoingay/videos' },
     { name: 'Phim Hay Tuyển Chọn', url: 'https://www.facebook.com/phimhaytuyenchon.official/videos' },
     { name: 'Kho Phim Hoạt Hình 3D', url: 'https://www.facebook.com/khophimhoathinh3d/videos' }
+  ],
+
+  // --- LÔ 5: 5 KÊNH MỚI TIẾP NỐI (100% KHÔNG TRÙNG LÔ 1, 2, 3, 4) ---
+  [
+    { name: 'Thế Giới Donghua 3D', url: 'https://www.facebook.com/thegioidonghua3d/videos' },
+    { name: 'Tu Tiên Giới 3D', url: 'https://www.facebook.com/tutiengioi3d/videos' },
+    { name: 'Phim Ngắn Báo Thù Kịch Tính', url: 'https://www.facebook.com/phimnganbaothu/videos' },
+    { name: 'Tuyển Tập Phim Ngắn Hay', url: 'https://www.facebook.com/tuyentapphimnganhay/videos' },
+    { name: 'Mê Donghua Tu Chân', url: 'https://www.facebook.com/medonghuatuchan/videos' }
   ]
 ];
 
@@ -381,8 +390,8 @@ export async function runCrawlAndReport() {
   let blockedCount = 0;
   let shortRejectedCount = 0;
 
-  // 6. Cơ chế xoay vòng thông minh KHÔNG TRÙNG LẶP (Zero Overlap Round-Robin: Đúng 5 kênh/đợt)
-  let cursor = { currentBatchIndex: 0, cycleCount: 1, lastRunChannels: [] };
+  // 6. Cơ chế xoay vòng thông minh KHÔNG TRÙNG LẶP VỚI TẤT CẢ CÁC LÔ TRƯỚC (Lô n+1 Rules)
+  let cursor = { currentBatchIndex: 0, cycleCount: 1, lastRunChannels: [], allPreviousScannedChannels: [] };
   if (fs.existsSync(CURSOR_PATH)) {
     try {
       cursor = JSON.parse(fs.readFileSync(CURSOR_PATH, 'utf-8'));
@@ -392,21 +401,26 @@ export async function runCrawlAndReport() {
   let batchIdx = (cursor.currentBatchIndex || 0) % CHANNEL_BATCHES.length;
   let activeSources = CHANNEL_BATCHES[batchIdx];
 
-  // KIỂM TRA BẢO VỆ TUYỆT ĐỐI (ZERO OVERLAP CHECK):
-  // 5 trang cào hiện tại TUYỆT ĐỐI KHÔNG ĐƯỢC trùng với bất kỳ trang nào đã cào ở đợt liền trước đó!
-  const lastChannels = cursor.lastRunChannels || [];
-  const overlap = activeSources.filter((s) => lastChannels.includes(s.name));
-  if (overlap.length > 0) {
-    console.log(`⚠️ [ZERO OVERLAP GUARD] Phát hiện ${overlap.length} kênh trùng (${overlap.map((o) => o.name).join(', ')}), tự động chuyển sang Lô tiếp theo!`);
+  // KIỂM TRA BẢO VỆ TUYỆT ĐỐI (ZERO OVERLAP RULE LÔ n+1):
+  // Các kênh ở Lô n+1 TUYỆT ĐỐI KHÔNG ĐƯỢC trùng với bất kỳ kênh nào của tất cả các Lô trước đó!
+  const allPreviousChannels = new Set(cursor.allPreviousScannedChannels || []);
+  let overlapWithPrevious = activeSources.filter((s) => allPreviousChannels.has(s.name));
+  let searchAttempts = 0;
+  while (overlapWithPrevious.length > 0 && searchAttempts < CHANNEL_BATCHES.length) {
+    console.log(`⚠️ [RULE LÔ n+1] Phát hiện ${overlapWithPrevious.length} kênh đã từng cào ở các Lô trước (${overlapWithPrevious.map((o) => o.name).join(', ')}), tự động chuyển sang Lô kế tiếp!`);
     batchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
     activeSources = CHANNEL_BATCHES[batchIdx];
+    overlapWithPrevious = activeSources.filter((s) => allPreviousChannels.has(s.name));
+    searchAttempts++;
   }
 
-  console.log(`\n🔄 [ZERO OVERLAP CRAWLER] Vòng #${cursor.cycleCount || 1} - Lô #${batchIdx + 1}/${CHANNEL_BATCHES.length} (5 kênh hoàn toàn mới so với đợt trước):`);
+  console.log(`\n🔄 [ZERO OVERLAP CRAWLER LÔ n+1] Vòng #${cursor.cycleCount || 1} - Lô #${batchIdx + 1}/${CHANNEL_BATCHES.length} (5 kênh hoàn toàn mới so với tất cả các Lô trước):`);
   activeSources.forEach((s, idx) => console.log(`   👉 ${idx + 1}. [${s.name}]`));
 
   const nextBatchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
   const nextCycle = nextBatchIdx === 0 ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
+  const updatedPreviousChannels = Array.from(new Set([...(cursor.allPreviousScannedChannels || []), ...activeSources.map((s) => s.name)]));
+
   fs.writeFileSync(
     CURSOR_PATH,
     JSON.stringify(
@@ -414,6 +428,7 @@ export async function runCrawlAndReport() {
         currentBatchIndex: nextBatchIdx,
         cycleCount: nextCycle,
         lastRunChannels: activeSources.map((s) => s.name),
+        allPreviousScannedChannels: updatedPreviousChannels,
         updatedAt: new Date().toISOString()
       },
       null,

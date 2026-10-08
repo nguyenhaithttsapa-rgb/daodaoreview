@@ -73,8 +73,9 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
         "2. Cấm Ca Nhạc / OST: Tuyệt đối không cào MV, bài hát, karaoke, status âm nhạc không có cốt truyện.\n"
         "3. Kiểm Tra Quyền Nhúng (Embed Gatekeeper): Bỏ qua ngay lập tức mọi video bị cấm nhúng (checkEmbeddable).\n"
         "4. Tải Ảnh Poster Thật: Lưu trực tiếp thumbnail gốc vào public/thumbnails/{id}.jpg.\n"
-        "5. Cơ Chế Xoay Vòng Zero-Overlap: Mỗi lượt quét đúng 5 kênh. 5 kênh trong Lô tiếp theo là 5 KÊNH MỚI HOÀN TOÀN, "
-        "tuyệt đối không trùng với bất kỳ kênh nào trong các lô đã cào trước đó."
+        "5. Quy Chuẩn Lô Kế Tiếp (Lô n+1): Mỗi lượt quét Lô (n+1), toàn bộ 5 kênh được quét BẮT BUỘC KHÔNG ĐƯỢC TRÙNG "
+        "với bất kỳ kênh nào của tất cả các Lô trước đó (Lô 1 đến Lô n): Lô_{n+1} ∩ (∪_{i=1}^n Lô_i) = ∅. "
+        "Toàn bộ các kênh được quét được lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word này."
     )
     r2 = p_rule.add_run(rules_text)
     r2.font.size = Pt(9.5)
@@ -86,7 +87,7 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
     batches_data = [
         {
             "batch_title": "LÔ 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao (5 Kênh)",
-            "status": "ĐÃ CÀO (Chu kỳ 1, 4)",
+            "status": "ĐÃ CÀO (Chu kỳ 1, 4, 6)",
             "status_color": "166534",
             "channels": [
                 ("1", "Hoạt Hình 3D Trung Quốc", "https://www.facebook.com/hh3dtq/videos", "Donghua 3D Tu Tiên", "Đã quét & nạp"),
@@ -98,7 +99,7 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
         },
         {
             "batch_title": "LÔ 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang (5 Kênh)",
-            "status": "ĐÃ CÀO (Chu kỳ 2)",
+            "status": "ĐÃ CÀO (Chu kỳ 2, 6)",
             "status_color": "166534",
             "channels": [
                 ("6", "Đại Đạo Review (Phim Ngắn & Trọng Sinh)", "https://www.facebook.com/profile.php?id=61566431730101&sk=videos", "Trọng Sinh Báo Thù Full", "Đã quét & nạp"),
@@ -110,7 +111,7 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
         },
         {
             "batch_title": "LÔ 3: Donghua 3D & Phim Ngắn Vietsub Tuyển Chọn (5 Kênh)",
-            "status": "ĐÃ CÀO (Chu kỳ 3 - Vừa nạp 2 phim 1h11m và 2h06m)",
+            "status": "ĐÃ CÀO (Chu kỳ 3, 6 - Đã nạp 2 phim 1h11m và 2h06m)",
             "status_color": "166534",
             "channels": [
                 ("11", "Donghua 3D Hay", "https://www.facebook.com/donghua3dhay/videos", "Hoạt Hình 3D Hot", "Đã quét & lọc >=30p"),
@@ -121,15 +122,27 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
             ]
         },
         {
-            "batch_title": "LÔ TIẾP THEO (LÔ 4): 5 KÊNH MỚI HOÀN TOÀN (100% KHÔNG TRÙNG LÔ 1, 2, 3)",
-            "status": "⭐ ĐANG KÍCH HOẠT LÔ MỚI TIẾP THEO",
+            "batch_title": "LÔ KẾ TIẾP (LÔ 4): 5 KÊNH MỚI HOÀN TOÀN (100% KHÔNG TRÙNG LÔ 1, 2, 3)",
+            "status": "⭐ ĐANG KÍCH HOẠT LÔ KẾ TIẾP (n+1)",
             "status_color": "1D4ED8",
             "channels": [
-                ("16", "Hoạt Hình 3D Thuyết Minh", "https://www.facebook.com/hoathinh3df/videos", "Donghua 3D Thuyết Minh Full", "Kênh Mới 100% - Quét kế tiếp"),
-                ("17", "Mê Hoạt Hình 3D Trung Quốc", "https://www.facebook.com/mehoathinh3dtq/videos", "3D Donghua Tu Tiên Mới", "Kênh Mới 100% - Quét kế tiếp"),
-                ("18", "Review Phim Hay Mỗi Ngày", "https://www.facebook.com/reviewphimhaymoingay/videos", "Review Phim Dài Full", "Kênh Mới 100% - Quét kế tiếp"),
-                ("19", "Phim Hay Tuyển Chọn", "https://www.facebook.com/phimhaytuyenchon.official/videos", "Phim Hay Trọn Bộ", "Kênh Mới 100% - Quét kế tiếp"),
-                ("20", "Kho Phim Hoạt Hình 3D", "https://www.facebook.com/khophimhoathinh3d/videos", "Tuyển Tập Hoạt Hình 3D", "Kênh Mới 100% - Quét kế tiếp")
+                ("16", "Hoạt Hình 3D Thuyết Minh", "https://www.facebook.com/hoathinh3df/videos", "Donghua 3D Thuyết Minh Full", "Kênh Mới Lô n+1 - Quét kế tiếp"),
+                ("17", "Mê Hoạt Hình 3D Trung Quốc", "https://www.facebook.com/mehoathinh3dtq/videos", "3D Donghua Tu Tiên Mới", "Kênh Mới Lô n+1 - Quét kế tiếp"),
+                ("18", "Review Phim Hay Mỗi Ngày", "https://www.facebook.com/reviewphimhaymoingay/videos", "Review Phim Dài Full", "Kênh Mới Lô n+1 - Quét kế tiếp"),
+                ("19", "Phim Hay Tuyển Chọn", "https://www.facebook.com/phimhaytuyenchon.official/videos", "Phim Hay Trọn Bộ", "Kênh Mới Lô n+1 - Quét kế tiếp"),
+                ("20", "Kho Phim Hoạt Hình 3D", "https://www.facebook.com/khophimhoathinh3d/videos", "Tuyển Tập Hoạt Hình 3D", "Kênh Mới Lô n+1 - Quét kế tiếp")
+            ]
+        },
+        {
+            "batch_title": "LÔ TIẾP SAU (LÔ 5): 5 KÊNH MỚI TIẾP NỐI (100% KHÔNG TRÙNG LÔ 1, 2, 3, 4)",
+            "status": "⭐ DỰ PHÒNG LÔ (n+2) - KHÔNG TRÙNG LẶP",
+            "status_color": "0284C7",
+            "channels": [
+                ("21", "Thế Giới Donghua 3D", "https://www.facebook.com/thegioidonghua3d/videos", "Donghua 3D Chiếu Rạp", "Kênh Mới Lô n+2"),
+                ("22", "Tu Tiên Giới 3D", "https://www.facebook.com/tutiengioi3d/videos", "Tu Tiên Huyền Huyễn Mới", "Kênh Mới Lô n+2"),
+                ("23", "Phim Ngắn Báo Thù Kịch Tính", "https://www.facebook.com/phimnganbaothu/videos", "Báo Thù & Trọng Sinh", "Kênh Mới Lô n+2"),
+                ("24", "Tuyển Tập Phim Ngắn Hay", "https://www.facebook.com/tuyentapphimnganhay/videos", "Phim Ngắn Đô Thị Kịch Tính", "Kênh Mới Lô n+2"),
+                ("25", "Mê Donghua Tu Chân", "https://www.facebook.com/medonghuatuchan/videos", "Donghua Tu Chân Đỉnh Cao", "Kênh Mới Lô n+2")
             ]
         }
     ]
