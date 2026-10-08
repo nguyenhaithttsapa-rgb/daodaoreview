@@ -1,12 +1,12 @@
 {
-  "currentBatchIndex": 1,
-  "cycleCount": 7,
+  "currentBatchNumber": 8,
+  "lastRunBatchNumber": 7,
   "lastRunChannels": [
-    "Hoạt Hình 3D Trung Quốc",
-    "Hoạt Hình 3D Review",
-    "Review 3D Hay (Hoạt Hình Tu Tiên)",
-    "HH3D Vietsub (Donghua Tu Chân)",
-    "Hoạt Hình 3D VN"
+    "Phàm Nhân Tu Tiên 3D",
+    "Già Thiên 3D Thuyết Minh",
+    "Vũ Động Càn Khôn 3D",
+    "Phim Ngắn Hào Môn Kịch Tính",
+    "Trọng Sinh Báo Thù Hay"
   ],
   "allPreviousScannedChannels": [
     "Hoạt Hình 3D Trung Quốc",
@@ -33,7 +33,17 @@
     "Tu Tiên Giới 3D",
     "Phim Ngắn Báo Thù Kịch Tính",
     "Tuyển Tập Phim Ngắn Hay",
-    "Mê Donghua Tu Chân"
+    "Mê Donghua Tu Chân",
+    "Đấu Phá Thương Khung 3D",
+    "Thế Giới Hoàn Mỹ 3D",
+    "Tiên Nghịch 3D Thuyết Minh",
+    "Phim Ngắn Đô Thị Hay",
+    "Tổng Tài Bá Đạo Review",
+    "Phàm Nhân Tu Tiên 3D",
+    "Già Thiên 3D Thuyết Minh",
+    "Vũ Động Càn Khôn 3D",
+    "Phim Ngắn Hào Môn Kịch Tính",
+    "Trọng Sinh Báo Thù Hay"
   ],
-  "updatedAt": "2026-10-08T17:57:42.376Z"
+  "updatedAt": "2026-10-08T18:08:13.845Z"
 }

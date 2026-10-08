@@ -1,0 +1,332 @@
+[
+  {
+    "batchNumber": 1,
+    "batchTitle": "LÔ 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao",
+    "category": "Donghua 3D Tu Tiên",
+    "status": "ĐÃ CÀO",
+    "channels": [
+      {
+        "name": "Hoạt Hình 3D Trung Quốc",
+        "url": "https://www.facebook.com/hh3dtq/videos",
+        "category": "Donghua 3D Tu Tiên"
+      },
+      {
+        "name": "Hoạt Hình 3D Review",
+        "url": "https://www.facebook.com/hoathinh3dreview/videos",
+        "category": "Donghua 3D Tóm Tắt"
+      },
+      {
+        "name": "Review 3D Hay (Hoạt Hình Tu Tiên)",
+        "url": "https://www.facebook.com/review3dhay/videos",
+        "category": "Tu Chân Huyền Huyễn"
+      },
+      {
+        "name": "HH3D Vietsub (Donghua Tu Chân)",
+        "url": "https://www.facebook.com/hh3d.vietsub/videos",
+        "category": "Donghua Vietsub Full"
+      },
+      {
+        "name": "Hoạt Hình 3D VN",
+        "url": "https://www.facebook.com/hoathinh3d.vn/videos",
+        "category": "3D Anime Tổng Hợp"
+      }
+    ]
+  },
+  {
+    "batchNumber": 2,
+    "batchTitle": "LÔ 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang",
+    "category": "Phim Ngắn Trọng Sinh & Tổng Tài",
+    "status": "ĐÃ CÀO",
+    "channels": [
+      {
+        "name": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+        "url": "https://www.facebook.com/profile.php?id=61566431730101&sk=videos",
+        "category": "Trọng Sinh Báo Thù Full"
+      },
+      {
+        "name": "Phim Ngắn Tổng Tài Hay",
+        "url": "https://www.facebook.com/phimngan.tongtai/videos",
+        "category": "Tổng Tài & Đô Thị"
+      },
+      {
+        "name": "Review Phim Trung Quốc (Donghua & Phim Ngắn)",
+        "url": "https://www.facebook.com/reviewphimtrungquoc/videos",
+        "category": "Phim Ngắn & Donghua"
+      },
+      {
+        "name": "Review Phim Ngắn Hay",
+        "url": "https://www.facebook.com/reviewphimngan.hay/videos",
+        "category": "Kịch Tính Gia Đấu"
+      },
+      {
+        "name": "Phim Ngắn Trọng Sinh Kịch Tính",
+        "url": "https://www.facebook.com/phimngan.trongsinh/videos",
+        "category": "Trọng Sinh Khởi Nghiệp"
+      }
+    ]
+  },
+  {
+    "batchNumber": 3,
+    "batchTitle": "LÔ 3: Donghua 3D & Phim Ngắn Vietsub Tuyển Chọn",
+    "category": "Donghua 3D & Phim Ngắn Vietsub",
+    "status": "ĐÃ CÀO (Đã nạp 2 phim 1h11m và 2h06m)",
+    "channels": [
+      {
+        "name": "Donghua 3D Hay",
+        "url": "https://www.facebook.com/donghua3dhay/videos",
+        "category": "Hoạt Hình 3D Hot"
+      },
+      {
+        "name": "Review Phim 3D Donghua",
+        "url": "https://www.facebook.com/reviewphim3d.donghua/videos",
+        "category": "Review Phim 3D Full"
+      },
+      {
+        "name": "Hoạt Hình 3D Hay",
+        "url": "https://www.facebook.com/hoathinh3d.hay/videos",
+        "category": "Hoạt Hình Chọn Lọc"
+      },
+      {
+        "name": "Phim Ngắn Vietsub Tuyển Chọn",
+        "url": "https://www.facebook.com/phimngan.vietsub/videos",
+        "category": "Phim Ngắn Full Vietsub"
+      },
+      {
+        "name": "Review Phim Ngắn TQ",
+        "url": "https://www.facebook.com/reviewphimngan.tq/videos",
+        "category": "Review Phim Ngắn TQ"
+      }
+    ]
+  },
+  {
+    "batchNumber": 4,
+    "batchTitle": "LÔ 4: Donghua Thuyết Minh & Phim Hay Tuyển Chọn",
+    "category": "Donghua Thuyết Minh & Phim Hay",
+    "status": "ĐÃ CÀO",
+    "channels": [
+      {
+        "name": "Hoạt Hình 3D Thuyết Minh",
+        "url": "https://www.facebook.com/hoathinh3df/videos",
+        "category": "Donghua 3D Thuyết Minh Full"
+      },
+      {
+        "name": "Mê Hoạt Hình 3D Trung Quốc",
+        "url": "https://www.facebook.com/mehoathinh3dtq/videos",
+        "category": "3D Donghua Tu Tiên Mới"
+      },
+      {
+        "name": "Review Phim Hay Mỗi Ngày",
+        "url": "https://www.facebook.com/reviewphimhaymoingay/videos",
+        "category": "Review Phim Dài Full"
+      },
+      {
+        "name": "Phim Hay Tuyển Chọn",
+        "url": "https://www.facebook.com/phimhaytuyenchon.official/videos",
+        "category": "Phim Hay Trọn Bộ"
+      },
+      {
+        "name": "Kho Phim Hoạt Hình 3D",
+        "url": "https://www.facebook.com/khophimhoathinh3d/videos",
+        "category": "Tuyển Tập Hoạt Hình 3D"
+      }
+    ]
+  },
+  {
+    "batchNumber": 5,
+    "batchTitle": "LÔ 5: Thế Giới Donghua 3D & Phim Báo Thù",
+    "category": "Donghua & Báo Thù",
+    "status": "ĐÃ CÀO",
+    "channels": [
+      {
+        "name": "Thế Giới Donghua 3D",
+        "url": "https://www.facebook.com/thegioidonghua3d/videos",
+        "category": "Donghua 3D Chiếu Rạp"
+      },
+      {
+        "name": "Tu Tiên Giới 3D",
+        "url": "https://www.facebook.com/tutiengioi3d/videos",
+        "category": "Tu Tiên Huyền Huyễn Mới"
+      },
+      {
+        "name": "Phim Ngắn Báo Thù Kịch Tính",
+        "url": "https://www.facebook.com/phimnganbaothu/videos",
+        "category": "Báo Thù & Trọng Sinh"
+      },
+      {
+        "name": "Tuyển Tập Phim Ngắn Hay",
+        "url": "https://www.facebook.com/tuyentapphimnganhay/videos",
+        "category": "Phim Ngắn Đô Thị Kịch Tính"
+      },
+      {
+        "name": "Mê Donghua Tu Chân",
+        "url": "https://www.facebook.com/medonghuatuchan/videos",
+        "category": "Donghua Tu Chân Đỉnh Cao"
+      }
+    ]
+  },
+  {
+    "batchNumber": 6,
+    "batchTitle": "LÔ 6 (n+1 MỚI): Đấu Phá & Tiên Nghịch 3D & Tổng Tài Bá Đạo",
+    "category": "Donghua Đỉnh Cao & Đô Thị",
+    "status": "ĐÃ CÀO",
+    "channels": [
+      {
+        "name": "Đấu Phá Thương Khung 3D",
+        "url": "https://www.facebook.com/dauphathuongkhung3d/videos",
+        "category": "Donghua Đấu Khí"
+      },
+      {
+        "name": "Thế Giới Hoàn Mỹ 3D",
+        "url": "https://www.facebook.com/thegioihoanmy3d/videos",
+        "category": "Huyền Huyễn Thần Thoại"
+      },
+      {
+        "name": "Tiên Nghịch 3D Thuyết Minh",
+        "url": "https://www.facebook.com/tiennghich3d/videos",
+        "category": "Tu Chân Nghịch Thiên"
+      },
+      {
+        "name": "Phim Ngắn Đô Thị Hay",
+        "url": "https://www.facebook.com/phimngandothihay/videos",
+        "category": "Đô Thị & Gia Tộc"
+      },
+      {
+        "name": "Tổng Tài Bá Đạo Review",
+        "url": "https://www.facebook.com/tongtaibadaoreview/videos",
+        "category": "Ngôn Tình Tổng Tài"
+      }
+    ]
+  },
+  {
+    "batchNumber": 7,
+    "batchTitle": "LÔ 7 (n+2 MỚI): Phàm Nhân & Già Thiên & Hào Môn Kịch Tính",
+    "category": "Tu Tiên & Hào Môn",
+    "status": "⭐ ĐANG CÀO (Lô n+1 = 7)",
+    "channels": [
+      {
+        "name": "Phàm Nhân Tu Tiên 3D",
+        "url": "https://www.facebook.com/phamnhantutien3d/videos",
+        "category": "Tu Tiên Chân Thực"
+      },
+      {
+        "name": "Già Thiên 3D Thuyết Minh",
+        "url": "https://www.facebook.com/giathien3d/videos",
+        "category": "Vũ Trụ Huyền Huyễn"
+      },
+      {
+        "name": "Vũ Động Càn Khôn 3D",
+        "url": "https://www.facebook.com/vudongcankhon3d/videos",
+        "category": "Võ Hiệp Huyền Ảo"
+      },
+      {
+        "name": "Phim Ngắn Hào Môn Kịch Tính",
+        "url": "https://www.facebook.com/phimnganhaomon/videos",
+        "category": "Gia Đấu Hào Môn"
+      },
+      {
+        "name": "Trọng Sinh Báo Thù Hay",
+        "url": "https://www.facebook.com/trongsinhbaothuhay/videos",
+        "category": "Trọng Sinh Báo Thù"
+      }
+    ]
+  },
+  {
+    "batchNumber": 8,
+    "batchTitle": "LÔ 8 (n+3 MỚI): Đại Chúa Tể & Nữ Cường & Cổ Trang Trọng Sinh",
+    "category": "Đại Thiên Thế Giới & Nữ Cường",
+    "status": "⭐ ĐANG CHỜ CÀO (Lô n+2 = 8)",
+    "channels": [
+      {
+        "name": "Đại Chúa Tể 3D Donghua",
+        "url": "https://www.facebook.com/daichuate3d/videos",
+        "category": "Đại Thiên Thế Giới"
+      },
+      {
+        "name": "Hoạt Hình Tu Chân 3D",
+        "url": "https://www.facebook.com/hoathinhtuchan3d/videos",
+        "category": "Tu Chân Cổ Điển"
+      },
+      {
+        "name": "Mục Thần Ký 3D",
+        "url": "https://www.facebook.com/mucthanky3d/videos",
+        "category": "Thần Thoại Kịch Tính"
+      },
+      {
+        "name": "Review Phim Ngắn Nữ Cường",
+        "url": "https://www.facebook.com/phimngannucuong/videos",
+        "category": "Nữ Cường Đoạt Mệnh"
+      },
+      {
+        "name": "Phim Cổ Trang Trọng Sinh",
+        "url": "https://www.facebook.com/phimcotrangtrongsinh/videos",
+        "category": "Cổ Trang Cung Đình"
+      }
+    ]
+  },
+  {
+    "batchNumber": 9,
+    "batchTitle": "LÔ 9 (n+4 MỚI): Đấu La & Thôn Phệ & Thần Y Xuất Sơn",
+    "category": "Võ Hồn & Tinh Không & Thần Y",
+    "status": "⭐ DỰ PHÒNG LÔ (n+4)",
+    "channels": [
+      {
+        "name": "Tuyệt Thế Đường Môn 3D",
+        "url": "https://www.facebook.com/tuyetthedonmontoan3d/videos",
+        "category": "Hồn Sư Đỉnh Cao"
+      },
+      {
+        "name": "Đấu La Đại Lục 3D",
+        "url": "https://www.facebook.com/dauladailuc3d/videos",
+        "category": "Võ Hồn Thức Tỉnh"
+      },
+      {
+        "name": "Thôn Phệ Tinh Không 3D",
+        "url": "https://www.facebook.com/thonphetinhkhong3d/videos",
+        "category": "Khoa Huyễn & Tinh Không"
+      },
+      {
+        "name": "Review Phim Ngắn Gia Đấu",
+        "url": "https://www.facebook.com/reviewphimngangiadau/videos",
+        "category": "Gia Đấu Tranh Tài"
+      },
+      {
+        "name": "Phim Ngắn Thần Y Xuất Sơn",
+        "url": "https://www.facebook.com/thanyxuatsuon/videos",
+        "category": "Thần Y Đô Thị"
+      }
+    ]
+  },
+  {
+    "batchNumber": 10,
+    "batchTitle": "LÔ 10 (n+5 MỚI): Yanhh3d & HH 3D & Phim Ngắn Triệu View",
+    "category": "Cộng Đồng Hoạt Hình & Triệu View",
+    "status": "⭐ DỰ PHÒNG LÔ (n+5)",
+    "channels": [
+      {
+        "name": "Yanhh3d Hoạt Hình 3D",
+        "url": "https://www.facebook.com/yanhh3d/videos",
+        "category": "Donghua 4K Vietsub"
+      },
+      {
+        "name": "HH 3D Video Thuyết Minh",
+        "url": "https://www.facebook.com/hh3dvideo/videos",
+        "category": "Hoạt Hình 3D Thuyết Minh"
+      },
+      {
+        "name": "Hoạt Hình Trung Quốc Thuyết Minh",
+        "url": "https://www.facebook.com/hoathinhtrungquoc/videos",
+        "category": "Donghua Trung Quốc"
+      },
+      {
+        "name": "Phim Ngắn Triệu View",
+        "url": "https://www.facebook.com/phimngantrieuview/videos",
+        "category": "Phim Triệu View Hot"
+      },
+      {
+        "name": "Đại Nữ Chủ Báo Thù",
+        "url": "https://www.facebook.com/dainuchubaothu/videos",
+        "category": "Nữ Quyền & Báo Thù"
+      }
+    ]
+  }
+]

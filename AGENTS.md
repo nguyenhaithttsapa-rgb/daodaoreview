@@ -40,10 +40,12 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
   - Danh sách nguồn được phân chia thành các lô độc lập (Lô 1, Lô 2, Lô 3...), mỗi lô gồm 5 kênh riêng biệt. Quét tuần tự theo từng lô, hoàn thành tất cả các lô mới xoay vòng lại từ đầu.
   - Lưu trạng thái và kiểm tra chéo qua `crawler_cursor.json` để bảo đảm 0% trùng lặp giữa 2 đợt quét liên tiếp.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
-- **QUY CHUẨN LÔ KẾ TIẾP (LÔ n+1) TUYỆT ĐỐI KHÔNG TRÙNG VỚI TẤT CẢ CÁC LÔ TRƯỚC & LƯU FILE WORD:**
-  - Khi bot cào các video ở Lô kế tiếp là **Lô (n+1)**, toàn bộ các kênh được quét ở Lô $(n+1)$ **BẮT BUỘC KHÔNG ĐƯỢC TRÙNG với bất kỳ kênh nào của tất cả các Lô trước đó** (từ Lô 1 đến Lô $n$):
-    $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^{n} \text{Lô}_i \right) = \emptyset$$
-  - Toàn bộ các kênh đã quét qua từng Lô bắt buộc phải được lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
+- **QUY CHUẨN CÀO MỞ RỘNG VÔ HẠN LÔ KẾ TIẾP (LÔ n+1 = 6, 7, 8... ĐẾN VÔ HẠN):**
+  - Hệ thống TUYỆT ĐỐI KHÔNG XOAY VÒNG LẶP LẠI các Lô kênh cũ.
+  - Mỗi lượt cào kế tiếp, số thứ tự Lô BẮT BUỘC TĂNG THÊM 1 ($n \leftarrow n+1$). Hiện tại có 5 Lô đã cào (Lô 1 đến Lô 5), lượt tiếp theo sẽ cào Lô $n+1=6$, lượt kế tiếp là $n+1=7$, lượt sau nữa là $n+1=8$... cứ liên tục mở rộng đến vô hạn các kênh.
+  - Toàn bộ 5 kênh trong Lô $(n+1)$ TUYỆT ĐỐI KHÔNG ĐƯỢC TRÙNG với bất kỳ kênh nào của tất cả các Lô trước đó (từ Lô 1 đến Lô $n$):
+    $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^n \text{Lô}_i \right) = \emptyset$$
+  - Toàn bộ danh sách tất cả các Lô và 5 kênh của từng Lô bắt buộc phải được tự động lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu

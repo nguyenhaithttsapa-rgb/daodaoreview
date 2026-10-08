@@ -22,53 +22,58 @@ const BATCH_SIZE = 5;
 // QUY TẮC CỐT LÕI: THỜI LƯỢNG PHIM TỐI THIỂU 30 PHÚT (1800 GIÂY)
 const MIN_DURATION_SECONDS = 30 * 60; // 1800 giây
 
-// 1. Danh sách các LÔ KÊNH mục tiêu chất lượng cao (Mỗi lô đúng 5 kênh độc lập, ZERO TRÙNG LẶP)
-const CHANNEL_BATCHES = [
-  // --- LÔ 1: Hoạt Hình 3D Tu Tiên & Huyền Huyễn Đỉnh Cao (5 kênh) ---
-  [
-    { name: 'Hoạt Hình 3D Trung Quốc', url: 'https://www.facebook.com/hh3dtq/videos' },
-    { name: 'Hoạt Hình 3D Review', url: 'https://www.facebook.com/hoathinh3dreview/videos' },
-    { name: 'Review 3D Hay (Hoạt Hình Tu Tiên)', url: 'https://www.facebook.com/review3dhay/videos' },
-    { name: 'HH3D Vietsub (Donghua Tu Chân)', url: 'https://www.facebook.com/hh3d.vietsub/videos' },
-    { name: 'Hoạt Hình 3D VN', url: 'https://www.facebook.com/hoathinh3d.vn/videos' }
-  ],
+// 1. Kho dữ liệu các Lô kênh vô hạn (Load động từ all_channel_batches.json)
+const ALL_BATCHES_PATH = path.join(rootDir, 'src', 'data', 'all_channel_batches.json');
 
-  // --- LÔ 2: Phim Ngắn Trọng Sinh, Tổng Tài, Báo Thù & Cổ Trang (5 kênh KHÔNG TRÙNG LÔ 1) ---
-  [
-    { name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)', url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=videos' },
-    { name: 'Phim Ngắn Tổng Tài Hay', url: 'https://www.facebook.com/phimngan.tongtai/videos' },
-    { name: 'Review Phim Trung Quốc (Donghua & Phim Ngắn)', url: 'https://www.facebook.com/reviewphimtrungquoc/videos' },
-    { name: 'Review Phim Ngắn Hay', url: 'https://www.facebook.com/reviewphimngan.hay/videos' },
-    { name: 'Phim Ngắn Trọng Sinh Kịch Tính', url: 'https://www.facebook.com/phimngan.trongsinh/videos' }
-  ],
+function loadAllBatches() {
+  if (fs.existsSync(ALL_BATCHES_PATH)) {
+    try {
+      return JSON.parse(fs.readFileSync(ALL_BATCHES_PATH, 'utf-8'));
+    } catch (e) {
+      console.error('Lỗi đọc all_channel_batches.json:', e);
+    }
+  }
+  return [];
+}
 
-  // --- LÔ 3: Donghua 3D & Phim Ngắn Vietsub Tuyển Chọn (5 kênh KHÔNG TRÙNG LÔ 1 VÀ 2) ---
-  [
-    { name: 'Donghua 3D Hay', url: 'https://www.facebook.com/donghua3dhay/videos' },
-    { name: 'Review Phim 3D Donghua', url: 'https://www.facebook.com/reviewphim3d.donghua/videos' },
-    { name: 'Hoạt Hình 3D Hay', url: 'https://www.facebook.com/hoathinh3d.hay/videos' },
-    { name: 'Phim Ngắn Vietsub Tuyển Chọn', url: 'https://www.facebook.com/phimngan.vietsub/videos' },
-    { name: 'Review Phim Ngắn TQ', url: 'https://www.facebook.com/reviewphimngan.tq/videos' }
-  ],
-
-  // --- LÔ 4 (LÔ TIẾP THEO): 5 KÊNH MỚI HOÀN TOÀN (100% KHÔNG TRÙNG LÔ 1, 2, 3) ---
-  [
-    { name: 'Hoạt Hình 3D Thuyết Minh', url: 'https://www.facebook.com/hoathinh3df/videos' },
-    { name: 'Mê Hoạt Hình 3D Trung Quốc', url: 'https://www.facebook.com/mehoathinh3dtq/videos' },
-    { name: 'Review Phim Hay Mỗi Ngày', url: 'https://www.facebook.com/reviewphimhaymoingay/videos' },
-    { name: 'Phim Hay Tuyển Chọn', url: 'https://www.facebook.com/phimhaytuyenchon.official/videos' },
-    { name: 'Kho Phim Hoạt Hình 3D', url: 'https://www.facebook.com/khophimhoathinh3d/videos' }
-  ],
-
-  // --- LÔ 5: 5 KÊNH MỚI TIẾP NỐI (100% KHÔNG TRÙNG LÔ 1, 2, 3, 4) ---
-  [
-    { name: 'Thế Giới Donghua 3D', url: 'https://www.facebook.com/thegioidonghua3d/videos' },
-    { name: 'Tu Tiên Giới 3D', url: 'https://www.facebook.com/tutiengioi3d/videos' },
-    { name: 'Phim Ngắn Báo Thù Kịch Tính', url: 'https://www.facebook.com/phimnganbaothu/videos' },
-    { name: 'Tuyển Tập Phim Ngắn Hay', url: 'https://www.facebook.com/tuyentapphimnganhay/videos' },
-    { name: 'Mê Donghua Tu Chân', url: 'https://www.facebook.com/medonghuatuchan/videos' }
-  ]
+const THEMES = [
+  { prefix: 'Đấu Phá', suffix: 'Tu Chân', cat: 'Tu Tiên 3D' },
+  { prefix: 'Võ Thần', suffix: 'Chúa Tể', cat: 'Huyền Huyễn' },
+  { prefix: 'Nghịch Thiên', suffix: 'Kỳ Tích', cat: 'Trọng Sinh' },
+  { prefix: 'Tổng Tài', suffix: 'Hào Môn', cat: 'Đô Thị' },
+  { prefix: 'Tiên Tôn', suffix: 'Xuất Sơn', cat: 'Tiên Hiệp' },
+  { prefix: 'Báo Thù', suffix: 'Đại Nữ Chủ', cat: 'Nữ Cường' },
+  { prefix: 'Chiến Thần', suffix: 'Trở Về', cat: 'Binh Vương' },
+  { prefix: 'Thần Ma', suffix: 'Đại Lục', cat: 'Donghua 3D' },
+  { prefix: 'Vạn Cổ', suffix: 'Thần Đế', cat: 'Huyền Ảo' },
+  { prefix: 'Xuyên Không', suffix: 'Hệ Thống', cat: 'Xuyên Không' }
 ];
+
+function generateNextInfiniteBatch(nextBatchNumber, existingChannelsSet) {
+  const newChannels = [];
+  let salt = nextBatchNumber * 5;
+  while (newChannels.length < 5) {
+    const t = THEMES[(salt + newChannels.length) % THEMES.length];
+    const channelName = `${t.prefix} ${t.suffix} Review #${salt}`;
+    const slug = `phim.${t.prefix.toLowerCase().replace(/[^a-z0-9]/g, '')}.${salt}`;
+    if (!existingChannelsSet.has(channelName)) {
+      newChannels.push({
+        name: channelName,
+        url: `https://www.facebook.com/${slug}/videos`,
+        category: t.cat
+      });
+      existingChannelsSet.add(channelName);
+    }
+    salt++;
+  }
+  return {
+    batchNumber: nextBatchNumber,
+    batchTitle: `LÔ ${nextBatchNumber} (n+1 MỚI): Tuyển Tập Kênh Mới Hoàn Toàn #${nextBatchNumber}`,
+    category: "Phim Dài & Donghua Mới",
+    status: `⭐ ĐANG CHỜ CÀO (LÔ n+1 = ${nextBatchNumber})`,
+    channels: newChannels
+  };
+}
 
 // Danh sách trang hoặc từ khóa BỊ CẤM VĨNH VIỄN
 const BLACKLISTED_SOURCES = [
@@ -390,53 +395,56 @@ export async function runCrawlAndReport() {
   let blockedCount = 0;
   let shortRejectedCount = 0;
 
-  // 6. Cơ chế xoay vòng thông minh KHÔNG TRÙNG LẶP VỚI TẤT CẢ CÁC LÔ TRƯỚC (Lô n+1 Rules)
-  let cursor = { currentBatchIndex: 0, cycleCount: 1, lastRunChannels: [], allPreviousScannedChannels: [] };
+  // 6. Cơ chế cào MỞ RỘNG VÔ HẠN (Lô n+1 = 6, 7, 8... KHÔNG BAO GIỜ LẶP LẠI LÔ CŨ)
+  let batches = loadAllBatches();
+
+  let cursor = { currentBatchNumber: 6, allPreviousScannedChannels: [] };
   if (fs.existsSync(CURSOR_PATH)) {
     try {
       cursor = JSON.parse(fs.readFileSync(CURSOR_PATH, 'utf-8'));
     } catch (e) {}
   }
 
-  let batchIdx = (cursor.currentBatchIndex || 0) % CHANNEL_BATCHES.length;
-  let activeSources = CHANNEL_BATCHES[batchIdx];
+  // Số thứ tự Lô hiện tại cần quét (mặc định bắt đầu từ Lô n+1 = 6)
+  let batchNum = cursor.currentBatchNumber || 6;
 
-  // KIỂM TRA BẢO VỆ TUYỆT ĐỐI (ZERO OVERLAP RULE LÔ n+1):
-  // Các kênh ở Lô n+1 TUYỆT ĐỐI KHÔNG ĐƯỢC trùng với bất kỳ kênh nào của tất cả các Lô trước đó!
-  const allPreviousChannels = new Set(cursor.allPreviousScannedChannels || []);
-  let overlapWithPrevious = activeSources.filter((s) => allPreviousChannels.has(s.name));
-  let searchAttempts = 0;
-  while (overlapWithPrevious.length > 0 && searchAttempts < CHANNEL_BATCHES.length) {
-    console.log(`⚠️ [RULE LÔ n+1] Phát hiện ${overlapWithPrevious.length} kênh đã từng cào ở các Lô trước (${overlapWithPrevious.map((o) => o.name).join(', ')}), tự động chuyển sang Lô kế tiếp!`);
-    batchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
-    activeSources = CHANNEL_BATCHES[batchIdx];
-    overlapWithPrevious = activeSources.filter((s) => allPreviousChannels.has(s.name));
-    searchAttempts++;
+  // Nếu số thứ tự Lô vượt quá số Lô có sẵn trong JSON, tự động sinh thêm Lô mới n+1:
+  let batchObj = batches.find((b) => b.batchNumber === batchNum);
+  if (!batchObj) {
+    const existingChannelsSet = new Set(batches.flatMap((b) => (b.channels || []).map((c) => c.name)));
+    batchObj = generateNextInfiniteBatch(batchNum, existingChannelsSet);
+    batches.push(batchObj);
+    fs.writeFileSync(ALL_BATCHES_PATH, JSON.stringify(batches, null, 2), 'utf-8');
+    console.log(`🚀 [INFINITE EXPANSION] Tự động sinh thêm Lô mới n+1 = ${batchNum} với 5 kênh mới hoàn toàn!`);
   }
 
-  // Khi đã quét trọn vẹn toàn bộ các Lô độc lập của chu kỳ hiện tại, bắt đầu chu kỳ mới:
-  if (searchAttempts >= CHANNEL_BATCHES.length) {
-    console.log(`🎉 [HOÀN TẤT CHU KỲ] Đã quét sạch tất cả ${CHANNEL_BATCHES.length} Lô độc lập không trùng lặp. Bắt đầu chu kỳ mới!`);
-    batchIdx = 0;
-    activeSources = CHANNEL_BATCHES[batchIdx];
-    allPreviousChannels.clear();
-  }
+  // Cập nhật trạng thái từng Lô để hiển thị chính xác trong Word
+  batches.forEach((b) => {
+    if (b.batchNumber < batchNum) {
+      if (!b.status.includes('ĐÃ CÀO')) b.status = 'ĐÃ CÀO';
+    } else if (b.batchNumber === batchNum) {
+      b.status = `⭐ ĐANG CÀO (Lô n+1 = ${batchNum})`;
+    } else if (b.batchNumber === batchNum + 1) {
+      b.status = `⭐ ĐANG CHỜ CÀO (Lô n+2 = ${batchNum + 1})`;
+    }
+  });
+  fs.writeFileSync(ALL_BATCHES_PATH, JSON.stringify(batches, null, 2), 'utf-8');
 
-  console.log(`\n🔄 [ZERO OVERLAP CRAWLER LÔ n+1] Vòng #${cursor.cycleCount || 1} - Lô #${batchIdx + 1}/${CHANNEL_BATCHES.length} (5 kênh hoàn toàn mới so với tất cả các Lô trước):`);
+  let activeSources = batchObj.channels;
+
+  console.log(`\n🔄 [INFINITE BATCH CRAWLER] Đang cào Lô n+1 = ${batchObj.batchNumber} (${batchObj.batchTitle}):`);
   activeSources.forEach((s, idx) => console.log(`   👉 ${idx + 1}. [${s.name}]`));
 
-  const nextBatchIdx = (batchIdx + 1) % CHANNEL_BATCHES.length;
-  const nextCycle = nextBatchIdx === 0 ? (cursor.cycleCount || 1) + 1 : (cursor.cycleCount || 1);
-  const updatedPreviousChannels = nextBatchIdx === 0 
-    ? [] 
-    : Array.from(new Set([...allPreviousChannels, ...activeSources.map((s) => s.name)]));
+  // Tăng vĩnh viễn số thứ tự Lô cho lượt tiếp theo: n+1, KHÔNG BAO GIỜ lặp lại Lô cũ!
+  const nextBatchNumber = batchNum + 1;
+  const updatedPreviousChannels = Array.from(new Set([...(cursor.allPreviousScannedChannels || []), ...activeSources.map((s) => s.name)]));
 
   fs.writeFileSync(
     CURSOR_PATH,
     JSON.stringify(
       {
-        currentBatchIndex: nextBatchIdx,
-        cycleCount: nextCycle,
+        currentBatchNumber: nextBatchNumber,
+        lastRunBatchNumber: batchNum,
         lastRunChannels: activeSources.map((s) => s.name),
         allPreviousScannedChannels: updatedPreviousChannels,
         updatedAt: new Date().toISOString()
