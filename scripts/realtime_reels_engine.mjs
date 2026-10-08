@@ -24,10 +24,6 @@ const TARGET_SOURCES = [
   {
     name: 'Hoạt Hình 3D Trung Quốc',
     url: 'https://www.facebook.com/hh3dtq/reels'
-  },
-  {
-    name: 'Movie Xàm (Review Phim Hay)',
-    url: 'https://www.facebook.com/moviexam/reels'
   }
 ];
 
