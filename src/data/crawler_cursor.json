@@ -1,12 +1,12 @@
 {
-  "currentBatchNumber": 42,
-  "lastRunBatchNumber": 41,
+  "currentBatchNumber": 43,
+  "lastRunBatchNumber": 42,
   "lastRunChannels": [
-    "Báo Thù Đại Nữ Chủ Review #205",
-    "Thần Ma Đại Lục Review #206",
-    "Xuyên Không Hệ Thống Review #207",
-    "Võ Thần Chúa Tể Review #208",
-    "Tổng Tài Hào Môn Review #209"
+    "Đấu Phá Tu Chân Review #210",
+    "Nghịch Thiên Kỳ Tích Review #211",
+    "Tiên Tôn Xuất Sơn Review #212",
+    "Chiến Thần Trở Về Review #213",
+    "Vạn Cổ Thần Đế Review #214"
   ],
   "allPreviousScannedChannels": [
     "Hoạt Hình 3D Trung Quốc",
@@ -213,7 +213,12 @@
     "Thần Ma Đại Lục Review #206",
     "Xuyên Không Hệ Thống Review #207",
     "Võ Thần Chúa Tể Review #208",
-    "Tổng Tài Hào Môn Review #209"
+    "Tổng Tài Hào Môn Review #209",
+    "Đấu Phá Tu Chân Review #210",
+    "Nghịch Thiên Kỳ Tích Review #211",
+    "Tiên Tôn Xuất Sơn Review #212",
+    "Chiến Thần Trở Về Review #213",
+    "Vạn Cổ Thần Đế Review #214"
   ],
-  "updatedAt": "2026-10-08T22:24:17.970Z"
+  "updatedAt": "2026-10-08T22:32:09.232Z"
 }
