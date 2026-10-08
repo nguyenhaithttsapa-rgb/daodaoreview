@@ -1,5 +1,44 @@
 [
   {
+    "id": "series-reels-1633684955168727",
+    "slug": "di-xem-mat-vo-tinh-gap-lai-nu-than-hoc-ba-tham-thich-7-nam-ceo-ba-dao-doi-cuoi-8727",
+    "title": "Đi xem mắt vô tình gặp lại nữ thần học bá thầm thích 7 năm, CEO bá đạo đòi cưới",
+    "description": "Đi xem mắt vô tình gặp lại nữ thần học bá thầm thích 7 năm, CEO bá đạo đòi cưới ngay trong ngày!",
+    "thumbnail": "/thumbnails/1633684955168727.jpg",
+    "coverImage": "/thumbnails/1633684955168727.jpg",
+    "channelName": "Đại Đạo Review",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Reels",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-reels-1633684955168727",
+        "seriesId": "series-reels-1633684955168727",
+        "partNumber": 1,
+        "title": "Đi xem mắt vô tình gặp lại nữ thần học bá thầm thích 7 năm, CEO bá đạo đòi cưới",
+        "originalUrl": "https://www.facebook.com/reel/1633684955168727/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1633684955168727%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "/thumbnails/1633684955168727.jpg",
+        "viewsCount": 49917,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
     "id": "series-reels-2906350426363412",
     "slug": "xuyen-khong-thanh-phe-vat-ta-so-huu-linh-vuc-vo-dich-bung-tay-diet-luon-tien-t-3412",
     "title": "Xuyên Không Thành Phế Vật - Ta Sở Hữu Lĩnh Vực Vô Địch Búng Tay Diệt Luôn Tiên T",
