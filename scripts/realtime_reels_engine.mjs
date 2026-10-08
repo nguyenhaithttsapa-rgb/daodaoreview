@@ -291,8 +291,17 @@ async function scrapeFanpageReels(pageUrl, channelName, maxToExtract = 15) {
 
     // Cuộn trang để nạp thêm video Reels mới
     for (let i = 0; i < 6; i++) {
-      await page.evaluate(() => window.scrollBy(0, 2000));
-      await page.waitForTimeout(1200);
+      // Đóng dialog đăng nhập nếu xuất hiện chặn cuộn
+      try {
+        const closeBtn = await page.$('div[aria-label="Đóng"], div[aria-label="Close"], [role="button"]:has-text("Đóng")');
+        if (closeBtn) {
+          await closeBtn.click().catch(() => {});
+          await page.waitForTimeout(500);
+        }
+      } catch (e) {}
+
+      await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+      await page.waitForTimeout(1500);
     }
 
     const items = await page.evaluate(() => {
