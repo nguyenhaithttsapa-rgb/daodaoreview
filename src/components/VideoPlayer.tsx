@@ -310,47 +310,6 @@ export default function VideoPlayer({
           aria-label="Vuốt mép phải đổi phim"
         />
 
-        {/* Thanh cử chỉ và chuyển phim nổi ở đáy video: Bắt trọn thao tác vuốt lên/xuống của ngón tay */}
-        <div
-          className="absolute bottom-0 inset-x-0 h-14 bg-gradient-to-t from-black/95 via-black/75 to-transparent z-20 flex items-center justify-between px-3 text-xs font-semibold select-none pointer-events-auto backdrop-blur-[2px]"
-          onTouchStart={handlePlayerTouchStart}
-          onTouchEnd={handlePlayerTouchEnd}
-        >
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              navigateToPrev();
-            }}
-            disabled={!prevFilm}
-            className="flex items-center gap-1.5 text-slate-200 hover:text-cyan-400 py-2 px-3 rounded-xl bg-black/50 border border-white/10 hover:bg-white/10 transition-colors disabled:opacity-40"
-            title={prevFilm ? `Phim trước: ${prevFilm.title}` : 'Không có'}
-          >
-            <ChevronLeft className="w-4 h-4 text-cyan-400" />
-            <span className="text-xs font-bold">Phim trước</span>
-          </button>
-
-          <div
-            onClick={() => navigateToNext()}
-            className="flex items-center gap-1.5 text-cyan-300 bg-cyan-950/90 border border-cyan-500/50 px-3 py-1.5 rounded-full shadow-[0_0_12px_rgba(6,182,212,0.4)] cursor-pointer hover:bg-cyan-900/80 transition-colors"
-          >
-            <ArrowUpDown className="w-4 h-4 text-cyan-400 animate-bounce" />
-            <span className="text-xs font-bold tracking-wide">Vuốt lên đổi phim</span>
-          </div>
-
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              navigateToNext();
-            }}
-            disabled={!nextFilm}
-            className="flex items-center gap-1.5 text-slate-200 hover:text-purple-400 py-2 px-3 rounded-xl bg-black/50 border border-white/10 hover:bg-white/10 transition-colors disabled:opacity-40"
-            title={nextFilm ? `Phim tiếp: ${nextFilm.title}` : 'Không có'}
-          >
-            <span className="text-xs font-bold">Phim tiếp</span>
-            <ChevronRight className="w-4 h-4 text-purple-400" />
-          </button>
-        </div>
-
         {/* Màn hình HUD thông báo chuyển phim mượt mà */}
         {transitioning && (
           <div className="absolute inset-0 z-50 bg-black/85 backdrop-blur-md flex flex-col items-center justify-center p-6 text-center animate-fade-in pointer-events-none">
@@ -373,18 +332,36 @@ export default function VideoPlayer({
         )}
       </div>
 
-      {/* Nút xem trực tiếp dự phòng trường hợp YouTube/Facebook chặn iframe */}
+      {/* Thanh điều hướng và gợi ý vuốt đặt HOÀN TOÀN BÊN DƯỚI video, không che thanh trượt thời gian và thời lượng */}
       {!isFullscreen && (
-        <div className="w-full max-w-[380px] flex items-center justify-between text-xs text-purple-300 bg-purple-900/20 px-3 py-2 rounded-xl border border-purple-500/30 opacity-70 hover:opacity-100 transition-opacity duration-300">
-          <span>Nếu video không hiển thị:</span>
-          <a
-            href={episode.originalUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-cyan-400 hover:text-cyan-300 neon-text-blue font-semibold underline flex items-center gap-1"
+        <div className="w-full max-w-4xl flex items-center justify-between gap-3 px-1 py-1 select-none">
+          <button
+            onClick={() => navigateToPrev()}
+            disabled={!prevFilm}
+            className="flex items-center gap-1.5 text-slate-200 hover:text-cyan-400 py-2 px-3.5 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-cyan-500/50 hover:bg-cyan-950/40 transition-all disabled:opacity-30 cursor-pointer shadow-sm text-xs font-semibold"
+            title={prevFilm ? `Phim trước: ${prevFilm.title}` : 'Không có'}
           >
-            Mở trên {episode.platform === 'youtube' ? 'YouTube' : 'Facebook'} ↗
-          </a>
+            <ChevronLeft className="w-4 h-4 text-cyan-400" />
+            <span>Phim trước</span>
+          </button>
+
+          <div
+            onClick={() => navigateToNext()}
+            className="flex items-center gap-1.5 text-cyan-300 bg-cyan-950/80 border border-cyan-500/40 px-3.5 py-1.5 rounded-full shadow-[0_0_12px_rgba(6,182,212,0.25)] cursor-pointer hover:bg-cyan-900/80 transition-all text-xs font-medium"
+          >
+            <ArrowUpDown className="w-3.5 h-3.5 text-cyan-400 animate-bounce" />
+            <span>Vuốt lên / sang đổi phim</span>
+          </div>
+
+          <button
+            onClick={() => navigateToNext()}
+            disabled={!nextFilm}
+            className="flex items-center gap-1.5 text-slate-200 hover:text-purple-400 py-2 px-3.5 rounded-xl bg-slate-900/90 border border-slate-800 hover:border-purple-500/50 hover:bg-purple-950/40 transition-all disabled:opacity-30 cursor-pointer shadow-sm text-xs font-semibold"
+            title={nextFilm ? `Phim tiếp: ${nextFilm.title}` : 'Không có'}
+          >
+            <span>Phim tiếp</span>
+            <ChevronRight className="w-4 h-4 text-purple-400" />
+          </button>
         </div>
       )}
     </div>
