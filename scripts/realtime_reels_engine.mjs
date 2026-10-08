@@ -469,13 +469,13 @@ export async function runCrawlAndReport() {
         finalSec = extractHourFromTitle(meta.title) || extractHourFromTitle(meta.description);
       }
 
-      if (finalSec > 0 && finalSec < MIN_DURATION_SECONDS) {
-        console.log(`⏩ [BỎ QUA DO THỜI LƯỢNG < 30 PHÚT] (${finalSec}s / ${(finalSec/60).toFixed(1)} phút): "${meta.title.slice(0, 35)}..."`);
+      if (finalSec < MIN_DURATION_SECONDS) {
+        console.log(`⏩ [BỎ QUA DO THỜI LƯỢNG < 30 PHÚT HOẶC KHÔNG XÁC ĐỊNH ĐƯỢC >= 30 PHÚT] (${finalSec}s): "${meta.title.slice(0, 35)}..."`);
         shortRejectedCount++;
         continue;
       }
 
-      const finalDuration = finalSec >= MIN_DURATION_SECONDS ? formatDuration(finalSec) : (item.duration || '45:00');
+      const finalDuration = formatDuration(finalSec);
       const fallbackTitle = `Hoạt Hình 3D #${item.id.slice(-4)}`;
       const title = meta.title || item.rawCaption.slice(0, 70) || fallbackTitle;
       const cat = detectCategory(title, meta.description || '', source.name);
