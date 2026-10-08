@@ -56,16 +56,8 @@ const ALL_TARGET_SOURCES = [
     url: 'https://www.facebook.com/reviewphimtrungquoc/reels'
   },
   {
-    name: 'Ghiền Phim Trung Quốc (Ngôn Tình & Trọng Sinh)',
-    url: 'https://www.facebook.com/ghienphimtrungquoc/reels'
-  },
-  {
     name: 'Review Phim Ngắn Hay',
     url: 'https://www.facebook.com/reviewphimngan.hay/reels'
-  },
-  {
-    name: 'Mê Phim Trung Quốc (Review Kịch Tính)',
-    url: 'https://www.facebook.com/mephimtrungquoc/reels'
   }
 ];
 
@@ -92,7 +84,12 @@ const VALID_KEYWORDS = [
 
 const BLACKLIST_KEYWORDS = [
   'bóng đá', 'thời sự', 'tai nạn', 'chính trị', 'tin tức', 'scandal', 'xổ số', 'lô đề', 'cá độ',
-  'song joong ki', 'hanbok', 'kpop', 'running man', 'bts', 'blackpink', 'sao hàn'
+  'song joong ki', 'hanbok', 'kpop', 'running man', 'bts', 'blackpink', 'sao hàn',
+  // Ca nhạc / MV / OST / Karaoke / Lyric video (TUYỆT ĐỐI CẤM)
+  'ost', 'kara', 'karaoke', 'vietsub + kara', 'mv', 'ca khúc', 'bài hát', 'nhạc phim',
+  'trình bày:', 'trình bày :', 'ca sĩ', 'nhạc hoa', 'lyric', 'lyrics', 'lofi', 'remix',
+  'nhạc chuông', 'bản tình ca', 'giai điệu', 'lắng nghe thiếp', 'lưu hạo lâm', 'lâm tâm như',
+  'cơm tró', 'đáng iu quá', 'saranghae', 'sâu răng', 'cho miếng quýt', 'chất lun', 'sấp mặt luôn'
 ];
 
 function decodeHtmlEntities(str) {
@@ -107,19 +104,28 @@ function decodeHtmlEntities(str) {
     .replace(/&gt;/g, '>');
 }
 
-function isGenreMatched(text, isTrustedChannel = true) {
-  if (!text) return isTrustedChannel;
+function isGenreMatched(text, isTrustedChannel = false) {
+  if (!text) return false;
   const lower = text.toLowerCase();
+  
+  // 1. Chặn nguồn cấm (Marsx Files, Khu Trú Ẩn 2AM)
   if (BLACKLISTED_SOURCES.some((kw) => lower.includes(kw))) {
     return false;
   }
+
+  // 2. Chặn tuyệt đối nhạc, MV, OST, Karaoke, Show Hàn, Tin tức rác
   if (BLACKLIST_KEYWORDS.some((kw) => lower.includes(kw))) {
     return false;
   }
-  if (VALID_KEYWORDS.some((kw) => lower.includes(kw))) {
-    return true;
-  }
-  return isTrustedChannel;
+
+  // 3. Ưu tiên cao: Phim dài full, trọn bộ, review cốt truyện
+  const FULL_FILM_KEYWORDS = ['full', 'trọn bộ', 'tập', 'review', 'tóm tắt', 'thuyết minh', 'phần', 'season'];
+  const hasFullSignal = FULL_FILM_KEYWORDS.some((kw) => lower.includes(kw));
+
+  // 4. Khớp từ khóa thể loại phim
+  const hasGenreSignal = VALID_KEYWORDS.some((kw) => lower.includes(kw));
+
+  return hasFullSignal || hasGenreSignal;
 }
 
 // 2. Kiểm tra bản quyền nhúng video Facebook Reel: Đảm bảo có luồng phát hợp lệ và không bị cấm
