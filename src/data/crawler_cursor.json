@@ -1,12 +1,12 @@
 {
-  "currentBatchIndex": 0,
+  "currentBatchIndex": 1,
   "cycleCount": 7,
   "lastRunChannels": [
-    "Thế Giới Donghua 3D",
-    "Tu Tiên Giới 3D",
-    "Phim Ngắn Báo Thù Kịch Tính",
-    "Tuyển Tập Phim Ngắn Hay",
-    "Mê Donghua Tu Chân"
+    "Hoạt Hình 3D Trung Quốc",
+    "Hoạt Hình 3D Review",
+    "Review 3D Hay (Hoạt Hình Tu Tiên)",
+    "HH3D Vietsub (Donghua Tu Chân)",
+    "Hoạt Hình 3D VN"
   ],
   "allPreviousScannedChannels": [
     "Hoạt Hình 3D Trung Quốc",
@@ -35,5 +35,5 @@
     "Tuyển Tập Phim Ngắn Hay",
     "Mê Donghua Tu Chân"
   ],
-  "updatedAt": "2026-10-08T17:51:29.246Z"
+  "updatedAt": "2026-10-08T17:57:42.376Z"
 }
