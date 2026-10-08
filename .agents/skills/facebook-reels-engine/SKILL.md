@@ -1,67 +1,85 @@
 ---
 name: facebook-reels-engine
 description: >-
-  Chuyên gia xử lý, cào dữ liệu, tối ưu hóa nhúng video Facebook Reels và quản trị hệ thống DaoDaoReview.com.
-  Kích hoạt kỹ năng này khi làm việc với video Reels Facebook, xử lý ảnh thumbnail, lỗi nhúng iframe,
-  tối ưu xoay màn hình điện thoại (Landscape), kiểm tra quyền phát video, hoặc đồng bộ mã nguồn lên máy chủ VPS.
+  Chuyên gia tối thượng về cào video phim dài Facebook, lọc sạch clip ngắn và nhạc OST, vận hành thuật toán mở rộng vô hạn Lô kênh (n+1) Zero-Overlap, đồng bộ file Word quản trị, và tự động hóa toàn diện hệ thống DaoDaoReview.com.
 ---
 
-# Kỹ Năng Quản Trị & Vận Hành Web Phim Nhúng Reels Facebook (DaoDaoReview)
+# Kỹ Năng Đỉnh Cao Cào Video Phim Dài Facebook & Quản Trị Hệ Thống (DaoDaoReview Engine)
 
-Kỹ năng này đúc kết toàn bộ quy trình chuẩn xác nhất để phát triển, bảo trì và mở rộng website xem phim tóm tắt nhúng video Reels từ Facebook và YouTube.
-
----
-
-## 1. Nguyên Tắc Cốt Lõi Về Nhúng Video Facebook Reels
-
-### Định Dạng Link Nhúng Chuẩn (Iframe Embed)
-Mọi video Reels Facebook khi nhúng vào website phải sử dụng định dạng URL sau để đảm bảo không bị lỗi giao diện và bảo mật:
-```text
-https://www.facebook.com/plugins/video.php?href={encodeURIComponent(reelUrl)}&show_text=0&autoplay=0
-```
-* `show_text=0`: Ẩn toàn bộ văn bản và caption dài dòng của bài viết gốc, chỉ giữ lại trình phát video sạch sẽ.
-* `autoplay=0`: Không tự ý bật âm thanh bất ngờ làm phiền người dùng.
-
-### Phân Loại Tỷ Lệ Khung Hình (Aspect Ratio)
-* **Reels / Shorts (Video Dọc):** Khóa cứng tỷ lệ `9:16` (dùng class Tailwind `aspect-[9/16]`).
-* **Phim Ngang (Video Truyền Thống):** Khóa cứng tỷ lệ `16:9` (dùng class Tailwind `aspect-video`).
-
-### Cơ Chế Tự Động Xoay Màn Hình Ngang Trên Điện Thoại (Mobile Landscape)
-* Video dọc 9:16 khi xem trên điện thoại cần tính năng 1-chạm xoay ngang toàn màn hình (sử dụng API `screen.orientation.lock('landscape')` với fallback CSS transform xoay 90 độ khi trình duyệt di động hạn chế API).
+Kỹ năng này đúc kết toàn bộ kiến thức chuyên sâu và quy trình chuẩn mực nhất để xây dựng, vận hành bộ bot cào ngầm tự động, lọc phim dài full chất lượng cao, đồng bộ file Word và triển khai tự động lên website xem phim [DaoDaoReview.com](https://daodaoreview.com).
 
 ---
 
-## 2. Quy Trình Xử Lý Ảnh Đại Diện Gốc Của Video (Thumbnail) Chuẩn Tuyệt Đối
-
-> [!CAUTION]
-> **1. BẮT BUỘC DÙNG ẢNH GỐC CỦA VIDEO - CẤM GÁN ẢNH STOCK/UNSPLASH LUNG TUNG!**
-> Người xem cần thấy chính xác hình ảnh trích xuất từ nội dung video. Tuyệt đối không được gán ảnh stock Unsplash hay ảnh ngoại luồng không liên quan. Nếu không tải được ảnh gốc từ video, tuyệt đối không được nạp video đó vào CSDL!
->
-> **2. TUYỆT ĐỐI KHÔNG DÙNG TRỰC TIẾP LINK `fbcdn.net`!**
-> Link ảnh CDN của Facebook (`*.fbcdn.net`) luôn có tham số hết hạn `oe=...` (tự động chết sau 24-48 giờ) và Facebook chặn truy cập ngoại trang (lỗi 403 Forbidden).
-
-### Quy Trình Tải & Lưu Ảnh Thật Của Video:
-1. Khi cào hoặc duyệt video từ link Facebook Reel:
-   * Gửi request HTTP với User-Agent: `facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)`.
-   * Trích xuất thẻ meta `<meta property="og:image" content="...">`.
-   * Tải file ảnh thực tế về và lưu vĩnh viễn tại `public/thumbnails/{cleanId}.jpg`.
-2. Lưu đường dẫn trong `database.json`:
-   * `thumbnail`: `/thumbnails/{cleanId}.jpg`
-   * `coverImage`: `/thumbnails/{cleanId}.jpg`
-3. Luôn bảo vệ thẻ `<img>` ở giao diện bằng helper an toàn `getSafeThumbnail()`. Nếu gặp sự cố, ảnh dự phòng duy nhất là logo thương hiệu `/avatar.jpg`.
-4. API On-Demand Cứu Cánh: Route `/api/thumbnail/[id]` tự động bắt và tải ảnh gốc lưu vào `public/thumbnails/` nếu chưa có sẵn trên đĩa.
-
----
-
-## 3. Quy Trình Kiểm Tra Quyền Nhúng Nghiêm Ngặt (Embed Gatekeeper)
+## 1. Tiêu Chuẩn Phim Dài Cốt Lõi: Thời Lượng Tối Thiểu 30 Phút (>= 1800s)
 
 > [!IMPORTANT]
-> Nhiều video Reels Facebook bị chủ kênh tắt quyền nhúng ngoài trang hoặc bị giới hạn bản quyền âm nhạc/nội dung.
-> Facebook sẽ hiển thị lỗi: *"Không khả dụng - Video này không nhúng được do có thể chứa nội dung thuộc sở hữu của người khác."*
+> **TIÊU CHUẨN THỜI LƯỢNG NGHIÊM NGẶT:**
+> Website chỉ đăng tải phim dài full, phim hoạt hình 3D Donghua và phim ngắn kịch tính có cốt truyện hoàn chỉnh (từ 30 phút, 45 phút, 1h, 2h, 5h đến 17 tiếng).
+> **Tuyệt đối LOẠI BỎ và NGHIÊM CẤM tất cả các clip ngắn 1-3 phút (Reels ngắn cắt vụn).**
 
-### Thuật Toán Kiểm Tra Nhúng Chuẩn Xác 100%:
-Khi kiểm tra link nhúng `https://www.facebook.com/plugins/video.php?href=...`:
-Bắt buộc quét HTML trả về để phát hiện các dấu hiệu lỗi cấm nhúng:
+### Thuật Toán Đo Thời Lượng Thật Chính Xác 100% Bằng DASH Manifest:
+Facebook nhúng thông tin ISO 8601 về thời lượng video vào manifest DASH trong mã nguồn iframe:
+```javascript
+// Trích xuất mediaPresentationDuration="PT...S" từ Facebook Embed HTML:
+const dashMatch = html.match(/mediaPresentationDuration="PT([0-9.]+)S"/);
+if (dashMatch) {
+  const totalSeconds = Math.round(parseFloat(dashMatch[1]));
+  // Ví dụ: PT63291.957031S => 17 giờ 34 phút (17.58 tiếng)
+  // Nếu totalSeconds < 1800 => LẬP TỨC LOẠI BỎ!
+}
+```
+* **Quy tắc bỏ qua:** Bất kỳ video nào có thời lượng $< 1800$ giây hoặc không chứng thực được $\ge 30$ phút (`finalSec < 1800`) phải bị **loại bỏ thẳng tay**, không nạp vào CSDL.
+* **Cấm Tuyệt Đối Video Ca Nhạc / OST / MV / Karaoke:** Bất kỳ video nào chứa từ khóa âm nhạc, nhạc hoa vietsub, OST phim, hoặc clip tâm trạng không có lời thoại cốt truyện phải bị lọc bỏ 100%.
+
+---
+
+## 2. Quy Chuẩn Cào Mở Rộng Vô Hạn Lô Kế Tiếp ($n \to n+1 \to \infty$)
+
+> [!CAUTION]
+> **TUYỆT ĐỐI KHÔNG XOAY VÒNG LẶP LẠI LÔ CŨ:**
+> Mỗi phiên quét mới, hệ thống tự động tăng số thứ tự Lô thêm 1: $n \leftarrow n+1$ (Lô 6, Lô 7, Lô 8, Lô 9... đến vô hạn).
+> Không bao giờ cào lại các Lô cũ để liên tục mở rộng kho nội dung mới.
+
+### Công Thức Toán Học Không Trùng Lặp Tuyệt Đối (Zero Overlap):
+$$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^n \text{Lô}_i \right) = \emptyset$$
+
+* **Cơ chế vận hành:**
+  1. Quản lý danh sách các Lô độc lập trong `src/data/all_channel_batches.json`.
+  2. Mỗi Lô gồm đúng **5 kênh hoàn toàn mới**, chưa từng xuất hiện ở bất kỳ Lô nào trước đó.
+  3. Lưu vết toàn bộ lịch sử các kênh đã quét vào `allPreviousScannedChannels` trong `src/data/crawler_cursor.json`.
+  4. Nếu số thứ tự Lô vượt quá số Lô có sẵn, hàm `generateNextInfiniteBatch(nextBatchNumber, existingChannelsSet)` tự động sinh Lô mới với 5 kênh mới tinh, đảm bảo không bao giờ cạn nguồn.
+
+---
+
+## 3. Hệ Thống Đồng Bộ & Quản Trị Bằng File Word (.docx)
+
+* **Tự Động Hóa Xuất File Word:** Script Python `scripts/export_channel_list_docx.py` đọc dữ liệu động từ `all_channel_batches.json` và tự động cập nhật vào:
+  - `Danh_Sach_Kenh_Da_Cao.docx` (File quản trị chính thức).
+  - `New Microsoft Word Document.docx` (File đồng bộ song song).
+* **Nội dung hiển thị trong File Word:**
+  - Bảng tổng hợp 7 quy chuẩn dự án bắt buộc.
+  - Bảng chi tiết từng Lô: STT, Tên kênh, Link URL Fanpage tab `/videos`, Thể loại phim, Trạng thái cào (`ĐÃ CÀO`, `ĐANG CÀO`, `CHỜ CÀO`).
+* **Kích hoạt tự động:** Sau mỗi phiên cào hoàn tất, bot tự động chạy lệnh cập nhật file Word để người dùng mở file là thấy dữ liệu mới nhất.
+
+---
+
+## 4. Quy Chuẩn Báo Cáo Định Kỳ 5 Phút Bắt Buộc Kèm Kết Quả Cào Video
+
+Trong mỗi lần kiểm tra và báo cáo định kỳ 5 phút/lần theo thời gian thực, agent **BẮT BUỘC** phải báo cáo rõ ràng, chi tiết toàn bộ số liệu thực tế:
+1. **Tên Lô vừa quét:** Số thứ tự Lô và danh sách 5 kênh mục tiêu.
+2. **Số video tìm thấy trên từng kênh.**
+3. **Số phim dài $\ge$ 30 phút nạp mới thành công:** Kèm tiêu đề phim, thời lượng thực tế (`HH:MM:SS`), và link xem trên website.
+4. **Số video ngắn $< 30$ phút bị loại bỏ:** Liệt kê các mốc thời lượng bị chặn đứng.
+5. **Số video bị chặn nhúng Facebook hoặc dính nhạc/OST bị lọc bỏ.**
+6. **Tổng số phim dài chuẩn hiện có trong CSDL website.**
+7. **Số thứ tự Lô kế tiếp ($n+1$) chuẩn bị quét.**
+
+---
+
+## 5. Quy Trình Kiểm Tra Quyền Nhúng (Embed Gatekeeper) & Poster Gốc
+
+### 1. Kiểm Tra Nhúng Tuyệt Đối (Embed Gatekeeper):
+Trước khi nạp bất kỳ video nào vào CSDL, gọi `checkEmbeddable(url)`. Nếu HTML trả về chứa các dấu hiệu lỗi cấm nhúng:
 ```javascript
 const isBlocked =
   html.includes('_3i0p') ||
@@ -71,42 +89,39 @@ const isBlocked =
   html.includes('Không khả dụng') ||
   html.includes('không thể phát') ||
   html.includes('cannot be embedded') ||
-  html.includes('cannot be played') ||
-  html.includes('error_subcode') ||
   html.includes('thuộc sở hữu của người khác') ||
   html.includes('Video không hiển thị') ||
-  html.includes('Video Unavailable') ||
-  html.includes('không tồn tại nữa hoặc bạn không có quyền xem');
+  html.includes('Video Unavailable');
 ```
-* **Nếu `isBlocked === true`:** LẬP TỨC LOẠI BỎ VIDEO, KHÔNG NẠP VÀO CSDL.
-* **CẤM CÀO NGUỒN MARSX FILES / KHU TRÚ ẨN 2AM:** Tuyệt đối không cào từ fanpage `Khu Trú Ẩn 2AM` (ID: `61590438917651`) hoặc bất kỳ nguồn clip demo cảnh AI ngắn 20 giây đóng dấu `Marsx Files`. Chỉ nhận phim review, phim ngắn có kịch bản, lời thoại rõ ràng.
+$\rightarrow$ **BỎ QUA NGAY LẬP TỨC**, tuyệt đối không để video lỗi lọt vào website.
+
+### 2. Tải & Lưu Ảnh Bìa Gốc Vĩnh Viễn:
+* Dùng User-Agent `facebookexternalhit/1.1` cào thẻ meta `og:image`.
+* Lưu ảnh trực tiếp về ổ cứng tại `public/thumbnails/{cleanId}.jpg`.
+* **CẤM DÙNG LINK `fbcdn.net`:** Link CDN Facebook chết sau 24-48 giờ do tham số `oe=...`.
+* **CẤM DÙNG ẢNH STOCK/UNSPLASH LUNG TUNG:** Không tải được ảnh gốc từ video thì KHÔNG NẠP video đó.
+* Helper giao diện `getSafeThumbnail()` chỉ fallback về `/avatar.jpg`, tuyệt đối không để lộ biểu tượng ảnh vỡ.
 
 ---
 
-## 4. Quy Chuẩn SEO & Nhận Diện Thương Hiệu
+## 6. Định Dạng Iframe & Trải Nghiệm Giao Diện Xem Phim
 
-1. **Các Thẻ SEO Bắt Buộc Tại `layout.tsx`:**
-   * Canonical: `<link rel="canonical" href="https://daodaoreview.com/">`
-   * Meta Robots: `<meta name="robots" content="index, follow, max-image-preview:large">`
-   * Bing Webmaster: `<meta name="msvalidate.01" content="5D1A03A3348433D435E89B34514DE8F0">`
-   * OpenGraph Share Banner: `/og-image.jpg` (kích thước chuẩn 1200x630).
-   * Logo & Favicon: `/avatar.jpg` và `/icon.png`.
-2. **Thẻ H1 Ẩn Chuẩn SEO Tại `page.tsx`:**
-   ```html
-   <h1 class="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
-   ```
+1. **Chuẩn hóa URL Iframe:**
+   `https://www.facebook.com/plugins/video.php?href={encodeURIComponent(url)}&show_text=0&autoplay=0`
+2. **Khóa Tỷ Lệ Chuẩn:**
+   - Phim Dài Full: Luôn dùng tỷ lệ điện ảnh `16:9` (`aspect-video`).
+   - Phim Ngắn Dọc: Tỷ lệ `9:16` (`aspect-[9/16]`).
+3. **Thông Thoáng Khung Video:**
+   - Các nút điều hướng (*Phim trước*, *Phim sau*, *Vuốt đổi phim*) luôn đặt **bên dưới khung phát**, không để đè lên dưới video làm che mất thanh tua thời gian (timeline seekbar) và đồng hồ thời lượng của Facebook.
+   - Bỏ hoàn toàn dòng text fallback rác *"Nếu video không hiển thị mở trên Facebook"*.
 
 ---
 
-## 5. Quy Trình Kiểm Thử & Triển Khai Lên VPS (OneDash)
+## 7. Quy Trình Tự Động Triển Khai Máy Chủ VPS (Zero-Touch Auto-Deploy)
 
-### Bước 1: Kiểm thử cục bộ trước khi push
-Luôn chạy lệnh build kiểm tra lỗi biên dịch TypeScript:
-```powershell
-cmd.exe /c "npm run build"
-```
-
-### Bước 2: Lệnh triển khai 1-dòng chuẩn trên VPS
-```bash
-cd /var/www/daodaoreview && git reset --hard && git pull && npm run build && pm2 restart all
-```
+* **Cơ chế Watcher Tự Động:** Script `scripts/vps_auto_updater.mjs` thường trực trên VPS quét nhánh `origin/main` mỗi 60 giây.
+* **Quy trình tự động hóa khép kín:**
+  1. Bot ngầm cào phim $\ge$ 30 phút $\rightarrow$ Tải thumbnail $\rightarrow$ Cập nhật database và file Word.
+  2. Commit và push lên GitHub `origin/main`.
+  3. VPS Watcher phát hiện commit mới $\rightarrow$ Tự động `git reset --hard` $\rightarrow$ Tự động `npm run build` $\rightarrow$ Tự động `pm2 reload`.
+  4. Người dùng hoàn toàn không cần gõ hay gửi bất kỳ lệnh nào cho VPS!
