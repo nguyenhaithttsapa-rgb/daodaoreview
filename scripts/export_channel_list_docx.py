@@ -91,7 +91,9 @@ def create_channel_docx(output_path="Danh_Sach_Kenh_Da_Cao.docx"):
         "5. Quy Chuẩn Mở Rộng Vô Hạn Lô (n+1): Mỗi lượt kế tiếp, số Lô tự động tăng thêm 1 (n+1 = 6, 7, 8... đến vô hạn). "
         "Toàn bộ 5 kênh ở Lô (n+1) BẮT BUỘC KHÔNG ĐƯỢC TRÙNG với bất kỳ kênh nào của tất cả các Lô trước đó (Lô 1 đến Lô n). "
         "Hệ thống không lặp lại kênh cũ mà liên tục tiến tới cào các kênh mới vô hạn.\n"
-        "6. Lưu Trữ File Word: Toàn bộ danh sách kênh được tự động ghi nhận và đồng bộ vào file Word này."
+        "6. Lưu Trữ File Word: Toàn bộ danh sách kênh được tự động ghi nhận và đồng bộ vào file Word này.\n"
+        "7. Báo Cáo Định Kỳ 5 Phút Kèm Kết Quả Cào: Mỗi lần kiểm tra định kỳ 5 phút/lần, báo cáo chi tiết toàn bộ số liệu: "
+        "video tìm thấy, phim nạp mới (>=30p), clip ngắn bị loại bỏ, và Lô tiếp theo."
     )
     r2 = p_rule.add_run(rules_text)
     r2.font.size = Pt(9.5)

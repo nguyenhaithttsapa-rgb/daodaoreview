@@ -47,6 +47,16 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
     $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^n \text{Lô}_i \right) = \emptyset$$
   - Toàn bộ danh sách tất cả các Lô và 5 kênh của từng Lô bắt buộc phải được tự động lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
+- **QUY CHUẨN BÁO CÁO ĐỊNH KỲ 5 PHÚT BẮT BUỘC KÈM KẾT QUẢ CÀO VIDEO:**
+  - Trong mỗi lần kiểm tra và báo cáo định kỳ 5 phút/lần theo thời gian thực, agent BẮT BUỘC phải báo cáo rõ ràng, chi tiết toàn bộ kết quả cào video của phiên quét gần nhất:
+    * Tên Lô vừa quét và danh sách 5 kênh mục tiêu.
+    * Số video tìm thấy trên từng kênh.
+    * Số phim dài >= 30 phút nạp mới thành công (kèm tiêu đề, thời lượng thực tế, link xem trên web).
+    * Số video ngắn < 30 phút đã bị loại bỏ.
+    * Số video bị chặn nhúng Facebook hoặc video dính nhạc/OST đã bị lọc bỏ.
+    * Tổng số phim dài chuẩn hiện có trong CSDL website.
+    * Số thứ tự Lô kế tiếp ($n+1$) chuẩn bị quét.
+  - Tuyệt đối không báo cáo chung chung thiếu số liệu; mọi thông số phải được trích xuất chính xác từ log thực tế của bot cào.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.
