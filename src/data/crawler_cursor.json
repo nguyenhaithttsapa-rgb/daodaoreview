@@ -1,12 +1,12 @@
 {
-  "currentBatchNumber": 8,
-  "lastRunBatchNumber": 7,
+  "currentBatchNumber": 9,
+  "lastRunBatchNumber": 8,
   "lastRunChannels": [
-    "Phàm Nhân Tu Tiên 3D",
-    "Già Thiên 3D Thuyết Minh",
-    "Vũ Động Càn Khôn 3D",
-    "Phim Ngắn Hào Môn Kịch Tính",
-    "Trọng Sinh Báo Thù Hay"
+    "Đại Chúa Tể 3D Donghua",
+    "Hoạt Hình Tu Chân 3D",
+    "Mục Thần Ký 3D",
+    "Review Phim Ngắn Nữ Cường",
+    "Phim Cổ Trang Trọng Sinh"
   ],
   "allPreviousScannedChannels": [
     "Hoạt Hình 3D Trung Quốc",
@@ -43,7 +43,12 @@
     "Già Thiên 3D Thuyết Minh",
     "Vũ Động Càn Khôn 3D",
     "Phim Ngắn Hào Môn Kịch Tính",
-    "Trọng Sinh Báo Thù Hay"
+    "Trọng Sinh Báo Thù Hay",
+    "Đại Chúa Tể 3D Donghua",
+    "Hoạt Hình Tu Chân 3D",
+    "Mục Thần Ký 3D",
+    "Review Phim Ngắn Nữ Cường",
+    "Phim Cổ Trang Trọng Sinh"
   ],
-  "updatedAt": "2026-10-08T18:08:13.845Z"
+  "updatedAt": "2026-10-08T18:14:27.914Z"
 }
