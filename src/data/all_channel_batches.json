@@ -828,7 +828,7 @@
     "batchNumber": 26,
     "batchTitle": "LÔ 26 (n+1 MỚI): Tuyển Tập Kênh Mới Hoàn Toàn #26",
     "category": "Phim Dài & Donghua Mới",
-    "status": "⭐ ĐANG CÀO (Lô n+1 = 26)",
+    "status": "ĐÃ CÀO",
     "channels": [
       {
         "name": "Đấu Phá Tu Chân Review #130",
@@ -854,6 +854,39 @@
         "name": "Vạn Cổ Thần Đế Review #134",
         "url": "https://www.facebook.com/phim.vnc.134/videos",
         "category": "Huyền Ảo"
+      }
+    ]
+  },
+  {
+    "batchNumber": 27,
+    "batchTitle": "LÔ 27 (n+1 MỚI): Tuyển Tập Kênh Mới Hoàn Toàn #27",
+    "category": "Phim Dài & Donghua Mới",
+    "status": "⭐ ĐANG CÀO (Lô n+1 = 27)",
+    "channels": [
+      {
+        "name": "Báo Thù Đại Nữ Chủ Review #135",
+        "url": "https://www.facebook.com/phim.both.135/videos",
+        "category": "Nữ Cường"
+      },
+      {
+        "name": "Thần Ma Đại Lục Review #136",
+        "url": "https://www.facebook.com/phim.thnma.136/videos",
+        "category": "Donghua 3D"
+      },
+      {
+        "name": "Xuyên Không Hệ Thống Review #137",
+        "url": "https://www.facebook.com/phim.xuynkhng.137/videos",
+        "category": "Xuyên Không"
+      },
+      {
+        "name": "Võ Thần Chúa Tể Review #138",
+        "url": "https://www.facebook.com/phim.vthn.138/videos",
+        "category": "Huyền Huyễn"
+      },
+      {
+        "name": "Tổng Tài Hào Môn Review #139",
+        "url": "https://www.facebook.com/phim.tngti.139/videos",
+        "category": "Đô Thị"
       }
     ]
   }
