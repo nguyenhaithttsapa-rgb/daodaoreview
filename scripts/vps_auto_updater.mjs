@@ -43,7 +43,7 @@ async function checkForUpdates() {
       console.log(`🔄 3/3. Khởi động lại dịch vụ web PM2...`);
       // Thử reload/restart app web (trừ updater để không gián đoạn)
       try {
-        run('pm2 reload daodaoreview || pm2 reload all || pm2 restart all');
+        run('pm2 reload daodaoreview-web || pm2 restart daodaoreview-web || pm2 reload all');
       } catch (pm2Err) {
         console.warn('Lưu ý PM2:', pm2Err.message);
       }
