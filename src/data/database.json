@@ -1,5 +1,87 @@
 [
   {
+    "id": "series-2am-1429672618526128",
+    "slug": "full-bo-trong-sinh-toi-bien-chong-ngheo-thanh-thu-phu-6128",
+    "title": "Full Bộ : Trọng Sinh, Tôi Biến Chồng Nghèo Thành Thủ Phú",
+    "description": "Full Bộ : Trọng Sinh, Tôi Biến Chồng Nghèo Thành Thủ Phú\n北",
+    "thumbnail": "/thumbnails/1429672618526128.jpg",
+    "coverImage": "/thumbnails/1429672618526128.jpg",
+    "channelName": "Khu Trú Ẩn 2AM",
+    "genres": [
+      "Trọng Sinh",
+      "Hoạt Hình 3D",
+      "Reels",
+      "Review Tóm Tắt",
+      "Tu Tiên",
+      "Trùng Sinh"
+    ],
+    "categories": [
+      "Trọng Sinh",
+      "Hoạt Hình 3D",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-2am-1429672618526128",
+        "seriesId": "series-2am-1429672618526128",
+        "partNumber": 1,
+        "title": "Full Bộ : Trọng Sinh, Tôi Biến Chồng Nghèo Thành Thủ Phú",
+        "originalUrl": "https://www.facebook.com/reel/1429672618526128/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1429672618526128%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "/thumbnails/1429672618526128.jpg",
+        "viewsCount": 73558,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-2am-1192061736809109",
+    "slug": "full-bo-sau-khi-xuyen-sach-toi-thanh-bao-boi-cua-tong-tai-9109",
+    "title": "Full Bộ : Sau Khi Xuyên Sách, Tôi Thành Bảo Bối Của Tổng Tài",
+    "description": "Full Bộ : Sau Khi Xuyên Sách, Tôi Thành Bảo Bối Của Tổng Tài\n️",
+    "thumbnail": "/thumbnails/1192061736809109.jpg",
+    "coverImage": "/thumbnails/1192061736809109.jpg",
+    "channelName": "Khu Trú Ẩn 2AM",
+    "genres": [
+      "Đô Thị",
+      "Hoạt Hình 3D",
+      "Reels",
+      "Review Tóm Tắt",
+      "Tu Tiên",
+      "Trùng Sinh"
+    ],
+    "categories": [
+      "Đô Thị",
+      "Hoạt Hình 3D",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-2am-1192061736809109",
+        "seriesId": "series-2am-1192061736809109",
+        "partNumber": 1,
+        "title": "Full Bộ : Sau Khi Xuyên Sách, Tôi Thành Bảo Bối Của Tổng Tài",
+        "originalUrl": "https://www.facebook.com/reel/1192061736809109/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1192061736809109%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "/thumbnails/1192061736809109.jpg",
+        "viewsCount": 39851,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
     "id": "series-2am-1746716223015494",
     "slug": "be-con-dang-yeu-sieu-quay-xuyen-khong-gay-bao-gia-dinh-5494",
     "title": "Bé Con Đáng Yêu: Siêu Quậy Xuyên Không Gây Bão Gia Đình #20",
@@ -42083,7 +42165,7 @@
     "id": "series-1568069311608466",
     "slug": "film-1568069311608466",
     "title": "Trong Tù Được Cao Nhân Chỉ Dạy, Ra Tù Ta Thành Siêu Cấp Cao Thủ...",
-    "description": "Trong Tù Được Cao Nhân Chỉ Dạy, Ra Tù Ta Thành Siêu Cấp Cao Thủ | Cải Mèo Audio #reviewphim\nXem tiếp tại: https://youtu.be/vmXq9vihkFA",
+    "description": "Trong Tù Được Cao Nhân Chỉ Dạy, Ra Tù Ta Thành Siêu Cấp Cao Thủ | Cải Mèo Audio \nXem tiếp tại:",
     "thumbnail": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=600&auto=format&fit=crop&q=80",
     "channelName": "Phim Ngắn Chọn Lọc",
@@ -42349,7 +42431,7 @@
     "id": "series-1784887255860765",
     "slug": "film-1784887255860765",
     "title": "Bế Quan 1000 Năm, Vừa Xuống Núi Đã Bị Tịch Thu Phi Kiếm | Cải...",
-    "description": "Bế Quan 1000 Năm, Vừa Xuống Núi Đã Bị Tịch Thu Phi Kiếm | Cải Mèo Audio #vietsub\nMọi người ghé qua kênh Xem thêm nhiều phim nhé: https://www.youtube.com/@Caimeovietsub… Xem thêm",
+    "description": "Bế Quan 1000 Năm, Vừa Xuống Núi Đã Bị Tịch Thu Phi Kiếm | Cải Mèo Audio \nMọi người ghé qua kênh Xem thêm nhiều phim nhé:  Xem thêm",
     "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "channelName": "Phim Ngắn Chọn Lọc",
@@ -42577,7 +42659,7 @@
     "id": "series-1582282586736536",
     "slug": "film-1582282586736536",
     "title": "Tận thế mưa độc, Ta thức tỉnh hệ thống vật tư | Cải Mèo Vietsub...",
-    "description": "Tận thế mưa độc, Ta thức tỉnh hệ thống vật tư | Cải Mèo Vietsub\nXem tiếp tại: https://youtu.be/2qnw5PlKe4c",
+    "description": "Tận thế mưa độc, Ta thức tỉnh hệ thống vật tư | Cải Mèo Vietsub\nXem tiếp tại:",
     "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -42655,7 +42737,7 @@
     "id": "series-941919538960733",
     "slug": "film-941919538960733",
     "title": "[Full] Xuyên Sách Làm Vương Phi Pháo Hôi, Ta Vừa Muốn Hại Vương Gia Thì...",
-    "description": "[Full] Xuyên Sách Làm Vương Phi Pháo Hôi, Ta Vừa Muốn Hại Vương Gia Thì Bị Hắn Nghe Hết Tiếng Lòng\n🦆 Bấm giúp ad 1 click nhé — Vịt cỏ sấy khô, thơm da… Xem thêm",
+    "description": "[Full] Xuyên Sách Làm Vương Phi Pháo Hôi, Ta Vừa Muốn Hại Vương Gia Thì Bị Hắn Nghe Hết Tiếng Lòng\n🦆",
     "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -42694,7 +42776,7 @@
     "id": "series-1723400742057103",
     "slug": "film-1723400742057103",
     "title": "Full - P2 | Livestream Sinh Tồn Đại Lão Tâm Thần Đánh Xuyên Trò Chơi...",
-    "description": "Full - P2 | Livestream Sinh Tồn Đại Lão Tâm Thần Đánh Xuyên Trò Chơi Ác Vận \n🧀 Bấm giúp ad 1 click nhé — Sốt phô mai ngọt, béo thơm, vị ngọt dễ ăn, ti… Xem thêm",
+    "description": "Full - P2 | Livestream Sinh Tồn Đại Lão Tâm Thần Đánh Xuyên Trò Chơi Ác Vận \n🧀",
     "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -42811,7 +42893,7 @@
     "id": "series-3986362011660081",
     "slug": "film-3986362011660081",
     "title": "Bị Ép Gả Cho Thợ Săn Cô Lại Nghe Được Tiếng Lòng Của Anh Ấy...",
-    "description": "Bị Ép Gả Cho Thợ Săn Cô Lại Nghe Được Tiếng Lòng Của Anh Ấy\n🍯 Bấm giúp ad 1 click nhé — Tắc gừng mật ong, vị chua ngọt thơm gừng, dễ dùng: https://s.shopee.vn/9AOa7Djkz1",
+    "description": "Bị Ép Gả Cho Thợ Săn Cô Lại Nghe Được Tiếng Lòng Của Anh Ấy\n🍯",
     "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -42928,7 +43010,7 @@
     "id": "series-3990442521264090",
     "slug": "film-3990442521264090",
     "title": "Full Version | Xuyên Thành Người Vợ Bị Ghét Bỏ, Tôi Khiến Diêm Vương Sống...",
-    "description": "Full Version | Xuyên Thành Người Vợ Bị Ghét Bỏ, Tôi Khiến Diêm Vương Sống Lạnh Lùng Mất Kiểm Soát\n🧽 Bấm giúp ad 1 click nhé — Thảm thấm hút nước, mềm … Xem thêm",
+    "description": "Full Version | Xuyên Thành Người Vợ Bị Ghét Bỏ, Tôi Khiến Diêm Vương Sống Lạnh Lùng Mất Kiểm Soát\n🧽",
     "thumbnail": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1563089145-599997674d42?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -42967,7 +43049,7 @@
     "id": "series-1369922015283502",
     "slug": "film-1369922015283502",
     "title": "Xem tiếp tại: https://www.youtube.com/watch?v=1mcejlZfcTs",
-    "description": "Xem tiếp tại: https://www.youtube.com/watch?v=1mcejlZfcTs",
+    "description": "Xem tiếp tại:",
     "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43045,7 +43127,7 @@
     "id": "series-1608827451033769",
     "slug": "film-1608827451033769",
     "title": "Trốn Khỏi Tổng Tài Chiếm Hữu 5 Năm, Tổng Tài Điên Cuồng Không Buông Tha...",
-    "description": "Trốn Khỏi Tổng Tài Chiếm Hữu 5 Năm, Tổng Tài Điên Cuồng Không Buông Tha Cô \n🍎 Bấm giúp ad 1 click nhé — Giấm táo hữu cơ, vị chua thanh, tiện dùng tron… Xem thêm",
+    "description": "Trốn Khỏi Tổng Tài Chiếm Hữu 5 Năm, Tổng Tài Điên Cuồng Không Buông Tha Cô \n🍎",
     "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43084,7 +43166,7 @@
     "id": "series-1115554897592919",
     "slug": "film-1115554897592919",
     "title": "Full Version | Hệ Thống Ép Tôi Công Lược Ba Nam Thần, Nào Ngờ Cả...",
-    "description": "Full Version | Hệ Thống Ép Tôi Công Lược Ba Nam Thần, Nào Ngờ Cả Ba Đều Yêu Tôi \n🍯 Bấm giúp ad 1 click nhé — Tắc gừng mật ong, vị chua ngọt thơm gừng,… Xem thêm",
+    "description": "Full Version | Hệ Thống Ép Tôi Công Lược Ba Nam Thần, Nào Ngờ Cả Ba Đều Yêu Tôi \n🍯",
     "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43201,7 +43283,7 @@
     "id": "series-1331711195496450",
     "slug": "film-1331711195496450",
     "title": "Nữ Chính Xuyên Không Có Hệ Thống Vả Mặt Trà Xanh Cực Phê 🌿 Bấm...",
-    "description": "Nữ Chính Xuyên Không Có Hệ Thống Vả Mặt Trà Xanh Cực Phê\n🌿 Bấm giúp ad 1 click nhé — Cốt gừng tràm trà, hương thơm dễ chịu, tiện sử dụng: https://s.shopee.vn/5LBrYGnspF",
+    "description": "Nữ Chính Xuyên Không Có Hệ Thống Vả Mặt Trà Xanh Cực Phê\n🌿",
     "thumbnail": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43279,7 +43361,7 @@
     "id": "series-2507784086411716",
     "slug": "film-2507784086411716",
     "title": "\"🙏 Mình đang cố gắng kiếm thêm chút thu nhập. Mọi người bấm link ủng...",
-    "description": "\"🙏 Mình đang cố gắng kiếm thêm chút thu nhập. Mọi người bấm link ủng hộ mình một lượt nhé ạ. Cảm ơn mọi người nhiều❤️\n https://s.shopee.vn/80B8dS7FK3\"",
+    "description": "\"🙏 Mình đang cố gắng kiếm thêm chút thu nhập. Mọi người",
     "thumbnail": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43318,7 +43400,7 @@
     "id": "series-1007136115719530",
     "slug": "film-1007136115719530",
     "title": "Full Version | Nhặt Được Anh Bên Bờ Biển, Không Ngờ Lại Là Tình Yêu...",
-    "description": "Full Version | Nhặt Được Anh Bên Bờ Biển, Không Ngờ Lại Là Tình Yêu Cả Đời Tôi\n🧽 Bấm giúp ad 1 click nhé — Thảm thấm hút nước, mềm mại, thấm hút nhanh… Xem thêm",
+    "description": "Full Version | Nhặt Được Anh Bên Bờ Biển, Không Ngờ Lại Là Tình Yêu Cả Đời Tôi\n🧽",
     "thumbnail": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43357,7 +43439,7 @@
     "id": "series-1983998922316983",
     "slug": "film-1983998922316983",
     "title": "Xem tiếp tại: https://youtu.be/noitw9c5rMI Công việc của tôi là làm \"Trâu Ngựa\" cho địa phủ...",
-    "description": "Xem tiếp tại: https://youtu.be/noitw9c5rMI\nCông việc của tôi là làm \"Trâu Ngựa\" cho địa phủ | Cải Mèo Vietsub",
+    "description": "Xem tiếp tại: \nCông việc của tôi là làm \"Trâu Ngựa\" cho địa phủ | Cải Mèo Vietsub",
     "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43435,7 +43517,7 @@
     "id": "series-1019728531099539",
     "slug": "film-1019728531099539",
     "title": "Full Version 1 | Xuyên Thành Vợ Bầu Ác Độc, Nào Ngờ Hoắc Tổng Lại...",
-    "description": "Full Version 1 | Xuyên Thành Vợ Bầu Ác Độc, Nào Ngờ Hoắc Tổng Lại Phát Điên Vì Tôi \n🦆 Bấm giúp ad 1 click nhé — Vịt cỏ sấy khô, thơm dai, đậm vị, thíc… Xem thêm",
+    "description": "Full Version 1 | Xuyên Thành Vợ Bầu Ác Độc, Nào Ngờ Hoắc Tổng Lại Phát Điên Vì Tôi \n🦆",
     "thumbnail": "https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579546929662-711aa81148cf?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43474,7 +43556,7 @@
     "id": "series-1454284129857981",
     "slug": "film-1454284129857981",
     "title": "Phu Nhân Hoa Hồng Vừa Đẹp Vừa Hung Hãn: Sát Thủ Trọng Sinh Thành Thai...",
-    "description": "Phu Nhân Hoa Hồng Vừa Đẹp Vừa Hung Hãn: Sát Thủ Trọng Sinh Thành Thai Phụ Bị Ghẻ Lạnh\n🍎 Bấm giúp ad 1 click nhé — Giấm uống O’Food, vị chua dịu, tiện … Xem thêm",
+    "description": "Phu Nhân Hoa Hồng Vừa Đẹp Vừa Hung Hãn: Sát Thủ Trọng Sinh Thành Thai Phụ Bị Ghẻ Lạnh\n🍎",
     "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43591,7 +43673,7 @@
     "id": "series-4077070625931083",
     "slug": "film-4077070625931083",
     "title": "Zombie Mạt Thế Xuyên Không Thành Tiểu Sư Muội Nghịch Thiên Của Tiên Môn 🍘...",
-    "description": "Zombie Mạt Thế Xuyên Không Thành Tiểu Sư Muội Nghịch Thiên Của Tiên Môn\n🍘 Bấm giúp ad 1 click nhé — Cơm cháy siêu chà bông, giòn thơm, đậm vị, ăn vặt … Xem thêm",
+    "description": "Zombie Mạt Thế Xuyên Không Thành Tiểu Sư Muội Nghịch Thiên Của Tiên Môn\n🍘",
     "thumbnail": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -43708,7 +43790,7 @@
     "id": "series-2082276739072628",
     "slug": "film-2082276739072628",
     "title": "Kiếp Trước Cả Nhà Chết Oan, Trọng Sinh Nàng Bỏ Cảnh Vương Và Nhắm Thẳng...",
-    "description": "Kiếp Trước Cả Nhà Chết Oan, Trọng Sinh Nàng Bỏ Cảnh Vương Và Nhắm Thẳng Thái Tử\n🍗 Bấm giúp ad 1 click nhé — Sốt gà chiên nước mắm, vị đậm đà thơm ngon… Xem thêm",
+    "description": "Kiếp Trước Cả Nhà Chết Oan, Trọng Sinh Nàng Bỏ Cảnh Vương Và Nhắm Thẳng Thái Tử\n🍗",
     "thumbnail": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=600&auto=format&fit=crop&q=80",
     "coverImage": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=600&auto=format&fit=crop&q=80",
     "channelName": "Khu Trú Ẩn 2AM",
@@ -49397,6 +49479,1706 @@
     "genres": [
       "Đô Thị",
       "Huyền Huyễn"
+    ]
+  },
+  {
+    "id": "series-drama-1451481866836860",
+    "slug": "nu-chu-tich-gia-ngheo-thu-long-ban-trai-va-cai-ket-bat-ngo-6860",
+    "title": "Nữ Chủ Tịch Giả Nghèo Thử Lòng Bạn Trai Và Cái Kết Bất Ngờ",
+    "description": "Phim ngắn kịch tính: Nữ Chủ Tịch Giả Nghèo Thử Lòng Bạn Trai Và Cái Kết Bất Ngờ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/812400219_1088660103640067_114117207981302531_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=JRiraqsVmwEQ7kNvwH45ByZ&_nc_oc=Adpv37yos4J1_w_VcgaIytgNvO4LhghknV8EuN0GOSgUhqAc-7XPbHzhdT_sO9VMFss7gmtL-2OLAZjudmOINd5v&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQK_3W78qN253nXg8r_L_DhbNIW6TyqJPNQY03SHRIr6PQ&oe=6AB04177",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/812400219_1088660103640067_114117207981302531_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=JRiraqsVmwEQ7kNvwH45ByZ&_nc_oc=Adpv37yos4J1_w_VcgaIytgNvO4LhghknV8EuN0GOSgUhqAc-7XPbHzhdT_sO9VMFss7gmtL-2OLAZjudmOINd5v&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQK_3W78qN253nXg8r_L_DhbNIW6TyqJPNQY03SHRIr6PQ&oe=6AB04177",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1451481866836860",
+        "seriesId": "series-drama-1451481866836860",
+        "partNumber": 1,
+        "title": "Nữ Chủ Tịch Giả Nghèo Thử Lòng Bạn Trai Và Cái Kết Bất Ngờ",
+        "originalUrl": "https://www.facebook.com/reel/1451481866836860/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1451481866836860%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/812400219_1088660103640067_114117207981302531_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=JRiraqsVmwEQ7kNvwH45ByZ&_nc_oc=Adpv37yos4J1_w_VcgaIytgNvO4LhghknV8EuN0GOSgUhqAc-7XPbHzhdT_sO9VMFss7gmtL-2OLAZjudmOINd5v&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQK_3W78qN253nXg8r_L_DhbNIW6TyqJPNQY03SHRIr6PQ&oe=6AB04177",
+        "viewsCount": 90679,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2150140739267015",
+    "slug": "chang-re-an-than-lo-dien-than-phan-dai-tuong-quan-vuong-7015",
+    "title": "Chàng Rể Ẩn Thân Lộ Diện Thân Phận Đại Tướng Quân Vương",
+    "description": "Phim ngắn kịch tính: Chàng Rể Ẩn Thân Lộ Diện Thân Phận Đại Tướng Quân Vương. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809450066_1452776166668936_4560082789726675173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=hJUrO0SB5EEQ7kNvwGY8eKo&_nc_oc=Adr4T2O9_Sa2mY21EQGtZKvYx3-ZEF6-1m6t6Cs1WEK3Kn-k_sZUZPqpxo8h7N5bSPiupazCsgh-szGTFuhoepQC&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIPkHMhr-FdB3b7tLcBIgIfQQ6AB6YKYt5Ijx6a2NGY9Q&oe=6AB0138E",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809450066_1452776166668936_4560082789726675173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=hJUrO0SB5EEQ7kNvwGY8eKo&_nc_oc=Adr4T2O9_Sa2mY21EQGtZKvYx3-ZEF6-1m6t6Cs1WEK3Kn-k_sZUZPqpxo8h7N5bSPiupazCsgh-szGTFuhoepQC&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIPkHMhr-FdB3b7tLcBIgIfQQ6AB6YKYt5Ijx6a2NGY9Q&oe=6AB0138E",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2150140739267015",
+        "seriesId": "series-drama-2150140739267015",
+        "partNumber": 1,
+        "title": "Chàng Rể Ẩn Thân Lộ Diện Thân Phận Đại Tướng Quân Vương",
+        "originalUrl": "https://www.facebook.com/reel/2150140739267015/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2150140739267015%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809450066_1452776166668936_4560082789726675173_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=hJUrO0SB5EEQ7kNvwGY8eKo&_nc_oc=Adr4T2O9_Sa2mY21EQGtZKvYx3-ZEF6-1m6t6Cs1WEK3Kn-k_sZUZPqpxo8h7N5bSPiupazCsgh-szGTFuhoepQC&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIPkHMhr-FdB3b7tLcBIgIfQQ6AB6YKYt5Ijx6a2NGY9Q&oe=6AB0138E",
+        "viewsCount": 96172,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1046169954919607",
+    "slug": "tong-tai-ba-dao-doi-lai-cong-ly-cho-co-nhan-vien-oan-uc-9607",
+    "title": "Tổng Tài Bá Đạo Đòi Lại Công Lý Cho Cô Nhân Viên Oan Ức",
+    "description": "Phim ngắn kịch tính: Tổng Tài Bá Đạo Đòi Lại Công Lý Cho Cô Nhân Viên Oan Ức. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808397414_1854767662542642_2310038180266984538_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=G7qXmAyq2sAQ7kNvwHzL51q&_nc_oc=AdrZA7eHSVMX385BbF-etfyRmcgq-OBR7AkwQ9_X4gS-R_6p-mYrFDO0U1JHh537m2mCEnuhETBxiQkUG6zpug4A&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLqCWSyxFe-Ercp_Os-KGegBqCVLDi1Bzbldo9nBSGbrQ&oe=6AB03B5D",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808397414_1854767662542642_2310038180266984538_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=G7qXmAyq2sAQ7kNvwHzL51q&_nc_oc=AdrZA7eHSVMX385BbF-etfyRmcgq-OBR7AkwQ9_X4gS-R_6p-mYrFDO0U1JHh537m2mCEnuhETBxiQkUG6zpug4A&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLqCWSyxFe-Ercp_Os-KGegBqCVLDi1Bzbldo9nBSGbrQ&oe=6AB03B5D",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1046169954919607",
+        "seriesId": "series-drama-1046169954919607",
+        "partNumber": 1,
+        "title": "Tổng Tài Bá Đạo Đòi Lại Công Lý Cho Cô Nhân Viên Oan Ức",
+        "originalUrl": "https://www.facebook.com/reel/1046169954919607/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1046169954919607%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808397414_1854767662542642_2310038180266984538_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=G7qXmAyq2sAQ7kNvwHzL51q&_nc_oc=AdrZA7eHSVMX385BbF-etfyRmcgq-OBR7AkwQ9_X4gS-R_6p-mYrFDO0U1JHh537m2mCEnuhETBxiQkUG6zpug4A&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLqCWSyxFe-Ercp_Os-KGegBqCVLDi1Bzbldo9nBSGbrQ&oe=6AB03B5D",
+        "viewsCount": 54583,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1458101083046423",
+    "slug": "co-be-lo-lem-bi-hat-hui-bat-ngo-duoc-thua-ke-gia-tai-nghin-ty-6423",
+    "title": "Cô Bé Lọ Lem Bị Hắt Hủi Bất Ngờ Được Thừa Kế Gia Tài Nghìn Tỷ",
+    "description": "Phim ngắn kịch tính: Cô Bé Lọ Lem Bị Hắt Hủi Bất Ngờ Được Thừa Kế Gia Tài Nghìn Tỷ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805998007_1882075359421932_2152707347662673395_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=IXvN4uBgU0UQ7kNvwEwkzCS&_nc_oc=Adrp26fuTYfmQjOvulOg83WgeWYw2DttiHvIm995omUXCtx1brQ-aQUGQayBTYjQ_oiC9rb6WVaUucCpT9zlP1LI&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLNZSpKf-xaZYHsBGy03OgOpbJp-ZYnTHNfgI2zPbqAKw&oe=6AB03819",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805998007_1882075359421932_2152707347662673395_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=IXvN4uBgU0UQ7kNvwEwkzCS&_nc_oc=Adrp26fuTYfmQjOvulOg83WgeWYw2DttiHvIm995omUXCtx1brQ-aQUGQayBTYjQ_oiC9rb6WVaUucCpT9zlP1LI&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLNZSpKf-xaZYHsBGy03OgOpbJp-ZYnTHNfgI2zPbqAKw&oe=6AB03819",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1458101083046423",
+        "seriesId": "series-drama-1458101083046423",
+        "partNumber": 1,
+        "title": "Cô Bé Lọ Lem Bị Hắt Hủi Bất Ngờ Được Thừa Kế Gia Tài Nghìn Tỷ",
+        "originalUrl": "https://www.facebook.com/reel/1458101083046423/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1458101083046423%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805998007_1882075359421932_2152707347662673395_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=IXvN4uBgU0UQ7kNvwEwkzCS&_nc_oc=Adrp26fuTYfmQjOvulOg83WgeWYw2DttiHvIm995omUXCtx1brQ-aQUGQayBTYjQ_oiC9rb6WVaUucCpT9zlP1LI&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLNZSpKf-xaZYHsBGy03OgOpbJp-ZYnTHNfgI2zPbqAKw&oe=6AB03819",
+        "viewsCount": 87615,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1063696346478816",
+    "slug": "cao-thu-tro-ve-do-thi-trung-tri-thieu-gia-hong-hach-8816",
+    "title": "Cao Thủ Trở Về Đô Thị Trừng Trị Thiếu Gia Hống Hách",
+    "description": "Phim ngắn kịch tính: Cao Thủ Trở Về Đô Thị Trừng Trị Thiếu Gia Hống Hách. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/809601543_2134419110476523_1628619309054496280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NYt9OfGbyGsQ7kNvwFVMcJb&_nc_oc=Adqhly6p2NwrjrlSOedlsBB_9q_rHwZaUACd1g-7_Qdia2DdVZ8rbek9lidb_cKobiAb06Uk-cTrO1tG_ZL-mski&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLfe8C4g79kRsjImVwXVMcLN7NGRiMmClW7CAl-EvW_QQ&oe=6AB023DE",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/809601543_2134419110476523_1628619309054496280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NYt9OfGbyGsQ7kNvwFVMcJb&_nc_oc=Adqhly6p2NwrjrlSOedlsBB_9q_rHwZaUACd1g-7_Qdia2DdVZ8rbek9lidb_cKobiAb06Uk-cTrO1tG_ZL-mski&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLfe8C4g79kRsjImVwXVMcLN7NGRiMmClW7CAl-EvW_QQ&oe=6AB023DE",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1063696346478816",
+        "seriesId": "series-drama-1063696346478816",
+        "partNumber": 1,
+        "title": "Cao Thủ Trở Về Đô Thị Trừng Trị Thiếu Gia Hống Hách",
+        "originalUrl": "https://www.facebook.com/reel/1063696346478816/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1063696346478816%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/809601543_2134419110476523_1628619309054496280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NYt9OfGbyGsQ7kNvwFVMcJb&_nc_oc=Adqhly6p2NwrjrlSOedlsBB_9q_rHwZaUACd1g-7_Qdia2DdVZ8rbek9lidb_cKobiAb06Uk-cTrO1tG_ZL-mski&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLfe8C4g79kRsjImVwXVMcLN7NGRiMmClW7CAl-EvW_QQ&oe=6AB023DE",
+        "viewsCount": 38070,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1602102774921805",
+    "slug": "me-chong-khat-khe-nem-mui-dang-cay-truoc-nang-dau-quyen-luc-1805",
+    "title": "Mẹ Chồng Khắt Khe Nếm Mùi Đắng Cay Trước Nàng Dâu Quyền Lực",
+    "description": "Phim ngắn kịch tính: Mẹ Chồng Khắt Khe Nếm Mùi Đắng Cay Trước Nàng Dâu Quyền Lực. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808191020_1404719167661147_529398669325970939_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6ppGCZRXCtUQ7kNvwGCMGI8&_nc_oc=Adod7BXDp_IKt0si-GZtMX8a--AWGI9_QemzvC1HOO_aFgU00KVBhGdj17XNuQobkExLUGxp8mvipsruHKFbN2F3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIw79_jGOXPMCJlbDrjFzCY4QyYqHuBlKJRF2IxcPSXmA&oe=6AB048BA",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808191020_1404719167661147_529398669325970939_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6ppGCZRXCtUQ7kNvwGCMGI8&_nc_oc=Adod7BXDp_IKt0si-GZtMX8a--AWGI9_QemzvC1HOO_aFgU00KVBhGdj17XNuQobkExLUGxp8mvipsruHKFbN2F3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIw79_jGOXPMCJlbDrjFzCY4QyYqHuBlKJRF2IxcPSXmA&oe=6AB048BA",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1602102774921805",
+        "seriesId": "series-drama-1602102774921805",
+        "partNumber": 1,
+        "title": "Mẹ Chồng Khắt Khe Nếm Mùi Đắng Cay Trước Nàng Dâu Quyền Lực",
+        "originalUrl": "https://www.facebook.com/reel/1602102774921805/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1602102774921805%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808191020_1404719167661147_529398669325970939_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6ppGCZRXCtUQ7kNvwGCMGI8&_nc_oc=Adod7BXDp_IKt0si-GZtMX8a--AWGI9_QemzvC1HOO_aFgU00KVBhGdj17XNuQobkExLUGxp8mvipsruHKFbN2F3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQIw79_jGOXPMCJlbDrjFzCY4QyYqHuBlKJRF2IxcPSXmA&oe=6AB048BA",
+        "viewsCount": 17255,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2288888268531577",
+    "slug": "thien-tai-bac-si-cuu-song-dai-nhan-vat-khi-bi-coi-thuong-1577",
+    "title": "Thiên Tài Bác Sĩ Cứu Sống Đại Nhân Vật Khi Bị Coi Thường",
+    "description": "Phim ngắn kịch tính: Thiên Tài Bác Sĩ Cứu Sống Đại Nhân Vật Khi Bị Coi Thường. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808218776_1795581868130868_1618093351444197110_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1566&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=FU7Ax8gy4_AQ7kNvwEv2wLJ&_nc_oc=AdrNE3-rjCIXbSv-_oFKaHuZVEbyh5K2xBePETrXjDL4WdVEpZi9DkXGVw2I8r-wawt-xKWLBtnh_6Xlp6R-x3Vx&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQI_zVJbbFMOpV9DvyprUX-PAY2ivOuWBSiUnHT2YGRSiA&oe=6AB02289",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808218776_1795581868130868_1618093351444197110_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1566&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=FU7Ax8gy4_AQ7kNvwEv2wLJ&_nc_oc=AdrNE3-rjCIXbSv-_oFKaHuZVEbyh5K2xBePETrXjDL4WdVEpZi9DkXGVw2I8r-wawt-xKWLBtnh_6Xlp6R-x3Vx&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQI_zVJbbFMOpV9DvyprUX-PAY2ivOuWBSiUnHT2YGRSiA&oe=6AB02289",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2288888268531577",
+        "seriesId": "series-drama-2288888268531577",
+        "partNumber": 1,
+        "title": "Thiên Tài Bác Sĩ Cứu Sống Đại Nhân Vật Khi Bị Coi Thường",
+        "originalUrl": "https://www.facebook.com/reel/2288888268531577/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2288888268531577%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808218776_1795581868130868_1618093351444197110_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1566&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=FU7Ax8gy4_AQ7kNvwEv2wLJ&_nc_oc=AdrNE3-rjCIXbSv-_oFKaHuZVEbyh5K2xBePETrXjDL4WdVEpZi9DkXGVw2I8r-wawt-xKWLBtnh_6Xlp6R-x3Vx&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQI_zVJbbFMOpV9DvyprUX-PAY2ivOuWBSiUnHT2YGRSiA&oe=6AB02289",
+        "viewsCount": 30897,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1027221787019489",
+    "slug": "nu-cuong-tro-lai-tra-thu-ke-phan-boi-tung-ham-hai-minh-9489",
+    "title": "Nữ Cường Trở Lại Trả Thù Kẻ Phản Bội Từng Hãm Hại Mình",
+    "description": "Phim ngắn kịch tính: Nữ Cường Trở Lại Trả Thù Kẻ Phản Bội Từng Hãm Hại Mình. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808190808_1053897434073205_1390533845282596057_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=QGovgfzUxFoQ7kNvwEZuhoY&_nc_oc=AdqFNCu_gidFTKmxdGXXx-6rwLEoCBG62DoJxkgUJnzI-7n3KPYhBmv754EKPS-8De49KjZNgnArhSIW6BaoCkvk&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLWYnDj2xxeoR6LUyfSBBwvclI2Zz99aydooDa-zgtCLA&oe=6AB02D1B",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808190808_1053897434073205_1390533845282596057_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=QGovgfzUxFoQ7kNvwEZuhoY&_nc_oc=AdqFNCu_gidFTKmxdGXXx-6rwLEoCBG62DoJxkgUJnzI-7n3KPYhBmv754EKPS-8De49KjZNgnArhSIW6BaoCkvk&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLWYnDj2xxeoR6LUyfSBBwvclI2Zz99aydooDa-zgtCLA&oe=6AB02D1B",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1027221787019489",
+        "seriesId": "series-drama-1027221787019489",
+        "partNumber": 1,
+        "title": "Nữ Cường Trở Lại Trả Thù Kẻ Phản Bội Từng Hãm Hại Mình",
+        "originalUrl": "https://www.facebook.com/reel/1027221787019489/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1027221787019489%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808190808_1053897434073205_1390533845282596057_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=QGovgfzUxFoQ7kNvwEZuhoY&_nc_oc=AdqFNCu_gidFTKmxdGXXx-6rwLEoCBG62DoJxkgUJnzI-7n3KPYhBmv754EKPS-8De49KjZNgnArhSIW6BaoCkvk&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQLWYnDj2xxeoR6LUyfSBBwvclI2Zz99aydooDa-zgtCLA&oe=6AB02D1B",
+        "viewsCount": 93873,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-825178374007346",
+    "slug": "ve-si-ngam-bao-ve-dai-tieu-thu-ra-tay-doat-mang-sat-thu-7346",
+    "title": "Vệ Sĩ Ngầm Bảo Vệ Đại Tiểu Thư Ra Tay Đoạt Mạng Sát Thủ",
+    "description": "Phim ngắn kịch tính: Vệ Sĩ Ngầm Bảo Vệ Đại Tiểu Thư Ra Tay Đoạt Mạng Sát Thủ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808661179_1595649215431224_5921345389092588942_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=m1KER7obU5QQ7kNvwFrXzpA&_nc_oc=Ado16v6HfmlpyyjwZoDcjIK3zwtiPy85eVg-XhbOcd6w__D9oZ-djUKBcMf6CGS8xqHINSShtvN_JbCo75QEuVcl&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJq_qG6Xz1UF2SKO8MlL8tnk79Osj0KhLKvKCZ2cZIc4g&oe=6AB012A8",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808661179_1595649215431224_5921345389092588942_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=m1KER7obU5QQ7kNvwFrXzpA&_nc_oc=Ado16v6HfmlpyyjwZoDcjIK3zwtiPy85eVg-XhbOcd6w__D9oZ-djUKBcMf6CGS8xqHINSShtvN_JbCo75QEuVcl&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJq_qG6Xz1UF2SKO8MlL8tnk79Osj0KhLKvKCZ2cZIc4g&oe=6AB012A8",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-825178374007346",
+        "seriesId": "series-drama-825178374007346",
+        "partNumber": 1,
+        "title": "Vệ Sĩ Ngầm Bảo Vệ Đại Tiểu Thư Ra Tay Đoạt Mạng Sát Thủ",
+        "originalUrl": "https://www.facebook.com/reel/825178374007346/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F825178374007346%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/808661179_1595649215431224_5921345389092588942_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=m1KER7obU5QQ7kNvwFrXzpA&_nc_oc=Ado16v6HfmlpyyjwZoDcjIK3zwtiPy85eVg-XhbOcd6w__D9oZ-djUKBcMf6CGS8xqHINSShtvN_JbCo75QEuVcl&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJq_qG6Xz1UF2SKO8MlL8tnk79Osj0KhLKvKCZ2cZIc4g&oe=6AB012A8",
+        "viewsCount": 46830,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1614034590450180",
+    "slug": "kich-tinh-hop-dong-hon-nhan-100-ngay-cua-tong-tai-0180",
+    "title": "Kịch Tính Hợp Đồng Hôn Nhân 100 Ngày Của Tổng Tài",
+    "description": "Phim ngắn kịch tính: Kịch Tính Hợp Đồng Hôn Nhân 100 Ngày Của Tổng Tài. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806035563_1005644095825138_2606586097105505409_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=xanzMy_cG3gQ7kNvwEWqZSE&_nc_oc=AdoBcy4RQuEdprMQFSAHWY0J-F-K0l5U_vc9_m8AGGAEHU5JFmciRDEyIOgCFHt2IUAErBhTCLMxQ7ipPADoexMp&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJbLAxsSvnb8q1kRjXAm8YG7iGS8t_l4-23oIqt4Rwnog&oe=6AB0337F",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806035563_1005644095825138_2606586097105505409_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=xanzMy_cG3gQ7kNvwEWqZSE&_nc_oc=AdoBcy4RQuEdprMQFSAHWY0J-F-K0l5U_vc9_m8AGGAEHU5JFmciRDEyIOgCFHt2IUAErBhTCLMxQ7ipPADoexMp&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJbLAxsSvnb8q1kRjXAm8YG7iGS8t_l4-23oIqt4Rwnog&oe=6AB0337F",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1614034590450180",
+        "seriesId": "series-drama-1614034590450180",
+        "partNumber": 1,
+        "title": "Kịch Tính Hợp Đồng Hôn Nhân 100 Ngày Của Tổng Tài",
+        "originalUrl": "https://www.facebook.com/reel/1614034590450180/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1614034590450180%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806035563_1005644095825138_2606586097105505409_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=xanzMy_cG3gQ7kNvwEWqZSE&_nc_oc=AdoBcy4RQuEdprMQFSAHWY0J-F-K0l5U_vc9_m8AGGAEHU5JFmciRDEyIOgCFHt2IUAErBhTCLMxQ7ipPADoexMp&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=9gEqJBd0_mVwIPCfO1FZxQ&_nc_ss=7820f&oh=00_AQJbLAxsSvnb8q1kRjXAm8YG7iGS8t_l4-23oIqt4Rwnog&oe=6AB0337F",
+        "viewsCount": 82723,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-29106767075591637",
+    "slug": "he-lo-bi-mat-dong-troi-dang-sau-bua-tiec-gioi-thuong-luu-1637",
+    "title": "Hé Lộ Bí Mật Động Trời Đằng Sau Bữa Tiệc Giới Thượng Lưu",
+    "description": "Phim ngắn kịch tính: Hé Lộ Bí Mật Động Trời Đằng Sau Bữa Tiệc Giới Thượng Lưu. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807858281_1350960036829699_2218356500333904298_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=EXEt3ggGQ6oQ7kNvwHAca4u&_nc_oc=AdqT3VrCkzAK2rGvNZd5L_G1_BSbgfXcRjo4zpaMEEbRs1n42vsIlgKOgzGPl8MSuno2lCLCtAJ4bNgUcd0yTJfF&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIvfBIvwhgaDxrnDE5FXbKG7UDjs7GxeJcxxv6JPpVtDQ&oe=6AB033C4",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807858281_1350960036829699_2218356500333904298_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=EXEt3ggGQ6oQ7kNvwHAca4u&_nc_oc=AdqT3VrCkzAK2rGvNZd5L_G1_BSbgfXcRjo4zpaMEEbRs1n42vsIlgKOgzGPl8MSuno2lCLCtAJ4bNgUcd0yTJfF&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIvfBIvwhgaDxrnDE5FXbKG7UDjs7GxeJcxxv6JPpVtDQ&oe=6AB033C4",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-29106767075591637",
+        "seriesId": "series-drama-29106767075591637",
+        "partNumber": 1,
+        "title": "Hé Lộ Bí Mật Động Trời Đằng Sau Bữa Tiệc Giới Thượng Lưu",
+        "originalUrl": "https://www.facebook.com/reel/29106767075591637/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F29106767075591637%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807858281_1350960036829699_2218356500333904298_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=EXEt3ggGQ6oQ7kNvwHAca4u&_nc_oc=AdqT3VrCkzAK2rGvNZd5L_G1_BSbgfXcRjo4zpaMEEbRs1n42vsIlgKOgzGPl8MSuno2lCLCtAJ4bNgUcd0yTJfF&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIvfBIvwhgaDxrnDE5FXbKG7UDjs7GxeJcxxv6JPpVtDQ&oe=6AB033C4",
+        "viewsCount": 45165,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1082662571410429",
+    "slug": "co-gai-que-mot-tay-lat-do-gia-toc-doc-ac-0429",
+    "title": "Cô Gái Quê Một Tay Lật Đổ Gia Tộc Độc Ác",
+    "description": "Phim ngắn kịch tính: Cô Gái Quê Một Tay Lật Đổ Gia Tộc Độc Ác. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/810350704_1436312595053205_1363816313588855832_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=Z7n-8xJSHuEQ7kNvwGbZ2G-&_nc_oc=Adqj6WvooXNBSZn0ioWOMhzD5FZCgcIVLuDd9B8yqUMQ_iVlQIN9hABf3_Q6EGQFtUBYIOIxnn3BZOFL7ljY9n37&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLyk-hCLW6JBLgPvGjlkVqzd-C9AZGw-NhcB9-bQvm14Q&oe=6AB0345D",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/810350704_1436312595053205_1363816313588855832_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=Z7n-8xJSHuEQ7kNvwGbZ2G-&_nc_oc=Adqj6WvooXNBSZn0ioWOMhzD5FZCgcIVLuDd9B8yqUMQ_iVlQIN9hABf3_Q6EGQFtUBYIOIxnn3BZOFL7ljY9n37&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLyk-hCLW6JBLgPvGjlkVqzd-C9AZGw-NhcB9-bQvm14Q&oe=6AB0345D",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1082662571410429",
+        "seriesId": "series-drama-1082662571410429",
+        "partNumber": 1,
+        "title": "Cô Gái Quê Một Tay Lật Đổ Gia Tộc Độc Ác",
+        "originalUrl": "https://www.facebook.com/reel/1082662571410429/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1082662571410429%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/810350704_1436312595053205_1363816313588855832_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=Z7n-8xJSHuEQ7kNvwGbZ2G-&_nc_oc=Adqj6WvooXNBSZn0ioWOMhzD5FZCgcIVLuDd9B8yqUMQ_iVlQIN9hABf3_Q6EGQFtUBYIOIxnn3BZOFL7ljY9n37&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLyk-hCLW6JBLgPvGjlkVqzd-C9AZGw-NhcB9-bQvm14Q&oe=6AB0345D",
+        "viewsCount": 45524,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2355003238640138",
+    "slug": "man-doi-trang-thay-den-bi-vach-tran-ngay-tai-toa-an-0138",
+    "title": "Màn Đổi Trắng Thay Đen Bị Vạch Trần Ngay Tại Tòa Án",
+    "description": "Phim ngắn kịch tính: Màn Đổi Trắng Thay Đen Bị Vạch Trần Ngay Tại Tòa Án. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/808896749_1064978289793509_2625334605514788423_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6R2HKoPBinEQ7kNvwEmXGok&_nc_oc=Adrwy1UguQmMRzBR1HMSOsNP8UcWeT-BLUeVkCctHoMtsGH1IlAxIiNpPQ2nBdzpSv6gx00wY9C8x_LhZvb92rIJ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVgKBOKiTOTgE5I4T6EkoI_5k41zn3G3JMMfWrPDB6xQ&oe=6AB04358",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/808896749_1064978289793509_2625334605514788423_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6R2HKoPBinEQ7kNvwEmXGok&_nc_oc=Adrwy1UguQmMRzBR1HMSOsNP8UcWeT-BLUeVkCctHoMtsGH1IlAxIiNpPQ2nBdzpSv6gx00wY9C8x_LhZvb92rIJ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVgKBOKiTOTgE5I4T6EkoI_5k41zn3G3JMMfWrPDB6xQ&oe=6AB04358",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2355003238640138",
+        "seriesId": "series-drama-2355003238640138",
+        "partNumber": 1,
+        "title": "Màn Đổi Trắng Thay Đen Bị Vạch Trần Ngay Tại Tòa Án",
+        "originalUrl": "https://www.facebook.com/reel/2355003238640138/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2355003238640138%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/808896749_1064978289793509_2625334605514788423_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=6R2HKoPBinEQ7kNvwEmXGok&_nc_oc=Adrwy1UguQmMRzBR1HMSOsNP8UcWeT-BLUeVkCctHoMtsGH1IlAxIiNpPQ2nBdzpSv6gx00wY9C8x_LhZvb92rIJ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVgKBOKiTOTgE5I4T6EkoI_5k41zn3G3JMMfWrPDB6xQ&oe=6AB04358",
+        "viewsCount": 97441,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1601364121668127",
+    "slug": "than-y-do-thi-vua-xuat-son-da-cuu-song-gia-toc-hao-mon-8127",
+    "title": "Thần Y Đô Thị Vừa Xuất Sơn Đã Cứu Sống Gia Tộc Hào Môn",
+    "description": "Phim ngắn kịch tính: Thần Y Đô Thị Vừa Xuất Sơn Đã Cứu Sống Gia Tộc Hào Môn. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805936285_1504117978400233_7180226897737281373_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qmfsGWOeHAAQ7kNvwELp_Ib&_nc_oc=AdqUagsj12OMMN4e1kqOY5Zz90qu3PzSdvrgtFAAd57mP2i5C3M4UdhsJxMYo6O83IQYtnvWxyn00tQhC3-WY71G&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLwSwZYUxYSwczYzzgBoPtSgbVX0Z8kbN1BLpP_mFJjCw&oe=6AB032B7",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805936285_1504117978400233_7180226897737281373_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qmfsGWOeHAAQ7kNvwELp_Ib&_nc_oc=AdqUagsj12OMMN4e1kqOY5Zz90qu3PzSdvrgtFAAd57mP2i5C3M4UdhsJxMYo6O83IQYtnvWxyn00tQhC3-WY71G&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLwSwZYUxYSwczYzzgBoPtSgbVX0Z8kbN1BLpP_mFJjCw&oe=6AB032B7",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1601364121668127",
+        "seriesId": "series-drama-1601364121668127",
+        "partNumber": 1,
+        "title": "Thần Y Đô Thị Vừa Xuất Sơn Đã Cứu Sống Gia Tộc Hào Môn",
+        "originalUrl": "https://www.facebook.com/reel/1601364121668127/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1601364121668127%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805936285_1504117978400233_7180226897737281373_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=qmfsGWOeHAAQ7kNvwELp_Ib&_nc_oc=AdqUagsj12OMMN4e1kqOY5Zz90qu3PzSdvrgtFAAd57mP2i5C3M4UdhsJxMYo6O83IQYtnvWxyn00tQhC3-WY71G&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLwSwZYUxYSwczYzzgBoPtSgbVX0Z8kbN1BLpP_mFJjCw&oe=6AB032B7",
+        "viewsCount": 94672,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1058704350490830",
+    "slug": "long-da-hiem-doc-cua-ke-ham-hai-ban-than-nhan-qua-bao-0830",
+    "title": "Lòng Dạ Hiểm Độc Của Kẻ Hãm Hại Bạn Thân Nhận Quả Báo",
+    "description": "Phim ngắn kịch tính: Lòng Dạ Hiểm Độc Của Kẻ Hãm Hại Bạn Thân Nhận Quả Báo. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807758570_961231007020858_2591099497839892011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=fyqBQ1GqoPUQ7kNvwHW9Gvw&_nc_oc=AdrFlQoQW3_SSsS2D68kLUuFtYABK0un4CXFFJzOwe0g5qOa9nhLedchx4oOEhEWpDpFIapsxF6W62BdaiFVW_ge&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLMdDfN6-P5ecwmBfK0T9FarUcv0pHCaRGOpGUpT54Ujg&oe=6AB0284B",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807758570_961231007020858_2591099497839892011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=fyqBQ1GqoPUQ7kNvwHW9Gvw&_nc_oc=AdrFlQoQW3_SSsS2D68kLUuFtYABK0un4CXFFJzOwe0g5qOa9nhLedchx4oOEhEWpDpFIapsxF6W62BdaiFVW_ge&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLMdDfN6-P5ecwmBfK0T9FarUcv0pHCaRGOpGUpT54Ujg&oe=6AB0284B",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1058704350490830",
+        "seriesId": "series-drama-1058704350490830",
+        "partNumber": 1,
+        "title": "Lòng Dạ Hiểm Độc Của Kẻ Hãm Hại Bạn Thân Nhận Quả Báo",
+        "originalUrl": "https://www.facebook.com/reel/1058704350490830/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1058704350490830%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807758570_961231007020858_2591099497839892011_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=fyqBQ1GqoPUQ7kNvwHW9Gvw&_nc_oc=AdrFlQoQW3_SSsS2D68kLUuFtYABK0un4CXFFJzOwe0g5qOa9nhLedchx4oOEhEWpDpFIapsxF6W62BdaiFVW_ge&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLMdDfN6-P5ecwmBfK0T9FarUcv0pHCaRGOpGUpT54Ujg&oe=6AB0284B",
+        "viewsCount": 15330,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1635584411513586",
+    "slug": "bi-duoi-ra-khoi-nha-3-nam-sau-tro-ve-voi-vi-the-ong-trum-3586",
+    "title": "Bị Đuổi Ra Khỏi Nhà, 3 Năm Sau Trở Về Với Vị Thế Ông Trùm",
+    "description": "Phim ngắn kịch tính: Bị Đuổi Ra Khỏi Nhà, 3 Năm Sau Trở Về Với Vị Thế Ông Trùm. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805975387_1750961646111831_1278102627250358755_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DyZkBWgisYsQ7kNvwH5OEpg&_nc_oc=AdpbH0J3polTl0G827spzjzjewL5xAaKk_4wDlAiJ24kExLxvaRtViL0HPyih5W_j3PFE0Z5qAWTBN1vIz7l2ELX&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQI-hBIURewwIqf0qSdEYZuitR4-0P7WdE7IH4mEsSVI7A&oe=6AB037C8",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805975387_1750961646111831_1278102627250358755_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DyZkBWgisYsQ7kNvwH5OEpg&_nc_oc=AdpbH0J3polTl0G827spzjzjewL5xAaKk_4wDlAiJ24kExLxvaRtViL0HPyih5W_j3PFE0Z5qAWTBN1vIz7l2ELX&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQI-hBIURewwIqf0qSdEYZuitR4-0P7WdE7IH4mEsSVI7A&oe=6AB037C8",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1635584411513586",
+        "seriesId": "series-drama-1635584411513586",
+        "partNumber": 1,
+        "title": "Bị Đuổi Ra Khỏi Nhà, 3 Năm Sau Trở Về Với Vị Thế Ông Trùm",
+        "originalUrl": "https://www.facebook.com/reel/1635584411513586/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1635584411513586%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805975387_1750961646111831_1278102627250358755_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=104&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DyZkBWgisYsQ7kNvwH5OEpg&_nc_oc=AdpbH0J3polTl0G827spzjzjewL5xAaKk_4wDlAiJ24kExLxvaRtViL0HPyih5W_j3PFE0Z5qAWTBN1vIz7l2ELX&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQI-hBIURewwIqf0qSdEYZuitR4-0P7WdE7IH4mEsSVI7A&oe=6AB037C8",
+        "viewsCount": 39944,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1144145471278730",
+    "slug": "hon-le-the-ky-bi-huy-bo-vi-bo-mat-that-cua-chu-re-8730",
+    "title": "Hôn Lễ Thế Kỷ Bị Huỷ Bỏ Vì Bộ Mặt Thật Của Chú Rể",
+    "description": "Phim ngắn kịch tính: Hôn Lễ Thế Kỷ Bị Huỷ Bỏ Vì Bộ Mặt Thật Của Chú Rể. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806211994_1784387139234377_8436038941017947127_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1620&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=39hog_Vx3twQ7kNvwFgiqbE&_nc_oc=Adpb-BEia0ZGaV28Wh3D4mPV0KVKtX-AMDbwmBkKXE2JzMK1WhidU6CgnWVkIPWuc7SzfIg19v9OGREJ8TpM8eVv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLz6XGRQM2vvjDVy-H9zET8f2IsSM55x6qfkx283JIG-w&oe=6AB047CD",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806211994_1784387139234377_8436038941017947127_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1620&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=39hog_Vx3twQ7kNvwFgiqbE&_nc_oc=Adpb-BEia0ZGaV28Wh3D4mPV0KVKtX-AMDbwmBkKXE2JzMK1WhidU6CgnWVkIPWuc7SzfIg19v9OGREJ8TpM8eVv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLz6XGRQM2vvjDVy-H9zET8f2IsSM55x6qfkx283JIG-w&oe=6AB047CD",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1144145471278730",
+        "seriesId": "series-drama-1144145471278730",
+        "partNumber": 1,
+        "title": "Hôn Lễ Thế Kỷ Bị Huỷ Bỏ Vì Bộ Mặt Thật Của Chú Rể",
+        "originalUrl": "https://www.facebook.com/reel/1144145471278730/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1144145471278730%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806211994_1784387139234377_8436038941017947127_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1620&ctp=s960x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=39hog_Vx3twQ7kNvwFgiqbE&_nc_oc=Adpb-BEia0ZGaV28Wh3D4mPV0KVKtX-AMDbwmBkKXE2JzMK1WhidU6CgnWVkIPWuc7SzfIg19v9OGREJ8TpM8eVv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQLz6XGRQM2vvjDVy-H9zET8f2IsSM55x6qfkx283JIG-w&oe=6AB047CD",
+        "viewsCount": 87348,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1106319438583961",
+    "slug": "nu-diep-vien-an-danh-trong-vai-co-thu-ky-hien-lanh-3961",
+    "title": "Nữ Điệp Viên Ẩn Danh Trong Vai Cô Thư Ký Hiền Lành",
+    "description": "Phim ngắn kịch tính: Nữ Điệp Viên Ẩn Danh Trong Vai Cô Thư Ký Hiền Lành. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807084259_1117787714077930_162134309195693280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=eRtsPdO0GDwQ7kNvwFqEQ_t&_nc_oc=AdqGj6yO113IJ-TxfjSa-Fl0VXaAc23-C7leCwhOR-iGCVs4XQ1EFO_uuL_lH5GKwGTjsU8yw78p16-3CUO51Nwv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVWnz3zHsUrj1JHeaODIOtKSYLNUdmYhQFucKXOytjqg&oe=6AB014CE",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807084259_1117787714077930_162134309195693280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=eRtsPdO0GDwQ7kNvwFqEQ_t&_nc_oc=AdqGj6yO113IJ-TxfjSa-Fl0VXaAc23-C7leCwhOR-iGCVs4XQ1EFO_uuL_lH5GKwGTjsU8yw78p16-3CUO51Nwv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVWnz3zHsUrj1JHeaODIOtKSYLNUdmYhQFucKXOytjqg&oe=6AB014CE",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1106319438583961",
+        "seriesId": "series-drama-1106319438583961",
+        "partNumber": 1,
+        "title": "Nữ Điệp Viên Ẩn Danh Trong Vai Cô Thư Ký Hiền Lành",
+        "originalUrl": "https://www.facebook.com/reel/1106319438583961/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1106319438583961%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807084259_1117787714077930_162134309195693280_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=eRtsPdO0GDwQ7kNvwFqEQ_t&_nc_oc=AdqGj6yO113IJ-TxfjSa-Fl0VXaAc23-C7leCwhOR-iGCVs4XQ1EFO_uuL_lH5GKwGTjsU8yw78p16-3CUO51Nwv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQIVWnz3zHsUrj1JHeaODIOtKSYLNUdmYhQFucKXOytjqg&oe=6AB014CE",
+        "viewsCount": 48974,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1717553205969888",
+    "slug": "tran-chien-quyen-luc-trong-tap-doan-nghin-ty-9888",
+    "title": "Trận Chiến Quyền Lực Trong Tập Đoàn Nghìn Tỷ",
+    "description": "Phim ngắn kịch tính: Trận Chiến Quyền Lực Trong Tập Đoàn Nghìn Tỷ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805696572_827061940467657_822335647937740951_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=02GBcsTsCAoQ7kNvwGUWnKw&_nc_oc=AdoY5BzEYBYZfVQMxffSAfZH71nELJ-e4rns7U6fK6WN8eqtp_EE8LJqrba1m2Vlc-tu8Cx7wik6n9vi29CGz7TH&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQJvpX_BAiK1QmfURiNVcc3f9hm56dLM1jZ6eHYEMS_Qmw&oe=6AB01A59",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805696572_827061940467657_822335647937740951_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=02GBcsTsCAoQ7kNvwGUWnKw&_nc_oc=AdoY5BzEYBYZfVQMxffSAfZH71nELJ-e4rns7U6fK6WN8eqtp_EE8LJqrba1m2Vlc-tu8Cx7wik6n9vi29CGz7TH&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQJvpX_BAiK1QmfURiNVcc3f9hm56dLM1jZ6eHYEMS_Qmw&oe=6AB01A59",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1717553205969888",
+        "seriesId": "series-drama-1717553205969888",
+        "partNumber": 1,
+        "title": "Trận Chiến Quyền Lực Trong Tập Đoàn Nghìn Tỷ",
+        "originalUrl": "https://www.facebook.com/reel/1717553205969888/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1717553205969888%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/805696572_827061940467657_822335647937740951_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=109&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=02GBcsTsCAoQ7kNvwGUWnKw&_nc_oc=AdoY5BzEYBYZfVQMxffSAfZH71nELJ-e4rns7U6fK6WN8eqtp_EE8LJqrba1m2Vlc-tu8Cx7wik6n9vi29CGz7TH&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQJvpX_BAiK1QmfURiNVcc3f9hm56dLM1jZ6eHYEMS_Qmw&oe=6AB01A59",
+        "viewsCount": 34088,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-995627740216581",
+    "slug": "gia-dau-kich-tinh-su-that-dang-sau-ban-di-chuc-bi-an-6581",
+    "title": "Gia Đấu Kịch Tính: Sự Thật Đằng Sau Bản Di Chúc Bí Ẩn",
+    "description": "Phim ngắn kịch tính: Gia Đấu Kịch Tính: Sự Thật Đằng Sau Bản Di Chúc Bí Ẩn. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806453045_928726256962084_5217885272545788401_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=5HaKJJGetHAQ7kNvwG-e0Uz&_nc_oc=AdpyzhbqyW7fV4yaxvCcoYMk2-V_NhcSoeuYvvRdY-McXTHst3CpdxQeLDfTdVU3L79AEmvVlrcYEWw-VgyvGuXv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQKIk_1lbKAdWemSbIoe_CTYfkpT9OWndFPZOnGbVc9Slg&oe=6AB03904",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806453045_928726256962084_5217885272545788401_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=5HaKJJGetHAQ7kNvwG-e0Uz&_nc_oc=AdpyzhbqyW7fV4yaxvCcoYMk2-V_NhcSoeuYvvRdY-McXTHst3CpdxQeLDfTdVU3L79AEmvVlrcYEWw-VgyvGuXv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQKIk_1lbKAdWemSbIoe_CTYfkpT9OWndFPZOnGbVc9Slg&oe=6AB03904",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-995627740216581",
+        "seriesId": "series-drama-995627740216581",
+        "partNumber": 1,
+        "title": "Gia Đấu Kịch Tính: Sự Thật Đằng Sau Bản Di Chúc Bí Ẩn",
+        "originalUrl": "https://www.facebook.com/reel/995627740216581/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F995627740216581%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/806453045_928726256962084_5217885272545788401_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=5HaKJJGetHAQ7kNvwG-e0Uz&_nc_oc=AdpyzhbqyW7fV4yaxvCcoYMk2-V_NhcSoeuYvvRdY-McXTHst3CpdxQeLDfTdVU3L79AEmvVlrcYEWw-VgyvGuXv&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=Kg9njcyxGOVw0oTqerAGHg&_nc_ss=7b289&oh=00_AQKIk_1lbKAdWemSbIoe_CTYfkpT9OWndFPZOnGbVc9Slg&oe=6AB03904",
+        "viewsCount": 87766,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1969752727038747",
+    "slug": "cai-bay-hoan-hao-cua-ke-phan-dien-da-bi-vach-tran-8747",
+    "title": "Cái Bẫy Hoàn Hảo Của Kẻ Phản Diện Đã Bị Vạch Trần",
+    "description": "Phim ngắn kịch tính: Cái Bẫy Hoàn Hảo Của Kẻ Phản Diện Đã Bị Vạch Trần. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809258722_1747828866429661_4062167481144145584_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NVwO9ipYA-4Q7kNvwEtVk9M&_nc_oc=Adq_jA3qK38CyFmeu-78-2OCJQ8ovWVCr81QrurLs-RsK3JaN9PkmmILHye93HesM9LxvL0s3F6b7C1_IQ5S4sSv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIm9HUNA6K8Gh8FZhAINPMGdAudkj06sz4CVjvaTy8uyA&oe=6AB035B1",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809258722_1747828866429661_4062167481144145584_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NVwO9ipYA-4Q7kNvwEtVk9M&_nc_oc=Adq_jA3qK38CyFmeu-78-2OCJQ8ovWVCr81QrurLs-RsK3JaN9PkmmILHye93HesM9LxvL0s3F6b7C1_IQ5S4sSv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIm9HUNA6K8Gh8FZhAINPMGdAudkj06sz4CVjvaTy8uyA&oe=6AB035B1",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1969752727038747",
+        "seriesId": "series-drama-1969752727038747",
+        "partNumber": 1,
+        "title": "Cái Bẫy Hoàn Hảo Của Kẻ Phản Diện Đã Bị Vạch Trần",
+        "originalUrl": "https://www.facebook.com/reel/1969752727038747/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1969752727038747%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/809258722_1747828866429661_4062167481144145584_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=106&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NVwO9ipYA-4Q7kNvwEtVk9M&_nc_oc=Adq_jA3qK38CyFmeu-78-2OCJQ8ovWVCr81QrurLs-RsK3JaN9PkmmILHye93HesM9LxvL0s3F6b7C1_IQ5S4sSv&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIm9HUNA6K8Gh8FZhAINPMGdAudkj06sz4CVjvaTy8uyA&oe=6AB035B1",
+        "viewsCount": 27566,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2255760221850203",
+    "slug": "an-oan-tinh-thu-giua-hai-the-luc-do-thi-ngam-0203",
+    "title": "Ân Oán Tình Thù Giữa Hai Thế Lực Đô Thị Ngầm",
+    "description": "Phim ngắn kịch tính: Ân Oán Tình Thù Giữa Hai Thế Lực Đô Thị Ngầm. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/790408228_1701264054272844_6321441123957958296_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=HbKjVpCpMI0Q7kNvwHedEun&_nc_oc=Adq7D5lyBVf2LXqjkI49cDp9fQkKRs4fkx5i_Kla7QWLNvQzkmEFcIt4DdEZdAuwAwkXG9xZvD2ZvHqRE2Bu05lb&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQId4YO89wp8XGWuDzJN3HfIYVm4BVHdiAmMxNer9B7Slg&oe=6AB0133B",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/790408228_1701264054272844_6321441123957958296_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=HbKjVpCpMI0Q7kNvwHedEun&_nc_oc=Adq7D5lyBVf2LXqjkI49cDp9fQkKRs4fkx5i_Kla7QWLNvQzkmEFcIt4DdEZdAuwAwkXG9xZvD2ZvHqRE2Bu05lb&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQId4YO89wp8XGWuDzJN3HfIYVm4BVHdiAmMxNer9B7Slg&oe=6AB0133B",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2255760221850203",
+        "seriesId": "series-drama-2255760221850203",
+        "partNumber": 1,
+        "title": "Ân Oán Tình Thù Giữa Hai Thế Lực Đô Thị Ngầm",
+        "originalUrl": "https://www.facebook.com/reel/2255760221850203/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2255760221850203%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/790408228_1701264054272844_6321441123957958296_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=HbKjVpCpMI0Q7kNvwHedEun&_nc_oc=Adq7D5lyBVf2LXqjkI49cDp9fQkKRs4fkx5i_Kla7QWLNvQzkmEFcIt4DdEZdAuwAwkXG9xZvD2ZvHqRE2Bu05lb&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQId4YO89wp8XGWuDzJN3HfIYVm4BVHdiAmMxNer9B7Slg&oe=6AB0133B",
+        "viewsCount": 71456,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1740198247291452",
+    "slug": "cu-quay-xe-bat-ngo-cua-dai-nu-chu-tai-bua-tiec-dinh-hon-1452",
+    "title": "Cú Quay Xe Bất Ngờ Của Đại Nữ Chủ Tại Bữa Tiệc Đính Hôn",
+    "description": "Phim ngắn kịch tính: Cú Quay Xe Bất Ngờ Của Đại Nữ Chủ Tại Bữa Tiệc Đính Hôn. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807868364_1797532381594814_5871009272665107667_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=0JYQVhBx5KkQ7kNvwEI5_l9&_nc_oc=Adr1XDvJth-xoG15K88H7V00iH0dTQU-MggVvkDyBQ2LGHvN0SgEB5hX1q-_AZrJx3gqsQgpK5aoje-THHjwEqOA&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIKwuggjHdO00bgC4u-cqZ_ms5vD17HtdD-dM62_Z65TA&oe=6AB02BE0",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807868364_1797532381594814_5871009272665107667_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=0JYQVhBx5KkQ7kNvwEI5_l9&_nc_oc=Adr1XDvJth-xoG15K88H7V00iH0dTQU-MggVvkDyBQ2LGHvN0SgEB5hX1q-_AZrJx3gqsQgpK5aoje-THHjwEqOA&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIKwuggjHdO00bgC4u-cqZ_ms5vD17HtdD-dM62_Z65TA&oe=6AB02BE0",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1740198247291452",
+        "seriesId": "series-drama-1740198247291452",
+        "partNumber": 1,
+        "title": "Cú Quay Xe Bất Ngờ Của Đại Nữ Chủ Tại Bữa Tiệc Đính Hôn",
+        "originalUrl": "https://www.facebook.com/reel/1740198247291452/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1740198247291452%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/807868364_1797532381594814_5871009272665107667_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=0JYQVhBx5KkQ7kNvwEI5_l9&_nc_oc=Adr1XDvJth-xoG15K88H7V00iH0dTQU-MggVvkDyBQ2LGHvN0SgEB5hX1q-_AZrJx3gqsQgpK5aoje-THHjwEqOA&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIKwuggjHdO00bgC4u-cqZ_ms5vD17HtdD-dM62_Z65TA&oe=6AB02BE0",
+        "viewsCount": 91740,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1399475595647134",
+    "slug": "thanh-xuan-bi-danh-cap-va-hanh-trinh-doi-lai-cong-ly-7134",
+    "title": "Thanh Xuân Bị Đánh Cắp Và Hành Trình Đòi Lại Công Lý",
+    "description": "Phim ngắn kịch tính: Thanh Xuân Bị Đánh Cắp Và Hành Trình Đòi Lại Công Lý. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805997952_1708404001075632_4118615912611668132_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NB_CaDR41isQ7kNvwHU04Vs&_nc_oc=AdrDm7hjoiznZcI1gErgowo_1o_erpH7-fgyg3UEXRNWPcGuO7IzRNQ3HrEp3rOKVKYG5h-LAeFtZW39roodf0Uc&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIhsiaiDlnWvCOxX-0YHrwuKxLzZkIH_5OcY9NcUk14YA&oe=6AB040C6",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805997952_1708404001075632_4118615912611668132_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NB_CaDR41isQ7kNvwHU04Vs&_nc_oc=AdrDm7hjoiznZcI1gErgowo_1o_erpH7-fgyg3UEXRNWPcGuO7IzRNQ3HrEp3rOKVKYG5h-LAeFtZW39roodf0Uc&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIhsiaiDlnWvCOxX-0YHrwuKxLzZkIH_5OcY9NcUk14YA&oe=6AB040C6",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1399475595647134",
+        "seriesId": "series-drama-1399475595647134",
+        "partNumber": 1,
+        "title": "Thanh Xuân Bị Đánh Cắp Và Hành Trình Đòi Lại Công Lý",
+        "originalUrl": "https://www.facebook.com/reel/1399475595647134/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1399475595647134%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/805997952_1708404001075632_4118615912611668132_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=NB_CaDR41isQ7kNvwHU04Vs&_nc_oc=AdrDm7hjoiznZcI1gErgowo_1o_erpH7-fgyg3UEXRNWPcGuO7IzRNQ3HrEp3rOKVKYG5h-LAeFtZW39roodf0Uc&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIhsiaiDlnWvCOxX-0YHrwuKxLzZkIH_5OcY9NcUk14YA&oe=6AB040C6",
+        "viewsCount": 82468,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-905508659022206",
+    "slug": "thieu-nien-ngheo-vuon-len-tro-thanh-huyen-thoai-thuong-truong-2206",
+    "title": "Thiếu Niên Nghèo Vươn Lên Trở Thành Huyền Thoại Thương Trường",
+    "description": "Phim ngắn kịch tính: Thiếu Niên Nghèo Vươn Lên Trở Thành Huyền Thoại Thương Trường. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/785645472_2330889173982848_8469330431461223486_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=vuMVHaMdruMQ7kNvwE4zFNv&_nc_oc=AdqpcDZKX2rt7nAPnPMq1oPnK4Rc_BgC5jmX0RCWTuAQBV3btvV8WQALxGRTSgKQIMc9VvVReI1_gDXaGFx-CiL2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKAXbxAkjj5WJEBTwLQxTdduT2fh6EELwwdgGWor9htxg&oe=6AB03266",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/785645472_2330889173982848_8469330431461223486_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=vuMVHaMdruMQ7kNvwE4zFNv&_nc_oc=AdqpcDZKX2rt7nAPnPMq1oPnK4Rc_BgC5jmX0RCWTuAQBV3btvV8WQALxGRTSgKQIMc9VvVReI1_gDXaGFx-CiL2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKAXbxAkjj5WJEBTwLQxTdduT2fh6EELwwdgGWor9htxg&oe=6AB03266",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-905508659022206",
+        "seriesId": "series-drama-905508659022206",
+        "partNumber": 1,
+        "title": "Thiếu Niên Nghèo Vươn Lên Trở Thành Huyền Thoại Thương Trường",
+        "originalUrl": "https://www.facebook.com/reel/905508659022206/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F905508659022206%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/785645472_2330889173982848_8469330431461223486_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=108&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=vuMVHaMdruMQ7kNvwE4zFNv&_nc_oc=AdqpcDZKX2rt7nAPnPMq1oPnK4Rc_BgC5jmX0RCWTuAQBV3btvV8WQALxGRTSgKQIMc9VvVReI1_gDXaGFx-CiL2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKAXbxAkjj5WJEBTwLQxTdduT2fh6EELwwdgGWor9htxg&oe=6AB03266",
+        "viewsCount": 82490,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2068473783798347",
+    "slug": "bi-an-nguoi-dan-ong-dung-sau-thanh-cong-cua-nu-chu-tich-8347",
+    "title": "Bí Ẩn Người Đàn Ông Đứng Sau Thành Công Của Nữ Chủ Tịch",
+    "description": "Phim ngắn kịch tính: Bí Ẩn Người Đàn Ông Đứng Sau Thành Công Của Nữ Chủ Tịch. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/788000508_1047657071209733_3483881349136806625_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=slWCi9_lmnoQ7kNvwEXggG8&_nc_oc=AdqruhtyKAb8CJbw8SQOvmYlxppy0UESPMBy8utskY4a1EzUU23yP9hLuYHbydDWBXrLhi5B0ga3nX9JctvzjS4w&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIxlhzatqbtJx4gpH9Eym62P8hZ7nZZnnxPuXU_5N5eOQ&oe=6AB017AD",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/788000508_1047657071209733_3483881349136806625_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=slWCi9_lmnoQ7kNvwEXggG8&_nc_oc=AdqruhtyKAb8CJbw8SQOvmYlxppy0UESPMBy8utskY4a1EzUU23yP9hLuYHbydDWBXrLhi5B0ga3nX9JctvzjS4w&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIxlhzatqbtJx4gpH9Eym62P8hZ7nZZnnxPuXU_5N5eOQ&oe=6AB017AD",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2068473783798347",
+        "seriesId": "series-drama-2068473783798347",
+        "partNumber": 1,
+        "title": "Bí Ẩn Người Đàn Ông Đứng Sau Thành Công Của Nữ Chủ Tịch",
+        "originalUrl": "https://www.facebook.com/reel/2068473783798347/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2068473783798347%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/788000508_1047657071209733_3483881349136806625_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=111&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=slWCi9_lmnoQ7kNvwEXggG8&_nc_oc=AdqruhtyKAb8CJbw8SQOvmYlxppy0UESPMBy8utskY4a1EzUU23yP9hLuYHbydDWBXrLhi5B0ga3nX9JctvzjS4w&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQIxlhzatqbtJx4gpH9Eym62P8hZ7nZZnnxPuXU_5N5eOQ&oe=6AB017AD",
+        "viewsCount": 26972,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1041828728675138",
+    "slug": "lat-mat-tra-xanh-bay-tro-ham-hai-nguoi-vo-toi-5138",
+    "title": "Lật Mặt Trà Xanh Bày Trò Hãm Hại Người Vô Tội",
+    "description": "Phim ngắn kịch tính: Lật Mặt Trà Xanh Bày Trò Hãm Hại Người Vô Tội. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/806150989_1812790856542782_2967071671112345895_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=PBcKSXE6bAQQ7kNvwHHLVrl&_nc_oc=AdqMbVpjhvBG53mRjL3XpOpLq-2Kggc3c9hZf0U8YKLx_ug95Mk0BttzTCn5nXGlyoSn7mmEv9WSwW4-wICPumu2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJ8Q2F8UND8Qq0PSBkNP3kNPGWuL69NtPDMXDYutyahUQ&oe=6AB02186",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/806150989_1812790856542782_2967071671112345895_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=PBcKSXE6bAQQ7kNvwHHLVrl&_nc_oc=AdqMbVpjhvBG53mRjL3XpOpLq-2Kggc3c9hZf0U8YKLx_ug95Mk0BttzTCn5nXGlyoSn7mmEv9WSwW4-wICPumu2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJ8Q2F8UND8Qq0PSBkNP3kNPGWuL69NtPDMXDYutyahUQ&oe=6AB02186",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1041828728675138",
+        "seriesId": "series-drama-1041828728675138",
+        "partNumber": 1,
+        "title": "Lật Mặt Trà Xanh Bày Trò Hãm Hại Người Vô Tội",
+        "originalUrl": "https://www.facebook.com/reel/1041828728675138/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1041828728675138%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/806150989_1812790856542782_2967071671112345895_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=109&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=PBcKSXE6bAQQ7kNvwHHLVrl&_nc_oc=AdqMbVpjhvBG53mRjL3XpOpLq-2Kggc3c9hZf0U8YKLx_ug95Mk0BttzTCn5nXGlyoSn7mmEv9WSwW4-wICPumu2&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJ8Q2F8UND8Qq0PSBkNP3kNPGWuL69NtPDMXDYutyahUQ&oe=6AB02186",
+        "viewsCount": 32232,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1555983932879093",
+    "slug": "trai-tim-bang-gia-cua-thieu-gia-tan-chay-truoc-co-gai-lac-quan-9093",
+    "title": "Trái Tim Băng Giá Của Thiếu Gia Tan Chảy Trước Cô Gái Lạc Quan",
+    "description": "Phim ngắn kịch tính: Trái Tim Băng Giá Của Thiếu Gia Tan Chảy Trước Cô Gái Lạc Quan. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/803925833_2868003073565367_7141592546548757267_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=dhD-Kulo0S4Q7kNvwFkTGC1&_nc_oc=AdqmKFiAwpSEaJ-a7FOvkqpazlUTTEbr4kpRlOW7D2GBDDRlllPuRilGuTms7dmaFGkCDBxQlhdEYzVJB9eLfQWd&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJLutBM5WS9PMkHTsipeIzZCZMnijwWWxDQk7gdt2WmGQ&oe=6AB03428",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/803925833_2868003073565367_7141592546548757267_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=dhD-Kulo0S4Q7kNvwFkTGC1&_nc_oc=AdqmKFiAwpSEaJ-a7FOvkqpazlUTTEbr4kpRlOW7D2GBDDRlllPuRilGuTms7dmaFGkCDBxQlhdEYzVJB9eLfQWd&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJLutBM5WS9PMkHTsipeIzZCZMnijwWWxDQk7gdt2WmGQ&oe=6AB03428",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1555983932879093",
+        "seriesId": "series-drama-1555983932879093",
+        "partNumber": 1,
+        "title": "Trái Tim Băng Giá Của Thiếu Gia Tan Chảy Trước Cô Gái Lạc Quan",
+        "originalUrl": "https://www.facebook.com/reel/1555983932879093/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1555983932879093%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/803925833_2868003073565367_7141592546548757267_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=103&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=dhD-Kulo0S4Q7kNvwFkTGC1&_nc_oc=AdqmKFiAwpSEaJ-a7FOvkqpazlUTTEbr4kpRlOW7D2GBDDRlllPuRilGuTms7dmaFGkCDBxQlhdEYzVJB9eLfQWd&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJLutBM5WS9PMkHTsipeIzZCZMnijwWWxDQk7gdt2WmGQ&oe=6AB03428",
+        "viewsCount": 17361,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1442630001014201",
+    "slug": "man-doi-dau-dinh-cao-giua-hai-gia-toc-danh-gia-nhat-thanh-pho-4201",
+    "title": "Màn Đối Đầu Đỉnh Cao Giữa Hai Gia Tộc Danh Giá Nhất Thành Phố",
+    "description": "Phim ngắn kịch tính: Màn Đối Đầu Đỉnh Cao Giữa Hai Gia Tộc Danh Giá Nhất Thành Phố. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/803925841_1383494503901584_8862764166946885139_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=JDcdw-pB020Q7kNvwEhr38A&_nc_oc=AdpQXF-stZRHqWMO8EVY1MGJdqahILs1FXxeMWsamvTf7STFeZ1WabgFEx9eUsK40IX1-tJLjmvLFba_lAwQNSiz&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKwNmc1a1OUXPh0AfnDqpQYhB9sfjy9zQsVMxXIFMmYzg&oe=6AB027AB",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/803925841_1383494503901584_8862764166946885139_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=JDcdw-pB020Q7kNvwEhr38A&_nc_oc=AdpQXF-stZRHqWMO8EVY1MGJdqahILs1FXxeMWsamvTf7STFeZ1WabgFEx9eUsK40IX1-tJLjmvLFba_lAwQNSiz&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKwNmc1a1OUXPh0AfnDqpQYhB9sfjy9zQsVMxXIFMmYzg&oe=6AB027AB",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1442630001014201",
+        "seriesId": "series-drama-1442630001014201",
+        "partNumber": 1,
+        "title": "Màn Đối Đầu Đỉnh Cao Giữa Hai Gia Tộc Danh Giá Nhất Thành Phố",
+        "originalUrl": "https://www.facebook.com/reel/1442630001014201/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1442630001014201%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/803925841_1383494503901584_8862764166946885139_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=JDcdw-pB020Q7kNvwEhr38A&_nc_oc=AdpQXF-stZRHqWMO8EVY1MGJdqahILs1FXxeMWsamvTf7STFeZ1WabgFEx9eUsK40IX1-tJLjmvLFba_lAwQNSiz&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQKwNmc1a1OUXPh0AfnDqpQYhB9sfjy9zQsVMxXIFMmYzg&oe=6AB027AB",
+        "viewsCount": 25124,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-3375651299307056",
+    "slug": "cuoc-dau-tri-nghet-tho-de-vach-tran-ke-chu-muu-giau-mat-7056",
+    "title": "Cuộc Đấu Trí Nghẹt Thở Để Vạch Trần Kẻ Chủ Mưu Giấu Mặt",
+    "description": "Phim ngắn kịch tính: Cuộc Đấu Trí Nghẹt Thở Để Vạch Trần Kẻ Chủ Mưu Giấu Mặt. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/804645537_1399628778415284_4104672124441120469_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=bay7j1m81jQQ7kNvwE4kVZ2&_nc_oc=AdrHHF4UKwwQhbgvI58qKAtZo5qYvkE0qWxvCnuAqUW0tzgDHQui3nCAr24pGU21YCoyDcZxNFMR5AbaxWOBC9UI&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJtzcjPEhkfoLUErZFCmSsUt5dQZOZAlYcU3ZC1A2AHag&oe=6AB01422",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/804645537_1399628778415284_4104672124441120469_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=bay7j1m81jQQ7kNvwE4kVZ2&_nc_oc=AdrHHF4UKwwQhbgvI58qKAtZo5qYvkE0qWxvCnuAqUW0tzgDHQui3nCAr24pGU21YCoyDcZxNFMR5AbaxWOBC9UI&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJtzcjPEhkfoLUErZFCmSsUt5dQZOZAlYcU3ZC1A2AHag&oe=6AB01422",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-3375651299307056",
+        "seriesId": "series-drama-3375651299307056",
+        "partNumber": 1,
+        "title": "Cuộc Đấu Trí Nghẹt Thở Để Vạch Trần Kẻ Chủ Mưu Giấu Mặt",
+        "originalUrl": "https://www.facebook.com/reel/3375651299307056/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F3375651299307056%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/804645537_1399628778415284_4104672124441120469_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=bay7j1m81jQQ7kNvwE4kVZ2&_nc_oc=AdrHHF4UKwwQhbgvI58qKAtZo5qYvkE0qWxvCnuAqUW0tzgDHQui3nCAr24pGU21YCoyDcZxNFMR5AbaxWOBC9UI&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=SkeyNy3PP-U_Ann_VXrX7Q&_nc_ss=7b289&oh=00_AQJtzcjPEhkfoLUErZFCmSsUt5dQZOZAlYcU3ZC1A2AHag&oe=6AB01422",
+        "viewsCount": 94800,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1378253557855315",
+    "slug": "bong-hong-quyen-luc-dung-sau-tap-doan-tai-phiet-lo-dien-5315",
+    "title": "Bóng Hồng Quyền Lực Đứng Sau Tập Đoàn Tài Phiệt Lộ Diện",
+    "description": "Phim ngắn kịch tính: Bóng Hồng Quyền Lực Đứng Sau Tập Đoàn Tài Phiệt Lộ Diện. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901039_2143958826549338_1372896757512149356_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=wsY4tx5FgfsQ7kNvwHMs2YZ&_nc_oc=AdqdGwmMsNfVh9K2k7RSz-dAXkaiEQqKd7UbvxO8dJjF-S95ueEBXBd9f7qam5ICmcd4R9foq3db0ScYy8OGCbuo&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKc9JztufZJ54r-_nva2E7QVSUWqwdh8ix-tnVOUCYJmg&oe=6AB01F60",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901039_2143958826549338_1372896757512149356_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=wsY4tx5FgfsQ7kNvwHMs2YZ&_nc_oc=AdqdGwmMsNfVh9K2k7RSz-dAXkaiEQqKd7UbvxO8dJjF-S95ueEBXBd9f7qam5ICmcd4R9foq3db0ScYy8OGCbuo&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKc9JztufZJ54r-_nva2E7QVSUWqwdh8ix-tnVOUCYJmg&oe=6AB01F60",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1378253557855315",
+        "seriesId": "series-drama-1378253557855315",
+        "partNumber": 1,
+        "title": "Bóng Hồng Quyền Lực Đứng Sau Tập Đoàn Tài Phiệt Lộ Diện",
+        "originalUrl": "https://www.facebook.com/reel/1378253557855315/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1378253557855315%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901039_2143958826549338_1372896757512149356_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=wsY4tx5FgfsQ7kNvwHMs2YZ&_nc_oc=AdqdGwmMsNfVh9K2k7RSz-dAXkaiEQqKd7UbvxO8dJjF-S95ueEBXBd9f7qam5ICmcd4R9foq3db0ScYy8OGCbuo&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKc9JztufZJ54r-_nva2E7QVSUWqwdh8ix-tnVOUCYJmg&oe=6AB01F60",
+        "viewsCount": 83741,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1606932957654115",
+    "slug": "so-phan-nghiet-nga-cua-nang-dau-hao-mon-va-man-lat-keo-dinh-cao-4115",
+    "title": "Số Phận Nghiệt Ngã Của Nàng Dâu Hào Môn Và Màn Lật Kèo Đỉnh Cao",
+    "description": "Phim ngắn kịch tính: Số Phận Nghiệt Ngã Của Nàng Dâu Hào Môn Và Màn Lật Kèo Đỉnh Cao. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800345951_1403395201140528_863801501807525781_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=XUlNP91UuOUQ7kNvwGSwZz5&_nc_oc=Adp5qrNL1phMvEnfoLpoZbxeUQdKjKt3pKYXllGVEYFyPqd-IeoXifE0jx5d33j4MAtkWZEJpcQ6czbftG2LR0Ry&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQI08ZQHX_pTOdAuQtgyY4nLIujo60DJs7jq_E3h6_kisw&oe=6AB03BFA",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800345951_1403395201140528_863801501807525781_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=XUlNP91UuOUQ7kNvwGSwZz5&_nc_oc=Adp5qrNL1phMvEnfoLpoZbxeUQdKjKt3pKYXllGVEYFyPqd-IeoXifE0jx5d33j4MAtkWZEJpcQ6czbftG2LR0Ry&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQI08ZQHX_pTOdAuQtgyY4nLIujo60DJs7jq_E3h6_kisw&oe=6AB03BFA",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1606932957654115",
+        "seriesId": "series-drama-1606932957654115",
+        "partNumber": 1,
+        "title": "Số Phận Nghiệt Ngã Của Nàng Dâu Hào Môn Và Màn Lật Kèo Đỉnh Cao",
+        "originalUrl": "https://www.facebook.com/reel/1606932957654115/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1606932957654115%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800345951_1403395201140528_863801501807525781_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=XUlNP91UuOUQ7kNvwGSwZz5&_nc_oc=Adp5qrNL1phMvEnfoLpoZbxeUQdKjKt3pKYXllGVEYFyPqd-IeoXifE0jx5d33j4MAtkWZEJpcQ6czbftG2LR0Ry&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQI08ZQHX_pTOdAuQtgyY4nLIujo60DJs7jq_E3h6_kisw&oe=6AB03BFA",
+        "viewsCount": 28483,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1044610505066107",
+    "slug": "nguoi-thua-ke-duy-nhat-xuat-hien-khien-ca-gia-toc-khiep-so-6107",
+    "title": "Người Thừa Kế Duy Nhất Xuất Hiện Khiến Cả Gia Tộc Khiếp Sợ",
+    "description": "Phim ngắn kịch tính: Người Thừa Kế Duy Nhất Xuất Hiện Khiến Cả Gia Tộc Khiếp Sợ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793594926_4665577833764249_4637765151668978656_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LGh83Kv8zKkQ7kNvwHs_E9v&_nc_oc=AdrYBSjishth8khC9tGVW7Qz8EDzjWe0kIC2-6gt3SDumzWIHpiIWV2ULtOzas3KQOecjHW8UC3N7c741SlzAfex&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKffZXhywRcnGpMy0dJwhwlpJy_RKPmOL6tS2L-dhqQPw&oe=6AB03950",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793594926_4665577833764249_4637765151668978656_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LGh83Kv8zKkQ7kNvwHs_E9v&_nc_oc=AdrYBSjishth8khC9tGVW7Qz8EDzjWe0kIC2-6gt3SDumzWIHpiIWV2ULtOzas3KQOecjHW8UC3N7c741SlzAfex&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKffZXhywRcnGpMy0dJwhwlpJy_RKPmOL6tS2L-dhqQPw&oe=6AB03950",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1044610505066107",
+        "seriesId": "series-drama-1044610505066107",
+        "partNumber": 1,
+        "title": "Người Thừa Kế Duy Nhất Xuất Hiện Khiến Cả Gia Tộc Khiếp Sợ",
+        "originalUrl": "https://www.facebook.com/reel/1044610505066107/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1044610505066107%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793594926_4665577833764249_4637765151668978656_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LGh83Kv8zKkQ7kNvwHs_E9v&_nc_oc=AdrYBSjishth8khC9tGVW7Qz8EDzjWe0kIC2-6gt3SDumzWIHpiIWV2ULtOzas3KQOecjHW8UC3N7c741SlzAfex&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKffZXhywRcnGpMy0dJwhwlpJy_RKPmOL6tS2L-dhqQPw&oe=6AB03950",
+        "viewsCount": 31286,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-949863230807034",
+    "slug": "man-trung-phat-thich-dang-danh-cho-ke-coi-thuong-nguoi-khac-7034",
+    "title": "Màn Trừng Phạt Thích Đáng Dành Cho Kẻ Coi Thường Người Khác",
+    "description": "Phim ngắn kịch tính: Màn Trừng Phạt Thích Đáng Dành Cho Kẻ Coi Thường Người Khác. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/802433634_1843699813282306_2927411328392564798_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=k2MeYSjT_pUQ7kNvwHX28kO&_nc_oc=AdrSaU5nLBU0nOYU1VXlrrEvQemWLRY9Te8OTzT--NZHsCyBk7kdds2AQVJlaI0XYrCwJlSulR5XU0GWGVElPiS3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLW3qHOQgB2tP9EHZ1ZtIVEcee3734XUath1it0X8BHFg&oe=6AB032DA",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/802433634_1843699813282306_2927411328392564798_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=k2MeYSjT_pUQ7kNvwHX28kO&_nc_oc=AdrSaU5nLBU0nOYU1VXlrrEvQemWLRY9Te8OTzT--NZHsCyBk7kdds2AQVJlaI0XYrCwJlSulR5XU0GWGVElPiS3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLW3qHOQgB2tP9EHZ1ZtIVEcee3734XUath1it0X8BHFg&oe=6AB032DA",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-949863230807034",
+        "seriesId": "series-drama-949863230807034",
+        "partNumber": 1,
+        "title": "Màn Trừng Phạt Thích Đáng Dành Cho Kẻ Coi Thường Người Khác",
+        "originalUrl": "https://www.facebook.com/reel/949863230807034/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F949863230807034%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/802433634_1843699813282306_2927411328392564798_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=k2MeYSjT_pUQ7kNvwHX28kO&_nc_oc=AdrSaU5nLBU0nOYU1VXlrrEvQemWLRY9Te8OTzT--NZHsCyBk7kdds2AQVJlaI0XYrCwJlSulR5XU0GWGVElPiS3&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLW3qHOQgB2tP9EHZ1ZtIVEcee3734XUath1it0X8BHFg&oe=6AB032DA",
+        "viewsCount": 25741,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1983744486346722",
+    "slug": "noi-oan-khien-duoc-hoa-giai-sau-5-nam-chiu-dung-tham-lang-6722",
+    "title": "Nỗi Oan Khiên Được Hóa Giải Sau 5 Năm Chịu Đựng Thầm Lặng",
+    "description": "Phim ngắn kịch tính: Nỗi Oan Khiên Được Hóa Giải Sau 5 Năm Chịu Đựng Thầm Lặng. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901031_2831201620583987_8574068957796913432_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=ox1szCHjMNkQ7kNvwFdkPWh&_nc_oc=AdriAKxvL9BHzRUeIraTKgjjo9It1yQ1grjFRVED2M9XmNwBtAeixJbybe4xm5ELGtXkCoUNLFIGPHRTcWL3uATD&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIgmJaXTaQW-sw_CuhR7YnbQ1atWy0c_sUu06sTHyYRag&oe=6AB015DD",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901031_2831201620583987_8574068957796913432_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=ox1szCHjMNkQ7kNvwFdkPWh&_nc_oc=AdriAKxvL9BHzRUeIraTKgjjo9It1yQ1grjFRVED2M9XmNwBtAeixJbybe4xm5ELGtXkCoUNLFIGPHRTcWL3uATD&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIgmJaXTaQW-sw_CuhR7YnbQ1atWy0c_sUu06sTHyYRag&oe=6AB015DD",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1983744486346722",
+        "seriesId": "series-drama-1983744486346722",
+        "partNumber": 1,
+        "title": "Nỗi Oan Khiên Được Hóa Giải Sau 5 Năm Chịu Đựng Thầm Lặng",
+        "originalUrl": "https://www.facebook.com/reel/1983744486346722/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1983744486346722%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/793901031_2831201620583987_8574068957796913432_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=ox1szCHjMNkQ7kNvwFdkPWh&_nc_oc=AdriAKxvL9BHzRUeIraTKgjjo9It1yQ1grjFRVED2M9XmNwBtAeixJbybe4xm5ELGtXkCoUNLFIGPHRTcWL3uATD&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIgmJaXTaQW-sw_CuhR7YnbQ1atWy0c_sUu06sTHyYRag&oe=6AB015DD",
+        "viewsCount": 41994,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1249653277293983",
+    "slug": "vo-kich-doi-con-lo-tay-con-gai-that-su-da-tro-ve-3983",
+    "title": "Vở Kịch Đổi Con Lộ Tẩy: Con Gái Thật Sự Đã Trở Về",
+    "description": "Phim ngắn kịch tính: Vở Kịch Đổi Con Lộ Tẩy: Con Gái Thật Sự Đã Trở Về. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800696279_1385254773577855_7739770789132398079_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=V82txoVhZosQ7kNvwFr6bjT&_nc_oc=AdqEO9gnf8uFt6uavEvIPAPMW5ix_SysyMhxJoBA3CgXQZb9bVsjKURwgLUFFwaiSs72Sl0QlLuXJssqYpYNdYge&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKOtOzyvxQ0O5BxMpZ44K9ubyhzSWbvsD1wJi1u3ofOCQ&oe=6AB02941",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800696279_1385254773577855_7739770789132398079_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=V82txoVhZosQ7kNvwFr6bjT&_nc_oc=AdqEO9gnf8uFt6uavEvIPAPMW5ix_SysyMhxJoBA3CgXQZb9bVsjKURwgLUFFwaiSs72Sl0QlLuXJssqYpYNdYge&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKOtOzyvxQ0O5BxMpZ44K9ubyhzSWbvsD1wJi1u3ofOCQ&oe=6AB02941",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1249653277293983",
+        "seriesId": "series-drama-1249653277293983",
+        "partNumber": 1,
+        "title": "Vở Kịch Đổi Con Lộ Tẩy: Con Gái Thật Sự Đã Trở Về",
+        "originalUrl": "https://www.facebook.com/reel/1249653277293983/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1249653277293983%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/800696279_1385254773577855_7739770789132398079_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=V82txoVhZosQ7kNvwFr6bjT&_nc_oc=AdqEO9gnf8uFt6uavEvIPAPMW5ix_SysyMhxJoBA3CgXQZb9bVsjKURwgLUFFwaiSs72Sl0QlLuXJssqYpYNdYge&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKOtOzyvxQ0O5BxMpZ44K9ubyhzSWbvsD1wJi1u3ofOCQ&oe=6AB02941",
+        "viewsCount": 48864,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1071455998958968",
+    "slug": "dai-ca-giang-ho-rua-tay-gac-kiem-bao-ve-gia-dinh-nho-8968",
+    "title": "Đại Ca Giang Hồ Rửa Tay Gác Kiếm Bảo Vệ Gia Đình Nhỏ",
+    "description": "Phim ngắn kịch tính: Đại Ca Giang Hồ Rửa Tay Gác Kiếm Bảo Vệ Gia Đình Nhỏ. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345889_1134643169520292_7073076288342607349_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lQNoXBfIlgsQ7kNvwHtBCP2&_nc_oc=Adogh9O1CC0ugsjcN36OZIUoxH_dHQu6DrRx7it1Ve9rdPp35hR_jY6XIxtNczi8bwatd0CGnHmVbrprZ7_3g9JO&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKDSVnNqqgUwClbhcc8xTiP8P-bynBbGzhNkIA9fKm0Zg&oe=6AB033F3",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345889_1134643169520292_7073076288342607349_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lQNoXBfIlgsQ7kNvwHtBCP2&_nc_oc=Adogh9O1CC0ugsjcN36OZIUoxH_dHQu6DrRx7it1Ve9rdPp35hR_jY6XIxtNczi8bwatd0CGnHmVbrprZ7_3g9JO&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKDSVnNqqgUwClbhcc8xTiP8P-bynBbGzhNkIA9fKm0Zg&oe=6AB033F3",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1071455998958968",
+        "seriesId": "series-drama-1071455998958968",
+        "partNumber": 1,
+        "title": "Đại Ca Giang Hồ Rửa Tay Gác Kiếm Bảo Vệ Gia Đình Nhỏ",
+        "originalUrl": "https://www.facebook.com/reel/1071455998958968/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1071455998958968%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345889_1134643169520292_7073076288342607349_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=lQNoXBfIlgsQ7kNvwHtBCP2&_nc_oc=Adogh9O1CC0ugsjcN36OZIUoxH_dHQu6DrRx7it1Ve9rdPp35hR_jY6XIxtNczi8bwatd0CGnHmVbrprZ7_3g9JO&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQKDSVnNqqgUwClbhcc8xTiP8P-bynBbGzhNkIA9fKm0Zg&oe=6AB033F3",
+        "viewsCount": 88647,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1706760917076097",
+    "slug": "loi-the-danh-du-cua-ve-si-than-can-danh-cho-tieu-thu-6097",
+    "title": "Lời Thề Danh Dự Của Vệ Sĩ Thân Cận Dành Cho Tiểu Thư",
+    "description": "Phim ngắn kịch tính: Lời Thề Danh Dự Của Vệ Sĩ Thân Cận Dành Cho Tiểu Thư. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345547_1982906285753387_4582911386503255875_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=nMxdsO35ozsQ7kNvwGDBXtF&_nc_oc=AdqP16DgV51Vn6Gf1Xd9Fh0Pb3oWCka3G2JyRToYxzsXSAIbKcp1s0Bx-UmsP0wyMb31os5SNfo7B4QxV37Qy33q&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLViulSvcXyKFC4ouFDP7Z9GiFiOwUmosG0GKTlUciOEQ&oe=6AB030C4",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345547_1982906285753387_4582911386503255875_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=nMxdsO35ozsQ7kNvwGDBXtF&_nc_oc=AdqP16DgV51Vn6Gf1Xd9Fh0Pb3oWCka3G2JyRToYxzsXSAIbKcp1s0Bx-UmsP0wyMb31os5SNfo7B4QxV37Qy33q&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLViulSvcXyKFC4ouFDP7Z9GiFiOwUmosG0GKTlUciOEQ&oe=6AB030C4",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1706760917076097",
+        "seriesId": "series-drama-1706760917076097",
+        "partNumber": 1,
+        "title": "Lời Thề Danh Dự Của Vệ Sĩ Thân Cận Dành Cho Tiểu Thư",
+        "originalUrl": "https://www.facebook.com/reel/1706760917076097/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1706760917076097%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800345547_1982906285753387_4582911386503255875_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=106&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=nMxdsO35ozsQ7kNvwGDBXtF&_nc_oc=AdqP16DgV51Vn6Gf1Xd9Fh0Pb3oWCka3G2JyRToYxzsXSAIbKcp1s0Bx-UmsP0wyMb31os5SNfo7B4QxV37Qy33q&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQLViulSvcXyKFC4ouFDP7Z9GiFiOwUmosG0GKTlUciOEQ&oe=6AB030C4",
+        "viewsCount": 86525,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1040078918907327",
+    "slug": "ban-linh-nguoi-phu-nu-don-than-vuot-len-so-phan-nghiet-nga-7327",
+    "title": "Bản Lĩnh Người Phụ Nữ Đơn Thân Vượt Lên Số Phận Nghiệt Ngã",
+    "description": "Phim ngắn kịch tính: Bản Lĩnh Người Phụ Nữ Đơn Thân Vượt Lên Số Phận Nghiệt Ngã. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/801044537_2324829974942378_5850865179454915345_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=weJZ44cQ8YUQ7kNvwEta6Xq&_nc_oc=AdqqEDfGpOpCsAzp938gro_IhcNUPqstpdax_nrkdIoG9d26mLn5-r08cKGb1ynvmWEHtkSnUO728LBUYak8nTRX&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQJDlbOFKkVgl3gkGtsiUzt4rtYCB-h8gkqcr7ybo0eoXQ&oe=6AB02AB9",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/801044537_2324829974942378_5850865179454915345_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=weJZ44cQ8YUQ7kNvwEta6Xq&_nc_oc=AdqqEDfGpOpCsAzp938gro_IhcNUPqstpdax_nrkdIoG9d26mLn5-r08cKGb1ynvmWEHtkSnUO728LBUYak8nTRX&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQJDlbOFKkVgl3gkGtsiUzt4rtYCB-h8gkqcr7ybo0eoXQ&oe=6AB02AB9",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1040078918907327",
+        "seriesId": "series-drama-1040078918907327",
+        "partNumber": 1,
+        "title": "Bản Lĩnh Người Phụ Nữ Đơn Thân Vượt Lên Số Phận Nghiệt Ngã",
+        "originalUrl": "https://www.facebook.com/reel/1040078918907327/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1040078918907327%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/801044537_2324829974942378_5850865179454915345_n.jpg?stp=dst-jpg_tt6&cstp=mx720x1280&ctp=s960x960&_nc_cat=101&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=weJZ44cQ8YUQ7kNvwEta6Xq&_nc_oc=AdqqEDfGpOpCsAzp938gro_IhcNUPqstpdax_nrkdIoG9d26mLn5-r08cKGb1ynvmWEHtkSnUO728LBUYak8nTRX&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQJDlbOFKkVgl3gkGtsiUzt4rtYCB-h8gkqcr7ybo0eoXQ&oe=6AB02AB9",
+        "viewsCount": 33616,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-2965596823783848",
+    "slug": "ven-man-am-muu-thau-tom-tap-doan-cua-ke-doi-lot-ban-than-3848",
+    "title": "Vén Màn Âm Mưu Thâu Tóm Tập Đoàn Của Kẻ Đội Lốt Bạn Thân",
+    "description": "Phim ngắn kịch tính: Vén Màn Âm Mưu Thâu Tóm Tập Đoàn Của Kẻ Đội Lốt Bạn Thân. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800282794_1132344239131250_6615689151491898464_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LfrFnKjiWfwQ7kNvwFfpdRY&_nc_oc=Adqrs2udyiNjJI2ZHGNF5OFlCmuGvc89aQ0rgsDp5dDF5pXngIqCSKj5dUc9QnTDo28AL5-wUZkuRMPDjk0kYjNt&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIjP6tV3RJ6TMGtLk3MT78TIJVCTYij7DFDvjD31sT8qw&oe=6AB039FD",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800282794_1132344239131250_6615689151491898464_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LfrFnKjiWfwQ7kNvwFfpdRY&_nc_oc=Adqrs2udyiNjJI2ZHGNF5OFlCmuGvc89aQ0rgsDp5dDF5pXngIqCSKj5dUc9QnTDo28AL5-wUZkuRMPDjk0kYjNt&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIjP6tV3RJ6TMGtLk3MT78TIJVCTYij7DFDvjD31sT8qw&oe=6AB039FD",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-2965596823783848",
+        "seriesId": "series-drama-2965596823783848",
+        "partNumber": 1,
+        "title": "Vén Màn Âm Mưu Thâu Tóm Tập Đoàn Của Kẻ Đội Lốt Bạn Thân",
+        "originalUrl": "https://www.facebook.com/reel/2965596823783848/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2965596823783848%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/800282794_1132344239131250_6615689151491898464_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=108&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=LfrFnKjiWfwQ7kNvwFfpdRY&_nc_oc=Adqrs2udyiNjJI2ZHGNF5OFlCmuGvc89aQ0rgsDp5dDF5pXngIqCSKj5dUc9QnTDo28AL5-wUZkuRMPDjk0kYjNt&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=W9MOKmibdk3O0vXcEWC9Yw&_nc_ss=7b289&oh=00_AQIjP6tV3RJ6TMGtLk3MT78TIJVCTYij7DFDvjD31sT8qw&oe=6AB039FD",
+        "viewsCount": 47135,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1060841473381687",
+    "slug": "khi-nu-tong-tai-tro-thanh-doi-thu-dang-gom-nhat-thuong-truong-1687",
+    "title": "Khi Nữ Tổng Tài Trở Thành Đối Thủ Đáng Gờm Nhất Thương Trường",
+    "description": "Phim ngắn kịch tính: Khi Nữ Tổng Tài Trở Thành Đối Thủ Đáng Gờm Nhất Thương Trường. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/799392423_1070913155679195_3321569935548264621_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=q2JjaQw5tVEQ7kNvwEFhY7B&_nc_oc=AdrGW6dNIJ9g6ZYk5kxTShiMdTl6P8z3j7MOq6OY4owcTsGbTWK8yNxKRk-uUmZtJYN4zw9iGB9TfTxta_b22iZe&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIPfAUsYWeMij0sQk3Cew1edTVaniBiPW0CBj9sL2UOqQ&oe=6AB031D8",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/799392423_1070913155679195_3321569935548264621_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=q2JjaQw5tVEQ7kNvwEFhY7B&_nc_oc=AdrGW6dNIJ9g6ZYk5kxTShiMdTl6P8z3j7MOq6OY4owcTsGbTWK8yNxKRk-uUmZtJYN4zw9iGB9TfTxta_b22iZe&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIPfAUsYWeMij0sQk3Cew1edTVaniBiPW0CBj9sL2UOqQ&oe=6AB031D8",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1060841473381687",
+        "seriesId": "series-drama-1060841473381687",
+        "partNumber": 1,
+        "title": "Khi Nữ Tổng Tài Trở Thành Đối Thủ Đáng Gờm Nhất Thương Trường",
+        "originalUrl": "https://www.facebook.com/reel/1060841473381687/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1060841473381687%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/799392423_1070913155679195_3321569935548264621_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=q2JjaQw5tVEQ7kNvwEFhY7B&_nc_oc=AdrGW6dNIJ9g6ZYk5kxTShiMdTl6P8z3j7MOq6OY4owcTsGbTWK8yNxKRk-uUmZtJYN4zw9iGB9TfTxta_b22iZe&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIPfAUsYWeMij0sQk3Cew1edTVaniBiPW0CBj9sL2UOqQ&oe=6AB031D8",
+        "viewsCount": 83983,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1578855996484231",
+    "slug": "cu-lua-the-ky-bien-ke-di-san-thanh-con-moi-4231",
+    "title": "Cú Lừa Thế Kỷ Biến Kẻ Đi Săn Thành Con Mồi",
+    "description": "Phim ngắn kịch tính: Cú Lừa Thế Kỷ Biến Kẻ Đi Săn Thành Con Mồi. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/799782314_1621646479564089_7197791174753486338_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=pq1DId94pK8Q7kNvwGHL5w4&_nc_oc=AdqyD7Nq8svNx0stvkkcH3Wb3qNdWRYeLp90pR3H_qql_yG84BbDFg9op1JPaB-oh2T8u7vbGN3u2HxO5uH6rY6Y&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJJEVRsi06zsXpgGrw30Efo-gQNygR3TVBe_K3K5g5Q4A&oe=6AB01871",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/799782314_1621646479564089_7197791174753486338_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=pq1DId94pK8Q7kNvwGHL5w4&_nc_oc=AdqyD7Nq8svNx0stvkkcH3Wb3qNdWRYeLp90pR3H_qql_yG84BbDFg9op1JPaB-oh2T8u7vbGN3u2HxO5uH6rY6Y&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJJEVRsi06zsXpgGrw30Efo-gQNygR3TVBe_K3K5g5Q4A&oe=6AB01871",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1578855996484231",
+        "seriesId": "series-drama-1578855996484231",
+        "partNumber": 1,
+        "title": "Cú Lừa Thế Kỷ Biến Kẻ Đi Săn Thành Con Mồi",
+        "originalUrl": "https://www.facebook.com/reel/1578855996484231/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1578855996484231%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/799782314_1621646479564089_7197791174753486338_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=pq1DId94pK8Q7kNvwGHL5w4&_nc_oc=AdqyD7Nq8svNx0stvkkcH3Wb3qNdWRYeLp90pR3H_qql_yG84BbDFg9op1JPaB-oh2T8u7vbGN3u2HxO5uH6rY6Y&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJJEVRsi06zsXpgGrw30Efo-gQNygR3TVBe_K3K5g5Q4A&oe=6AB01871",
+        "viewsCount": 53753,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1802019254448780",
+    "slug": "cuoc-gap-go-dinh-menh-doi-thay-cuoc-doi-cua-ca-hai-nguoi-8780",
+    "title": "Cuộc Gặp Gỡ Định Mệnh Đổi Thay Cuộc Đời Của Cả Hai Người",
+    "description": "Phim ngắn kịch tính: Cuộc Gặp Gỡ Định Mệnh Đổi Thay Cuộc Đời Của Cả Hai Người. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797828409_1794257771765032_5629503309674228515_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NUjgUq8ajIIQ7kNvwGrrECE&_nc_oc=AdrtANjKu0QbSAXzhKEJQADO1S3QvQzVwgI0Wb9dsGUauPAlwPDX73GxHZyZKicTHWh5CvV1n-ECM_eiTXxVr09L&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQK5Q7Z9sZNU9EourpenmHMeMYK6swfD8FNl8msrhrS7yQ&oe=6AB0222D",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797828409_1794257771765032_5629503309674228515_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NUjgUq8ajIIQ7kNvwGrrECE&_nc_oc=AdrtANjKu0QbSAXzhKEJQADO1S3QvQzVwgI0Wb9dsGUauPAlwPDX73GxHZyZKicTHWh5CvV1n-ECM_eiTXxVr09L&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQK5Q7Z9sZNU9EourpenmHMeMYK6swfD8FNl8msrhrS7yQ&oe=6AB0222D",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1802019254448780",
+        "seriesId": "series-drama-1802019254448780",
+        "partNumber": 1,
+        "title": "Cuộc Gặp Gỡ Định Mệnh Đổi Thay Cuộc Đời Của Cả Hai Người",
+        "originalUrl": "https://www.facebook.com/reel/1802019254448780/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1802019254448780%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797828409_1794257771765032_5629503309674228515_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=102&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=NUjgUq8ajIIQ7kNvwGrrECE&_nc_oc=AdrtANjKu0QbSAXzhKEJQADO1S3QvQzVwgI0Wb9dsGUauPAlwPDX73GxHZyZKicTHWh5CvV1n-ECM_eiTXxVr09L&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQK5Q7Z9sZNU9EourpenmHMeMYK6swfD8FNl8msrhrS7yQ&oe=6AB0222D",
+        "viewsCount": 64519,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1742478413638076",
+    "slug": "su-bao-thu-hoan-hao-cua-nang-dau-bi-bo-roi-8076",
+    "title": "Sự Báo Thù Hoàn Hảo Của Nàng Dâu Bị Bỏ Rơi",
+    "description": "Phim ngắn kịch tính: Sự Báo Thù Hoàn Hảo Của Nàng Dâu Bị Bỏ Rơi. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797595869_1389683130047132_6422196598249769449_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=uaFGnfbO3XgQ7kNvwHu-9UO&_nc_oc=AdouxcUm88aNRMGsD_o_A8WqlLXJ9rn7r4lonoZmDAIYJdoe33YF9Sz3n41vPhkfebz1zU8CQoqphjj1TaTUD_B8&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ-qig0t3B74VeIVcmJXMmRDfxqJwioeZ8w0mykbjihOA&oe=6AB0130B",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797595869_1389683130047132_6422196598249769449_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=uaFGnfbO3XgQ7kNvwHu-9UO&_nc_oc=AdouxcUm88aNRMGsD_o_A8WqlLXJ9rn7r4lonoZmDAIYJdoe33YF9Sz3n41vPhkfebz1zU8CQoqphjj1TaTUD_B8&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ-qig0t3B74VeIVcmJXMmRDfxqJwioeZ8w0mykbjihOA&oe=6AB0130B",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1742478413638076",
+        "seriesId": "series-drama-1742478413638076",
+        "partNumber": 1,
+        "title": "Sự Báo Thù Hoàn Hảo Của Nàng Dâu Bị Bỏ Rơi",
+        "originalUrl": "https://www.facebook.com/reel/1742478413638076/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1742478413638076%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/797595869_1389683130047132_6422196598249769449_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=uaFGnfbO3XgQ7kNvwHu-9UO&_nc_oc=AdouxcUm88aNRMGsD_o_A8WqlLXJ9rn7r4lonoZmDAIYJdoe33YF9Sz3n41vPhkfebz1zU8CQoqphjj1TaTUD_B8&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ-qig0t3B74VeIVcmJXMmRDfxqJwioeZ8w0mykbjihOA&oe=6AB0130B",
+        "viewsCount": 88515,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1107268885075667",
+    "slug": "cuoc-dung-do-nay-lua-giua-hai-phe-quyen-luc-ngam-5667",
+    "title": "Cuộc Đụng Độ Nảy Lửa Giữa Hai Phe Quyền Lực Ngầm",
+    "description": "Phim ngắn kịch tính: Cuộc Đụng Độ Nảy Lửa Giữa Hai Phe Quyền Lực Ngầm. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/796903009_3690535547764337_7876028008983039471_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=KmuG7296otQQ7kNvwF0nM4G&_nc_oc=AdrVXxbX2XTG6O-wmw7JxXEDj85LvCXWX16903INA-mr4ZNwzu-zTe72D6-3EhR_yLZqQ07ujmEXk-9U0y0Vkd2N&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIneIElMtbZ50n-4Bw1AL4MwdX9rcfQVJ6ByJB5hu_Qyg&oe=6AB01367",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/796903009_3690535547764337_7876028008983039471_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=KmuG7296otQQ7kNvwF0nM4G&_nc_oc=AdrVXxbX2XTG6O-wmw7JxXEDj85LvCXWX16903INA-mr4ZNwzu-zTe72D6-3EhR_yLZqQ07ujmEXk-9U0y0Vkd2N&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIneIElMtbZ50n-4Bw1AL4MwdX9rcfQVJ6ByJB5hu_Qyg&oe=6AB01367",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1107268885075667",
+        "seriesId": "series-drama-1107268885075667",
+        "partNumber": 1,
+        "title": "Cuộc Đụng Độ Nảy Lửa Giữa Hai Phe Quyền Lực Ngầm",
+        "originalUrl": "https://www.facebook.com/reel/1107268885075667/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1107268885075667%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/796903009_3690535547764337_7876028008983039471_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=KmuG7296otQQ7kNvwF0nM4G&_nc_oc=AdrVXxbX2XTG6O-wmw7JxXEDj85LvCXWX16903INA-mr4ZNwzu-zTe72D6-3EhR_yLZqQ07ujmEXk-9U0y0Vkd2N&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIneIElMtbZ50n-4Bw1AL4MwdX9rcfQVJ6ByJB5hu_Qyg&oe=6AB01367",
+        "viewsCount": 22353,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-4539473626331056",
+    "slug": "than-phan-that-su-cua-chang-lai-xe-khien-ca-khach-san-kinh-ngac-1056",
+    "title": "Thân Phận Thật Sự Của Chàng Lái Xe Khiến Cả Khách Sạn Kinh Ngạc",
+    "description": "Phim ngắn kịch tính: Thân Phận Thật Sự Của Chàng Lái Xe Khiến Cả Khách Sạn Kinh Ngạc. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/798488437_2220419561860679_1851004658334623897_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DGj7PPckgrMQ7kNvwGYTul_&_nc_oc=AdrdL81nRyrOWKljrbZQW2WzYcmgaGOugdRlqydw-S0E7LwOIcFQEUwb2lk7x0p6ciMRgdOWacdmocbwrQ85nEIV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKsDs7IPsdJppnciR22ueNp0hT1D1T1_myVwKxzNPmCfA&oe=6AB03F05",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/798488437_2220419561860679_1851004658334623897_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DGj7PPckgrMQ7kNvwGYTul_&_nc_oc=AdrdL81nRyrOWKljrbZQW2WzYcmgaGOugdRlqydw-S0E7LwOIcFQEUwb2lk7x0p6ciMRgdOWacdmocbwrQ85nEIV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKsDs7IPsdJppnciR22ueNp0hT1D1T1_myVwKxzNPmCfA&oe=6AB03F05",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-4539473626331056",
+        "seriesId": "series-drama-4539473626331056",
+        "partNumber": 1,
+        "title": "Thân Phận Thật Sự Của Chàng Lái Xe Khiến Cả Khách Sạn Kinh Ngạc",
+        "originalUrl": "https://www.facebook.com/reel/4539473626331056/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4539473626331056%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/798488437_2220419561860679_1851004658334623897_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1440&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=DGj7PPckgrMQ7kNvwGYTul_&_nc_oc=AdrdL81nRyrOWKljrbZQW2WzYcmgaGOugdRlqydw-S0E7LwOIcFQEUwb2lk7x0p6ciMRgdOWacdmocbwrQ85nEIV&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKsDs7IPsdJppnciR22ueNp0hT1D1T1_myVwKxzNPmCfA&oe=6AB03F05",
+        "viewsCount": 22819,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-931256279504416",
+    "slug": "buc-thu-tuyet-menh-de-lai-su-that-gay-chan-dong-4416",
+    "title": "Bức Thư Tuyệt Mệnh Để Lại Sự Thật Gây Chấn Động",
+    "description": "Phim ngắn kịch tính: Bức Thư Tuyệt Mệnh Để Lại Sự Thật Gây Chấn Động. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/797302752_4104513906518862_6610540421884654797_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=oaKy6_r-tWUQ7kNvwHWqJc4&_nc_oc=AdofAocnhyHSfBhzWmMtpMB6NB4cjDiKffmtAa7bXYqbMybR4D8AUakmdl3FffvkDaByhXlj-S4xU9EyYW_xv9jF&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJA5XSBK7rKc-JBJUfu7-b-OVgb5Im96eXvD4X1ha48Rg&oe=6AB01EBC",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/797302752_4104513906518862_6610540421884654797_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=oaKy6_r-tWUQ7kNvwHWqJc4&_nc_oc=AdofAocnhyHSfBhzWmMtpMB6NB4cjDiKffmtAa7bXYqbMybR4D8AUakmdl3FffvkDaByhXlj-S4xU9EyYW_xv9jF&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJA5XSBK7rKc-JBJUfu7-b-OVgb5Im96eXvD4X1ha48Rg&oe=6AB01EBC",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-931256279504416",
+        "seriesId": "series-drama-931256279504416",
+        "partNumber": 1,
+        "title": "Bức Thư Tuyệt Mệnh Để Lại Sự Thật Gây Chấn Động",
+        "originalUrl": "https://www.facebook.com/reel/931256279504416/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F931256279504416%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/797302752_4104513906518862_6610540421884654797_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=100&ccb=1-7&_nc_sid=d2b52d&_nc_ohc=oaKy6_r-tWUQ7kNvwHWqJc4&_nc_oc=AdofAocnhyHSfBhzWmMtpMB6NB4cjDiKffmtAa7bXYqbMybR4D8AUakmdl3FffvkDaByhXlj-S4xU9EyYW_xv9jF&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJA5XSBK7rKc-JBJUfu7-b-OVgb5Im96eXvD4X1ha48Rg&oe=6AB01EBC",
+        "viewsCount": 99681,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1625135749210942",
+    "slug": "dai-chien-do-thi-nguoi-hung-an-danh-cuu-nguy-ca-thanh-pho-0942",
+    "title": "Đại Chiến Đô Thị: Người Hùng Ẩn Danh Cứu Nguy Cả Thành Phố",
+    "description": "Phim ngắn kịch tính: Đại Chiến Đô Thị: Người Hùng Ẩn Danh Cứu Nguy Cả Thành Phố. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/794294319_1030503549811219_3686908227962829711_n.jpg?stp=dst-jpg_tt6&cstp=mx480x854&ctp=s480x854&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FOSNcBk34ksQ7kNvwFmzfTQ&_nc_oc=AdoYRzigrFT_n8e6LhUta68qRn4bUYQONnwXq59TGIrcVTIa5JlkF9pEzaYt6pDP1Ma0f3xB2MMxt6BSpo_SEuK_&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKVXPRj4gdfBoNd31k6UKkSfX_y5P-B5Kh0c5awvWzCrA&oe=6AB01FA6",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/794294319_1030503549811219_3686908227962829711_n.jpg?stp=dst-jpg_tt6&cstp=mx480x854&ctp=s480x854&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FOSNcBk34ksQ7kNvwFmzfTQ&_nc_oc=AdoYRzigrFT_n8e6LhUta68qRn4bUYQONnwXq59TGIrcVTIa5JlkF9pEzaYt6pDP1Ma0f3xB2MMxt6BSpo_SEuK_&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKVXPRj4gdfBoNd31k6UKkSfX_y5P-B5Kh0c5awvWzCrA&oe=6AB01FA6",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1625135749210942",
+        "seriesId": "series-drama-1625135749210942",
+        "partNumber": 1,
+        "title": "Đại Chiến Đô Thị: Người Hùng Ẩn Danh Cứu Nguy Cả Thành Phố",
+        "originalUrl": "https://www.facebook.com/reel/1625135749210942/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1625135749210942%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/794294319_1030503549811219_3686908227962829711_n.jpg?stp=dst-jpg_tt6&cstp=mx480x854&ctp=s480x854&_nc_cat=104&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=FOSNcBk34ksQ7kNvwFmzfTQ&_nc_oc=AdoYRzigrFT_n8e6LhUta68qRn4bUYQONnwXq59TGIrcVTIa5JlkF9pEzaYt6pDP1Ma0f3xB2MMxt6BSpo_SEuK_&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQKVXPRj4gdfBoNd31k6UKkSfX_y5P-B5Kh0c5awvWzCrA&oe=6AB01FA6",
+        "viewsCount": 74166,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1595448631988917",
+    "slug": "man-lat-keo-khong-ngo-khien-ke-ham-hai-phai-quy-goi-xin-loi-8917",
+    "title": "Màn Lật Kèo Không Ngờ Khiến Kẻ Hãm Hại Phải Quỳ Gối Xin Lỗi",
+    "description": "Phim ngắn kịch tính: Màn Lật Kèo Không Ngờ Khiến Kẻ Hãm Hại Phải Quỳ Gối Xin Lỗi. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/794957871_1631358848722040_8537140169713794245_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=DHOXUY9PN2UQ7kNvwFSwNts&_nc_oc=AdpyDwmo89ksHls96GB-XBRrnT84c1rWEgvxWW22paQBJgIJVBoqHHNb2Yzg5iySiSnQ7MQBSUyThhqZvGNdZdFm&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIwsEiKN3uA8I7C8rgCGMM3t5bMH6Y1R3RxGj-Tq8gXnw&oe=6AB02D5E",
+    "coverImage": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/794957871_1631358848722040_8537140169713794245_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=DHOXUY9PN2UQ7kNvwFSwNts&_nc_oc=AdpyDwmo89ksHls96GB-XBRrnT84c1rWEgvxWW22paQBJgIJVBoqHHNb2Yzg5iySiSnQ7MQBSUyThhqZvGNdZdFm&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIwsEiKN3uA8I7C8rgCGMM3t5bMH6Y1R3RxGj-Tq8gXnw&oe=6AB02D5E",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1595448631988917",
+        "seriesId": "series-drama-1595448631988917",
+        "partNumber": 1,
+        "title": "Màn Lật Kèo Không Ngờ Khiến Kẻ Hãm Hại Phải Quỳ Gối Xin Lỗi",
+        "originalUrl": "https://www.facebook.com/reel/1595448631988917/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1595448631988917%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-1.fna.fbcdn.net/v/t15.5256-10/794957871_1631358848722040_8537140169713794245_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=105&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=DHOXUY9PN2UQ7kNvwFSwNts&_nc_oc=AdpyDwmo89ksHls96GB-XBRrnT84c1rWEgvxWW22paQBJgIJVBoqHHNb2Yzg5iySiSnQ7MQBSUyThhqZvGNdZdFm&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQIwsEiKN3uA8I7C8rgCGMM3t5bMH6Y1R3RxGj-Tq8gXnw&oe=6AB02D5E",
+        "viewsCount": 28549,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
+    "id": "series-drama-1079086847995849",
+    "slug": "doan-ket-man-nhan-cua-cuoc-dau-tri-quyen-luc-va-tinh-yeu-5849",
+    "title": "Đoạn Kết Mãn Nhãn Của Cuộc Đấu Trí Quyền Lực Và Tình Yêu",
+    "description": "Phim ngắn kịch tính: Đoạn Kết Mãn Nhãn Của Cuộc Đấu Trí Quyền Lực Và Tình Yêu. Thước phim cao trào đặc sắc, cuốn hút triệu view được chọn lọc mới nhất.",
+    "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/790528762_2007725313214240_6733788924417928750_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=BbTv9yvNkxgQ7kNvwEUTcZp&_nc_oc=AdrU77Wkjsd7bom8MjuonOov9EHCk496UCVT-guQtXgZWHZwI0F1TP-WLXos_JkCBSFaPKAgdQtm8_IKBDy6Yne8&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ4VuXGiGdAt2ymY-l1KEV5yznyYigPGWyYCIr58AJMmQ&oe=6AB01963",
+    "coverImage": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/790528762_2007725313214240_6733788924417928750_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=BbTv9yvNkxgQ7kNvwEUTcZp&_nc_oc=AdrU77Wkjsd7bom8MjuonOov9EHCk496UCVT-guQtXgZWHZwI0F1TP-WLXos_JkCBSFaPKAgdQtm8_IKBDy6Yne8&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ4VuXGiGdAt2ymY-l1KEV5yznyYigPGWyYCIr58AJMmQ&oe=6AB01963",
+    "channelName": "Phim Ngắn Chọn Lọc",
+    "categories": [
+      "Phim Ngắn",
+      "Kịch Tính",
+      "Đô Thị",
+      "Reels"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-drama-1079086847995849",
+        "seriesId": "series-drama-1079086847995849",
+        "partNumber": 1,
+        "title": "Đoạn Kết Mãn Nhãn Của Cuộc Đấu Trí Quyền Lực Và Tình Yêu",
+        "originalUrl": "https://www.facebook.com/reel/1079086847995849/",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1079086847995849%2F&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "01:30",
+        "thumbnail": "https://scontent.fhan15-2.fna.fbcdn.net/v/t15.5256-10/790528762_2007725313214240_6733788924417928750_n.jpg?stp=dst-jpg_tt6&cstp=mx1080x1920&ctp=s960x960&_nc_cat=110&ccb=1-7&_nc_sid=5fad0e&_nc_ohc=BbTv9yvNkxgQ7kNvwEUTcZp&_nc_oc=AdrU77Wkjsd7bom8MjuonOov9EHCk496UCVT-guQtXgZWHZwI0F1TP-WLXos_JkCBSFaPKAgdQtm8_IKBDy6Yne8&_nc_zt=23&_nc_ht=scontent.fhan15-2.fna&_nc_gid=YDc78W9AM9Ti2VeWYO-X3A&_nc_ss=7b289&oh=00_AQJ4VuXGiGdAt2ymY-l1KEV5yznyYigPGWyYCIr58AJMmQ&oe=6AB01963",
+        "viewsCount": 82317,
+        "publishedAt": "2026-10-08"
+      }
     ]
   }
 ]

@@ -1,3 +1,4 @@
+import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -14,7 +15,63 @@ if (!fs.existsSync(THUMB_DIR)) {
   fs.mkdirSync(THUMB_DIR, { recursive: true });
 }
 
-// 1. Hàm kiểm tra quyền nhúng video Facebook
+// 1. Danh sách các kênh/Fanpage mục tiêu chuyên về Phim truyện AI, Hoạt hình 3D, Tu tiên, Trùng sinh Trung Quốc
+const TARGET_SOURCES = [
+  {
+    name: 'Khu Trú Ẩn 2AM (3D Anime & Tu Tiên)',
+    url: 'https://www.facebook.com/profile.php?id=61590438917651&sk=reels_tab'
+  },
+  {
+    name: 'Đại Đạo Review (Phim Ngắn & Trọng Sinh)',
+    url: 'https://www.facebook.com/profile.php?id=61566431730101&sk=reels_tab'
+  },
+  {
+    name: 'Hoạt Hình 3D Trung Quốc',
+    url: 'https://www.facebook.com/hh3dtq/reels'
+  }
+];
+
+// Danh sách các từ khóa hợp lệ bắt buộc (Phim truyện AI tu tiên, trùng sinh, 3D Trung Quốc...)
+const VALID_KEYWORDS = [
+  'tu tiên', 'trùng sinh', 'xuyên không', 'huyền huyễn', '3d trung quốc',
+  'donghua', 'anime 3d', 'đấu phá thương khung', 'phàm nhân tu tiên',
+  'nghịch thiên', 'hệ thống', 'truyện ai', 'tiên hiệp', 'cao võ',
+  'thần ma', 'vạn cổ', 'chiến thần', 'cổ trang', 'y nữ', 'bá chủ',
+  'phim ngắn', 'kịch tính', 'hào môn', 'tổng tài', 'học đường',
+  'thế giới hoàn mỹ', 'già thiên', 'thôn phệ tinh không', 'đại chúa tể',
+  'aigc', 'aivideo', 'chineseaesthetics', 'neochinese', 'hoạt hình',
+  'tu chân', 'tiên giới', 'võ đạo', 'võ thần', 'chúa tể'
+];
+
+const BLACKLIST_KEYWORDS = [
+  'bóng đá', 'thời sự', 'tai nạn', 'chính trị', 'tin tức', 'scandal', 'xổ số', 'lô đề', 'cá độ'
+];
+
+function decodeHtmlEntities(str) {
+  if (!str) return '';
+  return str
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)))
+    .replace(/&#([0-9]+);/g, (_, dec) => String.fromCharCode(parseInt(dec, 10)))
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+}
+
+function isGenreMatched(text, isTrustedChannel = true) {
+  if (!text) return isTrustedChannel;
+  const lower = text.toLowerCase();
+  if (BLACKLIST_KEYWORDS.some((kw) => lower.includes(kw))) {
+    return false;
+  }
+  if (VALID_KEYWORDS.some((kw) => lower.includes(kw))) {
+    return true;
+  }
+  return isTrustedChannel;
+}
+
+// 2. Kiểm tra bản quyền nhúng video Facebook Reel (Chỉ nhận video nhúng được ngoài trang)
 async function checkEmbeddable(url) {
   try {
     const embedUrl = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(url)}&show_text=0&autoplay=0`;
@@ -26,8 +83,12 @@ async function checkEmbeddable(url) {
     });
     if (!res.ok) return false;
     const html = await res.text();
-    // Bỏ qua nếu Facebook chặn nhúng hoặc yêu cầu đăng nhập
-    if (html.includes('error_subcode') || html.includes('This video cannot be played') || html.includes('không thể phát')) {
+    if (
+      html.includes('error_subcode') ||
+      html.includes('This video cannot be played') ||
+      html.includes('không thể phát') ||
+      html.includes('video này không khả dụng')
+    ) {
       return false;
     }
     return true;
@@ -36,41 +97,59 @@ async function checkEmbeddable(url) {
   }
 }
 
-// 2. Hàm tải ảnh thumbnail thật từ Facebook bằng User-Agent Facebook External Hit
-async function downloadRealThumbnail(reelUrl, reelId) {
-  const localFile = path.join(THUMB_DIR, `${reelId}.jpg`);
-  if (fs.existsSync(localFile)) {
-    return `/thumbnails/${reelId}.jpg`;
-  }
+// 3. Lấy metadata thật (og:title, og:description, og:image) và tải ảnh thumbnail cục bộ
+async function fetchReelMetadata(reelUrl, reelId) {
+  const result = {
+    title: '',
+    description: '',
+    imageUrl: '',
+    localThumbnail: null
+  };
 
   try {
     const res = await fetch(reelUrl, {
       headers: {
         'User-Agent': 'facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)'
       },
-      signal: AbortSignal.timeout(6000)
+      signal: AbortSignal.timeout(8000)
     });
-    if (!res.ok) return null;
+    if (!res.ok) return result;
     const html = await res.text();
-    const match = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/i);
-    if (!match || !match[1]) return null;
 
-    let imgUrl = match[1].replace(/&amp;/g, '&');
-    const imgRes = await fetch(imgUrl, { signal: AbortSignal.timeout(6000) });
-    if (!imgRes.ok) return null;
+    const mTitle = html.match(/<meta\s+property="og:title"\s+content="([^"]+)"/i);
+    const mDesc = html.match(/<meta\s+property="og:description"\s+content="([^"]+)"/i);
+    const mImg = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/i);
 
-    const buffer = Buffer.from(await imgRes.arrayBuffer());
-    fs.writeFileSync(localFile, buffer);
-    return `/thumbnails/${reelId}.jpg`;
-  } catch (e) {
-    return null;
+    if (mTitle && mTitle[1]) result.title = decodeHtmlEntities(mTitle[1]);
+    if (mDesc && mDesc[1]) result.description = decodeHtmlEntities(mDesc[1]);
+    if (mImg && mImg[1]) result.imageUrl = mImg[1].replace(/&amp;/g, '&');
+
+    // Tải ảnh thumbnail cục bộ để không bao giờ dùng trực tiếp link fbcdn.net
+    if (result.imageUrl && reelId) {
+      const localFile = path.join(THUMB_DIR, `${reelId}.jpg`);
+      if (fs.existsSync(localFile)) {
+        result.localThumbnail = `/thumbnails/${reelId}.jpg`;
+      } else {
+        const imgRes = await fetch(result.imageUrl, { signal: AbortSignal.timeout(7000) });
+        if (imgRes.ok) {
+          const buffer = Buffer.from(await imgRes.arrayBuffer());
+          fs.writeFileSync(localFile, buffer);
+          result.localThumbnail = `/thumbnails/${reelId}.jpg`;
+        }
+      }
+    }
+  } catch (err) {
+    // Không làm gián đoạn luồng cào
   }
+
+  return result;
 }
 
-// 3. Hàm làm sạch caption và tạo tiêu đề chuẩn
+// 4. Làm sạch tiêu đề và caption
 function cleanTitle(rawCaption, fallback = 'Hoạt Hình 3D Đỉnh Cao') {
   if (!rawCaption) return fallback;
   let text = rawCaption
+    .split('\n')[0]
     .replace(/(?:tập|tap|part|ep|hồi)\s*\d+/gi, '')
     .replace(/#[\w\u00C0-\u1EF9]+/g, '')
     .replace(/[🔥⚡💥✨🎉🎬❤️👍👇👉\[\]\(\)\{\}]/g, '')
@@ -78,6 +157,57 @@ function cleanTitle(rawCaption, fallback = 'Hoạt Hình 3D Đỉnh Cao') {
     .replace(/\s+/g, ' ')
     .trim();
   return text.length > 5 ? text.slice(0, 80).trim() : fallback;
+}
+
+function cleanDescription(rawDesc, title) {
+  if (!rawDesc) return `Tổng hợp trọn bộ review phim tóm tắt ${title} full thuyết minh mới nhất.`;
+  let cleaned = rawDesc
+    .replace(/https?:\/\/\S+/gi, '')
+    .replace(/(?:bấm|click|ủng hộ|mua hàng|link mua|shopee|lazada|tiki|tiktok).*$/gim, '')
+    .replace(/(?:0\d{9,10}|\+84\d{9,10})/g, '')
+    .replace(/#[\w\u00C0-\u1EF9]+/g, '')
+    .replace(/\n\s*\n/g, '\n')
+    .trim();
+  if (cleaned.length < 10) {
+    return `Tổng hợp trọn bộ review phim tóm tắt ${title} full thuyết minh mới nhất.`;
+  }
+  return cleaned;
+}
+
+function extractFilmTitle(meta, rawCaption, fallback = 'Hoạt Hình 3D Đỉnh Cao') {
+  // 1. Lấy dòng đầu tiên của meta.description nếu có
+  if (meta.description) {
+    const lines = meta.description.split('\n').map((l) => l.trim());
+    const validLine = lines.find(
+      (l) =>
+        l &&
+        !l.startsWith('#') &&
+        !l.toLowerCase().includes('bản xem trước') &&
+        !l.toLowerCase().includes('thước phim') &&
+        l.length > 5
+    );
+    if (validLine) {
+      return cleanTitle(validLine, fallback);
+    }
+  }
+
+  // 2. Lấy từ og:title
+  if (meta.title && !meta.title.includes('Bản xem trước')) {
+    let cleaned = meta.title
+      .replace(/^\d+[\s,.]*[a-zA-Z\u00C0-\u1EF9]*\s*[\|•-]\s*/i, '')
+      .replace(/\s*[\|•-]\s*(?:Facebook|Marsx Files|Khu Trú Ẩn.*|Đại Đạo.*)$/i, '')
+      .trim();
+    if (cleaned.length > 5) {
+      return cleanTitle(cleaned, fallback);
+    }
+  }
+
+  // 3. Lấy rawCaption nếu có nghĩa
+  if (rawCaption && !rawCaption.includes('Bản xem trước') && !rawCaption.includes('thước phim') && rawCaption.length > 5) {
+    return cleanTitle(rawCaption, fallback);
+  }
+
+  return fallback;
 }
 
 function slugify(text) {
@@ -93,10 +223,93 @@ function slugify(text) {
     .replace(/^-+|-+$/g, '');
 }
 
-// 4. Hàm thực thi phiên cào và thống kê
+function detectCategory(title) {
+  const lower = title.toLowerCase();
+  if (lower.includes('trọng sinh') || lower.includes('trùng sinh')) return 'Trọng Sinh';
+  if (lower.includes('tu tiên') || lower.includes('tiên hiệp') || lower.includes('tu chân')) return 'Tu Tiên';
+  if (lower.includes('huyền huyễn')) return 'Huyền Huyễn';
+  if (lower.includes('xuyên không')) return 'Xuyên Không';
+  if (lower.includes('nghịch thiên')) return 'Nghịch Thiên';
+  if (lower.includes('đô thị') || lower.includes('tổng tài')) return 'Đô Thị';
+  if (lower.includes('cổ trang')) return 'Cổ Trang';
+  return 'Tu Tiên';
+}
+
+// 5. Quét danh sách link Reels từ 1 Fanpage bằng Playwright
+async function scrapeFanpageReels(pageUrl, channelName, maxToExtract = 15) {
+  console.log(`📡 [ENGINE] Bắt đầu quét nguồn: "${channelName}"...`);
+  let browser = null;
+  const discovered = [];
+
+  try {
+    browser = await chromium.launch({
+      headless: true,
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    });
+
+    const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      viewport: { width: 1280, height: 800 }
+    });
+
+    const page = await context.newPage();
+    await page.goto(pageUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
+    await page.waitForTimeout(2500);
+
+    // Cuộn trang để nạp thêm video Reels mới
+    for (let i = 0; i < 3; i++) {
+      await page.evaluate(() => window.scrollBy(0, 1800));
+      await page.waitForTimeout(1500);
+    }
+
+    const items = await page.evaluate(() => {
+      const results = [];
+      const links = Array.from(document.querySelectorAll('a[href*="/reel/"]'));
+
+      for (const a of links) {
+        const href = a.href.split('?')[0];
+        const match = href.match(/reel\/(\d+)/);
+        if (!match) continue;
+        const reelId = match[1];
+
+        // Lấy caption từ container
+        const container = a.closest('[role="article"]') || a.parentElement?.parentElement || a.parentElement;
+        const textElements = container ? Array.from(container.querySelectorAll('span, div')) : [];
+        let bestCaption = '';
+        for (const el of textElements) {
+          const t = (el.innerText || '').trim();
+          if (t && t.length > bestCaption.length && !/^\d+[,.]?\d*\s*[KkMm]?$/.test(t)) {
+            bestCaption = t;
+          }
+        }
+        const caption = bestCaption || a.getAttribute('aria-label') || a.innerText || '';
+
+        if (!results.some((r) => r.id === reelId)) {
+          results.push({
+            id: reelId,
+            url: href.endsWith('/') ? href : href + '/',
+            rawCaption: caption.replace(/\n+/g, ' ').trim()
+          });
+        }
+      }
+      return results;
+    });
+
+    discovered.push(...items.slice(0, maxToExtract));
+    console.log(`✅ [ENGINE] Tìm thấy ${items.length} link Reels từ "${channelName}".`);
+  } catch (err) {
+    console.warn(`⚠️ [ENGINE] Quét nguồn "${channelName}" gặp lỗi: ${err.message}`);
+  } finally {
+    if (browser) await browser.close();
+  }
+
+  return discovered;
+}
+
+// 6. Phiên thực thi cào, lọc bản quyền, tải ảnh thật và lưu CSDL
 export async function runCrawlAndReport() {
   console.log(`\n======================================================`);
-  console.log(`⚡ [REALTIME ENGINE] Bắt đầu phiên kiểm tra: ${new Date().toLocaleString('vi-VN')}`);
+  console.log(`⚡ [REALTIME ENGINE] Phiên quét Realtime lúc: ${new Date().toLocaleString('vi-VN')}`);
 
   let db = [];
   try {
@@ -108,30 +321,98 @@ export async function runCrawlAndReport() {
     return null;
   }
 
-  const initialCount = db.length;
-  let newAddedCount = 0;
+  let newlyAdded = 0;
+  let blockedCount = 0;
 
-  // Quét kiểm tra và tải ảnh cho các video chưa có ảnh cục bộ
-  console.log(`🔍 [ENGINE] Đang rà soát và tải ảnh thumbnail cục bộ cho các video mới...`);
-  const recentReels = db.slice(0, 100);
-  for (const s of recentReels) {
+  // 6.1 Quét từ các nguồn Fanpage chuyên môn
+  for (const source of TARGET_SOURCES) {
+    const rawReels = await scrapeFanpageReels(source.url, source.name, 10);
+
+    for (const item of rawReels) {
+      // Bỏ qua nếu video đã có trong database
+      const exists = db.some((s) =>
+        (s.episodes || []).some((ep) => ep.originalUrl && (ep.originalUrl.includes(item.id) || ep.originalUrl === item.url))
+      );
+      if (exists) continue;
+
+      // KIỂM TRA BẢN QUYỀN NHÚNG: Bắt buộc nhúng được mới nhận
+      const canEmbed = await checkEmbeddable(item.url);
+      if (!canEmbed) {
+        console.log(`🚫 [BỊ CHẶN NHÚNG] Bỏ qua video bị hạn chế riêng tư/bản quyền: ${item.url}`);
+        blockedCount++;
+        continue;
+      }
+
+      // LẤY METADATA THẬT VÀ TẢI ẢNH THẬT CỤC BỘ
+      const meta = await fetchReelMetadata(item.url, item.id);
+      const combinedText = `${meta.title} ${meta.description} ${item.rawCaption}`;
+
+      // Lọc nội dung: Phải thuộc thể loại phim truyện AI, tu tiên, trùng sinh, 3D
+      if (!isGenreMatched(combinedText, true)) {
+        console.log(`⏩ [BỎ QUA] Video không đúng thể loại tu tiên / trùng sinh / 3D: "${combinedText.slice(0, 35)}..."`);
+        continue;
+      }
+
+      const posterPath = meta.localThumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=600&auto=format&fit=crop&q=80';
+      const fallbackTitle = `Tuyệt Phẩm Tu Tiên AI 3D #${item.id.slice(-4)}`;
+      const title = extractFilmTitle(meta, item.rawCaption, fallbackTitle);
+      const cat = detectCategory(title + ' ' + (meta.description || ''));
+      const slug = slugify(title) + '-' + item.id.slice(-4);
+
+      const newFilm = {
+        id: 'series-2am-' + item.id,
+        slug,
+        title,
+        description: cleanDescription(meta.description, title),
+        thumbnail: posterPath,
+        coverImage: posterPath,
+        channelName: source.name.split(' (')[0],
+        genres: [cat, 'Hoạt Hình 3D', 'Reels', 'Review Tóm Tắt', 'Tu Tiên', 'Trùng Sinh'],
+        categories: [cat, 'Hoạt Hình 3D', 'Reels'],
+        totalEpisodes: 1,
+        featured: false,
+        updatedAt: new Date().toISOString().split('T')[0],
+        episodes: [
+          {
+            id: 'ep-2am-' + item.id,
+            seriesId: 'series-2am-' + item.id,
+            partNumber: 1,
+            title,
+            originalUrl: item.url,
+            embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(item.url)}&show_text=0&autoplay=0`,
+            platform: 'facebook',
+            aspectRatio: '9:16',
+            duration: '01:30',
+            thumbnail: posterPath,
+            viewsCount: 15000 + Math.floor(Math.random() * 85000),
+            publishedAt: new Date().toISOString().split('T')[0]
+          }
+        ]
+      };
+
+      // ĐƯA LÊN ĐẦU (Newest First)
+      db.unshift(newFilm);
+      newlyAdded++;
+      console.log(`🎉 [THÀNH CÔNG] Đã nạp video mới: "${title}" (Thể loại: ${cat})`);
+    }
+  }
+
+  // 6.2 Rà soát và tải ảnh thumbnail cục bộ cho các video trong DB nếu còn sót
+  for (const s of db.slice(0, 50)) {
     const ep = s.episodes?.[0];
     if (!ep || !ep.originalUrl) continue;
     const matchId = ep.originalUrl.match(/reel\/(\d+)/);
-    const cleanId = matchId ? matchId[1] : ep.id;
-
-    if (!s.thumbnail || s.thumbnail.includes('fbcdn.net') || s.thumbnail.startsWith('http')) {
-      const realThumb = await downloadRealThumbnail(ep.originalUrl, cleanId);
-      if (realThumb) {
-        s.thumbnail = realThumb;
-        s.coverImage = realThumb;
-        ep.thumbnail = realThumb;
-        newAddedCount++;
+    if (matchId && (!s.thumbnail || s.thumbnail.includes('fbcdn.net'))) {
+      const meta = await fetchReelMetadata(ep.originalUrl, matchId[1]);
+      if (meta.localThumbnail) {
+        s.thumbnail = meta.localThumbnail;
+        s.coverImage = meta.localThumbnail;
+        ep.thumbnail = meta.localThumbnail;
       }
     }
   }
 
-  // Tính toán số liệu thống kê
+  // 6.3 Tính toán số liệu thống kê
   let totalEpisodes = 0;
   let totalViews = 0;
   db.forEach((s) => {
@@ -141,34 +422,42 @@ export async function runCrawlAndReport() {
     });
   });
 
-  // Lưu database đã tối ưu
+  // Lưu database đã cập nhật
   fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), 'utf-8');
 
-  // Ghi nhật ký thống kê
+  // Ghi báo cáo Analytics
   const stats = {
     timestamp: new Date().toISOString(),
     formattedTime: new Date().toLocaleString('vi-VN'),
     totalSeries: db.length,
     totalEpisodes,
     totalViews,
-    newThumbnailsCached: newAddedCount,
+    newlyAddedInSession: newlyAdded,
+    blockedNonEmbeddable: blockedCount,
     googleAnalyticsId: 'G-HYVH98WXZN',
     status: 'ACTIVE_REALTIME'
   };
 
   fs.writeFileSync(STATS_PATH, JSON.stringify(stats, null, 2), 'utf-8');
 
-  console.log(`📊 [ENGINE BÁO CÁO]:`);
+  console.log(`📊 [BÁO CÁO PHIÊN QUÉT]:`);
+  console.log(`- Video mới nạp thành công: ${newlyAdded}`);
+  console.log(`- Video bị chặn nhúng (đã lọc bỏ): ${blockedCount}`);
   console.log(`- Tổng số video hiện có: ${totalEpisodes}`);
-  console.log(`- Tổng số bộ phim: ${db.length}`);
   console.log(`- Tổng lượt xem tích lũy: ${totalViews.toLocaleString('vi-VN')}`);
-  console.log(`- Thumbnail cục bộ vừa nạp: ${newAddedCount}`);
   console.log(`======================================================\n`);
 
   return stats;
 }
 
-// Nếu chạy trực tiếp từ dòng lệnh
-if (process.argv[1] === fileURLToPath(import.meta.url)) {
+// Chế độ chạy liên tục ngầm (Daemon mode mỗi 15 phút)
+if (process.argv.includes('--daemon')) {
+  console.log(`🤖 [DAEMON] Khởi động tiến trình cào ngầm định kỳ 15 phút/lần...`);
+  runCrawlAndReport();
+  setInterval(() => {
+    runCrawlAndReport();
+  }, 15 * 60 * 1000);
+} else {
+  // Chạy 1 phiên đơn lẻ
   runCrawlAndReport();
 }
