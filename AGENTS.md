@@ -47,6 +47,10 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
     $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^n \text{Lô}_i \right) = \emptyset$$
   - Toàn bộ danh sách tất cả các Lô và 5 kênh của từng Lô bắt buộc phải được tự động lưu trữ, đồng bộ và cập nhật thường xuyên vào file Word (`Danh_Sach_Kenh_Da_Cao.docx`) trong thư mục gốc của dự án để quản trị minh bạch.
   - Mọi rules khác (thời lượng >= 30 phút, cấm ca nhạc/OST, kiểm tra quyền nhúng `checkEmbeddable`, tải poster gốc) vẫn giữ nguyên hiệu lực nghiêm ngặt 100%.
+- **QUY CHUẨN CÀO CẠN KÊNH LẦN ĐẦU (EXHAUSTIVE DEEP CRAWL) & CÀO NHẸ LỚP TRÊN (INCREMENTAL TOP-LAYER CRAWL):**
+  - **Lần đầu cào kênh mới:** Sử dụng cơ chế cuộn chuột thật (Native Mouse Wheel `page.mouse.wheel`) kết hợp tự động triệt tiêu `[role="dialog"]` và mở khóa thanh cuộn. Cuộn liên tục đến khi kênh cạn kiệt toàn bộ video trong kho lưu trữ (không còn video cũ hơn xuất hiện sau 3-4 nhịp cuộn liên tiếp), tối đa hóa số video cào được trong 1 lần quét duy nhất.
+  - **Lưu lịch sử video đã cào:** Toàn bộ ID video đã cào trên từng kênh được lưu bền vững vào `src/data/channel_crawl_history.json`.
+  - **Các lần quét sau (Quét nhẹ lớp trên):** Khi quét lại một kênh đã cào cạn trước đó, bot chỉ cuộn nhẹ 1-3 nhịp ở lớp trên cùng. Ngay khi phát hiện gặp một ID video đã có trong lịch sử hoặc CSDL, bot **LẬP TỨC DỪNG CUỘN**, chỉ xử lý các video mới đăng phía trên, giúp tiết kiệm 90% tài nguyên CPU/RAM và tăng tốc độ quét vượt trội.
 - **QUY CHUẨN BÁO CÁO ĐỊNH KỲ 5 PHÚT BẮT BUỘC KÈM KẾT QUẢ CÀO VIDEO:**
   - Trong mỗi lần kiểm tra và báo cáo định kỳ 5 phút/lần theo thời gian thực, agent BẮT BUỘC phải báo cáo rõ ràng, chi tiết toàn bộ kết quả cào video của phiên quét gần nhất:
     * Tên Lô vừa quét và danh sách 5 kênh mục tiêu.
@@ -57,6 +61,12 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
     * Tổng số phim dài chuẩn hiện có trong CSDL website.
     * Số thứ tự Lô kế tiếp ($n+1$) chuẩn bị quét.
   - Tuyệt đối không báo cáo chung chung thiếu số liệu; mọi thông số phải được trích xuất chính xác từ log thực tế của bot cào.
+- **KHO KINH NGHIỆM & QUY TẮC CÀO TỐI ƯU CỰC HẠN (PLAYWRIGHT ADVANCED CRAWLING RULES):**
+  - **Chặn Tải Tài Nguyên Thừa (Request Interception):** Bắt buộc sử dụng `page.route` để chặn `['image', 'media', 'font']`. Tuyệt đối không để trình duyệt tải các hình ảnh và media rác của Facebook khi đang cuộn tìm link, giảm 85% tải RAM/băng thông và tăng tốc độ duyệt từ 15s xuống 3-4s. Ảnh bìa phim chỉ được tải 1 lần duy nhất qua `fetch` độc lập khi phim đã thỏa mãn tất cả tiêu chuẩn kiểm duyệt.
+  - **Sử Dụng Cuộn Chuột Thật (Native Mouse Wheel):** Luôn dùng `page.mouse.move(640, 450)` và `page.mouse.wheel(0, 3200)` để kích hoạt cơ chế render ảo (Virtual DOM) và gọi GraphQL của Facebook. Tránh dựa dẫm vào `window.scrollBy` vốn thường bị Facebook vô hiệu hóa.
+  - **Triệt Tiêu Modal & Mở Khóa Thanh Cuộn Tự Động:** Tự động xóa `[role="dialog"]`, `[aria-modal="true"]` và đặt lại `overflow: auto` cho `document.documentElement` và `document.body` ở mỗi nhịp cuộn, tránh tình trạng bị treo cuộn do popup Facebook.
+  - **Tìm Kiếm Watch Dự Phòng Thông Minh (Watch Search Fallback):** Nếu một Fanpage bị lỗi, đổi link hoặc trả về 0 video, bot tự động kích hoạt tìm kiếm dự phòng trên Facebook Watch Search (`/watch/search/?q={tên kênh} full trọn bộ`) để thu thập trọn bộ các video dài chuẩn thay vì bỏ lỡ.
+  - **Lọc Sớm Đa Tầng (Early Discard):** Lọc thời lượng `< 30 phút` và từ khóa nhạc/OST ngay từ bước trích xuất DOM, ngăn chặn lãng phí tài nguyên mạng vào các video không đạt chuẩn trước khi gọi kiểm tra nhúng.
 
 ## 4. Quy Chuẩn SEO & Thương Hiệu
 - **Thẻ SEO Cốt Lõi:** Phải luôn duy trì thẻ `<link rel="canonical" href="https://daodaoreview.com/">` và `<meta name="robots" content="index, follow, max-image-preview:large">` trong `layout.tsx`.

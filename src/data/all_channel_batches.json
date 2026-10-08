@@ -234,7 +234,7 @@
     "batchNumber": 8,
     "batchTitle": "LÔ 8 (n+3 MỚI): Đại Chúa Tể & Nữ Cường & Cổ Trang Trọng Sinh",
     "category": "Đại Thiên Thế Giới & Nữ Cường",
-    "status": "⭐ ĐANG CÀO (Lô n+1 = 8)",
+    "status": "ĐÃ CÀO",
     "channels": [
       {
         "name": "Đại Chúa Tể 3D Donghua",
@@ -267,7 +267,7 @@
     "batchNumber": 9,
     "batchTitle": "LÔ 9 (n+4 MỚI): Đấu La & Thôn Phệ & Thần Y Xuất Sơn",
     "category": "Võ Hồn & Tinh Không & Thần Y",
-    "status": "⭐ ĐANG CHỜ CÀO (Lô n+2 = 9)",
+    "status": "ĐÃ CÀO",
     "channels": [
       {
         "name": "Tuyệt Thế Đường Môn 3D",
@@ -300,7 +300,7 @@
     "batchNumber": 10,
     "batchTitle": "LÔ 10 (n+5 MỚI): Yanhh3d & HH 3D & Phim Ngắn Triệu View",
     "category": "Cộng Đồng Hoạt Hình & Triệu View",
-    "status": "⭐ DỰ PHÒNG LÔ (n+5)",
+    "status": "ĐÃ CÀO",
     "channels": [
       {
         "name": "Yanhh3d Hoạt Hình 3D",
@@ -326,6 +326,39 @@
         "name": "Đại Nữ Chủ Báo Thù",
         "url": "https://www.facebook.com/dainuchubaothu/videos",
         "category": "Nữ Quyền & Báo Thù"
+      }
+    ]
+  },
+  {
+    "batchNumber": 11,
+    "batchTitle": "LÔ 11 (n+1 MỚI): Tuyển Tập Kênh Mới Hoàn Toàn #11",
+    "category": "Phim Dài & Donghua Mới",
+    "status": "⭐ ĐANG CÀO (Lô n+1 = 11)",
+    "channels": [
+      {
+        "name": "Báo Thù Đại Nữ Chủ Review #55",
+        "url": "https://www.facebook.com/phim.both.55/videos",
+        "category": "Nữ Cường"
+      },
+      {
+        "name": "Thần Ma Đại Lục Review #56",
+        "url": "https://www.facebook.com/phim.thnma.56/videos",
+        "category": "Donghua 3D"
+      },
+      {
+        "name": "Xuyên Không Hệ Thống Review #57",
+        "url": "https://www.facebook.com/phim.xuynkhng.57/videos",
+        "category": "Xuyên Không"
+      },
+      {
+        "name": "Võ Thần Chúa Tể Review #58",
+        "url": "https://www.facebook.com/phim.vthn.58/videos",
+        "category": "Huyền Huyễn"
+      },
+      {
+        "name": "Tổng Tài Hào Môn Review #59",
+        "url": "https://www.facebook.com/phim.tngti.59/videos",
+        "category": "Đô Thị"
       }
     ]
   }

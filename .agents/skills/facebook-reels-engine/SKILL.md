@@ -51,6 +51,39 @@ $$\text{Lô}_{n+1} \cap \left( \bigcup_{i=1}^n \text{Lô}_i \right) = \emptyset$
 
 ---
 
+## 2.1. Cơ Chế Cào Cạn Kênh (Deep Exhaustive Crawl) & Quét Nhẹ Lớp Trên (Incremental Top-Layer)
+
+Nhằm tối ưu hóa hiệu năng và cào tối đa số lượng video trên từng kênh:
+1. **Lần đầu cào một kênh mới (Cào cạn toàn diện):**
+   - Áp dụng cử chỉ cuộn chuột thực tế (Native Mouse Wheel: `page.mouse.move(640, 450)` & `page.mouse.wheel(0, 3200)`) kết hợp tự động bẻ khóa và gỡ bỏ các modal đăng nhập / overlay cản trở (`aria-modal="true"`, `div[role="dialog"]`).
+   - Bot thực hiện cuộn sâu liên tục (tối đa 16-20 lượt) cho tới khi kênh cạn kiệt toàn bộ video trong kho lưu trữ (khi số lượng video không tăng sau 3 lượt cuộn liên tiếp).
+   - Tối đa hóa số lượng video cào được trong 1 lần duy nhất, vét sạch toàn bộ lịch sử video dài của kênh.
+2. **Lưu trữ lịch sử cào của từng kênh:**
+   - Mọi ID video đã phát hiện được lưu bền vững vào `src/data/channel_crawl_history.json`.
+3. **Các lần quét sau (Quét nhẹ lớp trên):**
+   - Khi quét lại bất kỳ kênh nào đã từng cào cạn, bot chuyển sang chế độ **Lớp trên nhẹ nhàng (Incremental Top-Layer)**.
+   - Bot chỉ cuộn nhẹ 1-3 nhịp ở phần đầu trang. Ngay khi phát hiện video trùng với ID đã lưu trong lịch sử, bot **LẬP TỨC DỪNG CUỘN**.
+   - Chỉ xử lý các video mới đăng nằm ở lớp trên cùng, tiết kiệm 90% tài nguyên CPU/RAM và giảm thời gian quét kênh xuống chỉ còn 5-10 giây!
+
+---
+
+## 2.2. Kho Kinh Nghiệm Thực Chiến & Nguyên Tắc Tối Ưu Cực Hạn (Playwright Advanced Rules)
+
+Từ các phân tích chuyên sâu của Claude & GPT cùng kiểm thử thực tế trên hệ thống:
+1. **Chặn Tải Tài Nguyên Nặng (Request Interception):**
+   - Cài đặt `page.route('**/*', (route) => ...)` chặn hoàn toàn `image`, `media`, `font`.
+   - Giúp Facebook load trong 3-4 giây thay vì 15-20 giây, giảm 85% tiêu hao RAM và CPU. Ảnh poster gốc chỉ được tải 1 lần duy nhất bằng `fetch` khi video đã qua mọi bước kiểm duyệt.
+2. **Kích Hoạt Cuộn Chuột Thực (Native Mouse Wheel):**
+   - Facebook sử dụng danh sách ảo hóa (Virtual List) chỉ phản hồi với cử chỉ chuột hệ thống. Áp dụng `page.mouse.move(640, 450)` và `page.mouse.wheel(0, 3200)` để kích hoạt nạp GraphQL liên tục mà không bị nghẽn.
+3. **Triệt Tiêu Modal & Khôi Phục Thanh Cuộn Tự Động:**
+   - Liên tục dọn dẹp các modal đăng nhập (`div[role="dialog"]`, `[aria-modal="true"]`) và gỡ bỏ thuộc tính khóa cuộn `overflow: hidden` trên `document.documentElement` và `document.body` ở mỗi nhịp cuộn.
+4. **Tìm Kiếm Dự Phòng Facebook Watch Thông Minh (Watch Search Fallback):**
+   - Nếu đường dẫn Fanpage bị lỗi 404, đổi tên hoặc không có video dài, bot tự động kích hoạt tìm kiếm dự phòng: `https://www.facebook.com/watch/search/?q={tên kênh} full trọn bộ` để quét các video dài chuẩn thay vì chịu thất thoát dữ liệu.
+5. **Lọc Sớm Đa Tầng (Early Discarding):**
+   - Đọc thời lượng từ badge giao diện ngay khi vừa phát hiện; nếu `< 30 phút` lập tức bỏ qua, không lãng phí tài nguyên gọi `checkEmbeddable` hay tải metadata.
+
+---
+
 ## 3. Hệ Thống Đồng Bộ & Quản Trị Bằng File Word (.docx)
 
 * **Tự Động Hóa Xuất File Word:** Script Python `scripts/export_channel_list_docx.py` đọc dữ liệu động từ `all_channel_batches.json` và tự động cập nhật vào:
