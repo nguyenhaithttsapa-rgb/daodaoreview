@@ -1,5 +1,43 @@
 [
   {
+    "id": "series-long-862240872321644",
+    "slug": "tong-tai-ly-hon-moi-nhan-ra-nguoi-minh-yeu-full-2-gio-04-phut-1644",
+    "title": "Tổng Tài Ly Hôn Mới Nhận Ra Người Mình Yêu (Full Trọn Bộ 2 Giờ 04 Phút)",
+    "description": "Review phim ngôn tình tổng tài trọn bộ hấp dẫn: Cho đến khi tới phòng dân sự làm thủ tục ly hôn, tổng tài mới nhận ra người mình yêu say đắm lại chính là cô vợ kết hôn 1 năm trước chưa từng gặp mặt.",
+    "thumbnail": "/thumbnails/862240872321644.jpg",
+    "coverImage": "/thumbnails/862240872321644.jpg",
+    "channelName": "Võ Thần Chúa Tể Review #208",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-08",
+    "episodes": [
+      {
+        "id": "ep-long-862240872321644",
+        "seriesId": "series-long-862240872321644",
+        "partNumber": 1,
+        "title": "Tổng Tài Ly Hôn Mới Nhận Ra Người Mình Yêu (Full Trọn Bộ 2 Giờ 04 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=862240872321644",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D862240872321644&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:04:34",
+        "thumbnail": "/thumbnails/862240872321644.jpg",
+        "viewsCount": 55479,
+        "publishedAt": "2026-10-08"
+      }
+    ]
+  },
+  {
     "id": "series-long-920724680382153",
     "slug": "dieu-thuyen-review-phim-hay-tron-bo-full-2-gio-17-phut-2153",
     "title": "Điêu Thuyền Review - Phim Hay Trọn Bộ (Full 2 Giờ 17 Phút)",
