@@ -4,7 +4,7 @@ import AdBanner from '@/components/AdBanner';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import UserInteractions from '@/components/UserInteractions';
-import { Play, Share2, ThumbsUp, MessageSquare, ChevronRight, CheckCircle2, Bookmark } from 'lucide-react';
+import { Play, Share2, ThumbsUp, MessageSquare, ChevronRight, ChevronLeft, CheckCircle2, Bookmark, Sparkles } from 'lucide-react';
 
 interface WatchPageProps {
   params: Promise<{ slug: string }>;
@@ -32,19 +32,17 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
     (ep) => ep.partNumber === (currentEpisode?.partNumber || 1) + 1
   );
   
-  // Logic nút Xem Tiếp
-  let nextUrl = '';
-  let nextText = '';
-  if (nextEpisode) {
-    nextUrl = `/watch/${series.slug}?part=${nextEpisode.partNumber}`;
-    nextText = `Tập Tiếp Theo (${nextEpisode.partNumber})`;
-  } else {
-    const allSeries = getAllSeries();
-    const otherSeries = allSeries.filter(s => s.id !== series.id);
-    const randomSeries = otherSeries.length > 0 ? otherSeries[Math.floor(Math.random() * otherSeries.length)] : series;
-    nextUrl = `/watch/${randomSeries.slug}`;
-    nextText = 'Chuyển Phim Khác (Ngẫu nhiên)';
-  }
+  // Tính toán phim trước & phim tiếp theo tuần tự theo đúng vị trí trong CSDL
+  const allSeries = getAllSeries();
+  const currentIndex = allSeries.findIndex((s) => s.slug === series.slug || s.id === series.id);
+  const validIndex = currentIndex >= 0 ? currentIndex : 0;
+  const totalSeries = allSeries.length;
+
+  const prevIndex = (validIndex - 1 + totalSeries) % totalSeries;
+  const nextIndex = (validIndex + 1) % totalSeries;
+
+  const prevSeries = allSeries[prevIndex];
+  const nextSeries = allSeries[nextIndex];
 
 
   return (
@@ -63,30 +61,71 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Cột chính: Trình phát Video + Thông tin */}
         <div className="lg:col-span-2 space-y-6">
-                    {/* Trình phát Video Nhúng */}
-          <VideoPlayer episode={currentEpisode} />
+          {/* Trình phát Video Nhúng tích hợp vuốt chuyển phim tuần tự */}
+          <VideoPlayer
+            episode={currentEpisode}
+            prevFilm={{
+              slug: prevSeries.slug,
+              title: prevSeries.title,
+              thumbnail: prevSeries.thumbnail
+            }}
+            nextFilm={{
+              slug: nextSeries.slug,
+              title: nextSeries.title,
+              thumbnail: nextSeries.thumbnail
+            }}
+            currentIndex={validIndex}
+            totalFilms={totalSeries}
+          />
           
-          {/* Nút Xem Tiếp Khổng Lồ */}
-          <div className="w-full mt-2">
-            <Link 
-              href={nextUrl}
-              className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold text-lg py-4 rounded-2xl shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all animate-pulse-slow border border-cyan-400/30"
-            >
-              <span>{nextText}</span>
-              <ChevronRight className="w-6 h-6" />
-            </Link>
-          </div>
+          {/* Bộ điều hướng chuyển phim tuần tự Trước / Sau */}
+          <div className="w-full space-y-2 mt-2">
+            <div className="grid grid-cols-2 gap-3">
+              <Link 
+                href={`/watch/${prevSeries.slug}`}
+                className="group flex items-center gap-3 p-3 rounded-2xl bg-[#0a0514]/90 hover:bg-[#160a2c] border border-cyan-500/30 hover:border-cyan-400 transition-all shadow-[0_0_15px_rgba(6,182,212,0.15)] hover:shadow-[0_0_20px_rgba(6,182,212,0.3)] min-w-0"
+              >
+                <div className="w-10 h-10 rounded-xl bg-cyan-950/80 border border-cyan-500/40 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                  <ChevronLeft className="w-5 h-5 text-cyan-400" />
+                </div>
+                <div className="min-w-0 flex-1">
+                  <div className="text-[11px] text-cyan-400 font-semibold tracking-wider uppercase">
+                    ❮ PHIM TRƯỚC
+                  </div>
+                  <div className="text-sm font-bold text-white truncate group-hover:text-cyan-300 transition-colors">
+                    {prevSeries.title}
+                  </div>
+                </div>
+              </Link>
 
-          
-          {/* Nút Xem Tiếp Khổng Lồ */}
-          <div className="w-full mt-2">
-            <Link 
-              href={nextUrl}
-              className="w-full flex items-center justify-center gap-2 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 hover:from-cyan-500 hover:via-blue-500 hover:to-purple-500 text-white font-bold text-lg py-4 rounded-2xl shadow-[0_0_20px_rgba(6,182,212,0.4)] transition-all animate-pulse-slow border border-cyan-400/30"
-            >
-              <span>{nextText}</span>
-              <ChevronRight className="w-6 h-6" />
-            </Link>
+              <Link 
+                href={`/watch/${nextSeries.slug}`}
+                className="group flex items-center justify-between gap-3 p-3 rounded-2xl bg-[#0a0514]/90 hover:bg-[#160a2c] border border-purple-500/30 hover:border-purple-400 transition-all shadow-[0_0_15px_rgba(168,85,247,0.15)] hover:shadow-[0_0_20px_rgba(168,85,247,0.3)] min-w-0 text-right"
+              >
+                <div className="min-w-0 flex-1">
+                  <div className="text-[11px] text-fuchsia-400 font-semibold tracking-wider uppercase">
+                    PHIM TIẾP THEO ❯
+                  </div>
+                  <div className="text-sm font-bold text-white truncate group-hover:text-fuchsia-300 transition-colors">
+                    {nextSeries.title}
+                  </div>
+                </div>
+                <div className="w-10 h-10 rounded-xl bg-purple-950/80 border border-purple-500/40 flex items-center justify-center flex-shrink-0 group-hover:scale-105 transition-transform">
+                  <ChevronRight className="w-5 h-5 text-fuchsia-400" />
+                </div>
+              </Link>
+            </div>
+
+            {/* Chỉ dẫn cử chỉ vuốt thông minh */}
+            <div className="flex items-center justify-between px-3.5 py-2 rounded-xl bg-purple-950/20 border border-purple-500/20 text-xs text-slate-400">
+              <div className="flex items-center gap-2 text-cyan-400">
+                <Sparkles className="w-4 h-4 animate-pulse" />
+                <span>Vuốt màn hình (lên/xuống hoặc sang trái/phải) để chuyển phim</span>
+              </div>
+              <span className="text-slate-400 font-mono text-[11px] bg-purple-900/40 px-2 py-0.5 rounded border border-purple-500/20">
+                Phim {validIndex + 1}/{totalSeries}
+              </span>
+            </div>
           </div>
 
 
