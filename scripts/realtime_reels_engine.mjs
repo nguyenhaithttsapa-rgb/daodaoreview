@@ -24,6 +24,10 @@ const TARGET_SOURCES = [
   {
     name: 'Hoạt Hình 3D Trung Quốc',
     url: 'https://www.facebook.com/hh3dtq/reels'
+  },
+  {
+    name: 'Movie Xàm (Review Phim Hay)',
+    url: 'https://www.facebook.com/moviexam/reels'
   }
 ];
 
@@ -79,7 +83,7 @@ function isGenreMatched(text, isTrustedChannel = true) {
   return isTrustedChannel;
 }
 
-// 2. Kiểm tra bản quyền nhúng video Facebook Reel: Lọc triệt để 100% lỗi nhúng
+// 2. Kiểm tra bản quyền nhúng video Facebook Reel: Đảm bảo có luồng phát hợp lệ và không bị cấm
 async function checkEmbeddable(url) {
   try {
     const embedUrl = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(url)}&show_text=0&autoplay=0`;
@@ -92,21 +96,21 @@ async function checkEmbeddable(url) {
     if (!res.ok) return false;
     const html = await res.text();
 
-    // Dấu hiệu lỗi bản quyền / cấm nhúng ngoài trang của Facebook
+    // 1. Phải chứa luồng phát video (sd_src hoặc hd_src) do Facebook sinh ra
+    const hasStream = /"sd_src"\s*:\s*"https?:/i.test(html) || /"hd_src"\s*:\s*"https?:/i.test(html);
+    if (!hasStream) {
+      return false;
+    }
+
+    // 2. Dấu hiệu lỗi bản quyền hoặc cấm nhúng thực sự từ Facebook
     const isBlocked =
-      html.includes('_3i0p') ||
-      html.includes('_3i0o') ||
-      html.includes('_2go0') ||
       html.includes('không nhúng được') ||
-      html.includes('Không khả dụng') ||
-      html.includes('không thể phát') ||
-      html.includes('cannot be embedded') ||
-      html.includes('cannot be played') ||
-      html.includes('error_subcode') ||
       html.includes('thuộc sở hữu của người khác') ||
-      html.includes('Video không hiển thị') ||
-      html.includes('Video Unavailable') ||
-      html.includes('không tồn tại nữa hoặc bạn không có quyền xem');
+      html.includes('cannot be embedded') ||
+      html.includes('error_subcode') ||
+      html.includes('không tồn tại nữa hoặc bạn không có quyền xem') ||
+      html.includes('videoData":null') ||
+      /"sd_src"\s*:\s*null/i.test(html);
 
     if (isBlocked) {
       return false;
