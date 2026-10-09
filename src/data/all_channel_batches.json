@@ -2187,5 +2187,71 @@
         "category": "Donghua Cổ Trang Sử Thi 3D"
       }
     ]
+  },
+  {
+    "batchNumber": 69,
+    "batchTitle": "LÔ 69: Phim Ngắn Đô Thị & Thần Hào Giấu Nghề",
+    "category": "Phim Ngắn Đô Thị & Thần Hào",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Thần Hào Đô Thị Review",
+        "url": "https://www.facebook.com/thanhaodothi.review/videos",
+        "category": "Thần Hào & Đô Thị Nghịch Tập"
+      },
+      {
+        "name": "Đô Thị Thần Y Xuất Sơn",
+        "url": "https://www.facebook.com/dothithany.xuatsuon/videos",
+        "category": "Thần Y Đô Thị & Cứu Thế"
+      },
+      {
+        "name": "Thiếu Gia Ẩn Danh Đô Thị",
+        "url": "https://www.facebook.com/thieugia.andanh/videos",
+        "category": "Giả Heo Ăn Hổ & Vả Mặt Hào Môn"
+      },
+      {
+        "name": "Chiến Thần Đô Thị Quy Lai",
+        "url": "https://www.facebook.com/chienthandothi.quylai/videos",
+        "category": "Chiến Thần & Đô Thị Báo Thù"
+      },
+      {
+        "name": "Trọng Sinh Đô Thị Tu Tiên Phim Ngắn",
+        "url": "https://www.facebook.com/trongsinhdothi.tutien/videos",
+        "category": "Trọng Sinh & Đô Thị Tu Chân"
+      }
+    ]
+  },
+  {
+    "batchNumber": 70,
+    "batchTitle": "LÔ 70: Tổng Tài Hào Môn & Ngôn Tình Kịch Tính",
+    "category": "Tổng Tài Hào Môn & Nữ Cường",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Hào Môn Thế Gia Review",
+        "url": "https://www.facebook.com/haomonthegia.review/videos",
+        "category": "Gia Đấu Hào Môn & Tranh Tài"
+      },
+      {
+        "name": "Tổng Tài Khế Ước Hôn Nhân",
+        "url": "https://www.facebook.com/tongtai.kheuochonnhan/videos",
+        "category": "Hợp Đồng Hôn Nhân & Tổng Tài"
+      },
+      {
+        "name": "Nữ Phụ Đô Thị Trọng Sinh",
+        "url": "https://www.facebook.com/nuphudothi.trongsinh/videos",
+        "category": "Nữ Cường & Đô Thị Nghịch Chuyển"
+      },
+      {
+        "name": "Phim Ngắn Hào Môn Ân Oán",
+        "url": "https://www.facebook.com/haomonanoan.phimngan/videos",
+        "category": "Hào Môn Kịch Tính & Báo Thù"
+      },
+      {
+        "name": "Đoản Kịch Đô Thị Đổi Đời",
+        "url": "https://www.facebook.com/doankichdothi.doidoi/videos",
+        "category": "Đô Thị Đổi Đời & Làm Giàu"
+      }
+    ]
   }
 ]

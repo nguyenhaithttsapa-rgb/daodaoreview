@@ -1,8 +1,8 @@
 {
-  "currentChannelIndex": 66,
+  "currentChannelIndex": 67,
   "totalChannels": 322,
   "startedAt": "2026-10-09T03:38:14.730Z",
-  "lastUpdated": "2026-10-09T17:18:10.764Z",
+  "lastUpdated": "2026-10-09T17:30:23.128Z",
   "channelsProcessed": [
     {
       "index": 0,
@@ -797,6 +797,18 @@
       "embedRejected": 0,
       "musicRejected": 0,
       "endTime": "2026-10-09T17:18:10.763Z"
+    },
+    {
+      "index": 66,
+      "name": "Vạn Cổ Thần Đế Review #74",
+      "url": "https://www.facebook.com/phim.vnc.74/videos",
+      "startTime": "2026-10-09T17:20:10.768Z",
+      "videosFound": 25,
+      "moviesAdded": 0,
+      "shortRejected": 23,
+      "embedRejected": 2,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T17:30:23.127Z"
     }
   ]
 }
