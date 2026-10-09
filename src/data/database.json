@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1271475131860301",
+    "slug": "tron-bo-3d-dac-cong-xuyen-khong-ganh-vac-8-vi-tau-tau-cuc-ba-dao-dai-l-0301",
+    "title": "[Trọn Bộ 3D] Đặc Công Xuyên Không, Gánh Vác 8 Vị Tẩu Tẩu Cực Bá Đạo! | Đại Lục Review (Full Trọn Bộ 2:10:44)",
+    "description": "[Trọn Bộ 3D] Đặc Công Xuyên Không, Gánh Vác 8 Vị Tẩu Tẩu Cực Bá Đạo! ...",
+    "thumbnail": "/thumbnails/1271475131860301.jpg",
+    "coverImage": "/thumbnails/1271475131860301.jpg",
+    "channelName": "Đại Chúa Tể 3D Donghua",
+    "genres": [
+      "Đại Thiên Thế Giới",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1271475131860301",
+        "seriesId": "series-long-1271475131860301",
+        "partNumber": 1,
+        "title": "[Trọn Bộ 3D] Đặc Công Xuyên Không, Gánh Vác 8 Vị Tẩu Tẩu Cực Bá Đạo! | Đại Lục Review (Full Trọn Bộ 2:10:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1271475131860301",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1271475131860301&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:10:44",
+        "thumbnail": "/thumbnails/1271475131860301.jpg",
+        "viewsCount": 28226,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1679472797115121",
+    "slug": "xem-tiep-tai-p2-tap-4-van-co-truong-sinh-he-thong-xuat-hien-sau-8000-n-5121",
+    "title": "Xem Tiếp tại P2 - Tập 4 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 38:06)",
+    "description": "Xem Tiếp tại P2 - Tập 4 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. ...",
+    "thumbnail": "/thumbnails/1679472797115121.jpg",
+    "coverImage": "/thumbnails/1679472797115121.jpg",
+    "channelName": "Đại Chúa Tể 3D Donghua",
+    "genres": [
+      "Đại Thiên Thế Giới",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1679472797115121",
+        "seriesId": "series-long-1679472797115121",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại P2 - Tập 4 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 38:06)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1679472797115121",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1679472797115121&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "38:06",
+        "thumbnail": "/thumbnails/1679472797115121.jpg",
+        "viewsCount": 45798,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-3285463321646050",
     "slug": "tap-3-phim-hay-tron-bo-thien-kim-xuyen-sach-phim-thuyet-minh-moi-nhat--6050",
     "title": "Tập 3: Phim hay trọn bộ Thiên kim xuyên sách , phim thuyết minh mới nhất, phim AI",
