@@ -80,3 +80,32 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
   ```bash
   cd /var/www/daodaoreview && git reset --hard && git pull && npm run build && pm2 restart all
   ```
+
+## 6. Rules Cào Reels Facebook (Quy Chuẩn Toàn Diện Đúc Kết Từ Kênh Mễ Lạc Review)
+Tất cả các bot và agent khi thực hiện cào video từ Facebook Reels / Watch BẮT BUỘC tuân thủ chi tiết tại `.agents/rules/rules_cao_reels_facebook.md` với các nguyên tắc cốt lõi:
+1. **Kiến Trúc Kênh & Vét Sâu Watch Search (Multi-Angle Watch Query Expansion):**
+   - Không dừng lại ở kho trực tiếp của Page (`/sk=videos`). Khi kho trực tiếp chạm đáy (sau 6 nhịp cuộn không ra video mới), Meta đã phân tán các video dài còn lại vào Facebook Watch.
+   - Bắt buộc triển khai quét mở rộng đa góc truy vấn theo công thức: `"{Tên Kênh} {Tên Series} Mùa {i}"`, `"{Tên Kênh} {Tên Series} Phần {i}"`, `"{Tên Kênh} {Tên Series} trọn bộ"`, `"{Tên Kênh} {Tên Series} full tập"`.
+   - **Kỹ thuật Lấp Đầy Khoảng Trống (Gaps Filling):** Lập ma trận các mùa đã có, tự động nhận diện các mùa còn thiếu và phát động truy vấn chính xác để vét sạch toàn bộ các mùa thất lạc.
+2. **Quy Tắc Thẩm Định Nhúng Chuẩn Xác 100% (Accurate Embed Gatekeeper):**
+   - **Tuyệt đối KHÔNG lọc chuỗi `_3i0p`, `_3i0o` hoặc `Không khả dụng`** vì chúng nằm trong từ điển i18n của Facebook trên MỌI video hợp lệ (gây loại bỏ nhầm 90% video xem được).
+   - Chỉ từ chối khi HTML plugin nhúng (`https://www.facebook.com/plugins/video.php?href=...`) thực sự chứa chuỗi:
+     `Video này không nhúng được do có thể chứa` hoặc `This video cannot be embedded because it may contain content`.
+   - Yêu cầu độ dài mã nguồn iframe `html.length >= 30000` (đảm bảo tải đủ player).
+3. **Tối Ưu Trình Duyệt Cực Hạn (Playwright Interception & Native Events):**
+   - Chặn toàn bộ `['image', 'media', 'font']` qua `page.route` khi cuộn trang, giảm 85% RAM và tăng tốc độ 5x-10x. Ảnh bìa chỉ tải 1 lần duy nhất bằng `fetch` khi video đã đạt chuẩn.
+   - Luôn dùng sự kiện chuột thật `page.mouse.move(640, 450)` và `page.mouse.wheel(0, 3600-4000)`.
+   - Tự động xóa `[role="dialog"]`, `[aria-modal="true"]` và mở khóa `overflow: auto` ở mọi nhịp cuộn để vượt modal ép đăng nhập.
+4. **Tiêu Chuẩn Thời Lượng & Lọc Sạch Nội Dung:**
+   - Thời lượng tối thiểu $\ge 30$ phút (`duration >= 1800s`), loại bỏ 100% video ngắn.
+   - Triệt tiêu 100% video ca nhạc, OST, MV vietsub, karaoke.
+   - Triệt tiêu 100% video rác không phải phim (như talkshow Cafe Sáng, Dealshaker, video nuôi dạy con, livestream cá nhân...).
+   - **Ưu tiên bản siêu dài (Marathon Priority):** Ưu tiên các bản trọn bộ gộp nhiều mùa (8h, 11h, 15h) để đem lại trải nghiệm xem liên tục tốt nhất.
+5. **Lưu Bền Vững Poster Gốc & Chuẩn Hóa Tiêu Đề:**
+   - Trích xuất `og:image` bằng UA `facebookexternalhit/1.1`, lưu file vào `public/thumbnails/{cleanId}.jpg` (kích thước $\ge 50$ KB).
+   - Làm sạch tiêu đề: Bỏ nhãn tuổi `[16+]`, `[13+]`, bỏ hashtag, link affiliate, số điện thoại, cắt gọn đoạn mô tả dính vào tiêu đề, thêm hậu tố `(Full Trọn Bộ)`.
+6. **Đồng Bộ Dữ Liệu & Tự Động Triển Khai:**
+   - Cập nhật `database.json`, `channel_crawl_history.json`, `all_channel_batches.json` và file Word `Danh_Sach_Kenh_Da_Cao.docx`.
+   - Kiểm thử `npm run build` đạt 0 lỗi TypeScript trước khi commit.
+   - Git push nhánh `main` để kích hoạt `scripts/vps_auto_updater.mjs` trên VPS tự động cập nhật sản phẩm lên [https://daodaoreview.com](https://daodaoreview.com).
+

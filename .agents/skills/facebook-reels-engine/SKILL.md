@@ -111,22 +111,22 @@ Trong mỗi lần kiểm tra và báo cáo định kỳ 5 phút/lần theo thờ
 
 ## 5. Quy Trình Kiểm Tra Quyền Nhúng (Embed Gatekeeper) & Poster Gốc
 
-### 1. Kiểm Tra Nhúng Tuyệt Đối (Embed Gatekeeper):
-Trước khi nạp bất kỳ video nào vào CSDL, gọi `checkEmbeddable(url)`. Nếu HTML trả về chứa các dấu hiệu lỗi cấm nhúng:
+### 1. Kiểm Tra Nhúng Chuẩn Xác Tuyệt Đối (Accurate Embed Gatekeeper):
+Trước khi nạp bất kỳ video nào vào CSDL, gọi `checkEmbeddableAccurate(url)`.
+> [!CAUTION]
+> **LỖI KINH ĐIỂN CẦN TRÁNH:** Tuyệt đối KHÔNG kiểm tra các chuỗi `_3i0p`, `_3i0o` hay từ khóa chung chung `Không khả dụng`, bởi vì chúng nằm trong từ điển i18n toàn cầu trong thẻ `<script>` của Facebook trên **MỌI video hợp lệ** (gây loại bỏ nhầm 90% video xem được bình thường).
+
+Quy tắc thẩm định chuẩn xác 100%: Gửi request đến iframe plugin với User-Agent máy tính chuẩn. Video chỉ thực sự bị Meta khóa bản quyền khi HTML chứa chuỗi:
 ```javascript
 const isBlocked =
-  html.includes('_3i0p') ||
-  html.includes('_3i0o') ||
-  html.includes('_2go0') ||
-  html.includes('không nhúng được') ||
-  html.includes('Không khả dụng') ||
-  html.includes('không thể phát') ||
-  html.includes('cannot be embedded') ||
-  html.includes('thuộc sở hữu của người khác') ||
-  html.includes('Video không hiển thị') ||
-  html.includes('Video Unavailable');
+  html.includes('Video này không nhúng được do có thể chứa') ||
+  html.includes('This video cannot be embedded because it may contain content');
+
+if (isBlocked) {
+  // BỎ QUA NGAY - Video bị khóa quyền phát ngoài trang Facebook
+}
 ```
-$\rightarrow$ **BỎ QUA NGAY LẬP TỨC**, tuyệt đối không để video lỗi lọt vào website.
+Yêu cầu độ dài mã nguồn `html.length >= 30000` (đảm bảo iframe tải đủ player và DOM controls).
 
 ### 2. Tải & Lưu Ảnh Bìa Gốc Vĩnh Viễn:
 * Dùng User-Agent `facebookexternalhit/1.1` cào thẻ meta `og:image`.
