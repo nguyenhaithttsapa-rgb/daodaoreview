@@ -1,0 +1,92 @@
+{
+  "currentChannelIndex": 7,
+  "totalChannels": 322,
+  "startedAt": "2026-10-09T03:38:14.730Z",
+  "lastUpdated": "2026-10-09T05:03:27.574Z",
+  "channelsProcessed": [
+    {
+      "index": 0,
+      "name": "Hoạt Hình 3D Trung Quốc",
+      "url": "https://www.facebook.com/hh3dtq/videos",
+      "startTime": "2026-10-09T03:38:18.221Z",
+      "videosFound": 28,
+      "moviesAdded": 1,
+      "shortRejected": 16,
+      "embedRejected": 2,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T03:48:37.627Z"
+    },
+    {
+      "index": 1,
+      "name": "Hoạt Hình 3D Review",
+      "url": "https://www.facebook.com/hoathinh3dreview/videos",
+      "startTime": "2026-10-09T03:50:37.636Z",
+      "videosFound": 29,
+      "moviesAdded": 1,
+      "shortRejected": 15,
+      "embedRejected": 3,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T04:00:59.573Z"
+    },
+    {
+      "index": 2,
+      "name": "Review 3D Hay (Hoạt Hình Tu Tiên)",
+      "url": "https://www.facebook.com/review3dhay/videos",
+      "startTime": "2026-10-09T04:02:59.616Z",
+      "videosFound": 48,
+      "moviesAdded": 1,
+      "shortRejected": 43,
+      "embedRejected": 4,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T04:13:29.749Z"
+    },
+    {
+      "index": 3,
+      "name": "HH3D Vietsub (Donghua Tu Chân)",
+      "url": "https://www.facebook.com/hh3d.vietsub/videos",
+      "startTime": "2026-10-09T04:15:29.756Z",
+      "videosFound": 29,
+      "moviesAdded": 0,
+      "shortRejected": 18,
+      "embedRejected": 11,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T04:25:44.951Z"
+    },
+    {
+      "index": 4,
+      "name": "Hoạt Hình 3D VN",
+      "url": "https://www.facebook.com/hoathinh3d.vn/videos",
+      "startTime": "2026-10-09T04:27:44.967Z",
+      "videosFound": 34,
+      "moviesAdded": 4,
+      "shortRejected": 29,
+      "embedRejected": 1,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T04:38:16.431Z"
+    },
+    {
+      "index": 5,
+      "name": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+      "url": "https://www.facebook.com/profile.php?id=61566431730101&sk=videos",
+      "startTime": "2026-10-09T04:40:17.124Z",
+      "videosFound": 49,
+      "moviesAdded": 14,
+      "shortRejected": 24,
+      "embedRejected": 2,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T04:50:57.943Z"
+    },
+    {
+      "index": 6,
+      "name": "Phim Ngắn Tổng Tài Hay",
+      "url": "https://www.facebook.com/phimngan.tongtai/videos",
+      "startTime": "2026-10-09T04:52:57.960Z",
+      "videosFound": 31,
+      "moviesAdded": 7,
+      "shortRejected": 21,
+      "embedRejected": 3,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T05:03:27.573Z"
+    }
+  ]
+}
