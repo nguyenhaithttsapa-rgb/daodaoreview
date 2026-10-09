@@ -2123,5 +2123,18 @@
         "category": "Donghua 3D & Phim Dài"
       }
     ]
+  },
+  {
+    "batchNumber": 66,
+    "batchTitle": "LÔ 66 (n+1 MỚI): Review Phim Ai",
+    "category": "Phim Dài & Review Trọn Bộ",
+    "status": "ĐÃ CÀO CẠN KIỆT (Đã nạp 4 phim dài chuẩn, loại bỏ 4 clip ngắn)",
+    "channels": [
+      {
+        "name": "Review Phim Ai",
+        "url": "https://www.facebook.com/61593592016480",
+        "category": "Phim Dài Full & Review"
+      }
+    ]
   }
 ]
