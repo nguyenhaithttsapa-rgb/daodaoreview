@@ -1,5 +1,434 @@
 [
   {
+    "id": "series-long-1319885013343447",
+    "slug": "mua-4-cao-vu-toi-tro-thanh-vo-gia-toan-he-cre-me-lac-review-full-tron-3447",
+    "title": "Mùa 4 | Cao Vũ: Tôi Trở Thành Võ Giả Toàn Hệ (Full Trọn Bộ 3 Giờ 53 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 4 | Cao Vũ: Tôi Trở Thành Võ Giả Toàn Hệ Cre: Mễ Lạc Review (Full Trọn Bộ). Thời lượng: 3:53:17.",
+    "thumbnail": "/thumbnails/1319885013343447.jpg",
+    "coverImage": "/thumbnails/1319885013343447.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1319885013343447",
+        "seriesId": "series-long-1319885013343447",
+        "partNumber": 1,
+        "title": "Mùa 4 | Cao Vũ: Tôi Trở Thành Võ Giả Toàn Hệ (Full Trọn Bộ 3 Giờ 53 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1319885013343447",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1319885013343447&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:53:17",
+        "thumbnail": "/thumbnails/1319885013343447.jpg",
+        "viewsCount": 36973,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-38979435888308289",
+    "slug": "mua-32-vo-linh-chung-dao-ai-bao-khong-co-linh-can-khong-the-tu-tien-fu-8289",
+    "title": "Mùa 32 | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 17 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 32 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên? (Full Trọn Bộ). Thời lượng: 2:17:32.",
+    "thumbnail": "/thumbnails/38979435888308289.jpg",
+    "coverImage": "/thumbnails/38979435888308289.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-38979435888308289",
+        "seriesId": "series-long-38979435888308289",
+        "partNumber": 1,
+        "title": "Mùa 32 | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 17 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=38979435888308289",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D38979435888308289&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:17:32",
+        "thumbnail": "/thumbnails/38979435888308289.jpg",
+        "viewsCount": 51743,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1609135590663121",
+    "slug": "mua-27-vo-linh-chung-dao-ai-bao-khong-co-linh-can-khong-the-tu-tien-fu-3121",
+    "title": "Mùa 27 | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 26 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 27 | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên? (Full Trọn Bộ). Thời lượng: 2:26:14.",
+    "thumbnail": "/thumbnails/1609135590663121.jpg",
+    "coverImage": "/thumbnails/1609135590663121.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1609135590663121",
+        "seriesId": "series-long-1609135590663121",
+        "partNumber": 1,
+        "title": "Mùa 27 | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 26 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1609135590663121",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1609135590663121&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:26:14",
+        "thumbnail": "/thumbnails/1609135590663121.jpg",
+        "viewsCount": 70237,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-997146119876168",
+    "slug": "mua-3-99-tap-vo-linh-chung-dao-ai-bao-khong-co-linh-can-khong-the-tu-t-6168",
+    "title": "Mùa 3 (99 Tập) | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 31 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 3 (99 Tập) | Vô Linh Chứng Đạo - Ai bảo không có linh căn không thể tu tiên? Tóm tắt: (Full Trọn Bộ). Thời lượng: 2:31:29.",
+    "thumbnail": "/thumbnails/997146119876168.jpg",
+    "coverImage": "/thumbnails/997146119876168.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-997146119876168",
+        "seriesId": "series-long-997146119876168",
+        "partNumber": 1,
+        "title": "Mùa 3 (99 Tập) | Vô Linh Chứng Đạo: Không Có Linh Căn Vẫn Tu Tiên (Full Trọn Bộ 2 Giờ 31 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=997146119876168",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D997146119876168&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:31:29",
+        "thumbnail": "/thumbnails/997146119876168.jpg",
+        "viewsCount": 57906,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-2985720525111459",
+    "slug": "mua-4-bao-tieu-tu-tien-phap-bao-cua-su-thuc-co-chut-ky-quai-tom-tat-no-1459",
+    "title": "Mùa 4 | Bạo Tiếu Tu Tiên: Pháp Bảo Của Sư Thúc Có Chút Kỳ Quái (Full Trọn Bộ 1 Giờ 58 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 4 | Bạo Tiếu Tu Tiên: Pháp Bảo Của Sư Thúc Có Chút Kỳ Quái tóm tắt nội dung phim: Liêu (Full Trọn Bộ). Thời lượng: 1:58:27.",
+    "thumbnail": "/thumbnails/2985720525111459.jpg",
+    "coverImage": "/thumbnails/2985720525111459.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-2985720525111459",
+        "seriesId": "series-long-2985720525111459",
+        "partNumber": 1,
+        "title": "Mùa 4 | Bạo Tiếu Tu Tiên: Pháp Bảo Của Sư Thúc Có Chút Kỳ Quái (Full Trọn Bộ 1 Giờ 58 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2985720525111459",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2985720525111459&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:58:27",
+        "thumbnail": "/thumbnails/2985720525111459.jpg",
+        "viewsCount": 40201,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1718858352743463",
+    "slug": "mua-1-mua-2-xin-hay-goi-toi-la-cung-thu-roguelike-bo-phim-xoay-quanh-h-3463",
+    "title": "Mùa 1 + Mùa 2 | Xin Hãy Gọi Tôi Là Cung Thủ Roguelike (Full Trọn Bộ 4 Giờ 34 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 1 + Mùa 2 | Xin Hãy Gọi Tôi Là Cung Thủ Roguelike Bộ phim xoay quanh hành trình vươn l (Full Trọn Bộ). Thời lượng: 4:34:29.",
+    "thumbnail": "/thumbnails/1718858352743463.jpg",
+    "coverImage": "/thumbnails/1718858352743463.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1718858352743463",
+        "seriesId": "series-long-1718858352743463",
+        "partNumber": 1,
+        "title": "Mùa 1 + Mùa 2 | Xin Hãy Gọi Tôi Là Cung Thủ Roguelike (Full Trọn Bộ 4 Giờ 34 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1718858352743463",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1718858352743463&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:34:29",
+        "thumbnail": "/thumbnails/1718858352743463.jpg",
+        "viewsCount": 25040,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1806711723694430",
+    "slug": "dai-12-tieng-mua-8-mua-13-thai-huyen-thai-chau-truyen-tran-truong-an-n-4430",
+    "title": "Mùa 8 Đến Mùa 13 | Thái Huyền Thai Châu Truyện: Vạn Năm Tu Tiên (Full Trọn Bộ 11 Giờ 50 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: [Dài 12 tiếng] Mùa 8- mùa 13 | Thái Huyền Thai Châu Truyện  Trần Trường An, người đã vạn n (Full Trọn Bộ). Thời lượng: 11:50:13.",
+    "thumbnail": "/thumbnails/1806711723694430.jpg",
+    "coverImage": "/thumbnails/1806711723694430.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1806711723694430",
+        "seriesId": "series-long-1806711723694430",
+        "partNumber": 1,
+        "title": "Mùa 8 Đến Mùa 13 | Thái Huyền Thai Châu Truyện: Vạn Năm Tu Tiên (Full Trọn Bộ 11 Giờ 50 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1806711723694430",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1806711723694430&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "11:50:13",
+        "thumbnail": "/thumbnails/1806711723694430.jpg",
+        "viewsCount": 36409,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1332529178779787",
+    "slug": "mua-8-kiem-tien-tro-ve-xuyen-khong-thanh-trieu-phi-phe-tai-mat-ro-so-m-9787",
+    "title": "Mùa 8 | Kiếm Tiên Trở Về: Triệu Phi Phế Tài Nghịch Tập (Full Trọn Bộ 5 Giờ 12 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 8 | Kiếm Tiên Trở Về Xuyên không thành Triệu Phi – phế tài mặt rỗ số một thành Tinh Vẫ (Full Trọn Bộ). Thời lượng: 5:12:24.",
+    "thumbnail": "/thumbnails/1332529178779787.jpg",
+    "coverImage": "/thumbnails/1332529178779787.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1332529178779787",
+        "seriesId": "series-long-1332529178779787",
+        "partNumber": 1,
+        "title": "Mùa 8 | Kiếm Tiên Trở Về: Triệu Phi Phế Tài Nghịch Tập (Full Trọn Bộ 5 Giờ 12 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1332529178779787",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1332529178779787&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:12:24",
+        "thumbnail": "/thumbnails/1332529178779787.jpg",
+        "viewsCount": 64009,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1102766905732088",
+    "slug": "mua-5-khoi-dau-bang-mot-sieu-thi-ta-song-cuc-suong-o-co-dai-tom-tat-no-2088",
+    "title": "Mùa 5 | Khởi Đầu Bằng Một Siêu Thị, Ta Sống Cực Sướng Ở Cổ Đại (Full Trọn Bộ 9 Giờ 14 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 5 | Khởi Đầu Bằng Một Siêu Thị, Ta Sống Cực Sướng Ở Cổ Đại  Tóm tắt nội dung: Sở Vân T (Full Trọn Bộ). Thời lượng: 9:14:45.",
+    "thumbnail": "/thumbnails/1102766905732088.jpg",
+    "coverImage": "/thumbnails/1102766905732088.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1102766905732088",
+        "seriesId": "series-long-1102766905732088",
+        "partNumber": 1,
+        "title": "Mùa 5 | Khởi Đầu Bằng Một Siêu Thị, Ta Sống Cực Sướng Ở Cổ Đại (Full Trọn Bộ 9 Giờ 14 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1102766905732088",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1102766905732088&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "9:14:45",
+        "thumbnail": "/thumbnails/1102766905732088.jpg",
+        "viewsCount": 73203,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-4366911826972668",
+    "slug": "mua-1-mua-3-tien-tan-bat-hu-tan-thien-la-mot-sinh-vien-dai-hoc-binh-th-2668",
+    "title": "Mùa 1 - Mùa 3 | Tiên Tần Bất Hủ: Xuyên Không Đến Cổ Đại (Full Trọn Bộ 7 Giờ 50 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 1 - Mùa 3 | Tiên Tần Bất Hủ! Tần Thiên là một sinh viên đại học bình thường của thế kỷ (Full Trọn Bộ). Thời lượng: 7:50:42.",
+    "thumbnail": "/thumbnails/4366911826972668.jpg",
+    "coverImage": "/thumbnails/4366911826972668.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-4366911826972668",
+        "seriesId": "series-long-4366911826972668",
+        "partNumber": 1,
+        "title": "Mùa 1 - Mùa 3 | Tiên Tần Bất Hủ: Xuyên Không Đến Cổ Đại (Full Trọn Bộ 7 Giờ 50 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4366911826972668",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4366911826972668&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "7:50:42",
+        "thumbnail": "/thumbnails/4366911826972668.jpg",
+        "viewsCount": 59561,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1370749431630977",
+    "slug": "mua-4-thu-tiet-ba-nam-phu-quan-nguyen-anh-da-tro-ve-tu-si-nguyen-anh-n-0977",
+    "title": "Mùa 4 | Thủ Tiết Ba Năm, Phu Quân Nguyên Anh Đã Trở Về (Full Trọn Bộ 2 Giờ 05 Phút)",
+    "description": "Trọn bộ phim hoạt hình 3D tu tiên, huyền huyễn review tóm tắt đặc sắc: Mùa 4 | Thủ tiết ba năm, phu quân Nguyên Anh đã trở về Tu sĩ Nguyên Anh Ninh Bạch Độ bị sư (Full Trọn Bộ). Thời lượng: 2:05:19.",
+    "thumbnail": "/thumbnails/1370749431630977.jpg",
+    "coverImage": "/thumbnails/1370749431630977.jpg",
+    "channelName": "Mễ Lạc Review",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "categories": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Tu Tiên - Huyền Huyễn"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1370749431630977",
+        "seriesId": "series-long-1370749431630977",
+        "partNumber": 1,
+        "title": "Mùa 4 | Thủ Tiết Ba Năm, Phu Quân Nguyên Anh Đã Trở Về (Full Trọn Bộ 2 Giờ 05 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1370749431630977",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1370749431630977&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:05:19",
+        "thumbnail": "/thumbnails/1370749431630977.jpg",
+        "viewsCount": 25032,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-1860278648292800",
     "slug": "mua-13-cua-bo-phim-thai-huyen-thai-chau-truyen-chinh-thuc-len-song-dun-2800",
     "title": "Mùa 13 | Thái Huyền Thai Châu Truyện: Vạn Năm Tu Tiên (Full Trọn Bộ 2 Giờ 08 Phút)",
