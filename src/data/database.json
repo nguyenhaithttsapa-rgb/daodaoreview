@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-574981697081613",
+    "slug": "phim-ngan-0-do-c-tap-3-theo-doi-fanpage-de-xem-them-nhieu-phim-hay-mm--1613",
+    "title": "Phim ngắn - 0 độ C tập 3 Theo dõi fanpage để xem thêm nhiều phim hay | MM Production. (Full Trọn Bộ 31:38)",
+    "description": "Phim ngắn - 0 độ C tập 3 Theo dõi fanpage để xem thêm nhiều phim hay",
+    "thumbnail": "/thumbnails/574981697081613.jpg",
+    "coverImage": "/thumbnails/574981697081613.jpg",
+    "channelName": "Tuyển Tập Phim Ngắn Hay",
+    "genres": [
+      "Phim Ngắn Đô Thị Kịch Tính",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-574981697081613",
+        "seriesId": "series-long-574981697081613",
+        "partNumber": 1,
+        "title": "Phim ngắn - 0 độ C tập 3 Theo dõi fanpage để xem thêm nhiều phim hay | MM Production. (Full Trọn Bộ 31:38)",
+        "originalUrl": "https://www.facebook.com/watch/?v=574981697081613",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D574981697081613&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:38",
+        "thumbnail": "/thumbnails/574981697081613.jpg",
+        "viewsCount": 50283,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-1774690573248870",
     "slug": "full-tap-01-08-xuyen-khong-ta-pha-dao-the-gioi-tu-tien-mymy-vietsub-nu-8870",
     "title": "FULL ( TẬP 01-08 ) | XUYÊN KHÔNG - TA PHÁ ĐẢO THẾ GIỚI TU TIÊN | MYMY VIETSUB null | Manhwa247 (Full Trọn Bộ 37:14)",
