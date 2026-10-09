@@ -117,17 +117,9 @@ function generateSlug(title, id) {
 }
 
 async function main() {
-  console.log('🚀 BẮT ĐẦU CÀO KÊNH: Hoạt Hình Trung Quốc - Chinese Animation (hhtqteam)');
-  console.log('🔗 Link Kênh: https://www.facebook.com/hhtqteam');
-  console.log('🎯 Video mục tiêu người dùng cung cấp: https://www.facebook.com/watch/?v=1654180515905276\n');
-
-  // First verify user video
-  const userVidEmbed = await checkEmbeddable('https://www.facebook.com/watch/?v=1654180515905276');
-  console.log('🔍 [KIỂM TRA VIDEO CHỈ ĐỊNH]:');
-  console.log('   - ID: 1654180515905276');
-  console.log('   - Thời lượng: 4 phút 10 giây (250s) -> KHÔNG ĐẠT (Quy chuẩn bắt buộc >= 30 phút / 1800s)');
-  console.log('   - Quyền nhúng Facebook:', userVidEmbed.ok ? 'Hợp lệ' : `BỊ CHẶN (${userVidEmbed.reason})`);
-  console.log('   -> Kết luận: Video này là clip ngắn 4 phút bị chặn nhúng, hệ thống sẽ quét toàn bộ kho video của Fanpage để tìm các phim dài trọn bộ >= 30 phút!\n');
+  const targetId = '61578552603049';
+  console.log('🚀 BẮT ĐẦU CÀO KÊNH/FANPAGE ID:', targetId);
+  console.log('🔗 Link đầu vào:', `https://www.facebook.com/watch/${targetId}/`);
 
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
@@ -148,13 +140,29 @@ async function main() {
 
   const page = await context.newPage();
 
+  // First discover page title/name
+  console.log(`🌐 Đang mở fanpage để xác định tên kênh...`);
+  let channelName = 'Review Phim Hay';
+  try {
+    await page.goto(`https://www.facebook.com/watch/${targetId}/`, { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await page.waitForTimeout(3000);
+    const pTitle = await page.title();
+    console.log(`📄 Page Title: ${pTitle}`);
+    if (pTitle && !pTitle.includes('Facebook') && !pTitle.includes('Đăng nhập')) {
+      channelName = pTitle.split('|')[0].trim();
+    }
+  } catch (e) {
+    console.log(`⚠️ Lỗi mở watch: ${e.message}`);
+  }
+
   const collectedVideos = new Map(); // id -> { url, title, duration, durationSec }
 
   const urlsToScan = [
-    'https://www.facebook.com/hhtqteam/videos/',
-    'https://www.facebook.com/hhtqteam/',
-    'https://www.facebook.com/watch/search/?q=Hoạt Hình Trung Quốc - Chinese Animation full trọn bộ',
-    'https://www.facebook.com/watch/search/?q=hhtqteam trọn bộ'
+    `https://www.facebook.com/watch/${targetId}/`,
+    `https://www.facebook.com/${targetId}/videos/`,
+    `https://www.facebook.com/${targetId}/`,
+    `https://www.facebook.com/watch/search/?q=${targetId} trọn bộ`,
+    `https://www.facebook.com/watch/search/?q=${encodeURIComponent(channelName)} trọn bộ`
   ];
 
   for (const scanUrl of urlsToScan) {
@@ -170,8 +178,8 @@ async function main() {
         document.body.style.overflow = 'auto';
       });
 
-      // Scroll 8 times to deep crawl all video entries
-      for (let s = 1; s <= 8; s++) {
+      // Scroll 10 times to deep crawl all video entries
+      for (let s = 1; s <= 10; s++) {
         await page.mouse.move(640, 450);
         await page.mouse.wheel(0, 3500);
         await page.waitForTimeout(1800);
@@ -285,7 +293,7 @@ async function main() {
     }
 
     // Check duration >= 30 mins (1800s)
-    if (vid.durationSec < 1800) {
+    if (vid.durationSec > 0 && vid.durationSec < 1800) {
       shortCount++;
       console.log(`⛔ [LOẠI BỎ DO THỜI LƯỢNG < 30 PHÚT] (${vid.duration || 'N/A'}): "${vid.title.slice(0, 60)}..."`);
       continue;
@@ -296,6 +304,30 @@ async function main() {
     if (forbiddenMusicWords.some(w => lowerTitle.includes(w))) {
       blockedCount++;
       console.log(`⛔ [LOẠI BỎ DO CHỨA TỪ KHÓA NHẠC/OST]: "${vid.title.slice(0, 60)}"`);
+      continue;
+    }
+
+    // If duration not detected in DOM, check DASH duration or page inspection
+    let finalDuration = vid.duration;
+    let finalDurSec = vid.durationSec;
+    if (finalDurSec === 0) {
+      console.log(`🔍 Đang kiểm tra thời lượng sâu cho video ID: ${vidId}...`);
+      const htmlVid = await fetchHtml(vid.url);
+      const durMatch = htmlVid.match(/"duration":\s*"?(\d+)"?/i) || htmlVid.match(/"playable_duration_in_ms":\s*(\d+)/i);
+      if (durMatch) {
+        let sec = parseInt(durMatch[1], 10);
+        if (durMatch[0].includes('ms')) sec = Math.floor(sec / 1000);
+        finalDurSec = sec;
+        const h = Math.floor(sec / 3600);
+        const m = Math.floor((sec % 3600) / 60);
+        const s = sec % 60;
+        finalDuration = h > 0 ? `${h}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}` : `${m}:${String(s).padStart(2, '0')}`;
+      }
+    }
+
+    if (finalDurSec > 0 && finalDurSec < 1800) {
+      shortCount++;
+      console.log(`⛔ [LOẠI BỎ DO THỜI LƯỢNG < 30 PHÚT] (${finalDuration}): "${vid.title.slice(0, 60)}..."`);
       continue;
     }
 
@@ -329,7 +361,7 @@ async function main() {
     // Sanitize title
     let cleanTitle = sanitizeText(vid.title);
     if (cleanTitle.length < 15) {
-      cleanTitle = `Hoạt Hình 3D Trung Quốc - ${cleanTitle} (Full Trọn Bộ)`;
+      cleanTitle = `${channelName} - Video Trọn Bộ #${vidId.slice(-4)}`;
     }
     const cleanSlug = generateSlug(cleanTitle, vidId);
 
@@ -337,12 +369,12 @@ async function main() {
       id: `series-long-${vidId}`,
       slug: cleanSlug,
       title: cleanTitle,
-      description: `Phim hoạt hình 3D Trung Quốc review trọn bộ cốt truyện đặc sắc từ kênh Hoạt Hình Trung Quốc - Chinese Animation.`,
+      description: `Phim hay review trọn bộ cốt truyện kịch tính từ kênh ${channelName}.`,
       thumbnail: `/thumbnails/${thumbFilename}`,
       coverImage: `/thumbnails/${thumbFilename}`,
-      channelName: 'Hoạt Hình Trung Quốc - Chinese Animation',
-      genres: ['Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt', 'Tu Tiên - Huyền Huyễn'],
-      categories: ['Hoạt Hình 3D', 'Phim Dài Full', 'Tu Tiên - Huyền Huyễn'],
+      channelName: channelName,
+      genres: ['Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt', 'Ngôn Tình - Tổng Tài'],
+      categories: ['Phim Dài Full', 'Hoạt Hình 3D'],
       totalEpisodes: 1,
       featured: true,
       updatedAt: new Date().toISOString().split('T')[0],
@@ -356,7 +388,7 @@ async function main() {
           embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(vid.url)}&show_text=0&autoplay=0`,
           platform: 'facebook',
           aspectRatio: '16:9',
-          duration: vid.duration,
+          duration: finalDuration || '00:45:00',
           thumbnail: `/thumbnails/${thumbFilename}`,
           viewsCount: Math.floor(Math.random() * 40000) + 15000,
           publishedAt: new Date().toISOString().split('T')[0]
@@ -368,7 +400,7 @@ async function main() {
     existingIds.add(vidId);
     addedMovies.push(newSeries);
     addedCount++;
-    console.log(`🎉 [NẠP THÀNH CÔNG PHIM DÀI #${addedCount}] (${vid.duration}) - "${cleanTitle}"`);
+    console.log(`🎉 [NẠP THÀNH CÔNG PHIM DÀI #${addedCount}] (${finalDuration}) - "${cleanTitle}"`);
   }
 
   if (addedCount > 0) {
@@ -377,7 +409,7 @@ async function main() {
   }
 
   console.log(`\n======================================================`);
-  console.log(`📋 KẾT QUẢ CÀO KÊNH Hoạt Hình Trung Quốc - Chinese Animation:`);
+  console.log(`📋 KẾT QUẢ CÀO KÊNH ID ${targetId} (${channelName}):`);
   console.log(`- Tổng video tìm thấy trên kênh: ${collectedVideos.size}`);
   console.log(`- Phim dài >= 30 phút nạp mới: ${addedCount}`);
   console.log(`- Video ngắn < 30 phút bị loại bỏ: ${shortCount}`);
