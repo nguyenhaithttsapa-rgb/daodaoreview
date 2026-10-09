@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1020597683085096",
+    "slug": "1-5k-luot-xem-15-cam-xuc-luyen-khi-10-van-nam-tap-11-den20-hoat-hinh-3-5096",
+    "title": "1,5K lượt xem · 15 cảm xúc | LUYỆN KHÍ 10 VẠN NĂM TẬP 11 ĐẾN20 HOẠT HÌNH 3D | HOẠT HÌNH 3D Việtsub (Full Trọn Bộ 1:12:23)",
+    "description": "LUYỆN KHÍ 10 VẠN NĂM TẬP 11 ĐẾN20 HOẠT HÌNH 3D",
+    "thumbnail": "/thumbnails/1020597683085096.jpg",
+    "coverImage": "/thumbnails/1020597683085096.jpg",
+    "channelName": "Hoạt Hình 3D Review",
+    "genres": [
+      "Donghua 3D Tóm Tắt",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1020597683085096",
+        "seriesId": "series-long-1020597683085096",
+        "partNumber": 1,
+        "title": "1,5K lượt xem · 15 cảm xúc | LUYỆN KHÍ 10 VẠN NĂM TẬP 11 ĐẾN20 HOẠT HÌNH 3D | HOẠT HÌNH 3D Việtsub (Full Trọn Bộ 1:12:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1020597683085096",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1020597683085096&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:12:23",
+        "thumbnail": "/thumbnails/1020597683085096.jpg",
+        "viewsCount": 17701,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-1342936037810744",
     "slug": "6-7k-luot-xem-69-cam-xuc-tu-no-boc-thap-hen-han-bang-y-tri-sat-da-cua--0744",
     "title": "6,7K lượt xem · 69 cảm xúc | Từ Nô Bộc Thấp Hèn, Hắn Bằng Ý Trí Sắt Đá Của Mình Trải Qua Muôn Vàn Sinh Tử Mở Ra Con Đường Võ Đạo | HH3D TQ offcial (Full Trọn Bộ 1:49:44)",
