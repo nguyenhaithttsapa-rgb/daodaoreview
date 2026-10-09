@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-664245366048326",
+    "slug": "review-phim-van-co-than-vuong-t-tron-bo-anh-dat-gaming-full-tron-bo-55-8326",
+    "title": "REVIEW PHIM : VẠN CỔ THẦN VƯƠNG t .TRỌN BỘ | Anh Đạt Gaming (Full Trọn Bộ 55:54)",
+    "description": "REVIEW PHIM : VẠN CỔ THẦN VƯƠNG t .TRỌN BỘ",
+    "thumbnail": "/thumbnails/664245366048326.jpg",
+    "coverImage": "/thumbnails/664245366048326.jpg",
+    "channelName": "Vạn Cổ Thần Đế Review #94",
+    "genres": [
+      "Huyền Ảo",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-664245366048326",
+        "seriesId": "series-long-664245366048326",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : VẠN CỔ THẦN VƯƠNG t .TRỌN BỘ | Anh Đạt Gaming (Full Trọn Bộ 55:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=664245366048326",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D664245366048326&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "55:54",
+        "thumbnail": "/thumbnails/664245366048326.jpg",
+        "viewsCount": 30638,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-1585133516449372",
     "slug": "review-phim-ai-full-tap-dich-mang-nguy-linh-can-nhat-duoc-co-lo-nghich-9372",
     "title": " [REVIEW PHIM AI FULL] TẠP DỊCH MANG NGỤY LINH CĂN: NHẶT ĐƯỢC CỔ LÔ NGHỊCH THIÊN, BƯỚC LÊN TIÊN LỘ! | Review Video AI (Full Trọn Bộ 3:21:20)",
