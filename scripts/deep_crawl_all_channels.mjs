@@ -120,6 +120,64 @@ function fetchBuffer(url) {
   });
 }
 
+function getImageInfo(buffer) {
+  if (!buffer || buffer.length < 32) return null;
+  // PNG: 89 50 4E 47 0D 0A 1A 0A
+  if (buffer[0] === 0x89 && buffer[1] === 0x50 && buffer[2] === 0x4e && buffer[3] === 0x47) {
+    return { type: 'png', width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
+  }
+  // JPEG: FF D8 FF
+  if (buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) {
+    let offset = 2;
+    while (offset < buffer.length) {
+      if (buffer[offset] !== 0xff) { offset++; continue; }
+      const marker = buffer[offset + 1];
+      if ((marker >= 0xc0 && marker <= 0xc3) || (marker >= 0xc5 && marker <= 0xc7) || (marker >= 0xc9 && marker <= 0xcb) || (marker >= 0xcd && marker <= 0xcf)) {
+        if (offset + 8 < buffer.length) {
+          const height = buffer.readUInt16BE(offset + 5);
+          const width = buffer.readUInt16BE(offset + 7);
+          return { type: 'jpeg', width, height };
+        }
+      }
+      if (offset + 3 >= buffer.length) break;
+      const length = buffer.readUInt16BE(offset + 2);
+      offset += 2 + length;
+    }
+  }
+  return null;
+}
+
+function validateImageQuality(buffer) {
+  if (!buffer || buffer.length < 15360) {
+    const sizeKb = buffer ? (buffer.length / 1024).toFixed(1) : 0;
+    return { ok: false, reason: `Dung lượng quá nhỏ (${sizeKb} KB < 15 KB) - ảnh nén vỡ hạt / icon mờ` };
+  }
+
+  const info = getImageInfo(buffer);
+  if (!info || !info.width || !info.height) {
+    return { ok: false, reason: 'Không đọc được kích thước ảnh (buffer ảnh hỏng hoặc không đúng định dạng)' };
+  }
+
+  const { width, height } = info;
+  const isLandscapeValid = width >= 400 && height >= 250;
+  const isPortraitValid = width >= 250 && height >= 400;
+
+  if (!isLandscapeValid && !isPortraitValid) {
+    return { ok: false, reason: `Độ phân giải quá thấp (${width}x${height}px) - hình mờ, vỡ nét` };
+  }
+
+  if (width * height < 120000) {
+    return { ok: false, reason: `Tổng số điểm ảnh quá nhỏ (${width * height} px < 120.000 px) - hình mờ` };
+  }
+
+  const ratio = width / height;
+  if (ratio < 0.50 || ratio > 2.10) {
+    return { ok: false, reason: `Tỷ lệ khung hình méo mó (Ratio: ${ratio.toFixed(2)} ngoài khoảng chuẩn 0.50 - 2.10)` };
+  }
+
+  return { ok: true, width, height, ratio, sizeKb: (buffer.length / 1024).toFixed(1) };
+}
+
 function fetchHtml(url, ua = 'facebookexternalhit/1.1') {
   return new Promise((resolve) => {
     try {
@@ -457,6 +515,12 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
     if (imgMatch) ogImage = imgMatch[1].replace(/&amp;/g, '&');
 
     let cleanTitle = sanitizeText(ogTitle || videoInfo.title);
+    cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*[KkMmbB]?\s*lượt xem\s*(·\s*\d+([,.]\d+)?\s*[KkMmbB]?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
+    cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*(cảm xúc|bình luận)\s*(·\s*\d+([,.]\d+)?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
+    cleanTitle = cleanTitle.replace(/^\d+\s*bình luận\s*[|·-]\s*/i, '');
+    cleanTitle = cleanTitle.replace(/^(\(COMBO\s*\d+\s*BỘ\s*\)|COMBO\s*\d+\s*BỘ\s*)[^:]*:\s*/i, '');
+    cleanTitle = cleanTitle.replace(/^(Váy ngủ|Cốc nước|Quần áo|Áo thun)[^:]*:\s*/i, '');
+    cleanTitle = cleanTitle.replace(/.*Xem Full bản nét căng:\s*/i, '');
     cleanTitle = cleanTitle.replace(/^Full phim:?\s*\(trọn bộ\)\s*<<?\"?/i, '')
                            .replace(/\"?>>?$/i, '')
                            .replace(/\(Full Trọn Bộ\)/gi, '')
@@ -465,21 +529,25 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
     if (!cleanTitle || cleanTitle.length < 5) cleanTitle = `Phim Review Trọn Bộ ${vid}`;
     cleanTitle = `${cleanTitle} (Full Trọn Bộ ${formatDuration(finalSec)})`;
 
+    // 5. Thẩm định chất lượng ảnh bìa (Image Quality Gatekeeper)
+    if (!ogImage) {
+      log(`🚫 [LOẠI - KHÔNG TÌM THẤY ẢNH GỐC]: ${vid} - "${videoInfo.title}"`);
+      channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
+      continue;
+    }
+
+    const imgBuf = await fetchBuffer(ogImage);
+    const qualityCheck = validateImageQuality(imgBuf);
+
+    if (!qualityCheck.ok) {
+      log(`🚫 [LOẠI - ẢNH BÌA MÉO MÓ / MỜ / VỠ NÉT]: ${vid} - ${qualityCheck.reason} - "${videoInfo.title}"`);
+      channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
+      continue;
+    }
+
     const localThumbPath = path.join(THUMBNAILS_DIR, `${vid}.jpg`);
-    let thumbOk = false;
-
-    if (ogImage) {
-      const imgBuf = await fetchBuffer(ogImage);
-      if (imgBuf && imgBuf.length > 5000) {
-        fs.writeFileSync(localThumbPath, imgBuf);
-        thumbOk = true;
-      }
-    }
-
-    if (!thumbOk) {
-      const avatarBuf = fs.readFileSync(path.resolve('public/avatar.jpg'));
-      fs.writeFileSync(localThumbPath, avatarBuf);
-    }
+    fs.writeFileSync(localThumbPath, imgBuf);
+    log(`🖼️ [POSTER ĐẠT CHUẨN]: ${vid}.jpg (${qualityCheck.width}x${qualityCheck.height}, ${qualityCheck.sizeKb} KB, tỷ lệ: ${qualityCheck.ratio.toFixed(2)})`);
 
     const seriesId = `series-long-${vid}`;
     const slug = `${slugify(cleanTitle).slice(0, 70)}-${vid.slice(-4)}`;
@@ -545,7 +613,7 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
   fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2), 'utf8');
 
   channelStats.endTime = new Date().toISOString();
-  log(`🏁 Hoàn tất phiên cào 10 phút kênh: "${channel.name}". Thống kê: [Tìm thấy: ${channelStats.videosFound}, Nạp mới: ${channelStats.moviesAdded}, Lọc clip ngắn: ${channelStats.shortRejected}, Cấm nhúng: ${channelStats.embedRejected}, Ca nhạc: ${channelStats.musicRejected}]`);
+  log(`🏁 Hoàn tất phiên cào 10 phút kênh: "${channel.name}". Thống kê: [Tìm thấy: ${channelStats.videosFound}, Nạp mới: ${channelStats.moviesAdded}, Lọc clip ngắn: ${channelStats.shortRejected}, Cấm nhúng: ${channelStats.embedRejected}, Ca nhạc: ${channelStats.musicRejected}, Ảnh lỗi/mờ/vỡ: ${channelStats.imageRejected || 0}]`);
 
   return channelStats;
 }

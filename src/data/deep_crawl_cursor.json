@@ -1,8 +1,8 @@
 {
-  "currentChannelIndex": 26,
+  "currentChannelIndex": 30,
   "totalChannels": 322,
   "startedAt": "2026-10-09T03:38:14.730Z",
-  "lastUpdated": "2026-10-09T08:58:48.172Z",
+  "lastUpdated": "2026-10-09T09:48:39.497Z",
   "channelsProcessed": [
     {
       "index": 0,
@@ -315,6 +315,54 @@
       "embedRejected": 1,
       "musicRejected": 0,
       "endTime": "2026-10-09T08:58:48.171Z"
+    },
+    {
+      "index": 26,
+      "name": "Thế Giới Hoàn Mỹ 3D",
+      "url": "https://www.facebook.com/thegioihoanmy3d/videos",
+      "startTime": "2026-10-09T09:00:48.178Z",
+      "videosFound": 20,
+      "moviesAdded": 0,
+      "shortRejected": 16,
+      "embedRejected": 4,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T09:10:59.409Z"
+    },
+    {
+      "index": 27,
+      "name": "Tiên Nghịch 3D Thuyết Minh",
+      "url": "https://www.facebook.com/tiennghich3d/videos",
+      "startTime": "2026-10-09T09:12:59.414Z",
+      "videosFound": 17,
+      "moviesAdded": 7,
+      "shortRejected": 7,
+      "embedRejected": 3,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T09:23:22.911Z"
+    },
+    {
+      "index": 28,
+      "name": "Phim Ngắn Đô Thị Hay",
+      "url": "https://www.facebook.com/phimngandothihay/videos",
+      "startTime": "2026-10-09T09:25:22.924Z",
+      "videosFound": 24,
+      "moviesAdded": 2,
+      "shortRejected": 15,
+      "embedRejected": 6,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T09:35:45.701Z"
+    },
+    {
+      "index": 29,
+      "name": "Tổng Tài Bá Đạo Review",
+      "url": "https://www.facebook.com/tongtaibadaoreview/videos",
+      "startTime": "2026-10-09T09:37:45.714Z",
+      "videosFound": 30,
+      "moviesAdded": 1,
+      "shortRejected": 26,
+      "embedRejected": 3,
+      "musicRejected": 0,
+      "endTime": "2026-10-09T09:48:39.495Z"
     }
   ]
 }

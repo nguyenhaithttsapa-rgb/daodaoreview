@@ -108,10 +108,13 @@ Mọi bot, crawler và agent khi thực hiện cào video từ Facebook BẮT BU
    - Nếu một mùa được đăng tải dưới nhiều ID video khác nhau, bot chỉ giữ 1 bản có thời lượng và chất lượng tốt nhất.
    - **Ưu tiên hàng đầu các bản trọn bộ nhiều mùa liền mạch:** Ví dụ bản *Phần 1 Đến Phần 5 (15h48m)*, *Mùa 8 Đến Mùa 13 (11h50m)*, *Mùa 3+4 (11h11m)*, *Mùa 1-3 (8h08m)*... Những bản này tạo trải nghiệm xem phim liên tục tốt nhất cho người dùng.
 
-4. **Lưu Trữ Bền Vững Ảnh Bìa Gốc (Thumbnails):**
+4. **Lưu Trữ Bền Vững & Thẩm Định Chất Lượng Ảnh Bìa (Image Quality Gatekeeper):**
    - Cấm dùng trực tiếp link `fbcdn.net` trên web vì dính chữ ký hết hạn `oe=...` và bị chặn ngoại trang.
-   - Lấy `og:image` bằng User-Agent `facebookexternalhit/1.1`, tải buffer và lưu vĩnh viễn vào `public/thumbnails/{cleanId}.jpg`.
-   - Kích thước file hợp lệ phải từ 50KB trở lên.
+   - Lấy `og:image` bằng User-Agent `facebookexternalhit/1.1`, tải buffer và kiểm duyệt kỹ thuật nghiêm ngặt trước khi lưu vào `public/thumbnails/{cleanId}.jpg`:
+     * **Loại bỏ hình ảnh méo mó (Distortion Check):** Tỷ lệ khung hình $R = \text{width} / \text{height}$ bắt buộc phải nằm trong giới hạn chuẩn $0.50 \le R \le 2.10$ (tương thích $16:9$, $9:16$, $4:3$, $1:1$). Tuyệt đối loại bỏ các video có ảnh bìa bị bóp méo, co dãn dị dạng ($R < 0.50$ hoặc $R > 2.10$).
+     * **Loại bỏ hình ảnh mờ, vỡ nét (Resolution & File Size Check):** Chiều rộng $\ge 400$px và chiều cao $\ge 250$px (hoặc $\ge 250 \times 400$px với ảnh dọc), tổng diện tích $\ge 120.000$ pixel, dung lượng file bắt buộc $\ge 15$ KB. Loại bỏ thẳng tay các ảnh mờ nhạt, vỡ hạt pixel, icon nhỏ hoặc placeholder rác.
+     * **Xử lý nghiêm ngặt:** Nếu ảnh bìa gốc không đạt đủ 3 tiêu chuẩn trên $\rightarrow$ **LOẠI BỎ VIDEO ĐÓ NGAY LẬP TỨC**, tuyệt đối không nạp vào CSDL.
+     * **Quy tắc bảo tồn:** Áp dụng cho toàn bộ các lượt cào video mới; các video đã cào trước đây được giữ nguyên vẹn trong CSDL.
 
 5. **Chuẩn Hóa Tiêu Đề Phim (Title Sanitization):**
    - Bỏ toàn bộ hashtag `#...`, link Shopee/Lazada, số điện thoại, icon emoji.

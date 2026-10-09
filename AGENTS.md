@@ -23,6 +23,12 @@ Tất cả các agent khi thao tác trên codebase này BẮT BUỘC tuân thủ
 - **CẤM DÙNG ẢNH NGOẠI LUỒNG / UNSPLASH LUNG TUNG:** Tuyệt đối không được gán ảnh stock Unsplash hay ảnh ngẫu nhiên không liên quan vào phim. Nếu không tải được ảnh gốc từ video, tuyệt đối KHÔNG ĐƯỢC nạp video đó vào CSDL.
 - **CẤM DÙNG TRỰC TIẾP LINK `fbcdn.net`:** Link CDN Facebook luôn có chữ ký hết hạn `oe=...` (chết sau 24-48 giờ) và bị chặn ngoại trang (403 Forbidden).
 - **Cơ Chế Phục Hồi Ảnh Nội Bộ:** Mọi thẻ `<img>` hiển thị poster/thumbnail trên web phải bọc bằng `getSafeThumbnail()`. Nếu ảnh gốc gặp sự cố, ảnh dự phòng duy nhất được phép dùng là avatar thương hiệu chính thức `/avatar.jpg`. Tuyệt đối không để lộ biểu tượng ảnh vỡ (broken image icon) trên giao diện.
+- **TIÊU CHUẨN THẨM ĐỊNH ẢNH BÌA: LOẠI BỎ HÌNH MÉO MÓ, MỜ, VỠ NÉT (IMAGE QUALITY GATEKEEPER):**
+  - Mọi video nạp mới bắt buộc phải trải qua khâu kiểm duyệt kỹ thuật đối với ảnh bìa gốc (Thumbnail Quality Gatekeeper) trước khi đưa vào CSDL:
+    * **Dung lượng tối thiểu:** File ảnh tải về bắt buộc $\ge 15$ KB (15.360 bytes). Loại bỏ thẳng tay các ảnh $< 15$ KB (ảnh bị nén quá mức, vỡ hạt pixel, thumbnail mờ nhạt hoặc placeholder rác).
+    * **Độ phân giải tối thiểu:** Chiều rộng $\ge 400$px và chiều cao $\ge 250$px (hoặc $\ge 250 \times 400$px đối với ảnh dọc), tổng diện tích pixel $\ge 120.000$px. Tuyệt đối loại bỏ các video có ảnh mờ, độ phân giải thấp, không rõ chi tiết nhân vật.
+    * **Khóa tỷ lệ chuẩn - Triệt tiêu hình méo mó:** Tỷ lệ khung hình $R = \text{width} / \text{height}$ bắt buộc phải nằm trong giới hạn chuẩn $0.50 \le R \le 2.10$ (tương thích $16:9 \approx 1.78$, $9:16 \approx 0.56$, $4:3 \approx 1.33$, $1:1 = 1.0$). Nếu $R < 0.50$ hoặc $R > 2.10$ (hình ảnh bị bóp méo, co giãn dị dạng) $\rightarrow$ LOẠI BỎ VIDEO NGAY LẬP TỨC.
+    * **Quy tắc bảo tồn:** Quy chuẩn này áp dụng cho toàn bộ các lượt cào video mới kể từ thời điểm ban hành; toàn bộ các video đã cào trước đó được bảo lưu giữ nguyên trạng trong CSDL.
 
 ## 3. Quy Tắc Cơ Sở Dữ Liệu & Bộ Cào Dữ Liệu (Crawler)
 - **Kiểm Tra Bản Quyền Nhúng Nghiêm Ngặt (Embed Gatekeeper):** Trước khi nạp bất kỳ video nào, bắt buộc gọi `checkEmbeddable(url)`. Nếu HTML trả về chứa bất kỳ dấu hiệu cấm nhúng: `_3i0p`, `_3i0o`, `_2go0`, `không nhúng được`, `Không khả dụng`, `thuộc sở hữu của người khác`, `cannot be embedded`, `không thể phát`, `Video không hiển thị`, `Video Unavailable` -> Lập tức BỎ QUA video đó. Tuyệt đối không để video lỗi lọt vào website.

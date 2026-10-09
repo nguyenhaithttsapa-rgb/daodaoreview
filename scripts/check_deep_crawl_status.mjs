@@ -38,6 +38,7 @@ function checkStatus() {
   let totalShort = 0;
   let totalEmbed = 0;
   let totalMusic = 0;
+  let totalImage = 0;
 
   if (cursor.channelsProcessed && cursor.channelsProcessed.length > 0) {
     cursor.channelsProcessed.forEach(s => {
@@ -46,6 +47,7 @@ function checkStatus() {
       totalShort += s.shortRejected || 0;
       totalEmbed += s.embedRejected || 0;
       totalMusic += s.musicRejected || 0;
+      totalImage += s.imageRejected || 0;
     });
 
     console.log(`\n📊 TỔNG KẾT CÁC KÊNH ĐÃ CÀO XONG (${cursor.channelsProcessed.length} kênh):`);
@@ -54,6 +56,7 @@ function checkStatus() {
     console.log(`- Clip ngắn đã lọc bỏ (< 30m): ${totalShort}`);
     console.log(`- Video cấm nhúng: ${totalEmbed}`);
     console.log(`- Video ca nhạc/rác: ${totalMusic}`);
+    console.log(`- Ảnh lỗi/méo mó/mờ/vỡ nét đã loại: ${totalImage}`);
   }
 
   if (fs.existsSync(LOG_PATH)) {

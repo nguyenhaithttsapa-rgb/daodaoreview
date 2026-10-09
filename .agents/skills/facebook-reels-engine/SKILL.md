@@ -128,8 +128,13 @@ if (isBlocked) {
 ```
 Yêu cầu độ dài mã nguồn `html.length >= 30000` (đảm bảo iframe tải đủ player và DOM controls).
 
-### 2. Tải & Lưu Ảnh Bìa Gốc Vĩnh Viễn:
+### 2. Tải, Thẩm Định Chất Lượng & Lưu Ảnh Bìa Gốc Vĩnh Viễn:
 * Dùng User-Agent `facebookexternalhit/1.1` cào thẻ meta `og:image`.
+* **Bộ Lọc Chất Lượng Ảnh Bìa Khắt Khe (Image Quality Gatekeeper):**
+  - **Loại bỏ hình ảnh méo mó (Distortion Check):** Tỷ lệ $R = \text{width} / \text{height}$ phải nằm trong khoảng chuẩn $0.50 \le R \le 2.10$ ($16:9$, $9:16$, $4:3$, $1:1$). Cấm tuyệt đối ảnh bị bóp méo, co giãn bất thường.
+  - **Loại bỏ hình ảnh mờ, vỡ hạt (Resolution & File Size Check):** Chiều rộng $\ge 400$px và chiều cao $\ge 250$px (hoặc $\ge 250 \times 400$px với ảnh dọc), tổng diện tích $\ge 120.000$px, dung lượng file $\ge 15$ KB. Loại bỏ thẳng tay các ảnh vỡ hạt pixel, icon nhỏ mờ nhạt hoặc placeholder rác.
+  - **Nếu ảnh không đạt chuẩn chất lượng:** Bỏ qua video đó, tuyệt đối không nạp vào CSDL.
+  - **Quy tắc bảo tồn:** Áp dụng cho các video mới cào; các video đã cào trước đây được giữ nguyên trạng trong CSDL.
 * Lưu ảnh trực tiếp về ổ cứng tại `public/thumbnails/{cleanId}.jpg`.
 * **CẤM DÙNG LINK `fbcdn.net`:** Link CDN Facebook chết sau 24-48 giờ do tham số `oe=...`.
 * **CẤM DÙNG ẢNH STOCK/UNSPLASH LUNG TUNG:** Không tải được ảnh gốc từ video thì KHÔNG NẠP video đó.
