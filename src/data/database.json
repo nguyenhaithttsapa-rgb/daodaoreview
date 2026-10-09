@@ -1,5 +1,44 @@
 [
   {
+    "id": "series-long-890650189655842",
+    "slug": "co-gai-cau-xin-tong-tai-lan-cuoi-roi-ly-hon-full-tron-bo-5842",
+    "title": "Cô Gái Cầu Xin Tổng Tài Lần Cuối Rồi Ly Hôn (Full Trọn Bộ 1 Giờ 41 Phút)",
+    "description": "Trọn bộ phim ngắn drama: Cô gái cầu xin tổng tài trước khi ly hôn và cái kết bất ngờ đầy kịch tính.",
+    "thumbnail": "/thumbnails/890650189655842.jpg",
+    "coverImage": "/thumbnails/890650189655842.jpg",
+    "channelName": "Vạn Cổ Thần Đế Review #304",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-890650189655842",
+        "seriesId": "series-long-890650189655842",
+        "partNumber": 1,
+        "title": "Cô Gái Cầu Xin Tổng Tài Lần Cuối Rồi Ly Hôn (Full Trọn Bộ 1 Giờ 41 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=890650189655842",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D890650189655842&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:41:49",
+        "thumbnail": "/thumbnails/890650189655842.jpg",
+        "viewsCount": 50044,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-1334405967923485",
     "slug": "tong-tai-gia-ngheo-gap-phai-thien-kim-gia-kho-full-tron-bo-3485",
     "title": "Tổng Tài Giả Nghèo Gặp Phải Thiên Kim Giả Khổ (Full Trọn Bộ 1 Giờ 26 Phút)",
