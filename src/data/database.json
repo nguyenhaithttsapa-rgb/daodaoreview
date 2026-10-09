@@ -1,5 +1,44 @@
 [
   {
+    "id": "series-long-1334405967923485",
+    "slug": "tong-tai-gia-ngheo-gap-phai-thien-kim-gia-kho-full-tron-bo-3485",
+    "title": "Tổng Tài Giả Nghèo Gặp Phải Thiên Kim Giả Khổ (Full Trọn Bộ 1 Giờ 26 Phút)",
+    "description": "Trọn bộ phim ngắn drama: Tổng tài giả nghèo gặp phải thiên kim giả khổ và cái kết bất ngờ đầy kịch tính.",
+    "thumbnail": "/thumbnails/1334405967923485.jpg",
+    "coverImage": "/thumbnails/1334405967923485.jpg",
+    "channelName": "Tổng Tài Hào Môn Review #299",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-09",
+    "episodes": [
+      {
+        "id": "ep-long-1334405967923485",
+        "seriesId": "series-long-1334405967923485",
+        "partNumber": 1,
+        "title": "Tổng Tài Giả Nghèo Gặp Phải Thiên Kim Giả Khổ (Full Trọn Bộ 1 Giờ 26 Phút)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1334405967923485",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1334405967923485&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:26:02",
+        "thumbnail": "/thumbnails/1334405967923485.jpg",
+        "viewsCount": 35223,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-862240872321644",
     "slug": "tong-tai-ly-hon-moi-nhan-ra-nguoi-minh-yeu-full-2-gio-04-phut-1644",
     "title": "Tổng Tài Ly Hôn Mới Nhận Ra Người Mình Yêu (Full Trọn Bộ 2 Giờ 04 Phút)",
