@@ -2121,5 +2121,71 @@
         "category": "Phim Dài Full & Review"
       }
     ]
+  },
+  {
+    "batchNumber": 67,
+    "batchTitle": "LÔ 67: Đoản Kịch Thuyết Minh & Siêu Phẩm Marathon",
+    "category": "Đoản Kịch & Phim Ngắn Siêu Dài",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Vả Kịch • Đoản Kịch Thuyết Minh",
+        "url": "https://www.facebook.com/vakich.tv/videos",
+        "category": "Đoản Kịch & Phim Ngắn Siêu Dài"
+      },
+      {
+        "name": "Mê Đoản Kịch Trung Quốc",
+        "url": "https://www.facebook.com/medoankich.tq/videos",
+        "category": "Phim Ngắn Trọng Sinh & Hào Môn"
+      },
+      {
+        "name": "Gia Tộc Hào Môn Phim Ngắn",
+        "url": "https://www.facebook.com/giatochaomon.phimngan/videos",
+        "category": "Gia Đấu & Tổng Tài Hào Môn"
+      },
+      {
+        "name": "Trọng Sinh Báo Thù Cực Phẩm",
+        "url": "https://www.facebook.com/trongsinhbaothu/videos",
+        "category": "Trọng Sinh & Báo Thù Đô Thị"
+      },
+      {
+        "name": "Thiên Kim Trở Về Review",
+        "url": "https://www.facebook.com/thienkimtrove.review/videos",
+        "category": "Nữ Cường & Hào Môn Trọng Sinh"
+      }
+    ]
+  },
+  {
+    "batchNumber": 68,
+    "batchTitle": "LÔ 68: Donghua 3D Tu Tiên & Huyền Huyễn Đỉnh Cao",
+    "category": "Donghua 3D Tu Tiên & Huyền Huyễn",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Bách Luyện Thành Thần 3D",
+        "url": "https://www.facebook.com/bachluyenthanhthan3d/videos",
+        "category": "Donghua 3D Huyền Huyễn"
+      },
+      {
+        "name": "Vũ Canh Kỷ 3D Trọn Bộ",
+        "url": "https://www.facebook.com/vucanhky3d/videos",
+        "category": "Thần Thoại & Huyền Huyễn 3D"
+      },
+      {
+        "name": "Trường Sinh Giới 3D Thuyết Minh",
+        "url": "https://www.facebook.com/truongsinhgioi3d/videos",
+        "category": "Donghua 3D Tiên Hiệp"
+      },
+      {
+        "name": "Nghịch Thiên Tà Thần 3D",
+        "url": "https://www.facebook.com/nghichthientathan3d/videos",
+        "category": "Tu Chân Huyền Huyễn 3D"
+      },
+      {
+        "name": "Cửu Châu Phiêu Miểu Lục 3D",
+        "url": "https://www.facebook.com/cuuchau3d/videos",
+        "category": "Donghua Cổ Trang Sử Thi 3D"
+      }
+    ]
   }
 ]
