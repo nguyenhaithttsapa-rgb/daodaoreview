@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2056544008528416",
+    "slug": "review-phim-chan-long-dau-de-tron-bo-riviewphimne-full-tron-bo-1-26-46-8416",
+    "title": "REVIEW PHIM : CHÂN LONG ĐẤU ĐẾ.TRỌN BỘ | RiviewPhimne (Full Trọn Bộ 1:26:46)",
+    "description": "REVIEW PHIM : CHÂN LONG ĐẤU ĐẾ.TRỌN BỘ",
+    "thumbnail": "/thumbnails/2056544008528416.jpg",
+    "coverImage": "/thumbnails/2056544008528416.jpg",
+    "channelName": "Đấu Phá Tu Chân Review #140",
+    "genres": [
+      "Tu Tiên 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-10",
+    "episodes": [
+      {
+        "id": "ep-long-2056544008528416",
+        "seriesId": "series-long-2056544008528416",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : CHÂN LONG ĐẤU ĐẾ.TRỌN BỘ | RiviewPhimne (Full Trọn Bộ 1:26:46)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2056544008528416",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2056544008528416&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:26:46",
+        "thumbnail": "/thumbnails/2056544008528416.jpg",
+        "viewsCount": 18134,
+        "publishedAt": "2026-10-10"
+      }
+    ]
+  },
+  {
     "id": "series-long-798303706183558",
     "slug": "ong-luc-tap-cuoi-ten-chong-lang-nhang-khong-ngo-vo-minh-da-dut-khoat-l-3558",
     "title": "Ông Lục - Tập Cuối | Tên chồng lăng nhăng không ngờ vợ mình đã dứt khoát ly hôn | Desync (Full Trọn Bộ 32:44)",
