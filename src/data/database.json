@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-850739377625362",
+    "slug": "tron-bo-nu-vo-si-xuyen-ve-co-dai-thay-nguyen-chu-bao-thu-dam-ta-toi-ng-5362",
+    "title": "(Trọn bộ)Nữ võ sĩ xuyên về cổ đại thay nguyên chủ báo thù, đấm tả tơi người từng bắt nạt cô. | Vân thích review (Full Trọn Bộ 2:30:36)",
+    "description": "(Trọn bộ)Nữ võ sĩ xuyên về cổ đại thay nguyên chủ báo thù, đấm tả tơi người từng bắt nạt cô.",
+    "thumbnail": "/thumbnails/850739377625362.jpg",
+    "coverImage": "/thumbnails/850739377625362.jpg",
+    "channelName": "Báo Thù Đại Nữ Chủ Review #305",
+    "genres": [
+      "Nữ Cường",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-11",
+    "episodes": [
+      {
+        "id": "ep-long-850739377625362",
+        "seriesId": "series-long-850739377625362",
+        "partNumber": 1,
+        "title": "(Trọn bộ)Nữ võ sĩ xuyên về cổ đại thay nguyên chủ báo thù, đấm tả tơi người từng bắt nạt cô. | Vân thích review (Full Trọn Bộ 2:30:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=850739377625362",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D850739377625362&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:30:36",
+        "thumbnail": "/thumbnails/850739377625362.jpg",
+        "viewsCount": 16491,
+        "publishedAt": "2026-10-11"
+      }
+    ]
+  },
+  {
     "id": "series-long-1754140412173631",
     "slug": "review-phim-van-co-than-vuong-t-tron-bo-adg-review-full-tron-bo-55-54-3631",
     "title": "REVIEW PHIM : VẠN CỔ THẦN VƯƠNG t .TRỌN BỘ | AĐG Review (Full Trọn Bộ 55:54)",
