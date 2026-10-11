@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1502422291643041",
+    "slug": "ma-ton-xuat-son-phan-cuoi-reviewphim24h-full-tron-bo-37-19-3041",
+    "title": "Ma tôn xuất sơn | phần cuối| | REVIEWPHIM24h (Full Trọn Bộ 37:19)",
+    "description": "Ma tôn xuất sơn | phần cuối|",
+    "thumbnail": "/thumbnails/1502422291643041.jpg",
+    "coverImage": "/thumbnails/1502422291643041.jpg",
+    "channelName": "Tiên Tôn Xuất Sơn Review #252",
+    "genres": [
+      "Tiên Hiệp",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-11",
+    "episodes": [
+      {
+        "id": "ep-long-1502422291643041",
+        "seriesId": "series-long-1502422291643041",
+        "partNumber": 1,
+        "title": "Ma tôn xuất sơn | phần cuối| | REVIEWPHIM24h (Full Trọn Bộ 37:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1502422291643041",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1502422291643041&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "37:19",
+        "thumbnail": "/thumbnails/1502422291643041.jpg",
+        "viewsCount": 22087,
+        "publishedAt": "2026-10-11"
+      }
+    ]
+  },
+  {
     "id": "series-long-987754173145910",
     "slug": "vo-than-chua-te-tap-462-467-viet-sub-5centimet-full-tron-bo-30-58-5910",
     "title": "Võ Thần Chúa Tể Tập 462-467 Việt Sub | 5centimet (Full Trọn Bộ 30:58)",
