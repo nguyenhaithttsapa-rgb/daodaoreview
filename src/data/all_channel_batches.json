@@ -2253,5 +2253,137 @@
         "category": "Đô Thị Đổi Đời & Làm Giàu"
       }
     ]
+  },
+  {
+    "batchNumber": 71,
+    "batchTitle": "LÔ 71: Đoản Kịch Triệu View & Phim Ngắn Báo Thù Siêu Hot",
+    "category": "Đoản Kịch & Phim Ngắn Triệu View",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Cày Đoản Kịch Triệu View",
+        "url": "https://www.facebook.com/caydandoankich.trieuview/videos",
+        "category": "Đoản Kịch Triệu View"
+      },
+      {
+        "name": "Ghiền Đoản Kịch Thuyết Minh",
+        "url": "https://www.facebook.com/ghiendoankich.tm/videos",
+        "category": "Đoản Kịch Thuyết Minh Hot"
+      },
+      {
+        "name": "Vương Giả Đoản Kịch Hay",
+        "url": "https://www.facebook.com/vuonggiadoankich/videos",
+        "category": "Đoản Kịch Trọng Sinh & Báo Thù"
+      },
+      {
+        "name": "Phim Ngắn Cẩu Huyết Triệu View",
+        "url": "https://www.facebook.com/phimngan.cauhuyet/videos",
+        "category": "Kịch Tính Hào Môn Triệu View"
+      },
+      {
+        "name": "Top Đoản Kịch Thịnh Hành",
+        "url": "https://www.facebook.com/topdoankich.thinhhanh/videos",
+        "category": "Đoản Kịch Hot Trend"
+      }
+    ]
+  },
+  {
+    "batchNumber": 72,
+    "batchTitle": "LÔ 72: Donghua 3D Siêu Phẩm Tu Tiên & Huyền Huyễn 2026",
+    "category": "Donghua 3D Tu Tiên & Huyền Huyễn",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Kiếm Lai 3D Thuyết Minh Trọn Bộ",
+        "url": "https://www.facebook.com/kiemlai3d.tronbo/videos",
+        "category": "Donghua Kiếm Lai 3D"
+      },
+      {
+        "name": "Tiên Nghịch 3D Vương Lâm Trọn Bộ",
+        "url": "https://www.facebook.com/tiennghich3d.vuonglam/videos",
+        "category": "Donghua Tiên Nghịch 3D"
+      },
+      {
+        "name": "Già Thiên 3D Diệp Phàm Trọn Bộ",
+        "url": "https://www.facebook.com/giathien3d.dieppham/videos",
+        "category": "Donghua Già Thiên 3D"
+      },
+      {
+        "name": "Thôn Phệ Tinh Không 3D La Phong",
+        "url": "https://www.facebook.com/thonphetinhkhong3d.laphong/videos",
+        "category": "Donghua Khoa Huyễn Tu Chân"
+      },
+      {
+        "name": "Phàm Nhân Tu Tiên 3D Hàn Lập",
+        "url": "https://www.facebook.com/phanmhantutien3d.hanlap/videos",
+        "category": "Donghua Phàm Nhân Tu Tiên"
+      }
+    ]
+  },
+  {
+    "batchNumber": 73,
+    "batchTitle": "LÔ 73: Đô Thị Dị Năng & Thần Hào Vả Mặt Cực Căng",
+    "category": "Đô Thị Dị Năng & Thần Hào",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Đô Thị Dị Năng Vương Giả",
+        "url": "https://www.facebook.com/dothidinang.vuonggia/videos",
+        "category": "Đô Thị Dị Năng & Hệ Thống"
+      },
+      {
+        "name": "Thần Hào Vả Mặt Triệu View",
+        "url": "https://www.facebook.com/thanhao.vamat/videos",
+        "category": "Thần Hào Vả Mặt Hào Môn"
+      },
+      {
+        "name": "Đô Thị Tu Chân Nghịch Thiên",
+        "url": "https://www.facebook.com/dothituchan.nghichthien/videos",
+        "category": "Tu Tiên Đô Thị Hiện Đại"
+      },
+      {
+        "name": "Thiếu Soái Đô Thị Thần Bí",
+        "url": "https://www.facebook.com/thieusoai.dothithanbi/videos",
+        "category": "Chiến Thần & Thiếu Soái Đô Thị"
+      },
+      {
+        "name": "Đô Thị Bất Tử Đế Tôn",
+        "url": "https://www.facebook.com/dothibattudetot/videos",
+        "category": "Đô Thị Tiên Đế Trở Lại"
+      }
+    ]
+  },
+  {
+    "batchNumber": 74,
+    "batchTitle": "LÔ 74: Tổng Tài Hắc Hóa & Nữ Chủ Nghịch Tập Triệu Lượt Xem",
+    "category": "Tổng Tài Hắc Hóa & Nữ Cường",
+    "status": "CHỜ CÀO",
+    "channels": [
+      {
+        "name": "Tổng Tài Hắc Hóa Review",
+        "url": "https://www.facebook.com/tongtai.hachoa/videos",
+        "category": "Tổng Tài Hắc Hóa & Chiếm Hữu"
+      },
+      {
+        "name": "Nữ Chủ Vả Mặt Hào Môn",
+        "url": "https://www.facebook.com/nuchu.vamathaomon/videos",
+        "category": "Nữ Cường & Báo Thù Hào Môn"
+      },
+      {
+        "name": "Cô Vợ Câm Của Tổng Tài Bạc Tỷ",
+        "url": "https://www.facebook.com/covocamtongtai/videos",
+        "category": "Ngôn Tình Ngược Sủng Hào Môn"
+      },
+      {
+        "name": "Hào Môn Huyết Hải Báo Thù",
+        "url": "https://www.facebook.com/haomonhuyethai/videos",
+        "category": "Báo Thù Gia Tộc Kịch Tính"
+      },
+      {
+        "name": "Thiên Kim Thật Quay Về Vả Mặt",
+        "url": "https://www.facebook.com/thienkimthat.quayve/videos",
+        "category": "Chân Giả Thiên Kim & Nữ Chủ"
+      }
+    ]
   }
 ]
