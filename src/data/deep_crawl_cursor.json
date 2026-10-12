@@ -1,8 +1,8 @@
 {
-  "currentChannelIndex": 356,
-  "totalChannels": 359,
+  "currentChannelIndex": 361,
+  "totalChannels": 1000,
   "startedAt": "2026-10-09T03:38:14.730Z",
-  "lastUpdated": "2026-10-12T14:57:59.944Z",
+  "lastUpdated": "2026-10-12T16:13:45.895Z",
   "channelsProcessed": [
     {
       "index": 0,
@@ -4303,6 +4303,67 @@
       "embedRejected": 8,
       "musicRejected": 1,
       "endTime": "2026-10-12T14:57:59.943Z"
+    },
+    {
+      "index": 356,
+      "name": "Cô Vợ Câm Của Tổng Tài Bạc Tỷ",
+      "url": "https://www.facebook.com/covocamtongtai/videos",
+      "startTime": "2026-10-12T15:13:18.445Z",
+      "videosFound": 48,
+      "moviesAdded": 3,
+      "shortRejected": 37,
+      "embedRejected": 4,
+      "musicRejected": 3,
+      "endTime": "2026-10-12T15:23:59.045Z"
+    },
+    {
+      "index": 357,
+      "name": "Hào Môn Huyết Hải Báo Thù",
+      "url": "https://www.facebook.com/haomonhuyethai/videos",
+      "startTime": "2026-10-12T15:25:59.053Z",
+      "videosFound": 43,
+      "moviesAdded": 0,
+      "shortRejected": 29,
+      "embedRejected": 13,
+      "musicRejected": 0,
+      "endTime": "2026-10-12T15:36:17.063Z"
+    },
+    {
+      "index": 358,
+      "name": "Thiên Kim Thật Quay Về Vả Mặt",
+      "url": "https://www.facebook.com/thienkimthat.quayve/videos",
+      "startTime": "2026-10-12T15:38:17.071Z",
+      "videosFound": 40,
+      "moviesAdded": 2,
+      "shortRejected": 32,
+      "embedRejected": 2,
+      "musicRejected": 2,
+      "endTime": "2026-10-12T15:48:46.496Z"
+    },
+    {
+      "index": 359,
+      "name": "Trùm Đoản Kịch Thiên Kim Full Bộ #75",
+      "url": "https://www.facebook.com/trum.doan.kich.thien.kim.full.bo.75/videos",
+      "startTime": "2026-10-12T15:50:46.511Z",
+      "videosFound": 44,
+      "moviesAdded": 6,
+      "shortRejected": 32,
+      "embedRejected": 4,
+      "musicRejected": 0,
+      "imageRejected": 1,
+      "endTime": "2026-10-12T16:01:19.920Z"
+    },
+    {
+      "index": 360,
+      "name": "Ghiền Kịch Vả Mặt Đặc Sắc #75.2",
+      "url": "https://www.facebook.com/ghien.kich.va.mat.dac.sac.75.2/videos",
+      "startTime": "2026-10-12T16:03:19.936Z",
+      "videosFound": 42,
+      "moviesAdded": 0,
+      "shortRejected": 31,
+      "embedRejected": 9,
+      "musicRejected": 2,
+      "endTime": "2026-10-12T16:13:45.893Z"
     }
   ]
 }

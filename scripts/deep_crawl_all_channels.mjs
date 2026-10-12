@@ -27,6 +27,14 @@ function log(msg) {
   } catch {}
 }
 
+process.on('uncaughtException', (err) => {
+  log(`⚠️ [UNCAUGHT EXCEPTION PREVENTED]: ${err?.message || err}`);
+});
+
+process.on('unhandledRejection', (reason) => {
+  log(`⚠️ [UNHANDLED REJECTION PREVENTED]: ${reason?.message || reason}`);
+});
+
 function decodeHtmlEntities(str) {
   if (!str) return '';
   return str
@@ -400,6 +408,7 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
       let prevCount = discoveredVids.size;
 
       while (Date.now() - startTime < CRAWL_DURATION_MS && noNewStreak < 8) {
+        if (page.isClosed()) break;
         // Triệt tiêu modal dialog
         await page.evaluate(() => {
           document.querySelectorAll('[role="dialog"], [aria-modal="true"]').forEach(el => el.remove());
@@ -720,6 +729,24 @@ async function runDeepCrawlerBot() {
   try { await browser.close(); } catch {}
 }
 
-runDeepCrawlerBot().catch(err => {
-  log(`🔥 FATAL BOT ERROR: ${err.message}`);
+async function startSupervisor() {
+  while (true) {
+    const allChannels = loadAllChannels();
+    const cursor = loadCursor(allChannels.length);
+    if (cursor.currentChannelIndex >= allChannels.length) {
+      log(`\n🎉🎉🎉 ĐÃ HOÀN TẤT CÀO SÂU TOÀN BỘ ${allChannels.length} KÊNH TRONG DANH SÁCH!`);
+      break;
+    }
+
+    try {
+      await runDeepCrawlerBot();
+    } catch (err) {
+      log(`⚠️ [SUPERVISOR AUTO-RESTART]: Phát hiện sự cố (${err.message}). Tự động phục hồi và tiếp tục cào kênh kế tiếp sau 5s...`);
+      await new Promise(r => setTimeout(r, 5000));
+    }
+  }
+}
+
+startSupervisor().catch(err => {
+  log(`🔥 FATAL SUPERVISOR ERROR: ${err.message}`);
 });
