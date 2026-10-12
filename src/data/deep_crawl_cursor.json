@@ -1,8 +1,8 @@
 {
-  "currentChannelIndex": 361,
+  "currentChannelIndex": 362,
   "totalChannels": 1000,
   "startedAt": "2026-10-09T03:38:14.730Z",
-  "lastUpdated": "2026-10-12T16:13:45.895Z",
+  "lastUpdated": "2026-10-12T16:28:20.401Z",
   "channelsProcessed": [
     {
       "index": 0,
@@ -4364,6 +4364,18 @@
       "embedRejected": 9,
       "musicRejected": 2,
       "endTime": "2026-10-12T16:13:45.893Z"
+    },
+    {
+      "index": 361,
+      "name": "Vả Kịch Vả Mặt Triệu View #75.3",
+      "url": "https://www.facebook.com/va.kich.va.mat.trieu.view.75.3/videos",
+      "startTime": "2026-10-12T16:18:04.797Z",
+      "videosFound": 39,
+      "moviesAdded": 0,
+      "shortRejected": 30,
+      "embedRejected": 4,
+      "musicRejected": 4,
+      "endTime": "2026-10-12T16:28:20.400Z"
     }
   ]
 }

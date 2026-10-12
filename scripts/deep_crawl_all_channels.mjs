@@ -692,12 +692,20 @@ async function runDeepCrawlerBot() {
     const channel = allChannels[cursor.currentChannelIndex];
 
     consecutiveChannels++;
-    if (consecutiveChannels > 5 || !browser || !browser.isConnected()) {
+    if (consecutiveChannels > 2 || !browser || !browser.isConnected()) {
       log(`🔄 Khởi động lại browser engine để tối ưu RAM...`);
       try { await browser.close(); } catch {}
       browser = await chromium.launch({
         headless: true,
-        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+        args: [
+          '--no-sandbox',
+          '--disable-setuid-sandbox',
+          '--disable-dev-shm-usage',
+          '--disable-gpu',
+          '--js-flags=--max-old-space-size=512',
+          '--disable-extensions',
+          '--mute-audio'
+        ]
       });
       consecutiveChannels = 1;
     }
