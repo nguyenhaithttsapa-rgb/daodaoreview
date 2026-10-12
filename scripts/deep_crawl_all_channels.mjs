@@ -483,7 +483,7 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
     }
   }
 
-  await context.close();
+  try { await context.close(); } catch {}
 
   channelStats.videosFound = discoveredVids.size;
   log(`🎯 Kênh "${channel.name}" quét được tổng cộng: ${discoveredVids.size} video.`);
@@ -683,7 +683,7 @@ async function runDeepCrawlerBot() {
     const channel = allChannels[cursor.currentChannelIndex];
 
     consecutiveChannels++;
-    if (consecutiveChannels > 5) {
+    if (consecutiveChannels > 5 || !browser || !browser.isConnected()) {
       log(`🔄 Khởi động lại browser engine để tối ưu RAM...`);
       try { await browser.close(); } catch {}
       browser = await chromium.launch({
@@ -698,6 +698,12 @@ async function runDeepCrawlerBot() {
       cursor.channelsProcessed.push(stats);
     } catch (channelErr) {
       log(`❌ Lỗi ngoài ý muốn tại kênh "${channel.name}": ${channelErr.message}`);
+      try { await browser.close(); } catch {}
+      browser = await chromium.launch({
+        headless: true,
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu']
+      });
+      consecutiveChannels = 1;
     }
 
     cursor.currentChannelIndex++;
