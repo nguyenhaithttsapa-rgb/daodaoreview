@@ -57,7 +57,10 @@ function isMusicOrTrash(text) {
   const trashKeywords = [
     'nhạc hoa', 'vietsub karaoke', 'karaoke', 'official mv', 'mv vietsub',
     'ost phim', 'ca khúc', 'bài hát', 'nhạc phim', 'tâm trạng vu vơ',
-    'cafe sáng', 'dealshaker', 'nuôi dạy con', 'livestream bán hàng',
+    'cafe sáng', 'dealshaker', 'nuôi dạy con', 'livestream bán hàng', 'livestream',
+    'takashi ocean', 'ocean suite', 'chơi cùng lego', 'lego city', 'mykingdom',
+    'thử thách sinh tồn', 'trái đất của chúng ta', 'bất động sản', 'khu đô thị biển',
+    'bán đất', 'căn hộ', 'chung cư', 'dự án biển', 'hội thảo',
     'vietnam vs', 'thái lan vs', 'trực tiếp bóng đá', 'highlights bóng đá'
   ];
   return trashKeywords.some(kw => lower.includes(kw));
