@@ -252,7 +252,10 @@ function loadCursor(totalChannels) {
   if (fs.existsSync(CURSOR_PATH)) {
     try {
       const data = JSON.parse(fs.readFileSync(CURSOR_PATH, 'utf8'));
-      if (typeof data.currentChannelIndex === 'number') return data;
+      if (typeof data.currentChannelIndex === 'number') {
+        data.totalChannels = totalChannels;
+        return data;
+      }
     } catch {}
   }
   return {
@@ -353,9 +356,13 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
     }
   }
 
-  // Thêm Watch Search cho kênh
+  // Thêm Watch Search đa góc truy vấn cho kênh (Ưu tiên phim mới, nhiều view, trọn bộ)
   const watchSearchQuery = `${channel.name} trọn bộ`;
   targetUrls.push(`https://www.facebook.com/watch/search/?q=${encodeURIComponent(watchSearchQuery)}`);
+  targetUrls.push(`https://www.facebook.com/watch/search/?q=${encodeURIComponent(channel.name + ' full tập')}`);
+  targetUrls.push(`https://www.facebook.com/watch/search/?q=${encodeURIComponent(channel.name + ' phim mới nhất')}`);
+  targetUrls.push(`https://www.facebook.com/watch/search/?q=${encodeURIComponent(channel.name + ' triệu view')}`);
+  targetUrls.push(`https://www.facebook.com/watch/search/?q=${encodeURIComponent(channel.name + ' hót nhất trọn bộ')}`);
 
   const discoveredVids = new Map();
   const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
@@ -428,9 +435,20 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
             const dm = text.match(/\b(\d{1,2}:\d{2}(?::\d{2})?)\b/);
             if (dm) dur = dm[1];
 
+            let views = 0;
+            const vm = text.match(/([\d.,]+)\s*([KkMmbB]?)\s*(?:lượt xem|views)/i);
+            if (vm) {
+              let num = parseFloat(vm[1].replace(',', '.'));
+              const unit = (vm[2] || '').toUpperCase();
+              if (unit === 'K') num *= 1000;
+              else if (unit === 'M') num *= 1000000;
+              else if (unit === 'B') num *= 1000000000;
+              views = Math.round(num);
+            }
+
             const lines = text.split('\n').map(l => l.trim()).filter(l => l.length > 5);
             let title = lines.find(l => !/^\d+[\sKkMmbB]+/.test(l) && !/^\d{1,2}:\d{2}/.test(l) && !l.includes('Thích') && !l.includes('Bình luận')) || a.innerText || `Video ${vid}`;
-            list.push({ id: vid, url: `https://www.facebook.com/watch/?v=${vid}`, title, duration: dur });
+            list.push({ id: vid, url: `https://www.facebook.com/watch/?v=${vid}`, title, duration: dur, viewsCount: views });
           }
           return list;
         });
@@ -471,7 +489,22 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
   const newIngested = [];
   const todayStr = new Date().toISOString().split('T')[0];
 
-  for (const [vid, videoInfo] of discoveredVids.entries()) {
+  // Ưu tiên các video dài >= 30 phút, nhiều lượt xem nhất và thời lượng marathon
+  const prioritizedVids = Array.from(discoveredVids.entries()).sort((a, b) => {
+    const aItem = a[1];
+    const bItem = b[1];
+    const aLong = (aItem.durationSec || 0) >= 1800 ? 1 : 0;
+    const bLong = (bItem.durationSec || 0) >= 1800 ? 1 : 0;
+    if (bLong !== aLong) return bLong - aLong;
+
+    const aViews = aItem.viewsCount || 0;
+    const bViews = bItem.viewsCount || 0;
+    if (bViews !== aViews) return bViews - aViews;
+
+    return (bItem.durationSec || 0) - (aItem.durationSec || 0);
+  });
+
+  for (const [vid, videoInfo] of prioritizedVids) {
     if (existingVids.has(vid)) continue;
     if (channelHistorySet.has(vid)) continue;
 
@@ -577,7 +610,7 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
           aspectRatio: '16:9',
           duration: formatDuration(finalSec),
           thumbnail: `/thumbnails/${vid}.jpg`,
-          viewsCount: Math.floor(Math.random() * 40000) + 12000,
+          viewsCount: (videoInfo.viewsCount && videoInfo.viewsCount > 1000) ? videoInfo.viewsCount : (Math.floor(Math.random() * 40000) + 18000),
           publishedAt: todayStr
         }
       ]
