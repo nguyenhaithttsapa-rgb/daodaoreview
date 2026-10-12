@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2176056706087181",
+    "slug": "bach-luyen-thanh-than-tap-84-vietsub-tap-dac-biet-hhtq-3d-anime-full-t-7181",
+    "title": "Bách Luyện Thành Thần Tập 84 Vietsub - Tập Đặc Biệt | HHTQ 3D Anime (Full Trọn Bộ 32:53)",
+    "description": "Bách Luyện Thành Thần Tập 84 Vietsub - Tập Đặc Biệt",
+    "thumbnail": "/thumbnails/2176056706087181.jpg",
+    "coverImage": "/thumbnails/2176056706087181.jpg",
+    "channelName": "Bách Luyện Thành Thần 3D",
+    "genres": [
+      "Donghua 3D Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-12",
+    "episodes": [
+      {
+        "id": "ep-long-2176056706087181",
+        "seriesId": "series-long-2176056706087181",
+        "partNumber": 1,
+        "title": "Bách Luyện Thành Thần Tập 84 Vietsub - Tập Đặc Biệt | HHTQ 3D Anime (Full Trọn Bộ 32:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2176056706087181",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2176056706087181&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:53",
+        "thumbnail": "/thumbnails/2176056706087181.jpg",
+        "viewsCount": 18076,
+        "publishedAt": "2026-10-12"
+      }
+    ]
+  },
+  {
     "id": "series-long-1172717331051137",
     "slug": "tron-bo-thien-kim-tro-ve-tron-bo-tro-lai-de-thay-doi-moi-thu-anh-tun-f-1137",
     "title": "TRỌN BỘ-Thiên Kim Trở Về TRỌN BỘ-Trở lại để thay đổi mọi thứ | Anh Tun (Full Trọn Bộ 1:34:00)",
