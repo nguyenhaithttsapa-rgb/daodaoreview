@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-289028982189066",
+    "slug": "tap-27-thien-vu-ky-thuyet-minh-cuc-hay-hua-khai-ly-huyen-ngo-giai-di-t-9066",
+    "title": "[Tập 27] Thiên Vũ Kỷ Thuyết Minh cực hay | Hứa Khải ( Lý Huyền ) - Ngô Giai Di ( Tô Do Liên ) Để xem trọn bộ các bạn vào phần danh sách phát của page để xem từ tập 1-28 nhé...iu iu | Ghiền Cổ Trang Plus (Full Trọn Bộ 39:50)",
+    "description": "[Tập 27] Thiên Vũ Kỷ Thuyết Minh cực hay | Hứa Khải ( Lý Huyền ) - Ngô Giai Di ( Tô Do Liên ) Để xem trọn bộ các bạn vào phần danh sách phát của page để xem từ tập 1-28 nhé...iu iu",
+    "thumbnail": "/thumbnails/289028982189066.jpg",
+    "coverImage": "/thumbnails/289028982189066.jpg",
+    "channelName": "Ghiền Đoản Kịch Thuyết Minh",
+    "genres": [
+      "Đoản Kịch Thuyết Minh Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-12",
+    "episodes": [
+      {
+        "id": "ep-long-289028982189066",
+        "seriesId": "series-long-289028982189066",
+        "partNumber": 1,
+        "title": "[Tập 27] Thiên Vũ Kỷ Thuyết Minh cực hay | Hứa Khải ( Lý Huyền ) - Ngô Giai Di ( Tô Do Liên ) Để xem trọn bộ các bạn vào phần danh sách phát của page để xem từ tập 1-28 nhé...iu iu | Ghiền Cổ Trang Plus (Full Trọn Bộ 39:50)",
+        "originalUrl": "https://www.facebook.com/watch/?v=289028982189066",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D289028982189066&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "39:50",
+        "thumbnail": "/thumbnails/289028982189066.jpg",
+        "viewsCount": 17000,
+        "publishedAt": "2026-10-12"
+      }
+    ]
+  },
+  {
+    "id": "series-long-223336459065645",
+    "slug": "tap-28-thu-sinh-xinh-dep-tuyet-van-hi-ghien-co-trang-plus-full-tron-bo-5645",
+    "title": "__(Tập 28) THƯ SINH XINH ĐẸP_Tuyết Văn Hi | Ghiền Cổ Trang Plus (Full Trọn Bộ 33:30)",
+    "description": "__(Tập 28) THƯ SINH XINH ĐẸP_Tuyết Văn Hi",
+    "thumbnail": "/thumbnails/223336459065645.jpg",
+    "coverImage": "/thumbnails/223336459065645.jpg",
+    "channelName": "Ghiền Đoản Kịch Thuyết Minh",
+    "genres": [
+      "Đoản Kịch Thuyết Minh Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-12",
+    "episodes": [
+      {
+        "id": "ep-long-223336459065645",
+        "seriesId": "series-long-223336459065645",
+        "partNumber": 1,
+        "title": "__(Tập 28) THƯ SINH XINH ĐẸP_Tuyết Văn Hi | Ghiền Cổ Trang Plus (Full Trọn Bộ 33:30)",
+        "originalUrl": "https://www.facebook.com/watch/?v=223336459065645",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D223336459065645&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:30",
+        "thumbnail": "/thumbnails/223336459065645.jpg",
+        "viewsCount": 5400,
+        "publishedAt": "2026-10-12"
+      }
+    ]
+  },
+  {
     "id": "series-long-793864933525209",
     "slug": "me-don-than-duoc-tong-tai-thue-ket-hon-tuong-hon-nhan-hop-dong-nao-ngo-5209",
     "title": "mẹ đơn thân được tổng tài thuê kết hôn, tưởng hôn nhân hợp đồng nào ngờ nhặt được cả trâu lẫn nghé! | Phim hay mỗi ngày2 (Full Trọn Bộ 2:21:57)",
