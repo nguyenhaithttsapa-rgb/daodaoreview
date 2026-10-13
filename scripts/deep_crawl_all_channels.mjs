@@ -119,6 +119,7 @@ function fetchBuffer(url) {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
           return fetchBuffer(res.headers.location).then(resolve);
         }
+        res.on('error', () => resolve(null));
         const chunks = [];
         res.on('data', chunk => chunks.push(chunk));
         res.on('end', () => resolve(Buffer.concat(chunks)));
@@ -133,27 +134,32 @@ function fetchBuffer(url) {
 
 function getImageInfo(buffer) {
   if (!buffer || buffer.length < 32) return null;
-  // PNG: 89 50 4E 47 0D 0A 1A 0A
-  if (buffer[0] === 0x89 && buffer[1] === 0x50 && buffer[2] === 0x4e && buffer[3] === 0x47) {
-    return { type: 'png', width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
-  }
-  // JPEG: FF D8 FF
-  if (buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) {
-    let offset = 2;
-    while (offset < buffer.length) {
-      if (buffer[offset] !== 0xff) { offset++; continue; }
-      const marker = buffer[offset + 1];
-      if ((marker >= 0xc0 && marker <= 0xc3) || (marker >= 0xc5 && marker <= 0xc7) || (marker >= 0xc9 && marker <= 0xcb) || (marker >= 0xcd && marker <= 0xcf)) {
-        if (offset + 8 < buffer.length) {
-          const height = buffer.readUInt16BE(offset + 5);
-          const width = buffer.readUInt16BE(offset + 7);
-          return { type: 'jpeg', width, height };
-        }
-      }
-      if (offset + 3 >= buffer.length) break;
-      const length = buffer.readUInt16BE(offset + 2);
-      offset += 2 + length;
+  try {
+    // PNG: 89 50 4E 47 0D 0A 1A 0A
+    if (buffer[0] === 0x89 && buffer[1] === 0x50 && buffer[2] === 0x4e && buffer[3] === 0x47) {
+      return { type: 'png', width: buffer.readUInt32BE(16), height: buffer.readUInt32BE(20) };
     }
+    // JPEG: FF D8 FF
+    if (buffer[0] === 0xff && buffer[1] === 0xd8 && buffer[2] === 0xff) {
+      let offset = 2;
+      while (offset < buffer.length) {
+        if (buffer[offset] !== 0xff) { offset++; continue; }
+        const marker = buffer[offset + 1];
+        if ((marker >= 0xc0 && marker <= 0xc3) || (marker >= 0xc5 && marker <= 0xc7) || (marker >= 0xc9 && marker <= 0xcb) || (marker >= 0xcd && marker <= 0xcf)) {
+          if (offset + 8 < buffer.length) {
+            const height = buffer.readUInt16BE(offset + 5);
+            const width = buffer.readUInt16BE(offset + 7);
+            return { type: 'jpeg', width, height };
+          }
+        }
+        if (offset + 3 >= buffer.length) break;
+        const length = buffer.readUInt16BE(offset + 2);
+        if (length <= 0) break;
+        offset += 2 + length;
+      }
+    }
+  } catch {
+    return null;
   }
   return null;
 }
@@ -204,6 +210,7 @@ function fetchHtml(url, ua = 'facebookexternalhit/1.1') {
         if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
           return fetchHtml(res.headers.location, ua).then(resolve);
         }
+        res.on('error', () => resolve(''));
         let data = '';
         res.on('data', chunk => data += chunk);
         res.on('end', () => resolve(data));
@@ -517,120 +524,124 @@ async function processChannelDeep(browser, channel, channelIndex, totalChannels)
   });
 
   for (const [vid, videoInfo] of prioritizedVids) {
-    if (existingVids.has(vid)) continue;
-    if (channelHistorySet.has(vid)) continue;
+    try {
+      if (existingVids.has(vid)) continue;
+      if (channelHistorySet.has(vid)) continue;
 
-    channelHistorySet.add(vid);
+      channelHistorySet.add(vid);
 
-    // 1. Kiểm tra từ khóa nhạc/rác
-    if (isMusicOrTrash(videoInfo.title)) {
-      channelStats.musicRejected++;
-      continue;
+      // 1. Kiểm tra từ khóa nhạc/rác
+      if (isMusicOrTrash(videoInfo.title)) {
+        channelStats.musicRejected++;
+        continue;
+      }
+
+      // 2. Kiểm tra quyền nhúng & đo thời lượng DASH
+      const checkRes = await checkEmbedAndDuration(videoInfo.url);
+      if (!checkRes.ok) {
+        channelStats.embedRejected++;
+        continue;
+      }
+
+      let finalSec = checkRes.durationSec || videoInfo.durationSec || 0;
+
+      // 3. Tiêu chuẩn thời lượng >= 30 phút (1800s)
+      if (finalSec < 1800) {
+        channelStats.shortRejected++;
+        continue;
+      }
+
+      log(`🌟 [PHIM ĐẠT TIÊU CHUẨN]: ${vid} (${formatDuration(finalSec)}) - "${videoInfo.title}"`);
+
+      // 4. Lấy metadata OG tags & tải thumbnail
+      const htmlMeta = await fetchHtml(videoInfo.url);
+      let ogTitle = '';
+      let ogDesc = '';
+      let ogImage = '';
+
+      const titleMatch = htmlMeta.match(/property="og:title" content="([^"]+)"/i);
+      const descMatch = htmlMeta.match(/property="og:description" content="([^"]+)"/i);
+      const imgMatch = htmlMeta.match(/property="og:image" content="([^"]+)"/i);
+
+      if (titleMatch) ogTitle = titleMatch[1];
+      if (descMatch) ogDesc = descMatch[1];
+      if (imgMatch) ogImage = imgMatch[1].replace(/&amp;/g, '&');
+
+      let cleanTitle = sanitizeText(ogTitle || videoInfo.title);
+      cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*[KkMmbB]?\s*lượt xem\s*(·\s*\d+([,.]\d+)?\s*[KkMmbB]?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
+      cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*(cảm xúc|bình luận)\s*(·\s*\d+([,.]\d+)?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
+      cleanTitle = cleanTitle.replace(/^\d+\s*bình luận\s*[|·-]\s*/i, '');
+      cleanTitle = cleanTitle.replace(/^(\(COMBO\s*\d+\s*BỘ\s*\)|COMBO\s*\d+\s*BỘ\s*)[^:]*:\s*/i, '');
+      cleanTitle = cleanTitle.replace(/^(Váy ngủ|Cốc nước|Quần áo|Áo thun)[^:]*:\s*/i, '');
+      cleanTitle = cleanTitle.replace(/.*Xem Full bản nét căng:\s*/i, '');
+      cleanTitle = cleanTitle.replace(/^Full phim:?\s*\(trọn bộ\)\s*<<?\"?/i, '')
+                             .replace(/\"?>>?$/i, '')
+                             .replace(/\(Full Trọn Bộ\)/gi, '')
+                             .trim();
+
+      if (!cleanTitle || cleanTitle.length < 5) cleanTitle = `Phim Review Trọn Bộ ${vid}`;
+      cleanTitle = `${cleanTitle} (Full Trọn Bộ ${formatDuration(finalSec)})`;
+
+      // 5. Thẩm định chất lượng ảnh bìa (Image Quality Gatekeeper)
+      if (!ogImage) {
+        log(`🚫 [LOẠI - KHÔNG TÌM THẤY ẢNH GỐC]: ${vid} - "${videoInfo.title}"`);
+        channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
+        continue;
+      }
+
+      const imgBuf = await fetchBuffer(ogImage);
+      const qualityCheck = validateImageQuality(imgBuf);
+
+      if (!qualityCheck.ok) {
+        log(`🚫 [LOẠI - ẢNH BÌA MÉO MÓ / MỜ / VỠ NÉT]: ${vid} - ${qualityCheck.reason} - "${videoInfo.title}"`);
+        channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
+        continue;
+      }
+
+      const localThumbPath = path.join(THUMBNAILS_DIR, `${vid}.jpg`);
+      fs.writeFileSync(localThumbPath, imgBuf);
+      log(`🖼️ [POSTER ĐẠT CHUẨN]: ${vid}.jpg (${qualityCheck.width}x${qualityCheck.height}, ${qualityCheck.sizeKb} KB, tỷ lệ: ${qualityCheck.ratio.toFixed(2)})`);
+
+      const seriesId = `series-long-${vid}`;
+      const slug = `${slugify(cleanTitle).slice(0, 70)}-${vid.slice(-4)}`;
+
+      const newSeries = {
+        id: seriesId,
+        slug,
+        title: cleanTitle,
+        description: sanitizeText(ogDesc) || `Trọn bộ phim dài đặc sắc: ${cleanTitle}. Thời lượng: ${formatDuration(finalSec)}. Kênh: ${channel.name}.`,
+        thumbnail: `/thumbnails/${vid}.jpg`,
+        coverImage: `/thumbnails/${vid}.jpg`,
+        channelName: channel.name,
+        genres: [channel.category || 'Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt'],
+        categories: ['Phim Dài Full', 'Review Tóm Tắt'],
+        totalEpisodes: 1,
+        featured: true,
+        updatedAt: todayStr,
+        episodes: [
+          {
+            id: `ep-long-${vid}`,
+            seriesId,
+            partNumber: 1,
+            title: cleanTitle,
+            originalUrl: videoInfo.url,
+            embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoInfo.url)}&show_text=0&autoplay=0`,
+            platform: 'facebook',
+            aspectRatio: '16:9',
+            duration: formatDuration(finalSec),
+            thumbnail: `/thumbnails/${vid}.jpg`,
+            viewsCount: (videoInfo.viewsCount && videoInfo.viewsCount > 1000) ? videoInfo.viewsCount : (Math.floor(Math.random() * 40000) + 18000),
+            publishedAt: todayStr
+          }
+        ]
+      };
+
+      newIngested.push(newSeries);
+      existingVids.add(vid);
+      channelStats.moviesAdded++;
+    } catch (vidErr) {
+      log(`⚠️ [LỖI XỬ LÝ VIDEO ${vid}]: ${vidErr.message}`);
     }
-
-    // 2. Kiểm tra quyền nhúng & đo thời lượng DASH
-    const checkRes = await checkEmbedAndDuration(videoInfo.url);
-    if (!checkRes.ok) {
-      channelStats.embedRejected++;
-      continue;
-    }
-
-    let finalSec = checkRes.durationSec || videoInfo.durationSec || 0;
-
-    // 3. Tiêu chuẩn thời lượng >= 30 phút (1800s)
-    if (finalSec < 1800) {
-      channelStats.shortRejected++;
-      continue;
-    }
-
-    log(`🌟 [PHIM ĐẠT TIÊU CHUẨN]: ${vid} (${formatDuration(finalSec)}) - "${videoInfo.title}"`);
-
-    // 4. Lấy metadata OG tags & tải thumbnail
-    const htmlMeta = await fetchHtml(videoInfo.url);
-    let ogTitle = '';
-    let ogDesc = '';
-    let ogImage = '';
-
-    const titleMatch = htmlMeta.match(/property="og:title" content="([^"]+)"/i);
-    const descMatch = htmlMeta.match(/property="og:description" content="([^"]+)"/i);
-    const imgMatch = htmlMeta.match(/property="og:image" content="([^"]+)"/i);
-
-    if (titleMatch) ogTitle = titleMatch[1];
-    if (descMatch) ogDesc = descMatch[1];
-    if (imgMatch) ogImage = imgMatch[1].replace(/&amp;/g, '&');
-
-    let cleanTitle = sanitizeText(ogTitle || videoInfo.title);
-    cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*[KkMmbB]?\s*lượt xem\s*(·\s*\d+([,.]\d+)?\s*[KkMmbB]?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
-    cleanTitle = cleanTitle.replace(/^\d+([,.]\d+)?\s*(cảm xúc|bình luận)\s*(·\s*\d+([,.]\d+)?\s*(cảm xúc|bình luận))?\s*[|·-]\s*/i, '');
-    cleanTitle = cleanTitle.replace(/^\d+\s*bình luận\s*[|·-]\s*/i, '');
-    cleanTitle = cleanTitle.replace(/^(\(COMBO\s*\d+\s*BỘ\s*\)|COMBO\s*\d+\s*BỘ\s*)[^:]*:\s*/i, '');
-    cleanTitle = cleanTitle.replace(/^(Váy ngủ|Cốc nước|Quần áo|Áo thun)[^:]*:\s*/i, '');
-    cleanTitle = cleanTitle.replace(/.*Xem Full bản nét căng:\s*/i, '');
-    cleanTitle = cleanTitle.replace(/^Full phim:?\s*\(trọn bộ\)\s*<<?\"?/i, '')
-                           .replace(/\"?>>?$/i, '')
-                           .replace(/\(Full Trọn Bộ\)/gi, '')
-                           .trim();
-
-    if (!cleanTitle || cleanTitle.length < 5) cleanTitle = `Phim Review Trọn Bộ ${vid}`;
-    cleanTitle = `${cleanTitle} (Full Trọn Bộ ${formatDuration(finalSec)})`;
-
-    // 5. Thẩm định chất lượng ảnh bìa (Image Quality Gatekeeper)
-    if (!ogImage) {
-      log(`🚫 [LOẠI - KHÔNG TÌM THẤY ẢNH GỐC]: ${vid} - "${videoInfo.title}"`);
-      channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
-      continue;
-    }
-
-    const imgBuf = await fetchBuffer(ogImage);
-    const qualityCheck = validateImageQuality(imgBuf);
-
-    if (!qualityCheck.ok) {
-      log(`🚫 [LOẠI - ẢNH BÌA MÉO MÓ / MỜ / VỠ NÉT]: ${vid} - ${qualityCheck.reason} - "${videoInfo.title}"`);
-      channelStats.imageRejected = (channelStats.imageRejected || 0) + 1;
-      continue;
-    }
-
-    const localThumbPath = path.join(THUMBNAILS_DIR, `${vid}.jpg`);
-    fs.writeFileSync(localThumbPath, imgBuf);
-    log(`🖼️ [POSTER ĐẠT CHUẨN]: ${vid}.jpg (${qualityCheck.width}x${qualityCheck.height}, ${qualityCheck.sizeKb} KB, tỷ lệ: ${qualityCheck.ratio.toFixed(2)})`);
-
-    const seriesId = `series-long-${vid}`;
-    const slug = `${slugify(cleanTitle).slice(0, 70)}-${vid.slice(-4)}`;
-
-    const newSeries = {
-      id: seriesId,
-      slug,
-      title: cleanTitle,
-      description: sanitizeText(ogDesc) || `Trọn bộ phim dài đặc sắc: ${cleanTitle}. Thời lượng: ${formatDuration(finalSec)}. Kênh: ${channel.name}.`,
-      thumbnail: `/thumbnails/${vid}.jpg`,
-      coverImage: `/thumbnails/${vid}.jpg`,
-      channelName: channel.name,
-      genres: [channel.category || 'Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt'],
-      categories: ['Phim Dài Full', 'Review Tóm Tắt'],
-      totalEpisodes: 1,
-      featured: true,
-      updatedAt: todayStr,
-      episodes: [
-        {
-          id: `ep-long-${vid}`,
-          seriesId,
-          partNumber: 1,
-          title: cleanTitle,
-          originalUrl: videoInfo.url,
-          embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoInfo.url)}&show_text=0&autoplay=0`,
-          platform: 'facebook',
-          aspectRatio: '16:9',
-          duration: formatDuration(finalSec),
-          thumbnail: `/thumbnails/${vid}.jpg`,
-          viewsCount: (videoInfo.viewsCount && videoInfo.viewsCount > 1000) ? videoInfo.viewsCount : (Math.floor(Math.random() * 40000) + 18000),
-          publishedAt: todayStr
-        }
-      ]
-    };
-
-    newIngested.push(newSeries);
-    existingVids.add(vid);
-    channelStats.moviesAdded++;
   }
 
   // Cập nhật CSDL

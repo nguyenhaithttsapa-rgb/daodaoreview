@@ -5,6 +5,14 @@ import path from 'path';
 const CURSOR_PATH = path.resolve('src/data/deep_crawl_cursor.json');
 const BATCHES_PATH = path.resolve('src/data/all_channel_batches.json');
 
+process.on('uncaughtException', (err) => {
+  console.log(`⚠️ [FOREVER SUPERVISOR UNCAUGHT EXCEPTION]: ${err?.message || err}`);
+});
+
+process.on('unhandledRejection', (reason) => {
+  console.log(`⚠️ [FOREVER SUPERVISOR UNHANDLED REJECTION]: ${reason?.message || reason}`);
+});
+
 function isFinished() {
   if (!fs.existsSync(CURSOR_PATH) || !fs.existsSync(BATCHES_PATH)) return false;
   try {
@@ -20,7 +28,7 @@ function isFinished() {
 
 async function loop() {
   console.log(`================================================================================`);
-  console.log(`🛡️ [FOREVER SUPERVISOR ENGINE] GIÁM SÁT CÀO BẤT TỬ 1.000 KÊNH FACEBOOK`);
+  console.log(`🛡️ [FOREVER SUPERVISOR ENGINE] GIÁM SÁT CÀO BẤT TỬ 2.000 KÊNH FACEBOOK`);
   console.log(`⏱️ TỰ ĐỘNG PHỤC HỒI NGAY LẬP TỨC NẾU CÓ BẤT KỲ SỰ CỐ NÀO TỪ FACEBOOK HOẶC TRÌNH DUYỆT`);
   console.log(`================================================================================\n`);
 
