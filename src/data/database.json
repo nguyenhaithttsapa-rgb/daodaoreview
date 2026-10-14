@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1163282328825362",
+    "slug": "pham-nhan-tu-tien-tap-132-133-thuyet-minh-4k-full-hd-phim-hoat-hinh-3d-5362",
+    "title": "Phàm Nhân Tu Tiên - Tập 132 , 133 Thuyết Minh 4K FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 31:01)",
+    "description": "Phàm Nhân Tu Tiên - Tập 132 , 133 Thuyết Minh 4K FULL HD Phim Hoạt Hình 3D Hay",
+    "thumbnail": "/thumbnails/1163282328825362.jpg",
+    "coverImage": "/thumbnails/1163282328825362.jpg",
+    "channelName": "Hoạt Hình 3D Phàm Nhân Full Mùa #108.4",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-14",
+    "episodes": [
+      {
+        "id": "ep-long-1163282328825362",
+        "seriesId": "series-long-1163282328825362",
+        "partNumber": 1,
+        "title": "Phàm Nhân Tu Tiên - Tập 132 , 133 Thuyết Minh 4K FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 31:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1163282328825362",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1163282328825362&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:01",
+        "thumbnail": "/thumbnails/1163282328825362.jpg",
+        "viewsCount": 209000,
+        "publishedAt": "2026-10-14"
+      }
+    ]
+  },
+  {
     "id": "series-long-1628142895331198",
     "slug": "review-phim-thien-kim-shipper-tap-cuoi-full-me-phim-han-full-tron-bo-1-1198",
     "title": "► Review Phim: Thiên Kim Shipper tập cuối... full | Mê Phim Hàn (Full Trọn Bộ 1:18:16)",
