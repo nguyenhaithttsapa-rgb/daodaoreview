@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1857669984941985",
+    "slug": "review-phim-tron-bo-he-thong-phan-dien-buong-xuoi-noi-dung-phim-to-vu--1985",
+    "title": "Review Phim trọn Bộ Hệ thống phản diện buông xuôi Nội dung phim Tô Vũ xuyên vào trong tiểu thuyết, ràng buộc hệ thống ph | Ra Rạp Rồi Hóng (Full Trọn Bộ 2:40:03)",
+    "description": "Review Phim trọn Bộ Hệ thống phản diện buông xuôi Nội dung phim Tô Vũ xuyên vào trong tiểu thuyết, ràng buộc hệ thống ph",
+    "thumbnail": "/thumbnails/1857669984941985.jpg",
+    "coverImage": "/thumbnails/1857669984941985.jpg",
+    "channelName": "Tiểu Tổ Tông Hệ Thống Hóng Chuyện Thuyết Minh #138.2",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-15",
+    "episodes": [
+      {
+        "id": "ep-long-1857669984941985",
+        "seriesId": "series-long-1857669984941985",
+        "partNumber": 1,
+        "title": "Review Phim trọn Bộ Hệ thống phản diện buông xuôi Nội dung phim Tô Vũ xuyên vào trong tiểu thuyết, ràng buộc hệ thống ph | Ra Rạp Rồi Hóng (Full Trọn Bộ 2:40:03)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1857669984941985",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1857669984941985&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:40:03",
+        "thumbnail": "/thumbnails/1857669984941985.jpg",
+        "viewsCount": 56060,
+        "publishedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
     "id": "series-long-2047954515714079",
     "slug": "review-phim-kungfu-baby-tron-bo-adg-review-full-tron-bo-1-40-29-4079",
     "title": "REVIEW PHIM : KUNGFU BABY.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:40:29)",
