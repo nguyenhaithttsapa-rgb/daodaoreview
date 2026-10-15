@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1267496148918946",
+    "slug": "the-gioi-hoan-my-tap-258-den-tap-261-vu-tru-hoat-hinh-3d-tq-full-tron--8946",
+    "title": "Thế Giới Hoàn Mỹ - Tập 258 đến Tập 261 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 1:05:16)",
+    "description": "Thế Giới Hoàn Mỹ - Tập 258 đến Tập 261",
+    "thumbnail": "/thumbnails/1267496148918946.jpg",
+    "coverImage": "/thumbnails/1267496148918946.jpg",
+    "channelName": "Vũ Trụ 3D Hoàn Mỹ Trọn Bộ 3D #132.2",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-15",
+    "episodes": [
+      {
+        "id": "ep-long-1267496148918946",
+        "seriesId": "series-long-1267496148918946",
+        "partNumber": 1,
+        "title": "Thế Giới Hoàn Mỹ - Tập 258 đến Tập 261 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 1:05:16)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1267496148918946",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1267496148918946&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:05:16",
+        "thumbnail": "/thumbnails/1267496148918946.jpg",
+        "viewsCount": 27000,
+        "publishedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
+    "id": "series-long-2087586445405322",
+    "slug": "the-gioi-hoan-my-tap-243-den-tap-245-vu-tru-hoat-hinh-3d-tq-full-tron--5322",
+    "title": "Thế Giới Hoàn Mỹ - Tập 243 đến Tập 245 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 59:18)",
+    "description": "Thế Giới Hoàn Mỹ - Tập 243 đến Tập 245",
+    "thumbnail": "/thumbnails/2087586445405322.jpg",
+    "coverImage": "/thumbnails/2087586445405322.jpg",
+    "channelName": "Vũ Trụ 3D Hoàn Mỹ Trọn Bộ 3D #132.2",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-15",
+    "episodes": [
+      {
+        "id": "ep-long-2087586445405322",
+        "seriesId": "series-long-2087586445405322",
+        "partNumber": 1,
+        "title": "Thế Giới Hoàn Mỹ - Tập 243 đến Tập 245 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 59:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2087586445405322",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2087586445405322&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "59:18",
+        "thumbnail": "/thumbnails/2087586445405322.jpg",
+        "viewsCount": 20000,
+        "publishedAt": "2026-10-15"
+      }
+    ]
+  },
+  {
     "id": "series-long-1846774323360055",
     "slug": "tien-nghich-tap-138-160-thuyet-minh-full-4k-la-thien-tinh-vuc-hoat-hin-0055",
     "title": "Tiên Nghịch Tập 138 - 160 Thuyết Minh Full 4K | La Thiên Tinh Vực | Hoạt Hình 3D Thuyết Minh (Full Trọn Bộ 6:48:02)",
