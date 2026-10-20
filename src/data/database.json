@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-799438176564464",
+    "slug": "full-phan-2-tieu-dao-si-xuat-son-chuyen-doi-no-chan-dong-tam-gioi-phim-4464",
+    "title": "[Full Phần 2] Tiểu Đạo Sĩ Xuất Sơn | Chuyến Đòi Nợ Chấn Động Tam Giới | Phim Hoạt Hình 3D Hay Nhất | Thế Giới Phim AI (Full Trọn Bộ 1:29:54)",
+    "description": "[Full Phần 2] Tiểu Đạo Sĩ Xuất Sơn | Chuyến Đòi Nợ Chấn Động Tam Giới | Phim Hoạt Hình 3D Hay Nhất",
+    "thumbnail": "/thumbnails/799438176564464.jpg",
+    "coverImage": "/thumbnails/799438176564464.jpg",
+    "channelName": "Đạo Sĩ Xuất Sơn Phim Dài Full #177.4",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-20",
+    "episodes": [
+      {
+        "id": "ep-long-799438176564464",
+        "seriesId": "series-long-799438176564464",
+        "partNumber": 1,
+        "title": "[Full Phần 2] Tiểu Đạo Sĩ Xuất Sơn | Chuyến Đòi Nợ Chấn Động Tam Giới | Phim Hoạt Hình 3D Hay Nhất | Thế Giới Phim AI (Full Trọn Bộ 1:29:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=799438176564464",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D799438176564464&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:29:54",
+        "thumbnail": "/thumbnails/799438176564464.jpg",
+        "viewsCount": 48001,
+        "publishedAt": "2026-10-20"
+      }
+    ]
+  },
+  {
     "id": "series-long-648136108143652",
     "slug": "review-phim-tieu-thu-qua-dem-voi-hoang-de-sinh-tieu-bao-boi-iq-cao-giu-3652",
     "title": "Review Phim: Tiểu Thư Qua Đêm Với Hoàng Đế Sinh Tiểu Bảo Bối IQ Cao Giúp Mẹ Trừng Trị Tiểu tam .Full Tập | Vương Thọ (Full Trọn Bộ 2:13:19)",
