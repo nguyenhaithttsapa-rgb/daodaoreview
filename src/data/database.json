@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-664950783355658",
+    "slug": "tien-nghich-tap-101-den-tap-111-vu-tru-hoat-hinh-3d-tq-full-tron-bo-3--5658",
+    "title": "Tiên Nghịch - Tập 101 đến Tập 111 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 3:13:20)",
+    "description": "Tiên Nghịch - Tập 101 đến Tập 111",
+    "thumbnail": "/thumbnails/664950783355658.jpg",
+    "coverImage": "/thumbnails/664950783355658.jpg",
+    "channelName": "Vũ Trụ 3D Tiên Nghịch Siêu Hot #253.5",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-24",
+    "episodes": [
+      {
+        "id": "ep-long-664950783355658",
+        "seriesId": "series-long-664950783355658",
+        "partNumber": 1,
+        "title": "Tiên Nghịch - Tập 101 đến Tập 111 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 3:13:20)",
+        "originalUrl": "https://www.facebook.com/watch/?v=664950783355658",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D664950783355658&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:13:20",
+        "thumbnail": "/thumbnails/664950783355658.jpg",
+        "viewsCount": 323000,
+        "publishedAt": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1774766376531415",
+    "slug": "tien-nghich-tap-117-den-tap-120-vu-tru-hoat-hinh-3d-tq-full-tron-bo-1--1415",
+    "title": "Tiên Nghịch - Tập 117 đến Tập 120 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 1:12:14)",
+    "description": "Tiên Nghịch - Tập 117 đến Tập 120",
+    "thumbnail": "/thumbnails/1774766376531415.jpg",
+    "coverImage": "/thumbnails/1774766376531415.jpg",
+    "channelName": "Vũ Trụ 3D Tiên Nghịch Siêu Hot #253.5",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-24",
+    "episodes": [
+      {
+        "id": "ep-long-1774766376531415",
+        "seriesId": "series-long-1774766376531415",
+        "partNumber": 1,
+        "title": "Tiên Nghịch - Tập 117 đến Tập 120 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 1:12:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1774766376531415",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1774766376531415&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:12:14",
+        "thumbnail": "/thumbnails/1774766376531415.jpg",
+        "viewsCount": 24000,
+        "publishedAt": "2026-10-24"
+      }
+    ]
+  },
+  {
     "id": "series-long-729640023046173",
     "slug": "vo-luyen-dinh-phong-tap-43-44-45-46-thuyet-minh-4k-full-hd-phim-hoat-h-6173",
     "title": "Võ Luyện Đỉnh Phong - Tập 43,44,45,46 Thuyết Minh 4K FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 39:07)",
