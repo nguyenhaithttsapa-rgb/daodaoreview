@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-39099231083009677",
+    "slug": "xem-tron-bo-o-goc-nho-cua-toi-full-tron-bo-1-38-25-9677",
+    "title": "Xem Trọn Bộ Ở | Góc Nhỏ Của Tôi (Full Trọn Bộ 1:38:25)",
+    "description": "Xem Trọn Bộ Ở",
+    "thumbnail": "/thumbnails/39099231083009677.jpg",
+    "coverImage": "/thumbnails/39099231083009677.jpg",
+    "channelName": "Góc Nhỏ",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-39099231083009677",
+        "seriesId": "series-long-39099231083009677",
+        "partNumber": 1,
+        "title": "Xem Trọn Bộ Ở | Góc Nhỏ Của Tôi (Full Trọn Bộ 1:38:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=39099231083009677",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39099231083009677&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:38:25",
+        "thumbnail": "/thumbnails/39099231083009677.jpg",
+        "viewsCount": 38275,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1437933671488003",
     "slug": "cang-xem-cang-nghien-vi-moi-lan-lao-to-ra-tay-deu-qua-khac-biet-xuyen--8003",
     "title": " Càng xem càng nghiện vì mỗi lần lão tổ ra tay đều quá khác biệt! Xuyên Không Trở Thành Lão Tổ Vô Địch, Mở Bát Liền Nhận Ngay Tu Vi Đại Đế, Cứu Vớt Gia Tộc Trọn bộ tại | Cindy Chavez (Full Trọn Bộ 1:00:00)",
