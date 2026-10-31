@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1461266242630499",
+    "slug": "xem-tiep-phan-2-xem-tai-day-richard-scott-hernandez-full-tron-bo-31-29-0499",
+    "title": "XEM TIẾP PHẦN 2 : XEM TẠI ĐÂY | Richard Scott Hernandez (Full Trọn Bộ 31:29)",
+    "description": "XEM TIẾP PHẦN 2 : XEM TẠI ĐÂY",
+    "thumbnail": "/thumbnails/1461266242630499.jpg",
+    "coverImage": "/thumbnails/1461266242630499.jpg",
+    "channelName": "Richard Scott",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1461266242630499",
+        "seriesId": "series-long-1461266242630499",
+        "partNumber": 1,
+        "title": "XEM TIẾP PHẦN 2 : XEM TẠI ĐÂY | Richard Scott Hernandez (Full Trọn Bộ 31:29)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1461266242630499",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1461266242630499&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:29",
+        "thumbnail": "/thumbnails/1461266242630499.jpg",
+        "viewsCount": 52753,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1162532403451956",
     "slug": "phan-6-tron-bo-202-tap-nhat-mong-thanh-huyen-tieu-su-muoi-doan-sung-nh-1956",
     "title": "Phần 6 (Trọn bộ 202 Tập) | Nhất Mộng Thanh Huyền: Tiểu sư muội đoàn sủng, Nhất Kiếm Phá Cửu Thiên | Tam Giới Review (Full Trọn Bộ 2:56:48)",
