@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1235042771936123",
+    "slug": "review-phim-tron-bo-full-phim-anh-bo-nho-su-dung-cong-nghe-ai-moi-ph-a-6123",
+    "title": "Review phim trọn bộ (full phim) - Anh Bo nhờ sử dụng công nghệ AI mới ph-á-t hi-ệ-n ra thanh mai trúc m-ã của anh chính là ngôi sao âm nhạc đáng giá, … See more See translation | Chris Mariet Bishop-Ryan (Full Trọn Bộ 44:27)",
+    "description": "Review phim trọn bộ (full phim) - Anh Bo nhờ sử dụng công nghệ AI mới ph-á-t hi-ệ-n ra thanh mai trúc m-ã của anh chính là ngôi sao âm nhạc đáng giá, … See more See translation",
+    "thumbnail": "/thumbnails/1235042771936123.jpg",
+    "coverImage": "/thumbnails/1235042771936123.jpg",
+    "channelName": "Review Phim Trung Quốc (Donghua & Phim Ngắn)",
+    "genres": [
+      "Phim Ngắn & Donghua",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1235042771936123",
+        "seriesId": "series-long-1235042771936123",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) - Anh Bo nhờ sử dụng công nghệ AI mới ph-á-t hi-ệ-n ra thanh mai trúc m-ã của anh chính là ngôi sao âm nhạc đáng giá, … See more See translation | Chris Mariet Bishop-Ryan (Full Trọn Bộ 44:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1235042771936123",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1235042771936123&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "44:27",
+        "thumbnail": "/thumbnails/1235042771936123.jpg",
+        "viewsCount": 2300,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-980426294407039",
     "slug": "co-be-nay-rot-cuoc-co-than-phan-gi-ma-duoc-ca-kiem-tong-chu-y-den-vay--7039",
     "title": "Cô bé này rốt cuộc có thân phận gì mà được cả Kiếm Tông chú ý đến vậy? ️ | Phim Ngắn Vietsub (Full Trọn Bộ 4:23:05)",
