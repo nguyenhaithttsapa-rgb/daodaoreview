@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1149191331020381",
+    "slug": "tap-3-phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-0381",
+    "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 33:02)",
+    "description": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1149191331020381.jpg",
+    "coverImage": "/thumbnails/1149191331020381.jpg",
+    "channelName": "Tiểu Thư Đoàn Sủng Thuyết Minh Hot #192",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1149191331020381",
+        "seriesId": "series-long-1149191331020381",
+        "partNumber": 1,
+        "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 33:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1149191331020381",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1149191331020381&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:02",
+        "thumbnail": "/thumbnails/1149191331020381.jpg",
+        "viewsCount": 44521,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2225935531684782",
     "slug": "phim-hay-tron-bo-thien-tam-hai-duong-phim-thuyet-minh-moi-nhat-phim-ai-4782",
     "title": "Phim hay trọn bộ Thiên tâm hải đường, phim thuyết minh mới nhất, phim AI | Linh Linh (Full Trọn Bộ 45:03)",
