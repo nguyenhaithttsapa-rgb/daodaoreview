@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1184359320373356",
+    "slug": "full-tron-bo-full-tieng-gio-trong-dem-anya-purdy-full-tron-bo-2-14-13-3356",
+    "title": "full trọn bộ (full) Tiếng gió trong đêm | Anya Purdy (Full Trọn Bộ 2:14:13)",
+    "description": "full trọn bộ (full) Tiếng gió trong đêm",
+    "thumbnail": "/thumbnails/1184359320373356.jpg",
+    "coverImage": "/thumbnails/1184359320373356.jpg",
+    "channelName": "Anya Purdy",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1184359320373356",
+        "seriesId": "series-long-1184359320373356",
+        "partNumber": 1,
+        "title": "full trọn bộ (full) Tiếng gió trong đêm | Anya Purdy (Full Trọn Bộ 2:14:13)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1184359320373356",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1184359320373356&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:14:13",
+        "thumbnail": "/thumbnails/1184359320373356.jpg",
+        "viewsCount": 44762,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1634667197194950",
+    "slug": "full-tron-bo-full-hon-nhan-lan-hai-anya-purdy-full-tron-bo-1-42-20-4950",
+    "title": "full Trọn bộ (full) Hôn nhân lần hai | Anya Purdy (Full Trọn Bộ 1:42:20)",
+    "description": "full Trọn bộ (full) Hôn nhân lần hai",
+    "thumbnail": "/thumbnails/1634667197194950.jpg",
+    "coverImage": "/thumbnails/1634667197194950.jpg",
+    "channelName": "Anya Purdy",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1634667197194950",
+        "seriesId": "series-long-1634667197194950",
+        "partNumber": 1,
+        "title": "full Trọn bộ (full) Hôn nhân lần hai | Anya Purdy (Full Trọn Bộ 1:42:20)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1634667197194950",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1634667197194950&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:42:20",
+        "thumbnail": "/thumbnails/1634667197194950.jpg",
+        "viewsCount": 28423,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-4644087829248330",
     "slug": "full-tron-bo-cuoi-truoc-yeu-sau-kem-review-full-tron-bo-3-00-29-8330",
     "title": "Full Trọn Bộ: Cưới Trước Yêu Sau | Kem Review (Full Trọn Bộ 3:00:29)",
