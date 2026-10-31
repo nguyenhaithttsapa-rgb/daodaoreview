@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1141808441375069",
+    "slug": "review-phim-co-gai-khong-ngo-chang-trai-ma-co-vua-treu-lai-chinh-la-se-5069",
+    "title": "REVIEW PHIM : Cô gái không ngờ chàng trai mà cô vừa trêu lại chính là sếp mới ở công ty .FULL TRỌN BỘ | Phimne (Full Trọn Bộ 1:59:05)",
+    "description": "REVIEW PHIM : Cô gái không ngờ chàng trai mà cô vừa trêu lại chính là sếp mới ở công ty .FULL TRỌN BỘ",
+    "thumbnail": "/thumbnails/1141808441375069.jpg",
+    "coverImage": "/thumbnails/1141808441375069.jpg",
+    "channelName": "Phimne",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1141808441375069",
+        "seriesId": "series-long-1141808441375069",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : Cô gái không ngờ chàng trai mà cô vừa trêu lại chính là sếp mới ở công ty .FULL TRỌN BỘ | Phimne (Full Trọn Bộ 1:59:05)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1141808441375069",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1141808441375069&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:59:05",
+        "thumbnail": "/thumbnails/1141808441375069.jpg",
+        "viewsCount": 40397,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2021915105397825",
     "slug": "phim-hay-tron-bo-moi-nhat-luong-duyen-moi-phim-co-trang-trung-quoc-meo-7825",
     "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | Mèo Rì Viu (Full Trọn Bộ 2:25:41)",
