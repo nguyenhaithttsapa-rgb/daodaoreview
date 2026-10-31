@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1830500714308309",
+    "slug": "full-tron-bo-phim-tong-tai-hay-nhat-qua-dat-xem-la-nghien-full-tron-bo-8309",
+    "title": "Full trọn bộ Phim tổng tài hay nhất quả đất. | Xem Là Nghiền (Full Trọn Bộ 2:08:45)",
+    "description": "Full trọn bộ Phim tổng tài hay nhất quả đất.",
+    "thumbnail": "/thumbnails/1830500714308309.jpg",
+    "coverImage": "/thumbnails/1830500714308309.jpg",
+    "channelName": "Phim Ngắn Tổng Tài Hay",
+    "genres": [
+      "Tổng Tài & Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1830500714308309",
+        "seriesId": "series-long-1830500714308309",
+        "partNumber": 1,
+        "title": "Full trọn bộ Phim tổng tài hay nhất quả đất. | Xem Là Nghiền (Full Trọn Bộ 2:08:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1830500714308309",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1830500714308309&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:08:45",
+        "thumbnail": "/thumbnails/1830500714308309.jpg",
+        "viewsCount": 51834,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-883405377494011",
     "slug": "review-full-tron-bo-review-full-tron-bo-thanh-nien-xuyen-khong-kich-ho-4011",
     "title": "Review Full Trọn Bộ: Review Full Trọn Bộ -Thanh niên xuyên không kích hoạt hệ thống điểm danh, âm thầm tu luyện đạt cảnh giới vô địch | Đồ Hay Mỗi Ngày (Full Trọn Bộ 2:42:48)",
