@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-383528269190764",
+    "slug": "linh-xem-tron-bo-fan-preview-full-tron-bo-1-20-35-0764",
+    "title": "Linh xem trọn bộ: | Fan Preview (Full Trọn Bộ 1:20:35)",
+    "description": "Linh xem trọn bộ:",
+    "thumbnail": "/thumbnails/383528269190764.jpg",
+    "coverImage": "/thumbnails/383528269190764.jpg",
+    "channelName": "Phương Linh",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-383528269190764",
+        "seriesId": "series-long-383528269190764",
+        "partNumber": 1,
+        "title": "Linh xem trọn bộ: | Fan Preview (Full Trọn Bộ 1:20:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=383528269190764",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D383528269190764&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:20:35",
+        "thumbnail": "/thumbnails/383528269190764.jpg",
+        "viewsCount": 109000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-902972059096229",
     "slug": "phim-hay-tron-bo-moi-nhat-luong-duyen-moi-phim-co-trang-trung-quoc-hoi-6229",
     "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | Hội Quán Phim Trung Quốc (Full Trọn Bộ 2:25:41)",
