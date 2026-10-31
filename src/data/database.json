@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-902972059096229",
+    "slug": "phim-hay-tron-bo-moi-nhat-luong-duyen-moi-phim-co-trang-trung-quoc-hoi-6229",
+    "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | Hội Quán Phim Trung Quốc (Full Trọn Bộ 2:25:41)",
+    "description": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc ...",
+    "thumbnail": "/thumbnails/902972059096229.jpg",
+    "coverImage": "/thumbnails/902972059096229.jpg",
+    "channelName": "Mê Phim - Cổ Trang",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-902972059096229",
+        "seriesId": "series-long-902972059096229",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | Hội Quán Phim Trung Quốc (Full Trọn Bộ 2:25:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=902972059096229",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D902972059096229&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:25:41",
+        "thumbnail": "/thumbnails/902972059096229.jpg",
+        "viewsCount": 19000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1297600345359729",
     "slug": "phim-hay-moi-ngay-on-reels-full-tron-bo-1-50-22-9729",
     "title": "Phim Hay Mỗi Ngày on Reels (Full Trọn Bộ 1:50:22)",
