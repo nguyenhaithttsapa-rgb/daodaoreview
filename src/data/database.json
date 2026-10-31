@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1623640831537668",
+    "slug": "review-phim-tron-bo-xuyen-khong-vao-ten-ngoc-quan-xam-ne-full-tron-bo--7668",
+    "title": "Review phim(trọn bộ) xuyên không vào tên ngốc | Quân Xàm Nè (Full Trọn Bộ 2:14:08)",
+    "description": "Review phim(trọn bộ) xuyên không vào tên ngốc",
+    "thumbnail": "/thumbnails/1623640831537668.jpg",
+    "coverImage": "/thumbnails/1623640831537668.jpg",
+    "channelName": "Ngọc Review Phim",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1623640831537668",
+        "seriesId": "series-long-1623640831537668",
+        "partNumber": 1,
+        "title": "Review phim(trọn bộ) xuyên không vào tên ngốc | Quân Xàm Nè (Full Trọn Bộ 2:14:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1623640831537668",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1623640831537668&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:14:08",
+        "thumbnail": "/thumbnails/1623640831537668.jpg",
+        "viewsCount": 49000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "series-long-960922555472849",
+    "slug": "review-phim-tron-bo-full-phim-tieu-thu-gia-ngoc-yeu-full-tron-bo-1-14--2849",
+    "title": "Review phim trọn bộ (full phim) - Tiểu Thư Giả Ngốc | Yêu (Full Trọn Bộ 1:14:47)",
+    "description": "Review phim trọn bộ (full phim) - Tiểu Thư Giả Ngốc",
+    "thumbnail": "/thumbnails/960922555472849.jpg",
+    "coverImage": "/thumbnails/960922555472849.jpg",
+    "channelName": "Ngọc Review Phim",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-960922555472849",
+        "seriesId": "series-long-960922555472849",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) - Tiểu Thư Giả Ngốc | Yêu (Full Trọn Bộ 1:14:47)",
+        "originalUrl": "https://www.facebook.com/watch/?v=960922555472849",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D960922555472849&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:14:47",
+        "thumbnail": "/thumbnails/960922555472849.jpg",
+        "viewsCount": 41386,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1511551507473651",
     "slug": "phim-hay-tron-bo-noi-lai-to-duyen-phim-thuyet-minh-moi-nhat-phim-ai-da-3651",
     "title": "Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 56:41)",
