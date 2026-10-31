@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1515609606982893",
+    "slug": "full-mua-6-thieu-nien-khong-linh-can-nhat-duoc-tien-kiem-moi-nhat-kiem-2893",
+    "title": "FULL MÙA 6 | THIẾU NIÊN KHÔNG LINH CĂN NHẶT ĐƯỢC TIÊN KIẾM, MỖI NHÁT KIẾM ĐỀU TĂNG TU VI | LQT YI (Full Trọn Bộ 2:19:03)",
+    "description": "FULL MÙA 6 | THIẾU NIÊN KHÔNG LINH CĂN NHẶT ĐƯỢC TIÊN KIẾM, MỖI NHÁT KIẾM ĐỀU TĂNG TU VI",
+    "thumbnail": "/thumbnails/1515609606982893.jpg",
+    "coverImage": "/thumbnails/1515609606982893.jpg",
+    "channelName": "LQT YI",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1515609606982893",
+        "seriesId": "series-long-1515609606982893",
+        "partNumber": 1,
+        "title": "FULL MÙA 6 | THIẾU NIÊN KHÔNG LINH CĂN NHẶT ĐƯỢC TIÊN KIẾM, MỖI NHÁT KIẾM ĐỀU TĂNG TU VI | LQT YI (Full Trọn Bộ 2:19:03)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1515609606982893",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1515609606982893&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:19:03",
+        "thumbnail": "/thumbnails/1515609606982893.jpg",
+        "viewsCount": 3000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2676806509441940",
     "slug": "full-mua-4-5-son-hai-tang-khu-thieu-nien-mu-thuc-tinh-loi-linh-can-ngh-1940",
     "title": "Full Mùa 4+5| Sơn Hải Tàng Khư – Thiếu Niên Mù Thức Tỉnh Lôi Linh Căn, Nghịch Thiên Tu Tiên Cảnh báo: Nội dung video dành cho người trên 13 tuổi, Video được tạo ra bầng AI nhắm mục đích giải trí. Mọi tình tiết, nội dung và nhân vật trong video đều là hư cấu và không có thật, không làm theo dưới mọi hình thức. Thiếu niên mù Lý Quan Kỳ từ nhỏ đã trải qua muôn vàn gian khổ. Cậu được lão nhân thần bí Tô Huyền thu nhận làm đệ tử, truyền dạy công pháp, rèn luyện thể phách và ban tặng kiếm hạp. Năm mười bốn tuổi, Lý Quan Kỳ gia nhập Đại Hạ Kiếm Tông, thức tỉnh Thánh phẩm Lôi hệ linh căn, tốc độ tu luyện vượt xa những người cùng thế hệ. Trong kiếm hạp của cậu ẩn giấu một kiếm linh kiêu ngạo, âm thầm chỉ dẫn cậu trên con đường tu hành. Sau khi nhập tông, Lý Quan Kỳ vượt qua vô số bí cảnh, dẫn dắt đồng đội nghênh chiến cường địch, từng bước quật khởi, cuối cùng bước lên con đường đại đạo của riêng mình. | Tiểu Miêu Mê Phim (Full Trọn Bộ 4:22:41)",
@@ -39,8 +76,8 @@
   {
     "id": "series-long-2846045259111872",
     "slug": "vay-ngu-xuyen-thau-kem-quan-chip-xem-full-tai-day-phan-34-nhat-kiem-tr-1872",
-    "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
-    "description": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch...",
+    "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
+    "description": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch...",
     "thumbnail": "/thumbnails/2846045259111872.jpg",
     "coverImage": "/thumbnails/2846045259111872.jpg",
     "channelName": "Hiện Đại Về Cổ Đại Vô Địch Hài Hước Trọn Bộ #90.4",
@@ -53,7 +90,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 3,
     "featured": true,
     "updatedAt": "2026-10-31",
     "episodes": [
@@ -61,7 +98,7 @@
         "id": "ep-long-2846045259111872",
         "seriesId": "series-long-2846045259111872",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=2846045259111872",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2846045259111872&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -70,6 +107,34 @@
         "thumbnail": "/thumbnails/2846045259111872.jpg",
         "viewsCount": 52472,
         "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-2103690096908335",
+        "seriesId": "series-long-2846045259111872",
+        "partNumber": 2,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/thumbnails/2103690096908335.jpg",
+        "viewsCount": 28567,
+        "publishedAt": "2026-10-14"
+      },
+      {
+        "id": "ep-long-1077513335125349",
+        "seriesId": "series-long-2846045259111872",
+        "partNumber": 3,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/thumbnails/1077513335125349.jpg",
+        "viewsCount": 46632,
+        "publishedAt": "2026-10-13"
       }
     ]
   },
@@ -18590,8 +18655,8 @@
   {
     "id": "series-long-2098838787416468",
     "slug": "do-ngu-xuyen-thau-goi-cam-quyen-ru-xem-full-tai-day-xuyen-khong-thanh--6468",
-    "title": " Đồ ngủ xuyên thấu gợi cảm quyến rũ : Xem Full Tại Đây : Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống Nhất Thiên Hạ | Lê Thị (Full Trọn Bộ 4:07:46)",
-    "description": " Đồ ngủ xuyên thấu gợi cảm quyến rũ : Xem Full Tại Đây : Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống...",
+    "title": "Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống Nhất Thiên Hạ | Lê Thị (Full Trọn Bộ 4:07:46)",
+    "description": "Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống...",
     "thumbnail": "/thumbnails/2098838787416468.jpg",
     "coverImage": "/thumbnails/2098838787416468.jpg",
     "channelName": "Vương Giả Đô Thị Tiêu Tiền Triệu View #230.4",
@@ -18612,7 +18677,7 @@
         "id": "ep-long-2098838787416468",
         "seriesId": "series-long-2098838787416468",
         "partNumber": 1,
-        "title": " Đồ ngủ xuyên thấu gợi cảm quyến rũ : Xem Full Tại Đây : Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống Nhất Thiên Hạ | Lê Thị (Full Trọn Bộ 4:07:46)",
+        "title": "Xuyên Không Thành Thế Tử Bắc Lương Vương Ta Có Hệ Thống TRIỆU HỒI CƯỜNG GIẢ Thống Nhất Thiên Hạ | Lê Thị (Full Trọn Bộ 4:07:46)",
         "originalUrl": "https://www.facebook.com/watch/?v=2098838787416468",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2098838787416468&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -20395,8 +20460,8 @@
   {
     "id": "series-long-1776977166845800",
     "slug": "vay-ngu-xuyen-thau-kem-quan-chip-xem-full-tai-day-nhat-niem-nhan-gian--5800",
-    "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Sophronia (Full Trọn Bộ 1:01:09)",
-    "description": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết...",
+    "title": "Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Sophronia (Full Trọn Bộ 1:01:09)",
+    "description": "Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết...",
     "thumbnail": "/thumbnails/1776977166845800.jpg",
     "coverImage": "/thumbnails/1776977166845800.jpg",
     "channelName": "Phản Xuyên Cười Té Ghế Đặc Sắc Nhất #219.3",
@@ -20409,7 +20474,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
     "updatedAt": "2026-10-22",
     "episodes": [
@@ -20417,7 +20482,7 @@
         "id": "ep-long-1776977166845800",
         "seriesId": "series-long-1776977166845800",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Sophronia (Full Trọn Bộ 1:01:09)",
+        "title": "Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Sophronia (Full Trọn Bộ 1:01:09)",
         "originalUrl": "https://www.facebook.com/watch/?v=1776977166845800",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1776977166845800&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -20426,6 +20491,20 @@
         "thumbnail": "/thumbnails/1776977166845800.jpg",
         "viewsCount": 23031,
         "publishedAt": "2026-10-22"
+      },
+      {
+        "id": "ep-long-1755013343179460",
+        "seriesId": "series-long-1776977166845800",
+        "partNumber": 2,
+        "title": "Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Serena (Full Trọn Bộ 1:01:10)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1755013343179460",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1755013343179460&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:01:10",
+        "thumbnail": "/thumbnails/1755013343179460.jpg",
+        "viewsCount": 45777,
+        "publishedAt": "2026-10-15"
       }
     ]
   },
@@ -21098,8 +21177,8 @@
   {
     "id": "series-long-2343057533128296",
     "slug": "vay-ngu-xuyen-thau-la-loi-kem-quan-chip-xem-full-tai-day-an-danh-hanh--8296",
-    "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc Đặc Sắc Thuyết Minh 2026 | Roxana (Full Trọn Bộ 1:00:33)",
-    "description": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc...",
+    "title": "Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc Đặc Sắc Thuyết Minh 2026 | Roxana (Full Trọn Bộ 1:00:33)",
+    "description": "Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc...",
     "thumbnail": "/thumbnails/2343057533128296.jpg",
     "coverImage": "/thumbnails/2343057533128296.jpg",
     "channelName": "Đô Thị Tái Sinh Đặc Sắc #214.5",
@@ -21120,7 +21199,7 @@
         "id": "ep-long-2343057533128296",
         "seriesId": "series-long-2343057533128296",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc Đặc Sắc Thuyết Minh 2026 | Roxana (Full Trọn Bộ 1:00:33)",
+        "title": "Ẩn Danh Hành Giả - Tập 13 | Phim Kiếm Hiệp Hành Động Cổ Trang Trung Quốc Đặc Sắc Thuyết Minh 2026 | Roxana (Full Trọn Bộ 1:00:33)",
         "originalUrl": "https://www.facebook.com/watch/?v=2343057533128296",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2343057533128296&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -37610,8 +37689,8 @@
   {
     "id": "series-long-1755013343179460",
     "slug": "vay-ngu-xuyen-thau-la-loi-kem-quan-chip-xem-full-tai-day-nhat-niem-nha-9460",
-    "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Serena (Full Trọn Bộ 1:01:10)",
-    "description": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc...",
+    "title": "Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Serena (Full Trọn Bộ 1:01:10)",
+    "description": "Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc...",
     "thumbnail": "/thumbnails/1755013343179460.jpg",
     "coverImage": "/thumbnails/1755013343179460.jpg",
     "channelName": "Tra Nam Tạ Lỗi Thuyết Minh #134.5",
@@ -37624,15 +37703,29 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
     "updatedAt": "2026-10-15",
     "episodes": [
       {
-        "id": "ep-long-1755013343179460",
+        "id": "ep-long-1776977166845800",
         "seriesId": "series-long-1755013343179460",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Serena (Full Trọn Bộ 1:01:10)",
+        "title": "Nhất Niệm Nhân Gian - Tập 2 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Sophronia (Full Trọn Bộ 1:01:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1776977166845800",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1776977166845800&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:01:09",
+        "thumbnail": "/thumbnails/1776977166845800.jpg",
+        "viewsCount": 23031,
+        "publishedAt": "2026-10-22"
+      },
+      {
+        "id": "ep-long-1755013343179460",
+        "seriesId": "series-long-1755013343179460",
+        "partNumber": 2,
+        "title": "Nhất Niệm Nhân Gian - Tập 4 | Phim Thanh Xuân Ngôn Tình Trung Quốc Đặc Sắc Thuyết Minh 2026 | Serena (Full Trọn Bộ 1:01:10)",
         "originalUrl": "https://www.facebook.com/watch/?v=1755013343179460",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1755013343179460&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -39570,8 +39663,8 @@
   {
     "id": "series-long-1467764975233898",
     "slug": "set-vay-ngu-xuyen-thau-sieu-goi-cam-kem-quan-chip-co-video-test-form-t-3898",
-    "title": " Set váy ngủ xuyên thấu siêu gợi cảm (Kèm quần chip + Có Video test form thật 100%) : Xem Full Tại Đây : Xuyên Không Qua Lại HAI THẾ GIỚI, Vua Bếp Dùng Món Ăn Hiện Đại Chinh Phục Cả Triều Đình | Nguyễn Khánh Linh (Full Trọn Bộ 1:37:25)",
-    "description": " Set váy ngủ xuyên thấu siêu gợi cảm (Kèm quần chip + Có Video test form thật 100%) : Xem Full Tại Đây : Xuyên Không Qua Lại HAI THẾ GIỚI,...",
+    "title": "Xuyên Không Qua Lại HAI THẾ GIỚI, Vua Bếp Dùng Món Ăn Hiện Đại Chinh Phục Cả Triều Đình | Nguyễn Khánh Linh (Full Trọn Bộ 1:37:25)",
+    "description": "Xuyên Không Qua Lại HAI THẾ GIỚI,...",
     "thumbnail": "/thumbnails/1467764975233898.jpg",
     "coverImage": "/thumbnails/1467764975233898.jpg",
     "channelName": "Phản Xuyên Khuấy Đảo Triều Đình Xem Cười Xỉu #130.2",
@@ -39592,7 +39685,7 @@
         "id": "ep-long-1467764975233898",
         "seriesId": "series-long-1467764975233898",
         "partNumber": 1,
-        "title": " Set váy ngủ xuyên thấu siêu gợi cảm (Kèm quần chip + Có Video test form thật 100%) : Xem Full Tại Đây : Xuyên Không Qua Lại HAI THẾ GIỚI, Vua Bếp Dùng Món Ăn Hiện Đại Chinh Phục Cả Triều Đình | Nguyễn Khánh Linh (Full Trọn Bộ 1:37:25)",
+        "title": "Xuyên Không Qua Lại HAI THẾ GIỚI, Vua Bếp Dùng Món Ăn Hiện Đại Chinh Phục Cả Triều Đình | Nguyễn Khánh Linh (Full Trọn Bộ 1:37:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1467764975233898",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1467764975233898&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -42543,14 +42636,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
     "updatedAt": "2026-10-14",
     "episodes": [
       {
-        "id": "ep-long-2103690096908335",
+        "id": "ep-long-2846045259111872",
         "seriesId": "series-long-2103690096908335",
         "partNumber": 1,
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2846045259111872",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2846045259111872&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:02:07",
+        "thumbnail": "/thumbnails/2846045259111872.jpg",
+        "viewsCount": 52472,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-2103690096908335",
+        "seriesId": "series-long-2103690096908335",
+        "partNumber": 2,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -42564,7 +42671,7 @@
       {
         "id": "ep-long-1077513335125349",
         "seriesId": "series-long-2103690096908335",
-        "partNumber": 2,
+        "partNumber": 3,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -44981,8 +45088,8 @@
   {
     "id": "series-long-1786252152614748",
     "slug": "vay-ngu-xuyen-thau-la-loi-kem-quan-chip-xem-full-tai-day-quyen-khuynh--4748",
-    "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
-    "description": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế...",
+    "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
+    "description": "QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế...",
     "thumbnail": "/thumbnails/1786252152614748.jpg",
     "coverImage": "/thumbnails/1786252152614748.jpg",
     "channelName": "Trùng Sinh Khuấy Đảo Triều Đình Siêu Hot #114",
@@ -45003,7 +45110,7 @@
         "id": "ep-long-1786252152614748",
         "seriesId": "series-long-1786252152614748",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu lả lơi(Kèm quần chip) : Xem Full Tại Đây : QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
         "originalUrl": "https://www.facebook.com/watch/?v=1786252152614748",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1786252152614748&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -46387,8 +46494,8 @@
   {
     "id": "series-long-1643417910777092",
     "slug": "vay-ngu-goi-cam-kem-quan-lot-khe-xem-full-tai-day-xuyen-khong-thanh-ke-7092",
-    "title": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến Cả Làng Ngỡ Ngàng | Marcus (Full Trọn Bộ 1:44:03)",
-    "description": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến...",
+    "title": "Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến Cả Làng Ngỡ Ngàng | Marcus (Full Trọn Bộ 1:44:03)",
+    "description": "Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến...",
     "thumbnail": "/thumbnails/1643417910777092.jpg",
     "coverImage": "/thumbnails/1643417910777092.jpg",
     "channelName": "Xuyên Không Làm Hoàng Đế Xem Cười Xỉu #106.4",
@@ -46409,7 +46516,7 @@
         "id": "ep-long-1643417910777092",
         "seriesId": "series-long-1643417910777092",
         "partNumber": 1,
-        "title": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến Cả Làng Ngỡ Ngàng | Marcus (Full Trọn Bộ 1:44:03)",
+        "title": "Xuyên Không Thành Kẻ Cờ Bạc Nợ Nần Bán Vợ, Chàng Trai Nghịch Tập Làm Giàu Khiến Cả Làng Ngỡ Ngàng | Marcus (Full Trọn Bộ 1:44:03)",
         "originalUrl": "https://www.facebook.com/watch/?v=1643417910777092",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1643417910777092&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -46424,8 +46531,8 @@
   {
     "id": "series-long-1676237267622108",
     "slug": "vay-ngu-xuyen-thau-kem-quan-chip-xem-full-tai-day-thien-menh-tuong-phu-2108",
-    "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế Vương Bá Đạo | Meliora (Full Trọn Bộ 35:53)",
-    "description": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế...",
+    "title": "THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế Vương Bá Đạo | Meliora (Full Trọn Bộ 35:53)",
+    "description": "THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế...",
     "thumbnail": "/thumbnails/1676237267622108.jpg",
     "coverImage": "/thumbnails/1676237267622108.jpg",
     "channelName": "Xuyên Không Làm Hoàng Đế Xem Cười Xỉu #106.4",
@@ -46446,7 +46553,7 @@
         "id": "ep-long-1676237267622108",
         "seriesId": "series-long-1676237267622108",
         "partNumber": 1,
-        "title": " Váy ngủ xuyên thấu kèm quần chíp : Xem Full Tại Đây : THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế Vương Bá Đạo | Meliora (Full Trọn Bộ 35:53)",
+        "title": "THIÊN MỆNH TƯƠNG PHÙNG - Tập 08 | Cô Gái Robot Xuyên Không Kết Duyên Oan Gia Với Đế Vương Bá Đạo | Meliora (Full Trọn Bộ 35:53)",
         "originalUrl": "https://www.facebook.com/watch/?v=1676237267622108",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1676237267622108&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -47511,8 +47618,8 @@
   {
     "id": "series-long-1437693328563470",
     "slug": "vay-ngu-goi-cam-kem-quan-lot-khe-xem-full-tai-day-de-ton-ha-gioi-tap-c-3470",
-    "title": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc Thuyết Minh | Matilda (Full Trọn Bộ 49:48)",
-    "description": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc...",
+    "title": "Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc Thuyết Minh | Matilda (Full Trọn Bộ 49:48)",
+    "description": "Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc...",
     "thumbnail": "/thumbnails/1437693328563470.jpg",
     "coverImage": "/thumbnails/1437693328563470.jpg",
     "channelName": "Đạo Sĩ Cứu Người Thuyết Minh #105.3",
@@ -47533,7 +47640,7 @@
         "id": "ep-long-1437693328563470",
         "seriesId": "series-long-1437693328563470",
         "partNumber": 1,
-        "title": " Váy ngủ gợi cảm + Kèm Quần Lọt Khe : Xem Full Tại Đây : Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc Thuyết Minh | Matilda (Full Trọn Bộ 49:48)",
+        "title": "Đế Tôn Hạ Giới - Tập Cuối | Phim Tu Tiên Hiện Đại Hay Nhất | Phim Trung Quốc Thuyết Minh | Matilda (Full Trọn Bộ 49:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1437693328563470",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1437693328563470&show_text=0&autoplay=0",
         "platform": "facebook",
@@ -52662,14 +52769,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
     "updatedAt": "2026-10-13",
     "episodes": [
       {
-        "id": "ep-long-2103690096908335",
+        "id": "ep-long-2846045259111872",
         "seriesId": "series-long-1077513335125349",
         "partNumber": 1,
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2846045259111872",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2846045259111872&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:02:07",
+        "thumbnail": "/thumbnails/2846045259111872.jpg",
+        "viewsCount": 52472,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-2103690096908335",
+        "seriesId": "series-long-1077513335125349",
+        "partNumber": 2,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -52683,7 +52804,7 @@
       {
         "id": "ep-long-1077513335125349",
         "seriesId": "series-long-1077513335125349",
-        "partNumber": 2,
+        "partNumber": 3,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
