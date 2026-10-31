@@ -22,7 +22,6 @@ function log(msg) {
   console.log(line);
   try {
     fs.appendFileSync(LOG_PATH, line + '\n', 'utf8');
-    // Đồng bộ cả vào deep_crawl.log để mọi công cụ theo dõi đều đọc được
     fs.appendFileSync(path.join(LOG_DIR, 'deep_crawl.log'), line + '\n', 'utf8');
   } catch {}
 }
@@ -47,9 +46,24 @@ function decodeHtmlEntities(str) {
     .replace(/&apos;/g, "'");
 }
 
+function cleanAffiliateSpam(str) {
+  if (!str) return '';
+  return str
+    .replace(/-{3,}\s*Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Trợ thủ đắc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Trợ thủ đặc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Cây chà sàn 3 trong 1.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Cây lau nhà tự vắt 2 ngăn/gi, ' ')
+    .replace(/Kệ Để Đồ Nhà Bếp\s*/gi, '')
+    .replace(/Quý vị đi ngang cho em xin 1 lượt click Shopee.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
 function sanitizeText(str) {
   if (!str) return '';
-  let clean = decodeHtmlEntities(str);
+  let clean = cleanAffiliateSpam(decodeHtmlEntities(str));
   return clean
     .replace(/(?:^|\s)#[a-zA-Z0-9_\p{L}]+/gu, ' ')
     .replace(/(https?:\/\/[^\s]+)/g, '')
@@ -238,39 +252,62 @@ async function checkEmbedAndDuration(videoUrl) {
   return { ok: true, durationSec, htmlLength: html.length };
 }
 
+const INVALID_BASE_NAMES = new Set([
+  'full', 'review', 'phim', 'tron bo', 'tom tat', 'phim hay', 'phim ngan',
+  'tap 1', 'tap 2', 'tap 3', 'phan 1', 'phan 2', 'mua 1', 'mua 2',
+  'mua 3', 'mua 4', 'mua 5', 'full phim', 'review phim', 'hoat hinh 3d',
+  'phim hay tron bo', 'thuyet minh', 'vietsub'
+]);
+
 function extractCoreSeriesName(title) {
   if (!title) return null;
-  let t = title
+  let t = cleanAffiliateSpam(title)
     .replace(/\(Full Trọn Bộ[^)]*\)/gi, '')
+    .replace(/\(Nội dung giải trí[^)]*\)/gi, '')
     .replace(/\|[^|]+$/g, '')
-    .replace(/^\[[^\]]+\]\s*/g, '')
+    .replace(/^\s*\[[^\]]+\]\s*/g, '')
+    .replace(/^[🔥🎬📺💥⚡✨\s*]+/u, '')
+    .replace(/[*_~`]+/g, '')
     .trim();
 
-  const seasonMatch = t.match(/^(.+?)\s*[-–—:|]?\s*(?:Mùa|Phần|Tập|Part|Ep|P)\s*(\d+)/i);
-  if (seasonMatch && seasonMatch[1].trim().length >= 6) {
-    let base = seasonMatch[1]
-      .replace(/^[🔥🎬📺💥⚡✨\s*]+/u, '')
-      .replace(/[*_~`]+/g, '')
+  // Mẫu 1: "Mùa 1 - Mùa 3 | Tiên Nhãn ..."
+  const prefixSeasonMatch = t.match(/^(?:Mùa|Phần|Tập|Part|Ep)\s*(\d+)(?:\s*[-+–]\s*(?:Mùa|Phần|Tập|P)?\s*\d+)?(?:\s*\([^)]*\))?\s*\|\s*([^|(:\n]{6,60})/i);
+  if (prefixSeasonMatch) {
+    const partNum = parseInt(prefixSeasonMatch[1], 10);
+    let base = prefixSeasonMatch[2].trim();
+    const words = base.split(/\s+/);
+    if (words.length > 8) base = words.slice(0, 6).join(' ');
+    const baseKey = base.toLowerCase();
+    if (base.length >= 6 && !INVALID_BASE_NAMES.has(baseKey) && !/^(mùa|phần|tập)\s*\d+/i.test(base)) {
+      return { baseKey, baseName: base, partNum };
+    }
+  }
+
+  // Mẫu 2: "Vạn Yêu Đồ Lục Truyện - Trọn Bộ Mùa 7 ..."
+  const suffixSeasonMatch = t.match(/^([^|(\n]{6,60}?)\s*[-–—:|]\s*(?:Trọn Bộ\s*)?(?:Mùa|Phần|Tập|Part|Ep|P)\s*(\d+)/i);
+  if (suffixSeasonMatch) {
+    let base = suffixSeasonMatch[1]
+      .replace(/^(?:FULL\s+|REVIEW\s+|PHIM\s+)/i, '')
       .trim();
-    const num = parseInt(seasonMatch[2], 10);
-    if (base.length >= 6 && base.length <= 65 && !/^(full|review|phim|trọn bộ|tóm tắt)$/i.test(base)) {
-      return { baseKey: base.toLowerCase(), baseName: base, partNum: num };
+    const partNum = parseInt(suffixSeasonMatch[2], 10);
+    const baseKey = base.toLowerCase();
+    if (
+      base.length >= 6 &&
+      base.length <= 55 &&
+      !INVALID_BASE_NAMES.has(baseKey) &&
+      !/^(?:mùa|phần|tập|part|ep|p)\s*\d+/i.test(base)
+    ) {
+      return { baseKey, baseName: base, partNum };
     }
   }
   return null;
 }
 
-/**
- * Xây dựng danh sách mục tiêu cào tập mới từ:
- * 1. Các bộ phim/tập phim nhiều phần & các Fanpage thực tế đã có sẵn trong database.json
- * 2. Các kênh đã cào trong all_channel_batches.json & channel_crawl_history.json
- */
 function buildExistingTargets() {
   const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
   const batches = fs.existsSync(BATCHES_PATH) ? JSON.parse(fs.readFileSync(BATCHES_PATH, 'utf8')) : [];
   const deepCursor = fs.existsSync(DEEP_CURSOR_PATH) ? JSON.parse(fs.readFileSync(DEEP_CURSOR_PATH, 'utf8')) : { currentChannelIndex: 1417 };
 
-  // Map tên kênh -> thông tin kênh trong batches
   const batchChannelMap = new Map();
   let flatIdx = 0;
   for (const b of batches) {
@@ -286,10 +323,8 @@ function buildExistingTargets() {
     }
   }
 
-  // 1. Thu thập các Fanpage thực tế có nhiều phim nhất & các bộ phim nhiều phần trong database.json
-  const pageStats = new Map(); // pageName -> { count, category, seriesNames: Set, directUrl }
+  const pageStats = new Map();
 
-  // Luôn ưu tiên kênh chủ lực Mễ Lạc Review đầu tiên
   pageStats.set('Mễ Lạc Review', {
     name: 'Mễ Lạc Review',
     directUrl: 'https://www.facebook.com/profile.php?id=61588732377311&sk=videos',
@@ -308,7 +343,6 @@ function buildExistingTargets() {
   });
 
   for (const s of db) {
-    // Trích xuất tên Fanpage thực tế ở cuối tiêu đề "| Tên Page (Full Trọn Bộ...)"
     let realPage = '';
     const m = (s.title || '').match(/\|\s*([^|(]+?)\s*\(Full Trọn Bộ/i);
     if (m && m[1].trim().length >= 3 && m[1].trim().length <= 45) {
@@ -318,7 +352,6 @@ function buildExistingTargets() {
     const cat = (s.genres && s.genres[0]) || (s.categories && s.categories[0]) || 'Hoạt Hình 3D';
     const coreSeries = extractCoreSeriesName(s.title);
 
-    // Đăng ký realPage nếu có
     if (realPage && !/^(facebook|watch|video)$/i.test(realPage)) {
       if (!pageStats.has(realPage)) {
         const bInfo = batchChannelMap.get(realPage);
@@ -337,7 +370,6 @@ function buildExistingTargets() {
       }
     }
 
-    // Đăng ký channelName đã có sẵn trong DB
     const cleanChName = chName.replace(/\s*#\d+(\.\d+)?$/, '').trim();
     if (!pageStats.has(chName)) {
       const bInfo = batchChannelMap.get(chName);
@@ -357,7 +389,6 @@ function buildExistingTargets() {
     }
   }
 
-  // Bổ sung các kênh đã cào trong all_channel_batches.json (từ 0 -> currentChannelIndex) nếu chưa có trong pageStats
   for (const [cName, bInfo] of batchChannelMap.entries()) {
     if (bInfo.wasCrawled && !pageStats.has(cName)) {
       pageStats.set(cName, {
@@ -371,7 +402,6 @@ function buildExistingTargets() {
     }
   }
 
-  // Sắp xếp ưu tiên các kênh có nhiều phim & nhiều bộ đang theo dõi nhất lên trước
   const sortedTargets = Array.from(pageStats.values()).sort((a, b) => {
     if (b.seriesNames.size !== a.seriesNames.size) return b.seriesNames.size - a.seriesNames.size;
     return b.count - a.count;
@@ -468,7 +498,6 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
 
   const page = await context.newPage();
 
-  // Chặn image, media, font để lướt siêu tốc
   await page.route('**/*', (route) => {
     const resourceType = route.request().resourceType();
     if (['image', 'media', 'font'].includes(resourceType)) {
@@ -496,10 +525,8 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
   }
   const channelHistorySet = new Set(getHistoryIds(target.name, history));
 
-  // Xây dựng danh sách URL quét tập mới cho kênh & các bộ phim đã có sẵn
   const urlsToScan = [];
 
-  // 1. Nếu có link Fanpage trực tiếp (không phải search link giả định), quét lớp trên /videos trước
   if (target.directUrl && !target.directUrl.includes('/watch/search/')) {
     let cleanBase = target.directUrl
       .replace(/\/videos\/?$/, '')
@@ -512,7 +539,6 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
     }
   }
 
-  // 2. Truy vấn các tập mới của những bộ phim (Series) đã có trên kênh này
   for (const seriesName of target.seriesList.slice(0, 4)) {
     urlsToScan.push({
       url: `https://www.facebook.com/watch/search/?q=${encodeURIComponent(target.cleanQueryName + ' ' + seriesName + ' trọn bộ')}`,
@@ -528,7 +554,6 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
     });
   }
 
-  // 3. Truy vấn tập mới nhất / phim mới nhất của kênh
   urlsToScan.push({
     url: `https://www.facebook.com/watch/search/?q=${encodeURIComponent(target.cleanQueryName + ' tập mới nhất trọn bộ')}`,
     mode: 'CHANNEL_NEWEST_SEARCH',
@@ -611,7 +636,6 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
 
         let hitKnownBoundaryOnPage = false;
         for (const item of batch) {
-          // Nếu đang quét trực tiếp tab /videos của Fanpage và gặp video đã có trong CSDL -> dừng cuộn sâu thêm (Incremental Top-Layer Crawl)
           if (scanItem.mode === 'TOP_LAYER_PAGE' && existingVids.has(item.id) && scrollCount >= 2) {
             hitKnownBoundaryOnPage = true;
             break;
@@ -748,23 +772,25 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
         publishedAt: todayStr
       };
 
-      // Kiểm tra xem tập mới này có thuộc bộ phim (Series) nào đã có sẵn trong CSDL không
+      // Chỉ ghép vào bộ phim sẵn có khi TIÊU ĐỀ THỰC TẾ của video mới trùng khớp tên bộ phim (coreInfo.baseKey)
       const coreInfo = extractCoreSeriesName(cleanTitle);
-      const matchHint = (coreInfo && coreInfo.baseKey) || (videoInfo.seriesHint ? videoInfo.seriesHint.toLowerCase() : null);
+      let matchHint = coreInfo ? coreInfo.baseKey : null;
+      if (!matchHint && videoInfo.seriesHint && cleanTitle.toLowerCase().includes(videoInfo.seriesHint.toLowerCase())) {
+        matchHint = videoInfo.seriesHint.toLowerCase();
+      }
 
       let matchedExistingSeriesList = [];
-      if (matchHint && matchHint.length >= 5) {
+      if (matchHint && matchHint.length >= 6 && !INVALID_BASE_NAMES.has(matchHint)) {
         matchedExistingSeriesList = currentDb.filter(s => {
           const sCore = extractCoreSeriesName(s.title);
           if (sCore && sCore.baseKey === matchHint) return true;
-          return (s.title || '').toLowerCase().includes(matchHint);
+          return false;
         });
       }
 
       let combinedEpisodesForNewSeries = [newEpisodeObj];
 
       if (matchedExistingSeriesList.length > 0) {
-        // Gom toàn bộ các tập hiện có của bộ phim này + tập mới vừa cào được
         const allEpsMap = new Map();
         for (const ms of matchedExistingSeriesList) {
           for (const ep of (ms.episodes || [])) {
@@ -780,7 +806,6 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
           partNumber: idx + 1
         }));
 
-        // Cập nhật danh sách tập cho tất cả các mục thuộc bộ phim đã có sẵn trong CSDL
         for (const ms of matchedExistingSeriesList) {
           ms.episodes = mergedEps.map(ep => ({ ...ep, seriesId: ms.id }));
           ms.totalEpisodes = mergedEps.length;
@@ -852,7 +877,7 @@ async function main() {
 
   const cursor = loadUpdateCursor(targets.length);
   if (cursor.currentTargetIndex >= targets.length) {
-    cursor.currentTargetIndex = 0; // Xoay vòng kiểm tra tập mới từ đầu nếu đã hết danh sách
+    cursor.currentTargetIndex = 0;
   }
 
   let browser = await chromium.launch({
@@ -889,7 +914,6 @@ async function main() {
     cursor.currentTargetIndex++;
     saveUpdateCursor(cursor);
 
-    // Nghỉ ngắn 10 giây giữa các kênh đã có sẵn để chuyển kênh nhanh chóng
     await new Promise(r => setTimeout(r, 10000));
   }
 

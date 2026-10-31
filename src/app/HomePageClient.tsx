@@ -24,22 +24,24 @@ export default function HomePageClient({ initialSeries = [] }: { initialSeries: 
   }, [activeCategory, searchQuery]);
 
   useEffect(() => {
-    // Nếu chưa có data ban đầu, mới tải qua API
-    if (initialSeries.length === 0) {
-      setLoading(true);
-      fetch('/api/series')
-        .then((res) => res.json())
-        .then((data) => {
-          setSeriesList(data);
-          setLoading(false);
-        })
-        .catch((err) => {
-          console.error(err);
-          setLoading(false);
-        });
-    } else {
+    if (initialSeries.length > 0) {
       setSeriesList(initialSeries);
+    } else {
+      setLoading(true);
     }
+    // Tải ngầm toàn bộ kho phim đầy đủ từ API sau khi đã hiển thị tức thì 48 phim đầu tiên (giúp HTML SSR nhẹ < 200KB chuẩn Bingbot)
+    fetch('/api/series')
+      .then((res) => res.json())
+      .then((data) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setSeriesList(data);
+        }
+        setLoading(false);
+      })
+      .catch((err) => {
+        console.error(err);
+        setLoading(false);
+      });
   }, [initialSeries]);
 
   const categoriesList = [

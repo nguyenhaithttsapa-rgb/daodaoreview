@@ -1,37 +1,54 @@
 import HomePageClient from './HomePageClient';
 import fs from 'fs';
 import path from 'path';
+import Link from 'next/link';
 import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 
 // Bật bộ nhớ đệm 60 giây để máy chủ phản hồi trong chớp mắt
 export const revalidate = 60;
 
-let cachedData: any = null;
+let cachedInitialSeries: any = null;
+let cachedSeoLinks: { slug: string; title: string }[] = [];
 let lastCacheTime = 0;
 
 export default async function Home() {
   const now = Date.now();
-  if (cachedData && (now - lastCacheTime < 60000)) {
-    return <HomePageClient initialSeries={cachedData} />;
+  if (cachedInitialSeries && (now - lastCacheTime < 60000)) {
+    return (
+      <>
+        <h1 className="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
+        <HomePageClient initialSeries={cachedInitialSeries} />
+        <nav aria-label="Danh mục phim mới cập nhật" className="sr-only">
+          <ul>
+            {cachedSeoLinks.map((item) => (
+              <li key={item.slug}>
+                <Link href={`/watch/${item.slug}`}>{item.title}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </>
+    );
   }
 
-  let series: any[] = [];
+  let initialSeries: any[] = [];
+  let seoLinks: { slug: string; title: string }[] = [];
+
   try {
     const dbPath = path.join(process.cwd(), 'src/data/database.json');
     if (fs.existsSync(dbPath)) {
       const raw = fs.readFileSync(dbPath, 'utf8');
       const all = JSON.parse(raw);
-      
+
       // Tính tổng lượt xem của từng bộ phim để hiển thị số liệu
       all.forEach((s: any) => {
         const totalViews = s.episodes?.reduce((sum: number, ep: any) => sum + (ep.viewsCount || 0), 0) || 0;
         s.totalViews = totalViews;
       });
-      
-      // Giữ nguyên thứ tự mới nhất được thêm/duyệt ở đầu danh sách
 
-      // Tối ưu hóa dung lượng: Cắt gọt bớt các dữ liệu không cần thiết trên trang chủ
-      series = all.map((s: any) => ({
+      // Tối ưu kích thước HTML trang chủ (< 250KB thay vì 2.8MB) để vượt giới hạn 2MB của Bingbot & Googlebot:
+      // SSR 48 bộ phim mới nhất cho lần tải đầu tiên, phần còn lại tự động nạp ngầm qua /api/series
+      initialSeries = all.slice(0, 48).map((s: any) => ({
         id: s.id,
         slug: s.slug,
         title: s.title,
@@ -57,7 +74,14 @@ export default async function Home() {
         }))
       }));
 
-      cachedData = series;
+      // Danh sách liên kết nội bộ giúp Bingbot/Googlebot khám phá nhanh các trang /watch/[slug]
+      seoLinks = all.slice(0, 300).map((s: any) => ({
+        slug: s.slug,
+        title: (s.title || '').slice(0, 90)
+      }));
+
+      cachedInitialSeries = initialSeries;
+      cachedSeoLinks = seoLinks;
       lastCacheTime = now;
     }
   } catch (err) {
@@ -67,7 +91,16 @@ export default async function Home() {
   return (
     <>
       <h1 className="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
-      <HomePageClient initialSeries={series} />
+      <HomePageClient initialSeries={initialSeries} />
+      <nav aria-label="Danh mục phim mới cập nhật" className="sr-only">
+        <ul>
+          {seoLinks.map((item) => (
+            <li key={item.slug}>
+              <Link href={`/watch/${item.slug}`}>{item.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </>
   );
 }

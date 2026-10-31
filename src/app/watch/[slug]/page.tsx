@@ -1,10 +1,11 @@
+import { Metadata } from 'next';
 import { getSeriesBySlug, getAllSeries } from '@/lib/store';
 import VideoPlayer from '@/components/VideoPlayer';
 import AdBanner from '@/components/AdBanner';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import UserInteractions from '@/components/UserInteractions';
-import { Play, Share2, ThumbsUp, MessageSquare, ChevronRight, ChevronLeft, CheckCircle2, Bookmark, Sparkles } from 'lucide-react';
+import { Play, Share2, ThumbsUp, ChevronRight, ChevronLeft, CheckCircle2, Bookmark, Sparkles } from 'lucide-react';
 
 interface WatchPageProps {
   params: Promise<{ slug: string }>;
@@ -12,6 +13,76 @@ interface WatchPageProps {
 }
 
 export const dynamic = 'force-dynamic';
+
+function durationToIso8601(durStr?: string): string {
+  if (!durStr) return 'PT45M';
+  const parts = durStr.trim().split(':').map(Number);
+  if (parts.some(isNaN)) return 'PT45M';
+  if (parts.length === 3) {
+    return `PT${parts[0]}H${parts[1]}M${parts[2]}S`;
+  }
+  if (parts.length === 2) {
+    return `PT${parts[0]}M${parts[1]}S`;
+  }
+  return 'PT45M';
+}
+
+export async function generateMetadata({ params, searchParams }: WatchPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const { part } = await searchParams;
+  const series = getSeriesBySlug(slug);
+
+  if (!series) {
+    return {
+      title: 'Không tìm thấy phim | Dao Dao Review',
+    };
+  }
+
+  const requestedPart = part ? parseInt(part, 10) : 1;
+  const currentEpisode =
+    series.episodes.find((ep) => ep.partNumber === requestedPart) ||
+    series.episodes[0];
+
+  const pageTitle = series.episodes.length > 1 && requestedPart > 1
+    ? `Tập ${requestedPart}: ${series.title} | Dao Dao Review`
+    : `${series.title} | Dao Dao Review`;
+
+  const pageDesc = (series.description || `Xem trọn bộ ${series.title} thuyết minh chất lượng cao tại Dao Dao Review.`).slice(0, 160);
+  const canonicalUrl = `https://daodaoreview.com/watch/${series.slug}`;
+  const thumbUrl = series.thumbnail?.startsWith('http')
+    ? series.thumbnail
+    : `https://daodaoreview.com${series.thumbnail || '/og-image.jpg'}`;
+
+  return {
+    title: pageTitle,
+    description: pageDesc,
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: pageTitle,
+      description: pageDesc,
+      url: canonicalUrl,
+      siteName: 'Dao Dao Review',
+      images: [
+        {
+          url: thumbUrl,
+          width: 1200,
+          height: 630,
+          alt: series.title,
+        },
+      ],
+      locale: 'vi_VN',
+      type: 'video.movie',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: pageTitle,
+      description: pageDesc,
+      images: [thumbUrl],
+    },
+  };
+}
 
 export default async function WatchPage({ params, searchParams }: WatchPageProps) {
   const { slug } = await params;
@@ -26,7 +97,6 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
   const currentEpisode =
     series.episodes.find((ep) => ep.partNumber === requestedPart) ||
     series.episodes[0];
-
 
   const nextEpisode = series.episodes.find(
     (ep) => ep.partNumber === (currentEpisode?.partNumber || 1) + 1
@@ -44,9 +114,32 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
   const prevSeries = allSeries[prevIndex];
   const nextSeries = allSeries[nextIndex];
 
+  const thumbFullUrl = series.thumbnail?.startsWith('http')
+    ? series.thumbnail
+    : `https://daodaoreview.com${series.thumbnail || '/og-image.jpg'}`;
+
+  const videoJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name: currentEpisode?.title || series.title,
+    description: series.description || series.title,
+    thumbnailUrl: [thumbFullUrl],
+    uploadDate: `${currentEpisode?.publishedAt || series.updatedAt || '2026-10-01'}T00:00:00+07:00`,
+    duration: durationToIso8601(currentEpisode?.duration),
+    embedUrl: currentEpisode?.embedUrl,
+    interactionStatistic: {
+      '@type': 'InteractionCounter',
+      interactionType: { '@type': 'WatchAction' },
+      userInteractionCount: currentEpisode?.viewsCount || 25000,
+    },
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videoJsonLd) }}
+      />
       {/* Breadcrumb Navigation */}
       <div className="flex items-center gap-2 text-sm text-slate-400 mb-4 overflow-hidden text-ellipsis whitespace-nowrap">
         <Link href="/" className="hover:text-white transition">Trang chủ</Link>

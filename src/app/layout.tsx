@@ -45,6 +45,7 @@ export const metadata: Metadata = {
     images: ["https://daodaoreview.com/og-image.jpg"],
   },
   alternates: {
+    // Next.js tự động xuất <link rel="canonical" href="https://daodaoreview.com/"> ở trang chủ và cho phép trang con /watch/[slug] ghi đè canonical riêng
     canonical: 'https://daodaoreview.com/',
   },
   robots: {
@@ -76,13 +77,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // Bảo tồn chuẩn SEO cốt lõi: <link rel="canonical" href="https://daodaoreview.com/"> (qua metadata.alternates.canonical) và <meta name="robots" content="index, follow, max-image-preview:large">
   return (
     <html
       lang="vi"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
       <head>
-        <link rel="canonical" href="https://daodaoreview.com/" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
       </head>
       <body className="min-h-full flex flex-col bg-[#05010a] text-slate-100 font-sans selection:bg-cyan-500 selection:text-white relative overflow-x-hidden">
@@ -122,4 +123,3 @@ export default function RootLayout({
     </html>
   );
 }
-
