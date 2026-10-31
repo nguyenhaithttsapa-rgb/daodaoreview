@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1917144625543187",
+    "slug": "phim-hay-tron-bo-moi-nhat-luong-duyen-moi-phim-co-trang-trung-quoc-new-3187",
+    "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | News 36 (Full Trọn Bộ 2:25:41)",
+    "description": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc ...",
+    "thumbnail": "/thumbnails/1917144625543187.jpg",
+    "coverImage": "/thumbnails/1917144625543187.jpg",
+    "channelName": "News 36",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1917144625543187",
+        "seriesId": "series-long-1917144625543187",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | News 36 (Full Trọn Bộ 2:25:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1917144625543187",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1917144625543187&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:25:41",
+        "thumbnail": "/thumbnails/1917144625543187.jpg",
+        "viewsCount": 19000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-704108271825853",
     "slug": "review-phim-cuoc-hon-nhan-cua-thieu-soai-tron-bo-full-phim-thong-gamin-5853",
     "title": "Review phim Cuộc hôn nhân của thiếu soái trọn bộ (full phim). | Thông Gaming AOV (Full Trọn Bộ 1:40:39)",
