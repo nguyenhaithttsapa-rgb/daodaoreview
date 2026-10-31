@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1841283922685634",
+    "slug": "phim-cuoi-tuan-on-reels-full-tron-bo-40-43-5634",
+    "title": "Phim cuối tuần on Reels (Full Trọn Bộ 40:43)",
+    "description": "Trọn bộ phim dài đặc sắc: Phim cuối tuần on Reels (Full Trọn Bộ 40:43). Thời lượng: 40:43. Kênh: Tuyển tập phim hay cuối tuần.",
+    "thumbnail": "/thumbnails/1841283922685634.jpg",
+    "coverImage": "/thumbnails/1841283922685634.jpg",
+    "channelName": "Tuyển tập phim hay cuối tuần",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1841283922685634",
+        "seriesId": "series-long-1841283922685634",
+        "partNumber": 1,
+        "title": "Phim cuối tuần on Reels (Full Trọn Bộ 40:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1841283922685634",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1841283922685634&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "40:43",
+        "thumbnail": "/thumbnails/1841283922685634.jpg",
+        "viewsCount": 27175,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2022709745083622",
     "slug": "phim-hay-tron-bo-thien-tam-hai-duong-phim-thuyet-minh-moi-nhat-phim-ai-3622",
     "title": "Phim hay trọn bộ Thiên tâm hải đường, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 45:03)",
