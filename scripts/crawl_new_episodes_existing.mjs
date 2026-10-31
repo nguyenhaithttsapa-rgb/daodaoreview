@@ -84,7 +84,8 @@ function isMusicOrTrash(text) {
     'thử thách sinh tồn', 'trái đất của chúng ta', 'bất động sản', 'khu đô thị biển',
     'bán đất', 'căn hộ', 'chung cư', 'dự án biển', 'hội thảo',
     'vietnam vs', 'thái lan vs', 'trực tiếp bóng đá', 'highlights bóng đá',
-    'lễ đăng điện', 'cầu siêu cố đạo hữu', 'hưởng hạ thọ', 'tang lễ'
+    'lễ đăng điện', 'cầu siêu cố đạo hữu', 'hưởng hạ thọ', 'tang lễ',
+    'thiết kế kiến trúc', 'thi công xây dựng trọn gói', 'chìa khóa trao tay'
   ];
   return trashKeywords.some(kw => lower.includes(kw));
 }
@@ -848,19 +849,25 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
     log(`💾 Đã nạp ${newIngested.length} tập phim dài mới (cập nhật ${updatedExistingSeries} bộ phim sẵn có) từ "${target.name}"! Tổng CSDL: ${updatedDb.length}`);
 
     try {
+      execSync('node scripts/link_existing_episodes.mjs', { encoding: 'utf-8', timeout: 30000 });
       execSync('git add src/data/database.json public/thumbnails/', { encoding: 'utf-8', timeout: 30000 });
       execSync(`git commit -m "feat(episodes): crawl new episodes for existing channel ${target.name} (+${newIngested.length} eps)"`, { encoding: 'utf-8', timeout: 30000 });
       execSync('git push origin main', { encoding: 'utf-8', timeout: 60000 });
-      log(`🚀 Đã tự động git push tập mới lên GitHub để đồng bộ VPS!`);
+      execSync('node scripts/ping_bing_indexnow.mjs', { encoding: 'utf-8', timeout: 30000 });
+      log(`🚀 Đã tự động git push tập mới lên GitHub (VPS auto-deploy) & Ping Bing IndexNow!`);
     } catch (gitErr) {
-      log(`⚠️ Lưu ý Git push: ${gitErr.message}`);
+      log(`⚠️ Lưu ý Git push / IndexNow: ${gitErr.message}`);
     }
   } else {
     log(`ℹ️ Kênh/Bộ phim "${target.name}" chưa có thêm tập dài >= 30m mới nào ngoài các tập đã có trong CSDL.`);
   }
 
   saveHistoryIds(target.name, history, channelHistorySet);
-  fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2), 'utf8');
+  try {
+    fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2), 'utf8');
+  } catch (histErr) {
+    log(`⚠️ Lưu ý ghi lịch sử: ${histErr.message}`);
+  }
 
   stats.endTime = new Date().toISOString();
   log(`🏁 Hoàn tất kiểm tra & cào tập mới cho "${target.name}": [Quét: ${stats.videosFound}, Tập mới nạp: ${stats.newEpisodesAdded}, Ghép vào bộ cũ: ${stats.existingSeriesLinked}, Loại <30m: ${stats.shortRejected}, Cấm nhúng: ${stats.embedRejected}, Nhạc/Rác: ${stats.musicRejected}, Ảnh lỗi: ${stats.imageRejected}]`);

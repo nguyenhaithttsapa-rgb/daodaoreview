@@ -81,7 +81,12 @@ function main() {
   const cleanedDb = [];
   for (const s of db) {
     const lower = (s.title || '').toLowerCase();
-    if (lower.includes('lễ đăng điện') || lower.includes('cầu siêu cố đạo hữu')) {
+    if (
+      lower.includes('lễ đăng điện') ||
+      lower.includes('cầu siêu cố đạo hữu') ||
+      lower.includes('thi công xây dựng trọn gói') ||
+      lower.includes('thiết kế kiến trúc & thi công')
+    ) {
       continue;
     }
 

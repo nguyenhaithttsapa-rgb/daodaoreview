@@ -1,11 +1,11 @@
 {
   "mode": "CRAWL_NEW_EPISODES_FOR_EXISTING_SERIES_AND_CHANNELS",
-  "currentTargetIndex": 80,
+  "currentTargetIndex": 83,
   "totalTargets": 2212,
   "startedAt": "2026-10-31T05:52:10.584Z",
-  "lastUpdated": "2026-10-31T08:40:00.300Z",
-  "totalNewEpisodesAdded": 184,
-  "totalSeriesUpdated": 121,
+  "lastUpdated": "2026-10-31T08:48:30.639Z",
+  "totalNewEpisodesAdded": 199,
+  "totalSeriesUpdated": 130,
   "targetsProcessed": [
     {
       "index": 0,
@@ -1020,6 +1020,45 @@
       "musicRejected": 0,
       "imageRejected": 0,
       "endTime": "2026-10-31T08:40:00.299Z"
+    },
+    {
+      "index": 80,
+      "name": "Tu Tiên Giới 3D",
+      "startTime": "2026-10-31T08:40:10.326Z",
+      "videosFound": 25,
+      "newEpisodesAdded": 3,
+      "existingSeriesLinked": 3,
+      "shortRejected": 16,
+      "embedRejected": 1,
+      "musicRejected": 0,
+      "imageRejected": 0,
+      "endTime": "2026-10-31T08:42:24.212Z"
+    },
+    {
+      "index": 81,
+      "name": "Hoạt Hình 3D VN",
+      "startTime": "2026-10-31T08:43:02.509Z",
+      "videosFound": 35,
+      "newEpisodesAdded": 2,
+      "existingSeriesLinked": 0,
+      "shortRejected": 18,
+      "embedRejected": 1,
+      "musicRejected": 2,
+      "imageRejected": 0,
+      "endTime": "2026-10-31T08:45:47.605Z"
+    },
+    {
+      "index": 82,
+      "name": "LCK Phim Hay",
+      "startTime": "2026-10-31T08:45:57.703Z",
+      "videosFound": 12,
+      "newEpisodesAdded": 10,
+      "existingSeriesLinked": 6,
+      "shortRejected": 2,
+      "embedRejected": 0,
+      "musicRejected": 0,
+      "imageRejected": 0,
+      "endTime": "2026-10-31T08:48:30.638Z"
     }
   ]
 }
