@@ -1,5 +1,56 @@
 [
   {
+    "id": "series-long-927574136604046",
+    "slug": "phan-5-tu-bao-tien-bon-linh-gioi-ngu-hanh-tap-linh-can-ta-co-tu-bao-ti-4046",
+    "title": "Phần 5 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. Xem full tại: | Brylee Edwards (Full Trọn Bộ 3:24:04)",
+    "description": "Phần 5 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. Xem full tại:",
+    "thumbnail": "/thumbnails/927574136604046.jpg",
+    "coverImage": "/thumbnails/927574136604046.jpg",
+    "channelName": "Tiểu Bá Vương",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 2,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1571933681286506",
+        "seriesId": "series-long-927574136604046",
+        "partNumber": 1,
+        "title": "Phần 4 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. | Gà Review (Full Trọn Bộ 2:41:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1571933681286506",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1571933681286506&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:41:18",
+        "thumbnail": "/thumbnails/1571933681286506.jpg",
+        "viewsCount": 14484,
+        "publishedAt": "2026-10-11"
+      },
+      {
+        "id": "ep-long-927574136604046",
+        "seriesId": "series-long-927574136604046",
+        "partNumber": 2,
+        "title": "Phần 5 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. Xem full tại: | Brylee Edwards (Full Trọn Bộ 3:24:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=927574136604046",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D927574136604046&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:24:04",
+        "thumbnail": "/thumbnails/927574136604046.jpg",
+        "viewsCount": 57568,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-827989203231899",
     "slug": "review-phim-tu-tien-thoi-hien-dai-tron-bo-tong-chu-gioi-tu-tien-xuyen--1899",
     "title": "REVIEW PHIM : TU TIÊN THỜI HIỆN ĐẠI.TRỌN BỘ Tông chủ giới tu tiên xuyên không về hiện đại ở rể nhà hào môn và cái kết | AĐG Review (Full Trọn Bộ 1:58:09)",
@@ -63469,9 +63520,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-10-11",
+    "updatedAt": "2026-10-31",
     "episodes": [
       {
         "id": "ep-long-1571933681286506",
@@ -63486,6 +63537,20 @@
         "thumbnail": "/thumbnails/1571933681286506.jpg",
         "viewsCount": 14484,
         "publishedAt": "2026-10-11"
+      },
+      {
+        "id": "ep-long-927574136604046",
+        "seriesId": "series-long-1571933681286506",
+        "partNumber": 2,
+        "title": "Phần 5 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. Xem full tại: | Brylee Edwards (Full Trọn Bộ 3:24:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=927574136604046",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D927574136604046&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:24:04",
+        "thumbnail": "/thumbnails/927574136604046.jpg",
+        "viewsCount": 57568,
+        "publishedAt": "2026-10-31"
       }
     ]
   },
