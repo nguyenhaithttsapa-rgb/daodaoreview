@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1105402988886041",
+    "slug": "tap-3-phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-6041",
+    "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Huyền Trang (Full Trọn Bộ 33:02)",
+    "description": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1105402988886041.jpg",
+    "coverImage": "/thumbnails/1105402988886041.jpg",
+    "channelName": "Huyền Trang",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1105402988886041",
+        "seriesId": "series-long-1105402988886041",
+        "partNumber": 1,
+        "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Huyền Trang (Full Trọn Bộ 33:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1105402988886041",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1105402988886041&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:02",
+        "thumbnail": "/thumbnails/1105402988886041.jpg",
+        "viewsCount": 29242,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2207770286392837",
     "slug": "co-dan-con-gai-toi-nhan-bo-nao-ngo-phat-hien-anh-da-co-gia-dinh-moi-ta-2837",
     "title": "Cô dẫn con gái tới nhận bố, nào ngờ phát hiện anh đã có gia đình mới - Tập Cuối | COP McKeown Temple Asokwa (Full Trọn Bộ 36:54)",
