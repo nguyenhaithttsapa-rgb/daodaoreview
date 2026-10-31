@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2022709745083622",
+    "slug": "phim-hay-tron-bo-thien-tam-hai-duong-phim-thuyet-minh-moi-nhat-phim-ai-3622",
+    "title": "Phim hay trọn bộ Thiên tâm hải đường, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 45:03)",
+    "description": "Phim hay trọn bộ Thiên tâm hải đường, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/2022709745083622.jpg",
+    "coverImage": "/thumbnails/2022709745083622.jpg",
+    "channelName": "Hội Quán Phim Trung Quốc",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-2022709745083622",
+        "seriesId": "series-long-2022709745083622",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Thiên tâm hải đường, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 45:03)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2022709745083622",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2022709745083622&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "45:03",
+        "thumbnail": "/thumbnails/2022709745083622.jpg",
+        "viewsCount": 45877,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1917144625543187",
     "slug": "phim-hay-tron-bo-moi-nhat-luong-duyen-moi-phim-co-trang-trung-quoc-new-3187",
     "title": "Phim hay trọn bộ mới nhất Lương duyên mới phim cổ trang Trung quốc | News 36 (Full Trọn Bộ 2:25:41)",
