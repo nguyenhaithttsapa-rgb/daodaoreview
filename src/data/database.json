@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-917843590539181",
+    "slug": "xuyen-khong-vao-tieu-thuyet-lam-nam-phu-nhung-cam-trong-tay-ca-dai-qua-9181",
+    "title": "“Xuyên không vào tiểu thuyết làm nam phụ nhưng cầm trong tay cả đại quân thì sẽ thế nào.,,>> | Mỏ Hỗn Thích Xem Phim (Full Trọn Bộ 2:04:45)",
+    "description": "Full phim: (trọn bộ) <<“Xuyên không vào tiểu thuyết làm nam phụ nhưng cầm trong tay cả đại quân thì sẽ thế nào.,,>>",
+    "thumbnail": "/thumbnails/917843590539181.jpg",
+    "coverImage": "/thumbnails/917843590539181.jpg",
+    "channelName": "Thích Xuyên Không",
+    "genres": [
+      "Đô Thị Thần Hào & Hệ Thống",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-917843590539181",
+        "seriesId": "series-long-917843590539181",
+        "partNumber": 1,
+        "title": "“Xuyên không vào tiểu thuyết làm nam phụ nhưng cầm trong tay cả đại quân thì sẽ thế nào.,,>> | Mỏ Hỗn Thích Xem Phim (Full Trọn Bộ 2:04:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=917843590539181",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D917843590539181&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:45",
+        "thumbnail": "/thumbnails/917843590539181.jpg",
+        "viewsCount": 47000,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "series-long-551696131303363",
+    "slug": "quoc-hoa-dai-su-xuyen-khong-thanh-nong-dan-dung-tranh-ve-kie-m-ti-en-d-3363",
+    "title": "Quốc họa đại sư xuyên không thành nông dân, dùng tranh vẽ kiế-m ti-ền đi thi trạng nguyên.,,>> | Mỏ Hỗn Thích Xem Phim (Full Trọn Bộ 2:38:23)",
+    "description": "Full phim: (trọn bộ) <<\"Quốc họa đại sư xuyên không thành nông dân, dùng tranh vẽ kiế-m ti-ền đi thi trạng nguyên.,,>>",
+    "thumbnail": "/thumbnails/551696131303363.jpg",
+    "coverImage": "/thumbnails/551696131303363.jpg",
+    "channelName": "Thích Xuyên Không",
+    "genres": [
+      "Đô Thị Thần Hào & Hệ Thống",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-551696131303363",
+        "seriesId": "series-long-551696131303363",
+        "partNumber": 1,
+        "title": "Quốc họa đại sư xuyên không thành nông dân, dùng tranh vẽ kiế-m ti-ền đi thi trạng nguyên.,,>> | Mỏ Hỗn Thích Xem Phim (Full Trọn Bộ 2:38:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=551696131303363",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D551696131303363&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:38:23",
+        "thumbnail": "/thumbnails/551696131303363.jpg",
+        "viewsCount": 7700,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1100342752996156",
     "slug": "phim-hay-tron-bo-canh-cua-moi-phim-thuyet-minh-moi-nhat-phim-ai-day-co-6156",
     "title": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 1:43:00)",
