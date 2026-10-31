@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1540771690188936",
+    "slug": "anh-chang-moi-xuat-ngu-ai-ngo-full-tron-bo-qua-chuoi-ri-viu-full-tron--8936",
+    "title": "Anh chàng mới xuất ngũ ai ngờ - Full trọn bộ | Quả Chuối Rì Viu (Full Trọn Bộ 2:05:05)",
+    "description": "Anh chàng mới xuất ngũ ai ngờ - Full trọn bộ",
+    "thumbnail": "/thumbnails/1540771690188936.jpg",
+    "coverImage": "/thumbnails/1540771690188936.jpg",
+    "channelName": "Chang AI",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1540771690188936",
+        "seriesId": "series-long-1540771690188936",
+        "partNumber": 1,
+        "title": "Anh chàng mới xuất ngũ ai ngờ - Full trọn bộ | Quả Chuối Rì Viu (Full Trọn Bộ 2:05:05)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1540771690188936",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1540771690188936&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:05:05",
+        "thumbnail": "/thumbnails/1540771690188936.jpg",
+        "viewsCount": 54560,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-3001547820179889",
     "slug": "phim-hay-tron-bo-dung-luc-dung-nguoi-phim-thuyet-minh-moi-nhat-phim-ai-9889",
     "title": "Phim hay trọn bộ Đúng lúc đúng người, phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 55:03)",
