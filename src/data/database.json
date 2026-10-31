@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1635741933912508",
+    "slug": "full-tron-bo-nguoi-me-gia-mo-quan-mi-nho-de-doi-con-trai-bi-t-xem-la-g-2508",
+    "title": "FULL TRỌN BỘ Người mẹ già mở quán mì nhỏ để đợi con trai bị t | Xem Là Ghiền Tn16 (Full Trọn Bộ 42:52)",
+    "description": "FULL TRỌN BỘ Người mẹ già mở quán mì nhỏ để đợi con trai bị t",
+    "thumbnail": "/thumbnails/1635741933912508.jpg",
+    "coverImage": "/thumbnails/1635741933912508.jpg",
+    "channelName": "Xem Là Ghiền Tn16",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-1635741933912508",
+        "seriesId": "series-long-1635741933912508",
+        "partNumber": 1,
+        "title": "FULL TRỌN BỘ Người mẹ già mở quán mì nhỏ để đợi con trai bị t | Xem Là Ghiền Tn16 (Full Trọn Bộ 42:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1635741933912508",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1635741933912508&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:52",
+        "thumbnail": "/thumbnails/1635741933912508.jpg",
+        "viewsCount": 53817,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-2159193824694664",
     "slug": "tap-1-phim-hay-tron-bo-dich-nu-pha-cuc-phim-thuyet-minh-moi-nhat-phim--4664",
     "title": "Tập 1 : Phim hay trọn bộ Đích nữ phá cục, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 31:47)",
