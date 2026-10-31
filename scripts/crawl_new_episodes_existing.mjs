@@ -56,6 +56,7 @@ function cleanAffiliateSpam(str) {
     .replace(/Cây chà sàn 3 trong 1.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Cây lau nhà tự vắt 2 ngăn/gi, ' ')
     .replace(/Kệ Để Đồ Nhà Bếp\s*/gi, '')
+    .replace(/^.*?Xem Full Tại Đây\s*:\s*/gi, '')
     .replace(/Quý vị đi ngang cho em xin 1 lượt click Shopee.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/\s+/g, ' ')
     .trim();

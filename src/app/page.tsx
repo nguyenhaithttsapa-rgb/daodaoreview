@@ -13,9 +13,43 @@ let lastCacheTime = 0;
 
 export default async function Home() {
   const now = Date.now();
+  const homeJsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'WebSite',
+        '@id': 'https://daodaoreview.com/#website',
+        url: 'https://daodaoreview.com/',
+        name: 'Dao Dao Review',
+        alternateName: 'Đao Đao Review Anime 3D',
+        description: 'Trang tổng hợp video review, tóm tắt hoạt hình 3D tu tiên, huyền huyễn, anime và phim ngắn trọn bộ chất lượng cao không quảng cáo.',
+        inLanguage: 'vi-VN',
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://daodaoreview.com/?q={search_term_string}',
+          'query-input': 'required name=search_term_string',
+        },
+      },
+      {
+        '@type': 'Organization',
+        '@id': 'https://daodaoreview.com/#organization',
+        name: 'Dao Dao Review',
+        url: 'https://daodaoreview.com/',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://daodaoreview.com/avatar.jpg',
+        },
+      },
+    ],
+  };
+
   if (cachedInitialSeries && (now - lastCacheTime < 60000)) {
     return (
       <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+        />
         <h1 className="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
         <HomePageClient initialSeries={cachedInitialSeries} />
         <nav aria-label="Danh mục phim mới cập nhật" className="sr-only">
@@ -90,6 +124,10 @@ export default async function Home() {
 
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLd) }}
+      />
       <h1 className="sr-only">Đao Đao Review Anime 3D - Tóm Tắt & Phân Tích Hoạt Hình Tiên Hiệp Trung Quốc</h1>
       <HomePageClient initialSeries={initialSeries} />
       <nav aria-label="Danh mục phim mới cập nhật" className="sr-only">

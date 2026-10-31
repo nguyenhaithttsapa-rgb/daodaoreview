@@ -5,6 +5,7 @@ import AdBanner from '@/components/AdBanner';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import UserInteractions from '@/components/UserInteractions';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 import { Play, Share2, ThumbsUp, ChevronRight, ChevronLeft, CheckCircle2, Bookmark, Sparkles } from 'lucide-react';
 
 interface WatchPageProps {
@@ -47,7 +48,11 @@ export async function generateMetadata({ params, searchParams }: WatchPageProps)
     ? `Tập ${requestedPart}: ${series.title} | Dao Dao Review`
     : `${series.title} | Dao Dao Review`;
 
-  const pageDesc = (series.description || `Xem trọn bộ ${series.title} thuyết minh chất lượng cao tại Dao Dao Review.`).slice(0, 160);
+  const rawDesc = (series.description || '').trim();
+  const enrichedDesc = rawDesc.length >= 110
+    ? rawDesc
+    : `${rawDesc || series.title} - Xem trọn bộ thuyết minh chất lượng cao (${currentEpisode?.duration || 'Full'}) kênh ${series.channelName} hoàn toàn không quảng cáo tại Dao Dao Review.`;
+  const pageDesc = enrichedDesc.slice(0, 158);
   const canonicalUrl = `https://daodaoreview.com/watch/${series.slug}`;
   const thumbUrl = series.thumbnail?.startsWith('http')
     ? series.thumbnail
@@ -114,24 +119,50 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
   const prevSeries = allSeries[prevIndex];
   const nextSeries = allSeries[nextIndex];
 
+  // Gợi ý 12 bộ phim liên quan để tăng liên kết nội bộ (Internal Linking SEO) & giữ chân người xem
+  const relatedSeries = allSeries
+    .filter((s) => s.slug !== series.slug)
+    .slice(0, 12);
+
   const thumbFullUrl = series.thumbnail?.startsWith('http')
     ? series.thumbnail
     : `https://daodaoreview.com${series.thumbnail || '/og-image.jpg'}`;
 
   const videoJsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'VideoObject',
-    name: currentEpisode?.title || series.title,
-    description: series.description || series.title,
-    thumbnailUrl: [thumbFullUrl],
-    uploadDate: `${currentEpisode?.publishedAt || series.updatedAt || '2026-10-01'}T00:00:00+07:00`,
-    duration: durationToIso8601(currentEpisode?.duration),
-    embedUrl: currentEpisode?.embedUrl,
-    interactionStatistic: {
-      '@type': 'InteractionCounter',
-      interactionType: { '@type': 'WatchAction' },
-      userInteractionCount: currentEpisode?.viewsCount || 25000,
-    },
+    '@graph': [
+      {
+        '@type': 'VideoObject',
+        name: currentEpisode?.title || series.title,
+        description: series.description || series.title,
+        thumbnailUrl: [thumbFullUrl],
+        uploadDate: `${currentEpisode?.publishedAt || series.updatedAt || '2026-10-01'}T00:00:00+07:00`,
+        duration: durationToIso8601(currentEpisode?.duration),
+        embedUrl: currentEpisode?.embedUrl,
+        interactionStatistic: {
+          '@type': 'InteractionCounter',
+          interactionType: { '@type': 'WatchAction' },
+          userInteractionCount: currentEpisode?.viewsCount || 25000,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Trang chủ',
+            item: 'https://daodaoreview.com/',
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: series.title,
+            item: `https://daodaoreview.com/watch/${series.slug}`,
+          },
+        ],
+      },
+    ],
   };
 
   return (
@@ -354,6 +385,42 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
           <AdBanner position="sidebar" />
         </div>
       </div>
+
+      {/* Khu vực Phim Đề Xuất Liên Quan (Tăng sức mạnh Internal Linking SEO cho Googlebot & Bingbot) */}
+      {relatedSeries.length > 0 && (
+        <section className="mt-10 pt-8 border-t border-purple-900/40">
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <Sparkles className="w-5 h-5 text-cyan-400" />
+            <span>Phim Đề Xuất Đang Hot</span>
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {relatedSeries.map((rel) => (
+              <Link
+                key={rel.id}
+                href={`/watch/${rel.slug}`}
+                className="group rounded-xl overflow-hidden bg-[#0a0514]/80 border border-purple-900/40 hover:border-cyan-500/50 transition flex flex-col"
+              >
+                <div className="aspect-video w-full overflow-hidden bg-slate-900 relative">
+                  <img
+                    src={getSafeThumbnail(rel.thumbnail, rel.id || rel.title)}
+                    alt={rel.title}
+                    loading="lazy"
+                    className="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                  />
+                </div>
+                <div className="p-2.5 flex-1 flex flex-col justify-between">
+                  <h3 className="text-xs font-semibold text-slate-200 group-hover:text-cyan-300 line-clamp-2">
+                    {rel.title}
+                  </h3>
+                  <span className="text-[11px] text-slate-400 mt-1 truncate">
+                    {rel.channelName}
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   );
 }

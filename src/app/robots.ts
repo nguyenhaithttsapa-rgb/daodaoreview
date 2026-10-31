@@ -4,8 +4,8 @@ export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: '*',
-      allow: '/',
-      disallow: ['/admin/', '/api/'], // Chặn Google dò tìm trang quản trị
+      allow: ['/','/api/series'],
+      disallow: ['/admin/'], // Chỉ chặn trang quản trị, mở /api/series cho Googlebot & Bingbot render dữ liệu
     },
     sitemap: 'https://daodaoreview.com/sitemap.xml',
   }

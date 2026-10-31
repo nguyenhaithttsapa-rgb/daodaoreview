@@ -68,7 +68,6 @@ export const metadata: Metadata = {
   },
   other: {
     'msvalidate.01': '5D1A03A3348433D435E89B34514DE8F0',
-    'robots': 'index, follow, max-image-preview:large',
   },
 };
 
