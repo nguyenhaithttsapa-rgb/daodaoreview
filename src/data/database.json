@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-799531435487985",
+    "slug": "full-tron-bo-co-gai-nhat-duoc-dua-tre-vui-cuoi-moi-ngay-t9-full-tron-b-7985",
+    "title": "FULL TRỌN BỘ Cô gái nhặt được đứa trẻ | Vui Cười Mỗi Ngày T9 (Full Trọn Bộ 2:07:08)",
+    "description": "FULL TRỌN BỘ Cô gái nhặt được đứa trẻ",
+    "thumbnail": "/thumbnails/799531435487985.jpg",
+    "coverImage": "/thumbnails/799531435487985.jpg",
+    "channelName": "Mr Sujan",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-10-31",
+    "episodes": [
+      {
+        "id": "ep-long-799531435487985",
+        "seriesId": "series-long-799531435487985",
+        "partNumber": 1,
+        "title": "FULL TRỌN BỘ Cô gái nhặt được đứa trẻ | Vui Cười Mỗi Ngày T9 (Full Trọn Bộ 2:07:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=799531435487985",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D799531435487985&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:07:08",
+        "thumbnail": "/thumbnails/799531435487985.jpg",
+        "viewsCount": 33478,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-1079582890861709",
     "slug": "giang-xuan-khong-toi-tron-bo-greenwall-pleiku-full-tron-bo-1-24-09-1709",
     "title": "GIANG XUÂN KHÔNG TỚI. TRỌN BỘ | Greenwall pleiku (Full Trọn Bộ 1:24:09)",
