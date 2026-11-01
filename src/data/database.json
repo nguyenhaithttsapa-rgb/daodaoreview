@@ -1,5 +1,56 @@
 [
   {
+    "id": "series-long-2271910620208491",
+    "slug": "quyen-khuynh-giai-nhan-tap-07-thien-kim-trung-sinh-bao-thu-dung-tam-ke-8491",
+    "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
+    "description": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung",
+    "thumbnail": "/thumbnails/2271910620208491.jpg",
+    "coverImage": "/thumbnails/2271910620208491.jpg",
+    "channelName": "Trùng Sinh Khuấy Đảo Triều Đình Siêu Hot #114",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 2,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-1786252152614748",
+        "seriesId": "series-long-2271910620208491",
+        "partNumber": 1,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1786252152614748",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1786252152614748&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "43:09",
+        "thumbnail": "/thumbnails/1786252152614748.jpg",
+        "viewsCount": 21369,
+        "publishedAt": "2026-10-14"
+      },
+      {
+        "id": "ep-long-2271910620208491",
+        "seriesId": "series-long-2271910620208491",
+        "partNumber": 2,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/thumbnails/2271910620208491.jpg",
+        "viewsCount": 51005,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-509809668653632",
     "slug": "luyen-khi-muoi-van-nam-tap-51-60-thuyet-minh-hay-full-hd-phim-hoat-hin-3632",
     "title": "Luyện Khí Mười Vạn Năm - Tập 51 - 60 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:08)",
@@ -79017,9 +79068,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-10-14",
+    "updatedAt": "2026-11-01",
     "episodes": [
       {
         "id": "ep-long-1786252152614748",
@@ -79034,6 +79085,20 @@
         "thumbnail": "/thumbnails/1786252152614748.jpg",
         "viewsCount": 21369,
         "publishedAt": "2026-10-14"
+      },
+      {
+        "id": "ep-long-2271910620208491",
+        "seriesId": "series-long-1786252152614748",
+        "partNumber": 2,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/thumbnails/2271910620208491.jpg",
+        "viewsCount": 51005,
+        "publishedAt": "2026-11-01"
       }
     ]
   },
