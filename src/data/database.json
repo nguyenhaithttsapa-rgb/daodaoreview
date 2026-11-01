@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1600805581686101",
+    "slug": "tap-2-phim-hay-tron-bo-tieu-thu-thien-tai-phim-thuyet-minh-moi-nhat-ph-6101",
+    "title": "Tập 2: Phim hay trọn bộ Tiểu thư thiên tài, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 33:17)",
+    "description": "Tập 2: Phim hay trọn bộ Tiểu thư thiên tài, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1600805581686101.jpg",
+    "coverImage": "/thumbnails/1600805581686101.jpg",
+    "channelName": "Tiểu Thư Vả Mặt Trà Xanh Thuyết Minh Hot #120.2",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-1600805581686101",
+        "seriesId": "series-long-1600805581686101",
+        "partNumber": 1,
+        "title": "Tập 2: Phim hay trọn bộ Tiểu thư thiên tài, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 33:17)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1600805581686101",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1600805581686101&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:17",
+        "thumbnail": "/thumbnails/1600805581686101.jpg",
+        "viewsCount": 52947,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-381871531469419",
     "slug": "tron-bo-full-co-gai-di-xem-mat-den-noi-thi-phat-hien-hoa-ra-chinh-la-n-9419",
     "title": "Trọn bộ (full) - Cô gái đi xem mắt đến nơi thì phát hiện hóa ra chính là người mình luôn từ chối | Chang Chang Review Film (Full Trọn Bộ 2:43:54)",
