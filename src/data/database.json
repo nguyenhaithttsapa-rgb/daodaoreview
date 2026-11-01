@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1122599340405167",
+    "slug": "muc-than-ky-tap-40-60-thuyet-minh-moi-nhat-full-4k-khong-quang-cao-muc-5167",
+    "title": "Mục Thần Ký Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K | Không Quảng Cáo | Mục Thần Ký - Hoạt Hình 3D Trung Quốc (Full Trọn Bộ 5:01:52)",
+    "description": "Mục Thần Ký Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K | Không Quảng Cáo",
+    "thumbnail": "/thumbnails/1122599340405167.jpg",
+    "coverImage": "/thumbnails/1122599340405167.jpg",
+    "channelName": "Mục Thần Ký - Hoạt Hình 3D Trung Quốc Fanpage",
+    "genres": [
+      "Thần Thoại Kịch Tính",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-1122599340405167",
+        "seriesId": "series-long-1122599340405167",
+        "partNumber": 1,
+        "title": "Mục Thần Ký Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K | Không Quảng Cáo | Mục Thần Ký - Hoạt Hình 3D Trung Quốc (Full Trọn Bộ 5:01:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1122599340405167",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1122599340405167&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:01:52",
+        "thumbnail": "/thumbnails/1122599340405167.jpg",
+        "viewsCount": 23000,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-1580608336995822",
     "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-5822",
     "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Cày Phim (Full Trọn Bộ 30:00)",
