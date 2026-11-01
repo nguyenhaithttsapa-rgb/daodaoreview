@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-9753287124698823",
+    "slug": "tron-bo-full-em-la-duy-nhat-kho-phim-hoa-ngu-full-tron-bo-2-16-15-8823",
+    "title": "Trọn bộ (full) Em là duy nhất | Kho Phim Hoa Ngữ (Full Trọn Bộ 2:16:15)",
+    "description": "Trọn bộ (full) Em là duy nhất",
+    "thumbnail": "/thumbnails/9753287124698823.jpg",
+    "coverImage": "/thumbnails/9753287124698823.jpg",
+    "channelName": "Phim Hoa Ngữ",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-9753287124698823",
+        "seriesId": "series-long-9753287124698823",
+        "partNumber": 1,
+        "title": "Trọn bộ (full) Em là duy nhất | Kho Phim Hoa Ngữ (Full Trọn Bộ 2:16:15)",
+        "originalUrl": "https://www.facebook.com/watch/?v=9753287124698823",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D9753287124698823&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:16:15",
+        "thumbnail": "/thumbnails/9753287124698823.jpg",
+        "viewsCount": 38597,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-2147998242612086",
     "slug": "review-phim-tron-bo-full-phim-cho-toi-khi-thay-duoc-su-giau-co-tu-bo-m-2086",
     "title": "Review phim trọn bộ (full phim) - Cho tới khi thấy được sự giàu có từ bố mẹ nuôi của em gái ruột, hai người anh trai mới hiểu ra tấm lòng của người em gái | Lynnu Anneo Connor (Full Trọn Bộ 1:24:59)",
