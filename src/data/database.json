@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-927402006545124",
+    "slug": "review-phim-tron-bo-full-phim-co-gai-mieng-qua-vua-noi-mot-dieu-da-khi-5124",
+    "title": "Review phim trọn bộ (full phim) - Cô gái miệng quạ vừa nói một điều đã khiến mọi người đều bật cười.720p | Võ Gia Huy (Full Trọn Bộ 1:53:38)",
+    "description": "Review phim trọn bộ (full phim) - Cô gái miệng quạ vừa nói một điều đã khiến mọi người đều bật cười.720p",
+    "thumbnail": "/thumbnails/927402006545124.jpg",
+    "coverImage": "/thumbnails/927402006545124.jpg",
+    "channelName": "Vua review phim",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-927402006545124",
+        "seriesId": "series-long-927402006545124",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) - Cô gái miệng quạ vừa nói một điều đã khiến mọi người đều bật cười.720p | Võ Gia Huy (Full Trọn Bộ 1:53:38)",
+        "originalUrl": "https://www.facebook.com/watch/?v=927402006545124",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D927402006545124&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:53:38",
+        "thumbnail": "/thumbnails/927402006545124.jpg",
+        "viewsCount": 42895,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-985600103325076",
     "slug": "full-tron-bo-dung-tin-vao-nhung-gi-ban-thay-rong-con-review-tron-bo-5--5076",
     "title": "FULL TRỌN BỘ Đừng tin vào những gì bạn thấy | Rồng Con Review Trọn Bộ 5 (Full Trọn Bộ 50:42)",
