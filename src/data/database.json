@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1335321624245198",
+    "slug": "bach-hop-tran-on-reels-full-tron-bo-1-59-09-5198",
+    "title": "BÁCH HỢP TRẦN on Reels (Full Trọn Bộ 1:59:09)",
+    "description": "Trọn bộ phim dài đặc sắc: BÁCH HỢP TRẦN on Reels (Full Trọn Bộ 1:59:09). Thời lượng: 1:59:09. Kênh: BÁCH HỢP TRẦN.",
+    "thumbnail": "/thumbnails/1335321624245198.jpg",
+    "coverImage": "/thumbnails/1335321624245198.jpg",
+    "channelName": "BÁCH HỢP TRẦN",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-1335321624245198",
+        "seriesId": "series-long-1335321624245198",
+        "partNumber": 1,
+        "title": "BÁCH HỢP TRẦN on Reels (Full Trọn Bộ 1:59:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1335321624245198",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1335321624245198&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:59:09",
+        "thumbnail": "/thumbnails/1335321624245198.jpg",
+        "viewsCount": 33947,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-281362786421611",
     "slug": "127-luot-chia-se-phap-thoai-hoi-dap-ve-nhan-qua-thiec-ac-hanh-dau-da-h-1611",
     "title": "127 lượt chia sẻ | PHÁP THOẠI - Hỏi đáp về Nhân quả - Thiệc ác - Hạnh đầu-đà. HT Viên Minh Nguồn: trungtamhotong.org Namo Buddhaya | Phật Pháp Buddha Dhamma (Full Trọn Bộ 42:59)",
