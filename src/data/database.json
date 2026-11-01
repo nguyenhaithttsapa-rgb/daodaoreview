@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1624132465262861",
+    "slug": "phan-3-ha-nhan-xuyen-khong-thanh-son-tac-ha-nhan-vietsub-moi-nguoi-neu-2861",
+    "title": "Phần 3 | Hà Nhân Xuyên Không Thành Sơn Tặc | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB Hà Nhân Vietsub nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 41:53)",
+    "description": "Phần 3 | Hà Nhân Xuyên Không Thành Sơn Tặc | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB Hà Nhân Vietsub nha cả nhà...",
+    "thumbnail": "/thumbnails/1624132465262861.jpg",
+    "coverImage": "/thumbnails/1624132465262861.jpg",
+    "channelName": "Tiên Đế Vô Hạn Tiền Phim Dài #125.5",
+    "genres": [
+      "Đô Thị Thần Hào & Hệ Thống",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-01",
+    "episodes": [
+      {
+        "id": "ep-long-1624132465262861",
+        "seriesId": "series-long-1624132465262861",
+        "partNumber": 1,
+        "title": "Phần 3 | Hà Nhân Xuyên Không Thành Sơn Tặc | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB Hà Nhân Vietsub nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 41:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1624132465262861",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1624132465262861&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "41:53",
+        "thumbnail": "/thumbnails/1624132465262861.jpg",
+        "viewsCount": 2000,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-2288581175328086",
     "slug": "phan-1-full-review-full-tron-bo-phim-gia-nh-lai-v-o-ye-u-tra-da-duong--8086",
     "title": "Phần 1 full ► Review Full Trọn Bộ Phim: Già-nh Lại V-ợ Yê-u | Trà Đá Đường (Full Trọn Bộ 4:01:48)",
