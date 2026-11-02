@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-960215897162806",
+    "slug": "phim-hay-tron-bo-chuyen-bay-phim-thuyet-minh-moi-nhat-phim-ai-day-co-t-2806",
+    "title": "Phim hay trọn bộ Chuyến bay, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 49:10)",
+    "description": "Phim hay trọn bộ Chuyến bay, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/960215897162806.jpg",
+    "coverImage": "/thumbnails/960215897162806.jpg",
+    "channelName": "Hội Quán Phim Trung Quốc",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-960215897162806",
+        "seriesId": "series-long-960215897162806",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Chuyến bay, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 49:10)",
+        "originalUrl": "https://www.facebook.com/watch/?v=960215897162806",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D960215897162806&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "49:10",
+        "thumbnail": "/thumbnails/960215897162806.jpg",
+        "viewsCount": 35156,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-2575056202674577",
     "slug": "full-tron-bo-phim-nguoi-vo-tai-sinh-xem-la-ghien-tn16-full-tron-bo-1-3-4577",
     "title": "FULL Trọn Bộ Phim Người vợ tái sinh | Xem Là Ghiền Tn16 (Full Trọn Bộ 1:33:33)",
