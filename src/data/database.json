@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-899879138240017",
+    "slug": "phim-hay-tron-bo-ban-oi-tranh-raaa-quynh-pro-1823-full-tron-bo-4-01-02-0017",
+    "title": "PHIM HAY TRỌN BỘ BẠN ƠI TRÁNH RAAA | Quỳnh Pro 1823 (Full Trọn Bộ 4:01:02)",
+    "description": "PHIM HAY TRỌN BỘ BẠN ƠI TRÁNH RAAA",
+    "thumbnail": "/thumbnails/899879138240017.jpg",
+    "coverImage": "/thumbnails/899879138240017.jpg",
+    "channelName": "Quỳnh Pro 1823",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-899879138240017",
+        "seriesId": "series-long-899879138240017",
+        "partNumber": 1,
+        "title": "PHIM HAY TRỌN BỘ BẠN ƠI TRÁNH RAAA | Quỳnh Pro 1823 (Full Trọn Bộ 4:01:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=899879138240017",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D899879138240017&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:01:02",
+        "thumbnail": "/thumbnails/899879138240017.jpg",
+        "viewsCount": 1700,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-394360296600554",
     "slug": "review-phim-hoac-tong-that-dang-ghet-tron-bo-full-phim-thong-gaming-ao-0554",
     "title": "Review phim Hoắc tổng thật đáng ghét trọn bộ (full phim). | Thông Gaming AOV (Full Trọn Bộ 2:20:22)",
