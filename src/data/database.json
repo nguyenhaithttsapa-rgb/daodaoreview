@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1456969436381526",
+    "slug": "mot-lua-chon-noi-duoc-bao-nhieu-dieu-ve-mot-con-nguoi-voi-thai-huyen-t-1526",
+    "title": "Một lựa chọn nói được bao nhiêu điều về một con người? Với Thái Huyền Thai Châu Truyện, tôi muốn dành thêm thời gian cho bối cảnh trước khi phán đoán. Một đoạn cắt ngắn có thể chưa đủ để hiểu toàn bộ lý do. Mỗi góc nhìn đều có thể gợi thêm một cuộc trò chuyện. Bạn muốn tìm hiểu thêm thì xem phần tiếp theo ở link đầu bài nhé. [16+] MÙA 16 | THÁI HUYỀN THAI CHÂU TRUYỆN Phù hợp khán giả từ 16 tuổi. | Mark Ellis (Full Trọn Bộ 1:30:00)",
+    "description": "Một lựa chọn nói được bao nhiêu điều về một con người? Với Thái Huyền Thai Châu Truyện, tôi muốn dành thêm thời gian cho bối cảnh trước khi phán đoán. Một đoạn...",
+    "thumbnail": "/thumbnails/1456969436381526.jpg",
+    "coverImage": "/thumbnails/1456969436381526.jpg",
+    "channelName": "Nghịch Thiên Kỳ Tích Review #111",
+    "genres": [
+      "Trọng Sinh",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1456969436381526",
+        "seriesId": "series-long-1456969436381526",
+        "partNumber": 1,
+        "title": "Một lựa chọn nói được bao nhiêu điều về một con người? Với Thái Huyền Thai Châu Truyện, tôi muốn dành thêm thời gian cho bối cảnh trước khi phán đoán. Một đoạn cắt ngắn có thể chưa đủ để hiểu toàn bộ lý do. Mỗi góc nhìn đều có thể gợi thêm một cuộc trò chuyện. Bạn muốn tìm hiểu thêm thì xem phần tiếp theo ở link đầu bài nhé. [16+] MÙA 16 | THÁI HUYỀN THAI CHÂU TRUYỆN Phù hợp khán giả từ 16 tuổi. | Mark Ellis (Full Trọn Bộ 1:30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1456969436381526",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1456969436381526&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:30:00",
+        "thumbnail": "/thumbnails/1456969436381526.jpg",
+        "viewsCount": 46477,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1373705318169026",
     "slug": "vo-coi-can-phong-la-nha-kho-ban-thiu-nao-ngo-ben-trong-la-noi-chong-di-9026",
     "title": "Vợ Coi Căn Phòng Là Nhà Kho Bẩn Thỉu, Nào Ngờ Bên Trong Là Nơi Chồng Điều Hành Cả Tập Đoàn Nghìn Tỷ! Nồi điện đa năng Gaabor GR-N15A lẩu điện | Positive Vibrant Days (Full Trọn Bộ 2:22:15)",
@@ -112904,7 +112941,7 @@
     ],
     "totalEpisodes": 1,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-02",
     "episodes": [
       {
         "id": "ep-long-1046268394969794",
