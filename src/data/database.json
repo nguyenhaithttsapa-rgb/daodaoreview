@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1095800866775833",
+    "slug": "phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-phim--5833",
+    "title": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 2:24:44)",
+    "description": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1095800866775833.jpg",
+    "coverImage": "/thumbnails/1095800866775833.jpg",
+    "channelName": "Mr1987",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1095800866775833",
+        "seriesId": "series-long-1095800866775833",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 2:24:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1095800866775833",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1095800866775833&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:24:44",
+        "thumbnail": "/thumbnails/1095800866775833.jpg",
+        "viewsCount": 30397,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
+    "id": "series-long-3040858289598253",
+    "slug": "phim-hay-tron-bo-canh-cua-moi-phim-thuyet-minh-moi-nhat-phim-ai-day-co-8253",
+    "title": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 1:43:00)",
+    "description": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/3040858289598253.jpg",
+    "coverImage": "/thumbnails/3040858289598253.jpg",
+    "channelName": "Mr1987",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-3040858289598253",
+        "seriesId": "series-long-3040858289598253",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 1:43:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3040858289598253",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3040858289598253&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:43:00",
+        "thumbnail": "/thumbnails/3040858289598253.jpg",
+        "viewsCount": 57389,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-2560211397790647",
     "slug": "full-phim-hay-tron-bo-bang-chung-thep-phim-thuyet-minh-moi-nhat-phim-a-0647",
     "title": "Full: Phim hay trọn bộ Bằng chừng thép, phim thuyết minh mới nhất, phim AI | Zlove1988 (Full Trọn Bộ 1:17:16)",
