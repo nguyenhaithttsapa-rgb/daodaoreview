@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1110588921541412",
+    "slug": "phim-hay-tron-bo-ke-vo-on-phim-thuyet-minh-moi-nhat-phim-ai-day-co-the-1412",
+    "title": "Phim hay trọn bộ Kẻ vô ơn, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 44:50)",
+    "description": "Phim hay trọn bộ Kẻ vô ơn, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1110588921541412.jpg",
+    "coverImage": "/thumbnails/1110588921541412.jpg",
+    "channelName": "Vở Phim Ngắn Hay",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1110588921541412",
+        "seriesId": "series-long-1110588921541412",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Kẻ vô ơn, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 44:50)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1110588921541412",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1110588921541412&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "44:50",
+        "thumbnail": "/thumbnails/1110588921541412.jpg",
+        "viewsCount": 52164,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-2351257855649630",
     "slug": "tien-nghich-tap-150-165-thuyet-minh-moi-nhat-full-4k-phim-hh3d-tron-bo-9630",
     "title": "Tiên Nghịch Tập 150 - 165 Thuyết Minh Mới Nhất Full 4K | Phim HH3D Trọn Bộ | Hoạt Hình Trung Quốc Thuyết Minh (Full Trọn Bộ 4:10:25)",
