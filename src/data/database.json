@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-811524838462542",
+    "slug": "full-tron-bo-tong-tai-ba-dao-thich-mua-moi-thu-bang-tien-chi-guc-nga-t-2542",
+    "title": "Full trọn bộ Tổng tài bá đạo thích mua mọi thứ bằng tiền, chỉ gục ngã trước trái tim của nàng thơ xinh đẹp | Ghiền Phim (Full Trọn Bộ 3:01:29)",
+    "description": "Full trọn bộ Tổng tài bá đạo thích mua mọi thứ bằng tiền, chỉ gục ngã trước trái tim của nàng thơ xinh đẹp",
+    "thumbnail": "/thumbnails/811524838462542.jpg",
+    "coverImage": "/thumbnails/811524838462542.jpg",
+    "channelName": "Ghiền Kịch Tổng Tài Vietsub #171.5",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-811524838462542",
+        "seriesId": "series-long-811524838462542",
+        "partNumber": 1,
+        "title": "Full trọn bộ Tổng tài bá đạo thích mua mọi thứ bằng tiền, chỉ gục ngã trước trái tim của nàng thơ xinh đẹp | Ghiền Phim (Full Trọn Bộ 3:01:29)",
+        "originalUrl": "https://www.facebook.com/watch/?v=811524838462542",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D811524838462542&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:01:29",
+        "thumbnail": "/thumbnails/811524838462542.jpg",
+        "viewsCount": 42059,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-960215897162806",
     "slug": "phim-hay-tron-bo-chuyen-bay-phim-thuyet-minh-moi-nhat-phim-ai-day-co-t-2806",
     "title": "Phim hay trọn bộ Chuyến bay, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 49:10)",
