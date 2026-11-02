@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1104409409060150",
+    "slug": "bo-phim-hoat-hinh-3d-trung-quoc-thuoc-the-loai-tu-tien-xuyen-khong-tu--0150",
+    "title": "Bộ phim hoạt hình 3D Trung Quốc thuộc thể loại tu tiên, xuyên không: Tu Tiên Giới: Thức Tỉnh Hệ Thốn | CuTit Kids (Full Trọn Bộ 8:17:44)",
+    "description": "Bộ phim hoạt hình 3D Trung Quốc thuộc thể loại tu tiên, xuyên không: Tu Tiên Giới: Thức Tỉnh Hệ Thốn",
+    "thumbnail": "/thumbnails/1104409409060150.jpg",
+    "coverImage": "/thumbnails/1104409409060150.jpg",
+    "channelName": "Hoạt Hình 3D Trung Quốc",
+    "genres": [
+      "Donghua 3D Tu Tiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1104409409060150",
+        "seriesId": "series-long-1104409409060150",
+        "partNumber": 1,
+        "title": "Bộ phim hoạt hình 3D Trung Quốc thuộc thể loại tu tiên, xuyên không: Tu Tiên Giới: Thức Tỉnh Hệ Thốn | CuTit Kids (Full Trọn Bộ 8:17:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1104409409060150",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1104409409060150&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "8:17:44",
+        "thumbnail": "/thumbnails/1104409409060150.jpg",
+        "viewsCount": 50606,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-2120780271735844",
     "slug": "review-phim-linh-can-tien-thien-tron-bo-su-de-bi-khinh-thuong-la-tap-l-5844",
     "title": "REVIEW PHIM : LINH CĂN TIÊN THIÊN.TRỌN BỘ sư đệ bị khinh thường là tạp linh căn khó có thể tu luyện nào ngờ thứ anh sở hữu chính là Tiên Thiên linh căn trong truyền thuyết | AĐG Review (Full Trọn Bộ 2:41:28)",
