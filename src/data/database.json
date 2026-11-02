@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1637615724528519",
+    "slug": "full-tron-bo-moi-nhat-2026-minh-dang-co-gang-kiem-them-chut-thu-nhap-n-8519",
+    "title": "FULL TRỌN BỘ MỚI NHẤT 2026  Mình đang cố gắng kiếm thêm chút thu nhập. Nếu được, mọi người ủng hộ mình một lượt click vào đây nhé ạ: | Cine & Chill (Full Trọn Bộ 2:15:27)",
+    "description": "FULL TRỌN BỘ MỚI NHẤT 2026  Mình đang cố gắng kiếm thêm chút thu nhập. Nếu được, mọi người ủng hộ mình một lượt click vào đây nhé ạ:",
+    "thumbnail": "/thumbnails/1637615724528519.jpg",
+    "coverImage": "/thumbnails/1637615724528519.jpg",
+    "channelName": "2026+",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1637615724528519",
+        "seriesId": "series-long-1637615724528519",
+        "partNumber": 1,
+        "title": "FULL TRỌN BỘ MỚI NHẤT 2026  Mình đang cố gắng kiếm thêm chút thu nhập. Nếu được, mọi người ủng hộ mình một lượt click vào đây nhé ạ: | Cine & Chill (Full Trọn Bộ 2:15:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1637615724528519",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1637615724528519&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:15:27",
+        "thumbnail": "/thumbnails/1637615724528519.jpg",
+        "viewsCount": 76000,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-2043667839673271",
     "slug": "full-tron-bo-review-phim-tieu-tong-thi-ra-la-anh-thien-kim-nhi-tieu-th-3271",
     "title": "Full Trọn Bộ - Review Phim_ TIÊU TỔNG, THÌ RA LÀ ANH._____Thiên Kim Nhị Tiểu Thư Gặp T.ai. N.ạ.n Và M.ất Đi...tập 2 | Tiểu Yêu Review (Full Trọn Bộ 1:59:04)",
