@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-4503923716510640",
+    "slug": "full-phim-nobita-tham-hiem-vung-dat-moi-1982-phan-2-me-phim-hoat-hinh--0640",
+    "title": "Full phim : Nobita thám hiểm vùng đất mới 1982 ( phần 2 ) | Mê Phim Hoạt Hình (Full Trọn Bộ 31:31)",
+    "description": "Full phim : Nobita thám hiểm vùng đất mới 1982 ( phần 2 )",
+    "thumbnail": "/thumbnails/4503923716510640.jpg",
+    "coverImage": "/thumbnails/4503923716510640.jpg",
+    "channelName": "Mark Crawford",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-4503923716510640",
+        "seriesId": "series-long-4503923716510640",
+        "partNumber": 1,
+        "title": "Full phim : Nobita thám hiểm vùng đất mới 1982 ( phần 2 ) | Mê Phim Hoạt Hình (Full Trọn Bộ 31:31)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4503923716510640",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4503923716510640&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:31",
+        "thumbnail": "/thumbnails/4503923716510640.jpg",
+        "viewsCount": 32041,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1526132414626028",
     "slug": "review-phim-diep-pham-tu-tien-tron-bo-full-phim-calliope-full-tron-bo--6028",
     "title": "Review phim: Diệp phàm tu tiên trọn bộ - full phim | Calliope (Full Trọn Bộ 1:19:26)",
