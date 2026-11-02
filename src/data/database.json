@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2345556929539594",
+    "slug": "lord-s-super-sunday-service-01-11-26-cop-mckeown-temple-asokwa-kumasi--9594",
+    "title": "LORD'S SUPER SUNDAY SERVICE. 01.11.26 | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 2:18:07)",
+    "description": "LORD'S SUPER SUNDAY SERVICE. 01.11.26",
+    "thumbnail": "/thumbnails/2345556929539594.jpg",
+    "coverImage": "/thumbnails/2345556929539594.jpg",
+    "channelName": "COP McKeown Temple Asokwa",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-2345556929539594",
+        "seriesId": "series-long-2345556929539594",
+        "partNumber": 1,
+        "title": "LORD'S SUPER SUNDAY SERVICE. 01.11.26 | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 2:18:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2345556929539594",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2345556929539594&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:18:07",
+        "thumbnail": "/thumbnails/2345556929539594.jpg",
+        "viewsCount": 46896,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1555756275023762",
     "slug": "review-phom-tron-bo-full-tieu-thu-xinh-dep-vo-tinh-gap-lai-tong-tai-ng-3762",
     "title": "Review phom trọn bộ (Full) Tiểu thư xinh đẹp vô tình gặp lại tổng tài nghìn tỷ đã c-ư-ớ-p mất lần đầu của mình vào 5 năm trước | Review Phim Hay Nhất (Full Trọn Bộ 1:33:08)",
