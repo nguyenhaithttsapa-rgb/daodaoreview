@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1602067678055185",
+    "slug": "full-tron-bo-nhoc-ty-ca-chep-khay-dao-hoang-cung-ga-rung-mo-phim-full--5185",
+    "title": "Full Trọn Bộ - Nhóc Tỳ Cá Chép Khấy Đảo Hoàng Cung | Gà Rừng Mổ Phim (Full Trọn Bộ 3:09:26)",
+    "description": "Full Trọn Bộ - Nhóc Tỳ Cá Chép Khấy Đảo Hoàng Cung",
+    "thumbnail": "/thumbnails/1602067678055185.jpg",
+    "coverImage": "/thumbnails/1602067678055185.jpg",
+    "channelName": "Gà Rừng Mổ Phim",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1602067678055185",
+        "seriesId": "series-long-1602067678055185",
+        "partNumber": 1,
+        "title": "Full Trọn Bộ - Nhóc Tỳ Cá Chép Khấy Đảo Hoàng Cung | Gà Rừng Mổ Phim (Full Trọn Bộ 3:09:26)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1602067678055185",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1602067678055185&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:09:26",
+        "thumbnail": "/thumbnails/1602067678055185.jpg",
+        "viewsCount": 26490,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1633942418400306",
     "slug": "full-tron-bo-nhat-mong-trong-sinh-cung-quan-thuong-niem-chuc-ca-nha-xe-0306",
     "title": "FULL TRỌN BỘ》 《NHẤT MỘNG TRỌNG SINH, CÙNG QUÂN THƯỜNG NIỆM》 --- Chúc cả nhà xem phim vui vẻ ....dù che mưa đang có giá tốt | Mê Phim Cổ Trang (Full Trọn Bộ 1:48:48)",
