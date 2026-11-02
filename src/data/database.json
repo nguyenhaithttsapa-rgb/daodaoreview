@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-4571741756418631",
+    "slug": "tap-2-phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-8631",
+    "title": "Tập 2: Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Phương Linh (Full Trọn Bộ 33:02)",
+    "description": "Tập 2: Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/4571741756418631.jpg",
+    "coverImage": "/thumbnails/4571741756418631.jpg",
+    "channelName": "Y Thánh Xuất Sơn Hay Cấn #226.3",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-4571741756418631",
+        "seriesId": "series-long-4571741756418631",
+        "partNumber": 1,
+        "title": "Tập 2: Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Phương Linh (Full Trọn Bộ 33:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4571741756418631",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4571741756418631&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:02",
+        "thumbnail": "/thumbnails/4571741756418631.jpg",
+        "viewsCount": 42061,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-338936212319403",
     "slug": "review-phim-me-con-tuyet-voi-nhat-full-tron-bo-tus-propuestas-para-las-9403",
     "title": "Review phim Mẹ con tuyệt vời nhất - Full Trọn Bộ | Tus Propuestas para las FF.AA. de Bolivia (Full Trọn Bộ 1:35:54)",
