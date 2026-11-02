@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1128198589583616",
+    "slug": "full-tron-bo-tien-co-vua-xuong-nui-da-cuoi-duoc-anh-tong-tai-het-nuoc--3616",
+    "title": "FULL TRỌN BỘ: Tiên cô vừa xuống núi đã cưới được anh tổng tài hết nước chấm | Bắp TV (Full Trọn Bộ 2:15:44)",
+    "description": "FULL TRỌN BỘ: Tiên cô vừa xuống núi đã cưới được anh tổng tài hết nước chấm",
+    "thumbnail": "/thumbnails/1128198589583616.jpg",
+    "coverImage": "/thumbnails/1128198589583616.jpg",
+    "channelName": "Phim Hết Nước Chấm",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1128198589583616",
+        "seriesId": "series-long-1128198589583616",
+        "partNumber": 1,
+        "title": "FULL TRỌN BỘ: Tiên cô vừa xuống núi đã cưới được anh tổng tài hết nước chấm | Bắp TV (Full Trọn Bộ 2:15:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1128198589583616",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1128198589583616&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:15:44",
+        "thumbnail": "/thumbnails/1128198589583616.jpg",
+        "viewsCount": 40016,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1064372147993904",
     "slug": "tron-bo-nguoi-cha-bi-an-jensen-carrillo-full-tron-bo-1-39-15-3904",
     "title": "TRỌN BỘ _ Người cha bí ẩn | Jensen Carrillo (Full Trọn Bộ 1:39:15)",
