@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2656085607993945",
+    "slug": "hoc-cach-buong-bo-moi-phien-nao-tt-thich-nhat-tu-thuyet-giang-rat-sau--3945",
+    "title": "Học Cách Buông Bỏ Mọi Phiền Não | TT. Thích Nhật Từ thuyết giảng rất sâu sắc | Thích Nhật Từ (Full Trọn Bộ 4:00:15)",
+    "description": "Học Cách Buông Bỏ Mọi Phiền Não | TT. Thích Nhật Từ thuyết giảng rất sâu sắc",
+    "thumbnail": "/thumbnails/2656085607993945.jpg",
+    "coverImage": "/thumbnails/2656085607993945.jpg",
+    "channelName": "Thích Nhật Từ",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-2656085607993945",
+        "seriesId": "series-long-2656085607993945",
+        "partNumber": 1,
+        "title": "Học Cách Buông Bỏ Mọi Phiền Não | TT. Thích Nhật Từ thuyết giảng rất sâu sắc | Thích Nhật Từ (Full Trọn Bộ 4:00:15)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2656085607993945",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2656085607993945&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:00:15",
+        "thumbnail": "/thumbnails/2656085607993945.jpg",
+        "viewsCount": 4900,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-581525894230156",
     "slug": "tron-bo-co-tieu-thu-vui-ve-dap-xe-den-dam-cuoi-vo-tinh-va-phai-thieu-g-0156",
     "title": "TRỌN BỘ Cô tiểu thư vui vẻ đạp xe đến đám cưới vô tình va phải thiếu gia gi ả làm shipper__Phim hay__ | Trantuyen Riview 02 (Full Trọn Bộ 33:58)",
