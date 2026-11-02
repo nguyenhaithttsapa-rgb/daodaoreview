@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-394360296600554",
+    "slug": "review-phim-hoac-tong-that-dang-ghet-tron-bo-full-phim-thong-gaming-ao-0554",
+    "title": "Review phim Hoắc tổng thật đáng ghét trọn bộ (full phim). | Thông Gaming AOV (Full Trọn Bộ 2:20:22)",
+    "description": "Review phim Hoắc tổng thật đáng ghét trọn bộ (full phim).",
+    "thumbnail": "/thumbnails/394360296600554.jpg",
+    "coverImage": "/thumbnails/394360296600554.jpg",
+    "channelName": "Thông Gaming AOV",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-394360296600554",
+        "seriesId": "series-long-394360296600554",
+        "partNumber": 1,
+        "title": "Review phim Hoắc tổng thật đáng ghét trọn bộ (full phim). | Thông Gaming AOV (Full Trọn Bộ 2:20:22)",
+        "originalUrl": "https://www.facebook.com/watch/?v=394360296600554",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D394360296600554&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:22",
+        "thumbnail": "/thumbnails/394360296600554.jpg",
+        "viewsCount": 8900,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-720879660589155",
     "slug": "full-tron-bo-review-phim-hay-nhat-duoc-ngoi-sao-may-man-phim-hay-phet--9155",
     "title": "FULL TRỌN BỘ - REVIEW PHIM HAY - Nhặt được ngôi sao may mắn   | Phim Hay Phết Đấy (Full Trọn Bộ 2:28:22)",
