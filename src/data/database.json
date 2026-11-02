@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1093634086420553",
+    "slug": "tap-3-phim-hay-tron-bo-quan-huyen-tham-lam-phim-thuyet-minh-moi-nhat-p-0553",
+    "title": "Tập 3 : phim hay trọn bộ Quan huyện tham lam, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 32:18)",
+    "description": "Tập 3 : phim hay trọn bộ Quan huyện tham lam, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1093634086420553.jpg",
+    "coverImage": "/thumbnails/1093634086420553.jpg",
+    "channelName": "Phim Hay Mỗi Ngày T5",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-1093634086420553",
+        "seriesId": "series-long-1093634086420553",
+        "partNumber": 1,
+        "title": "Tập 3 : phim hay trọn bộ Quan huyện tham lam, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 32:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1093634086420553",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1093634086420553&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:18",
+        "thumbnail": "/thumbnails/1093634086420553.jpg",
+        "viewsCount": 57094,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-4456093751312345",
     "slug": "truyen-audio-ten-bien-thai-nam-duoi-gam-giuong-nghe-toi-moc-moi-dem-fu-2345",
     "title": "Truyện Audio : Tên Biến Thái Nằm Dưới Gầm Giường Nghe Tôi Móc Mỗi Đêm [Full trọn bộ] | Bánh Tráng Audio (Full Trọn Bộ 39:05)",
