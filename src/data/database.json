@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-338936212319403",
+    "slug": "review-phim-me-con-tuyet-voi-nhat-full-tron-bo-tus-propuestas-para-las-9403",
+    "title": "Review phim Mẹ con tuyệt vời nhất - Full Trọn Bộ | Tus Propuestas para las FF.AA. de Bolivia (Full Trọn Bộ 1:35:54)",
+    "description": "Review phim Mẹ con tuyệt vời nhất - Full Trọn Bộ",
+    "thumbnail": "/thumbnails/338936212319403.jpg",
+    "coverImage": "/thumbnails/338936212319403.jpg",
+    "channelName": "Lyly review phim 3",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-338936212319403",
+        "seriesId": "series-long-338936212319403",
+        "partNumber": 1,
+        "title": "Review phim Mẹ con tuyệt vời nhất - Full Trọn Bộ | Tus Propuestas para las FF.AA. de Bolivia (Full Trọn Bộ 1:35:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=338936212319403",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D338936212319403&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:35:54",
+        "thumbnail": "/thumbnails/338936212319403.jpg",
+        "viewsCount": 36613,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1235035730740759",
     "slug": "thanh-nien-xuyen-khong-the-tu-tran-bac-vuong-1-tay-khuay-dao-trieu-din-0759",
     "title": "Thanh niên XUYÊN KHÔNG thế tử Trấn Bắc Vương, 1 tay khuấy đảo triều đình - FULL PHIM | Phim Xuyên Không Mới Nhất (Full Trọn Bộ 3:17:54)",
