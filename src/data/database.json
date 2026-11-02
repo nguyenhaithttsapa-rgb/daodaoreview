@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-883244920299634",
+    "slug": "tron-bo-nguoi-phu-nu-chi-vi-khong-sinh-duoc-con-da-bi-chong-han-h-h-a--9634",
+    "title": "TRỌN BỘ-người phụ nữ chỉ vì không sinh được con, đã bị chồng hàn h h ạ suốt ngày | Liên Tịch Vân Ca - 蓮寂雲歌 (Full Trọn Bộ 57:53)",
+    "description": "TRỌN BỘ-người phụ nữ chỉ vì không sinh được con, đã bị chồng hàn h h ạ suốt ngày",
+    "thumbnail": "/thumbnails/883244920299634.jpg",
+    "coverImage": "/thumbnails/883244920299634.jpg",
+    "channelName": "Liên Tịch Vân Ca - 蓮寂雲歌",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-883244920299634",
+        "seriesId": "series-long-883244920299634",
+        "partNumber": 1,
+        "title": "TRỌN BỘ-người phụ nữ chỉ vì không sinh được con, đã bị chồng hàn h h ạ suốt ngày | Liên Tịch Vân Ca - 蓮寂雲歌 (Full Trọn Bộ 57:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=883244920299634",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D883244920299634&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "57:53",
+        "thumbnail": "/thumbnails/883244920299634.jpg",
+        "viewsCount": 57121,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1728291274367371",
     "slug": "tron-bo-128-phut-full-tinh-si-tong-tai-phai-long-co-gai-khong-dia-vi-s-7371",
     "title": "Trọn bộ (128 phút full) Tình si. Tổng tài phải lòng cô gái không địa vị. | SnapLogistics - Vận Chuyển Trung Việt (Full Trọn Bộ 1:30:58)",
