@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-907198884972314",
+    "slug": "phim-hay-tron-bo-moi-nhat-quan-chua-gia-dao-news-36-full-tron-bo-1-19--2314",
+    "title": "Phim hay trọn bộ mới nhất Quận chúa giá đáo | News 36 (Full Trọn Bộ 1:19:41)",
+    "description": "Phim hay trọn bộ mới nhất Quận chúa giá đáo ...",
+    "thumbnail": "/thumbnails/907198884972314.jpg",
+    "coverImage": "/thumbnails/907198884972314.jpg",
+    "channelName": "News 36",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-907198884972314",
+        "seriesId": "series-long-907198884972314",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ mới nhất Quận chúa giá đáo | News 36 (Full Trọn Bộ 1:19:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=907198884972314",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D907198884972314&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:19:41",
+        "thumbnail": "/thumbnails/907198884972314.jpg",
+        "viewsCount": 33936,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1404121741072130",
     "slug": "review-phim-trang-khong-tron-ven-tron-bo-anh-trang-dem-ay-sang-that-ga-2130",
     "title": "REVIEW PHIM : TRĂNG KHÔNG TRỌN VẸN.TRỌN BỘ Ánh trăng đêm ấy sáng thật gần… nhưng trái tim họ lại cách nhau muôn trùng | AĐG TV2 (Full Trọn Bộ 50:29)",
