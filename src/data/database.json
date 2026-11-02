@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-4456093751312345",
+    "slug": "truyen-audio-ten-bien-thai-nam-duoi-gam-giuong-nghe-toi-moc-moi-dem-fu-2345",
+    "title": "Truyện Audio : Tên Biến Thái Nằm Dưới Gầm Giường Nghe Tôi Móc Mỗi Đêm [Full trọn bộ] | Bánh Tráng Audio (Full Trọn Bộ 39:05)",
+    "description": "Truyện Audio : Tên Biến Thái Nằm Dưới Gầm Giường Nghe Tôi Móc Mỗi Đêm [Full trọn bộ]",
+    "thumbnail": "/thumbnails/4456093751312345.jpg",
+    "coverImage": "/thumbnails/4456093751312345.jpg",
+    "channelName": "Truyện Mỗi Đêm",
+    "genres": [
+      "Donghua Kiếm Lai 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-02",
+    "episodes": [
+      {
+        "id": "ep-long-4456093751312345",
+        "seriesId": "series-long-4456093751312345",
+        "partNumber": 1,
+        "title": "Truyện Audio : Tên Biến Thái Nằm Dưới Gầm Giường Nghe Tôi Móc Mỗi Đêm [Full trọn bộ] | Bánh Tráng Audio (Full Trọn Bộ 39:05)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4456093751312345",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4456093751312345&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "39:05",
+        "thumbnail": "/thumbnails/4456093751312345.jpg",
+        "viewsCount": 19481,
+        "publishedAt": "2026-11-02"
+      }
+    ]
+  },
+  {
     "id": "series-long-1534919001732523",
     "slug": "74-arts-faculty-students-union-university-of-peradeniya-full-tron-bo-5-2523",
     "title": "ශාස්ත්‍ර පීඨයේ 74 සංවත්සරයට සමගාමීව පවත්වන්නට යෙදෙන පරිත්‍රාන ධර්ම දේශනාව . | Arts Faculty Students' Union - University of Peradeniya (Full Trọn Bộ 59:03)",
