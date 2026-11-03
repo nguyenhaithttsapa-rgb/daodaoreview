@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1493760019474263",
+    "slug": "phan-6-tu-bao-tien-bon-tien-gioi-thien-ngu-hanh-linh-can-ta-co-tien-bo-4263",
+    "title": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới. | Vịt Chàm (Full Trọn Bộ 5:02:53)",
+    "description": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới.",
+    "thumbnail": "/thumbnails/1493760019474263.jpg",
+    "coverImage": "/thumbnails/1493760019474263.jpg",
+    "channelName": "Phim Hay Sướng Nhá",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1493760019474263",
+        "seriesId": "series-long-1493760019474263",
+        "partNumber": 1,
+        "title": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới. | Vịt Chàm (Full Trọn Bộ 5:02:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1493760019474263",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1493760019474263&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:02:53",
+        "thumbnail": "/thumbnails/1493760019474263.jpg",
+        "viewsCount": 50141,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1257168296513763",
     "slug": "thanh-nien-xuyen-khong-thuc-tinh-he-thong-tam-quoc-tu-pho-ma-phe-vat-v-3763",
     "title": "Thanh niên xuyên không thức tỉnh hệ thống Tam Quốc, từ phò mã phế vật vươn lên làm bậc đế vương | Review Phim Hay Mỗi Ngày (Full Trọn Bộ 2:44:42)",
@@ -42184,7 +42221,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-03",
     "episodes": [
       {
         "id": "ep-long-1794940991693082",
@@ -70461,7 +70498,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-03",
     "episodes": [
       {
         "id": "ep-long-1794940991693082",
