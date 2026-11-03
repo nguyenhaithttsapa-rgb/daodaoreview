@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1421189656761989",
+    "slug": "truc-tiep-thanh-le-cau-cho-cac-linh-hon-giao-xu-hai-giap-thanh-dia-gia-1989",
+    "title": " TRỰC TIẾP: THÁNH LỄ CẦU CHO CÁC LINH HỒN - GIÁO XỨ HAI GIÁP  THÁNH ĐỊA GIÁO XỨ HAI GIÁP | Nhà thờ giáo xứ Hai Giáp - Cộng Đoàn Xa Quê (Full Trọn Bộ 1:22:09)",
+    "description": " TRỰC TIẾP: THÁNH LỄ CẦU CHO CÁC LINH HỒN - GIÁO XỨ HAI GIÁP  THÁNH ĐỊA GIÁO XỨ HAI GIÁP",
+    "thumbnail": "/thumbnails/1421189656761989.jpg",
+    "coverImage": "/thumbnails/1421189656761989.jpg",
+    "channelName": "Nhà thờ giáo xứ Hai Giáp - Cộng Đoàn Xa Quê",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1421189656761989",
+        "seriesId": "series-long-1421189656761989",
+        "partNumber": 1,
+        "title": " TRỰC TIẾP: THÁNH LỄ CẦU CHO CÁC LINH HỒN - GIÁO XỨ HAI GIÁP  THÁNH ĐỊA GIÁO XỨ HAI GIÁP | Nhà thờ giáo xứ Hai Giáp - Cộng Đoàn Xa Quê (Full Trọn Bộ 1:22:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1421189656761989",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1421189656761989&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:22:09",
+        "thumbnail": "/thumbnails/1421189656761989.jpg",
+        "viewsCount": 3500,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1201832062066546",
     "slug": "thanh-nien-co-he-thong-tro-giup-vo-song-danh-bai-moi-thien-tai-de-phuc-6546",
     "title": "Thanh niên có hệ thống trợ giúp vô song, đánh bại mọi thiên tài để phục hưng thánh địa | Điêu Thuyền Review - Phim Hay Mỗi Ngày (Full Trọn Bộ 2:57:26)",
