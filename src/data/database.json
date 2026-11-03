@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1428498489446806",
+    "slug": "tron-bo-phan-4-nhat-mong-thanh-huyen-doan-sung-tieu-su-muoi-nhat-kiem--6806",
+    "title": "Trọn bộ Phần 4: Nhất Mộng Thanh Huyền Đoàn Sủng Tiểu Sư Muội - Nhất Kiếm Phá Cửu Thiên | Thị Nở Vietsub (Full Trọn Bộ 2:58:08)",
+    "description": "Trọn bộ Phần 4: Nhất Mộng Thanh Huyền Đoàn Sủng Tiểu Sư Muội - Nhất Kiếm Phá Cửu Thiên",
+    "thumbnail": "/thumbnails/1428498489446806.jpg",
+    "coverImage": "/thumbnails/1428498489446806.jpg",
+    "channelName": "Nữ Cường Đoàn Sủng Full Mùa #160.2",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1428498489446806",
+        "seriesId": "series-long-1428498489446806",
+        "partNumber": 1,
+        "title": "Trọn bộ Phần 4: Nhất Mộng Thanh Huyền Đoàn Sủng Tiểu Sư Muội - Nhất Kiếm Phá Cửu Thiên | Thị Nở Vietsub (Full Trọn Bộ 2:58:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1428498489446806",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1428498489446806&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:58:08",
+        "thumbnail": "/thumbnails/1428498489446806.jpg",
+        "viewsCount": 39332,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-964283600038492",
     "slug": "phim-hay-tron-bo-thai-hau-dinh-can-khon-phim-thuyet-minh-moi-nhat-phim-8492",
     "title": "Phim hay trọn bộ Thái hậu định càn khôn, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 58:32)",
