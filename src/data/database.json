@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-814065597326839",
+    "slug": "full-tron-bo-phim-kich-ban-tinh-yeu-tm-shop-29014-full-tron-bo-1-59-58-6839",
+    "title": "FULL Trọn Bộ Phim Kịch bản tình yêu | Tm Shop 29014 (Full Trọn Bộ 1:59:58)",
+    "description": "FULL Trọn Bộ Phim Kịch bản tình yêu",
+    "thumbnail": "/thumbnails/814065597326839.jpg",
+    "coverImage": "/thumbnails/814065597326839.jpg",
+    "channelName": "Tm Shop 29014",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-814065597326839",
+        "seriesId": "series-long-814065597326839",
+        "partNumber": 1,
+        "title": "FULL Trọn Bộ Phim Kịch bản tình yêu | Tm Shop 29014 (Full Trọn Bộ 1:59:58)",
+        "originalUrl": "https://www.facebook.com/watch/?v=814065597326839",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D814065597326839&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:59:58",
+        "thumbnail": "/thumbnails/814065597326839.jpg",
+        "viewsCount": 44915,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-989835959313956",
     "slug": "full-tron-bo-phim-xuat-uyen-xem-la-ghien-tn16-full-tron-bo-2-44-02-3956",
     "title": "FULL Trọn Bộ Phim Xuất uyển | Xem Là Ghiền Tn16 (Full Trọn Bộ 2:44:02)",
