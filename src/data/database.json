@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2391717471271677",
+    "slug": "review-phim-vo-anh-tron-bo-nguoi-phu-nu-tat-thang-mat-con-dau-nhung-kh-1677",
+    "title": "REVIEW PHIM - VỢ ANH.TRỌN BỘ Người phụ nữ tát thẳng mặt con dâu nhưng không ngờ con trai mình mới là người chịu khổ | AĐG TV1 (Full Trọn Bộ 1:34:32)",
+    "description": "REVIEW PHIM - VỢ ANH.TRỌN BỘ Người phụ nữ tát thẳng mặt con dâu nhưng không ngờ con trai mình mới là người chịu khổ",
+    "thumbnail": "/thumbnails/2391717471271677.jpg",
+    "coverImage": "/thumbnails/2391717471271677.jpg",
+    "channelName": "AĐG TV1",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-2391717471271677",
+        "seriesId": "series-long-2391717471271677",
+        "partNumber": 1,
+        "title": "REVIEW PHIM - VỢ ANH.TRỌN BỘ Người phụ nữ tát thẳng mặt con dâu nhưng không ngờ con trai mình mới là người chịu khổ | AĐG TV1 (Full Trọn Bộ 1:34:32)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2391717471271677",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2391717471271677&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:34:32",
+        "thumbnail": "/thumbnails/2391717471271677.jpg",
+        "viewsCount": 31508,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1465887505079004",
     "slug": "1-trieu-luot-xem-24k-cam-xuc-review-phim-tron-bo-full-phim-tien-co-b-a-9004",
     "title": "1 triệu lượt xem · 24K cảm xúc | Review phim trọn bộ (full phim) - Tiên cô b--ắ--t g-ặ-p chủ tịch đi t--r--ô--m đ-à-o nhưng vẫn cho anh ta đào khi nhìn thấy thứ này trên người anh | Vita Media Review Phim Hay (Full Trọn Bộ 1:54:00)",
