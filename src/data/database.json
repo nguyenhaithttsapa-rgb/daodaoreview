@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-897318012393002",
+    "slug": "tron-bo-chang-trai-khong-the-ngo-me-cua-minh-lai-tre-trung-xinh-dep-ho-3002",
+    "title": "TRỌN BỘ-Chàng trai không thể ngờ mẹ của mình lại trẻ trung xinh đẹp hơn cả hoa khôi trường mà anh thầm thích và cái kết. | Greenwall pleiku (Full Trọn Bộ 1:11:27)",
+    "description": "TRỌN BỘ-Chàng trai không thể ngờ mẹ của mình lại trẻ trung xinh đẹp hơn cả hoa khôi trường mà anh thầm thích và cái kết.",
+    "thumbnail": "/thumbnails/897318012393002.jpg",
+    "coverImage": "/thumbnails/897318012393002.jpg",
+    "channelName": "Greenwall pleiku",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-897318012393002",
+        "seriesId": "series-long-897318012393002",
+        "partNumber": 1,
+        "title": "TRỌN BỘ-Chàng trai không thể ngờ mẹ của mình lại trẻ trung xinh đẹp hơn cả hoa khôi trường mà anh thầm thích và cái kết. | Greenwall pleiku (Full Trọn Bộ 1:11:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=897318012393002",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D897318012393002&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:27",
+        "thumbnail": "/thumbnails/897318012393002.jpg",
+        "viewsCount": 26475,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1145971189944148",
     "slug": "full-tron-bo-thien-mon-tan-chu-qua-chuoi-ri-viu-full-tron-bo-1-44-22-4148",
     "title": "FULL TRỌN BỘ - Thiên Môn Tần Chủ | Quả Chuối Rì Viu (Full Trọn Bộ 1:44:22)",
