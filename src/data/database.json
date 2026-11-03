@@ -1,5 +1,168 @@
 [
   {
+    "id": "series-long-1590681699264830",
+    "slug": "xem-tiep-tai-p1-tap-2-de-ton-hoi-quy-tran-ap-chu-thien-van-co-khoi-ngu-4830",
+    "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+    "description": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. ...",
+    "thumbnail": "/thumbnails/1590681699264830.jpg",
+    "coverImage": "/thumbnails/1590681699264830.jpg",
+    "channelName": "PhimTop24h",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 10,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1423932626353346",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại P1 - Tập 1 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:10:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1423932626353346",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1423932626353346&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:23",
+        "thumbnail": "/thumbnails/1423932626353346.jpg",
+        "viewsCount": 41296,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1450558353626273",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 2,
+        "title": "Xem Tiếp tại P1 - Tập 1 | CHƯ THIÊN ĐẤU GIÁ HÀNH | Hệ Thống Đấu Giá Hoàn Trả Gấp Trăm Lần, Lâm Thiên Ta Náo Loạn Tu Tiên Giới. | Linh Đan Travel (Full Trọn Bộ 1:03:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1450558353626273",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1450558353626273&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:03:09",
+        "thumbnail": "/thumbnails/1450558353626273.jpg",
+        "viewsCount": 8300,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1542754847620224",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 3,
+        "title": "Xem Tiếp tại P1 - Tập 1 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Phim Hot 24h (Full Trọn Bộ 36:30)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1542754847620224",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1542754847620224&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "36:30",
+        "thumbnail": "/thumbnails/1542754847620224.jpg",
+        "viewsCount": 57424,
+        "publishedAt": "2026-10-20"
+      },
+      {
+        "id": "ep-long-1590681699264830",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 5,
+        "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "35:44",
+        "thumbnail": "/thumbnails/4654772738140638.jpg",
+        "viewsCount": 10000,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-1056501647183004",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 6,
+        "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:01:48",
+        "thumbnail": "/thumbnails/1056501647183004.jpg",
+        "viewsCount": 49999,
+        "publishedAt": "2026-10-19"
+      },
+      {
+        "id": "ep-long-2303254743861718",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 7,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/2303254743861718.jpg",
+        "viewsCount": 22228,
+        "publishedAt": "2026-10-16"
+      },
+      {
+        "id": "ep-long-2508988566277264",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 8,
+        "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "35:44",
+        "thumbnail": "/thumbnails/2508988566277264.jpg",
+        "viewsCount": 52318,
+        "publishedAt": "2026-10-16"
+      },
+      {
+        "id": "ep-long-1420765080005539",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 9,
+        "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:18:11",
+        "thumbnail": "/thumbnails/1420765080005539.jpg",
+        "viewsCount": 47521,
+        "publishedAt": "2026-10-10"
+      },
+      {
+        "id": "ep-long-2927288344272140",
+        "seriesId": "series-long-1590681699264830",
+        "partNumber": 10,
+        "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "39:13",
+        "thumbnail": "/thumbnails/2927288344272140.jpg",
+        "viewsCount": 24335,
+        "publishedAt": "2026-10-09"
+      }
+    ]
+  },
+  {
     "id": "series-long-517955182888308",
     "slug": "tuyet-pham-guitar-yamaha-ll16-ls16-vi-the-moi-dang-cap-cau-hinh-full-s-8308",
     "title": " Tuyệt phẩm Guitar Yamaha LL16 & LS16 - Vị thế mới đẳng cấp cấu hình full solid cao nhất phân khúc với mức giá cực hời ‍️ Sẽ thật tiếc nếu bạn chỉ biết đến Taylor series 1 hay Martin X- Series mà chưa biết đến Yamaha LL16 & LS16  Thương hiệu Ngoại chính hãng & nổi tiếng thế giới Yamaha  Là model DUY NHẤT ở tầm giá mang cấu hình full solid cao cấp với công nghệ xử lý gỗ tối tân A.R.E trong các thương hiệu Guitar Ngoại danh tiếng.  Tầm giá trung cấp nhưng mang chất lượng cao cấp, độc tôn trong phân khúc.  Mua 헬헮헺헮헵헮 LL16 & LS16 chính hãng tại Shop các bạn sẽ được tặng thêm quà tặng phụ kiện giá trị và Free ship toàn quốc (đảm bảo) tận nhà ▶️ Link Youtube: -----------------------  inbox để chúng mình tư vấn cho bạn nhé Link Facebook Shop: Tiến Nguyễn Music Hoặc : Phương Dung Socola   Địa chỉ mua hàng trực tiếp: 81 Cộng Hòa, Phường 4, Quận Tân Bình, TP.HCM  SHIP HÀNG TOÀN QUỐC  Hotline: 028 3535 2434  Tư Vấn Mua Hàng: - 0931 85 4466 Góp Ý Khiếu Nại : 077 235 7777  Website :  tiennguyenguitar@gmail.com ⏰ Thời gian làm việc : 8h-21h hàng ngày | Phương Dung Socola (Full Trọn Bộ 49:40)",
@@ -10249,7 +10412,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -10296,9 +10459,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-1423932626353346",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1423932626353346",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -10312,7 +10489,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-1423932626353346",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -10326,7 +10503,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-1423932626353346",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -10340,7 +10517,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-1423932626353346",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -10354,7 +10531,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-1423932626353346",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -10368,7 +10545,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-1423932626353346",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -10963,7 +11140,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -11010,9 +11187,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-1450558353626273",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1450558353626273",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -11026,7 +11217,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-1450558353626273",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -11040,7 +11231,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-1450558353626273",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -11054,7 +11245,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-1450558353626273",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -11068,7 +11259,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-1450558353626273",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -11082,7 +11273,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-1450558353626273",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -80039,7 +80230,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -80086,9 +80277,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-4654772738140638",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-4654772738140638",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -80102,7 +80307,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-4654772738140638",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -80116,7 +80321,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-4654772738140638",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -80130,7 +80335,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-4654772738140638",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -80144,7 +80349,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-4654772738140638",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -80158,7 +80363,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-4654772738140638",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -113116,7 +113321,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -113163,9 +113368,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-1542754847620224",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1542754847620224",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -113179,7 +113398,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-1542754847620224",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -113193,7 +113412,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-1542754847620224",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -113207,7 +113426,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-1542754847620224",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -113221,7 +113440,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-1542754847620224",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -113235,7 +113454,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-1542754847620224",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -117458,7 +117677,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -117505,9 +117724,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-1056501647183004",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1056501647183004",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -117521,7 +117754,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-1056501647183004",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -117535,7 +117768,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-1056501647183004",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -117549,7 +117782,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-1056501647183004",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -117563,7 +117796,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-1056501647183004",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -117577,7 +117810,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-1056501647183004",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -118218,7 +118451,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -118265,9 +118498,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-2303254743861718",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-2303254743861718",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -118281,7 +118528,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-2303254743861718",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -118295,7 +118542,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-2303254743861718",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -118309,7 +118556,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-2303254743861718",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -118323,7 +118570,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-2303254743861718",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -118337,7 +118584,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-2303254743861718",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -118367,7 +118614,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -118414,9 +118661,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-2508988566277264",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-2508988566277264",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -118430,7 +118691,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-2508988566277264",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -118444,7 +118705,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-2508988566277264",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -118458,7 +118719,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-2508988566277264",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -118472,7 +118733,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-2508988566277264",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -118486,7 +118747,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-2508988566277264",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -150606,7 +150867,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -150653,9 +150914,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-1420765080005539",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-1420765080005539",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -150669,7 +150944,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-1420765080005539",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -150683,7 +150958,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-1420765080005539",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -150697,7 +150972,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-1420765080005539",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -150711,7 +150986,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-1420765080005539",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -150725,7 +151000,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-1420765080005539",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
@@ -156779,7 +157054,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 9,
+    "totalEpisodes": 10,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -156826,9 +157101,23 @@
         "publishedAt": "2026-10-20"
       },
       {
-        "id": "ep-long-4654772738140638",
+        "id": "ep-long-1590681699264830",
         "seriesId": "series-long-2927288344272140",
         "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/thumbnails/1590681699264830.jpg",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-4654772738140638",
+        "seriesId": "series-long-2927288344272140",
+        "partNumber": 5,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
@@ -156842,7 +157131,7 @@
       {
         "id": "ep-long-1056501647183004",
         "seriesId": "series-long-2927288344272140",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
         "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
@@ -156856,7 +157145,7 @@
       {
         "id": "ep-long-2303254743861718",
         "seriesId": "series-long-2927288344272140",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
@@ -156870,7 +157159,7 @@
       {
         "id": "ep-long-2508988566277264",
         "seriesId": "series-long-2927288344272140",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
         "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
@@ -156884,7 +157173,7 @@
       {
         "id": "ep-long-1420765080005539",
         "seriesId": "series-long-2927288344272140",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
@@ -156898,7 +157187,7 @@
       {
         "id": "ep-long-2927288344272140",
         "seriesId": "series-long-2927288344272140",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
         "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
