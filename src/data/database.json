@@ -1,5 +1,70 @@
 [
   {
+    "id": "series-long-1419629140120410",
+    "slug": "phan-1-xuyen-khong-thanh-son-tac-ha-nhan-bat-hoang-de-che-cui-nau-com--0410",
+    "title": "Phần 1 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 59:52)",
+    "description": "Phần 1 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên...",
+    "thumbnail": "/thumbnails/1419629140120410.jpg",
+    "coverImage": "/thumbnails/1419629140120410.jpg",
+    "channelName": "Tuyển Nhân Viên Bưu Cục",
+    "genres": [
+      "Đô Thị Thần Hào & Hệ Thống",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 3,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1419629140120410",
+        "seriesId": "series-long-1419629140120410",
+        "partNumber": 1,
+        "title": "Phần 1 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 59:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1419629140120410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1419629140120410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "59:52",
+        "thumbnail": "/thumbnails/1419629140120410.jpg",
+        "viewsCount": 20000,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-840416535228791",
+        "seriesId": "series-long-1419629140120410",
+        "partNumber": 2,
+        "title": "Phần 2 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Tuyển Nhân Viên Bưu Cục (Full Trọn Bộ 1:03:50)",
+        "originalUrl": "https://www.facebook.com/watch/?v=840416535228791",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D840416535228791&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:03:50",
+        "thumbnail": "/thumbnails/840416535228791.jpg",
+        "viewsCount": 52024,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1810857896539708",
+        "seriesId": "series-long-1419629140120410",
+        "partNumber": 3,
+        "title": "Phần 4 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 1:00:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1810857896539708",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1810857896539708&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:00:00",
+        "thumbnail": "/thumbnails/1810857896539708.jpg",
+        "viewsCount": 2300,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1095928069432769",
     "slug": "gia-toc-gap-nan-lao-to-chinh-thuc-buoc-vao-cuoc-chien-xuyen-khong-tro--2769",
     "title": " Gia tộc gặp nạn, lão tổ chính thức bước vào cuộc chiến! Xuyên Không Trở Thành Lão Tổ Vô Địch, Mở Bát Liền Nhận Ngay Tu Vi Đại Đế, Cứu Vớt Gia Tộc Xem trọn bộ tại | Winifred Clarke (Full Trọn Bộ 1:00:00)",
@@ -18973,14 +19038,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
       {
-        "id": "ep-long-840416535228791",
+        "id": "ep-long-1419629140120410",
         "seriesId": "series-long-1810857896539708",
         "partNumber": 1,
+        "title": "Phần 1 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 59:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1419629140120410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1419629140120410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "59:52",
+        "thumbnail": "/thumbnails/1419629140120410.jpg",
+        "viewsCount": 20000,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-840416535228791",
+        "seriesId": "series-long-1810857896539708",
+        "partNumber": 2,
         "title": "Phần 2 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Tuyển Nhân Viên Bưu Cục (Full Trọn Bộ 1:03:50)",
         "originalUrl": "https://www.facebook.com/watch/?v=840416535228791",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D840416535228791&show_text=0&autoplay=0",
@@ -18994,7 +19073,7 @@
       {
         "id": "ep-long-1810857896539708",
         "seriesId": "series-long-1810857896539708",
-        "partNumber": 2,
+        "partNumber": 3,
         "title": "Phần 4 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 1:00:00)",
         "originalUrl": "https://www.facebook.com/watch/?v=1810857896539708",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1810857896539708&show_text=0&autoplay=0",
@@ -19172,14 +19251,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
       {
-        "id": "ep-long-840416535228791",
+        "id": "ep-long-1419629140120410",
         "seriesId": "series-long-840416535228791",
         "partNumber": 1,
+        "title": "Phần 1 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 59:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1419629140120410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1419629140120410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "59:52",
+        "thumbnail": "/thumbnails/1419629140120410.jpg",
+        "viewsCount": 20000,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-840416535228791",
+        "seriesId": "series-long-840416535228791",
+        "partNumber": 2,
         "title": "Phần 2 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Tuyển Nhân Viên Bưu Cục (Full Trọn Bộ 1:03:50)",
         "originalUrl": "https://www.facebook.com/watch/?v=840416535228791",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D840416535228791&show_text=0&autoplay=0",
@@ -19193,7 +19286,7 @@
       {
         "id": "ep-long-1810857896539708",
         "seriesId": "series-long-840416535228791",
-        "partNumber": 2,
+        "partNumber": 3,
         "title": "Phần 4 | Xuyên Không Thành Sơn Tặc, Hà Nhân Bắt Hoàng Đế Chẻ Củi Nấu Cơm | Hà Nhân Xuyên Không Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB mới Hà Nhân Xuyên Không nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 1:00:00)",
         "originalUrl": "https://www.facebook.com/watch/?v=1810857896539708",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1810857896539708&show_text=0&autoplay=0",
