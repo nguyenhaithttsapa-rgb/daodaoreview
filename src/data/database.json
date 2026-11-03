@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1734151437289493",
+    "slug": "review-phim-chan-tien-ha-pham-tron-bo-tu-bo-than-phan-tien-nhan-tro-ve-9493",
+    "title": "REVIEW PHIM : CHÂN TIÊN HẠ PHÀM.TRỌN BỘ Từ bỏ thân phận tiên nhân trở về ở nhà giúp vợ gây dựng sự nghiệp nào ngờ cái kết nhận lại | AĐG Review (Full Trọn Bộ 1:40:14)",
+    "description": "REVIEW PHIM : CHÂN TIÊN HẠ PHÀM.TRỌN BỘ Từ bỏ thân phận tiên nhân trở về ở nhà giúp vợ gây dựng sự nghiệp nào ngờ cái kết nhận lại",
+    "thumbnail": "/thumbnails/1734151437289493.jpg",
+    "coverImage": "/thumbnails/1734151437289493.jpg",
+    "channelName": "Vương Giả Trấn Áp Review Phim #95.2",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1734151437289493",
+        "seriesId": "series-long-1734151437289493",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : CHÂN TIÊN HẠ PHÀM.TRỌN BỘ Từ bỏ thân phận tiên nhân trở về ở nhà giúp vợ gây dựng sự nghiệp nào ngờ cái kết nhận lại | AĐG Review (Full Trọn Bộ 1:40:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1734151437289493",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1734151437289493&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:40:14",
+        "thumbnail": "/thumbnails/1734151437289493.jpg",
+        "viewsCount": 259000,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1167349372649246",
     "slug": "tron-bo-xuyen-khong-thanh-thai-tu-bi-phe-pham-tieu-full-tron-bo-5-28-4-9246",
     "title": "Trọn bộ: Xuyên không thành thái tử bị phế | Phàm Tiêu (Full Trọn Bộ 5:28:49)",
