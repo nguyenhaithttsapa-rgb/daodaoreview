@@ -1,5 +1,140 @@
 [
   {
+    "id": "series-long-3053391325007036",
+    "slug": "phan-6-xuyen-thanh-tap-dich-dau-bep-ta-tro-thanh-de-nhat-vo-phu-lac-th-7036",
+    "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+    "description": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu.",
+    "thumbnail": "/thumbnails/3053391325007036.jpg",
+    "coverImage": "/thumbnails/3053391325007036.jpg",
+    "channelName": "Lạc Thanh Y. tá",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 8,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1597828718747949",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 1,
+        "title": "Phần 5 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:42:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1597828718747949",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1597828718747949&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:42:48",
+        "thumbnail": "/thumbnails/1597828718747949.jpg",
+        "viewsCount": 22494,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1421049156869859",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 2,
+        "title": "Phần 5 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu | Lạc Thanh Y. tá (Full Trọn Bộ 2:42:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1421049156869859",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1421049156869859&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:42:48",
+        "thumbnail": "/thumbnails/1421049156869859.jpg",
+        "viewsCount": 45879,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-3053391325007036",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 4,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/1176639414690267.jpg",
+        "viewsCount": 38724,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-1109397028473326",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 5,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/1109397028473326.jpg",
+        "viewsCount": 34383,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-1445582967779056",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 6,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/1445582967779056.jpg",
+        "viewsCount": 24340,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-1823987391942362",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 7,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/1823987391942362.jpg",
+        "viewsCount": 15000,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-1988956395134913",
+        "seriesId": "series-long-3053391325007036",
+        "partNumber": 8,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/thumbnails/1988956395134913.jpg",
+        "viewsCount": 21830,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1658463555934348",
     "slug": "vay-ngu-xuyen-thau-goi-cam-tang-kem-quan-chip-xem-full-tai-day-xuyen-k-4348",
     "title": "Xuyên Không Thành Thiếu Chủ Giang Gia Ta Có Hệ Thống VẠN BỘI PHẢN HỒI Khế Ước Thiên Tài Liền Vô Địch | Jonathan (Full Trọn Bộ 4:29:31)",
@@ -10134,7 +10269,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -10167,9 +10302,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1988956395134913",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1988956395134913",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -10183,7 +10332,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1988956395134913",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -10197,7 +10346,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1988956395134913",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -10211,7 +10360,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1988956395134913",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -10225,7 +10374,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1988956395134913",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -10255,7 +10404,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -10288,9 +10437,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1597828718747949",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1597828718747949",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -10304,7 +10467,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1597828718747949",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -10318,7 +10481,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1597828718747949",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -10332,7 +10495,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1597828718747949",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -10346,7 +10509,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1597828718747949",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -38744,7 +38907,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -38777,9 +38940,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1176639414690267",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1176639414690267",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -38793,7 +38970,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1176639414690267",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -38807,7 +38984,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1176639414690267",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -38821,7 +38998,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1176639414690267",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -38835,7 +39012,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1176639414690267",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -38976,7 +39153,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -39009,9 +39186,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1109397028473326",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1109397028473326",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -39025,7 +39216,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1109397028473326",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -39039,7 +39230,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1109397028473326",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -39053,7 +39244,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1109397028473326",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -39067,7 +39258,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1109397028473326",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -39097,7 +39288,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -39130,9 +39321,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1445582967779056",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1445582967779056",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -39146,7 +39351,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1445582967779056",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -39160,7 +39365,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1445582967779056",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -39174,7 +39379,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1445582967779056",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -39188,7 +39393,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1445582967779056",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -39218,7 +39423,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -39251,9 +39456,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1421049156869859",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1421049156869859",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -39267,7 +39486,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1421049156869859",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -39281,7 +39500,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1421049156869859",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -39295,7 +39514,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1421049156869859",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -39309,7 +39528,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1421049156869859",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -81432,7 +81651,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 7,
+    "totalEpisodes": 8,
     "featured": true,
     "updatedAt": "2026-11-03",
     "episodes": [
@@ -81465,9 +81684,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-1176639414690267",
+        "id": "ep-long-3053391325007036",
         "seriesId": "series-long-1823987391942362",
         "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/thumbnails/3053391325007036.jpg",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-1176639414690267",
+        "seriesId": "series-long-1823987391942362",
+        "partNumber": 4,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
@@ -81481,7 +81714,7 @@
       {
         "id": "ep-long-1109397028473326",
         "seriesId": "series-long-1823987391942362",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
@@ -81495,7 +81728,7 @@
       {
         "id": "ep-long-1445582967779056",
         "seriesId": "series-long-1823987391942362",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
@@ -81509,7 +81742,7 @@
       {
         "id": "ep-long-1823987391942362",
         "seriesId": "series-long-1823987391942362",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
         "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
@@ -81523,7 +81756,7 @@
       {
         "id": "ep-long-1988956395134913",
         "seriesId": "series-long-1823987391942362",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
