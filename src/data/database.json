@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1380325533028537",
+    "slug": "2-2-trieu-luot-xem-31k-cam-xuc-review-phim-tron-bo-tong-tai-ba-dao-lac-8537",
+    "title": "2,2 triệu lượt xem · 31K cảm xúc | REVIEW PHIM TRỌN BỘ: TỔNG TÀI BÁ ĐẠO Lạc Lối Giữa Hai Chị Em Hôn Ước Là Chị, Tình Yêu Là EM GÁI! | Có Tâm Mới Review Phim (Full Trọn Bộ 1:48:35)",
+    "description": "REVIEW PHIM TRỌN BỘ: TỔNG TÀI BÁ ĐẠO Lạc Lối Giữa Hai Chị Em Hôn Ước Là Chị, Tình Yêu Là EM GÁI!",
+    "thumbnail": "/thumbnails/1380325533028537.jpg",
+    "coverImage": "/thumbnails/1380325533028537.jpg",
+    "channelName": "Lạc Lạc Review Phim",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1380325533028537",
+        "seriesId": "series-long-1380325533028537",
+        "partNumber": 1,
+        "title": "2,2 triệu lượt xem · 31K cảm xúc | REVIEW PHIM TRỌN BỘ: TỔNG TÀI BÁ ĐẠO Lạc Lối Giữa Hai Chị Em Hôn Ước Là Chị, Tình Yêu Là EM GÁI! | Có Tâm Mới Review Phim (Full Trọn Bộ 1:48:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1380325533028537",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1380325533028537&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:48:35",
+        "thumbnail": "/thumbnails/1380325533028537.jpg",
+        "viewsCount": 41873,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1532804251979889",
     "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--9889",
     "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Cà Phê Đắng (Full Trọn Bộ 1:59:12)",
