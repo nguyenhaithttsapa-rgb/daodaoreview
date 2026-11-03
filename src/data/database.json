@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1141860392130263",
+    "slug": "full-tron-bo-cuoi-truoc-yeu-sau-tra-da-duong-full-tron-bo-1-05-09-0263",
+    "title": "Full Trọn Bộ: Cưới Trước Yêu Sau | Trà Đá Đường (Full Trọn Bộ 1:05:09)",
+    "description": "Full Trọn Bộ: Cưới Trước Yêu Sau",
+    "thumbnail": "/thumbnails/1141860392130263.jpg",
+    "coverImage": "/thumbnails/1141860392130263.jpg",
+    "channelName": "Robert Bradley",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-1141860392130263",
+        "seriesId": "series-long-1141860392130263",
+        "partNumber": 1,
+        "title": "Full Trọn Bộ: Cưới Trước Yêu Sau | Trà Đá Đường (Full Trọn Bộ 1:05:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1141860392130263",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1141860392130263&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:05:09",
+        "thumbnail": "/thumbnails/1141860392130263.jpg",
+        "viewsCount": 26859,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1072976885562400",
     "slug": "dau-la-dai-luc-phan-2-tuyet-the-duong-mon-tap-121-h2x-audio-h2x-audio--2400",
     "title": "Đấu La Đại Lục Phần 2 - Tuyệt Thế Đường Môn - Tập 121 - H2X Audio | H2X Audio (Full Trọn Bộ 1:35:26)",
