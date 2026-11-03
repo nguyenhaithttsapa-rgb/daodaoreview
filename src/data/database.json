@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-761562696755455",
+    "slug": "full-tron-bo-ca-gia-dinh-cung-nhau-xuyen-khong-ve-co-dai-dua-vao-bay-s-5455",
+    "title": "[ FULL TRỌN BỘ ] Cả Gia Đình Cùng Nhau Xuyên Không Về Cổ Đại Dựa Vào Bày Sạp Bán Hàng Mà Dần Dần Trở Nên Giàu Có | Vita Tomahawk (Full Trọn Bộ 2:41:54)",
+    "description": "[ FULL TRỌN BỘ ] Cả Gia Đình Cùng Nhau Xuyên Không Về Cổ Đại Dựa Vào Bày Sạp Bán Hàng Mà Dần Dần Trở Nên Giàu Có",
+    "thumbnail": "/thumbnails/761562696755455.jpg",
+    "coverImage": "/thumbnails/761562696755455.jpg",
+    "channelName": "Vita Tomahawk",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-761562696755455",
+        "seriesId": "series-long-761562696755455",
+        "partNumber": 1,
+        "title": "[ FULL TRỌN BỘ ] Cả Gia Đình Cùng Nhau Xuyên Không Về Cổ Đại Dựa Vào Bày Sạp Bán Hàng Mà Dần Dần Trở Nên Giàu Có | Vita Tomahawk (Full Trọn Bộ 2:41:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=761562696755455",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D761562696755455&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:41:54",
+        "thumbnail": "/thumbnails/761562696755455.jpg",
+        "viewsCount": 1200,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-314294908319520",
     "slug": "full-tron-bo-tm-shop-18028-full-tron-bo-2-03-44-9520",
     "title": "[Full trọn bộ]>.< | Tm Shop 18028 (Full Trọn Bộ 2:03:44)",
