@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-4496061270678202",
+    "slug": "phan-4-van-nam-ngu-say-sau-khi-thuc-tinh-suc-manh-toi-thuong-ta-tran-a-8202",
+    "title": "Phần 4 - Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:11:40)",
+    "description": "Phần 4 - Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới.",
+    "thumbnail": "/thumbnails/4496061270678202.jpg",
+    "coverImage": "/thumbnails/4496061270678202.jpg",
+    "channelName": "Thần Ma Đại Lục Review #66",
+    "genres": [
+      "Donghua 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-03",
+    "episodes": [
+      {
+        "id": "ep-long-4496061270678202",
+        "seriesId": "series-long-4496061270678202",
+        "partNumber": 1,
+        "title": "Phần 4 - Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:11:40)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4496061270678202",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4496061270678202&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:11:40",
+        "thumbnail": "/thumbnails/4496061270678202.jpg",
+        "viewsCount": 6100,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-1675567757471274",
     "slug": "phan-2-dai-nao-dai-trieu-hoi-cuu-hoang-tu-vach-mat-ke-vu-khong-khien-c-1274",
     "title": "Phần 2 |Đại Náo Đại Triều Hội, Cửu Hoàng Tử Vạch Mặt Kẻ Vu Khống Khiến Cả Nhà Hắn Bị TRU DI! Chào mừng các đạo hữu đã quay trở lại với Bảo Quang Tu Tiên, nơi bùng nổ những thước phim quyền mưu vương triều đỉnh cao nhất! Trong tập ngày hôm nay, ván cờ tranh đoạt hoàng vị Đại Huyền triều đã hoàn toàn bị lật tung bởi một kẻ vốn bị coi là \"phế vật không thể luyện võ\" – Cửu hoàng tử Triệu Phàm. Mới xuyên không được ba ngày giữa cảnh ngoại công bị trảm, mẫu hậu qua đời, hắn lại bị lão hoàng đế đẩy vào hố lửa \"Chín con nuôi cổ\" đầy rẫy hiểm nguy. Thế nhưng, nhờ vào sự xuất hiện của Hệ thống mua sắm Ta Đa Đa vị diện kiếp trước, Triệu Phàm đã tìm ra kẽ hở chí mạng của hệ thống. Chỉ với 100 lượng phí thủ tục cho quà tân thủ, hắn lập tức lách luật để chiêu mộ bộ ba cao thủ chấn động giang hồ: Quách Gia trí lực tối đa, cùng cặp song kiêu Đổng Thiên Bảo và Trương Quân Bảo với tu vi Tông Sư trung kỳ mạnh mẽ! | Thanh Phong Vietsub (Full Trọn Bộ 3:31:25)",
@@ -70711,7 +70748,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-03",
     "episodes": [
       {
         "id": "ep-long-2073760663239595",
@@ -144781,7 +144818,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-03",
     "episodes": [
       {
         "id": "ep-long-2073760663239595",
