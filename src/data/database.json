@@ -1,5 +1,70 @@
 [
   {
+    "id": "series-long-4675927309292087",
+    "slug": "phan-7-bat-dau-lien-trieu-hoi-lao-to-dai-de-ta-kich-hoat-he-thong-toi--2087",
+    "title": "Phần 7 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn | Thỏ Tròn Phim (Full Trọn Bộ 2:19:26)",
+    "description": "Phần 7 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn",
+    "thumbnail": "/thumbnails/4675927309292087.jpg",
+    "coverImage": "/thumbnails/4675927309292087.jpg",
+    "channelName": "Tiểu Tổ Tông Hệ Thống Bắt Ép Triệu View #82.5",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 3,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1432714338780279",
+        "seriesId": "series-long-4675927309292087",
+        "partNumber": 1,
+        "title": "Phần 5 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn. | Tiểu Điệp Review (Full Trọn Bộ 2:52:52)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1432714338780279",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1432714338780279&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:52:52",
+        "thumbnail": "/thumbnails/1432714338780279.jpg",
+        "viewsCount": 34941,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-4675927309292087",
+        "seriesId": "series-long-4675927309292087",
+        "partNumber": 2,
+        "title": "Phần 7 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn | Thỏ Tròn Phim (Full Trọn Bộ 2:19:26)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4675927309292087",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4675927309292087&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:19:26",
+        "thumbnail": "/thumbnails/4675927309292087.jpg",
+        "viewsCount": 44364,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-2879893412392755",
+        "seriesId": "series-long-4675927309292087",
+        "partNumber": 3,
+        "title": "Phần 10 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn  Vừa mở màn đã gọi thẳng LÃO TỔ ĐẠI ĐẾ về tông môn — ai chịu nổi độ chơi này?! Hệ thống TỐI CƯỜNG TÔNG MÔN kích hoạt, buff tận răng, đệ tử ngồi không cũng mạnh lên từng ngày.  Kẻ thù còn đang cười nhạo tông môn nhỏ bé, chưa biết rằng phía sau là một vị Đại Đế đang mở mắt.  Từ phế vật bị đuổi khỏi sư môn, đến tông chủ khiến cả tu chân giới phải quỳ gối — hành trình này đọc tới đâu đã tay tới đó.  Phần 10 bùng nổ nhất từ đầu bộ. Xem tới phút cuối kẻo tiếc.  Cmt tên tông môn bạn muốn ta triệu hồi tiếp theo! | Review Phim Không Quạu (Full Trọn Bộ 2:25:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2879893412392755",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2879893412392755&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:25:14",
+        "thumbnail": "/thumbnails/2879893412392755.jpg",
+        "viewsCount": 26585,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-4376041436042830",
     "slug": "xem-tiep-tai-nhat-kiem-truong-sinh-tu-ten-tap-dich-khong-linh-can-ta-d-2830",
     "title": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P9-Tập 1 | Linh Đan Travel (Full Trọn Bộ 32:55)",
@@ -63636,9 +63701,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1432714338780279",
@@ -63655,9 +63720,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-2879893412392755",
+        "id": "ep-long-4675927309292087",
         "seriesId": "series-long-1432714338780279",
         "partNumber": 2,
+        "title": "Phần 7 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn | Thỏ Tròn Phim (Full Trọn Bộ 2:19:26)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4675927309292087",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4675927309292087&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:19:26",
+        "thumbnail": "/thumbnails/4675927309292087.jpg",
+        "viewsCount": 44364,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-2879893412392755",
+        "seriesId": "series-long-1432714338780279",
+        "partNumber": 3,
         "title": "Phần 10 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn  Vừa mở màn đã gọi thẳng LÃO TỔ ĐẠI ĐẾ về tông môn — ai chịu nổi độ chơi này?! Hệ thống TỐI CƯỜNG TÔNG MÔN kích hoạt, buff tận răng, đệ tử ngồi không cũng mạnh lên từng ngày.  Kẻ thù còn đang cười nhạo tông môn nhỏ bé, chưa biết rằng phía sau là một vị Đại Đế đang mở mắt.  Từ phế vật bị đuổi khỏi sư môn, đến tông chủ khiến cả tu chân giới phải quỳ gối — hành trình này đọc tới đâu đã tay tới đó.  Phần 10 bùng nổ nhất từ đầu bộ. Xem tới phút cuối kẻo tiếc.  Cmt tên tông môn bạn muốn ta triệu hồi tiếp theo! | Review Phim Không Quạu (Full Trọn Bộ 2:25:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2879893412392755",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2879893412392755&show_text=0&autoplay=0",
@@ -101285,9 +101364,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 2,
+    "totalEpisodes": 3,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1432714338780279",
@@ -101304,9 +101383,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-2879893412392755",
+        "id": "ep-long-4675927309292087",
         "seriesId": "series-long-2879893412392755",
         "partNumber": 2,
+        "title": "Phần 7 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn | Thỏ Tròn Phim (Full Trọn Bộ 2:19:26)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4675927309292087",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4675927309292087&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:19:26",
+        "thumbnail": "/thumbnails/4675927309292087.jpg",
+        "viewsCount": 44364,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-2879893412392755",
+        "seriesId": "series-long-2879893412392755",
+        "partNumber": 3,
         "title": "Phần 10 | Bắt Đầu Liền Triệu Hồi Lão Tổ Đại Đế, Ta Kích Hoạt Hệ Thống Tối Cường Tông Môn  Vừa mở màn đã gọi thẳng LÃO TỔ ĐẠI ĐẾ về tông môn — ai chịu nổi độ chơi này?! Hệ thống TỐI CƯỜNG TÔNG MÔN kích hoạt, buff tận răng, đệ tử ngồi không cũng mạnh lên từng ngày.  Kẻ thù còn đang cười nhạo tông môn nhỏ bé, chưa biết rằng phía sau là một vị Đại Đế đang mở mắt.  Từ phế vật bị đuổi khỏi sư môn, đến tông chủ khiến cả tu chân giới phải quỳ gối — hành trình này đọc tới đâu đã tay tới đó.  Phần 10 bùng nổ nhất từ đầu bộ. Xem tới phút cuối kẻo tiếc.  Cmt tên tông môn bạn muốn ta triệu hồi tiếp theo! | Review Phim Không Quạu (Full Trọn Bộ 2:25:14)",
         "originalUrl": "https://www.facebook.com/watch/?v=2879893412392755",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2879893412392755&show_text=0&autoplay=0",
