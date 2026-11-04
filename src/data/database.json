@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-1685565393282954",
+    "slug": "dau-pha-thuong-khung-tieu-viem-den-dong-long-dao-cuu-tu-nghien-dau-pha-2954",
+    "title": "Đấu Phá Thương Khung: Tiêu Viêm đến Đông Long Đảo cứu Tử Nghiên | Đấu Phá Thương Khung - Hoạt Hình 3D Thuyết Minh (Full Trọn Bộ 1:08:29)",
+    "description": "Đấu Phá Thương Khung: Tiêu Viêm đến Đông Long Đảo cứu Tử Nghiên",
+    "thumbnail": "/thumbnails/1685565393282954.jpg",
+    "coverImage": "/thumbnails/1685565393282954.jpg",
+    "channelName": "Hoạt Hình 3D Thuyết Minh",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1685565393282954",
+        "seriesId": "series-long-1685565393282954",
+        "partNumber": 1,
+        "title": "Đấu Phá Thương Khung: Tiêu Viêm đến Đông Long Đảo cứu Tử Nghiên | Đấu Phá Thương Khung - Hoạt Hình 3D Thuyết Minh (Full Trọn Bộ 1:08:29)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1685565393282954",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1685565393282954&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:08:29",
+        "thumbnail": "/thumbnails/1685565393282954.jpg",
+        "viewsCount": 24000,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1330034205776558",
+    "slug": "tien-nghich-tap-40-60-thuyet-minh-full-4k-phim-hh3d-tron-bo-hoat-hinh--6558",
+    "title": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Full 4K | Phim HH3D Trọn Bộ | Hoạt Hình Trung Quốc Thuyết Minh (Full Trọn Bộ 4:51:58)",
+    "description": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Full 4K | Phim HH3D Trọn Bộ",
+    "thumbnail": "/thumbnails/1330034205776558.jpg",
+    "coverImage": "/thumbnails/1330034205776558.jpg",
+    "channelName": "Hoạt Hình 3D Thuyết Minh",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1330034205776558",
+        "seriesId": "series-long-1330034205776558",
+        "partNumber": 1,
+        "title": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Full 4K | Phim HH3D Trọn Bộ | Hoạt Hình Trung Quốc Thuyết Minh (Full Trọn Bộ 4:51:58)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1330034205776558",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1330034205776558&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:51:58",
+        "thumbnail": "/thumbnails/1330034205776558.jpg",
+        "viewsCount": 1200,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1505076114352300",
     "slug": "tron-bo-tong-tai-co-giap-hien-dai-ban-sach-gia-san-mua-tau-san-bay-dai-2300",
     "title": "[Trọn bộ] Tổng Tài Cơ Giáp Hiện Đại: Bán Sạch Gia Sản Mua Tàu Sân Bay! | Đại Lục Review (Full Trọn Bộ 1:35:11)",
@@ -110304,7 +110378,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
@@ -111961,7 +112035,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
@@ -119239,7 +119313,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
@@ -119346,7 +119420,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
@@ -175490,7 +175564,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
@@ -175597,7 +175671,7 @@
     ],
     "totalEpisodes": 1,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-656379546880468",
@@ -176070,7 +176144,7 @@
     ],
     "totalEpisodes": 6,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1472982670368401",
