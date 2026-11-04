@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-2563361767492729",
+    "slug": "phan-6-tu-bao-tien-bon-tien-gioi-thien-ngu-hanh-linh-can-ta-co-tien-bo-2729",
+    "title": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới. ️ Sữa Rửa Mặt CeraVe Foaming Cleanser Chính Hãng Cho Da Dầu, Da Khô, Mụn Nhạy Cảm : | Đậu Đậu Review (Full Trọn Bộ 5:02:53)",
+    "description": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới. ️ Sữa Rửa Mặt CeraVe Foaming Cleanser Chính Hãng Cho Da Dầu, Da Khô, Mụn Nhạy Cảm :...",
+    "thumbnail": "/thumbnails/2563361767492729.jpg",
+    "coverImage": "/thumbnails/2563361767492729.jpg",
+    "channelName": "Gà Review",
+    "genres": [
+      "Huyền Huyễn Trọng Sinh",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-2563361767492729",
+        "seriesId": "series-long-2563361767492729",
+        "partNumber": 1,
+        "title": "Phần 6 Tụ Bảo Tiên Bồn Tiên Giới Thiên Ngũ Hành Linh Căn, Ta Có Tiên Bồn Phi Thăng Tiên Giới. ️ Sữa Rửa Mặt CeraVe Foaming Cleanser Chính Hãng Cho Da Dầu, Da Khô, Mụn Nhạy Cảm : | Đậu Đậu Review (Full Trọn Bộ 5:02:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2563361767492729",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2563361767492729&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:02:53",
+        "thumbnail": "/thumbnails/2563361767492729.jpg",
+        "viewsCount": 28725,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1488503489790338",
     "slug": "xuyen-thanh-hoang-tu-phe-vat-phan-dien-ta-co-he-thong-cong-luoc-nu-nha-0338",
     "title": "Xuyên Thành Hoàng Tử Phế Vật Phản Diện, Ta Có Hệ Thống Công Lược Nữ Nhân Khí Vận Chi Tử (Phần 3) | Miêu Múp Máp (Full Trọn Bộ 2:35:31)",
@@ -69061,7 +69098,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1794940991693082",
@@ -97730,7 +97767,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1794940991693082",
