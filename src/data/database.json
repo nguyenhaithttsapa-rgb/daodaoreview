@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1814321676423974",
+    "slug": "phan-3-van-nam-ngu-say-sau-khi-thuc-tinh-suc-manh-toi-thuong-ta-tran-a-3974",
+    "title": "Phần 3 Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới. ️ [TẶNG MÓC TREO]Cây chà sàn 3in1 TopGia cao cấp xoay 180 độ,đầu chà 22cm đa năng gạt nước chổi cọ sàn chà khe hẹp nhà tắm : | Đậu Đậu Review (Full Trọn Bộ 3:39:26)",
+    "description": "Phần 3 Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới. ️ [TẶNG MÓC TREO]Cây chà sàn 3in1 TopGia cao cấp xoay 180 độ,đầu chà 22cm đa năng gạt nước chổi cọ...",
+    "thumbnail": "/thumbnails/1814321676423974.jpg",
+    "coverImage": "/thumbnails/1814321676423974.jpg",
+    "channelName": "Thí chủ xin hãy dừng bước",
+    "genres": [
+      "Donghua 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1814321676423974",
+        "seriesId": "series-long-1814321676423974",
+        "partNumber": 1,
+        "title": "Phần 3 Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới. ️ [TẶNG MÓC TREO]Cây chà sàn 3in1 TopGia cao cấp xoay 180 độ,đầu chà 22cm đa năng gạt nước chổi cọ sàn chà khe hẹp nhà tắm : | Đậu Đậu Review (Full Trọn Bộ 3:39:26)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1814321676423974",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1814321676423974&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:39:26",
+        "thumbnail": "/thumbnails/1814321676423974.jpg",
+        "viewsCount": 1600,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1421690423140235",
     "slug": "phim-hay-tron-bo-doi-ga-thanh-duyen-phim-thuyet-minh-moi-nhat-phim-ai--0235",
     "title": "Phim hay trọn bộ Đổi gả thành duyên, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 1:13:48)",
@@ -108542,7 +108579,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-2073760663239595",
@@ -183508,7 +183545,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-2073760663239595",
