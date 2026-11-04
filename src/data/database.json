@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1760643224851650",
+    "slug": "review-phim-tho-han-sieu-cap-tron-bo-chang-trai-bi-dong-nghiep-cuoi-ch-1650",
+    "title": "REVIEW PHIM : THỢ HÀN SIÊU CẤP.TRỌN BỘ Chàng trai bị đồng nghiệp cười chê mãi cho đến khi bọn họ biết anh là 1 Hàn Võ Đế thì tất cả mới ngỡ ngàng | AĐG Review (Full Trọn Bộ 1:52:35)",
+    "description": "REVIEW PHIM : THỢ HÀN SIÊU CẤP.TRỌN BỘ Chàng trai bị đồng nghiệp cười chê mãi cho đến khi bọn họ biết anh là 1 Hàn Võ Đế thì tất cả mới ngỡ ngàng",
+    "thumbnail": "/thumbnails/1760643224851650.jpg",
+    "coverImage": "/thumbnails/1760643224851650.jpg",
+    "channelName": "AĐG Review 1",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1760643224851650",
+        "seriesId": "series-long-1760643224851650",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : THỢ HÀN SIÊU CẤP.TRỌN BỘ Chàng trai bị đồng nghiệp cười chê mãi cho đến khi bọn họ biết anh là 1 Hàn Võ Đế thì tất cả mới ngỡ ngàng | AĐG Review (Full Trọn Bộ 1:52:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1760643224851650",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1760643224851650&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:52:35",
+        "thumbnail": "/thumbnails/1760643224851650.jpg",
+        "viewsCount": 1900,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-556165425012019",
     "slug": "tt-thich-nhat-tu-tra-loi-van-dap-ve-tai-sanh-rat-sau-sac-ai-cung-nen-n-2019",
     "title": "TT. Thích Nhật Từ trả lời vấn đáp về Tái Sanh rất sâu sắc ai cũng nên nghe 1 lần trong đời.  Mời quý vị tham gia nhóm Tự hào là Phật tử: | Thích Nhật Từ (Full Trọn Bộ 4:15:28)",
