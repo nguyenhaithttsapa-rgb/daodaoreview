@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-939345945635920",
+    "slug": "phan-2-cuu-nham-nu-de-yeu-toc-roi-bi-cuon-vao-tu-tien-gioi-nuong-tu-cu-5920",
+    "title": "Phần 2 Cứu Nhầm Nữ Đế Yêu Tộc Rồi Bị Cuốn Vào Tu Tiên Giới Nương Tử Cửu Vĩ Thiên Hồ | Cây Cà Rem (Full Trọn Bộ 2:36:47)",
+    "description": "Phần 2 Cứu Nhầm Nữ Đế Yêu Tộc Rồi Bị Cuốn Vào Tu Tiên Giới Nương Tử Cửu Vĩ Thiên Hồ",
+    "thumbnail": "/thumbnails/939345945635920.jpg",
+    "coverImage": "/thumbnails/939345945635920.jpg",
+    "channelName": "Donghua 3D Phàm Nhân Bản Chuẩn #92.5",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-939345945635920",
+        "seriesId": "series-long-939345945635920",
+        "partNumber": 1,
+        "title": "Phần 2 Cứu Nhầm Nữ Đế Yêu Tộc Rồi Bị Cuốn Vào Tu Tiên Giới Nương Tử Cửu Vĩ Thiên Hồ | Cây Cà Rem (Full Trọn Bộ 2:36:47)",
+        "originalUrl": "https://www.facebook.com/watch/?v=939345945635920",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D939345945635920&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:36:47",
+        "thumbnail": "/thumbnails/939345945635920.jpg",
+        "viewsCount": 18794,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1107406775578221",
     "slug": "tran-truong-an-phan-11-thai-huyen-thai-chau-truyen-5k-review-full-tron-8221",
     "title": "Trần trường an phần 11 [ thái huyền thai châu truyện ] | 5k review (Full Trọn Bộ 2:11:47)",
