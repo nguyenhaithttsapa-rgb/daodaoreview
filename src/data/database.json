@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1944895782617003",
+    "slug": "full-tron-bo-lien-tich-van-ca-full-tron-bo-1-42-31-7003",
+    "title": "[Full trọn bộ] | Liên Tịch Vân Ca - 蓮寂雲歌 (Full Trọn Bộ 1:42:31)",
+    "description": "[Full trọn bộ]",
+    "thumbnail": "/thumbnails/1944895782617003.jpg",
+    "coverImage": "/thumbnails/1944895782617003.jpg",
+    "channelName": "Liên Tịch Vân Ca - 蓮寂雲歌",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1944895782617003",
+        "seriesId": "series-long-1944895782617003",
+        "partNumber": 1,
+        "title": "[Full trọn bộ] | Liên Tịch Vân Ca - 蓮寂雲歌 (Full Trọn Bộ 1:42:31)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1944895782617003",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1944895782617003&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:42:31",
+        "thumbnail": "/thumbnails/1944895782617003.jpg",
+        "viewsCount": 38932,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-8303605119747431",
     "slug": "tron-bo-full-duyen-minh-lo-tong-tai-bo-lo-co-gai-anh-yeu-suot-nhieu-na-7431",
     "title": "Trọn bộ (full) - Duyên mình lỡ. Tổng tài bỏ lỡ cô gái anh yêu suốt nhiều năm | Chang Chang Review Film (Full Trọn Bộ 2:17:48)",
