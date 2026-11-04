@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-899174149875638",
+    "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-5638",
+    "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 30:00)",
+    "description": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/899174149875638.jpg",
+    "coverImage": "/thumbnails/899174149875638.jpg",
+    "channelName": "Phim hay mỗi ngày 87",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-899174149875638",
+        "seriesId": "series-long-899174149875638",
+        "partNumber": 1,
+        "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=899174149875638",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D899174149875638&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:00",
+        "thumbnail": "/thumbnails/899174149875638.jpg",
+        "viewsCount": 55014,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1517564997066197",
+    "slug": "tap-2-phim-hay-tron-bo-3-nam-pha-cuc-phim-thuyet-minh-moi-nhat-phim-ai-6197",
+    "title": "Tập 2: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 31:04)",
+    "description": "Tập 2: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/thumbnails/1517564997066197.jpg",
+    "coverImage": "/thumbnails/1517564997066197.jpg",
+    "channelName": "Phim hay mỗi ngày 87",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1517564997066197",
+        "seriesId": "series-long-1517564997066197",
+        "partNumber": 1,
+        "title": "Tập 2: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 31:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1517564997066197",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1517564997066197&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:04",
+        "thumbnail": "/thumbnails/1517564997066197.jpg",
+        "viewsCount": 29516,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-2073200283403673",
     "slug": "review-phim-tron-bo-thien-kieu-song-long-huong-hieu-treysavage-full-tr-3673",
     "title": "Review Phim Trọn Bộ: THIÊN KIỀU SONG LONG | Hương Hiếu TreySavage (Full Trọn Bộ 2:17:05)",
