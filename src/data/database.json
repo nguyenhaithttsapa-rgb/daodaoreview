@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-4376041436042830",
+    "slug": "xem-tiep-tai-nhat-kiem-truong-sinh-tu-ten-tap-dich-khong-linh-can-ta-d-2830",
+    "title": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P9-Tập 1 | Linh Đan Travel (Full Trọn Bộ 32:55)",
+    "description": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P9-Tập 1 ...",
+    "thumbnail": "/thumbnails/4376041436042830.jpg",
+    "coverImage": "/thumbnails/4376041436042830.jpg",
+    "channelName": "Mạc Nhược Huệ",
+    "genres": [
+      "Đại Thiên Thế Giới",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-4376041436042830",
+        "seriesId": "series-long-4376041436042830",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P9-Tập 1 | Linh Đan Travel (Full Trọn Bộ 32:55)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4376041436042830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4376041436042830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:55",
+        "thumbnail": "/thumbnails/4376041436042830.jpg",
+        "viewsCount": 22583,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
+    "id": "series-long-1053004280551153",
+    "slug": "xem-tiep-tai-nhat-kiem-truong-sinh-tu-ten-tap-dich-khong-linh-can-ta-d-1153",
+    "title": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P11-Tập 4 | Linh Đan Travel (Full Trọn Bộ 33:54)",
+    "description": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P11-Tập 4 ...",
+    "thumbnail": "/thumbnails/1053004280551153.jpg",
+    "coverImage": "/thumbnails/1053004280551153.jpg",
+    "channelName": "Mạc Nhược Huệ",
+    "genres": [
+      "Đại Thiên Thế Giới",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1053004280551153",
+        "seriesId": "series-long-1053004280551153",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại Nhất Kiếm Trường Sinh | Từ Tên Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh P11-Tập 4 | Linh Đan Travel (Full Trọn Bộ 33:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1053004280551153",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1053004280551153&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:54",
+        "thumbnail": "/thumbnails/1053004280551153.jpg",
+        "viewsCount": 31630,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1596432112195832",
     "slug": "xem-tiep-tai-kim-phu-bi-canh-pham-nhan-can-cot-tam-thuong-nho-kim-phu--5832",
     "title": "Xem Tiếp tại KIM PHÙ BÍ CẢNH | Phàm Nhân Căn Cốt Tầm Thường Nhờ Kim Phù Tu Thành Đại Đạo | P1 - Tập 7 | Linh Đan Travel (Full Trọn Bộ 31:09)",
