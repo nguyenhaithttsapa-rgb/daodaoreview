@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1774890156892659",
+    "slug": "tam-lot-chiu-nhiet-kieu-phap-phan-4-tu-bao-tien-bon-linh-gioi-ngu-hanh-2659",
+    "title": "Tấm lót chịu nhiệt kiểu Pháp Phần 4 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. | Lọ Vương (Full Trọn Bộ 2:41:18)",
+    "description": "Tấm lót chịu nhiệt kiểu Pháp Phần 4 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới.",
+    "thumbnail": "/thumbnails/1774890156892659.jpg",
+    "coverImage": "/thumbnails/1774890156892659.jpg",
+    "channelName": "Tiểu Bá Vương",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1774890156892659",
+        "seriesId": "series-long-1774890156892659",
+        "partNumber": 1,
+        "title": "Tấm lót chịu nhiệt kiểu Pháp Phần 4 | Tụ Bảo Tiên Bồn Linh Giới: Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới. | Lọ Vương (Full Trọn Bộ 2:41:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1774890156892659",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1774890156892659&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:41:18",
+        "thumbnail": "/thumbnails/1774890156892659.jpg",
+        "viewsCount": 26142,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-939345945635920",
     "slug": "phan-2-cuu-nham-nu-de-yeu-toc-roi-bi-cuon-vao-tu-tien-gioi-nuong-tu-cu-5920",
     "title": "Phần 2 Cứu Nhầm Nữ Đế Yêu Tộc Rồi Bị Cuốn Vào Tu Tiên Giới Nương Tử Cửu Vĩ Thiên Hồ | Cây Cà Rem (Full Trọn Bộ 2:36:47)",
@@ -104892,7 +104929,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1571933681286506",
@@ -173576,7 +173613,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-04",
     "episodes": [
       {
         "id": "ep-long-1571933681286506",
