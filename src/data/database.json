@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1937284423584853",
+    "slug": "review-phim-tron-bo-full-phim-cau-be-thong-minh-vua-nhin-thay-chi-gai--4853",
+    "title": "Review phim trọn bộ (full phim) - Cậu bé thông minh vừa nhìn thấy chị gái bán hàng rong thì biết ngay đó chính là người mẹ thất lạc từ bé của mình vì … See more | McGonigle Brown Jr. (Full Trọn Bộ 2:34:35)",
+    "description": "Review phim trọn bộ (full phim) - Cậu bé thông minh vừa nhìn thấy chị gái bán hàng rong thì biết ngay đó chính là người mẹ thất lạc từ bé của mình vì … See more",
+    "thumbnail": "/thumbnails/1937284423584853.jpg",
+    "coverImage": "/thumbnails/1937284423584853.jpg",
+    "channelName": "Mễ Lạc Review Phim",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1937284423584853",
+        "seriesId": "series-long-1937284423584853",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) - Cậu bé thông minh vừa nhìn thấy chị gái bán hàng rong thì biết ngay đó chính là người mẹ thất lạc từ bé của mình vì … See more | McGonigle Brown Jr. (Full Trọn Bộ 2:34:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1937284423584853",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1937284423584853&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:34:35",
+        "thumbnail": "/thumbnails/1937284423584853.jpg",
+        "viewsCount": 37825,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1608019230968551",
     "slug": "phim-hay-tron-bo-ke-vo-on-phim-thuyet-minh-moi-nhat-phim-ai-day-co-the-8551",
     "title": "Phim hay trọn bộ Kẻ vô ơn, phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 44:50)",
