@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-1119700250090820",
+    "slug": "review-phim-tuy-chon-tinh-duyen-tron-bo-nhung-giua-hang-loat-tuy-chon--0820",
+    "title": "REVIEW PHIM : TÙY CHỌN TÌNH DUYÊN.TRỌN BỘ Nhưng giữa hàng loạt tùy chọn định mệnh, đâu mới là người thật sự dành cho trái tim nàng | AĐG TV1 (Full Trọn Bộ 1:37:16)",
+    "description": "REVIEW PHIM : TÙY CHỌN TÌNH DUYÊN.TRỌN BỘ Nhưng giữa hàng loạt tùy chọn định mệnh, đâu mới là người thật sự dành cho trái tim nàng",
+    "thumbnail": "/thumbnails/1119700250090820.jpg",
+    "coverImage": "/thumbnails/1119700250090820.jpg",
+    "channelName": "AĐG TV1",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-04",
+    "episodes": [
+      {
+        "id": "ep-long-1119700250090820",
+        "seriesId": "series-long-1119700250090820",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : TÙY CHỌN TÌNH DUYÊN.TRỌN BỘ Nhưng giữa hàng loạt tùy chọn định mệnh, đâu mới là người thật sự dành cho trái tim nàng | AĐG TV1 (Full Trọn Bộ 1:37:16)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1119700250090820",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1119700250090820&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:37:16",
+        "thumbnail": "/thumbnails/1119700250090820.jpg",
+        "viewsCount": 33522,
+        "publishedAt": "2026-11-04"
+      }
+    ]
+  },
+  {
     "id": "series-long-1426515701362788",
     "slug": "co-ga-i-lam-3-cong-viec-1-ngay-de-tr-a-ti-en-vi-en-ph-i-cho-tong-tai-s-2788",
     "title": "Cô Gá-i làm 3 công việc 1 ngày để tr-ả ti-ền vi-ện ph-í cho Tổng Tài s-ống th-ự,c v-ật, đ-ến khi t-ỉnh lại thì,,>> | Rồng con Tổng Hợp Phim (Full Trọn Bộ 1:38:26)",
