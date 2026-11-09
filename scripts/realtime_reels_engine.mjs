@@ -702,13 +702,15 @@ export async function runCrawlAndReport() {
       const cat = detectCategory(title, meta.description || '', source.name);
       const slug = slugify(title) + '-' + item.id.slice(-4);
 
+      const safeId = item.id.replace(/(\d{8})(?=\d)/g, '$1_');
+      const dynThumb = `/api/thumbnail/${item.id}`;
       const newFilm = {
-        id: 'series-long-' + item.id,
+        id: 'series-long-' + safeId,
         slug,
         title,
         description: cleanDescription(meta.description, title),
-        thumbnail: meta.localThumbnail,
-        coverImage: meta.localThumbnail,
+        thumbnail: dynThumb,
+        coverImage: dynThumb,
         channelName: source.name,
         genres: [cat, 'Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt'],
         categories: [cat, 'Phim Dài Full', 'Hoạt Hình 3D'],
@@ -717,8 +719,8 @@ export async function runCrawlAndReport() {
         updatedAt: new Date().toISOString().split('T')[0],
         episodes: [
           {
-            id: 'ep-long-' + item.id,
-            seriesId: 'series-long-' + item.id,
+            id: 'ep-long-' + safeId,
+            seriesId: 'series-long-' + safeId,
             partNumber: 1,
             title,
             originalUrl: item.url,
@@ -726,7 +728,7 @@ export async function runCrawlAndReport() {
             platform: 'facebook',
             aspectRatio: '16:9',
             duration: finalDuration,
-            thumbnail: meta.localThumbnail,
+            thumbnail: dynThumb,
             viewsCount: Math.floor(Math.random() * 50000) + 20000,
             publishedAt: new Date().toISOString().split('T')[0]
           }

@@ -511,7 +511,7 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
   const db = JSON.parse(fs.readFileSync(DB_PATH, 'utf8'));
   const existingVids = new Set();
   for (const s of db) {
-    const mId = (s.id || '').replace('series-long-', '');
+    const mId = (s.id || '').replace('series-long-', '').replace(/_/g, '');
     if (mId) existingVids.add(mId);
     if (s.episodes) {
       for (const ep of s.episodes) {
@@ -755,12 +755,13 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
       const localThumbPath = path.join(THUMBNAILS_DIR, `${vid}.jpg`);
       fs.writeFileSync(localThumbPath, imgBuf);
 
-      const seriesId = `series-long-${vid}`;
+      const safeVid = vid.replace(/(\d{8})(?=\d)/g, '$1_');
+      const seriesId = `series-long-${safeVid}`;
       const slug = `${slugify(cleanTitle).slice(0, 70)}-${vid.slice(-4)}`;
       const epViews = (videoInfo.viewsCount && videoInfo.viewsCount > 1000) ? videoInfo.viewsCount : (Math.floor(Math.random() * 40000) + 18000);
 
       const newEpisodeObj = {
-        id: `ep-long-${vid}`,
+        id: `ep-long-${safeVid}`,
         seriesId,
         partNumber: 1,
         title: cleanTitle,
@@ -769,7 +770,7 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
         platform: 'facebook',
         aspectRatio: '16:9',
         duration: formatDuration(finalSec),
-        thumbnail: `/thumbnails/${vid}.jpg`,
+        thumbnail: `/api/thumbnail/${vid}`,
         viewsCount: epViews,
         publishedAt: todayStr
       };
@@ -824,8 +825,8 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
         slug,
         title: cleanTitle,
         description: sanitizeText(ogDesc) || `Trọn bộ phim dài đặc sắc: ${cleanTitle}. Thời lượng: ${formatDuration(finalSec)}. Kênh: ${target.name}.`,
-        thumbnail: `/thumbnails/${vid}.jpg`,
-        coverImage: `/thumbnails/${vid}.jpg`,
+        thumbnail: `/api/thumbnail/${vid}`,
+        coverImage: `/api/thumbnail/${vid}`,
         channelName: target.name,
         genres: [target.category || 'Hoạt Hình 3D', 'Phim Dài Full', 'Review Tóm Tắt'],
         categories: ['Phim Dài Full', 'Review Tóm Tắt'],

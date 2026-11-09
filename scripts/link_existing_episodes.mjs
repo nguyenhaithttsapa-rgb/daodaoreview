@@ -94,16 +94,27 @@ function main() {
     s.title = cleanAffiliateSpam(s.title);
     s.description = cleanAffiliateSpam(s.description);
 
-    const ownVid = (s.id || '').replace('series-long-', '');
+    const ownVid = (s.id || '').replace('series-long-', '').replace(/_/g, '');
+    const safeIdSuffix = ownVid.replace(/(\d{8})(?=\d)/g, '$1_');
+    if (s.id && s.id.startsWith('series-long-')) {
+      s.id = `series-long-${safeIdSuffix}`;
+    }
+    if (s.thumbnail && s.thumbnail.startsWith('/thumbnails/')) {
+      s.thumbnail = `/api/thumbnail/${ownVid}`;
+      s.coverImage = `/api/thumbnail/${ownVid}`;
+    }
     // Tìm đúng episode gốc của chính series này
-    let ownEp = (s.episodes || []).find(ep => (ep.id && ep.id.includes(ownVid)) || (ep.originalUrl && ep.originalUrl.includes(ownVid)));
+    let ownEp = (s.episodes || []).find(ep => (ep.id && ep.id.replace(/_/g, '').includes(ownVid)) || (ep.originalUrl && ep.originalUrl.includes(ownVid)));
     if (!ownEp && s.episodes && s.episodes.length > 0) {
       ownEp = s.episodes[s.episodes.length - 1];
     }
     if (ownEp) {
+      if (ownEp.thumbnail && ownEp.thumbnail.startsWith('/thumbnails/')) {
+        ownEp.thumbnail = `/api/thumbnail/${ownVid}`;
+      }
       ownEp = {
         ...ownEp,
-        id: `ep-long-${ownVid}`,
+        id: `ep-long-${safeIdSuffix}`,
         seriesId: s.id,
         partNumber: 1,
         title: s.title
