@@ -7,6 +7,10 @@ const nextConfig: NextConfig = {
         source: '/series/:slug',
         destination: '/watch/:slug',
       },
+      {
+        source: '/thumbnails/:id.jpg',
+        destination: '/api/thumbnail/:id',
+      },
     ];
   },
 };
