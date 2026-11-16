@@ -107,6 +107,9 @@ export default function RootLayout({
         <div className="relative z-0 flex flex-col min-h-screen">
           <Navbar />
           <main className="flex-1">{children}</main>
+          <div style={{ margin: '20px auto', maxWidth: '720px', padding: '14px 18px', borderRadius: '12px', background: '#f8fafc', border: '1px solid #e2e8f0', fontSize: '14px', lineHeight: 1.6, color: '#334155' }}>
+            🎮 <strong>Giải trí cuối tuần:</strong> Tham khảo thêm <a href="https://thuthuatviet.com/gaming-giai-tri/" target="_blank" rel="noopener" style={{ color: '#059669', fontWeight: 700, textDecoration: 'underline' }}>mẹo tối ưu máy tính, giả lập và thiết bị giải trí</a> tại thuthuatviet.com.
+          </div>
           <footer className="border-t border-purple-900/50 bg-[#0a0514]/80 backdrop-blur py-8 text-center text-xs text-purple-300/60">
             <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
               <p>© 2026 Dao Dao Review. Trang tổng hợp video nhúng trực tiếp từ các nền tảng mạng xã hội.</p>
