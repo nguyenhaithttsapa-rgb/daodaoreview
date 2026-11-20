@@ -1,5 +1,925 @@
 [
   {
+    "id": "series-long-17794060_43171967",
+    "slug": "chu-re-doi-don-nhan-tinh-ve-song-chung-co-dau-huy-hon-cuoi-luon-sep-tong-ta-1967",
+    "title": "Chú Rể Đòi Đón Nhân Tình Về Sống Chung, Cô Dâu Hủy Hôn Cưới Luôn Sếp Tổng Tài\n#moviexam | Movie Xàm",
+    "description": "Chú Rể Đòi Đón Nhân Tình Về Sống Chung, Cô Dâu Hủy Hôn Cưới Luôn Sếp Tổng Tài",
+    "thumbnail": "/api/thumbnail/1779406043171967",
+    "coverImage": "/api/thumbnail/1779406043171967",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-20",
+    "episodes": [
+      {
+        "id": "ep-long-17794060_43171967_0",
+        "seriesId": "series-long-17794060_43171967",
+        "partNumber": 1,
+        "title": "Chú Rể Đòi Đón Nhân Tình Về Sống Chung, Cô Dâu Hủy Hôn Cưới Luôn Sếp Tổng Tài\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1779406043171967",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1779406043171967&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:27:54",
+        "thumbnail": "/api/thumbnail/1779406043171967",
+        "viewsCount": 39928,
+        "publishedAt": "2026-11-20"
+      }
+    ],
+    "totalViews": 39928
+  },
+  {
+    "id": "series-long-22633285_14232555",
+    "slug": "bi-vo-cung-nhan-tinh-xe-thiep-moi-tiec-nao-ngo-chong-ky-su-la-dai-thieu-gia-2555",
+    "title": "Bị Vợ Cùng Nhân Tình Xé Thiệp Mời Tiệc, Nào Ngờ Chồng Kỹ Sư Là Đại Thiếu GiaTập Đoàn Nghìn Tỷ\n#moviexam | Movie Xàm",
+    "description": "Bị Vợ Cùng Nhân Tình Xé Thiệp Mời Tiệc, Nào Ngờ Chồng Kỹ Sư Là Đại Thiếu GiaTập Đoàn Nghìn Tỷ",
+    "thumbnail": "/api/thumbnail/2263328514232555",
+    "coverImage": "/api/thumbnail/2263328514232555",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-19",
+    "episodes": [
+      {
+        "id": "ep-long-22633285_14232555_0",
+        "seriesId": "series-long-22633285_14232555",
+        "partNumber": 1,
+        "title": "Bị Vợ Cùng Nhân Tình Xé Thiệp Mời Tiệc, Nào Ngờ Chồng Kỹ Sư Là Đại Thiếu GiaTập Đoàn Nghìn Tỷ\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=2263328514232555",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2263328514232555&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:41:00",
+        "thumbnail": "/api/thumbnail/2263328514232555",
+        "viewsCount": 29948,
+        "publishedAt": "2026-11-19"
+      }
+    ],
+    "totalViews": 29948
+  },
+  {
+    "id": "series-long-14532382_60118767",
+    "slug": "trong-sinh-bi-ban-gai-loi-dung-bo-roi-nam-sinh-nhan-he-thong-tinh-bao-doi-d-8767",
+    "title": "Trọng Sinh Bị Bạn Gái Lợi Dụng Bỏ Rơi, Nam Sinh Nhận Hệ Thống Tình Báo Đổi Đời Tỷ Phú\n#moviexam | Movie Xàm",
+    "description": "Trọng Sinh Bị Bạn Gái Lợi Dụng Bỏ Rơi, Nam Sinh Nhận Hệ Thống Tình Báo Đổi Đời Tỷ Phú",
+    "thumbnail": "/api/thumbnail/1453238260118767",
+    "coverImage": "/api/thumbnail/1453238260118767",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Báo Thù - Trùng Sinh",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Báo Thù - Trùng Sinh",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-19",
+    "episodes": [
+      {
+        "id": "ep-long-14532382_60118767_0",
+        "seriesId": "series-long-14532382_60118767",
+        "partNumber": 1,
+        "title": "Trọng Sinh Bị Bạn Gái Lợi Dụng Bỏ Rơi, Nam Sinh Nhận Hệ Thống Tình Báo Đổi Đời Tỷ Phú\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1453238260118767",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1453238260118767&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "03:12:11",
+        "thumbnail": "/api/thumbnail/1453238260118767",
+        "viewsCount": 43862,
+        "publishedAt": "2026-11-19"
+      }
+    ],
+    "totalViews": 43862
+  },
+  {
+    "id": "series-long-11312757_89609422",
+    "slug": "18-nam-xuong-nui-tim-lai-gia-toc-cao-thu-an-danh-mot-tay-quet-sach-dai-hoi--9422",
+    "title": "18 Năm Xuống Núi Tìm Lại Gia Tộc: Cao Thủ Ẩn Danh Một Tay Quét Sạch Đại Hội Võ Lâm\n#moviexam | Movie Xàm",
+    "description": "18 Năm Xuống Núi Tìm Lại Gia Tộc: Cao Thủ Ẩn Danh Một Tay Quét Sạch Đại Hội Võ Lâm",
+    "thumbnail": "/api/thumbnail/1131275789609422",
+    "coverImage": "/api/thumbnail/1131275789609422",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-19",
+    "episodes": [
+      {
+        "id": "ep-long-11312757_89609422_0",
+        "seriesId": "series-long-11312757_89609422",
+        "partNumber": 1,
+        "title": "18 Năm Xuống Núi Tìm Lại Gia Tộc: Cao Thủ Ẩn Danh Một Tay Quét Sạch Đại Hội Võ Lâm\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1131275789609422",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1131275789609422&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:18:24",
+        "thumbnail": "/api/thumbnail/1131275789609422",
+        "viewsCount": 33759,
+        "publishedAt": "2026-11-19"
+      }
+    ],
+    "totalViews": 33759
+  },
+  {
+    "id": "series-long-20575894_71730872",
+    "slug": "thieu-gia-that-bi-duoi-khoi-nha-trong-sinh-anh-dung-ky-uc-kiep-truoc-kiem-4-0872",
+    "title": "Thiếu Gia Thật Bị Đuổi Khỏi Nhà, Trọng Sinh Anh Dùng Ký Ức Kiếp Trước Kiếm 40 Triệu Để Báo Thù!\n#moviexam | Movie Xàm",
+    "description": "Thiếu Gia Thật Bị Đuổi Khỏi Nhà, Trọng Sinh Anh Dùng Ký Ức Kiếp Trước Kiếm 40 Triệu Để Báo Thù!",
+    "thumbnail": "/api/thumbnail/2057589471730872",
+    "coverImage": "/api/thumbnail/2057589471730872",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Báo Thù - Trùng Sinh",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Báo Thù - Trùng Sinh",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-19",
+    "episodes": [
+      {
+        "id": "ep-long-20575894_71730872_0",
+        "seriesId": "series-long-20575894_71730872",
+        "partNumber": 1,
+        "title": "Thiếu Gia Thật Bị Đuổi Khỏi Nhà, Trọng Sinh Anh Dùng Ký Ức Kiếp Trước Kiếm 40 Triệu Để Báo Thù!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=2057589471730872",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2057589471730872&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:01:10",
+        "thumbnail": "/api/thumbnail/2057589471730872",
+        "viewsCount": 47373,
+        "publishedAt": "2026-11-19"
+      }
+    ],
+    "totalViews": 47373
+  },
+  {
+    "id": "series-long-14553890_22794829",
+    "slug": "vo-vua-len-chuc-tong-tai-da-duoi-chong-ngheo-khong-ngo-moi-hop-dong-deu-nho-4829",
+    "title": "Vợ Vừa Lên Chức Tổng Tài Đã Đuổi Chồng Nghèo, Không Ngờ Mọi Hợp Đồng Đều Nhờ Quyền Lực Của Anh!\n#moviexam | Movie Xàm",
+    "description": "Vợ Vừa Lên Chức Tổng Tài Đã Đuổi Chồng Nghèo, Không Ngờ Mọi Hợp Đồng Đều Nhờ Quyền Lực Của Anh!",
+    "thumbnail": "/api/thumbnail/1455389022794829",
+    "coverImage": "/api/thumbnail/1455389022794829",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-19",
+    "episodes": [
+      {
+        "id": "ep-long-14553890_22794829_0",
+        "seriesId": "series-long-14553890_22794829",
+        "partNumber": 1,
+        "title": "Vợ Vừa Lên Chức Tổng Tài Đã Đuổi Chồng Nghèo, Không Ngờ Mọi Hợp Đồng Đều Nhờ Quyền Lực Của Anh!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1455389022794829",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1455389022794829&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:10:27",
+        "thumbnail": "/api/thumbnail/1455389022794829",
+        "viewsCount": 39286,
+        "publishedAt": "2026-11-19"
+      }
+    ],
+    "totalViews": 39286
+  },
+  {
+    "id": "series-long-18863137_82802698",
+    "slug": "bi-ham-hai-o-tu-2-nam-than-y-nhan-lai-gia-toc-quet-sach-ke-thu-bao-thu-cho--2698",
+    "title": "Bị Hãm Hại Ở Tù 2 Năm: Thần Y Nhận Lại Gia Tộc Quét Sạch Kẻ Thù Báo Thù Cho Cha\n#moviexam | Movie Xàm",
+    "description": "Bị Hãm Hại Ở Tù 2 Năm: Thần Y Nhận Lại Gia Tộc Quét Sạch Kẻ Thù Báo Thù Cho Cha",
+    "thumbnail": "/api/thumbnail/1886313782802698",
+    "coverImage": "/api/thumbnail/1886313782802698",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Báo Thù - Trùng Sinh",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Báo Thù - Trùng Sinh",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-18",
+    "episodes": [
+      {
+        "id": "ep-long-18863137_82802698_0",
+        "seriesId": "series-long-18863137_82802698",
+        "partNumber": 1,
+        "title": "Bị Hãm Hại Ở Tù 2 Năm: Thần Y Nhận Lại Gia Tộc Quét Sạch Kẻ Thù Báo Thù Cho Cha\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1886313782802698",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1886313782802698&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "03:03:33",
+        "thumbnail": "/api/thumbnail/1886313782802698",
+        "viewsCount": 58765,
+        "publishedAt": "2026-11-18"
+      }
+    ],
+    "totalViews": 58765
+  },
+  {
+    "id": "series-long-17663049_61157943",
+    "slug": "83k-luot-xem-1k-cam-xuc-xuyen-khong-sieu-hay-hoathinh-review-7943",
+    "title": "83K lượt xem · 1K cảm xúc | Xuyên không siêu hay. | HoatHinh Review",
+    "description": "Xuyên không siêu hay.",
+    "thumbnail": "/api/thumbnail/1766304961157943",
+    "coverImage": "/api/thumbnail/1766304961157943",
+    "channelName": "Hoạt Hình 3D Review",
+    "genres": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-17",
+    "episodes": [
+      {
+        "id": "ep-long-17663049_61157943_0",
+        "seriesId": "series-long-17663049_61157943",
+        "partNumber": 1,
+        "title": "83K lượt xem · 1K cảm xúc | Xuyên không siêu hay. | HoatHinh Review",
+        "originalUrl": "https://www.facebook.com/watch/?v=1766304961157943",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1766304961157943&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "06:36:06",
+        "thumbnail": "/api/thumbnail/1766304961157943",
+        "viewsCount": 44710,
+        "publishedAt": "2026-11-17"
+      }
+    ],
+    "totalViews": 44710
+  },
+  {
+    "id": "series-long-14271258_39357043",
+    "slug": "96k-luot-xem-1k-cam-xuc-sieu-hay-luon-hoathinh-review-7043",
+    "title": "96K lượt xem · 1K cảm xúc | Siêu hay luôn | HoatHinh Review",
+    "description": "96K lượt xem · 1K cảm xúc | Siêu hay luôn | HoatHinh Review",
+    "thumbnail": "/api/thumbnail/1427125839357043",
+    "coverImage": "/api/thumbnail/1427125839357043",
+    "channelName": "Hoạt Hình 3D Review",
+    "genres": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-17",
+    "episodes": [
+      {
+        "id": "ep-long-14271258_39357043_0",
+        "seriesId": "series-long-14271258_39357043",
+        "partNumber": 1,
+        "title": "96K lượt xem · 1K cảm xúc | Siêu hay luôn | HoatHinh Review",
+        "originalUrl": "https://www.facebook.com/watch/?v=1427125839357043",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1427125839357043&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "07:50:27",
+        "thumbnail": "/api/thumbnail/1427125839357043",
+        "viewsCount": 67475,
+        "publishedAt": "2026-11-17"
+      }
+    ],
+    "totalViews": 67475
+  },
+  {
+    "id": "series-long-11152213_27529099",
+    "slug": "59k-luot-xem-573-cam-xuc-sieu-hay-hoathinh-review-9099",
+    "title": "59K lượt xem · 573 cảm xúc | Siêu hay | HoatHinh Review",
+    "description": "59K lượt xem · 573 cảm xúc | Siêu hay | HoatHinh Review",
+    "thumbnail": "/api/thumbnail/1115221327529099",
+    "coverImage": "/api/thumbnail/1115221327529099",
+    "channelName": "Hoạt Hình 3D Review",
+    "genres": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Tiên Hiệp - Tiên Sư Xuống Núi",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-17",
+    "episodes": [
+      {
+        "id": "ep-long-11152213_27529099_0",
+        "seriesId": "series-long-11152213_27529099",
+        "partNumber": 1,
+        "title": "59K lượt xem · 573 cảm xúc | Siêu hay | HoatHinh Review",
+        "originalUrl": "https://www.facebook.com/watch/?v=1115221327529099",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1115221327529099&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "05:23:45",
+        "thumbnail": "/api/thumbnail/1115221327529099",
+        "viewsCount": 42850,
+        "publishedAt": "2026-11-17"
+      }
+    ],
+    "totalViews": 42850
+  },
+  {
+    "id": "series-long-18569617_15750805",
+    "slug": "bi-ban-gai-giau-co-nem-xuong-bien-anh-trong-sinh-chi-dung-20-te-mua-binh-co-0805",
+    "title": "Bị bạn gái giàu có ném xuống biển, anh trọng sinh chỉ dùng 20 tệ mua bình cổ rồi bán được 2 triệu tệ\n#moviexam | Movie Xàm",
+    "description": "Bị bạn gái giàu có ném xuống biển, anh trọng sinh chỉ dùng 20 tệ mua bình cổ rồi bán được 2 triệu tệ",
+    "thumbnail": "/api/thumbnail/1856961715750805",
+    "coverImage": "/api/thumbnail/1856961715750805",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Báo Thù - Trùng Sinh",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Báo Thù - Trùng Sinh",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-17",
+    "episodes": [
+      {
+        "id": "ep-long-18569617_15750805_0",
+        "seriesId": "series-long-18569617_15750805",
+        "partNumber": 1,
+        "title": "Bị bạn gái giàu có ném xuống biển, anh trọng sinh chỉ dùng 20 tệ mua bình cổ rồi bán được 2 triệu tệ\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1856961715750805",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1856961715750805&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:05:17",
+        "thumbnail": "/api/thumbnail/1856961715750805",
+        "viewsCount": 65066,
+        "publishedAt": "2026-11-17"
+      }
+    ],
+    "totalViews": 65066
+  },
+  {
+    "id": "series-long-10335258_22480456",
+    "slug": "co-dau-che-ngheo-hen-muon-huy-hon-le-tong-tai-binh-than-huy-hon-mua-luon-co-0456",
+    "title": "Cô Dâu Chê Nghèo Hèn Muốn Hủy Hôn Lễ, Tổng Tài Bình Thản Hủy Hôn, Mua Luôn Công Ty Nhà Cô\n#moviexam | Movie Xàm",
+    "description": "Cô Dâu Chê Nghèo Hèn Muốn Hủy Hôn Lễ, Tổng Tài Bình Thản Hủy Hôn, Mua Luôn Công Ty Nhà Cô",
+    "thumbnail": "/api/thumbnail/1033525822480456",
+    "coverImage": "/api/thumbnail/1033525822480456",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-17",
+    "episodes": [
+      {
+        "id": "ep-long-10335258_22480456_0",
+        "seriesId": "series-long-10335258_22480456",
+        "partNumber": 1,
+        "title": "Cô Dâu Chê Nghèo Hèn Muốn Hủy Hôn Lễ, Tổng Tài Bình Thản Hủy Hôn, Mua Luôn Công Ty Nhà Cô\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1033525822480456",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1033525822480456&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "03:06:28",
+        "thumbnail": "/api/thumbnail/1033525822480456",
+        "viewsCount": 38107,
+        "publishedAt": "2026-11-17"
+      }
+    ],
+    "totalViews": 38107
+  },
+  {
+    "id": "series-long-12936659_69588030",
+    "slug": "an-danh-7-nam-tro-ve-tim-vo-con-chien-than-lo-than-phan-san-phang-ca-dai-ha-8030",
+    "title": "Ẩn Danh 7 Năm Trở Về Tìm Vợ Con: Chiến Thần Lộ Thân Phận San Phẳng Cả Đại Hào Môn\n#moviexam | Movie Xàm",
+    "description": "Ẩn Danh 7 Năm Trở Về Tìm Vợ Con: Chiến Thần Lộ Thân Phận San Phẳng Cả Đại Hào Môn",
+    "thumbnail": "/api/thumbnail/1293665969588030",
+    "coverImage": "/api/thumbnail/1293665969588030",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-12936659_69588030_0",
+        "seriesId": "series-long-12936659_69588030",
+        "partNumber": 1,
+        "title": "Ẩn Danh 7 Năm Trở Về Tìm Vợ Con: Chiến Thần Lộ Thân Phận San Phẳng Cả Đại Hào Môn\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1293665969588030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1293665969588030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:31:16",
+        "thumbnail": "/api/thumbnail/1293665969588030",
+        "viewsCount": 37547,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 37547
+  },
+  {
+    "id": "series-long-11726185_28548488",
+    "slug": "bi-vo-ly-hon-cong-ty-sa-thai-anh-ve-que-kich-hoat-he-thong-moi-ngay-cho-10--8488",
+    "title": "Bị Vợ Ly Hôn, Công Ty Sa Thải, Anh Về Quê Kích Hoạt Hệ Thống Mỗi Ngày Cho 10 Triệu Để Đầu Tư\n#moviexam | Movie Xàm",
+    "description": "Bị Vợ Ly Hôn, Công Ty Sa Thải, Anh Về Quê Kích Hoạt Hệ Thống Mỗi Ngày Cho 10 Triệu Để Đầu Tư",
+    "thumbnail": "/api/thumbnail/1172618528548488",
+    "coverImage": "/api/thumbnail/1172618528548488",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-11726185_28548488_0",
+        "seriesId": "series-long-11726185_28548488",
+        "partNumber": 1,
+        "title": "Bị Vợ Ly Hôn, Công Ty Sa Thải, Anh Về Quê Kích Hoạt Hệ Thống Mỗi Ngày Cho 10 Triệu Để Đầu Tư\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1172618528548488",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1172618528548488&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:53:35",
+        "thumbnail": "/api/thumbnail/1172618528548488",
+        "viewsCount": 69989,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 69989
+  },
+  {
+    "id": "series-long-97298042_5886641",
+    "slug": "than-y-xuong-nui-cuoi-vo-bi-coi-thuong-vung-cuu-cham-cuu-lao-gia-khien-dai--6641",
+    "title": "Thần Y Xuống Núi Cưới Vợ Bị Coi Thường, Vung Cửu Châm Cứu Lão Gia Khiến Đại Hào Môn Khiếp Sợ\n#moviexam | Movie Xàm",
+    "description": "Thần Y Xuống Núi Cưới Vợ Bị Coi Thường, Vung Cửu Châm Cứu Lão Gia Khiến Đại Hào Môn Khiếp Sợ",
+    "thumbnail": "/api/thumbnail/972980425886641",
+    "coverImage": "/api/thumbnail/972980425886641",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-97298042_5886641_0",
+        "seriesId": "series-long-97298042_5886641",
+        "partNumber": 1,
+        "title": "Thần Y Xuống Núi Cưới Vợ Bị Coi Thường, Vung Cửu Châm Cứu Lão Gia Khiến Đại Hào Môn Khiếp Sợ\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=972980425886641",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D972980425886641&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:18:32",
+        "thumbnail": "/api/thumbnail/972980425886641",
+        "viewsCount": 38936,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 38936
+  },
+  {
+    "id": "series-long-16506643_83518006",
+    "slug": "co-gai-ngheo-thue-ban-trai-gia-500-te-mot-ngay-nao-ngo-anh-la-tong-tai-con--8006",
+    "title": "Cô Gái Nghèo Thuê Bạn Trai Giá 500 Tệ Một Ngày, Nào Ngờ Anh Là Tổng Tài Còn Cô Là Thiên Kim Tỷ Phú\n#moviexam | Movie Xàm",
+    "description": "Cô Gái Nghèo Thuê Bạn Trai Giá 500 Tệ Một Ngày, Nào Ngờ Anh Là Tổng Tài Còn Cô Là Thiên Kim Tỷ Phú",
+    "thumbnail": "/api/thumbnail/1650664383518006",
+    "coverImage": "/api/thumbnail/1650664383518006",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-16506643_83518006_0",
+        "seriesId": "series-long-16506643_83518006",
+        "partNumber": 1,
+        "title": "Cô Gái Nghèo Thuê Bạn Trai Giá 500 Tệ Một Ngày, Nào Ngờ Anh Là Tổng Tài Còn Cô Là Thiên Kim Tỷ Phú\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1650664383518006",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1650664383518006&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:06:07",
+        "thumbnail": "/api/thumbnail/1650664383518006",
+        "viewsCount": 33413,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 33413
+  },
+  {
+    "id": "series-long-18075651_83695908",
+    "slug": "3-1k-luot-xem-16-cam-xuc-thuc-tinh-sau-nua-nam-hon-me-bi-vo-duoi-than-y-cuu-5908",
+    "title": "3,1K lượt xem · 16 cảm xúc | Thức Tỉnh Sau Nửa Năm Hôn Mê Bị Vợ Đuổi: Thần Y Cứu Sống Nữ Tổng Tài Khiến Hào Môn Run Sợ\n#moviexam | Movie Xàm",
+    "description": "Thức Tỉnh Sau Nửa Năm Hôn Mê Bị Vợ Đuổi: Thần Y Cứu Sống Nữ Tổng Tài Khiến Hào Môn Run Sợ",
+    "thumbnail": "/api/thumbnail/1807565183695908",
+    "coverImage": "/api/thumbnail/1807565183695908",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-18075651_83695908_0",
+        "seriesId": "series-long-18075651_83695908",
+        "partNumber": 1,
+        "title": "3,1K lượt xem · 16 cảm xúc | Thức Tỉnh Sau Nửa Năm Hôn Mê Bị Vợ Đuổi: Thần Y Cứu Sống Nữ Tổng Tài Khiến Hào Môn Run Sợ\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1807565183695908",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1807565183695908&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:01:28",
+        "thumbnail": "/api/thumbnail/1807565183695908",
+        "viewsCount": 62509,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 62509
+  },
+  {
+    "id": "series-long-96581053_2953753",
+    "slug": "202k-luot-xem-2-5k-cam-xuc-gia-vo-yeu-chang-hoc-ba-de-thang-cuoc-co-tieu-th-3753",
+    "title": "202K lượt xem · 2,5K cảm xúc | Giả vờ yêu chàng học bá để thắng cược, cô tiểu thư không ngờ anh tung tin nhắn khiến cả lớp sững sờ!\n#moviexam | Movie Xàm",
+    "description": "Giả vờ yêu chàng học bá để thắng cược, cô tiểu thư không ngờ anh tung tin nhắn khiến cả lớp sững sờ!",
+    "thumbnail": "/api/thumbnail/965810532953753",
+    "coverImage": "/api/thumbnail/965810532953753",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-96581053_2953753_0",
+        "seriesId": "series-long-96581053_2953753",
+        "partNumber": 1,
+        "title": "202K lượt xem · 2,5K cảm xúc | Giả vờ yêu chàng học bá để thắng cược, cô tiểu thư không ngờ anh tung tin nhắn khiến cả lớp sững sờ!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=965810532953753",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D965810532953753&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "03:09:36",
+        "thumbnail": "/api/thumbnail/965810532953753",
+        "viewsCount": 66806,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 66806
+  },
+  {
+    "id": "series-long-30235748_889347961",
+    "slug": "4-2k-luot-xem-29-cam-xuc-vua-huy-hon-vi-sinh-le-tren-troi-chang-trai-bong-c-7961",
+    "title": "4,2K lượt xem · 29 cảm xúc | Vừa Hủy Hôn Vì Sính Lễ Trên Trời, Chàng Trai Bỗng Có Hệ Thống Tỷ Phú Khiến Nhà Gái Hối Hận Muộn Màng\n#moviexam | Movie Xàm",
+    "description": "Vừa Hủy Hôn Vì Sính Lễ Trên Trời, Chàng Trai Bỗng Có Hệ Thống Tỷ Phú Khiến Nhà Gái Hối Hận Muộn Màng",
+    "thumbnail": "/api/thumbnail/30235748889347961",
+    "coverImage": "/api/thumbnail/30235748889347961",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-30235748_889347961_0",
+        "seriesId": "series-long-30235748_889347961",
+        "partNumber": 1,
+        "title": "4,2K lượt xem · 29 cảm xúc | Vừa Hủy Hôn Vì Sính Lễ Trên Trời, Chàng Trai Bỗng Có Hệ Thống Tỷ Phú Khiến Nhà Gái Hối Hận Muộn Màng\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=30235748889347961",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D30235748889347961&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "02:24:44",
+        "thumbnail": "/api/thumbnail/30235748889347961",
+        "viewsCount": 69430,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 69430
+  },
+  {
+    "id": "series-long-14316973_91979315",
+    "slug": "226k-luot-xem-2-8k-cam-xuc-con-ruot-that-lac-22-nam-ve-nhan-than-bo-che-ngh-9315",
+    "title": "226K lượt xem · 2,8K cảm xúc | Con ruột thất lạc 22 năm về nhận thân, bố chê nghèo giữa tiệc đính hôn, nào ngờ anh là chủ tập đoàn!\n#moviexam | Movie Xàm",
+    "description": "Con ruột thất lạc 22 năm về nhận thân, bố chê nghèo giữa tiệc đính hôn, nào ngờ anh là chủ tập đoàn!",
+    "thumbnail": "/api/thumbnail/1431697391979315",
+    "coverImage": "/api/thumbnail/1431697391979315",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-14316973_91979315_0",
+        "seriesId": "series-long-14316973_91979315",
+        "partNumber": 1,
+        "title": "226K lượt xem · 2,8K cảm xúc | Con ruột thất lạc 22 năm về nhận thân, bố chê nghèo giữa tiệc đính hôn, nào ngờ anh là chủ tập đoàn!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1431697391979315",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1431697391979315&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:45:34",
+        "thumbnail": "/api/thumbnail/1431697391979315",
+        "viewsCount": 61370,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 61370
+  },
+  {
+    "id": "series-long-14887277_46543660",
+    "slug": "2-2k-luot-xem-14-cam-xuc-vo-sap-cuoi-len-di-du-lich-voi-ban-than-chang-trai-3660",
+    "title": "2,2K lượt xem · 14 cảm xúc | Vợ Sắp Cưới Lén Đi Du Lịch Với Bạn Thân, Chàng Trai Quay Xe Cưới Tiểu Thư Giàu Nhất Thành Phố!\n#moviexam | Movie Xàm",
+    "description": "Vợ Sắp Cưới Lén Đi Du Lịch Với Bạn Thân, Chàng Trai Quay Xe Cưới Tiểu Thư Giàu Nhất Thành Phố!",
+    "thumbnail": "/api/thumbnail/1488727746543660",
+    "coverImage": "/api/thumbnail/1488727746543660",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-14887277_46543660_0",
+        "seriesId": "series-long-14887277_46543660",
+        "partNumber": 1,
+        "title": "2,2K lượt xem · 14 cảm xúc | Vợ Sắp Cưới Lén Đi Du Lịch Với Bạn Thân, Chàng Trai Quay Xe Cưới Tiểu Thư Giàu Nhất Thành Phố!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1488727746543660",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1488727746543660&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:13:31",
+        "thumbnail": "/api/thumbnail/1488727746543660",
+        "viewsCount": 41897,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 41897
+  },
+  {
+    "id": "series-long-29632127_40710304",
+    "slug": "1-5k-luot-xem-bi-gia-toc-duoi-di-suot-10-nam-cao-thu-tro-ve-bao-thu-khien-c-0304",
+    "title": "1,5K lượt xem | Bị Gia Tộc Đuổi Đi Suốt 10 Năm: Cao Thủ Trở Về Báo Thù Khiến Cả Nhà Quỳ Gối Van Xin\n#moviexam | Movie Xàm",
+    "description": "Bị Gia Tộc Đuổi Đi Suốt 10 Năm: Cao Thủ Trở Về Báo Thù Khiến Cả Nhà Quỳ Gối Van Xin",
+    "thumbnail": "/api/thumbnail/2963212740710304",
+    "coverImage": "/api/thumbnail/2963212740710304",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Báo Thù - Trùng Sinh",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Báo Thù - Trùng Sinh",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": false,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-29632127_40710304_0",
+        "seriesId": "series-long-29632127_40710304",
+        "partNumber": 1,
+        "title": "1,5K lượt xem | Bị Gia Tộc Đuổi Đi Suốt 10 Năm: Cao Thủ Trở Về Báo Thù Khiến Cả Nhà Quỳ Gối Van Xin\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=2963212740710304",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2963212740710304&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:57:14",
+        "thumbnail": "/api/thumbnail/2963212740710304",
+        "viewsCount": 30654,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 30654
+  },
+  {
+    "id": "series-long-17484369_49559422",
+    "slug": "304k-luot-xem-3-6k-cam-xuc-gai-xem-mat-doi-gap-doi-nha-xe-sinh-le-nao-ngo-m-9422",
+    "title": "304K lượt xem · 3,6K cảm xúc | Gái Xem Mắt Đòi Gấp Đôi Nhà Xe Sính Lễ, Nào Ngờ Mỗi Yêu Cầu Đều Biến Thành Phần Thưởng Cho Anh!\n#moviexam | Movie Xàm",
+    "description": "Gái Xem Mắt Đòi Gấp Đôi Nhà Xe Sính Lễ, Nào Ngờ Mỗi Yêu Cầu Đều Biến Thành Phần Thưởng Cho Anh!",
+    "thumbnail": "/api/thumbnail/1748436949559422",
+    "coverImage": "/api/thumbnail/1748436949559422",
+    "channelName": "Đại Đạo Review (Phim Ngắn & Trọng Sinh)",
+    "genres": [
+      "Ngôn Tình - Tổng Tài",
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Ngôn Tình - Tổng Tài",
+      "Phim Dài Full",
+      "Hoạt Hình 3D"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-16",
+    "episodes": [
+      {
+        "id": "ep-long-17484369_49559422_0",
+        "seriesId": "series-long-17484369_49559422",
+        "partNumber": 1,
+        "title": "304K lượt xem · 3,6K cảm xúc | Gái Xem Mắt Đòi Gấp Đôi Nhà Xe Sính Lễ, Nào Ngờ Mỗi Yêu Cầu Đều Biến Thành Phần Thưởng Cho Anh!\n#moviexam | Movie Xàm",
+        "originalUrl": "https://www.facebook.com/watch/?v=1748436949559422",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1748436949559422&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "01:29:13",
+        "thumbnail": "/api/thumbnail/1748436949559422",
+        "viewsCount": 68832,
+        "publishedAt": "2026-11-16"
+      }
+    ],
+    "totalViews": 68832
+  },
+  {
     "id": "series-long-11528610_50580241",
     "slug": "tieu-thu-ket-hon-hop-dong-chang-mong-danh-phan-nao-ngo-be-cung-giup-tong-ta-0241",
     "title": "Tiểu thư kết hôn hợp đồng chẳng mong danh phận nào ngờ bé cưng giúp tổng tài quyết tâm chinh phục vk\n#moviexam | Movie Xàm",
