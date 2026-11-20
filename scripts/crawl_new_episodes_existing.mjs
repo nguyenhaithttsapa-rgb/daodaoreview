@@ -794,7 +794,7 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
         originalUrl: videoInfo.url,
         embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoInfo.url)}&show_text=0&autoplay=0`,
         platform: 'facebook',
-        aspectRatio: embedCheck.streamAspectRatio || qualityCheck.aspectRatio || '16:9',
+        aspectRatio: checkRes.streamAspectRatio || qualityCheck.aspectRatio || '16:9',
         duration: formatDuration(finalSec),
         thumbnail: `/api/thumbnail/${vid}`,
         viewsCount: epViews,
