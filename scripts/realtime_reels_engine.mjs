@@ -199,7 +199,7 @@ function isGenreMatched(text) {
   return hasFullSignal || hasGenreSignal;
 }
 
-// 2. Kiểm tra bản quyền nhúng video Facebook: Bắt buộc nhúng được mới nhận
+// 2. Kiểm tra bản quyền nhúng video Facebook & lọc luồng video DASH bị Zoom/Crop lách bản quyền
 async function checkEmbeddable(url) {
   try {
     const embedUrl = `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(url)}&show_text=0&autoplay=0`;
@@ -214,20 +214,55 @@ async function checkEmbeddable(url) {
     const hasStream = /"sd_src"\s*:\s*"https?:/i.test(html) || /"hd_src"\s*:\s*"https?:/i.test(html);
     if (!hasStream) return false;
     const isBlocked =
-      html.includes('không nhúng được') ||
+      html.includes('Video này không nhúng được do có thể chứa') ||
+      html.includes('This video cannot be embedded because it may contain content') ||
       html.includes('thuộc sở hữu của người khác') ||
-      html.includes('cannot be embedded') ||
       html.includes('error_subcode') ||
-      html.includes('không tồn tại nữa hoặc bạn không có quyền xem') ||
       html.includes('videoData":null') ||
       /"sd_src"\s*:\s*null/i.test(html);
-    return !isBlocked;
+    if (isBlocked) return false;
+
+    // Chặn luồng video DASH bị zoom gần / cắt khung tỷ lệ 3:4, 4:5, 1:1, 4:3 (0.62 <= R < 1.48)
+    const repMatch = html.match(/width=\\?"(\d+)\\?"[^>]*height=\\?"(\d+)\\?"/i);
+    if (repMatch) {
+      const sw = parseInt(repMatch[1], 10);
+      const sh = parseInt(repMatch[2], 10);
+      if (sw > 0 && sh > 0) {
+        const sr = sw / sh;
+        if (sr >= 0.62 && sr < 1.48) {
+          console.log(`🚫 [LOẠI - VIDEO DASH BỊ ZOOM GẦN / CẮT KHUNG] (${sw}x${sh}, R=${sr.toFixed(2)})`);
+          return false;
+        }
+      }
+    }
+    return true;
   } catch (e) {
     return false;
   }
 }
 
-// 3. Tải Metadata thật và lưu ảnh gốc của video vĩnh viễn
+function getJpegDimensions(buf) {
+  if (!buf || buf.length < 24) return null;
+  if (buf[0] === 0xFF && buf[1] === 0xD8) {
+    let offset = 2;
+    while (offset < buf.length - 9) {
+      if (buf[offset] !== 0xFF) { offset++; continue; }
+      const marker = buf[offset + 1];
+      if (marker === 0xC0 || marker === 0xC1 || marker === 0xC2) {
+        const height = buf.readUInt16BE(offset + 5);
+        const width = buf.readUInt16BE(offset + 7);
+        if (width > 0 && height > 0) return { width, height };
+      }
+      if (marker === 0xD9 || marker === 0xDA) break;
+      const segLen = buf.readUInt16BE(offset + 2);
+      if (segLen < 2) break;
+      offset += 2 + segLen;
+    }
+  }
+  return null;
+}
+
+// 3. Tải Metadata thật, thẩm định chống Zoom gần/Crop và lưu ảnh gốc của video vĩnh viễn
 async function fetchVideoMetadata(url, vidId) {
   try {
     const res = await fetch(url, {
@@ -236,7 +271,7 @@ async function fetchVideoMetadata(url, vidId) {
       },
       signal: AbortSignal.timeout(8000)
     });
-    if (!res.ok) return { title: '', description: '', localThumbnail: null };
+    if (!res.ok) return { title: '', description: '', localThumbnail: null, aspectRatio: '16:9' };
 
     const html = await res.text();
     const ogImage = html.match(/<meta\s+property="og:image"\s+content="([^"]+)"/i)?.[1];
@@ -253,6 +288,7 @@ async function fetchVideoMetadata(url, vidId) {
     ogDesc = decodeHtmlEntities(ogDesc).trim();
 
     let localThumbnail = null;
+    let aspectRatio = '16:9';
     if (ogImage && ogImage.startsWith('http')) {
       const cleanImgUrl = ogImage.replace(/&amp;/g, '&');
       const imgRes = await fetch(cleanImgUrl, {
@@ -265,18 +301,32 @@ async function fetchVideoMetadata(url, vidId) {
 
       if (imgRes.ok) {
         const buffer = Buffer.from(await imgRes.arrayBuffer());
-        if (buffer.length > 5000) {
-          const fileName = `${vidId}.jpg`;
-          const savePath = path.join(THUMB_DIR, fileName);
-          fs.writeFileSync(savePath, buffer);
-          localThumbnail = `/thumbnails/${fileName}`;
+        if (buffer.length >= 15360) {
+          const dim = getJpegDimensions(buffer);
+          if (dim) {
+            const r = dim.width / dim.height;
+            // Loại bỏ video bị Zoom gần / Cắt khung lách bản quyền (3:4, 4:5, 1:1, 4:3 hoặc Center-Crop dọc < 720x1280)
+            if (r < 0.52 || r > 2.40 || (r >= 0.62 && r < 1.48)) {
+              console.log(`🚫 [LOẠI - ẢNH KHUNG HÌNH BỊ ZOOM GẦN / CẮT KHUNG] (${dim.width}x${dim.height}, R=${r.toFixed(2)})`);
+              return { title: '', description: '', localThumbnail: null, aspectRatio: '16:9' };
+            }
+            if (r < 0.62 && (dim.width < 720 || dim.height < 1280)) {
+              console.log(`🚫 [LOẠI - VIDEO BỊ CẮT DỌC CENTER-CROP] (${dim.width}x${dim.height})`);
+              return { title: '', description: '', localThumbnail: null, aspectRatio: '16:9' };
+            }
+            aspectRatio = r < 0.62 ? '9:16' : '16:9';
+            const fileName = `${vidId}.jpg`;
+            const savePath = path.join(THUMB_DIR, fileName);
+            fs.writeFileSync(savePath, buffer);
+            localThumbnail = `/api/thumbnail/${vidId}`;
+          }
         }
       }
     }
 
-    return { title: ogTitle, description: ogDesc, localThumbnail };
+    return { title: ogTitle, description: ogDesc, localThumbnail, aspectRatio };
   } catch (err) {
-    return { title: '', description: '', localThumbnail: null };
+    return { title: '', description: '', localThumbnail: null, aspectRatio: '16:9' };
   }
 }
 
@@ -726,7 +776,7 @@ export async function runCrawlAndReport() {
             originalUrl: item.url,
             embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(item.url)}&show_text=0&autoplay=0`,
             platform: 'facebook',
-            aspectRatio: '16:9',
+            aspectRatio: meta.aspectRatio || '16:9',
             duration: finalDuration,
             thumbnail: dynThumb,
             viewsCount: Math.floor(Math.random() * 50000) + 20000,

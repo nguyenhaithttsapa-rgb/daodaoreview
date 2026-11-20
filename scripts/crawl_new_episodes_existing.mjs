@@ -76,6 +76,9 @@ function sanitizeText(str) {
 
 function isMusicOrTrash(text) {
   if (!text) return false;
+  if (/[a-zA-ZÀ-ỹ]-[a-zA-ZÀ-ỹ]-[a-zA-ZÀ-ỹ]/u.test(text) || /[a-zA-ZÀ-ỹ]=[a-zA-ZÀ-ỹ]/u.test(text)) {
+    return true; // Tiêu đề reup lách bản quyền cắt chữ (vd: đ-ộ-c á-c, Ph-ư-ợ-ng) luôn đi kèm video bị zoom/che mờ
+  }
   const lower = text.toLowerCase();
   const trashKeywords = [
     'nhạc hoa', 'vietsub karaoke', 'karaoke', 'official mv', 'mv vietsub',
@@ -86,7 +89,9 @@ function isMusicOrTrash(text) {
     'bán đất', 'căn hộ', 'chung cư', 'dự án biển', 'hội thảo',
     'vietnam vs', 'thái lan vs', 'trực tiếp bóng đá', 'highlights bóng đá',
     'lễ đăng điện', 'cầu siêu cố đạo hữu', 'hưởng hạ thọ', 'tang lễ',
-    'thiết kế kiến trúc', 'thi công xây dựng trọn gói', 'chìa khóa trao tay'
+    'thiết kế kiến trúc', 'thi công xây dựng trọn gói', 'chìa khóa trao tay',
+    'đi mua trang sức', 'mẫu toà nhà building', 'tiến độ thi công trụ sở',
+    'dollar tree', '[minigame] đoán nhà vô địch'
   ];
   return trashKeywords.some(kw => lower.includes(kw));
 }
@@ -189,19 +194,24 @@ function validateImageQuality(buffer) {
     return { ok: false, reason: 'Không đọc được kích thước ảnh' };
   }
   const { width, height } = info;
-  const isLandscapeValid = width >= 400 && height >= 250;
-  const isPortraitValid = width >= 250 && height >= 400;
+  const isLandscapeValid = width >= 640 && height >= 360;
+  const isPortraitValid = width >= 720 && height >= 1280; // Chặn 608x1080, 406x720, 675x1200, 716x1276 bị cắt dọc Center-Crop từ phim ngang
   if (!isLandscapeValid && !isPortraitValid) {
-    return { ok: false, reason: `Độ phân giải quá thấp (${width}x${height}px)` };
+    return { ok: false, reason: `Độ phân giải bị cắt xén / Center-Crop (${width}x${height}px)` };
   }
-  if (width * height < 120000) {
-    return { ok: false, reason: `Tổng số điểm ảnh quá nhỏ (${width * height} px < 120.000 px)` };
+  if (width * height < 230000) {
+    return { ok: false, reason: `Tổng số điểm ảnh quá nhỏ (${width * height} px < 230.000 px)` };
   }
   const ratio = width / height;
-  if (ratio < 0.50 || ratio > 2.10) {
+  if (ratio < 0.52 || ratio > 2.40) {
     return { ok: false, reason: `Tỷ lệ khung hình méo mó (Ratio: ${ratio.toFixed(2)})` };
   }
-  return { ok: true, width, height, ratio, sizeKb: (buffer.length / 1024).toFixed(1) };
+  // CHẶN TRIỆT ĐỂ VIDEO BỊ ZOOM GẦN / CẮT KHUNG LÁCH BẢN QUYỀN (3:4 = 0.75, 4:5 = 0.80, 1:1 = 1.00, 4:3 = 1.33)
+  if (ratio >= 0.62 && ratio < 1.48) {
+    return { ok: false, reason: `Video bị Zoom gần / Cắt khung lách bản quyền (${width}x${height}, Ratio: ${ratio.toFixed(2)})` };
+  }
+  const aspectRatio = ratio < 0.62 ? '9:16' : '16:9';
+  return { ok: true, width, height, ratio, aspectRatio, sizeKb: (buffer.length / 1024).toFixed(1) };
 }
 
 function fetchHtml(url, ua = 'facebookexternalhit/1.1') {
@@ -247,11 +257,27 @@ async function checkEmbedAndDuration(videoUrl) {
   }
 
   let durationSec = 0;
-  const dashMatch = html.match(/mediaPresentationDuration="PT([0-9.]+)S"/i);
+  const dashMatch = html.match(/mediaPresentationDuration="PT([0-9.]+)S"/i) || html.match(/mediaPresentationDuration=\\"PT([0-9.]+)S\\"/i);
   if (dashMatch) {
     durationSec = Math.round(parseFloat(dashMatch[1]));
   }
-  return { ok: true, durationSec, htmlLength: html.length };
+
+  // Kiểm tra tỷ lệ khung hình thật của luồng video từ DASH Manifest (<Representation width="..." height="...">)
+  const repMatch = html.match(/width=\\?"(\d+)\\?"[^>]*height=\\?"(\d+)\\?"/i);
+  let streamAspectRatio = null;
+  if (repMatch) {
+    const sw = parseInt(repMatch[1], 10);
+    const sh = parseInt(repMatch[2], 10);
+    if (sw > 0 && sh > 0) {
+      const sr = sw / sh;
+      if (sr >= 0.62 && sr < 1.48) {
+        return { ok: false, reason: `Luồng video DASH bị Zoom gần / Cắt khung lách bản quyền (${sw}x${sh}, R=${sr.toFixed(2)})` };
+      }
+      streamAspectRatio = sr < 0.62 ? '9:16' : '16:9';
+    }
+  }
+
+  return { ok: true, durationSec, streamAspectRatio, htmlLength: html.length };
 }
 
 const INVALID_BASE_NAMES = new Set([
@@ -768,7 +794,7 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
         originalUrl: videoInfo.url,
         embedUrl: `https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(videoInfo.url)}&show_text=0&autoplay=0`,
         platform: 'facebook',
-        aspectRatio: '16:9',
+        aspectRatio: embedCheck.streamAspectRatio || qualityCheck.aspectRatio || '16:9',
         duration: formatDuration(finalSec),
         thumbnail: `/api/thumbnail/${vid}`,
         viewsCount: epViews,
