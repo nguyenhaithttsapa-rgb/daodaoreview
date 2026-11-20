@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useUserLibrary } from '@/hooks/useUserLibrary';
 import { Heart, ArrowLeft } from 'lucide-react';
-import { getFallbackPoster } from '@/lib/thumbnailHelper';
+import { getSafeThumbnail, getFallbackPoster } from '@/lib/thumbnailHelper';
 
 
 export default function FavoritesPage() {
@@ -40,7 +40,7 @@ export default function FavoritesPage() {
             >
               <div className="aspect-[3/4] relative">
                 <img
-                  src={item.thumbnail}
+                  src={getSafeThumbnail(item.thumbnail, item.seriesId || item.title)}
                   alt={item.title}
                   onError={(e) => {
                     const target = e.currentTarget;

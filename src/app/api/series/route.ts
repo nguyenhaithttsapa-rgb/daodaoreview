@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { getAllSeries, addSeries, updateSeries } from '@/lib/store';
 import { slugify } from '@/lib/parser';
 import { Series } from '@/types/video';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 
 export async function GET() {
   const series = getAllSeries();
@@ -25,7 +26,7 @@ export async function POST(req: Request) {
       slug: slugify(title) + '-' + Math.floor(Math.random() * 1000),
       title,
       description: description || '',
-      thumbnail: thumbnail || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80',
+      thumbnail: getSafeThumbnail(thumbnail, title),
       channelName: channelName || 'Admin Review',
       categories: categories && categories.length ? categories : ['Tu Tiên'],
       totalEpisodes: 0,

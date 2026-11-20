@@ -8,8 +8,37 @@ const rootDir = path.resolve(__dirname, '..');
 
 let isDeploying = false;
 
-function run(cmd) {
-  return execSync(cmd, { cwd: rootDir, encoding: 'utf-8', timeout: 300000 });
+const CODE_CHANGE_PREFIXES = [
+  'src/app/',
+  'src/components/',
+  'src/lib/',
+  'src/hooks/',
+  'src/types/',
+  'src/middleware.ts',
+  'next.config.ts',
+  'package.json',
+  'tsconfig.json',
+];
+
+function run(cmd, extraEnv = {}) {
+  return execSync(cmd, {
+    cwd: rootDir,
+    encoding: 'utf-8',
+    timeout: 300000,
+    env: { ...process.env, ...extraEnv },
+  });
+}
+
+function getChangedFiles(fromCommit, toCommit) {
+  try {
+    const out = run(`git diff --name-only ${fromCommit} ${toCommit}`);
+    return out
+      .split(/\r?\n/)
+      .map((line) => line.trim())
+      .filter(Boolean);
+  } catch {
+    return [];
+  }
 }
 
 async function checkForUpdates() {
@@ -23,29 +52,47 @@ async function checkForUpdates() {
     const remoteCommit = run('git rev-parse origin/main').trim();
 
     if (localCommit !== remoteCommit) {
+      isDeploying = true;
+      const changedFiles = getChangedFiles(localCommit, remoteCommit);
+
       console.log(`\n========================================================`);
       console.log(`⚡ [AUTO DEPLOY] Phát hiện bản cập nhật mới trên GitHub!`);
       console.log(`- Bản hiện tại (Local):  ${localCommit.slice(0, 7)}`);
       console.log(`- Bản mới nhất (Remote): ${remoteCommit.slice(0, 7)}`);
-      console.log(`🚀 Bắt đầu quá trình tự động cập nhật...`);
+      console.log(`- Số file thay đổi:      ${changedFiles.length}`);
 
-      isDeploying = true;
-
-      // 2. Kéo mã nguồn mới nhất
-      console.log(`📥 1/3. Đồng bộ mã nguồn (git reset & pull)...`);
+      // 2. Kéo mã nguồn & dữ liệu mới nhất
+      console.log(`📥 1/3. Đồng bộ mã nguồn (git reset --hard origin/main)...`);
       run('git reset --hard origin/main');
 
-      // 3. Đóng gói ứng dụng Next.js
-      console.log(`🔨 2/3. Đóng gói dự án (npm run build)...`);
-      run('npm run build');
+      const needsRebuild =
+        changedFiles.length === 0 ||
+        changedFiles.some((f) => CODE_CHANGE_PREFIXES.some((prefix) => f === prefix || f.startsWith(prefix)));
 
-      // 4. Khởi động lại ứng dụng web trên PM2
-      console.log(`🔄 3/3. Khởi động lại dịch vụ web PM2...`);
-      // Thử reload/restart app web (trừ updater để không gián đoạn)
-      try {
-        run('pm2 reload daodaoreview-web || pm2 restart daodaoreview-web || pm2 reload all');
-      } catch (pm2Err) {
-        console.warn('Lưu ý PM2:', pm2Err.message);
+      if (needsRebuild) {
+        console.log(`🔨 2/3. Phát hiện thay đổi mã nguồn Next.js -> Đóng gói (npm run build)...`);
+        run('npm run build', { NODE_OPTIONS: '--max-old-space-size=1536' });
+
+        console.log(`🔄 3/3. Khởi động lại dịch vụ web PM2 (daodaoreview-web)...`);
+        try {
+          run('pm2 restart daodaoreview-web || pm2 reload daodaoreview-web || pm2 reload all');
+        } catch (pm2Err) {
+          console.warn('Lưu ý PM2 web:', pm2Err.message);
+        }
+      } else {
+        console.log(`⚡ 2/3. Chỉ thay đổi dữ liệu/ảnh (database.json / thumbnails) -> Bỏ qua npm run build để tiết kiệm RAM VPS!`);
+      }
+
+      const needsCrawlerRestart = changedFiles.some(
+        (f) => f.startsWith('scripts/') || f === 'ecosystem.config.cjs'
+      );
+      if (needsCrawlerRestart) {
+        console.log(`🤖 Khởi động lại daodaoreview-crawler theo script mới...`);
+        try {
+          run('pm2 restart daodaoreview-crawler || true');
+        } catch (pm2Err) {
+          console.warn('Lưu ý PM2 crawler:', pm2Err.message);
+        }
       }
 
       console.log(`🎉 [AUTO DEPLOY THÀNH CÔNG] Đã cập nhật lên commit: ${remoteCommit.slice(0, 7)}!`);
@@ -58,13 +105,9 @@ async function checkForUpdates() {
   }
 }
 
-// Khởi chạy vòng lặp kiểm tra mỗi 60 giây
 console.log(`🤖 [AUTO DEPLOY WATCHER] Đã khởi động dịch vụ tự động triển khai.`);
 console.log(`- Tần suất kiểm tra: Mỗi 60 giây / lần`);
 console.log(`- Nhánh theo dõi: origin/main`);
 
-// Chạy kiểm tra ngay khi khởi động
 checkForUpdates();
-
-// Kiểm tra định kỳ
 setInterval(checkForUpdates, 60 * 1000);

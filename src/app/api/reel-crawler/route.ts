@@ -5,6 +5,7 @@ import path from 'path';
 
 import { isReelEmbeddable } from '@/lib/videoChecker';
 import { cleanCaption } from '@/lib/captionCleaner';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 
 const DB_PATH = path.join(process.cwd(), 'src/data/database.json');
 
@@ -346,7 +347,7 @@ export async function POST(req: Request) {
         .replace(/[^a-z0-9]+/g, '-')
         .replace(/^-+|-+$/g, '') + '-' + cleanId.slice(-4);
 
-      const posterImg = r.poster || uploadedImage || 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80';
+      const posterImg = uploadedImage || getSafeThumbnail(r.poster || r.url, cleanId);
 
       addedItems.push({
         id: cleanId,

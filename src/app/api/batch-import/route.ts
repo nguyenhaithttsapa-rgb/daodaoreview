@@ -4,6 +4,7 @@ import { parseBatchReels } from '@/lib/smartParser';
 import { parseVideoUrl, slugify } from '@/lib/parser';
 import { Series, Episode } from '@/types/video';
 import { isReelEmbeddable } from '@/lib/videoChecker';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 
 export async function POST(req: Request) {
   try {
@@ -54,7 +55,7 @@ export async function POST(req: Request) {
           slug: slugify(item.seriesTitle) + '-' + Math.floor(Math.random() * 1000),
           title: item.seriesTitle,
           description: `Tổng hợp trọn bộ các tập ${item.seriesTitle} review hoạt hình 3D tu tiên mới nhất.`,
-          thumbnail: 'https://images.unsplash.com/photo-1578632767115-351597cf2477?w=800&auto=format&fit=crop&q=80',
+          thumbnail: getSafeThumbnail(item.originalUrl, item.seriesTitle),
           channelName: channelName || 'Đại Đạo Review',
           categories: ['Tu Tiên', 'Huyền Huyễn', 'Reels'],
           totalEpisodes: 0,

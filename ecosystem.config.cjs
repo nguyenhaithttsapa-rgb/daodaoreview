@@ -17,6 +17,14 @@ module.exports = {
       env: {
         NODE_ENV: 'production'
       }
+    },
+    {
+      name: 'daodaoreview-updater',
+      script: './scripts/vps_auto_updater.mjs',
+      autorestart: true,
+      env: {
+        NODE_ENV: 'production'
+      }
     }
   ]
 };

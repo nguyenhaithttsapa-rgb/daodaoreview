@@ -1,20 +1,45 @@
 import { Series, Episode } from '@/types/video';
 import { INITIAL_SERIES } from '@/data/seed';
+import { getSafeThumbnail } from '@/lib/thumbnailHelper';
 import fs from 'fs';
 import path from 'path';
 
 const DATA_FILE = path.join(process.cwd(), 'src', 'data', 'database.json');
 
+/** Chuẩn hóa toàn bộ đường dẫn thumbnail sang /api/thumbnail/{id} ngay tại tầng đọc CSDL. */
+function normalizeSeriesList(list: Series[]): Series[] {
+  return list.map((s) => {
+    const seed = s.id || s.title || '';
+    const safeThumb = getSafeThumbnail(s.thumbnail || (s as any).coverImage, seed);
+    const normalizedEpisodes = Array.isArray(s.episodes)
+      ? s.episodes.map((ep) => ({
+          ...ep,
+          thumbnail: getSafeThumbnail(ep.thumbnail || safeThumb, ep.id || ep.originalUrl || seed),
+        }))
+      : [];
+
+    return {
+      ...s,
+      thumbnail: safeThumb,
+      ...((s as any).coverImage !== undefined ? { coverImage: safeThumb } : {}),
+      episodes: normalizedEpisodes,
+    };
+  });
+}
+
 function readData(): Series[] {
   try {
     if (fs.existsSync(DATA_FILE)) {
       const content = fs.readFileSync(DATA_FILE, 'utf-8');
-      return JSON.parse(content);
+      const parsed = JSON.parse(content);
+      if (Array.isArray(parsed)) {
+        return normalizeSeriesList(parsed);
+      }
     }
   } catch (error) {
     console.error('Error reading data file:', error);
   }
-  return INITIAL_SERIES;
+  return normalizeSeriesList(INITIAL_SERIES);
 }
 
 function writeData(data: Series[]) {

@@ -54,9 +54,10 @@ export async function generateMetadata({ params, searchParams }: WatchPageProps)
     : `${rawDesc || series.title} - Xem trọn bộ thuyết minh chất lượng cao (${currentEpisode?.duration || 'Full'}) kênh ${series.channelName} hoàn toàn không quảng cáo tại Dao Dao Review.`;
   const pageDesc = enrichedDesc.slice(0, 158);
   const canonicalUrl = `https://daodaoreview.com/watch/${series.slug}`;
-  const thumbUrl = series.thumbnail?.startsWith('http')
-    ? series.thumbnail
-    : `https://daodaoreview.com${series.thumbnail || '/og-image.jpg'}`;
+  const safeThumb = getSafeThumbnail(series.thumbnail, series.id || series.title);
+  const thumbUrl = safeThumb.startsWith('http')
+    ? safeThumb
+    : `https://daodaoreview.com${safeThumb}`;
 
   return {
     title: pageTitle,
@@ -124,9 +125,10 @@ export default async function WatchPage({ params, searchParams }: WatchPageProps
     .filter((s) => s.slug !== series.slug)
     .slice(0, 12);
 
-  const thumbFullUrl = series.thumbnail?.startsWith('http')
-    ? series.thumbnail
-    : `https://daodaoreview.com${series.thumbnail || '/og-image.jpg'}`;
+  const safeThumb = getSafeThumbnail(series.thumbnail, series.id || series.title);
+  const thumbFullUrl = safeThumb.startsWith('http')
+    ? safeThumb
+    : `https://daodaoreview.com${safeThumb}`;
 
   const videoJsonLd = {
     '@context': 'https://schema.org',
