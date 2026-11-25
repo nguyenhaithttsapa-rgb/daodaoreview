@@ -49,6 +49,13 @@ function decodeHtmlEntities(str) {
 function cleanAffiliateSpam(str) {
   if (!str) return '';
   return str
+    .replace(/--+.*$/gi, '')
+    .replace(/Nội dung, kịch bản, tình tiết trong phim không có thật.*$/gi, '')
+    .replace(/\[TRỌN BỘ PHIM FULL HD THUYẾT MINH\]\s*Phim hay mỗi ngày cho mọi nhà\s*XEM TẠI:?[^:]*-\s*Tiêu đề:\s*/gi, '')
+    .replace(/Video được tạo bằng AI với mục đích giải trí.*$/gi, '')
+    .replace(/Nhân vật, hình ảnh và tình tiết đều hư cấu.*$/gi, '')
+    .replace(/Khăn giấy rút[^-|]*-\s*(Tiêu đề:)?/gi, '')
+    .replace(/Túi đựng rác[^-|]*/gi, '')
     .replace(/-{3,}\s*Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Trợ thủ đắc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
@@ -91,7 +98,11 @@ function isMusicOrTrash(text) {
     'lễ đăng điện', 'cầu siêu cố đạo hữu', 'hưởng hạ thọ', 'tang lễ',
     'thiết kế kiến trúc', 'thi công xây dựng trọn gói', 'chìa khóa trao tay',
     'đi mua trang sức', 'mẫu toà nhà building', 'tiến độ thi công trụ sở',
-    'dollar tree', '[minigame] đoán nhà vô địch'
+    'dollar tree', '[minigame] đoán nhà vô địch',
+    'thánh tăng', 'arahant', 'tam tạng', 'chú giải pāḷi', 'chú giải pali', 'aniccā', 'pháp hữu',
+    'bài giảng kinh', 'đức phật', 'nibbāna', 'hòa thượng', 'thuyết giảng', 'pháp duyên khởi',
+    'kinh mahāsatipaṭṭhāna', 'thiền sư', 'giáo pháp', 'phật giáo', 'tụng kinh', 'phóng sinh', 'cúng dường',
+    'chùa ba vàng', 'thuyết pháp', 'giảng pháp', 'kinh phật', 'đạo phật', 'niết bàn'
   ];
   return trashKeywords.some(kw => lower.includes(kw));
 }
