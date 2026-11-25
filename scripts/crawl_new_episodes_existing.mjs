@@ -46,18 +46,41 @@ function decodeHtmlEntities(str) {
     .replace(/&apos;/g, "'");
 }
 
+function safeWriteJson(filePath, data, maxRetries = 5, retryDelay = 300) {
+  const content = JSON.stringify(data, null, 2);
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return true;
+    } catch (err) {
+      if (attempt === maxRetries) {
+        log(`⚠️ [SAFE_WRITE_JSON LỖI]: ${filePath} - ${err.message}`);
+        return false;
+      }
+      const waitMs = retryDelay * attempt;
+      const start = Date.now();
+      while (Date.now() - start < waitMs) {}
+    }
+  }
+  return false;
+}
+
 function cleanAffiliateSpam(str) {
   if (!str) return '';
   return str
-    .replace(/--+.*$/gi, '')
-    .replace(/Nội dung, kịch bản, tình tiết trong phim không có thật.*$/gi, '')
+    .replace(/\r?\n/g, ' ')
+    .replace(/--+[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Đây có thể không phải sản phẩm bạn cần[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Tình tiết và nội dung phim là hư cấu[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nội dung, kịch bản, tình tiết trong phim không có thật[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Video được tạo bằng AI với mục đích giải trí[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nhân vật, hình ảnh và tình tiết đều hư cấu[\s\S]*?(?=\||\(Full|$)/gi, ' ')
     .replace(/\[TRỌN BỘ PHIM FULL HD THUYẾT MINH\]\s*Phim hay mỗi ngày cho mọi nhà\s*XEM TẠI:?[^:]*-\s*Tiêu đề:\s*/gi, '')
-    .replace(/Video được tạo bằng AI với mục đích giải trí.*$/gi, '')
-    .replace(/Nhân vật, hình ảnh và tình tiết đều hư cấu.*$/gi, '')
     .replace(/Khăn giấy rút[^-|]*-\s*(Tiêu đề:)?/gi, '')
     .replace(/Túi đựng rác[^-|]*/gi, '')
-    .replace(/-{3,}\s*Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
-    .replace(/Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Đến mùa muỗi rồi[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nhà hết giấy ăn[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/-\s*Phù hợp\s*\d+\+?/gi, '')
     .replace(/Trợ thủ đắc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Trợ thủ đặc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Cây chà sàn 3 trong 1.*?(?=\||\(Full|$)/gi, ' ')
@@ -480,8 +503,12 @@ function loadUpdateCursor(totalTargets) {
 }
 
 function saveUpdateCursor(cursor) {
-  cursor.lastUpdated = new Date().toISOString();
-  fs.writeFileSync(UPDATE_CURSOR_PATH, JSON.stringify(cursor, null, 2), 'utf8');
+  try {
+    cursor.lastUpdated = new Date().toISOString();
+    safeWriteJson(UPDATE_CURSOR_PATH, cursor);
+  } catch (err) {
+    log(`⚠️ Lưu ý lưu cursor: ${err.message}`);
+  }
 }
 
 function getHistoryIds(channelKey, history) {
@@ -884,10 +911,11 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
 
   if (newIngested.length > 0) {
     const updatedDb = [...newIngested, ...currentDb];
-    fs.writeFileSync(DB_PATH, JSON.stringify(updatedDb, null, 2), 'utf8');
+    safeWriteJson(DB_PATH, updatedDb);
     log(`💾 Đã nạp ${newIngested.length} tập phim dài mới (cập nhật ${updatedExistingSeries} bộ phim sẵn có) từ "${target.name}"! Tổng CSDL: ${updatedDb.length}`);
 
     try {
+      await new Promise(r => setTimeout(r, 1000));
       execSync('node scripts/link_existing_episodes.mjs', { encoding: 'utf-8', timeout: 30000 });
       execSync('git add src/data/database.json public/thumbnails/', { encoding: 'utf-8', timeout: 30000 });
       execSync(`git commit -m "feat(episodes): crawl new episodes for existing channel ${target.name} (+${newIngested.length} eps)"`, { encoding: 'utf-8', timeout: 30000 });
@@ -903,7 +931,7 @@ async function processExistingTarget(browser, target, targetIndex, totalTargets)
 
   saveHistoryIds(target.name, history, channelHistorySet);
   try {
-    fs.writeFileSync(HISTORY_PATH, JSON.stringify(history, null, 2), 'utf8');
+    safeWriteJson(HISTORY_PATH, history);
   } catch (histErr) {
     log(`⚠️ Lưu ý ghi lịch sử: ${histErr.message}`);
   }

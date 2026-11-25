@@ -10,11 +10,41 @@ const INVALID_BASE_NAMES = new Set([
   'phim hay tron bo', 'thuyet minh', 'vietsub'
 ]);
 
+function safeWriteJson(filePath, data, maxRetries = 5, retryDelay = 300) {
+  const content = JSON.stringify(data, null, 2);
+  for (let attempt = 1; attempt <= maxRetries; attempt++) {
+    try {
+      fs.writeFileSync(filePath, content, 'utf8');
+      return true;
+    } catch (err) {
+      if (attempt === maxRetries) {
+        console.error(`⚠️ safeWriteJson error on ${filePath}: ${err.message}`);
+        return false;
+      }
+      const waitMs = retryDelay * attempt;
+      const start = Date.now();
+      while (Date.now() - start < waitMs) {}
+    }
+  }
+  return false;
+}
+
 function cleanAffiliateSpam(str) {
   if (!str) return '';
   return str
-    .replace(/-{3,}\s*Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
-    .replace(/Đây có thể không phải sản phẩm bạn cần.*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/\r?\n/g, ' ')
+    .replace(/--+[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Đây có thể không phải sản phẩm bạn cần[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Tình tiết và nội dung phim là hư cấu[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nội dung, kịch bản, tình tiết trong phim không có thật[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Video được tạo bằng AI với mục đích giải trí[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nhân vật, hình ảnh và tình tiết đều hư cấu[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/\[TRỌN BỘ PHIM FULL HD THUYẾT MINH\]\s*Phim hay mỗi ngày cho mọi nhà\s*XEM TẠI:?[^:]*-\s*Tiêu đề:\s*/gi, '')
+    .replace(/Khăn giấy rút[^-|]*-\s*(Tiêu đề:)?/gi, '')
+    .replace(/Túi đựng rác[^-|]*/gi, '')
+    .replace(/Đến mùa muỗi rồi[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/Nhà hết giấy ăn[\s\S]*?(?=\||\(Full|$)/gi, ' ')
+    .replace(/-\s*Phù hợp\s*\d+\+?/gi, '')
     .replace(/Trợ thủ đắc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Trợ thủ đặc lực làm việc nhà.*?(?=\||\(Full|$)/gi, ' ')
     .replace(/Cây chà sàn 3 trong 1.*?(?=\||\(Full|$)/gi, ' ')
@@ -167,7 +197,7 @@ function main() {
     }
   }
 
-  fs.writeFileSync(DB_PATH, JSON.stringify(cleanedDb, null, 2), 'utf8');
+  safeWriteJson(DB_PATH, cleanedDb);
   console.log(`✅ Đã chuẩn hóa và liên kết chính xác ${linkedSeriesCount} bộ phim nhiều tập! Tổng số phim trong CSDL: ${cleanedDb.length}`);
 }
 
