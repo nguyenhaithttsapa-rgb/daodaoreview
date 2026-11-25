@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-11119169_85060696",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-0696",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Lão Tổ, Hệ Thống Thần Cấp Giúp Ta Tăng Tu Vi Điên Cuồng Trấn Áp Vạn Tông | Võ Bích Quỳnh (Full Trọn Bộ 2:03:11)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Lão Tổ, Hệ Thống Thần Cấp...",
+    "thumbnail": "/api/thumbnail/1111916985060696",
+    "coverImage": "/api/thumbnail/1111916985060696",
+    "channelName": "Tiểu Tổ Tông Hệ Thống Hóng Chuyện Thuyết Minh #138.2",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-11119169_85060696",
+        "seriesId": "series-long-11119169_85060696",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Lão Tổ, Hệ Thống Thần Cấp Giúp Ta Tăng Tu Vi Điên Cuồng Trấn Áp Vạn Tông | Võ Bích Quỳnh (Full Trọn Bộ 2:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1111916985060696",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1111916985060696&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:03:11",
+        "thumbnail": "/api/thumbnail/1111916985060696",
+        "viewsCount": 33882,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-20338617_90930769",
     "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-0769",
     "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Làm Huyện Lệnh, Ta Kích Hoạt Hệ Thống Thanh Quan Đổi Đời Cứu Dân | Võ Tuyết Nga (Full Trọn Bộ 1:55:05)",
