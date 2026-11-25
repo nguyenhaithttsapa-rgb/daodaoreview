@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-29289320_36405486_7",
+    "slug": "tron-bo-ban-yeu-truyen-tap-1-47-sieu-pham-hoat-hinh-3d-huyen-huyen-hay-4867",
+    "title": "[TRỌN BỘ] BÁN YÊU TRUYỆN (Tập 1 - 47) - Siêu Phẩm Hoạt Hình 3D Huyền Huyễn Hay Nhất 2026 | Hẻm Phim Donghua (Full Trọn Bộ 1:50:04)",
+    "description": "[TRỌN BỘ] BÁN YÊU TRUYỆN (Tập 1 - 47) - Siêu Phẩm Hoạt Hình 3D Huyền Huyễn Hay Nhất 2026",
+    "thumbnail": "/api/thumbnail/29289320364054867",
+    "coverImage": "/api/thumbnail/29289320364054867",
+    "channelName": "Donghua 3D Phàm Nhân Full Mùa #172.4",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-29289320_36405486_7",
+        "seriesId": "series-long-29289320_36405486_7",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ] BÁN YÊU TRUYỆN (Tập 1 - 47) - Siêu Phẩm Hoạt Hình 3D Huyền Huyễn Hay Nhất 2026 | Hẻm Phim Donghua (Full Trọn Bộ 1:50:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=29289320364054867",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29289320364054867&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:50:04",
+        "thumbnail": "/api/thumbnail/29289320364054867",
+        "viewsCount": 41856,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-10734490_02411164",
     "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-1164",
     "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Vừa Sinh Ra Đã Có Thần Thể Vô Địch, Thiếu Niên Kích Hoạt Hệ Thống Điểm Danh Thống Lĩnh 80 Tòa Thành | Madison Marie Aguilar (Full Trọn Bộ 2:43:46)",
