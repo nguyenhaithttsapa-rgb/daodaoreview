@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-34287720_13996007",
+    "slug": "tap-cuoi-phim-hay-tron-bo-noi-lai-to-duyen-phim-thuyet-minh-moi-nhat-p-6007",
+    "title": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 31:35)",
+    "description": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/3428772013996007",
+    "coverImage": "/api/thumbnail/3428772013996007",
+    "channelName": "Tổng Tài Thừa Kế Cực Phẩm #182.4",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-34287720_13996007",
+        "seriesId": "series-long-34287720_13996007",
+        "partNumber": 1,
+        "title": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 31:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3428772013996007",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3428772013996007&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "31:35",
+        "thumbnail": "/api/thumbnail/3428772013996007",
+        "viewsCount": 34434,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-11780995_04791740",
     "slug": "dau-pha-thuong-khung-phan-1-tap-1-12-end-thuyet-minh-full-4k-mot-goc-c-1740",
     "title": "Đấu phá thương khung phần 1 [ tập 1-12 End] thuyết minh full 4K | Một Góc Cuộc Sống (Full Trọn Bộ 3:00:06)",
