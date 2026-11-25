@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-25364036_65988123_6",
+    "slug": "review-phim-tron-bo-full-phim-tong-tai-d-a-t-co-g-a-i-di-thay-d-o-i-ba-1236",
+    "title": "Review phim trọn bộ (full phim) Tổng tài d ắ t cô g á i đi thay đ ổ i bản thân nhưng ai cũng b ó t a y, cuối cùng chỉ có cô mới tự gi ả i quy ế t được vấ n đ ề của mình | Nhật Ký Review Phim (Full Trọn Bộ 1:51:45)",
+    "description": "Review phim trọn bộ (full phim) Tổng tài d ắ t cô g á i đi thay đ ổ i bản thân nhưng ai cũng b ó t a y, cuối cùng chỉ có cô mới tự gi ả i quy ế t được vấ n đ ề của mình",
+    "thumbnail": "/api/thumbnail/25364036659881236",
+    "coverImage": "/api/thumbnail/25364036659881236",
+    "channelName": "Review Phim Tổng Tài",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-25364036_65988123_6",
+        "seriesId": "series-long-25364036_65988123_6",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) Tổng tài d ắ t cô g á i đi thay đ ổ i bản thân nhưng ai cũng b ó t a y, cuối cùng chỉ có cô mới tự gi ả i quy ế t được vấ n đ ề của mình | Nhật Ký Review Phim (Full Trọn Bộ 1:51:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=25364036659881236",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D25364036659881236&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:51:45",
+        "thumbnail": "/api/thumbnail/25364036659881236",
+        "viewsCount": 50618,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-15983237_32001400",
     "slug": "full-tron-bo-sau-ly-hon-moi-nguoi-moi-nhan-ra-nguoi-dan-ong-bi-ruong-b-1400",
     "title": "Full trọn bộ:Sau ly hôn mọi người mới nhận ra người đàn ông bị ruồng bỏ thực chất là 1 ông trùm giàu có bậc nhất | Review full trọn bộ (Full Trọn Bộ 35:15)",
