@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-15983237_32001400",
+    "slug": "full-tron-bo-sau-ly-hon-moi-nguoi-moi-nhan-ra-nguoi-dan-ong-bi-ruong-b-1400",
+    "title": "Full trọn bộ:Sau ly hôn mọi người mới nhận ra người đàn ông bị ruồng bỏ thực chất là 1 ông trùm giàu có bậc nhất | Review full trọn bộ (Full Trọn Bộ 35:15)",
+    "description": "Full trọn bộ:Sau ly hôn mọi người mới nhận ra người đàn ông bị ruồng bỏ thực chất là 1 ông trùm giàu có bậc nhất",
+    "thumbnail": "/api/thumbnail/1598323732001400",
+    "coverImage": "/api/thumbnail/1598323732001400",
+    "channelName": "Kiệt Review",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-15983237_32001400",
+        "seriesId": "series-long-15983237_32001400",
+        "partNumber": 1,
+        "title": "Full trọn bộ:Sau ly hôn mọi người mới nhận ra người đàn ông bị ruồng bỏ thực chất là 1 ông trùm giàu có bậc nhất | Review full trọn bộ (Full Trọn Bộ 35:15)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1598323732001400",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1598323732001400&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "35:15",
+        "thumbnail": "/api/thumbnail/1598323732001400",
+        "viewsCount": 56225,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-11682729_78977129",
     "slug": "tap-3-phim-hay-tron-bo-cuu-long-doat-dich-phim-thuyet-minh-moi-nhat-ph-7129",
     "title": "Tập 3: Cửu Long Đoạt Đích - Xuyên Không Thành Cửu Hoàng Tử Thất Thế | Cà Phê Đắng (Full Trọn Bộ 30:00)",
