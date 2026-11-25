@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-16735968_87808571",
+    "slug": "full-phim-hay-tron-bo-gio-xuan-tro-lai-phim-thuyet-minh-moi-nhat-phim--8571",
+    "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Mê phim trung (Full Trọn Bộ 1:15:21)",
+    "description": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1673596887808571",
+    "coverImage": "/api/thumbnail/1673596887808571",
+    "channelName": "Trùm Đoản Kịch Cực Phẩm Thuyết Minh #155.3",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-16735968_87808571",
+        "seriesId": "series-long-16735968_87808571",
+        "partNumber": 1,
+        "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Mê phim trung (Full Trọn Bộ 1:15:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1673596887808571",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1673596887808571&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:15:21",
+        "thumbnail": "/api/thumbnail/1673596887808571",
+        "viewsCount": 48271,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
+    "id": "series-long-11091920_28380042",
+    "slug": "tap-3-phim-hay-tron-bo-chan-long-thuc-tinh-s1-phim-thuyet-minh-moi-nha-0042",
+    "title": "Tập 3: Phim hay trọn bộ Chân long thức tỉnh S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Hoàng Tử Phế Vật, Kích Hoạt Hệ Thống Tăng Sức Mạnh Kinh Hoàng Từng Bước Doạt Giang Sơn | Phim hay này (Full Trọn Bộ 30:01)",
+    "description": "Tập 3: Phim hay trọn bộ Chân long thức tỉnh S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Hoàng Tử Phế Vật, Kích Hoạt Hệ Thống Tăng Sức Mạnh Kinh Hoàng Từng Bước Doạt Giang Sơn Tình tiết...",
+    "thumbnail": "/api/thumbnail/1109192028380042",
+    "coverImage": "/api/thumbnail/1109192028380042",
+    "channelName": "Trùm Đoản Kịch Cực Phẩm Thuyết Minh #155.3",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-11091920_28380042",
+        "seriesId": "series-long-11091920_28380042",
+        "partNumber": 1,
+        "title": "Tập 3: Phim hay trọn bộ Chân long thức tỉnh S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Hoàng Tử Phế Vật, Kích Hoạt Hệ Thống Tăng Sức Mạnh Kinh Hoàng Từng Bước Doạt Giang Sơn | Phim hay này (Full Trọn Bộ 30:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1109192028380042",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109192028380042&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:01",
+        "thumbnail": "/api/thumbnail/1109192028380042",
+        "viewsCount": 24524,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-22817452_49338492",
     "slug": "tap-3-phim-hay-tron-bo-cuu-long-doat-dich-phim-thuyet-minh-moi-nhat-ph-8492",
     "title": "Tập 3: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực | Phim hay này (Full Trọn Bộ 30:00)",
