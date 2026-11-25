@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-31679881_70058158",
+    "slug": "tron-bo-u-a-u-o-i-a-a-goc-nho-cua-me-va-be-full-tron-bo-1-51-34-8158",
+    "title": "️ 《퐅퐔퐋퐋 TRỌN BỘ》 《퐍Ữ 퐍퐇Â퐍 퐂Ũ퐍퐆 퐂Ó 퐂퐇Í 퐋Ă퐍퐆 퐕Â퐍》 | Góc Nhỏ Của Mẹ Và Bé (Full Trọn Bộ 1:51:34)",
+    "description": "️ 《퐅퐔퐋퐋 TRỌN BỘ》 《퐍Ữ 퐍퐇Â퐍 퐂Ũ퐍퐆 퐂Ó 퐂퐇Í 퐋Ă퐍퐆 퐕Â퐍》",
+    "thumbnail": "/api/thumbnail/3167988170058158",
+    "coverImage": "/api/thumbnail/3167988170058158",
+    "channelName": "Ngoạ Tùng Am",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-31679881_70058158",
+        "seriesId": "series-long-31679881_70058158",
+        "partNumber": 1,
+        "title": "️ 《퐅퐔퐋퐋 TRỌN BỘ》 《퐍Ữ 퐍퐇Â퐍 퐂Ũ퐍퐆 퐂Ó 퐂퐇Í 퐋Ă퐍퐆 퐕Â퐍》 | Góc Nhỏ Của Mẹ Và Bé (Full Trọn Bộ 1:51:34)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3167988170058158",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3167988170058158&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:51:34",
+        "thumbnail": "/api/thumbnail/3167988170058158",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-33032521_43195165",
     "slug": "greater-works-crusade-day-2-morning-session-cop-mckeown-temple-asokwa--5165",
     "title": "GREATER WORKS CRUSADE DAY 2 MORNING SESSION | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 1:39:29)",
