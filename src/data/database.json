@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-13229219_66551287",
+    "slug": "tien-nghich-tap-46-50-thuyet-minh-ae-like-va-theo-doi-trang-de-thong-b-1287",
+    "title": "Tiên nghịch (tập 46-50) Thuyết minh AE like và theo dõi trang để thông báo tập phim mới nhất nhé | Phim 3D trọn bộ (Full Trọn Bộ 1:17:25)",
+    "description": "Tiên nghịch (tập 46-50) Thuyết minh AE like và theo dõi trang để thông báo tập phim mới nhất nhé",
+    "thumbnail": "/api/thumbnail/1322921966551287",
+    "coverImage": "/api/thumbnail/1322921966551287",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Thuyết Minh Hay #84.2",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-13229219_66551287",
+        "seriesId": "series-long-13229219_66551287",
+        "partNumber": 1,
+        "title": "Tiên nghịch (tập 46-50) Thuyết minh AE like và theo dõi trang để thông báo tập phim mới nhất nhé | Phim 3D trọn bộ (Full Trọn Bộ 1:17:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1322921966551287",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1322921966551287&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:17:25",
+        "thumbnail": "/api/thumbnail/1322921966551287",
+        "viewsCount": 18000,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-11023163_59510921",
     "slug": "full-phim-hay-tron-bo-gio-xuan-tro-lai-phim-thuyet-minh-moi-nhat-phim--0921",
     "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 1:15:21)",
