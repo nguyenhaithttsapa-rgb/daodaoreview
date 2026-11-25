@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-26261566_61072388",
+    "slug": "review-full-tron-bo-he-thong-nu-tien-si-xuyen-khong-co-dai-lam-quan-va-2388",
+    "title": "Review Full Trọn Bộ Hệ Thống： Nữ Tiến Sĩ Xuyên Không Cổ Đại Làm Quan Vả Mặt Thế Tử Trà Xanh Cực Đã | Bỉm Sữa Review (Full Trọn Bộ 1:59:35)",
+    "description": "Review Full Trọn Bộ Hệ Thống： Nữ Tiến Sĩ Xuyên Không Cổ Đại Làm Quan Vả Mặt Thế Tử Trà Xanh Cực Đã",
+    "thumbnail": "/api/thumbnail/2626156661072388",
+    "coverImage": "/api/thumbnail/2626156661072388",
+    "channelName": "Xuyên Không Hệ Thống Review #107",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-26261566_61072388",
+        "seriesId": "series-long-26261566_61072388",
+        "partNumber": 1,
+        "title": "Review Full Trọn Bộ Hệ Thống： Nữ Tiến Sĩ Xuyên Không Cổ Đại Làm Quan Vả Mặt Thế Tử Trà Xanh Cực Đã | Bỉm Sữa Review (Full Trọn Bộ 1:59:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2626156661072388",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2626156661072388&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:59:35",
+        "thumbnail": "/api/thumbnail/2626156661072388",
+        "viewsCount": 45826,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-13229219_66551287",
     "slug": "tien-nghich-tap-46-50-thuyet-minh-ae-like-va-theo-doi-trang-de-thong-b-1287",
     "title": "Tiên nghịch (tập 46-50) Thuyết minh AE like và theo dõi trang để thông báo tập phim mới nhất nhé | Phim 3D trọn bộ (Full Trọn Bộ 1:17:25)",
