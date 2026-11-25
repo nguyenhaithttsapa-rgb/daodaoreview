@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-10734490_02411164",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-1164",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Vừa Sinh Ra Đã Có Thần Thể Vô Địch, Thiếu Niên Kích Hoạt Hệ Thống Điểm Danh Thống Lĩnh 80 Tòa Thành | Madison Marie Aguilar (Full Trọn Bộ 2:43:46)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Vừa Sinh Ra Đã Có Thần Thể Vô Địch, Thiếu...",
+    "thumbnail": "/api/thumbnail/1073449002411164",
+    "coverImage": "/api/thumbnail/1073449002411164",
+    "channelName": "Chiến Thần Vô Địch Kịch Tính #175.3",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-25",
+    "episodes": [
+      {
+        "id": "ep-long-10734490_02411164",
+        "seriesId": "series-long-10734490_02411164",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Vừa Sinh Ra Đã Có Thần Thể Vô Địch, Thiếu Niên Kích Hoạt Hệ Thống Điểm Danh Thống Lĩnh 80 Tòa Thành | Madison Marie Aguilar (Full Trọn Bộ 2:43:46)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1073449002411164",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1073449002411164&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:43:46",
+        "thumbnail": "/api/thumbnail/1073449002411164",
+        "viewsCount": 25599,
+        "publishedAt": "2026-11-25"
+      }
+    ]
+  },
+  {
     "id": "series-long-11274475_00198009",
     "slug": "full-phim-hay-tron-bo-qui-phi-tham-tien-phim-thuyet-minh-moi-nhat-phim-8009",
     "title": "FULL: Phim hay trọn bộ Quí phi tham tiền, phim thuyết minh mới nhất, phim AI | Phim ngắn tổng tài (Full Trọn Bộ 51:15)",
