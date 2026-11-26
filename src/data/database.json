@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-13541967_02754494",
+    "slug": "1-3-trieu-luot-xem-19k-cam-xuc-review-phim-he-thong-lo-la-loi-tron-bo--4494",
+    "title": "1,3 triệu lượt xem · 19K cảm xúc | REVIEW PHIM : HỆ THỐNG LỖ LÀ LỜI.TRỌN BỘ Sau khi từ chức, chàng trai thiết lập hệ thống lấy lỗ làm lời, càng thua lỗ anh kiếm được càng nhiều và trở thành người giàu nhất | AĐG Review (Full Trọn Bộ 2:05:02)",
+    "description": "REVIEW PHIM : HỆ THỐNG LỖ LÀ LỜI.TRỌN BỘ Sau khi từ chức, chàng trai thiết lập hệ thống lấy lỗ làm lời, càng thua lỗ anh kiếm được càng nhiều và trở thành người giàu nhất",
+    "thumbnail": "/api/thumbnail/1354196702754494",
+    "coverImage": "/api/thumbnail/1354196702754494",
+    "channelName": "AĐG Review",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-13541967_02754494",
+        "seriesId": "series-long-13541967_02754494",
+        "partNumber": 1,
+        "title": "1,3 triệu lượt xem · 19K cảm xúc | REVIEW PHIM : HỆ THỐNG LỖ LÀ LỜI.TRỌN BỘ Sau khi từ chức, chàng trai thiết lập hệ thống lấy lỗ làm lời, càng thua lỗ anh kiếm được càng nhiều và trở thành người giàu nhất | AĐG Review (Full Trọn Bộ 2:05:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1354196702754494",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1354196702754494&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:05:02",
+        "thumbnail": "/api/thumbnail/1354196702754494",
+        "viewsCount": 457000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-25831872_65481143",
     "slug": "phan-18-chien-than-thuong-lo-tro-tan-cuu-chau-linh-dac-chung-xuyen-kho-1143",
     "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Nguyễn Tự (Full Trọn Bộ 2:17:04)",
