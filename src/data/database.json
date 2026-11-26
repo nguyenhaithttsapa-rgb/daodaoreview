@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-28709012_49712978",
+    "slug": "phim-top-viet-kenh-giai-tri-hang-dau-luon-cap-nhap-nhung-bo-phim-hay-n-2978",
+    "title": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng, những video hài kịch vui nhộn, những bộ phim đặc sắc, ý nghĩa. | PHIM TOP VIỆT (Full Trọn Bộ 39:36)",
+    "description": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng,...",
+    "thumbnail": "/api/thumbnail/2870901249712978",
+    "coverImage": "/api/thumbnail/2870901249712978",
+    "channelName": "Những bộ phim hài hước vui nhộn",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-28709012_49712978",
+        "seriesId": "series-long-28709012_49712978",
+        "partNumber": 1,
+        "title": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng, những video hài kịch vui nhộn, những bộ phim đặc sắc, ý nghĩa. | PHIM TOP VIỆT (Full Trọn Bộ 39:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2870901249712978",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2870901249712978&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "39:36",
+        "thumbnail": "/api/thumbnail/2870901249712978",
+        "viewsCount": 53378,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-23894895_01209452",
+    "slug": "phim-top-viet-kenh-giai-tri-hang-dau-luon-cap-nhap-nhung-bo-phim-hay-n-9452",
+    "title": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng, những video hài kịch vui nhộn, những bộ phim đặc sắc, ý nghĩa. | PHIM TOP VIỆT (Full Trọn Bộ 45:08)",
+    "description": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng,...",
+    "thumbnail": "/api/thumbnail/2389489501209452",
+    "coverImage": "/api/thumbnail/2389489501209452",
+    "channelName": "Những bộ phim hài hước vui nhộn",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-23894895_01209452",
+        "seriesId": "series-long-23894895_01209452",
+        "partNumber": 1,
+        "title": "PHIM TOP VIỆT - Kênh giải trí hàng đầu luôn cập nhập những bộ phim hay nhất, mới nhất, chất lượng nhất cho khán giả hằng ngày. Đăng ký PHIM TOP VIỆT ngay để không bỏ lỡ những sản phẩm chất lượng, những video hài kịch vui nhộn, những bộ phim đặc sắc, ý nghĩa. | PHIM TOP VIỆT (Full Trọn Bộ 45:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2389489501209452",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2389489501209452&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "45:08",
+        "thumbnail": "/api/thumbnail/2389489501209452",
+        "viewsCount": 37521,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-16462097_73871195",
     "slug": "chinh-thuc-khai-truong-the-gioi-sua-phan-thiet-premium-dai-tiec-qua-ta-1195",
     "title": " CHÍNH THỨC KHAI TRƯƠNG THẾ GIỚI SỮA PHAN THIẾT PREMIUM – ĐẠI TIỆC QUÀ TẶNG, ƯU ĐÃI NGẬP TRÀN!  Ba mẹ ơi, ngày hội được mong chờ nhất đã chính thức bắt đầu! Thế Giới Sữa Phan Thiết Premium đã sẵn sàng chào đón ba mẹ và các bé với hàng ngàn phần quà hấp dẫn cùng vô vàn ưu đãi cực lớn. Cùng điểm danh ngay những món quà đang chờ ba mẹ rinh về nhé!  QUÀ TẶNG KHỦNG TRONG 2 NGÀY KHAI TRƯƠNG 拏 THỨ 7 – 07/11: * 20 thùng Men N’ Mil 200ml MIỄN PHÍ – trị giá 408K/thùng. * 200 khách đầu tiên nhận ngay 1 hộp Men N’ Mil 1000ml miễn phí. 拏 CHỦ NHẬT – 08/11: * 10 thùng Men N’ Mil 200ml MIỄN PHÍ – trị giá 408K/thùng. * 200 khách đầu tiên nhận ngay 1 hộp Men N’ Mil 1000ml miễn phí. 擄 MẸ BẦU ĐẾN SHOP: Nhận ngay SET QUÀ trị giá 239K.  CHECK-IN NHẬN QUÀ: 1.000 phần quà xinh dành tặng các bé. ️ MUA SẮM THẢ GA – ƯU ĐÃI CỰC ĐÃ: * Đồ mẹ & bé giảm 15%, hóa đơn từ 299K có quà. * Toàn bộ đồ chơi giảm 25%. * Thời trang bé giảm 25%. 笠 QUÀ TẶNG ĐẶC BIỆT: 20 khách hàng đầu tiên có hóa đơn từ 2 TRIỆU nhận ngay GẤU BÔNG KHỔNG LỒ 120CM! ⏰ THỜI GIAN KHAI TRƯƠNG: 07H00 | 07–08/11/2026.  ƯU ĐÃI KÉO DÀI ĐẾN: 15/11/2026.  Ba mẹ ơi, tranh thủ ghé ngay Thế Giới Sữa Phan Thiết Premium để mua sắm, săn quà và tận hưởng ngày hội khai trương thật vui nhé! Quà đã đầy kho – Deal đã lên kệ – Chỉ chờ ba mẹ đến rinh thôi ạ! ️ | Thế Giới Sữa - Thegioisua.com Miền Bắc (Full Trọn Bộ 1:08:15)",
