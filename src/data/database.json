@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-12902105_43039994",
+    "slug": "review-doraemon-tong-hop-nhung-tap-moi-hay-nhat-phan-32-tom-tat-hoat-h-9994",
+    "title": "Review Doraemon Tổng Hợp Những Tập Mới Hay Nhất Phần 32 _ Tóm Tắt Hoạt Hình Doraemon _ Review Anime.mp4 Bộ Quần Áo Thể Thao Nam Nữ | Kỷ Niệm Khó Phai (Full Trọn Bộ 43:02)",
+    "description": "Review Doraemon Tổng Hợp Những Tập Mới Hay Nhất Phần 32 _ Tóm Tắt Hoạt Hình Doraemon _ Review Anime.mp4 Bộ Quần Áo Thể Thao Nam Nữ",
+    "thumbnail": "/api/thumbnail/1290210543039994",
+    "coverImage": "/api/thumbnail/1290210543039994",
+    "channelName": "Review Quần Áo shopee",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-12902105_43039994",
+        "seriesId": "series-long-12902105_43039994",
+        "partNumber": 1,
+        "title": "Review Doraemon Tổng Hợp Những Tập Mới Hay Nhất Phần 32 _ Tóm Tắt Hoạt Hình Doraemon _ Review Anime.mp4 Bộ Quần Áo Thể Thao Nam Nữ | Kỷ Niệm Khó Phai (Full Trọn Bộ 43:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1290210543039994",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1290210543039994&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "43:02",
+        "thumbnail": "/api/thumbnail/1290210543039994",
+        "viewsCount": 31337,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-19400816_63358874",
     "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-8874",
     "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Phương Linh (Full Trọn Bộ 30:00)",
