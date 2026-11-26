@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-12126834_16408061",
+    "slug": "2-3-trieu-luot-xem-25k-cam-xuc-tron-bo-phim-co-em-doi-bong-vui-abou-lm-8061",
+    "title": "2,3 triệu lượt xem · 25K cảm xúc | TRỌN BỘ Phim Có Em Đời Bỗng Vui | أبو الميو Abou Lmew (Full Trọn Bộ 1:58:02)",
+    "description": "TRỌN BỘ Phim Có Em Đời Bỗng Vui",
+    "thumbnail": "/api/thumbnail/1212683416408061",
+    "coverImage": "/api/thumbnail/1212683416408061",
+    "channelName": "أبو الميو Abou Lmew",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-12126834_16408061",
+        "seriesId": "series-long-12126834_16408061",
+        "partNumber": 1,
+        "title": "2,3 triệu lượt xem · 25K cảm xúc | TRỌN BỘ Phim Có Em Đời Bỗng Vui | أبو الميو Abou Lmew (Full Trọn Bộ 1:58:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1212683416408061",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1212683416408061&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:58:02",
+        "thumbnail": "/api/thumbnail/1212683416408061",
+        "viewsCount": 997000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-78625159_3823943",
     "slug": "1-7-trieu-luot-xem-28k-cam-xuc-review-phim-phap-tuong-ho-than-tron-bo--3943",
     "title": "1,7 triệu lượt xem · 28K cảm xúc | REVIEW PHIM : PHÁP TƯỚNG HỘ THÂN.TRỌN BỘ Chỉ sở hữu 1 pháp tướng cùi bắp mà thanh niên đã lên mặt chàng trai cho mọi người xem biết đâu mới là pháp tướng mạnh nhất. | AĐG Review (Full Trọn Bộ 1:15:50)",
