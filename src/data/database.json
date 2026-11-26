@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-14772563_57615115",
+    "slug": "tron-bo-xem-tai-day-phe-vat-ngu-linh-can-nghich-tap-william-anthony-wa-5115",
+    "title": "[TRỌN BỘ] XEM TẠI ĐÂY: Phế Vật Ngũ Linh Căn Nghịch Tập | William Anthony Watson (Full Trọn Bộ 3:10:59)",
+    "description": "[TRỌN BỘ] XEM TẠI ĐÂY: Phế Vật Ngũ Linh Căn Nghịch Tập",
+    "thumbnail": "/api/thumbnail/1477256357615115",
+    "coverImage": "/api/thumbnail/1477256357615115",
+    "channelName": "Jezebel",
+    "genres": [
+      "Tu Chân Huyền Huyễn 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-14772563_57615115",
+        "seriesId": "series-long-14772563_57615115",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ] XEM TẠI ĐÂY: Phế Vật Ngũ Linh Căn Nghịch Tập | William Anthony Watson (Full Trọn Bộ 3:10:59)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1477256357615115",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1477256357615115&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:10:59",
+        "thumbnail": "/api/thumbnail/1477256357615115",
+        "viewsCount": 54297,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-15059286_04667118",
     "slug": "tap-cuoi-phim-hay-tron-bo-me-ke-hoi-tam-phim-thuyet-minh-moi-nhat-phim-7118",
     "title": "Tập cuối: Phim hay trọn bộ Mẹ kế hồi tâm, phim thuyết minh mới nhất, phim AI | Mèo Rì Viu (Full Trọn Bộ 35:24)",
