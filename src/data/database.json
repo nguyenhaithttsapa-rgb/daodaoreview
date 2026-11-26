@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-21731885_63265566",
+    "slug": "xem-tiep-tai-p1-tap-3-tien-de-truong-sinh-an-minh-trong-tien-mo-van-na-5566",
+    "title": "Xem Tiếp tại P1 - Tập 3 | TIÊN ĐẾ TRƯỜNG SINH | Ẩn Mình Trong Tiên Mộ Vạn Năm, Tỉnh Dậy Ta Là Tiên Đế Mất Hết Ký Ức Ở Quá Khứ. | Linh Đan Travel (Full Trọn Bộ 1:22:18)",
+    "description": "Xem Tiếp tại P1 - Tập 3 | TIÊN ĐẾ TRƯỜNG SINH | Ẩn Mình Trong Tiên Mộ Vạn Năm, Tỉnh Dậy Ta Là Tiên Đế Mất Hết Ký Ức Ở Quá Khứ. ...",
+    "thumbnail": "/api/thumbnail/2173188563265566",
+    "coverImage": "/api/thumbnail/2173188563265566",
+    "channelName": "Linh Đan Travel",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-21731885_63265566",
+        "seriesId": "series-long-21731885_63265566",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại P1 - Tập 3 | TIÊN ĐẾ TRƯỜNG SINH | Ẩn Mình Trong Tiên Mộ Vạn Năm, Tỉnh Dậy Ta Là Tiên Đế Mất Hết Ký Ức Ở Quá Khứ. | Linh Đan Travel (Full Trọn Bộ 1:22:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2173188563265566",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2173188563265566&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:22:18",
+        "thumbnail": "/api/thumbnail/2173188563265566",
+        "viewsCount": 27890,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-17985756_98249471",
+    "slug": "xem-tiep-tai-phe-vat-khong-the-tu-tien-tu-vi-khong-co-nhung-lai-truong-9471",
+    "title": "Xem Tiếp tại Phế Vật Không Thể Tu Tiên, Tu Vi Không Có Nhưng Lại Trường Sinh Bất Tử, Người Đời Gọi Ta Là - TRẦN TRƯỜNG AN | P4 - Tập 1 | Linh Đan Travel (Full Trọn Bộ 31:37)",
+    "description": "Xem Tiếp tại Phế Vật Không Thể Tu Tiên, Tu Vi Không Có Nhưng Lại Trường Sinh Bất Tử, Người Đời Gọi Ta Là - TRẦN TRƯỜNG AN | P4 - Tập 1 ...",
+    "thumbnail": "/api/thumbnail/1798575698249471",
+    "coverImage": "/api/thumbnail/1798575698249471",
+    "channelName": "Linh Đan Travel",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-17985756_98249471",
+        "seriesId": "series-long-17985756_98249471",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại Phế Vật Không Thể Tu Tiên, Tu Vi Không Có Nhưng Lại Trường Sinh Bất Tử, Người Đời Gọi Ta Là - TRẦN TRƯỜNG AN | P4 - Tập 1 | Linh Đan Travel (Full Trọn Bộ 31:37)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1798575698249471",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1798575698249471&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "31:37",
+        "thumbnail": "/api/thumbnail/1798575698249471",
+        "viewsCount": 53720,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-96579087_6287350",
     "slug": "tien-nghich-tap-60-80-thuyet-minh-moi-nhat-full-4k-hoat-hinh-3d-thuyet-7350",
     "title": "Tiên Nghịch Tập 60 - 80 Thuyết Minh Mới Nhất Full 4K | Hoạt Hình 3D thuyết minh (Full Trọn Bộ 5:24:02)",
