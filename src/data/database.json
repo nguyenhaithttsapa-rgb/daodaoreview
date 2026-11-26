@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-14700270_72853889",
+    "slug": "phim-hay-tron-bo-canh-cua-moi-phim-thuyet-minh-moi-nhat-phim-ai-phim-h-3889",
+    "title": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:43:00)",
+    "description": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1470027072853889",
+    "coverImage": "/api/thumbnail/1470027072853889",
+    "channelName": "Phim hay mỗi ngày 87",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-14700270_72853889",
+        "seriesId": "series-long-14700270_72853889",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Cánh cửa mới , phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:43:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1470027072853889",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1470027072853889&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:43:00",
+        "thumbnail": "/api/thumbnail/1470027072853889",
+        "viewsCount": 53895,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-22635583_97831153",
+    "slug": "phim-hay-tron-bo-van-tu-de-nhat-phim-thuyet-minh-moi-nhat-phim-ai-phim-1153",
+    "title": "Phim hay trọn bộ Vân tú đệ nhất, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:18:51)",
+    "description": "Phim hay trọn bộ Vân tú đệ nhất, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/2263558397831153",
+    "coverImage": "/api/thumbnail/2263558397831153",
+    "channelName": "Phim hay mỗi ngày 87",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-22635583_97831153",
+        "seriesId": "series-long-22635583_97831153",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Vân tú đệ nhất, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:18:51)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2263558397831153",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2263558397831153&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:18:51",
+        "thumbnail": "/api/thumbnail/2263558397831153",
+        "viewsCount": 35652,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-32951588_63975821",
     "slug": "review-phim-nu-bao-chua-tron-bo-a-con-rieng-tam-co-phai-tra-gia-sau-kh-5821",
     "title": "REVIEW PHIM - NỮ BẠO CHÚA.TRỌN BỘ Ả con riêng tâm cơ phải trả giá sau khi rắp tâm hãm hại nữ thừa kế thật sự | AĐG TV1 (Full Trọn Bộ 1:33:50)",
