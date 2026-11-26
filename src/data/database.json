@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-11560772_40128081",
+    "slug": "dac-vu-so-9-thuyet-minh-tap-01-sieu-pham-diep-chien-khang-nhat-dinh-ca-8081",
+    "title": "ĐẶC VỤ SỐ 9 [ THUYẾT MINH ] - Tập 01 | Siêu Phẩm Điệp Chiến Kháng Nhật Đỉnh Cao 2027 | FULL HD XEM FULL TRỌN BỘ TẠI : | PHIM TRUNG VIP (Full Trọn Bộ 1:06:05)",
+    "description": "ĐẶC VỤ SỐ 9 [ THUYẾT MINH ] - Tập 01 | Siêu Phẩm Điệp Chiến Kháng Nhật Đỉnh Cao 2027 | FULL HD XEM FULL TRỌN BỘ TẠI :",
+    "thumbnail": "/api/thumbnail/1156077240128081",
+    "coverImage": "/api/thumbnail/1156077240128081",
+    "channelName": "Tu La Đỉnh Cao Thuyết Minh #183.4",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-11560772_40128081",
+        "seriesId": "series-long-11560772_40128081",
+        "partNumber": 1,
+        "title": "ĐẶC VỤ SỐ 9 [ THUYẾT MINH ] - Tập 01 | Siêu Phẩm Điệp Chiến Kháng Nhật Đỉnh Cao 2027 | FULL HD XEM FULL TRỌN BỘ TẠI : | PHIM TRUNG VIP (Full Trọn Bộ 1:06:05)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1156077240128081",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1156077240128081&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:06:05",
+        "thumbnail": "/api/thumbnail/1156077240128081",
+        "viewsCount": 27891,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-12126834_16408061",
     "slug": "2-3-trieu-luot-xem-25k-cam-xuc-tron-bo-phim-co-em-doi-bong-vui-abou-lm-8061",
     "title": "2,3 triệu lượt xem · 25K cảm xúc | TRỌN BỘ Phim Có Em Đời Bỗng Vui | أبو الميو Abou Lmew (Full Trọn Bộ 1:58:02)",
