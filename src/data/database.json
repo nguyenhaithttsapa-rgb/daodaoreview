@@ -1,5 +1,209 @@
 [
   {
+    "id": "series-long-28862041_95016260_7",
+    "slug": "phan-3-con-luan-tong-vua-xuyen-khong-da-lap-tong-mon-de-tu-cua-ta-deu--2607",
+    "title": "Phần 3 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 11:12:56)",
+    "description": "Phần 3 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu",
+    "thumbnail": "/api/thumbnail/28862041950162607",
+    "coverImage": "/api/thumbnail/28862041950162607",
+    "channelName": "Đại Lục Review",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 3,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-29252080_76442436_1",
+        "seriesId": "series-long-28862041_95016260_7",
+        "partNumber": 1,
+        "title": "Côn Luân Tông - Phần 1 | Tu Tiên Giới (Full Trọn Bộ 32:40)",
+        "originalUrl": "https://www.facebook.com/watch/?v=29252080764424361",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29252080764424361&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:40",
+        "thumbnail": "/api/thumbnail/29252080764424361",
+        "viewsCount": 24700,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-16955272_51996859",
+        "seriesId": "series-long-28862041_95016260_7",
+        "partNumber": 2,
+        "title": "Phần 2 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Review Huyền Huyễn (Full Trọn Bộ 13:20:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1695527251996859",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1695527251996859&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "13:20:07",
+        "thumbnail": "/api/thumbnail/1695527251996859",
+        "viewsCount": 50049,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-28862041_95016260_7",
+        "seriesId": "series-long-28862041_95016260_7",
+        "partNumber": 3,
+        "title": "Phần 3 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 11:12:56)",
+        "originalUrl": "https://www.facebook.com/watch/?v=28862041950162607",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28862041950162607&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "11:12:56",
+        "thumbnail": "/api/thumbnail/28862041950162607",
+        "viewsCount": 1900,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-29252080_76442436_1",
+    "slug": "con-luan-tong-phan-1-tu-tien-gioi-full-tron-bo-32-40-4361",
+    "title": "Côn Luân Tông - Phần 1 | Tu Tiên Giới (Full Trọn Bộ 32:40)",
+    "description": "Côn Luân Tông - Phần 1",
+    "thumbnail": "/api/thumbnail/29252080764424361",
+    "coverImage": "/api/thumbnail/29252080764424361",
+    "channelName": "Đại Lục Review",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 3,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-29252080_76442436_1",
+        "seriesId": "series-long-29252080_76442436_1",
+        "partNumber": 1,
+        "title": "Côn Luân Tông - Phần 1 | Tu Tiên Giới (Full Trọn Bộ 32:40)",
+        "originalUrl": "https://www.facebook.com/watch/?v=29252080764424361",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29252080764424361&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:40",
+        "thumbnail": "/api/thumbnail/29252080764424361",
+        "viewsCount": 24700,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-16955272_51996859",
+        "seriesId": "series-long-29252080_76442436_1",
+        "partNumber": 2,
+        "title": "Phần 2 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Review Huyền Huyễn (Full Trọn Bộ 13:20:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1695527251996859",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1695527251996859&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "13:20:07",
+        "thumbnail": "/api/thumbnail/1695527251996859",
+        "viewsCount": 50049,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-28862041_95016260_7",
+        "seriesId": "series-long-29252080_76442436_1",
+        "partNumber": 3,
+        "title": "Phần 3 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 11:12:56)",
+        "originalUrl": "https://www.facebook.com/watch/?v=28862041950162607",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28862041950162607&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "11:12:56",
+        "thumbnail": "/api/thumbnail/28862041950162607",
+        "viewsCount": 1900,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-20331979_44212819",
+    "slug": "review-phim-tron-bo-he-thong-hit-tho-la-manh-len-noi-dung-phim-xuyen-k-2819",
+    "title": "Review Phim trọn Bộ: Hệ thống hít thở là mạnh lên Nội dung phim: Xuyên không thành Tam hoàng tử nước Đại Ninh, vừa sinh ra đã kích hoạt \"hệ thống hít thở là mạnh lên\", trực tiếp đạt tu vi Lục Địa Thần Tiên. Thế nhưng vì không thích bị ràng buộc, hắn lại bị xem là phế vật Diễn viên: Ẩn bớt | Review Tổng Tài Cổ Trang (Full Trọn Bộ 2:36:17)",
+    "description": "Review Phim trọn Bộ: Hệ thống hít thở là mạnh lên Nội dung phim: Xuyên không thành Tam hoàng tử nước Đại Ninh, vừa sinh ra đã kích hoạt \"hệ thống hít thở là mạnh lên\", trực tiếp đạt tu vi Lục Địa...",
+    "thumbnail": "/api/thumbnail/2033197944212819",
+    "coverImage": "/api/thumbnail/2033197944212819",
+    "channelName": "Đại Lục Review",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-20331979_44212819",
+        "seriesId": "series-long-20331979_44212819",
+        "partNumber": 1,
+        "title": "Review Phim trọn Bộ: Hệ thống hít thở là mạnh lên Nội dung phim: Xuyên không thành Tam hoàng tử nước Đại Ninh, vừa sinh ra đã kích hoạt \"hệ thống hít thở là mạnh lên\", trực tiếp đạt tu vi Lục Địa Thần Tiên. Thế nhưng vì không thích bị ràng buộc, hắn lại bị xem là phế vật Diễn viên: Ẩn bớt | Review Tổng Tài Cổ Trang (Full Trọn Bộ 2:36:17)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2033197944212819",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2033197944212819&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:36:17",
+        "thumbnail": "/api/thumbnail/2033197944212819",
+        "viewsCount": 27818,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-11324261_66062422",
+    "slug": "ban-se-hoi-dieu-gi-dau-tien-sau-quang-thoi-gian-dai-ay-tinh-su-do-la-h-2422",
+    "title": "Bạn sẽ hỏi điều gì đầu tiên sau quãng thời gian dài ấy? Tình sư đồ là hướng khiến tôi tò mò từ tiền đề. Khi mỗi người có vị thế khác trước, cách nhìn nhau sẽ cần được hiểu qua diễn biến. Mời bạn xem phần tiếp theo tại đường dẫn đầu caption. Full Phần 1 | Thức Tỉnh Vạn Năm, Nghịch Đồ Đều Thành Đại Đế | Deborah G Gomez (Full Trọn Bộ 2:22:13)",
+    "description": "Bạn sẽ hỏi điều gì đầu tiên sau quãng thời gian dài ấy? Tình sư đồ là hướng khiến tôi tò mò từ tiền đề. Khi mỗi người có vị thế khác trước, cách nhìn nhau sẽ...",
+    "thumbnail": "/api/thumbnail/1132426166062422",
+    "coverImage": "/api/thumbnail/1132426166062422",
+    "channelName": "Đại Lục Review",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-11324261_66062422",
+        "seriesId": "series-long-11324261_66062422",
+        "partNumber": 1,
+        "title": "Bạn sẽ hỏi điều gì đầu tiên sau quãng thời gian dài ấy? Tình sư đồ là hướng khiến tôi tò mò từ tiền đề. Khi mỗi người có vị thế khác trước, cách nhìn nhau sẽ cần được hiểu qua diễn biến. Mời bạn xem phần tiếp theo tại đường dẫn đầu caption. Full Phần 1 | Thức Tỉnh Vạn Năm, Nghịch Đồ Đều Thành Đại Đế | Deborah G Gomez (Full Trọn Bộ 2:22:13)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1132426166062422",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1132426166062422&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:22:13",
+        "thumbnail": "/api/thumbnail/1132426166062422",
+        "viewsCount": 39831,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-22797561_49227998",
     "slug": "meomeo-audio-full-om-con-dai-lao-phan-dien-chay-tron-follow-kenh-de-kh-7998",
     "title": "[MEOMEO AUDIO - FULL] Ôm Con Đại Lão Phản Diện Chạy Trốn Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 33:30)",
@@ -48457,14 +48661,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 3,
     "featured": true,
-    "updatedAt": "2026-11-03",
+    "updatedAt": "2026-11-26",
     "episodes": [
+      {
+        "id": "ep-long-29252080_76442436_1",
+        "seriesId": "series-long-16955272_51996859",
+        "partNumber": 1,
+        "title": "Côn Luân Tông - Phần 1 | Tu Tiên Giới (Full Trọn Bộ 32:40)",
+        "originalUrl": "https://www.facebook.com/watch/?v=29252080764424361",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D29252080764424361&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:40",
+        "thumbnail": "/api/thumbnail/29252080764424361",
+        "viewsCount": 24700,
+        "publishedAt": "2026-11-26"
+      },
       {
         "id": "ep-long-16955272_51996859",
         "seriesId": "series-long-16955272_51996859",
-        "partNumber": 1,
+        "partNumber": 2,
         "title": "Phần 2 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Review Huyền Huyễn (Full Trọn Bộ 13:20:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1695527251996859",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1695527251996859&show_text=0&autoplay=0",
@@ -48474,6 +48692,20 @@
         "thumbnail": "/api/thumbnail/1695527251996859",
         "viewsCount": 50049,
         "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-28862041_95016260_7",
+        "seriesId": "series-long-16955272_51996859",
+        "partNumber": 3,
+        "title": "Phần 3 | Côn Luân Tông: Vừa Xuyên Không Đã Lập Tông Môn, Đệ Tử Của Ta Đều Là Tuyệt Thế Thiên Kiêu | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 11:12:56)",
+        "originalUrl": "https://www.facebook.com/watch/?v=28862041950162607",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28862041950162607&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "11:12:56",
+        "thumbnail": "/api/thumbnail/28862041950162607",
+        "viewsCount": 1900,
+        "publishedAt": "2026-11-26"
       }
     ]
   },
