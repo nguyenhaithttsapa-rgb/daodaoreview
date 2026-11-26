@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-22797561_49227998",
+    "slug": "meomeo-audio-full-om-con-dai-lao-phan-dien-chay-tron-follow-kenh-de-kh-7998",
+    "title": "[MEOMEO AUDIO - FULL] Ôm Con Đại Lão Phản Diện Chạy Trốn Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 33:30)",
+    "description": "[MEOMEO AUDIO - FULL] Ôm Con Đại Lão Phản Diện Chạy Trốn Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! ...",
+    "thumbnail": "/api/thumbnail/2279756149227998",
+    "coverImage": "/api/thumbnail/2279756149227998",
+    "channelName": "Bachyendon Blog - Sách truyện online",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-22797561_49227998",
+        "seriesId": "series-long-22797561_49227998",
+        "partNumber": 1,
+        "title": "[MEOMEO AUDIO - FULL] Ôm Con Đại Lão Phản Diện Chạy Trốn Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 33:30)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2279756149227998",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2279756149227998&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "33:30",
+        "thumbnail": "/api/thumbnail/2279756149227998",
+        "viewsCount": 14000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-76269098_8676273",
     "slug": "tap-141-su-huynh-a-su-huynh-audio-chuong-701-705-truyen-tien-hiep-thuy-6273",
     "title": "[Tập 141] Sư Huynh À Sư Huynh Audio | Chương 701 - 705 | Truyện Tiên Hiệp | Thuyết minh: 3 Giọng ĐĂNG KÝ kênh để ủng hộ bọn mình, cũng như không bỏ lỡ truyện mới của Chuẩn Audio nhé! Playlist : | Chuẩn Audio - Nghe Truyện Chuẩn (Full Trọn Bộ 1:35:50)",
