@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16766295_27385236",
+    "slug": "full-phim-hay-tron-bo-gio-xuan-tro-lai-phim-thuyet-minh-moi-nhat-phim--5236",
+    "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:15:21)",
+    "description": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1676629527385236",
+    "coverImage": "/api/thumbnail/1676629527385236",
+    "channelName": "TvHay.org Phim thuyết minh",
+    "genres": [
+      "Hoạt Hình Chọn Lọc",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16766295_27385236",
+        "seriesId": "series-long-16766295_27385236",
+        "partNumber": 1,
+        "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:15:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1676629527385236",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1676629527385236&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:15:21",
+        "thumbnail": "/api/thumbnail/1676629527385236",
+        "viewsCount": 31450,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-27661476_78021910_1",
     "slug": "tap-3-phim-hay-tron-bo-me-ke-phim-thuyet-minh-moi-nhat-phim-ai-hoi-qua-9101",
     "title": "Tập 3: Phim hay trọn bộ Mẹ kế, Phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 32:49)",
