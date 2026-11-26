@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-15537421_79290210",
+    "slug": "tap-3-phim-hay-tron-bo-3-nam-pha-cuc-phim-thuyet-minh-moi-nhat-phim-ai-0210",
+    "title": "Tập 3: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 31:04)",
+    "description": "Tập 3: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1553742179290210",
+    "coverImage": "/api/thumbnail/1553742179290210",
+    "channelName": "Mr1987",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-15537421_79290210",
+        "seriesId": "series-long-15537421_79290210",
+        "partNumber": 1,
+        "title": "Tập 3: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 31:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1553742179290210",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1553742179290210&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "31:04",
+        "thumbnail": "/api/thumbnail/1553742179290210",
+        "viewsCount": 39840,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-29446026_22545852",
     "slug": "tap-3-phim-hay-tron-bo-3-nam-pha-cuc-phim-thuyet-minh-moi-nhat-phim-ai-5852",
     "title": "Tập 3: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Zlove1988 (Full Trọn Bộ 31:04)",
