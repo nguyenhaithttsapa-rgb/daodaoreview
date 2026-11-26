@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-20337860_23782098",
+    "slug": "review-phim-dinh-cao-vo-thuat-tron-bo-adg-review-full-tron-bo-1-50-32-2098",
+    "title": "REVIEW PHIM : ĐỈNH CAO VÕ THUẬT.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:50:32)",
+    "description": "REVIEW PHIM : ĐỈNH CAO VÕ THUẬT.TRỌN BỘ",
+    "thumbnail": "/api/thumbnail/2033786023782098",
+    "coverImage": "/api/thumbnail/2033786023782098",
+    "channelName": "Đế Tôn Bảo Vệ Vợ Con Review Phim #135",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-20337860_23782098",
+        "seriesId": "series-long-20337860_23782098",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : ĐỈNH CAO VÕ THUẬT.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:50:32)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2033786023782098",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2033786023782098&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:50:32",
+        "thumbnail": "/api/thumbnail/2033786023782098",
+        "viewsCount": 3100,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-99767434_2626772",
     "slug": "phim-hay-tron-bo-hoa-mai-roi-phim-thuyet-minh-moi-nhat-phim-ai-phim-ng-6772",
     "title": "Phim hay trọn bộ Hoa mai rơi, phim thuyết minh mới nhất, Phim AI | Phim ngắn tổng tài (Full Trọn Bộ 35:52)",
