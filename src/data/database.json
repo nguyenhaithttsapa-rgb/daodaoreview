@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-13679344_68802192",
+    "slug": "phim-tron-bo-con-duong-tu-tien-cua-ke-pham-tran-nghich-thien-cai-menh--2192",
+    "title": "【PHIM TRỌN BỘ】Con Đường Tu Tiên Của Kẻ Phàm Trần – Nghịch Thiên Cải Mệnh Chém Giết Tiên Nhân | Review Phim AI (Full Trọn Bộ 1:59:14)",
+    "description": "【PHIM TRỌN BỘ】Con Đường Tu Tiên Của Kẻ Phàm Trần – Nghịch Thiên Cải Mệnh Chém Giết Tiên Nhân",
+    "thumbnail": "/api/thumbnail/1367934468802192",
+    "coverImage": "/api/thumbnail/1367934468802192",
+    "channelName": "Vương Giả Trấn Áp Review Phim #95.2",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-13679344_68802192",
+        "seriesId": "series-long-13679344_68802192",
+        "partNumber": 1,
+        "title": "【PHIM TRỌN BỘ】Con Đường Tu Tiên Của Kẻ Phàm Trần – Nghịch Thiên Cải Mệnh Chém Giết Tiên Nhân | Review Phim AI (Full Trọn Bộ 1:59:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1367934468802192",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1367934468802192&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:59:14",
+        "thumbnail": "/api/thumbnail/1367934468802192",
+        "viewsCount": 40686,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-11657686_32586313",
     "slug": "nhat-niem-phuong-he-hom-nay-phuong-khe-van-dang-an-minh-mua-1-3-animo--6313",
     "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-3 | Animơ (Full Trọn Bộ 4:39:30)",
