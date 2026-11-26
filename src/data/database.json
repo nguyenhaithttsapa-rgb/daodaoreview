@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-16921568_28927177",
+    "slug": "tien-nghich-tap-150-166-thuyet-minh-moi-nhat-full-4k-khong-quang-cao-t-7177",
+    "title": "Tiên Nghịch Tập 150 - 166 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:28:00)",
+    "description": "Tiên Nghịch Tập 150 - 166 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo",
+    "thumbnail": "/api/thumbnail/1692156828927177",
+    "coverImage": "/api/thumbnail/1692156828927177",
+    "channelName": "Tiên Nghịch 3D Thuyết Minh 4K",
+    "genres": [
+      "Tu Chân Nghịch Thiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16921568_28927177",
+        "seriesId": "series-long-16921568_28927177",
+        "partNumber": 1,
+        "title": "Tiên Nghịch Tập 150 - 166 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:28:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1692156828927177",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1692156828927177&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:28:00",
+        "thumbnail": "/api/thumbnail/1692156828927177",
+        "viewsCount": 24000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-22841506_12157620",
+    "slug": "tien-nghich-tap-40-60-thuyet-minh-moi-nhat-full-4k-khong-quang-cao-tie-7620",
+    "title": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:16:21)",
+    "description": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo",
+    "thumbnail": "/api/thumbnail/2284150612157620",
+    "coverImage": "/api/thumbnail/2284150612157620",
+    "channelName": "Tiên Nghịch 3D Thuyết Minh 4K",
+    "genres": [
+      "Tu Chân Nghịch Thiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-22841506_12157620",
+        "seriesId": "series-long-22841506_12157620",
+        "partNumber": 1,
+        "title": "Tiên Nghịch Tập 40 - 60 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:16:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2284150612157620",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2284150612157620&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:16:21",
+        "thumbnail": "/api/thumbnail/2284150612157620",
+        "viewsCount": 15000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-27172997_08728667",
     "slug": "audio-me-nuoi-mieng-doc-nhung-thuong-toi-nhat-full-tron-bo-meomeo-audi-8667",
     "title": "Audio | Mẹ Nuôi Miệng Độc Nhưng Thương Tôi Nhất | Full Trọn Bộ | MeoMeo Audio (Full Trọn Bộ 50:09)",
