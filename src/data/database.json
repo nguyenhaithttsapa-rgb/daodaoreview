@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16471108_70250203",
+    "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--0203",
+    "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 1:59:12)",
+    "description": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1647110870250203",
+    "coverImage": "/api/thumbnail/1647110870250203",
+    "channelName": "Phu Nhân Thừa Kế Thuyết Minh #150.2",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16471108_70250203",
+        "seriesId": "series-long-16471108_70250203",
+        "partNumber": 1,
+        "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 1:59:12)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1647110870250203",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1647110870250203&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:59:12",
+        "thumbnail": "/api/thumbnail/1647110870250203",
+        "viewsCount": 54393,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-16766295_27385236",
     "slug": "full-phim-hay-tron-bo-gio-xuan-tro-lai-phim-thuyet-minh-moi-nhat-phim--5236",
     "title": "Full: Phim hay trọn bộ Gió xuân trở lại, phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 1:15:21)",
