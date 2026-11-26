@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-32528634_34903289",
+    "slug": "1-trieu-luot-xem-18k-cam-xuc-tron-bo-phim-full-hd-thuyet-minh-phim-hay-3289",
+    "title": "1 triệu lượt xem · 18K cảm xúc | [TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Ép Con Trai Đến Đường Cùng, Mẹ Chồng Tham Lam Trắng Tay Cuối Đời | Amelia Lynn Hughes (Full Trọn Bộ 54:56)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Ép Con Trai Đến Đường Cùng, Mẹ Chồng Tham...",
+    "thumbnail": "/api/thumbnail/3252863434903289",
+    "coverImage": "/api/thumbnail/3252863434903289",
+    "channelName": "Phim Hay Cho Mọi Nhà",
+    "genres": [
+      "Trọn Bộ Tu Tiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-32528634_34903289",
+        "seriesId": "series-long-32528634_34903289",
+        "partNumber": 1,
+        "title": "1 triệu lượt xem · 18K cảm xúc | [TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Ép Con Trai Đến Đường Cùng, Mẹ Chồng Tham Lam Trắng Tay Cuối Đời | Amelia Lynn Hughes (Full Trọn Bộ 54:56)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3252863434903289",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3252863434903289&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "54:56",
+        "thumbnail": "/api/thumbnail/3252863434903289",
+        "viewsCount": 533000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-26069310_63105799",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-5799",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: ĐỪNG NÊN VƯỢT XE HIẾU HỈ | Eighties Synth Horizon (Full Trọn Bộ 1:12:42)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: ĐỪNG NÊN VƯỢT XE HIẾU HỈ Video được tạo bằng...",
+    "thumbnail": "/api/thumbnail/2606931063105799",
+    "coverImage": "/api/thumbnail/2606931063105799",
+    "channelName": "Phim Hay Cho Mọi Nhà",
+    "genres": [
+      "Trọn Bộ Tu Tiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-26069310_63105799",
+        "seriesId": "series-long-26069310_63105799",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: ĐỪNG NÊN VƯỢT XE HIẾU HỈ | Eighties Synth Horizon (Full Trọn Bộ 1:12:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2606931063105799",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2606931063105799&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:12:42",
+        "thumbnail": "/api/thumbnail/2606931063105799",
+        "viewsCount": 24732,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-92669090_6574181",
     "slug": "gia-toc-nay-may-man-vi-da-co-mot-lao-to-qua-manh-xuyen-khong-tro-thanh-4181",
     "title": " Gia tộc này may mắn vì đã có một lão tổ quá mạnh! Xuyên Không Trở Thành Lão Tổ Vô Địch, Mở Bát Liền Nhận Ngay Tu Vi Đại Đế, Cứu Vớt Gia Tộc Xem trọn bộ tại | Juanita Mcbride (Full Trọn Bộ 1:00:00)",
