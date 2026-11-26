@@ -1,5 +1,154 @@
 [
   {
+    "id": "series-long-10822824_67853004",
+    "slug": "phan-39-nhat-kiem-truong-sinh-tap-dich-khong-linh-can-ta-dung-tan-kiem-3004",
+    "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+    "description": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh.",
+    "thumbnail": "/api/thumbnail/1082282467853004",
+    "coverImage": "/api/thumbnail/1082282467853004",
+    "channelName": "Tuyệt Tác Donghua",
+    "genres": [
+      "Donghua 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 9,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-28642362_03969905",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 1,
+        "title": "Phần 19| Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Xem full tại: | Brylee Edwards (Full Trọn Bộ 2:21:40)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2864236203969905",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2864236203969905&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:21:40",
+        "thumbnail": "/api/thumbnail/2864236203969905",
+        "viewsCount": 21050,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-16688122_28014619",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 2,
+        "title": "Phần 33 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Brylee Edwards (Full Trọn Bộ 2:18:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1668812228014619",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1668812228014619&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:18:04",
+        "thumbnail": "/api/thumbnail/1668812228014619",
+        "viewsCount": 2200,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-45128525_45709739",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 3,
+        "title": "Phần 34(FULL) | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Hoàng Hữu Hiệp (Full Trọn Bộ 2:07:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4512852545709739",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4512852545709739&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:07:36",
+        "thumbnail": "/api/thumbnail/4512852545709739",
+        "viewsCount": 1600,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-11290855_03044263",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 4,
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Săn Sale Hàng Hiệu (Full Trọn Bộ 2:02:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1129085503044263",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1129085503044263&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:02:07",
+        "thumbnail": "/api/thumbnail/1129085503044263",
+        "viewsCount": 36462,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-19242962_85212807",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 5,
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Brylee Edwards (Full Trọn Bộ 2:15:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1924296285212807",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1924296285212807&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:15:41",
+        "thumbnail": "/api/thumbnail/1924296285212807",
+        "viewsCount": 17000,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-28460452_59111872",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 6,
+        "title": "Phần 34 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh | Phạm Thành Duy (Full Trọn Bộ 2:02:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2846045259111872",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2846045259111872&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:02:07",
+        "thumbnail": "/api/thumbnail/2846045259111872",
+        "viewsCount": 52472,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-10822824_67853004",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 8,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/2103690096908335",
+        "viewsCount": 28567,
+        "publishedAt": "2026-10-14"
+      },
+      {
+        "id": "ep-long-10775133_35125349",
+        "seriesId": "series-long-10822824_67853004",
+        "partNumber": 9,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1077513335125349",
+        "viewsCount": 46632,
+        "publishedAt": "2026-10-13"
+      }
+    ]
+  },
+  {
     "id": "series-long-17619914_74865303",
     "slug": "sieu-hoi-mua-sam-cuoi-nam-black-friday-mua-1-tang-1-mua-2-tang-1-chao--5303",
     "title": " SIÊU HỘI MUA SẮM CUỐI NĂM – BLACK FRIDAY: MUA 1 TẶNG 1, MUA 2 TẶNG 1  Chào đón sự kiện mua sắm Black Friday lớn nhất năm, TP Solar tung ra chương trình ưu đãi cực hời:  MUA 1 TẶNG 1: Tặng ngay 01 Bộ dụng cụ đa năng tiện lợi khi mua 01 đèn năng lượng.  MUA 2 TẶNG 1: Tặng ngay 01 Đèn hắt tường trang trí HT12 khi mua từ 02 đèn trở lên.  Hàng loạt các mã đèn bán chạy được trợ giá sâu chưa từng có: UF11, BC11, DP05,... ⏰ Quà tặng chỉ áp dụng trên live: 18h30 – 22h30 mỗi tối các ngày 24 - 25 - 26 - 27/11  Đặt lịch ngay hôm nay để canh live săn quà hấp dẫn! | TP Solar - Đèn Năng Lượng Mặt Trời Chính Hãng (Full Trọn Bộ 4:14:49)",
@@ -25296,7 +25445,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -25385,9 +25534,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-16688122_28014619",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-16688122_28014619",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -25401,7 +25564,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-16688122_28014619",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -42321,7 +42484,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -42410,9 +42573,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-45128525_45709739",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-45128525_45709739",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -42426,7 +42603,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-45128525_45709739",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -81961,7 +82138,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -82050,9 +82227,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-11290855_03044263",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-11290855_03044263",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -82066,7 +82257,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-11290855_03044263",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -108877,7 +109068,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -108966,9 +109157,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-19242962_85212807",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-19242962_85212807",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -108982,7 +109187,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-19242962_85212807",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -109379,7 +109584,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -109468,9 +109673,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-28642362_03969905",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-28642362_03969905",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -109484,7 +109703,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-28642362_03969905",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -131679,7 +131898,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -131768,9 +131987,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-28460452_59111872",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-28460452_59111872",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -131784,7 +132017,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-28460452_59111872",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -168484,7 +168717,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -168573,9 +168806,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-21036900_96908335",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-21036900_96908335",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -168589,7 +168836,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-21036900_96908335",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
@@ -176013,7 +176260,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 8,
+    "totalEpisodes": 9,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -176102,9 +176349,23 @@
         "publishedAt": "2026-10-31"
       },
       {
-        "id": "ep-long-21036900_96908335",
+        "id": "ep-long-10822824_67853004",
         "seriesId": "series-long-10775133_35125349",
         "partNumber": 7,
+        "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1082282467853004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1082282467853004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:49:21",
+        "thumbnail": "/api/thumbnail/1082282467853004",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-21036900_96908335",
+        "seriesId": "series-long-10775133_35125349",
+        "partNumber": 8,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. Phế vật tạp dịch không linh căn? Cả tông môn khinh bỉ, coi như cỏ rác!  Nhân gian chê bai, thiên địa bất công... nhưng trong tay ta có TÀN KIẾM! ️ Một kiếm xuất vỏ, chấn động cửu thiên! Kẻ từng coi thường ta, chuẩn bị trả giá đắt!  Liệu tạp dịch nhỏ bé có thể nghịch thiên cải mệnh, một bước thành thần?  Xem ngay để chứng kiến màn lội ngược dòng cực mãn nhãn!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=2103690096908335",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2103690096908335&show_text=0&autoplay=0",
@@ -176118,7 +176379,7 @@
       {
         "id": "ep-long-10775133_35125349",
         "seriesId": "series-long-10775133_35125349",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh Cho xin 1 like và 1 share để tụi mình có động lực sản xuất video đều đặn, chứ đói tương tác quá là team chuẩn bị đi bán muối rồi đây này! 梁️ [TẶNG CÂY KẸP LAU] Khăn ướt cao cấp TopGia 80 tờ mềm mại, không mùi không parabens dành cho em bé | Thanh Xuân Năm Ấy (Full Trọn Bộ 2:49:21)",
         "originalUrl": "https://www.facebook.com/watch/?v=1077513335125349",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1077513335125349&show_text=0&autoplay=0",
