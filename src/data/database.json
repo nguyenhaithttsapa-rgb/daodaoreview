@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-13980237_69079441",
+    "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--9441",
+    "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Mê phim trung (Full Trọn Bộ 1:59:12)",
+    "description": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1398023769079441",
+    "coverImage": "/api/thumbnail/1398023769079441",
+    "channelName": "Tra Nam Tranh Quyền Thuyết Minh #279.3",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-13980237_69079441",
+        "seriesId": "series-long-13980237_69079441",
+        "partNumber": 1,
+        "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Mê phim trung (Full Trọn Bộ 1:59:12)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1398023769079441",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1398023769079441&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:59:12",
+        "thumbnail": "/api/thumbnail/1398023769079441",
+        "viewsCount": 32219,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-10686701_12372648",
     "slug": "phim-hay-tron-bo-chi-y-ca-phim-thuyet-minh-moi-nhat-phim-ai-meo-ke-tru-2648",
     "title": "Phim hay trọn bộ Chi ý ca, phim thuyết minh mới nhất, phim AI | Mèo Kể Truyện (Full Trọn Bộ 1:08:37)",
