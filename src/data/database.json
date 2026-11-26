@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-21625796_51331619",
+    "slug": "tap-cuoi-phim-hay-tron-bo-noi-lai-to-duyen-phim-thuyet-minh-moi-nhat-p-1619",
+    "title": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Mèo Kể Truyện (Full Trọn Bộ 31:35)",
+    "description": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/2162579651331619",
+    "coverImage": "/api/thumbnail/2162579651331619",
+    "channelName": "Duyên My",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-21625796_51331619",
+        "seriesId": "series-long-21625796_51331619",
+        "partNumber": 1,
+        "title": "Tập cuối : Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Mèo Kể Truyện (Full Trọn Bộ 31:35)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2162579651331619",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2162579651331619&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "31:35",
+        "thumbnail": "/api/thumbnail/2162579651331619",
+        "viewsCount": 20578,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-85908192_9889119",
     "slug": "review-phim-ong-co-sau-ly-hon-full-tron-bo-nhat-ky-review-phim-full-tr-9119",
     "title": "Review phim Ông Cố sau ly hôn full trọn bộ | Nhật Ký Review Phim (Full Trọn Bộ 2:06:59)",
