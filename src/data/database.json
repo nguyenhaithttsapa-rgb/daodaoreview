@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-10743241_92047701",
+    "slug": "luyen-khi-3-van-tang-phan-2-phim-ngan-moi-ngay-full-tron-bo-2-13-54-7701",
+    "title": "Luyện khí 3 vạn tầng phần 2 | Phim Ngắn Mỗi Ngày (Full Trọn Bộ 2:13:54)",
+    "description": "Luyện khí 3 vạn tầng phần 2",
+    "thumbnail": "/api/thumbnail/1074324192047701",
+    "coverImage": "/api/thumbnail/1074324192047701",
+    "channelName": "Donghua 3D Hay",
+    "genres": [
+      "Hoạt Hình 3D Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-10743241_92047701",
+        "seriesId": "series-long-10743241_92047701",
+        "partNumber": 1,
+        "title": "Luyện khí 3 vạn tầng phần 2 | Phim Ngắn Mỗi Ngày (Full Trọn Bộ 2:13:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1074324192047701",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1074324192047701&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:13:54",
+        "thumbnail": "/api/thumbnail/1074324192047701",
+        "viewsCount": 211000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-23681198_17279038",
     "slug": "phan-6-xuyen-thanh-tap-dich-dau-bep-ta-tro-thanh-de-nhat-vo-phu-ao-thu-9038",
     "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:04:43)",
