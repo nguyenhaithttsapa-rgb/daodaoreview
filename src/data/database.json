@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-19899537_65297653",
+    "slug": "phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-phim--7653",
+    "title": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Phim hay trọn bộ 87 (Full Trọn Bộ 2:24:44)",
+    "description": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1989953765297653",
+    "coverImage": "/api/thumbnail/1989953765297653",
+    "channelName": "Phim khoa học thuyết minh",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-19899537_65297653",
+        "seriesId": "series-long-19899537_65297653",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Phim hay trọn bộ 87 (Full Trọn Bộ 2:24:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1989953765297653",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1989953765297653&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:24:44",
+        "thumbnail": "/api/thumbnail/1989953765297653",
+        "viewsCount": 42630,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-90255645_9259632",
     "slug": "phim-hay-tron-bo-vo-y-thanh-hau-phim-thuyet-minh-moi-nhat-phim-ai-phim-9632",
     "title": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI | Phim Ngắn Cổ Trang (Full Trọn Bộ 2:11:45)",
