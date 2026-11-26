@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-66942056_5550065",
+    "slug": "review-phim-he-thong-phan-dien-tron-bo-anh-dat-gaming-full-tron-bo-2-0-0065",
+    "title": "REVIEW PHIM : HỆ THỐNG PHẢN DIỆN .TRỌN BỘ | Anh Đạt Gaming (Full Trọn Bộ 2:01:42)",
+    "description": "REVIEW PHIM : HỆ THỐNG PHẢN DIỆN .TRỌN BỘ",
+    "thumbnail": "/api/thumbnail/669420565550065",
+    "coverImage": "/api/thumbnail/669420565550065",
+    "channelName": "Thai Xuyên Hệ Thống Bắt Ép Review Phim #130",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-66942056_5550065",
+        "seriesId": "series-long-66942056_5550065",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : HỆ THỐNG PHẢN DIỆN .TRỌN BỘ | Anh Đạt Gaming (Full Trọn Bộ 2:01:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=669420565550065",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D669420565550065&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:01:42",
+        "thumbnail": "/api/thumbnail/669420565550065",
+        "viewsCount": 186000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-62828440_9679757",
+    "slug": "review-phim-trieu-hoi-anh-hung-tron-bo-chang-shipper-xuyen-qua-the-gio-9757",
+    "title": "REVIEW PHIM : TRIỆU HỒI ANH HÙNG.TRỌN BỘ Chàng shipper xuyên qua thế giới khác, trở thành hoàng đế, anh đã thức tỉnh hệ thống có thể triệu hồi rất nhiều anh hùng nổi tiếng trong kiếp trước | AĐG Review (Full Trọn Bộ 1:46:53)",
+    "description": "REVIEW PHIM : TRIỆU HỒI ANH HÙNG.TRỌN BỘ Chàng shipper xuyên qua thế giới khác, trở thành hoàng đế, anh đã thức tỉnh hệ thống có thể triệu hồi rất nhiều anh hùng nổi tiếng trong kiếp trước",
+    "thumbnail": "/api/thumbnail/628284409679757",
+    "coverImage": "/api/thumbnail/628284409679757",
+    "channelName": "Thai Xuyên Hệ Thống Bắt Ép Review Phim #130",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-62828440_9679757",
+        "seriesId": "series-long-62828440_9679757",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : TRIỆU HỒI ANH HÙNG.TRỌN BỘ Chàng shipper xuyên qua thế giới khác, trở thành hoàng đế, anh đã thức tỉnh hệ thống có thể triệu hồi rất nhiều anh hùng nổi tiếng trong kiếp trước | AĐG Review (Full Trọn Bộ 1:46:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=628284409679757",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D628284409679757&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:46:53",
+        "thumbnail": "/api/thumbnail/628284409679757",
+        "viewsCount": 49000,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-14637260_82585193",
     "slug": "tron-bo-phan-9-nhat-mong-thanh-huyen-doan-sung-tieu-su-muoi-nhat-kiem--5193",
     "title": "[Trọn bộ Phần 9] Nhất Mộng Thanh Huyền Đoàn Sủng Tiểu Sư Muội - Nhất Kiếm Phá Cửu Thiên! | Thị Nở Vietsub (Full Trọn Bộ 3:02:05)",
