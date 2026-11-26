@@ -1,5 +1,190 @@
 [
   {
+    "id": "series-long-11657686_32586313",
+    "slug": "nhat-niem-phuong-he-hom-nay-phuong-khe-van-dang-an-minh-mua-1-3-animo--6313",
+    "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-3 | Animơ (Full Trọn Bộ 4:39:30)",
+    "description": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-3",
+    "thumbnail": "/api/thumbnail/1165768632586313",
+    "coverImage": "/api/thumbnail/1165768632586313",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Siêu Nét #92",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-11657686_32586313",
+        "seriesId": "series-long-11657686_32586313",
+        "partNumber": 1,
+        "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-3 | Animơ (Full Trọn Bộ 4:39:30)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1165768632586313",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1165768632586313&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:39:30",
+        "thumbnail": "/api/thumbnail/1165768632586313",
+        "viewsCount": 8600,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-20017419_14545185",
+    "slug": "nhat-niem-phuong-he-hom-nay-phuong-khe-van-dang-an-minh-mua-1-2-animo--5185",
+    "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-2 | Animơ (Full Trọn Bộ 3:15:53)",
+    "description": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-2",
+    "thumbnail": "/api/thumbnail/2001741914545185",
+    "coverImage": "/api/thumbnail/2001741914545185",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Siêu Nét #92",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-20017419_14545185",
+        "seriesId": "series-long-20017419_14545185",
+        "partNumber": 1,
+        "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 1-2 | Animơ (Full Trọn Bộ 3:15:53)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2001741914545185",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2001741914545185&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:15:53",
+        "thumbnail": "/api/thumbnail/2001741914545185",
+        "viewsCount": 6500,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-16774773_33781928",
+    "slug": "nhat-niem-phuong-he-hom-nay-phuong-khe-van-dang-an-minh-mua-2-animo-fu-1928",
+    "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 2 | Animơ (Full Trọn Bộ 3:06:06)",
+    "description": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 2",
+    "thumbnail": "/api/thumbnail/1677477333781928",
+    "coverImage": "/api/thumbnail/1677477333781928",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Siêu Nét #92",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16774773_33781928",
+        "seriesId": "series-long-16774773_33781928",
+        "partNumber": 1,
+        "title": "Nhất Niệm Phượng Hề: Hôm Nay Phượng Khê Vẫn Đang Ẩn Mình Mùa 2 | Animơ (Full Trọn Bộ 3:06:06)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1677477333781928",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1677477333781928&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:06:06",
+        "thumbnail": "/api/thumbnail/1677477333781928",
+        "viewsCount": 4600,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-44432197_19323566",
+    "slug": "vuong-lam-tien-nghich-top-20-truyen-tu-tien-tap-03-tu-thieu-nien-thiet-3566",
+    "title": "VƯƠNG LÂM — TIÊN NGHỊCH | TOP 20 TRUYỆN TU TIÊN — Tập 03 Từ thiếu niên Thiết Trụ rời quê, Vương Lâm bước vào con đường tu luyện với Thiên Nghịch Châu, trải qua thâm thù, những năm tháng hóa phàm và tình cảm không thể quên dành cho Lý Mộ Uyển. Cùng TALEVIQUE nhìn lại hành trình nghịch thiên cải mệnh của nhân vật trong Tiên Nghịch, tác phẩm của Nhĩ Căn. ️ Video tóm tắt và bình luận có tiết lộ diễn biến, bao gồm đoạn kết tiểu thuyết. Hình minh họa và giọng kể sử dụng AI; bản 1080p upscale, không phải toàn bộ phim hoạt hình liên tục. ▶ Playlist: 00:00 Vương Lâm — Tiên Nghịch 01:27 01 / THIẾT TRỤ RỜI QUÊ 04:16 02 / THIÊN NGHỊCH CHÂU 08:33 03 / HUYẾT HẢI THÂM THÙ 12:56 04 / TU MA HẢI 14:23 05 / DI SẢN CỔ THẦN 15:47 06 / TRỞ VỀ TRIỆU QUỐC 17:09 07 / HÓA PHÀM 20:00 08 / NGƯỜI KHÔNG THỂ QUÊN 22:52 09 / ÂN NGHĨA VÀ TRUYỀN THỪA 24:14 10 / BƯỚC VÀO TINH KHÔNG 27:07 11 / LÔI VÀ TÌNH NGHĨA 28:33 12 / VƯƠNG BÌNH 30:01 13 / NGƯỜI TRỞ VỀ 31:33 14 / PHONG GIỚI CHI TÔN 33:03 15 / BÊN NGOÀI BẦU TRỜI 34:30 16 / TIÊN CƯƠNG ĐẠI LỤC 37:28 17 / KHÔNG CHỊU KHUẤT PHỤC 38:53 18 / NGƯỜI ĐÃ TỈNH LẠI 43:16 Lời kết và đăng ký kênh Mời quý vị để lại cảm nhận, nhấn Thích và đăng ký TALEVIQUE! | Talevique (Full Trọn Bộ 43:24)",
+    "description": "VƯƠNG LÂM — TIÊN NGHỊCH | TOP 20 TRUYỆN TU TIÊN — Tập 03 Từ thiếu niên Thiết Trụ rời quê, Vương Lâm bước vào con đường tu luyện với Thiên Nghịch Châu, trải qua thâm thù, những năm tháng hóa phàm và...",
+    "thumbnail": "/api/thumbnail/4443219719323566",
+    "coverImage": "/api/thumbnail/4443219719323566",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Siêu Nét #92",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-44432197_19323566",
+        "seriesId": "series-long-44432197_19323566",
+        "partNumber": 1,
+        "title": "VƯƠNG LÂM — TIÊN NGHỊCH | TOP 20 TRUYỆN TU TIÊN — Tập 03 Từ thiếu niên Thiết Trụ rời quê, Vương Lâm bước vào con đường tu luyện với Thiên Nghịch Châu, trải qua thâm thù, những năm tháng hóa phàm và tình cảm không thể quên dành cho Lý Mộ Uyển. Cùng TALEVIQUE nhìn lại hành trình nghịch thiên cải mệnh của nhân vật trong Tiên Nghịch, tác phẩm của Nhĩ Căn. ️ Video tóm tắt và bình luận có tiết lộ diễn biến, bao gồm đoạn kết tiểu thuyết. Hình minh họa và giọng kể sử dụng AI; bản 1080p upscale, không phải toàn bộ phim hoạt hình liên tục. ▶ Playlist: 00:00 Vương Lâm — Tiên Nghịch 01:27 01 / THIẾT TRỤ RỜI QUÊ 04:16 02 / THIÊN NGHỊCH CHÂU 08:33 03 / HUYẾT HẢI THÂM THÙ 12:56 04 / TU MA HẢI 14:23 05 / DI SẢN CỔ THẦN 15:47 06 / TRỞ VỀ TRIỆU QUỐC 17:09 07 / HÓA PHÀM 20:00 08 / NGƯỜI KHÔNG THỂ QUÊN 22:52 09 / ÂN NGHĨA VÀ TRUYỀN THỪA 24:14 10 / BƯỚC VÀO TINH KHÔNG 27:07 11 / LÔI VÀ TÌNH NGHĨA 28:33 12 / VƯƠNG BÌNH 30:01 13 / NGƯỜI TRỞ VỀ 31:33 14 / PHONG GIỚI CHI TÔN 33:03 15 / BÊN NGOÀI BẦU TRỜI 34:30 16 / TIÊN CƯƠNG ĐẠI LỤC 37:28 17 / KHÔNG CHỊU KHUẤT PHỤC 38:53 18 / NGƯỜI ĐÃ TỈNH LẠI 43:16 Lời kết và đăng ký kênh Mời quý vị để lại cảm nhận, nhấn Thích và đăng ký TALEVIQUE! | Talevique (Full Trọn Bộ 43:24)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4443219719323566",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4443219719323566&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "43:24",
+        "thumbnail": "/api/thumbnail/4443219719323566",
+        "viewsCount": 36450,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-18320077_01251055",
+    "slug": "roi-na9-sieu-dep-trai-nu9-ba-manh-thien-kim-that-van-vo-song-toan-1-3--1055",
+    "title": " 《 푻푹푶̣푵 푩푶̣̂ 》RỒI - (NA9 SIÊU ĐẸP TRAI, NU9 BẢ MẠNH) Thiên Kim Thật Văn Võ Song Toàn 1 -3.  __________ ️ 푪풂̉풎 풐̛풏 풎풐̣풊 풏품풖̛풐̛̀풊 đ풂̃ 풍풖풐̂풏 풕풉풆풐 풅풐̃풊 풗풂̀ 풖̉풏품 풉풐̣̂ 풔풐́풑! 푵풆̂́풖 풕풊풆̣̂풏, 풏풉풐̛̀ 풎풐̣풊 풏품풖̛풐̛̀풊 품풊풖́풑 풎풊̀풏풉 1 풍풂̂̀풏 풃풂̂́풎 풗풂̀풐 풍풊풏풌 푺.풉.풐.풑.풆.풆 풏풂̀풚, đ풆̂̉ 풎풊̀풏풉 풄풐́ 풕풉풆̂풎 풄풐̂́풄 풕풓풂̀ 풔풖̛̃풂 풍풂̂́풚 đ풐̣̂풏품 풍풖̛̣풄 풍풆̂풏 풕풉풆̂풎 풏풉풊풆̂̀풖 풑풉풊풎 풉풂풚 풉풐̛풏 풏풖̛̃풂 풏풉풂 ️ (푀푛 푡ℎ푎푚 푘ℎ푎̉표 푛푒̂́푢 푐표́ 푛ℎ푢 푐푎̂̀푢 푡ℎ푖̀ 푚.푢.푎 ℎ.푎̀.푛.푔 푢̉푛푔 ℎ표̣̂ 푚푖̀푛ℎ, 푘ℎ표̂푛푔 푡ℎ푖̀ 푐ℎ푖̉ 푐푎̂̀푛 1 푐푙푖푐푘 푙푎̀ đ푢̛표̛̣푐 푎̣) 푳풐풗풆 풂풍풍 ️ Follow page để xem thêm phim mới! | Nguyễn Ngọc Nhi (Full Trọn Bộ 7:15:56)",
+    "description": " 《 푻푹푶̣푵 푩푶̣̂ 》RỒI - (NA9 SIÊU ĐẸP TRAI, NU9 BẢ MẠNH) Thiên Kim Thật Văn Võ Song Toàn 1 -3.  __________ ️ 푪풂̉풎 풐̛풏 풎풐̣풊 풏품풖̛풐̛̀풊 đ풂̃ 풍풖풐̂풏 풕풉풆풐 풅풐̃풊 풗풂̀ 풖̉풏품 풉풐̣̂...",
+    "thumbnail": "/api/thumbnail/1832007701251055",
+    "coverImage": "/api/thumbnail/1832007701251055",
+    "channelName": "Thiên Đạo 3D Tiên Nghịch Siêu Nét #92",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-18320077_01251055",
+        "seriesId": "series-long-18320077_01251055",
+        "partNumber": 1,
+        "title": " 《 푻푹푶̣푵 푩푶̣̂ 》RỒI - (NA9 SIÊU ĐẸP TRAI, NU9 BẢ MẠNH) Thiên Kim Thật Văn Võ Song Toàn 1 -3.  __________ ️ 푪풂̉풎 풐̛풏 풎풐̣풊 풏품풖̛풐̛̀풊 đ풂̃ 풍풖풐̂풏 풕풉풆풐 풅풐̃풊 풗풂̀ 풖̉풏품 풉풐̣̂ 풔풐́풑! 푵풆̂́풖 풕풊풆̣̂풏, 풏풉풐̛̀ 풎풐̣풊 풏품풖̛풐̛̀풊 품풊풖́풑 풎풊̀풏풉 1 풍풂̂̀풏 풃풂̂́풎 풗풂̀풐 풍풊풏풌 푺.풉.풐.풑.풆.풆 풏풂̀풚, đ풆̂̉ 풎풊̀풏풉 풄풐́ 풕풉풆̂풎 풄풐̂́풄 풕풓풂̀ 풔풖̛̃풂 풍풂̂́풚 đ풐̣̂풏품 풍풖̛̣풄 풍풆̂풏 풕풉풆̂풎 풏풉풊풆̂̀풖 풑풉풊풎 풉풂풚 풉풐̛풏 풏풖̛̃풂 풏풉풂 ️ (푀푛 푡ℎ푎푚 푘ℎ푎̉표 푛푒̂́푢 푐표́ 푛ℎ푢 푐푎̂̀푢 푡ℎ푖̀ 푚.푢.푎 ℎ.푎̀.푛.푔 푢̉푛푔 ℎ표̣̂ 푚푖̀푛ℎ, 푘ℎ표̂푛푔 푡ℎ푖̀ 푐ℎ푖̉ 푐푎̂̀푛 1 푐푙푖푐푘 푙푎̀ đ푢̛표̛̣푐 푎̣) 푳풐풗풆 풂풍풍 ️ Follow page để xem thêm phim mới! | Nguyễn Ngọc Nhi (Full Trọn Bộ 7:15:56)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1832007701251055",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1832007701251055&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "7:15:56",
+        "thumbnail": "/api/thumbnail/1832007701251055",
+        "viewsCount": 22146,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-16800297_73538700",
     "slug": "phan-4-pham-nhan-tu-tien-bat-dau-tu-tap-dich-ngoai-mon-tiep-tuc-hanh-t-8700",
     "title": "Phần 4 Phàm Nhân Tu Tiên Bắt Đầu Từ Tạp Dịch Ngoại Môn tiếp tục hành trình của Lâm Viễn Dương khi hắn giúp Huyễn Ảnh báo thù, giải cứu tộc nhân, đồng thời thu phục nhiều cường giả và khám phá bí mật của các cấm địa. Trở về Thanh Vân Tông, hắn gây chấn động chư thiên khi đứng đầu Thiên Kiêu Bảng với chiến lực vượt xa cảnh giới.  Đăng ký kênh để ủng hộ mình:  Kết nối với mình qua các nền tảng:  TikTok:  Fanpage: © Music, images, and videos in this clip are copyrighted by their original owners. © Fair use under Section 107 of the Copyright Act 1976 © Bản quyền nội dung Vietsub thuộc về Linh San Vietsub.  Vui lòng không reup dưới mọi hình thức.  For work & copyright: baodatngo97051@gmail.com  Tag: | 푩풆풔풕 푩풖풚 푫풂풊풍풚 (Full Trọn Bộ 4:37:30)",
