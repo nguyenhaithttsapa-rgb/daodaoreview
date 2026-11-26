@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-14872086_16688560",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-8560",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: XUYÊN KHÔNG THÀNH THAM QUAN, HỆ THỐNG BẮT PHÁ SẢN NHƯNG CÀNG TIÊU TIỀN CẢ HUYỆN CÀNG GIÀU | Trầm Hương Các (Full Trọn Bộ 2:22:18)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: XUYÊN KHÔNG THÀNH THAM QUAN, HỆ THỐNG BẮT...",
+    "thumbnail": "/api/thumbnail/1487208616688560",
+    "coverImage": "/api/thumbnail/1487208616688560",
+    "channelName": "Phản Xuyên Khuấy Đảo Triều Đình Xem Cười Xỉu #130.2",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-14872086_16688560",
+        "seriesId": "series-long-14872086_16688560",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: XUYÊN KHÔNG THÀNH THAM QUAN, HỆ THỐNG BẮT PHÁ SẢN NHƯNG CÀNG TIÊU TIỀN CẢ HUYỆN CÀNG GIÀU | Trầm Hương Các (Full Trọn Bộ 2:22:18)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1487208616688560",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1487208616688560&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:22:18",
+        "thumbnail": "/api/thumbnail/1487208616688560",
+        "viewsCount": 33099,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-12878496_83306020",
     "slug": "truyen-audio-co-vo-nho-duoc-cung-chieu-cua-trum-truong-thai-tu-gia-ful-6020",
     "title": "Truyện Audio: Cô Vợ Nhỏ Được Cưng Chiều Của Trùm Trường Thái Tử Gia [Full trọn bộ] | Hoa Ảnh Các (Full Trọn Bộ 58:06)",
