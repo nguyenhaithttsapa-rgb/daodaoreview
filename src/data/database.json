@@ -1,5 +1,56 @@
 [
   {
+    "id": "series-long-25831872_65481143",
+    "slug": "phan-18-chien-than-thuong-lo-tro-tan-cuu-chau-linh-dac-chung-xuyen-kho-1143",
+    "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Nguyễn Tự (Full Trọn Bộ 2:17:04)",
+    "description": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí",
+    "thumbnail": "/api/thumbnail/2583187265481143",
+    "coverImage": "/api/thumbnail/2583187265481143",
+    "channelName": "Tạ Viết Cường",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 2,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-25831872_65481143",
+        "seriesId": "series-long-25831872_65481143",
+        "partNumber": 1,
+        "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Nguyễn Tự (Full Trọn Bộ 2:17:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2583187265481143",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2583187265481143&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:17:04",
+        "thumbnail": "/api/thumbnail/2583187265481143",
+        "viewsCount": 20416,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-11159924_78070766",
+        "seriesId": "series-long-25831872_65481143",
+        "partNumber": 2,
+        "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Tạ Viết Cường (Full Trọn Bộ 2:17:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1115992478070766",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1115992478070766&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:17:04",
+        "thumbnail": "/api/thumbnail/1115992478070766",
+        "viewsCount": 27527,
+        "publishedAt": "2026-10-31"
+      }
+    ]
+  },
+  {
     "id": "series-long-16967117_77879124",
     "slug": "chao-mung-cac-em-hoc-sinh-lop6-den-voi-video-chua-de-on-tap-cuoi-hoc-k-9124",
     "title": "Chào mừng các em học sinh lớp6 đến với video chữa đề ôn tập cuối học kì 2 môn Toán theo cấu trúc mới 2025! Trong video này, thầy Giáp sẽ hướng dẫn chi tiết cách giải Đề số 1, giúp các em nắm vững kiến thức và các dạng bài tập quan trọng sẽ xuất hiện trong bài thi cuối kỳ. Video bao gồm: * Phân tích cấu trúc đề thi mới nhất năm 2025. * Hướng dẫn giải chi tiết từng bài tập trong đề 1. * Lưu ý những lỗi sai thường gặp và cách khắc phục. * Mẹo làm bài thi hiệu quả để đạt điểm cao. Hy vọng video này sẽ là tài liệu ôn tập hữu ích giúp các em tự tin bước vào kỳ thi cuối học kì 2. Đừng quên nhấn Like, Share và Đăng ký kênh để nhận được những bài giảng mới nhất từ thầy Giáp nhé! Nếu có bất kỳ thắc mắc nào, hãy để lại bình luận bên dưới.  Theo dõi Fanpage Thầy Giáp & Đăng ký kênh YouTube: để nhận trọn bộ bài giảng Toán mới nhất! | Học Toán cùng Thầy Giáp (Full Trọn Bộ 1:08:00)",
@@ -127067,14 +127118,28 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-10-31",
+    "updatedAt": "2026-11-26",
     "episodes": [
+      {
+        "id": "ep-long-25831872_65481143",
+        "seriesId": "series-long-11159924_78070766",
+        "partNumber": 1,
+        "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Nguyễn Tự (Full Trọn Bộ 2:17:04)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2583187265481143",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2583187265481143&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:17:04",
+        "thumbnail": "/api/thumbnail/2583187265481143",
+        "viewsCount": 20416,
+        "publishedAt": "2026-11-26"
+      },
       {
         "id": "ep-long-11159924_78070766",
         "seriesId": "series-long-11159924_78070766",
-        "partNumber": 1,
+        "partNumber": 2,
         "title": "Phần 18 | Chiến Thần Thương Lộ - Tro Tàn Cửu Châu - Lính Đặc Chủng Xuyên Không Làm Tốt Thí | Tạ Viết Cường (Full Trọn Bộ 2:17:04)",
         "originalUrl": "https://www.facebook.com/watch/?v=1115992478070766",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1115992478070766&show_text=0&autoplay=0",
