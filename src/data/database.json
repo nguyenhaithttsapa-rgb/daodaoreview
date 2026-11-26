@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-20091951_10486156",
+    "slug": "tap-2-phim-hay-tron-bo-cuu-long-doat-dich-phim-thuyet-minh-moi-nhat-ph-6156",
+    "title": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực | Cày Phim (Full Trọn Bộ 30:00)",
+    "description": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực Tình tiết và nội dung...",
+    "thumbnail": "/api/thumbnail/2009195110486156",
+    "coverImage": "/api/thumbnail/2009195110486156",
+    "channelName": "Cày Phim Xuyên Đêm",
+    "genres": [
+      "Huyền Huyễn Trọng Sinh",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-20091951_10486156",
+        "seriesId": "series-long-20091951_10486156",
+        "partNumber": 1,
+        "title": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực | Cày Phim (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2009195110486156",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2009195110486156&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:00",
+        "thumbnail": "/api/thumbnail/2009195110486156",
+        "viewsCount": 44854,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-14179111_06187927",
     "slug": "tong-tai-gap-mon-an-ma-nguoi-yeu-ghet-nhat-cho-co-thu-xem-lieu-co-co-t-7927",
     "title": "Tổng tài gắp món ăn mà người yêu ghét nhất cho cô, thử xem liệu cô có thực sự là người anh yêu - Tập Cuối | COP McKeown Temple Asokwa (Full Trọn Bộ 30:51)",
