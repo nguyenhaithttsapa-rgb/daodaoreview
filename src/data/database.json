@@ -1,5 +1,238 @@
 [
   {
+    "id": "series-long-25320406_83874695",
+    "slug": "quyen-khuynh-giai-nhan-tap-07-thien-kim-trung-sinh-bao-thu-dung-tam-ke-4695",
+    "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+    "description": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung",
+    "thumbnail": "/api/thumbnail/2532040683874695",
+    "coverImage": "/api/thumbnail/2532040683874695",
+    "channelName": "Roxana",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 15,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-22111089_63121013",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 1,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 05 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 47:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2211108963121013",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2211108963121013&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "47:00",
+        "thumbnail": "/api/thumbnail/2211108963121013",
+        "viewsCount": 55064,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-10887546_43922693",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 2,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 05 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Christabel (Full Trọn Bộ 47:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1088754643922693",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1088754643922693&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "47:00",
+        "thumbnail": "/api/thumbnail/1088754643922693",
+        "viewsCount": 25855,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-11604113_19767507",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 3,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 05 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 47:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1160411319767507",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1160411319767507&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "47:00",
+        "thumbnail": "/api/thumbnail/1160411319767507",
+        "viewsCount": 38616,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-14369455_71210898",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 4,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 05 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 47:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1436945571210898",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1436945571210898&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "47:00",
+        "thumbnail": "/api/thumbnail/1436945571210898",
+        "viewsCount": 52408,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-17862521_52614748",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 5,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 06 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 43:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1786252152614748",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1786252152614748&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "43:09",
+        "thumbnail": "/api/thumbnail/1786252152614748",
+        "viewsCount": 21369,
+        "publishedAt": "2026-10-14"
+      },
+      {
+        "id": "ep-long-25320406_83874695",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 7,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/4210289385935302",
+        "viewsCount": 30306,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-10559874_47460504",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 8,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/1055987447460504",
+        "viewsCount": 36049,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-14497876_07342429",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 9,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/1449787607342429",
+        "viewsCount": 50680,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-11074165_68937448",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 10,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/1107416568937448",
+        "viewsCount": 21204,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-26229481_68141590",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 11,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2622948168141590",
+        "viewsCount": 55405,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-20265600_68047711",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 12,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2026560068047711",
+        "viewsCount": 56698,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-20348190_30510388",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 13,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2034819030510388",
+        "viewsCount": 33620,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-14292326_12657794",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 14,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/1429232612657794",
+        "viewsCount": 51551,
+        "publishedAt": "2026-11-02"
+      },
+      {
+        "id": "ep-long-22719106_20208491",
+        "seriesId": "series-long-25320406_83874695",
+        "partNumber": 15,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2271910620208491",
+        "viewsCount": 51005,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
     "id": "series-long-11453493_38076734",
     "slug": "phan-5-xuyen-thanh-lao-to-gia-toc-suy-tan-xuat-quan-kich-hoat-he-thong-6734",
     "title": "Phần 5 | Xuyên Thành Lão Tổ Gia Tộc Suy Tàn, Xuất Quan Kích Hoạt Hệ Thống Vạn Giới Đế Tộc | Richard (Full Trọn Bộ 2:59:25)",
@@ -26554,9 +26787,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -26629,9 +26862,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-42102893_85935302",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-42102893_85935302",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -26645,7 +26892,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -26659,7 +26906,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -26673,7 +26920,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -26687,7 +26934,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -26701,7 +26948,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -26715,7 +26962,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -26729,7 +26976,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -26743,7 +26990,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-42102893_85935302",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -51642,9 +51889,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -51717,9 +51964,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-22111089_63121013",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-22111089_63121013",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -51733,7 +51994,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -51747,7 +52008,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -51761,7 +52022,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -51775,7 +52036,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -51789,7 +52050,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -51803,7 +52064,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -51817,7 +52078,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -51831,7 +52092,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-22111089_63121013",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -55722,9 +55983,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -55797,9 +56058,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-10559874_47460504",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-10559874_47460504",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -55813,7 +56088,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -55827,7 +56102,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -55841,7 +56116,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -55855,7 +56130,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -55869,7 +56144,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -55883,7 +56158,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -55897,7 +56172,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -55911,7 +56186,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-10559874_47460504",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -55941,9 +56216,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -56016,9 +56291,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-10887546_43922693",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-10887546_43922693",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -56032,7 +56321,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -56046,7 +56335,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -56060,7 +56349,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -56074,7 +56363,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -56088,7 +56377,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -56102,7 +56391,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -56116,7 +56405,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -56130,7 +56419,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-10887546_43922693",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -58061,9 +58350,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -58136,9 +58425,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-11604113_19767507",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-11604113_19767507",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -58152,7 +58455,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -58166,7 +58469,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -58180,7 +58483,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -58194,7 +58497,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -58208,7 +58511,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -58222,7 +58525,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -58236,7 +58539,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -58250,7 +58553,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-11604113_19767507",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -58280,9 +58583,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -58355,9 +58658,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-14369455_71210898",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-14369455_71210898",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -58371,7 +58688,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -58385,7 +58702,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -58399,7 +58716,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -58413,7 +58730,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -58427,7 +58744,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -58441,7 +58758,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -58455,7 +58772,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -58469,7 +58786,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-14369455_71210898",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -81360,9 +81677,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -81435,9 +81752,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-14497876_07342429",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-14497876_07342429",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -81451,7 +81782,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -81465,7 +81796,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -81479,7 +81810,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -81493,7 +81824,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -81507,7 +81838,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -81521,7 +81852,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -81535,7 +81866,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -81549,7 +81880,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-14497876_07342429",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -81579,9 +81910,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -81654,9 +81985,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-11074165_68937448",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-11074165_68937448",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -81670,7 +82015,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -81684,7 +82029,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -81698,7 +82043,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -81712,7 +82057,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -81726,7 +82071,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -81740,7 +82085,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -81754,7 +82099,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -81768,7 +82113,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-11074165_68937448",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -81798,9 +82143,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -81873,9 +82218,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-26229481_68141590",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-26229481_68141590",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -81889,7 +82248,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -81903,7 +82262,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -81917,7 +82276,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -81931,7 +82290,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -81945,7 +82304,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -81959,7 +82318,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -81973,7 +82332,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -81987,7 +82346,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-26229481_68141590",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -82017,9 +82376,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -82092,9 +82451,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-20265600_68047711",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-20265600_68047711",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -82108,7 +82481,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -82122,7 +82495,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -82136,7 +82509,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -82150,7 +82523,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -82164,7 +82537,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -82178,7 +82551,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -82192,7 +82565,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -82206,7 +82579,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-20265600_68047711",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -82236,9 +82609,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -82311,9 +82684,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-20348190_30510388",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-20348190_30510388",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -82327,7 +82714,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -82341,7 +82728,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -82355,7 +82742,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -82369,7 +82756,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -82383,7 +82770,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -82397,7 +82784,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -82411,7 +82798,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -82425,7 +82812,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-20348190_30510388",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -82455,9 +82842,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -82530,9 +82917,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-14292326_12657794",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-14292326_12657794",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -82546,7 +82947,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -82560,7 +82961,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -82574,7 +82975,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -82588,7 +82989,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -82602,7 +83003,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -82616,7 +83017,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -82630,7 +83031,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -82644,7 +83045,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-14292326_12657794",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -94799,9 +95200,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -94874,9 +95275,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-22719106_20208491",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-22719106_20208491",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -94890,7 +95305,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -94904,7 +95319,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -94918,7 +95333,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -94932,7 +95347,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -94946,7 +95361,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -94960,7 +95375,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -94974,7 +95389,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -94988,7 +95403,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-22719106_20208491",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
@@ -158167,9 +158582,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 14,
+    "totalEpisodes": 15,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-22111089_63121013",
@@ -158242,9 +158657,23 @@
         "publishedAt": "2026-10-14"
       },
       {
-        "id": "ep-long-42102893_85935302",
+        "id": "ep-long-25320406_83874695",
         "seriesId": "series-long-17862521_52614748",
         "partNumber": 6,
+        "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Roxana (Full Trọn Bộ 42:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2532040683874695",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2532040683874695&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:25",
+        "thumbnail": "/api/thumbnail/2532040683874695",
+        "viewsCount": 50735,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-42102893_85935302",
+        "seriesId": "series-long-17862521_52614748",
+        "partNumber": 7,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Emmanuel (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=4210289385935302",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4210289385935302&show_text=0&autoplay=0",
@@ -158258,7 +158687,7 @@
       {
         "id": "ep-long-10559874_47460504",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phước (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1055987447460504",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1055987447460504&show_text=0&autoplay=0",
@@ -158272,7 +158701,7 @@
       {
         "id": "ep-long-14497876_07342429",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bảo Ngọc (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1449787607342429",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1449787607342429&show_text=0&autoplay=0",
@@ -158286,7 +158715,7 @@
       {
         "id": "ep-long-11074165_68937448",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Bá Quốc Anh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1107416568937448",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1107416568937448&show_text=0&autoplay=0",
@@ -158300,7 +158729,7 @@
       {
         "id": "ep-long-26229481_68141590",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Võ Nguyễn Hạnh (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2622948168141590",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2622948168141590&show_text=0&autoplay=0",
@@ -158314,7 +158743,7 @@
       {
         "id": "ep-long-20265600_68047711",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Thị Thùy Giang (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2026560068047711",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026560068047711&show_text=0&autoplay=0",
@@ -158328,7 +158757,7 @@
       {
         "id": "ep-long-20348190_30510388",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 12,
+        "partNumber": 13,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Phú Hưng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2034819030510388",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2034819030510388&show_text=0&autoplay=0",
@@ -158342,7 +158771,7 @@
       {
         "id": "ep-long-14292326_12657794",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 13,
+        "partNumber": 14,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Nguyễn Định (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=1429232612657794",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1429232612657794&show_text=0&autoplay=0",
@@ -158356,7 +158785,7 @@
       {
         "id": "ep-long-22719106_20208491",
         "seriesId": "series-long-17862521_52614748",
-        "partNumber": 14,
+        "partNumber": 15,
         "title": "QUYỀN KHUYNH GIAI NHÂN - Tập 07 | Thiên Kim Trùng Sinh Báo Thù, Dùng Tâm Kế Khuynh Đảo Hậu Cung | Phan Trọng (Full Trọn Bộ 42:25)",
         "originalUrl": "https://www.facebook.com/watch/?v=2271910620208491",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2271910620208491&show_text=0&autoplay=0",
