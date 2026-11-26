@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-46013161_33479637",
+    "slug": "full-tron-bo-review-phim-tieu-tong-thi-ra-la-anh-thien-kim-nhi-tieu-th-9637",
+    "title": "Full Trọn Bộ - Review Phim_ TIÊU TỔNG, THÌ RA LÀ ANH._____Thiên Kim Nhị Tiểu Thư Gặp T.ai. N.ạ.n Và M.ất Đi...tập 2 | Trà Đá Đường (Full Trọn Bộ 3:57:01)",
+    "description": "Full Trọn Bộ - Review Phim_ TIÊU TỔNG, THÌ RA LÀ ANH._____Thiên Kim Nhị Tiểu Thư Gặp T.ai. N.ạ.n Và M.ất Đi...tập 2",
+    "thumbnail": "/api/thumbnail/4601316133479637",
+    "coverImage": "/api/thumbnail/4601316133479637",
+    "channelName": "Động Phim Phim Hài Hước Official",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-46013161_33479637",
+        "seriesId": "series-long-46013161_33479637",
+        "partNumber": 1,
+        "title": "Full Trọn Bộ - Review Phim_ TIÊU TỔNG, THÌ RA LÀ ANH._____Thiên Kim Nhị Tiểu Thư Gặp T.ai. N.ạ.n Và M.ất Đi...tập 2 | Trà Đá Đường (Full Trọn Bộ 3:57:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4601316133479637",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4601316133479637&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "3:57:01",
+        "thumbnail": "/api/thumbnail/4601316133479637",
+        "viewsCount": 29029,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-16471108_70250203",
     "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--0203",
     "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 1:59:12)",
