@@ -1,5 +1,56 @@
 [
   {
+    "id": "series-long-14333022_81044196",
+    "slug": "nhat-niem-vinh-hang-tap-159-den-tap-161-vu-tru-hoat-hinh-3d-tq-full-tr-4196",
+    "title": "Nhất Niệm Vĩnh Hằng - Tập 159 đến Tập 161 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 45:27)",
+    "description": "Nhất Niệm Vĩnh Hằng - Tập 159 đến Tập 161",
+    "thumbnail": "/api/thumbnail/1433302281044196",
+    "coverImage": "/api/thumbnail/1433302281044196",
+    "channelName": "Vũ Trụ Hoạt Hình 3D TQ",
+    "genres": [
+      "Huyền Huyễn Thần Thoại",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 2,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-17273058_81490387",
+        "seriesId": "series-long-14333022_81044196",
+        "partNumber": 1,
+        "title": "Nhất Niệm Vĩnh Hằng - Tập 157 đến Tập 158 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 30:24)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1727305881490387",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1727305881490387&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:24",
+        "thumbnail": "/api/thumbnail/1727305881490387",
+        "viewsCount": 5300,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-14333022_81044196",
+        "seriesId": "series-long-14333022_81044196",
+        "partNumber": 2,
+        "title": "Nhất Niệm Vĩnh Hằng - Tập 159 đến Tập 161 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 45:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1433302281044196",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1433302281044196&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "45:27",
+        "thumbnail": "/api/thumbnail/1433302281044196",
+        "viewsCount": 2900,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-24833837_32185622",
     "slug": "mong-thanh-huyen-tieu-su-muoi-duoc-ca-tong-mon-cung-chieu-mot-kiem-huy-5622",
     "title": "Mộng Thanh Huyền: Tiểu Sư Muội Được Cả Tông Môn Cưng Chiều – Một Kiếm Hủy Thiên Địa, Phần 5+6 | Animơ (Full Trọn Bộ 10:08:26)",
@@ -86854,9 +86905,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 1,
+    "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-26",
     "episodes": [
       {
         "id": "ep-long-17273058_81490387",
@@ -86871,6 +86922,20 @@
         "thumbnail": "/api/thumbnail/1727305881490387",
         "viewsCount": 5300,
         "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-14333022_81044196",
+        "seriesId": "series-long-17273058_81490387",
+        "partNumber": 2,
+        "title": "Nhất Niệm Vĩnh Hằng - Tập 159 đến Tập 161 | Vũ Trụ Hoạt Hình 3D TQ (Full Trọn Bộ 45:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1433302281044196",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1433302281044196&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "45:27",
+        "thumbnail": "/api/thumbnail/1433302281044196",
+        "viewsCount": 2900,
+        "publishedAt": "2026-11-26"
       }
     ]
   },
