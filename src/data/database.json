@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-13589672_82510835",
+    "slug": "4-3-trieu-luot-xem-59k-cam-xuc-review-phim-vo-cua-than-long-tron-bo-co-0835",
+    "title": "4,3 triệu lượt xem · 59K cảm xúc | REVIEW PHIM : VỢ CỦA THẦN LONG.TRỌN BỘ Cô gái vô tình có 1 mối tình với long quân và cái kết ấm lòng | AĐG Review (Full Trọn Bộ 1:19:25)",
+    "description": "REVIEW PHIM : VỢ CỦA THẦN LONG.TRỌN BỘ Cô gái vô tình có 1 mối tình với long quân và cái kết ấm lòng",
+    "thumbnail": "/api/thumbnail/1358967282510835",
+    "coverImage": "/api/thumbnail/1358967282510835",
+    "channelName": "AĐG Review 1",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-13589672_82510835",
+        "seriesId": "series-long-13589672_82510835",
+        "partNumber": 1,
+        "title": "4,3 triệu lượt xem · 59K cảm xúc | REVIEW PHIM : VỢ CỦA THẦN LONG.TRỌN BỘ Cô gái vô tình có 1 mối tình với long quân và cái kết ấm lòng | AĐG Review (Full Trọn Bộ 1:19:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1358967282510835",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1358967282510835&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:19:25",
+        "thumbnail": "/api/thumbnail/1358967282510835",
+        "viewsCount": 53707,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-15537421_79290210",
     "slug": "tap-3-phim-hay-tron-bo-3-nam-pha-cuc-phim-thuyet-minh-moi-nhat-phim-ai-0210",
     "title": "Tập 3: Phim hay trọn bộ 3 năm phá cục, phim thuyết minh mới nhất, phim AI | Mr1987 (Full Trọn Bộ 31:04)",
