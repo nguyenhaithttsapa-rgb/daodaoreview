@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16452665_54058713",
+    "slug": "tieu-su-muoi-con-gai-ma-quan-duoc-ca-kiem-tong-cung-chieu-p5-animo-ful-8713",
+    "title": "Tiểu Sư Muội Con gái Ma quân Được Cả Kiếm Tông Cưng Chiều P5 殺 | Animơ (Full Trọn Bộ 14:00:55)",
+    "description": "Tiểu Sư Muội Con gái Ma quân Được Cả Kiếm Tông Cưng Chiều P5 殺",
+    "thumbnail": "/api/thumbnail/1645266554058713",
+    "coverImage": "/api/thumbnail/1645266554058713",
+    "channelName": "LCK Phim Hay",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16452665_54058713",
+        "seriesId": "series-long-16452665_54058713",
+        "partNumber": 1,
+        "title": "Tiểu Sư Muội Con gái Ma quân Được Cả Kiếm Tông Cưng Chiều P5 殺 | Animơ (Full Trọn Bộ 14:00:55)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1645266554058713",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1645266554058713&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "14:00:55",
+        "thumbnail": "/api/thumbnail/1645266554058713",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-13679344_68802192",
     "slug": "phim-tron-bo-con-duong-tu-tien-cua-ke-pham-tran-nghich-thien-cai-menh--2192",
     "title": "【PHIM TRỌN BỘ】Con Đường Tu Tiên Của Kẻ Phàm Trần – Nghịch Thiên Cải Mệnh Chém Giết Tiên Nhân | Review Phim AI (Full Trọn Bộ 1:59:14)",
