@@ -1,5 +1,126 @@
 [
   {
+    "id": "series-long-17633917_01627299",
+    "slug": "phan-9-phe-vat-tap-dich-ngu-linh-can-ta-co-than-thu-luyen-phe-duoc-tha-7299",
+    "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+    "description": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ...",
+    "thumbnail": "/api/thumbnail/1763391701627299",
+    "coverImage": "/api/thumbnail/1763391701627299",
+    "channelName": "Mộ Dung Tuyết. hồng",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 7,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-15850060_22949249",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 1,
+        "title": "Phần 2 | Phế Vật Tạp Dịch Ngũ Linh Căn - Vạn Ma Quật Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 1:49:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1585006022949249",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1585006022949249&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:49:36",
+        "thumbnail": "/api/thumbnail/1585006022949249",
+        "viewsCount": 23656,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-94332674_1938011",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/943326741938011",
+        "viewsCount": 41956,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-28795033_12352906_0",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 3,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/28795033123529060",
+        "viewsCount": 52671,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-15495679_29704357",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 4,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1549567929704357",
+        "viewsCount": 2700,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-17150119_06847359",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 5,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1715011906847359",
+        "viewsCount": 45775,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-13091670_67962338",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 6,
+        "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:29:07",
+        "thumbnail": "/api/thumbnail/1309167067962338",
+        "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-14847719_10186002",
     "slug": "trong-sinh-roi-ai-con-ga-cho-phu-nhi-dai-phan-1-tap-01-28-sieu-pham-ph-6002",
     "title": " TRỌNG SINH RỒI AI CÒN GẢ CHO PHÚ NHỊ ĐẠI - PHẦN 1 (Tập 01 - 28)  Siêu phẩm phim AI trọng sinh đại nữ chủ cực cuốn: Kiếp trước một lòng yêu thương, hy sinh tất cả vì vị hôn phu công tử nhà giàu, đổi lại chỉ là sự phản bội cay đắng và cái chết oan ức trong cô độc. Được ông trời cho cơ hội sống lại, cô dứt khoát xé nát hôn ước, từ chối làm dâu hào môn! Bằng tầm nhìn vượt thời gian và bản lĩnh phi thường, cô từng bước xây dựng đế chế tài chính của riêng mình, khiến những kẻ từng khinh khi phải quỳ gối nể phục! Đón xem Phần 2 tiếp theo vào lúc 19:30 tối nay trên Mọt Phim cả nhà nhé! ️ | Mọt Phim AI Cùng Mình (Full Trọn Bộ 44:04)",
@@ -10061,7 +10182,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -10147,6 +10268,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-94332674_1938011",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
@@ -10168,7 +10303,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -10254,6 +10389,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-28795033_12352906_0",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
@@ -12129,7 +12278,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -12215,6 +12364,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-13091670_67962338",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
@@ -35804,7 +35967,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -35890,6 +36053,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-15495679_29704357",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
@@ -36325,7 +36502,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -36411,6 +36588,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-15850060_22949249",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
@@ -65483,7 +65674,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
     "updatedAt": "2026-11-26",
     "episodes": [
@@ -65569,6 +65760,20 @@
         "duration": "2:29:07",
         "thumbnail": "/api/thumbnail/1309167067962338",
         "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-17150119_06847359",
+        "partNumber": 7,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
         "publishedAt": "2026-11-26"
       }
     ]
