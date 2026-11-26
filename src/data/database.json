@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-19400816_63358874",
+    "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-8874",
+    "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Phương Linh (Full Trọn Bộ 30:00)",
+    "description": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1940081663358874",
+    "coverImage": "/api/thumbnail/1940081663358874",
+    "channelName": "Thanh Nguyệt",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-19400816_63358874",
+        "seriesId": "series-long-19400816_63358874",
+        "partNumber": 1,
+        "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Phương Linh (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1940081663358874",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1940081663358874&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:00",
+        "thumbnail": "/api/thumbnail/1940081663358874",
+        "viewsCount": 50540,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-16294777_84814463",
+    "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-4463",
+    "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 30:00)",
+    "description": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1629477784814463",
+    "coverImage": "/api/thumbnail/1629477784814463",
+    "channelName": "Thanh Nguyệt",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-16294777_84814463",
+        "seriesId": "series-long-16294777_84814463",
+        "partNumber": 1,
+        "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1629477784814463",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1629477784814463&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:00",
+        "thumbnail": "/api/thumbnail/1629477784814463",
+        "viewsCount": 42006,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-23761892_16461011",
     "slug": "full-tron-bo-thien-giang-manh-bao-ca-nha-deu-doc-duoc-tam-goc-de-thuon-1011",
     "title": "️ 《FULL TRỌN BỘ》 《THIÊN GIÁNG MANH BẢO: CẢ NHÀ ĐỀU ĐỌC ĐƯỢC TÂM》 | Góc Dễ Thương Của Bé (Full Trọn Bộ 2:31:54)",
