@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-90255645_9259632",
+    "slug": "phim-hay-tron-bo-vo-y-thanh-hau-phim-thuyet-minh-moi-nhat-phim-ai-phim-9632",
+    "title": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI | Phim Ngắn Cổ Trang (Full Trọn Bộ 2:11:45)",
+    "description": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/902556459259632",
+    "coverImage": "/api/thumbnail/902556459259632",
+    "channelName": "Bỉm Sữa Review",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-90255645_9259632",
+        "seriesId": "series-long-90255645_9259632",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI | Phim Ngắn Cổ Trang (Full Trọn Bộ 2:11:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=902556459259632",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D902556459259632&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:11:45",
+        "thumbnail": "/api/thumbnail/902556459259632",
+        "viewsCount": 21952,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-35383836_36300207",
     "slug": "phim-hay-tron-bo-dich-nu-pha-cuc-phim-thuyet-minh-moi-nhat-phim-ai-vit-0207",
     "title": "Phim hay trọn bộ Đích nữ phá cục, phim thuyết minh mới nhất, phim AI | Vitamin Sách 1988 (Full Trọn Bộ 56:51)",
