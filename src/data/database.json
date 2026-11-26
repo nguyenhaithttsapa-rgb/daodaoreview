@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-21306232_57576510",
+    "slug": "full-mua-1-mua-2-mua-3-phan-1-pham-nhan-tu-tien-di-luc-du-tien-linh-ca-6510",
+    "title": " [FULL MÙA 1 + Mùa 2 + Mùa 3 phần 1] PHÀM NHÂN TU TIÊN DỊ LỤC – DƯ TIỆN: LINH CĂN PHẾ PHẨM, NGHỊCH THIÊN TU TIÊN!  Xem trọn bộ tại NES TRUYỆN TRANH:  ️ LIKE, CHIA SẺ và THEO DÕI để đón xem những bộ truyện mới nhất! | Nes Truyện Tranh (Full Trọn Bộ 33:51)",
+    "description": " [FULL MÙA 1 + Mùa 2 + Mùa 3 phần 1] PHÀM NHÂN TU TIÊN DỊ LỤC – DƯ TIỆN: LINH CĂN PHẾ PHẨM, NGHỊCH THIÊN TU TIÊN!  Xem trọn bộ tại NES TRUYỆN TRANH:  ️...",
+    "thumbnail": "/api/thumbnail/2130623257576510",
+    "coverImage": "/api/thumbnail/2130623257576510",
+    "channelName": "Tiên Nghịch",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-26",
+    "episodes": [
+      {
+        "id": "ep-long-21306232_57576510",
+        "seriesId": "series-long-21306232_57576510",
+        "partNumber": 1,
+        "title": " [FULL MÙA 1 + Mùa 2 + Mùa 3 phần 1] PHÀM NHÂN TU TIÊN DỊ LỤC – DƯ TIỆN: LINH CĂN PHẾ PHẨM, NGHỊCH THIÊN TU TIÊN!  Xem trọn bộ tại NES TRUYỆN TRANH:  ️ LIKE, CHIA SẺ và THEO DÕI để đón xem những bộ truyện mới nhất! | Nes Truyện Tranh (Full Trọn Bộ 33:51)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2130623257576510",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2130623257576510&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "33:51",
+        "thumbnail": "/api/thumbnail/2130623257576510",
+        "viewsCount": 19582,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-10822824_67853004",
     "slug": "phan-39-nhat-kiem-truong-sinh-tap-dich-khong-linh-can-ta-dung-tan-kiem-3004",
     "title": "Phần 39 | Nhất Kiếm Trường Sinh: Tạp Dịch Không Linh Căn, Ta Dùng Tàn Kiếm Nghịch Chuyển Thiên Mệnh. | Tuyệt Tác Donghua (Full Trọn Bộ 2:49:21)",
