@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-18747025_16823618",
+    "slug": "tap-cuoi-phim-hay-tron-bo-tu-lang-thanh-nguyet-phim-thuyet-minh-moi-nh-3618",
+    "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 30:00)",
+    "description": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1874702516823618",
+    "coverImage": "/api/thumbnail/1874702516823618",
+    "channelName": "Thùy Link",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-18747025_16823618",
+        "seriesId": "series-long-18747025_16823618",
+        "partNumber": 1,
+        "title": "Tập cuối: Phim hay trọn bộ Tử lãng thanh nguyệt, phim thuyết minh mới nhất, phim AI | Thùy Link (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1874702516823618",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1874702516823618&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:00",
+        "thumbnail": "/api/thumbnail/1874702516823618",
+        "viewsCount": 44480,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-14947210_99235933",
     "slug": "greater-works-crusade-2026-day-4-morning-session-b-cop-mckeown-temple--5933",
     "title": "GREATER WORKS CRUSADE 2026 DAY 4 - MORNING SESSION B | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 1:24:36)",
