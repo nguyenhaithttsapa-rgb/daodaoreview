@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-10153168_88019921",
+    "slug": "xuyen-thanh-ky-lan-phe-vat-an-nhan-tu-luyen-thanh-ba-chu-hong-hoang-fu-9921",
+    "title": "Xuyên Thành Kỳ Lân Phế Vật Ẩn Nhẫn Tu Luyện Thành Bá Chủ Hồng Hoang | Full Bộ   Mọi người cho em xin 1 click động lực nha, em cám ơn nhiều lắm ạ | Mê Hoạt Hình 3D Trung Hay (Full Trọn Bộ 1:13:12)",
+    "description": "Xuyên Thành Kỳ Lân Phế Vật Ẩn Nhẫn Tu Luyện Thành Bá Chủ Hồng Hoang | Full Bộ   Mọi người cho em xin 1 click động lực nha, em cám ơn nhiều lắm ạ ...",
+    "thumbnail": "/api/thumbnail/1015316888019921",
+    "coverImage": "/api/thumbnail/1015316888019921",
+    "channelName": "Góc Nhỏ Màn Ảnh",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-10153168_88019921",
+        "seriesId": "series-long-10153168_88019921",
+        "partNumber": 1,
+        "title": "Xuyên Thành Kỳ Lân Phế Vật Ẩn Nhẫn Tu Luyện Thành Bá Chủ Hồng Hoang | Full Bộ   Mọi người cho em xin 1 click động lực nha, em cám ơn nhiều lắm ạ | Mê Hoạt Hình 3D Trung Hay (Full Trọn Bộ 1:13:12)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1015316888019921",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1015316888019921&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:13:12",
+        "thumbnail": "/api/thumbnail/1015316888019921",
+        "viewsCount": 43656,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-99495559_3208839",
     "slug": "tieu-su-muoi-duoc-ca-kiem-tong-cung-chieu-mua-3-tu-tien-review-full-tr-8839",
     "title": "Tiểu Sư Muội Được Cả Kiếm Tông Cưng Chiều Mùa 3 | Tu Tiên Review (Full Trọn Bộ 3:53:00)",
