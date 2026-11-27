@@ -1,5 +1,354 @@
 [
   {
+    "id": "series-long-26525696_51602410",
+    "slug": "luyen-khi-muoi-van-nam-tap-61-70-thuyet-minh-hay-full-hd-phim-hoat-hin-2410",
+    "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+    "description": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay",
+    "thumbnail": "/api/thumbnail/2652569651602410",
+    "coverImage": "/api/thumbnail/2652569651602410",
+    "channelName": "Donghua 3D Hay",
+    "genres": [
+      "Hoạt Hình 3D Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 7,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-15498618_79034520",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 1,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 21 - 30 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1549861879034520",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549861879034520&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:54",
+        "thumbnail": "/api/thumbnail/1549861879034520",
+        "viewsCount": 56000,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-97695047_7920547",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 2,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 41 - 50 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=976950477920547",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D976950477920547&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:19",
+        "thumbnail": "/api/thumbnail/976950477920547",
+        "viewsCount": 37000,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-50980966_8653632",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 3,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 51 - 60 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=509809668653632",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D509809668653632&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:08",
+        "thumbnail": "/api/thumbnail/509809668653632",
+        "viewsCount": 31000,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-26525696_51602410",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 5,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/634776945931967",
+        "viewsCount": 17000,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-12136045_13805458",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 6,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:05",
+        "thumbnail": "/api/thumbnail/1213604513805458",
+        "viewsCount": 42583,
+        "publishedAt": "2026-10-09"
+      },
+      {
+        "id": "ep-long-19072318_76711433",
+        "seriesId": "series-long-26525696_51602410",
+        "partNumber": 7,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:09:22",
+        "thumbnail": "/api/thumbnail/1907231876711433",
+        "viewsCount": 12000,
+        "publishedAt": "2026-11-01"
+      }
+    ]
+  },
+  {
+    "id": "series-long-27695772_90092789",
+    "slug": "xem-tiep-tai-p1-tap-4-dai-han-thuong-tien-tu-tien-rat-kho-nhung-voi-ta-2789",
+    "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+    "description": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi.",
+    "thumbnail": "/api/thumbnail/2769577290092789",
+    "coverImage": "/api/thumbnail/2769577290092789",
+    "channelName": "Donghua 3D Hay",
+    "genres": [
+      "Hoạt Hình 3D Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 12,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-14239326_26353346",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 1,
+        "title": "Xem Tiếp tại P1 - Tập 1 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:10:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1423932626353346",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1423932626353346&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:23",
+        "thumbnail": "/api/thumbnail/1423932626353346",
+        "viewsCount": 41296,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-14505583_53626273",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 2,
+        "title": "Xem Tiếp tại P1 - Tập 1 | CHƯ THIÊN ĐẤU GIÁ HÀNH | Hệ Thống Đấu Giá Hoàn Trả Gấp Trăm Lần, Lâm Thiên Ta Náo Loạn Tu Tiên Giới. | Linh Đan Travel (Full Trọn Bộ 1:03:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1450558353626273",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1450558353626273&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:03:09",
+        "thumbnail": "/api/thumbnail/1450558353626273",
+        "viewsCount": 8300,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-15427548_47620224",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 3,
+        "title": "Xem Tiếp tại P1 - Tập 1 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Phim Hot 24h (Full Trọn Bộ 36:30)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1542754847620224",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1542754847620224&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "36:30",
+        "thumbnail": "/api/thumbnail/1542754847620224",
+        "viewsCount": 57424,
+        "publishedAt": "2026-10-20"
+      },
+      {
+        "id": "ep-long-15906816_99264830",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 4,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Hóng Phim (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1590681699264830",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1590681699264830&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/api/thumbnail/1590681699264830",
+        "viewsCount": 34840,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-46547727_38140638",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 5,
+        "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Linh Đan Travel (Full Trọn Bộ 35:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4654772738140638",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4654772738140638&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "35:44",
+        "thumbnail": "/api/thumbnail/4654772738140638",
+        "viewsCount": 10000,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-10565016_47183004",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 6,
+        "title": "Xem Tiếp tại P1 - Tập 2 | NGHỊCH TIÊN THÔN THIÊN QUYẾT | Linh Căn Khiếm Khuyết Bị Gia Tộc Khinh Thường, Diệp Thiên Ta Nhận Truyền Thừa Dược Đế Bước Lên Đỉnh Cao. | Phim Hot 24h (Full Trọn Bộ 1:01:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1056501647183004",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1056501647183004&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:01:48",
+        "thumbnail": "/api/thumbnail/1056501647183004",
+        "viewsCount": 49999,
+        "publishedAt": "2026-10-19"
+      },
+      {
+        "id": "ep-long-23032547_43861718",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 7,
+        "title": "Xem Tiếp tại P1 - Tập 2 | ĐẾ TÔN HỒI QUY | Trấn Áp Chư Thiên Vạn Cổ, Khởi Nguồn Từ Thuở Hỗn Độn Điểm Hóa Vạn Vật Thành Đế. | Phim Hot 24h (Full Trọn Bộ 1:11:14)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2303254743861718",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2303254743861718&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:11:14",
+        "thumbnail": "/api/thumbnail/2303254743861718",
+        "viewsCount": 22228,
+        "publishedAt": "2026-10-16"
+      },
+      {
+        "id": "ep-long-25089885_66277264",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 8,
+        "title": "Xem Tiếp tại P1 - Tập 2 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | PhimTop24h (Full Trọn Bộ 35:44)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2508988566277264",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2508988566277264&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "35:44",
+        "thumbnail": "/api/thumbnail/2508988566277264",
+        "viewsCount": 52318,
+        "publishedAt": "2026-10-16"
+      },
+      {
+        "id": "ep-long-14207650_80005539",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 9,
+        "title": "Xem Tiếp tại P1 - Tập 2 | HỖN ĐỘN ĐAN THẦN | Tu Vi Bị Phế, Hắn Bị Đày Vào KHO PHẾ ĐAN Được VẠN CỔ ĐAN ĐẾ Truyền Thừa. | Tu Tiên Truyện (Full Trọn Bộ 1:18:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1420765080005539",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1420765080005539&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:18:11",
+        "thumbnail": "/api/thumbnail/1420765080005539",
+        "viewsCount": 47521,
+        "publishedAt": "2026-10-10"
+      },
+      {
+        "id": "ep-long-29272883_44272140",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 10,
+        "title": "Xem Tiếp tại P1 - Tập 3 | VẠN CỔ TRƯỜNG SINH | Hệ Thống Xuất Hiện Sau 8000 Năm Trấn Áp Cửu Đại Cấm Địa Thọ Nguyên Cạn Kiệt. | Mạc Nhược Huệ (Full Trọn Bộ 39:13)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2927288344272140",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2927288344272140&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "39:13",
+        "thumbnail": "/api/thumbnail/2927288344272140",
+        "viewsCount": 24335,
+        "publishedAt": "2026-10-09"
+      },
+      {
+        "id": "ep-long-27695772_90092789",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-27695772_90092789",
+        "partNumber": 12,
+        "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "32:29",
+        "thumbnail": "/api/thumbnail/1061891179626606",
+        "viewsCount": 25766,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
+    "id": "series-long-15347627_71890390",
+    "slug": "toi-to-mo-dieu-nhan-vat-muon-tim-hieu-khi-thuc-tinh-toi-to-mo-cach-nha-0390",
+    "title": "Tôi tò mò điều nhân vật muốn tìm hiểu khi thức tỉnh. Tôi tò mò cách nhân vật làm quen với hiện tại sau thời gian dài. Những thông tin mới sẽ giúp hiểu sự thức tỉnh có ý nghĩa đến đâu. Xem tiếp tại link phía trên và tự cảm nhận nhé. Full Phần 1 | Thức Tỉnh Vạn Năm, Nghịch Đồ Đều Thành Đại Đế | Gianna Watkins (Full Trọn Bộ 2:22:13)",
+    "description": "Tôi tò mò điều nhân vật muốn tìm hiểu khi thức tỉnh. Tôi tò mò cách nhân vật làm quen với hiện tại sau thời gian dài. Những thông tin mới sẽ giúp hiểu sự thức...",
+    "thumbnail": "/api/thumbnail/1534762771890390",
+    "coverImage": "/api/thumbnail/1534762771890390",
+    "channelName": "Donghua 3D Hay",
+    "genres": [
+      "Hoạt Hình 3D Hot",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-15347627_71890390",
+        "seriesId": "series-long-15347627_71890390",
+        "partNumber": 1,
+        "title": "Tôi tò mò điều nhân vật muốn tìm hiểu khi thức tỉnh. Tôi tò mò cách nhân vật làm quen với hiện tại sau thời gian dài. Những thông tin mới sẽ giúp hiểu sự thức tỉnh có ý nghĩa đến đâu. Xem tiếp tại link phía trên và tự cảm nhận nhé. Full Phần 1 | Thức Tỉnh Vạn Năm, Nghịch Đồ Đều Thành Đại Đế | Gianna Watkins (Full Trọn Bộ 2:22:13)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1534762771890390",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1534762771890390&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:22:13",
+        "thumbnail": "/api/thumbnail/1534762771890390",
+        "viewsCount": 40790,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-17736132_90357461",
     "slug": "phan-1-2-xuyen-khong-da-truong-sinh-he-thong-tang-vo-han-tho-nguyen-na-7461",
     "title": "Phần 1-2 | Xuyên Không Đã Trường Sinh, Hệ Thống Tăng Vô Hạn Thọ Nguyên, Nằm im Cũng Thành Vô Địch! | Huỳnh Lê (Full Trọn Bộ 7:50:26)",
@@ -25823,9 +26172,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -25968,9 +26317,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-10618911_79626606",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-10618911_79626606",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -69393,9 +69756,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -69440,9 +69803,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-63477694_5931967",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-63477694_5931967",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -69456,7 +69833,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-63477694_5931967",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -69470,7 +69847,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-63477694_5931967",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -78714,9 +79091,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -78859,9 +79236,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-15906816_99264830",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-15906816_99264830",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -88581,9 +88972,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -88628,9 +89019,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-15498618_79034520",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-15498618_79034520",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -88644,7 +89049,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-15498618_79034520",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -88658,7 +89063,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-15498618_79034520",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -90974,9 +91379,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -91119,9 +91524,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-14239326_26353346",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-14239326_26353346",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -91856,9 +92275,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -92001,9 +92420,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-14505583_53626273",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-14505583_53626273",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -127885,9 +128318,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -127932,9 +128365,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-50980966_8653632",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-50980966_8653632",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -127948,7 +128395,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-50980966_8653632",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -127962,7 +128409,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-50980966_8653632",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -136275,9 +136722,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -136322,9 +136769,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-19072318_76711433",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-19072318_76711433",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -136338,7 +136799,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-19072318_76711433",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -136352,7 +136813,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-19072318_76711433",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -151730,9 +152191,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -151875,9 +152336,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-46547727_38140638",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-46547727_38140638",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -162400,9 +162875,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -162447,9 +162922,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-97695047_7920547",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-97695047_7920547",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -162463,7 +162952,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-97695047_7920547",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -162477,7 +162966,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-97695047_7920547",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -178297,9 +178786,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -178442,9 +178931,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-15427548_47620224",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-15427548_47620224",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -181377,9 +181880,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -181522,9 +182025,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-10565016_47183004",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-10565016_47183004",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -182054,9 +182571,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -182199,9 +182716,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-23032547_43861718",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-23032547_43861718",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -182231,9 +182762,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -182376,9 +182907,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-25089885_66277264",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-25089885_66277264",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -208912,9 +209457,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -209057,9 +209602,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-14207650_80005539",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-14207650_80005539",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
@@ -214049,9 +214608,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 6,
+    "totalEpisodes": 7,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15498618_79034520",
@@ -214096,9 +214655,23 @@
         "publishedAt": "2026-11-01"
       },
       {
-        "id": "ep-long-63477694_5931967",
+        "id": "ep-long-26525696_51602410",
         "seriesId": "series-long-12136045_13805458",
         "partNumber": 4,
+        "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2652569651602410",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2652569651602410&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:10:02",
+        "thumbnail": "/api/thumbnail/2652569651602410",
+        "viewsCount": 47000,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-63477694_5931967",
+        "seriesId": "series-long-12136045_13805458",
+        "partNumber": 5,
         "title": "Luyện Khí Mười Vạn Năm - Tập 71 - 80 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
         "originalUrl": "https://www.facebook.com/watch/?v=634776945931967",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D634776945931967&show_text=0&autoplay=0",
@@ -214112,7 +214685,7 @@
       {
         "id": "ep-long-12136045_13805458",
         "seriesId": "series-long-12136045_13805458",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Luyện Khí Mười Vạn Năm - Tập 121 - 130 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:05)",
         "originalUrl": "https://www.facebook.com/watch/?v=1213604513805458",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1213604513805458&show_text=0&autoplay=0",
@@ -214126,7 +214699,7 @@
       {
         "id": "ep-long-19072318_76711433",
         "seriesId": "series-long-12136045_13805458",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Luyện Khí Mười Vạn Năm - Tập 131 - 140 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:09:22)",
         "originalUrl": "https://www.facebook.com/watch/?v=1907231876711433",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1907231876711433&show_text=0&autoplay=0",
@@ -214193,9 +214766,9 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
-    "updatedAt": "2026-11-26",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-14239326_26353346",
@@ -214338,9 +214911,23 @@
         "publishedAt": "2026-10-09"
       },
       {
-        "id": "ep-long-10618911_79626606",
+        "id": "ep-long-27695772_90092789",
         "seriesId": "series-long-29272883_44272140",
         "partNumber": 11,
+        "title": "Xem Tiếp tại P1 - Tập 4 | ĐẠI HÁN THƯỢNG TIÊN | Tu Tiên Rất Khó, Nhưng Với Ta Thì... Thôi Bỏ Đi. | Phim Hot 24h (Full Trọn Bộ 30:19)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2769577290092789",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2769577290092789&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "30:19",
+        "thumbnail": "/api/thumbnail/2769577290092789",
+        "viewsCount": 54296,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-10618911_79626606",
+        "seriesId": "series-long-29272883_44272140",
+        "partNumber": 12,
         "title": "Xem Tiếp tại P1 - Tập 6 | PHIÊU MIỂU TÔNG | Hệ Thống Vô Hạn Hợp Thành Đại Đế, Tông Môn Của Ta Vô Địch Chư Thiên. | Phim Hot 24h (Full Trọn Bộ 32:29)",
         "originalUrl": "https://www.facebook.com/watch/?v=1061891179626606",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1061891179626606&show_text=0&autoplay=0",
