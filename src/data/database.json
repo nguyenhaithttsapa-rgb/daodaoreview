@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-17051241_83903987",
+    "slug": "phim-hay-tron-bo-vo-y-thanh-hau-phim-thuyet-minh-moi-nhat-phim-ai-hoi--3987",
+    "title": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 2:11:45)",
+    "description": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1705124183903987",
+    "coverImage": "/api/thumbnail/1705124183903987",
+    "channelName": "Hội Quán Phim Trung Quốc",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-17051241_83903987",
+        "seriesId": "series-long-17051241_83903987",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Vô ý thành hậu, phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 2:11:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1705124183903987",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1705124183903987&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:11:45",
+        "thumbnail": "/api/thumbnail/1705124183903987",
+        "viewsCount": 32007,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-18635745_17563908",
     "slug": "van-dap-phat-phap-ky-167-tt-thich-dao-thinh-ckn-phap-thoai-thuong-chie-3908",
     "title": "Vấn Đáp Phật Pháp Kỳ 167, TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 2:50:01)",
