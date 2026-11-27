@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-20261498_41567212",
+    "slug": "khi-dieu-bat-thuong-lap-lai-qua-nhieu-lan-niem-tin-cung-dan-xuat-hien--7212",
+    "title": "Khi điều bất thường lặp lại quá nhiều lần, niềm tin cũng dần xuất hiện những vết nứt.... Phim Hay Trọn Bộ Mới Nhất Ảo Ảnh Da Người | Mèo Rì Viu (Full Trọn Bộ 1:26:08)",
+    "description": "Khi điều bất thường lặp lại quá nhiều lần, niềm tin cũng dần xuất hiện những vết nứt.... Phim Hay Trọn Bộ Mới Nhất Ảo Ảnh Da Người",
+    "thumbnail": "/api/thumbnail/2026149841567212",
+    "coverImage": "/api/thumbnail/2026149841567212",
+    "channelName": "Phim hay Vlog",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-20261498_41567212",
+        "seriesId": "series-long-20261498_41567212",
+        "partNumber": 1,
+        "title": "Khi điều bất thường lặp lại quá nhiều lần, niềm tin cũng dần xuất hiện những vết nứt.... Phim Hay Trọn Bộ Mới Nhất Ảo Ảnh Da Người | Mèo Rì Viu (Full Trọn Bộ 1:26:08)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2026149841567212",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2026149841567212&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:26:08",
+        "thumbnail": "/api/thumbnail/2026149841567212",
+        "viewsCount": 27941,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-16761970_99679024",
     "slug": "review-phim-vo-ky-thuong-pham-tron-bo-adg-review-full-tron-bo-1-53-09-9024",
     "title": "REVIEW PHIM : VÕ KỸ THƯỢNG PHẨM.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:53:09)",
