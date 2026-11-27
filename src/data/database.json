@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-74893593_1577930",
+    "slug": "review-phim-vo-than-tai-xuat-tron-bo-vi-tuan-theo-di-ngon-cua-cha-co-g-7930",
+    "title": "REVIEW PHIM : VÕ THẦN TÁI XUẤT.TRỌN BỘ Vì tuân theo di ngôn của cha cô gái tự phế võ công của mình để ở ẩn và cái kết | AĐG TV1 (Full Trọn Bộ 1:03:10)",
+    "description": "REVIEW PHIM : VÕ THẦN TÁI XUẤT.TRỌN BỘ Vì tuân theo di ngôn của cha cô gái tự phế võ công của mình để ở ẩn và cái kết",
+    "thumbnail": "/api/thumbnail/748935931577930",
+    "coverImage": "/api/thumbnail/748935931577930",
+    "channelName": "AĐG TV1",
+    "genres": [
+      "Xuyên Không",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-74893593_1577930",
+        "seriesId": "series-long-74893593_1577930",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : VÕ THẦN TÁI XUẤT.TRỌN BỘ Vì tuân theo di ngôn của cha cô gái tự phế võ công của mình để ở ẩn và cái kết | AĐG TV1 (Full Trọn Bộ 1:03:10)",
+        "originalUrl": "https://www.facebook.com/watch/?v=748935931577930",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D748935931577930&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:03:10",
+        "thumbnail": "/api/thumbnail/748935931577930",
+        "viewsCount": 32099,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-87800642_8113779",
     "slug": "meomeo-audio-full-vo-hop-dong-cua-co-tong-bo-tron-roi-follow-kenh-de-k-3779",
     "title": "[MEOMEO AUDIO - FULL] Vợ Hợp Đồng Của Cố Tổng Bỏ Trốn Rồi Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 30:34)",
