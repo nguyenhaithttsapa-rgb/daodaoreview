@@ -1,5 +1,392 @@
 [
   {
+    "id": "series-long-27175584_38699030",
+    "slug": "phan-9-xuyen-thanh-tap-dich-dau-bep-ta-tro-thanh-de-nhat-vo-phu-ao-thu-9030",
+    "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+    "description": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE...",
+    "thumbnail": "/api/thumbnail/2717558438699030",
+    "coverImage": "/api/thumbnail/2717558438699030",
+    "channelName": "Tô Uyển Nhi. đồng",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 26,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-15978287_18747949",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 1,
+        "title": "Phần 5 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:42:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1597828718747949",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1597828718747949&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:42:48",
+        "thumbnail": "/api/thumbnail/1597828718747949",
+        "viewsCount": 22494,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-14210491_56869859",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 2,
+        "title": "Phần 5 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu | Lạc Thanh Y. tá (Full Trọn Bộ 2:42:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1421049156869859",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1421049156869859&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:42:48",
+        "thumbnail": "/api/thumbnail/1421049156869859",
+        "viewsCount": 45879,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-11381604_42136756",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 3,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1138160442136756",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1138160442136756&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1138160442136756",
+        "viewsCount": 41933,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-23209164_75373664",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 4,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Nạp Lan Khanh. khách (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2320916475373664",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2320916475373664&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/2320916475373664",
+        "viewsCount": 49603,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-23681198_17279038",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 5,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2368119817279038",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2368119817279038&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/2368119817279038",
+        "viewsCount": 27740,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-47547745_38140263",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 6,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Linh Lung. tung (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4754774538140263",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4754774538140263&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/4754774538140263",
+        "viewsCount": 22015,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-15650079_65660294",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 7,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Hạ Tử Yên. tĩnh (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1565007965660294",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1565007965660294&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1565007965660294",
+        "viewsCount": 51869,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-15129009_10663283",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 8,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1512900910663283",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1512900910663283&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1512900910663283",
+        "viewsCount": 37879,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-10743576_75639229",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 9,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1074357675639229",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1074357675639229&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1074357675639229",
+        "viewsCount": 55318,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-25366881_93502377",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 10,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2536688193502377",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2536688193502377&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/2536688193502377",
+        "viewsCount": 32362,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-30533913_25007036",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 11,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Lạc Thanh Y. tá (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3053391325007036",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3053391325007036&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/3053391325007036",
+        "viewsCount": 24948,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-11766394_14690267",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 12,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Thế Giới Donghua 3D (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1176639414690267",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1176639414690267&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1176639414690267",
+        "viewsCount": 38724,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-11093970_28473326",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 13,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1109397028473326",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1109397028473326&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1109397028473326",
+        "viewsCount": 34383,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-14455829_67779056",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 14,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. | Liễu Ngưng Tuyết (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1445582967779056",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1445582967779056&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1445582967779056",
+        "viewsCount": 24340,
+        "publishedAt": "2026-11-01"
+      },
+      {
+        "id": "ep-long-18239873_91942362",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 15,
+        "title": "Phần 6 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Từ kẻ nhóm bếp bị khinh nhược, một bước chấn động thiên hạ!  Tay cầm vá, tay luyện võ — ai ngờ tạp dịch nhà bếp lại giấu thực lực kinh thiên động địa? ️ Kẻ địch kéo đến áp đảo, tưởng đè bẹp được nhãi ranh. Nhưng không! Mỗi món ăn ra lò là một chiêu thức bá đạo! 屢 Xem ngay xem đầu bếp quấy đảo toàn bộ võ lâm thế nào!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:04:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1823987391942362",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1823987391942362&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:04:43",
+        "thumbnail": "/api/thumbnail/1823987391942362",
+        "viewsCount": 15000,
+        "publishedAt": "2026-10-31"
+      },
+      {
+        "id": "ep-long-10950245_23529169",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 16,
+        "title": "Phần 7-8 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Tưởng phế vật rửa bát quét rác, ai ngờ là quái vật giấu nghề!  Lũ trưởng lão ngạo mạn đòi đập quán, chê đồ ăn dở? Một muôi múc canh gãy nát kiếm thần! Một chảo xào rau hất văng đại tông sư!  Thiên hạ đệ nhất kiếm cũng phải quỳ gối xin bát cơm. Đừng đùa với thằng cầm dao bếp! Trận chiến chấn động võ lâm bắt đầu!  Xem ngay kẻo lỡ!  | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 4:05:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1095024523529169",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1095024523529169&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:05:07",
+        "thumbnail": "/api/thumbnail/1095024523529169",
+        "viewsCount": 31887,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-95591240_0511718",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 17,
+        "title": "Phần 7-8 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 4:05:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=955912400511718",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D955912400511718&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:05:07",
+        "thumbnail": "/api/thumbnail/955912400511718",
+        "viewsCount": 49849,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11172570_50901549",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 18,
+        "title": "Phần 7-8 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 4:05:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1117257050901549",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117257050901549&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "4:05:07",
+        "thumbnail": "/api/thumbnail/1117257050901549",
+        "viewsCount": 38065,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-27175584_38699030",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 20,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:22:01",
+        "thumbnail": "/api/thumbnail/2280720245823377",
+        "viewsCount": 28462,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-17880371_99172061",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 21,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/1788037199172061",
+        "viewsCount": 30647,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-33961055_47258935",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 22,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/3396105547258935",
+        "viewsCount": 36915,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-18254058_38880979",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 23,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/1825405838880979",
+        "viewsCount": 25666,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-14716228_71700246",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 24,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/1471622871700246",
+        "viewsCount": 41892,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-14227322_53171631",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 25,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/1422732253171631",
+        "viewsCount": 37310,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-19889563_95134913",
+        "seriesId": "series-long-27175584_38699030",
+        "partNumber": 26,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/1988956395134913",
+        "viewsCount": 21830,
+        "publishedAt": "2026-11-03"
+      }
+    ]
+  },
+  {
     "id": "series-long-11640176_45678029",
     "slug": "review-phim-lao-to-xinh-dep-tron-bo-tien-nu-vi-kiep-nan-cua-gia-toc-sa-8029",
     "title": "REVIEW PHIM : LÃO TỔ XINH ĐẸP.TRỌN BỘ Tiên nữ vì kiếp nạn của gia tộc sẳn sàng đánh đổi tu vi và thanh xuân. | AĐG TV2 (Full Trọn Bộ 1:46:12)",
@@ -1653,7 +2040,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -1910,9 +2297,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-22807202_45823377",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-22807202_45823377",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -1926,7 +2327,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -1940,7 +2341,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -1954,7 +2355,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -1968,7 +2369,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -1982,7 +2383,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -1996,7 +2397,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-22807202_45823377",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -2026,7 +2427,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -2283,9 +2684,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-10950245_23529169",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-10950245_23529169",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -2299,7 +2714,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -2313,7 +2728,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -2327,7 +2742,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -2341,7 +2756,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -2355,7 +2770,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -2369,7 +2784,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-10950245_23529169",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -2534,7 +2949,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -2791,9 +3206,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-95591240_0511718",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-95591240_0511718",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -2807,7 +3236,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -2821,7 +3250,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -2835,7 +3264,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -2849,7 +3278,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -2863,7 +3292,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -2877,7 +3306,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-95591240_0511718",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -3275,7 +3704,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -3532,9 +3961,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-11381604_42136756",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-11381604_42136756",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -3548,7 +3991,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -3562,7 +4005,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -3576,7 +4019,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -3590,7 +4033,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -3604,7 +4047,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -3618,7 +4061,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-11381604_42136756",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -4039,7 +4482,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -4296,9 +4739,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-17880371_99172061",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-17880371_99172061",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -4312,7 +4769,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -4326,7 +4783,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -4340,7 +4797,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -4354,7 +4811,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -4368,7 +4825,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -4382,7 +4839,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-17880371_99172061",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -6224,7 +6681,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -6481,9 +6938,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-23209164_75373664",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-23209164_75373664",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -6497,7 +6968,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -6511,7 +6982,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -6525,7 +6996,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -6539,7 +7010,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -6553,7 +7024,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -6567,7 +7038,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-23209164_75373664",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -27716,7 +28187,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -27973,9 +28444,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-23681198_17279038",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-23681198_17279038",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -27989,7 +28474,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -28003,7 +28488,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -28017,7 +28502,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -28031,7 +28516,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -28045,7 +28530,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -28059,7 +28544,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-23681198_17279038",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -28089,7 +28574,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -28346,9 +28831,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-47547745_38140263",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-47547745_38140263",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -28362,7 +28861,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -28376,7 +28875,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -28390,7 +28889,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -28404,7 +28903,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -28418,7 +28917,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -28432,7 +28931,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-47547745_38140263",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -32840,7 +33339,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -33097,9 +33596,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-15650079_65660294",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-15650079_65660294",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -33113,7 +33626,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -33127,7 +33640,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -33141,7 +33654,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -33155,7 +33668,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -33169,7 +33682,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -33183,7 +33696,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-15650079_65660294",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -33213,7 +33726,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -33470,9 +33983,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-15129009_10663283",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-15129009_10663283",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -33486,7 +34013,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -33500,7 +34027,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -33514,7 +34041,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -33528,7 +34055,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -33542,7 +34069,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -33556,7 +34083,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-15129009_10663283",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -33586,7 +34113,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -33843,9 +34370,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-10743576_75639229",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-10743576_75639229",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -33859,7 +34400,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -33873,7 +34414,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -33887,7 +34428,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -33901,7 +34442,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -33915,7 +34456,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -33929,7 +34470,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-10743576_75639229",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -33959,7 +34500,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -34216,9 +34757,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-25366881_93502377",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-25366881_93502377",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -34232,7 +34787,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -34246,7 +34801,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -34260,7 +34815,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -34274,7 +34829,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -34288,7 +34843,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -34302,7 +34857,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-25366881_93502377",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -34332,7 +34887,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -34589,9 +35144,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-33961055_47258935",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-33961055_47258935",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -34605,7 +35174,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -34619,7 +35188,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -34633,7 +35202,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -34647,7 +35216,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -34661,7 +35230,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -34675,7 +35244,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-33961055_47258935",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -34705,7 +35274,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -34962,9 +35531,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-18254058_38880979",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-18254058_38880979",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -34978,7 +35561,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -34992,7 +35575,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -35006,7 +35589,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -35020,7 +35603,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -35034,7 +35617,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -35048,7 +35631,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-18254058_38880979",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -35078,7 +35661,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -35335,9 +35918,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-11172570_50901549",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-11172570_50901549",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -35351,7 +35948,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -35365,7 +35962,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -35379,7 +35976,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -35393,7 +35990,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -35407,7 +36004,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -35421,7 +36018,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-11172570_50901549",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -61819,7 +62416,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -62076,9 +62673,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-14716228_71700246",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-14716228_71700246",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -62092,7 +62703,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -62106,7 +62717,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -62120,7 +62731,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -62134,7 +62745,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -62148,7 +62759,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -62162,7 +62773,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-14716228_71700246",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -81794,7 +82405,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -82051,9 +82662,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-14227322_53171631",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-14227322_53171631",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -82067,7 +82692,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -82081,7 +82706,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -82095,7 +82720,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -82109,7 +82734,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -82123,7 +82748,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -82137,7 +82762,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-14227322_53171631",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -86167,7 +86792,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -86424,9 +87049,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-30533913_25007036",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-30533913_25007036",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -86440,7 +87079,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -86454,7 +87093,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -86468,7 +87107,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -86482,7 +87121,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -86496,7 +87135,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -86510,7 +87149,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-30533913_25007036",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -98190,7 +98829,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -98447,9 +99086,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-19889563_95134913",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-19889563_95134913",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -98463,7 +99116,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -98477,7 +99130,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -98491,7 +99144,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -98505,7 +99158,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -98519,7 +99172,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -98533,7 +99186,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-19889563_95134913",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -98563,7 +99216,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -98820,9 +99473,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-15978287_18747949",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-15978287_18747949",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -98836,7 +99503,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -98850,7 +99517,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -98864,7 +99531,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -98878,7 +99545,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -98892,7 +99559,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -98906,7 +99573,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-15978287_18747949",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -124627,7 +125294,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -124884,9 +125551,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-11766394_14690267",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-11766394_14690267",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -124900,7 +125581,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -124914,7 +125595,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -124928,7 +125609,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -124942,7 +125623,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -124956,7 +125637,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -124970,7 +125651,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-11766394_14690267",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -125111,7 +125792,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -125368,9 +126049,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-11093970_28473326",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-11093970_28473326",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -125384,7 +126079,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -125398,7 +126093,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -125412,7 +126107,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -125426,7 +126121,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -125440,7 +126135,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -125454,7 +126149,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-11093970_28473326",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -125484,7 +126179,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -125741,9 +126436,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-14455829_67779056",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-14455829_67779056",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -125757,7 +126466,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -125771,7 +126480,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -125785,7 +126494,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -125799,7 +126508,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -125813,7 +126522,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -125827,7 +126536,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-14455829_67779056",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -125857,7 +126566,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -126114,9 +126823,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-14210491_56869859",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-14210491_56869859",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -126130,7 +126853,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -126144,7 +126867,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -126158,7 +126881,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -126172,7 +126895,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -126186,7 +126909,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -126200,7 +126923,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-14210491_56869859",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
@@ -159836,7 +160559,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 25,
+    "totalEpisodes": 26,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -160093,9 +160816,23 @@
         "publishedAt": "2026-11-26"
       },
       {
-        "id": "ep-long-22807202_45823377",
+        "id": "ep-long-27175584_38699030",
         "seriesId": "series-long-18239873_91942362",
         "partNumber": 19,
+        "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:27:42)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2717558438699030",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2717558438699030&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:27:42",
+        "thumbnail": "/api/thumbnail/2717558438699030",
+        "viewsCount": 43469,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-22807202_45823377",
+        "seriesId": "series-long-18239873_91942362",
+        "partNumber": 20,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Tưởng phận băm rau nấu cơm vô danh tiểu tốt, ai ngờ dao thái thịt chém đứt càn khôn! Tông môn khinh bỉ, sư huynh đè đầu? Một muôi hất văng thiên tài, một trảm chấn động vạn giới. Ẩn nhẫn đủ rồi, đệ nhất võ phu chính thức lộ diện. Kẻ coi thường hôm qua, hôm nay quỳ rạp dưới chân. Xem ngay cao trào đỉnh điểm tập này! | Góc Nhỏ Màn Ảnh (Full Trọn Bộ 2:22:01)",
         "originalUrl": "https://www.facebook.com/watch/?v=2280720245823377",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2280720245823377&show_text=0&autoplay=0",
@@ -160109,7 +160846,7 @@
       {
         "id": "ep-long-17880371_99172061",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 20,
+        "partNumber": 21,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Bạch Nhược Hy. vọng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1788037199172061",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1788037199172061&show_text=0&autoplay=0",
@@ -160123,7 +160860,7 @@
       {
         "id": "ep-long-33961055_47258935",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 21,
+        "partNumber": 22,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=3396105547258935",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3396105547258935&show_text=0&autoplay=0",
@@ -160137,7 +160874,7 @@
       {
         "id": "ep-long-18254058_38880979",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 22,
+        "partNumber": 23,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1825405838880979",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1825405838880979&show_text=0&autoplay=0",
@@ -160151,7 +160888,7 @@
       {
         "id": "ep-long-14716228_71700246",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 23,
+        "partNumber": 24,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1471622871700246",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1471622871700246&show_text=0&autoplay=0",
@@ -160165,7 +160902,7 @@
       {
         "id": "ep-long-14227322_53171631",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 24,
+        "partNumber": 25,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Liễu Ngưng Tuyết (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1422732253171631",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1422732253171631&show_text=0&autoplay=0",
@@ -160179,7 +160916,7 @@
       {
         "id": "ep-long-19889563_95134913",
         "seriesId": "series-long-18239873_91942362",
-        "partNumber": 25,
+        "partNumber": 26,
         "title": "Phần 9 | Xuyên Thành Tạp Dịch Đầu Bếp, Ta Trở Thành Đệ Nhất Võ Phu Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:27:42)",
         "originalUrl": "https://www.facebook.com/watch/?v=1988956395134913",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1988956395134913&show_text=0&autoplay=0",
