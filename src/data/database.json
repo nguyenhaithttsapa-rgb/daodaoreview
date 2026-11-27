@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-14522275_89908032",
+    "slug": "phan-4-xuyen-khong-dai-minh-tro-thanh-ke-an-xin-manh-nhat-thao-tung-ca-8032",
+    "title": "Phần 4 | Xuyên Không Đại Minh Trở Thành Kẻ Ăn Xin Mạnh Nhất Thao Túng Cả Triều Đình | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB Hà Nhân Vietsub nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 50:23)",
+    "description": "Phần 4 | Xuyên Không Đại Minh Trở Thành Kẻ Ăn Xin Mạnh Nhất Thao Túng Cả Triều Đình | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có...",
+    "thumbnail": "/api/thumbnail/1452227589908032",
+    "coverImage": "/api/thumbnail/1452227589908032",
+    "channelName": "Trùng Sinh Khuấy Đảo Triều Đình Siêu Hot #114",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-14522275_89908032",
+        "seriesId": "series-long-14522275_89908032",
+        "partNumber": 1,
+        "title": "Phần 4 | Xuyên Không Đại Minh Trở Thành Kẻ Ăn Xin Mạnh Nhất Thao Túng Cả Triều Đình | Hà Nhân Vietsub Mọi người nếu thấy Video hay thì đừng tiếc 1 like và share để ủng hộ Hà Nhân nhé ! Full dài sẽ có trên YTB Hà Nhân Vietsub nha cả nhà | Hà Nhân Vietsub (Full Trọn Bộ 50:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1452227589908032",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1452227589908032&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "50:23",
+        "thumbnail": "/api/thumbnail/1452227589908032",
+        "viewsCount": 2000,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-26525696_51602410",
     "slug": "luyen-khi-muoi-van-nam-tap-61-70-thuyet-minh-hay-full-hd-phim-hoat-hin-2410",
     "title": "Luyện Khí Mười Vạn Năm - Tập 61 - 70 Thuyết Minh Hay FULL HD Phim Hoạt Hình 3D Hay | Không Sợ Vợ (Full Trọn Bộ 1:10:02)",
