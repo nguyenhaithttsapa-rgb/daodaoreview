@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-22308764_41103895",
+    "slug": "phan-32-tro-tan-cuu-chau-xuyen-khong-bi-ep-di-linh-tu-tan-binh-tro-tha-3895",
+    "title": "Phần 32 Tro Tàn Cửu Châu Xuyên Không Bị Ép Đi Lính, Từ Tân Binh Trở Thành Bá Chủ Một Phương! Túi xách nữ đeo chéo | Trọn bộ phim ngôn tình Trung (Full Trọn Bộ 2:03:41)",
+    "description": "Phần 32 Tro Tàn Cửu Châu Xuyên Không Bị Ép Đi Lính, Từ Tân Binh Trở Thành Bá Chủ Một Phương! Túi xách nữ đeo chéo",
+    "thumbnail": "/api/thumbnail/2230876441103895",
+    "coverImage": "/api/thumbnail/2230876441103895",
+    "channelName": "Cơn Lốc Phim AI",
+    "genres": [
+      "Kịch Tính Gia Đấu",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-22308764_41103895",
+        "seriesId": "series-long-22308764_41103895",
+        "partNumber": 1,
+        "title": "Phần 32 Tro Tàn Cửu Châu Xuyên Không Bị Ép Đi Lính, Từ Tân Binh Trở Thành Bá Chủ Một Phương! Túi xách nữ đeo chéo | Trọn bộ phim ngôn tình Trung (Full Trọn Bộ 2:03:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2230876441103895",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2230876441103895&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:03:41",
+        "thumbnail": "/api/thumbnail/2230876441103895",
+        "viewsCount": 52899,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-16792396_70600886",
     "slug": "tro-tan-cuu-chau-mua-26-tro-tan-cuu-chau-ta-xuyen-khong-ve-co-dai-dung-0886",
     "title": "Tro tàn cửu châu mùa 26 Tro Tàn Cửu Châu Ta Xuyên Không Về Cổ Đại Dùng Kiến Thức Hiện Đại Xoay Chuyển Càn Khôn | Mê phim AI (Full Trọn Bộ 2:07:10)",
