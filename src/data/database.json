@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-47939388_84161688",
+    "slug": "tien-nghich-tap-1-20-thuyet-minh-moi-nhat-full-4k-khong-quang-cao-tien-1688",
+    "title": "Tiên Nghịch Tập 1 - 20 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:28:43)",
+    "description": "Tiên Nghịch Tập 1 - 20 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo",
+    "thumbnail": "/api/thumbnail/4793938884161688",
+    "coverImage": "/api/thumbnail/4793938884161688",
+    "channelName": "Tiên Nghịch 3D Thuyết Minh",
+    "genres": [
+      "Tu Chân Nghịch Thiên",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-47939388_84161688",
+        "seriesId": "series-long-47939388_84161688",
+        "partNumber": 1,
+        "title": "Tiên Nghịch Tập 1 - 20 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:28:43)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4793938884161688",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4793938884161688&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:28:43",
+        "thumbnail": "/api/thumbnail/4793938884161688",
+        "viewsCount": 22000,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-17812997_62924073",
     "slug": "dau-la-dai-luc-phan-2-tuyet-the-duong-mon-tap-136-h2x-audio-h2x-audio--4073",
     "title": "Đấu La Đại Lục Phần 2 - Tuyệt Thế Đường Môn - Tập 136 - H2X Audio | H2X Audio (Full Trọn Bộ 1:25:26)",
