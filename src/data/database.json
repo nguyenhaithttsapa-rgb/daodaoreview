@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16300458_68850988",
+    "slug": "mua-2-part-1-tieu-su-muoi-duoc-ca-kiem-tong-nha-ta-sung-ai-be-yeu-full-0988",
+    "title": "Mùa 2 - Part 1 Tiểu sư muội được cả kiếm tông nhà ta sủng ái | Bé Yêu (Full Trọn Bộ 42:48)",
+    "description": "Mùa 2 - Part 1 Tiểu sư muội được cả kiếm tông nhà ta sủng ái",
+    "thumbnail": "/api/thumbnail/1630045868850988",
+    "coverImage": "/api/thumbnail/1630045868850988",
+    "channelName": "Tiểu Sư Muội Được Cả Kiếm Tông Sủng Ái",
+    "genres": [
+      "Hoạt Hình 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-16300458_68850988",
+        "seriesId": "series-long-16300458_68850988",
+        "partNumber": 1,
+        "title": "Mùa 2 - Part 1 Tiểu sư muội được cả kiếm tông nhà ta sủng ái | Bé Yêu (Full Trọn Bộ 42:48)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1630045868850988",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1630045868850988&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "42:48",
+        "thumbnail": "/api/thumbnail/1630045868850988",
+        "viewsCount": 40792,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-47939388_84161688",
     "slug": "tien-nghich-tap-1-20-thuyet-minh-moi-nhat-full-4k-khong-quang-cao-tien-1688",
     "title": "Tiên Nghịch Tập 1 - 20 Thuyết Minh Mới Nhất Full 4K - Không Quảng Cáo | Tiên Nghịch - Hoạt Hình 3D Thuyết Minh 4K (Full Trọn Bộ 5:28:43)",
