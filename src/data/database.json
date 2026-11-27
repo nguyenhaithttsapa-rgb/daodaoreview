@@ -1,5 +1,116 @@
 [
   {
+    "id": "series-long-18635745_17563908",
+    "slug": "van-dap-phat-phap-ky-167-tt-thich-dao-thinh-ckn-phap-thoai-thuong-chie-3908",
+    "title": "Vấn Đáp Phật Pháp Kỳ 167, TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 2:50:01)",
+    "description": "Vấn Đáp Phật Pháp Kỳ 167, TT. Thích Đạo Thịnh - CKN",
+    "thumbnail": "/api/thumbnail/1863574517563908",
+    "coverImage": "/api/thumbnail/1863574517563908",
+    "channelName": "Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-18635745_17563908",
+        "seriesId": "series-long-18635745_17563908",
+        "partNumber": 1,
+        "title": "Vấn Đáp Phật Pháp Kỳ 167, TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 2:50:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1863574517563908",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1863574517563908&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:50:01",
+        "thumbnail": "/api/thumbnail/1863574517563908",
+        "viewsCount": 51064,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-25179365_93169250_3",
+    "slug": "tap-155-van-dap-phat-phap-tt-thich-dao-thinh-ckn-phap-thoai-thuong-chi-2503",
+    "title": "Tập 155 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 2:07:58)",
+    "description": "Tập 155 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN",
+    "thumbnail": "/api/thumbnail/25179365931692503",
+    "coverImage": "/api/thumbnail/25179365931692503",
+    "channelName": "Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-25179365_93169250_3",
+        "seriesId": "series-long-25179365_93169250_3",
+        "partNumber": 1,
+        "title": "Tập 155 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 2:07:58)",
+        "originalUrl": "https://www.facebook.com/watch/?v=25179365931692503",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D25179365931692503&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:07:58",
+        "thumbnail": "/api/thumbnail/25179365931692503",
+        "viewsCount": 22104,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-80024143_8993485",
+    "slug": "tap-112-van-dap-phat-phap-tt-thich-dao-thinh-ckn-phap-thoai-thuong-chi-3485",
+    "title": "Tập 112 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 1:47:23)",
+    "description": "Tập 112 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN",
+    "thumbnail": "/api/thumbnail/800241438993485",
+    "coverImage": "/api/thumbnail/800241438993485",
+    "channelName": "Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-80024143_8993485",
+        "seriesId": "series-long-80024143_8993485",
+        "partNumber": 1,
+        "title": "Tập 112 Vấn Đáp Phật Pháp TT. Thích Đạo Thịnh - CKN | Pháp Thoại Thường Chiếu - TT. Thích Đạo Thịnh (Full Trọn Bộ 1:47:23)",
+        "originalUrl": "https://www.facebook.com/watch/?v=800241438993485",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D800241438993485&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:47:23",
+        "thumbnail": "/api/thumbnail/800241438993485",
+        "viewsCount": 47688,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-10261901_80498635",
     "slug": "full-phim-hay-tron-bo-de-nhat-tong-mon-s1-phim-thuyet-minh-moi-nhat-ph-8635",
     "title": "FULL: Phim hay trọn bộ Đệ nhất tông môn S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Chưởng Môn Tông Môn Hạng Bét, Hệ Thống Giúp Tu Vi Đột Phá Đại Đế, Thu Nhận Thiên Kiêu, Trấn Áp Vạn Tiên! | Phim ngắn tổng tài (Full Trọn Bộ 2:59:55)",
