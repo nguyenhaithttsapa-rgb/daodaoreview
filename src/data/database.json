@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16073250_37157932",
+    "slug": "tap-2-phim-hay-tron-bo-cuu-long-doat-dich-phim-thuyet-minh-moi-nhat-ph-7932",
+    "title": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực | Mr1987 (Full Trọn Bộ 30:00)",
+    "description": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực Tình tiết và nội dung...",
+    "thumbnail": "/api/thumbnail/1607325037157932",
+    "coverImage": "/api/thumbnail/1607325037157932",
+    "channelName": "Lạc Vào Cổ Đại Làm Hoàng Đế Thuyết Minh #114.5",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-16073250_37157932",
+        "seriesId": "series-long-16073250_37157932",
+        "partNumber": 1,
+        "title": "Tập 2: Phim hay trọn bộ Cửu long đoạt đích, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Cửu Hoàng Tử Thất Thế, Hệ Thống Biến Đồ Giả Thành Thật Giúp Hắn Dựng Thế Lực | Mr1987 (Full Trọn Bộ 30:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1607325037157932",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1607325037157932&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:00",
+        "thumbnail": "/api/thumbnail/1607325037157932",
+        "viewsCount": 49548,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-11442367_05253196",
     "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--3196",
     "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 1:59:12)",
