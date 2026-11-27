@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-19191170_59061809",
+    "slug": "phim-hay-tron-bo-trai-tim-lac-nhip-phim-thuyet-minh-moi-nhat-phim-ai-h-1809",
+    "title": "Phim hay trọn bộ Trái tim lạc nhịp, phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 2:02:10)",
+    "description": "Phim hay trọn bộ Trái tim lạc nhịp, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1919117059061809",
+    "coverImage": "/api/thumbnail/1919117059061809",
+    "channelName": "Happy Green",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-19191170_59061809",
+        "seriesId": "series-long-19191170_59061809",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Trái tim lạc nhịp, phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 2:02:10)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1919117059061809",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1919117059061809&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:02:10",
+        "thumbnail": "/api/thumbnail/1919117059061809",
+        "viewsCount": 26630,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-16544500_99430467",
     "slug": "tap-2-phim-hay-tron-bo-quan-huyen-tham-lam-phim-thuyet-minh-moi-nhat-p-0467",
     "title": "Tập 2 : Phim hay trọn bộ Quan huyện tham lam, phim thuyết minh mới nhất, phim AI | Phim Ngắn Cổ Trang (Full Trọn Bộ 32:18)",
