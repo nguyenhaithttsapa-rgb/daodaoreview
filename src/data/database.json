@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16761970_99679024",
+    "slug": "review-phim-vo-ky-thuong-pham-tron-bo-adg-review-full-tron-bo-1-53-09-9024",
+    "title": "REVIEW PHIM : VÕ KỸ THƯỢNG PHẨM.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:53:09)",
+    "description": "REVIEW PHIM : VÕ KỸ THƯỢNG PHẨM.TRỌN BỘ",
+    "thumbnail": "/api/thumbnail/1676197099679024",
+    "coverImage": "/api/thumbnail/1676197099679024",
+    "channelName": "Vạn Giới Review Phim",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-16761970_99679024",
+        "seriesId": "series-long-16761970_99679024",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : VÕ KỸ THƯỢNG PHẨM.TRỌN BỘ | AĐG Review (Full Trọn Bộ 1:53:09)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1676197099679024",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1676197099679024&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:53:09",
+        "thumbnail": "/api/thumbnail/1676197099679024",
+        "viewsCount": 2400,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-10255048_40577892",
     "slug": "tap-2-phim-hay-tron-bo-chan-long-thuc-tinh-s1-phim-thuyet-minh-moi-nha-7892",
     "title": "Tập 2: Phim hay trọn bộ Chân long thức tỉnh S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Hoàng Tử Phế Vật, Kích Hoạt Hệ Thống Tăng Sức Mạnh Kinh Hoàng Từng Bước Doạt Giang Sơn | Mèo Rì Viu (Full Trọn Bộ 30:01)",
