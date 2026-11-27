@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-12042245_71837231",
+    "slug": "noi-hap-3-tang-unie-ue560-phan-1-phe-vat-so-huu-10-linh-can-tu-luyen-p-7231",
+    "title": "Nồi hấp 3 tầng UNIE UE560 Phần 1: Phế Vật Sở Hữu 10 Linh Căn: Tự Luyện Phế Đan Thành Tiên  Theo dõi để xem tiếp nhé! | Vũ Trụ Vô Tri (Full Trọn Bộ 2:58:25)",
+    "description": "Nồi hấp 3 tầng UNIE UE560 Phần 1: Phế Vật Sở Hữu 10 Linh Căn: Tự Luyện Phế Đan Thành Tiên  Theo dõi để xem tiếp nhé!",
+    "thumbnail": "/api/thumbnail/1204224571837231",
+    "coverImage": "/api/thumbnail/1204224571837231",
+    "channelName": "Đại Lục Review",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-12042245_71837231",
+        "seriesId": "series-long-12042245_71837231",
+        "partNumber": 1,
+        "title": "Nồi hấp 3 tầng UNIE UE560 Phần 1: Phế Vật Sở Hữu 10 Linh Căn: Tự Luyện Phế Đan Thành Tiên  Theo dõi để xem tiếp nhé! | Vũ Trụ Vô Tri (Full Trọn Bộ 2:58:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1204224571837231",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1204224571837231&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:58:25",
+        "thumbnail": "/api/thumbnail/1204224571837231",
+        "viewsCount": 25000,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-72297878_9619880",
     "slug": "su-huynh-a-su-huynh-tap-14-chuong-66-70-chuan-audio-nghe-truyen-chuan--9880",
     "title": "Sư Huynh À Sư Huynh Tập 14 : Chương 66 - 70 | Chuẩn Audio - Nghe Truyện Chuẩn (Full Trọn Bộ 1:17:24)",
