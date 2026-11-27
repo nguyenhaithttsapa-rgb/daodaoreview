@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-10261901_80498635",
+    "slug": "full-phim-hay-tron-bo-de-nhat-tong-mon-s1-phim-thuyet-minh-moi-nhat-ph-8635",
+    "title": "FULL: Phim hay trọn bộ Đệ nhất tông môn S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Chưởng Môn Tông Môn Hạng Bét, Hệ Thống Giúp Tu Vi Đột Phá Đại Đế, Thu Nhận Thiên Kiêu, Trấn Áp Vạn Tiên! | Phim ngắn tổng tài (Full Trọn Bộ 2:59:55)",
+    "description": "FULL: Phim hay trọn bộ Đệ nhất tông môn S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Chưởng Môn Tông Môn Hạng Bét, Hệ Thống Giúp Tu Vi Đột Phá Đại Đế, Thu Nhận Thiên Kiêu, Trấn Áp Vạn...",
+    "thumbnail": "/api/thumbnail/1026190180498635",
+    "coverImage": "/api/thumbnail/1026190180498635",
+    "channelName": "Phim ngắn tổng tài",
+    "genres": [
+      "Nữ Cường & Trọng Sinh Báo Thù",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-10261901_80498635",
+        "seriesId": "series-long-10261901_80498635",
+        "partNumber": 1,
+        "title": "FULL: Phim hay trọn bộ Đệ nhất tông môn S1, phim thuyết minh mới nhất, phim AI Xuyên Không Thành Chưởng Môn Tông Môn Hạng Bét, Hệ Thống Giúp Tu Vi Đột Phá Đại Đế, Thu Nhận Thiên Kiêu, Trấn Áp Vạn Tiên! | Phim ngắn tổng tài (Full Trọn Bộ 2:59:55)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1026190180498635",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1026190180498635&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:59:55",
+        "thumbnail": "/api/thumbnail/1026190180498635",
+        "viewsCount": 2400,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-19678184_84649148",
     "slug": "phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-phim--9148",
     "title": "Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | Phim hay mỗi ngày 87 (Full Trọn Bộ 2:24:44)",
