@@ -1,5 +1,196 @@
 [
   {
+    "id": "series-long-11149641_94729446",
+    "slug": "phan-4-phe-vat-tap-dich-ngu-linh-can-ta-co-than-thu-luyen-phe-duoc-tha-9446",
+    "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+    "description": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt...",
+    "thumbnail": "/api/thumbnail/1114964194729446",
+    "coverImage": "/api/thumbnail/1114964194729446",
+    "channelName": "Lạc Thanh Y. tá",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 12,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-15850060_22949249",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 1,
+        "title": "Phần 2 | Phế Vật Tạp Dịch Ngũ Linh Căn - Vạn Ma Quật Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 1:49:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1585006022949249",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1585006022949249&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:49:36",
+        "thumbnail": "/api/thumbnail/1585006022949249",
+        "viewsCount": 23656,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-11149641_94729446",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 3,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1117099820724423",
+        "viewsCount": 40960,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-17566999_52269307",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 4,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1756699952269307",
+        "viewsCount": 21486,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-39562235_75008931_3",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 5,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/39562235750089313",
+        "viewsCount": 33696,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-94332674_1938011",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 6,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/943326741938011",
+        "viewsCount": 41956,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-28795033_12352906_0",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 7,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/28795033123529060",
+        "viewsCount": 52671,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-15495679_29704357",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 8,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1549567929704357",
+        "viewsCount": 2700,
+        "publishedAt": "2026-11-04"
+      },
+      {
+        "id": "ep-long-17150119_06847359",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 9,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1715011906847359",
+        "viewsCount": 45775,
+        "publishedAt": "2026-11-03"
+      },
+      {
+        "id": "ep-long-14355862_14682798",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 10,
+        "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:29:07",
+        "thumbnail": "/api/thumbnail/1435586214682798",
+        "viewsCount": 25748,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-13091670_67962338",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 11,
+        "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:29:07",
+        "thumbnail": "/api/thumbnail/1309167067962338",
+        "viewsCount": 52966,
+        "publishedAt": "2026-11-26"
+      },
+      {
+        "id": "ep-long-17633917_01627299",
+        "seriesId": "series-long-11149641_94729446",
+        "partNumber": 12,
+        "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:03:11",
+        "thumbnail": "/api/thumbnail/1763391701627299",
+        "viewsCount": 36184,
+        "publishedAt": "2026-11-26"
+      }
+    ]
+  },
+  {
     "id": "series-long-10985177_46113356",
     "slug": "16-mua-7-mua-9-tu-bao-tien-bon-tap-linh-can-moi-la-boss-that-su-ha-bin-3356",
     "title": "(16+) Mùa 7 - Mùa 9 | Tụ Bảo Tiên Bồn: Tạp Linh Căn Mới Là BOSS Thật Sự Hạ Bình Sinh khi còn làm tạp dịch đã nhặt được một chiếc chậu vỡ, rồi tình cờ phát hiện nó sở hữu năng lực sao chép và cường hóa. Nhờ chiếc bảo bồn này, hắn có thể cường hóa dược liệu, công pháp, pháp khí và nhiều vật phẩm khác, từ Luyện Khí tầng 1 nhanh chóng tu luyện lên Luyện Khí tầng 5. Trong quá trình tu luyện, hắn liên tục bị Linh Lung, đệ tử Ngự Thú Tông cùng nhiều kẻ khác chèn ép. Tuy nhiên, nhờ sự khôn ngoan và sức mạnh của bảo bồn, hắn nhiều lần hóa giải nguy hiểm. Sau đó, Hạ Bình Sinh tham gia bí cảnh Thúy Bình Sơn, lần lượt đối đầu và đánh bại Linh Lung, Ngọc Đức, Phùng đạo cô cùng nhiều thế lực thù địch khác. Cuối cùng, hắn thành công đột phá lên Trúc Cơ kỳ. Sau khi vượt qua nguy cơ bị Thái Hư Lão Tổ “đoạt xá”, một đại họa có thể khiến cả tông môn bị diệt vong bất ngờ ập đến. Trong tình thế cấp bách, Hạ Bình Sinh buộc phải truyền tống rời đi, còn điểm đến và tương lai của hắn sau đó vẫn chưa rõ. Edit: Mễ lạc review | Review phim hay nhất (Full Trọn Bộ 11:07:28)",
@@ -90,7 +281,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -109,9 +300,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-11170998_20724423",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-11170998_20724423",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -125,7 +330,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -139,7 +344,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -153,7 +358,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -167,7 +372,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -181,7 +386,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -195,7 +400,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -209,7 +414,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -223,7 +428,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -237,7 +442,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-11170998_20724423",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -4242,7 +4447,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -4261,9 +4466,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-17566999_52269307",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-17566999_52269307",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -4277,7 +4496,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -4291,7 +4510,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -4305,7 +4524,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -4319,7 +4538,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -4333,7 +4552,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -4347,7 +4566,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -4361,7 +4580,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -4375,7 +4594,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -4389,7 +4608,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-17566999_52269307",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -4419,7 +4638,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -4438,9 +4657,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-39562235_75008931_3",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-39562235_75008931_3",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -4454,7 +4687,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -4468,7 +4701,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -4482,7 +4715,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -4496,7 +4729,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -4510,7 +4743,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -4524,7 +4757,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -4538,7 +4771,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -4552,7 +4785,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -4566,7 +4799,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-39562235_75008931_3",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -5579,7 +5812,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -5598,9 +5831,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-14355862_14682798",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-14355862_14682798",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -5614,7 +5861,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -5628,7 +5875,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -5642,7 +5889,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -5656,7 +5903,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -5670,7 +5917,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -5684,7 +5931,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -5698,7 +5945,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -5712,7 +5959,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -5726,7 +5973,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-14355862_14682798",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -22478,7 +22725,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -22497,9 +22744,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-17633917_01627299",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-17633917_01627299",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -22513,7 +22774,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -22527,7 +22788,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -22541,7 +22802,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -22555,7 +22816,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -22569,7 +22830,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -22583,7 +22844,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -22597,7 +22858,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -22611,7 +22872,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -22625,7 +22886,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-17633917_01627299",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -34058,7 +34319,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -34077,9 +34338,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-94332674_1938011",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-94332674_1938011",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -34093,7 +34368,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -34107,7 +34382,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -34121,7 +34396,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -34135,7 +34410,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -34149,7 +34424,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -34163,7 +34438,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -34177,7 +34452,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -34191,7 +34466,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -34205,7 +34480,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-94332674_1938011",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -34235,7 +34510,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -34254,9 +34529,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-28795033_12352906_0",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-28795033_12352906_0",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -34270,7 +34559,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -34284,7 +34573,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -34298,7 +34587,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -34312,7 +34601,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -34326,7 +34615,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -34340,7 +34629,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -34354,7 +34643,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -34368,7 +34657,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -34382,7 +34671,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-28795033_12352906_0",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -36686,7 +36975,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -36705,9 +36994,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-13091670_67962338",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-13091670_67962338",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -36721,7 +37024,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -36735,7 +37038,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -36749,7 +37052,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -36763,7 +37066,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -36777,7 +37080,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -36791,7 +37094,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -36805,7 +37108,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -36819,7 +37122,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -36833,7 +37136,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-13091670_67962338",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -61551,7 +61854,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -61570,9 +61873,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-15495679_29704357",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-15495679_29704357",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -61586,7 +61903,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -61600,7 +61917,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -61614,7 +61931,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -61628,7 +61945,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -61642,7 +61959,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -61656,7 +61973,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -61670,7 +61987,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -61684,7 +62001,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -61698,7 +62015,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-15495679_29704357",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -62198,7 +62515,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -62217,9 +62534,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-15850060_22949249",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-15850060_22949249",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -62233,7 +62564,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -62247,7 +62578,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -62261,7 +62592,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -62275,7 +62606,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -62289,7 +62620,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -62303,7 +62634,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -62317,7 +62648,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -62331,7 +62662,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -62345,7 +62676,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-15850060_22949249",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
@@ -92784,7 +93115,7 @@
       "Phim Dài Full",
       "Review Tóm Tắt"
     ],
-    "totalEpisodes": 11,
+    "totalEpisodes": 12,
     "featured": true,
     "updatedAt": "2026-11-27",
     "episodes": [
@@ -92803,9 +93134,23 @@
         "publishedAt": "2026-11-04"
       },
       {
-        "id": "ep-long-11170998_20724423",
+        "id": "ep-long-11149641_94729446",
         "seriesId": "series-long-17150119_06847359",
         "partNumber": 2,
+        "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Thanh Y. tá (Full Trọn Bộ 2:20:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1114964194729446",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1114964194729446&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:20:36",
+        "thumbnail": "/api/thumbnail/1114964194729446",
+        "viewsCount": 43954,
+        "publishedAt": "2026-11-27"
+      },
+      {
+        "id": "ep-long-11170998_20724423",
+        "seriesId": "series-long-17150119_06847359",
+        "partNumber": 3,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Thẩm Nguyệt Dao. động (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1117099820724423",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1117099820724423&show_text=0&autoplay=0",
@@ -92819,7 +93164,7 @@
       {
         "id": "ep-long-17566999_52269307",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 3,
+        "partNumber": 4,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1756699952269307",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1756699952269307&show_text=0&autoplay=0",
@@ -92833,7 +93178,7 @@
       {
         "id": "ep-long-39562235_75008931_3",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 4,
+        "partNumber": 5,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Tô Uyển Nhi. đồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=39562235750089313",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D39562235750089313&show_text=0&autoplay=0",
@@ -92847,7 +93192,7 @@
       {
         "id": "ep-long-94332674_1938011",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 5,
+        "partNumber": 6,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Cố Khuynh Thành. công (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=943326741938011",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D943326741938011&show_text=0&autoplay=0",
@@ -92861,7 +93206,7 @@
       {
         "id": "ep-long-28795033_12352906_0",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 6,
+        "partNumber": 7,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Lạc Linh Lung. tung (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=28795033123529060",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D28795033123529060&show_text=0&autoplay=0",
@@ -92875,7 +93220,7 @@
       {
         "id": "ep-long-15495679_29704357",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 7,
+        "partNumber": 8,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. | Phim Hay Sướng Nhá (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1549567929704357",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1549567929704357&show_text=0&autoplay=0",
@@ -92889,7 +93234,7 @@
       {
         "id": "ep-long-17150119_06847359",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 8,
+        "partNumber": 9,
         "title": "Phần 4 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Áo Thun Nữ Thắt Eo Ôm Body BYJANE | Mộ Dung Tuyết. hồng (Full Trọn Bộ 2:20:36)",
         "originalUrl": "https://www.facebook.com/watch/?v=1715011906847359",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1715011906847359&show_text=0&autoplay=0",
@@ -92903,7 +93248,7 @@
       {
         "id": "ep-long-14355862_14682798",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 9,
+        "partNumber": 10,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Lạc Linh Lung. tung (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1435586214682798",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1435586214682798&show_text=0&autoplay=0",
@@ -92917,7 +93262,7 @@
       {
         "id": "ep-long-13091670_67962338",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 10,
+        "partNumber": 11,
         "title": "Phần 5 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan. Cây Lau Nhà Tự Vắt 45cm - Cây Lau Sàn Tiện Lợi Bông Lau San Hô Sợi Microfiber Siêu Thấm Hút | Vân Mộng Ly. kỳ (Full Trọn Bộ 2:29:07)",
         "originalUrl": "https://www.facebook.com/watch/?v=1309167067962338",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1309167067962338&show_text=0&autoplay=0",
@@ -92931,7 +93276,7 @@
       {
         "id": "ep-long-17633917_01627299",
         "seriesId": "series-long-17150119_06847359",
-        "partNumber": 11,
+        "partNumber": 12,
         "title": "Phần 9 | Phế Vật Tạp Dịch Ngũ Linh Căn, Ta Có Thần Thụ Luyện Phế Dược Thành Bảo Đan ️ Máy Cưa Xích Cầm Tay Dùng Pin 199V, Máy Cắt Cành Cây Động Cơ Lõi Đồng Lõi Đồng, Hệ Thống Bơm Tự Động Mạnh Mẽ Bền Bỉ : | Chúa Tể Review AI (Full Trọn Bộ 3:03:11)",
         "originalUrl": "https://www.facebook.com/watch/?v=1763391701627299",
         "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1763391701627299&show_text=0&autoplay=0",
