@@ -1,5 +1,153 @@
 [
   {
+    "id": "series-long-11052719_12302508",
+    "slug": "a-di-da-phat-thoi-khoa-lang-nghiem-le-phat-sam-hoi-va-nghe-phap-moi-qu-2508",
+    "title": "A DI ĐÀ PHẬT THỜI KHOÁ LĂNG NGHIÊM, LỄ PHẬT SÁM HỐI VÀ NGHE PHÁP Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 4h00 - 7h00 sáng ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ 5:00 PM - 8:00 PM ngày 29/10/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 3:04:21)",
+    "description": "A DI ĐÀ PHẬT THỜI KHOÁ LĂNG NGHIÊM, LỄ PHẬT SÁM HỐI VÀ NGHE PHÁP Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 4h00 - 7h00 sáng ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ...",
+    "thumbnail": "/api/thumbnail/1105271912302508",
+    "coverImage": "/api/thumbnail/1105271912302508",
+    "channelName": "Tu Tập An Lạc - ĐT Online - Vân Võ",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-11052719_12302508",
+        "seriesId": "series-long-11052719_12302508",
+        "partNumber": 1,
+        "title": "A DI ĐÀ PHẬT THỜI KHOÁ LĂNG NGHIÊM, LỄ PHẬT SÁM HỐI VÀ NGHE PHÁP Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 4h00 - 7h00 sáng ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ 5:00 PM - 8:00 PM ngày 29/10/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 3:04:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1105271912302508",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1105271912302508&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:04:21",
+        "thumbnail": "/api/thumbnail/1105271912302508",
+        "viewsCount": 2200,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-45989724_17050524",
+    "slug": "a-di-da-phat-thoi-khoa-kinh-a-di-da-le-phat-niem-phat-sam-hoi-moi-quy--0524",
+    "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ 9h:00 AM – 10h:30 AM ngày 30/10/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:43:21)",
+    "description": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ 9h:00...",
+    "thumbnail": "/api/thumbnail/4598972417050524",
+    "coverImage": "/api/thumbnail/4598972417050524",
+    "channelName": "Tu Tập An Lạc - ĐT Online - Vân Võ",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-45989724_17050524",
+        "seriesId": "series-long-45989724_17050524",
+        "partNumber": 1,
+        "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 30/10/2026 ⏰ Giờ Mỹ (New York) từ 9h:00 AM – 10h:30 AM ngày 30/10/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:43:21)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4598972417050524",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4598972417050524&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:43:21",
+        "thumbnail": "/api/thumbnail/4598972417050524",
+        "viewsCount": 1100,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-18197809_45911023",
+    "slug": "a-di-da-phat-thoi-khoa-kinh-a-di-da-le-phat-niem-phat-sam-hoi-moi-quy--1023",
+    "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 25/11/2026 ⏰ Giờ Mỹ (New York) từ 08h:00 AM – 09h:30 AM ngày 26/11/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:43:54)",
+    "description": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 25/11/2026 ⏰ Giờ Mỹ (New York) từ...",
+    "thumbnail": "/api/thumbnail/1819780945911023",
+    "coverImage": "/api/thumbnail/1819780945911023",
+    "channelName": "Tu Tập An Lạc - ĐT Online - Vân Võ",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-18197809_45911023",
+        "seriesId": "series-long-18197809_45911023",
+        "partNumber": 1,
+        "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 25/11/2026 ⏰ Giờ Mỹ (New York) từ 08h:00 AM – 09h:30 AM ngày 26/11/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:43:54)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1819780945911023",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1819780945911023&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:43:54",
+        "thumbnail": "/api/thumbnail/1819780945911023",
+        "viewsCount": 40069,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-11488539_04190657",
+    "slug": "a-di-da-phat-thoi-khoa-kinh-a-di-da-le-phat-niem-phat-sam-hoi-moi-quy--0657",
+    "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 27/11/2026 ⏰ Giờ Mỹ (New York) từ 08h:00 AM – 09h:30 AM ngày 27/11/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH Ẩ | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:52:45)",
+    "description": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 27/11/2026 ⏰ Giờ Mỹ (New York) từ...",
+    "thumbnail": "/api/thumbnail/1148853904190657",
+    "coverImage": "/api/thumbnail/1148853904190657",
+    "channelName": "Tu Tập An Lạc - ĐT Online - Vân Võ",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-11488539_04190657",
+        "seriesId": "series-long-11488539_04190657",
+        "partNumber": 1,
+        "title": "A DI ĐÀ PHẬT THỜI KHOÁ KINH A DI ĐÀ, LỄ PHẬT, NIỆM PHẬT, SÁM HỐI Mời quý liên hữu cộng tu cùng Đạo Tràng Tu tập An Lạc ⏰ Giờ Việt Nam từ 20h00 - 21h30 ngày 27/11/2026 ⏰ Giờ Mỹ (New York) từ 08h:00 AM – 09h:30 AM ngày 27/11/2026 Nguyện đem công đức này Hướng về khắp tất cả Đệ tử và chúng sanh Đều trọn thành Phật đạo. NAM MÔ TÂY PHƯƠNG CỰC LẠC THẾ GIỚI ĐẠI TỪ ĐẠI BI A DI ĐÀ PHẬT TÁC ĐẠI CHỨNG MINH Ẩ | Tu Tập An Lạc - ĐT Online - Vân Võ (Full Trọn Bộ 1:52:45)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1148853904190657",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1148853904190657&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:52:45",
+        "thumbnail": "/api/thumbnail/1148853904190657",
+        "viewsCount": 53930,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-20683257_37176841",
     "slug": "full-season-1-dai-can-phong-van-duoc-bao-truoc-10-ngay-xuyen-khong-han-6841",
     "title": " [FULL SEASON 1] ĐẠI CÀN PHONG VÂN! ĐƯỢC BÁO TRƯỚC 10 NGÀY XUYÊN KHÔNG, HẮN TÍCH TRỮ KHÍ TÀI VẬT TƯ! ️ Nếu biết trước 10 ngày mình sẽ xuyên không đến một thế giới đầy biến động, bạn sẽ làm gì? 樂 Trong khi người khác còn chưa kịp chuẩn bị, nam chính đã nắm trong tay lợi thế cực lớn nhờ biết trước tương lai! Tận dụng khoảng thời gian quý giá ấy, hắn điên cuồng tích trữ lương thực, khí tài, vật tư và chuẩn bị mọi thứ cần thiết để sinh tồn. Khi đại biến ập đến, người khác loay hoay tìm đường sống, còn hắn đã sớm chuẩn bị đầy đủ để chiếm thế chủ động!   FULL SEASON 1 – Xem trọn bộ tại Nes Truyện Tranh:  ️ LIKE – CHIA SẺ – THEO DÕI để khám phá thêm nhiều bộ truyện tranh hoạt hình hấp dẫn! | Nes Truyện Tranh (Full Trọn Bộ 10:58:23)",
