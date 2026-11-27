@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-14947210_99235933",
+    "slug": "greater-works-crusade-2026-day-4-morning-session-b-cop-mckeown-temple--5933",
+    "title": "GREATER WORKS CRUSADE 2026 DAY 4 - MORNING SESSION B | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 1:24:36)",
+    "description": "GREATER WORKS CRUSADE 2026 DAY 4 - MORNING SESSION B",
+    "thumbnail": "/api/thumbnail/1494721099235933",
+    "coverImage": "/api/thumbnail/1494721099235933",
+    "channelName": "COP McKeown Temple Asokwa Kumasi",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-14947210_99235933",
+        "seriesId": "series-long-14947210_99235933",
+        "partNumber": 1,
+        "title": "GREATER WORKS CRUSADE 2026 DAY 4 - MORNING SESSION B | COP McKeown Temple Asokwa Kumasi (Full Trọn Bộ 1:24:36)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1494721099235933",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1494721099235933&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:24:36",
+        "thumbnail": "/api/thumbnail/1494721099235933",
+        "viewsCount": 41239,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-98217154_1232784",
     "slug": "phim-hay-tron-bo-hoa-mai-roi-phim-thuyet-minh-moi-nhat-phim-ai-zlove19-2784",
     "title": "Phim hay trọn bộ Hoa mai rơi, phim thuyết minh mới nhất, Phim AI | Zlove1988 (Full Trọn Bộ 35:52)",
