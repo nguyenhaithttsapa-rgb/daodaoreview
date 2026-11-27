@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-87800642_8113779",
+    "slug": "meomeo-audio-full-vo-hop-dong-cua-co-tong-bo-tron-roi-follow-kenh-de-k-3779",
+    "title": "[MEOMEO AUDIO - FULL] Vợ Hợp Đồng Của Cố Tổng Bỏ Trốn Rồi Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 30:34)",
+    "description": "[MEOMEO AUDIO - FULL] Vợ Hợp Đồng Của Cố Tổng Bỏ Trốn Rồi Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! ...",
+    "thumbnail": "/api/thumbnail/878006428113779",
+    "coverImage": "/api/thumbnail/878006428113779",
+    "channelName": "MeoMeo thích nghe truyện",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-87800642_8113779",
+        "seriesId": "series-long-87800642_8113779",
+        "partNumber": 1,
+        "title": "[MEOMEO AUDIO - FULL] Vợ Hợp Đồng Của Cố Tổng Bỏ Trốn Rồi Follow kênh để không bỏ lỡ bất kỳ tập truyện mới nào nhé! Cảm ơn bạn đã đồng hành cùng MeoMeo Audio ! | MeoMeo thích nghe truyện (Full Trọn Bộ 30:34)",
+        "originalUrl": "https://www.facebook.com/watch/?v=878006428113779",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D878006428113779&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "30:34",
+        "thumbnail": "/api/thumbnail/878006428113779",
+        "viewsCount": 124000,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-82174489_6930338",
     "slug": "xoa-bop-bam-huyet-giam-dau-tai-nha-da-nang-on-reels-full-tron-bo-2-10--0338",
     "title": "Xoa bóp Bấm Huyết giảm đau tại Nhà Đà nẵng on Reels (Full Trọn Bộ 2:10:01)",
