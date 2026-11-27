@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-82174489_6930338",
+    "slug": "xoa-bop-bam-huyet-giam-dau-tai-nha-da-nang-on-reels-full-tron-bo-2-10--0338",
+    "title": "Xoa bóp Bấm Huyết giảm đau tại Nhà Đà nẵng on Reels (Full Trọn Bộ 2:10:01)",
+    "description": "Trọn bộ phim dài đặc sắc: Xoa bóp Bấm Huyết giảm đau tại Nhà Đà nẵng on Reels (Full Trọn Bộ 2:10:01). Thời lượng: 2:10:01. Kênh: Top phim Hoa Ngữ hay nhất.",
+    "thumbnail": "/api/thumbnail/821744896930338",
+    "coverImage": "/api/thumbnail/821744896930338",
+    "channelName": "Top phim Hoa Ngữ hay nhất",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-82174489_6930338",
+        "seriesId": "series-long-82174489_6930338",
+        "partNumber": 1,
+        "title": "Xoa bóp Bấm Huyết giảm đau tại Nhà Đà nẵng on Reels (Full Trọn Bộ 2:10:01)",
+        "originalUrl": "https://www.facebook.com/watch/?v=821744896930338",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D821744896930338&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "2:10:01",
+        "thumbnail": "/api/thumbnail/821744896930338",
+        "viewsCount": 55044,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-22379325_83770361",
     "slug": "bang-do-giu-toc-mua-24-thai-huyen-thai-chau-truyen-xuong-phim-ai-full--0361",
     "title": "Băng đô giữ tóc Mùa 24 | Thái Huyền Thai Châu Truyện | Xưởng Phim AI (Full Trọn Bộ 2:12:16)",
