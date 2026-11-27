@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-99495559_3208839",
+    "slug": "tieu-su-muoi-duoc-ca-kiem-tong-cung-chieu-mua-3-tu-tien-review-full-tr-8839",
+    "title": "Tiểu Sư Muội Được Cả Kiếm Tông Cưng Chiều Mùa 3 | Tu Tiên Review (Full Trọn Bộ 3:53:00)",
+    "description": "Tiểu Sư Muội Được Cả Kiếm Tông Cưng Chiều Mùa 3",
+    "thumbnail": "/api/thumbnail/994955593208839",
+    "coverImage": "/api/thumbnail/994955593208839",
+    "channelName": "Tũn Review",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-99495559_3208839",
+        "seriesId": "series-long-99495559_3208839",
+        "partNumber": 1,
+        "title": "Tiểu Sư Muội Được Cả Kiếm Tông Cưng Chiều Mùa 3 | Tu Tiên Review (Full Trọn Bộ 3:53:00)",
+        "originalUrl": "https://www.facebook.com/watch/?v=994955593208839",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D994955593208839&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "3:53:00",
+        "thumbnail": "/api/thumbnail/994955593208839",
+        "viewsCount": 43529,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-93308890_9851051",
     "slug": "tap-dich-ngu-linh-can-ta-so-huu-ngoc-than-tang-toc-tu-luyen-nghich-thi-1051",
     "title": "Tạp Dịch Ngũ Linh Căn, Ta Sở Hữu Ngọc Thần Tăng Tốc Tu Luyện, Nghịch Thiên Thành Bất Bại | Quán Phim Tiên Hiệp (Full Trọn Bộ 2:00:29)",
@@ -143730,7 +143767,7 @@
     ],
     "totalEpisodes": 1,
     "featured": true,
-    "updatedAt": "2026-11-01",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-15762084_70875904",
