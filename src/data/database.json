@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-94730961_1555465",
+    "slug": "tap-3-phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-5465",
+    "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 33:02)",
+    "description": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/947309611555465",
+    "coverImage": "/api/thumbnail/947309611555465",
+    "channelName": "Y Thánh Xuất Sơn Phim Dài Full #193.2",
+    "genres": [
+      "Thần Y Đô Thị & Cứu Thế",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-94730961_1555465",
+        "seriesId": "series-long-94730961_1555465",
+        "partNumber": 1,
+        "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 33:02)",
+        "originalUrl": "https://www.facebook.com/watch/?v=947309611555465",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D947309611555465&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "33:02",
+        "thumbnail": "/api/thumbnail/947309611555465",
+        "viewsCount": 25957,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-19191170_59061809",
     "slug": "phim-hay-tron-bo-trai-tim-lac-nhip-phim-thuyet-minh-moi-nhat-phim-ai-h-1809",
     "title": "Phim hay trọn bộ Trái tim lạc nhịp, phim thuyết minh mới nhất, phim AI | Happy Green (Full Trọn Bộ 2:02:10)",
