@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-15641032_31830253",
+    "slug": "full-ss1-ss2-van-nam-ngu-say-sau-khi-thuc-tinh-suc-manh-toi-thuong-ta--0253",
+    "title": "Full SS1+SS2 | Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới | Riview Film Không Có Phần kết (Full Trọn Bộ 5:14:27)",
+    "description": "Full SS1+SS2 | Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới",
+    "thumbnail": "/api/thumbnail/1564103231830253",
+    "coverImage": "/api/thumbnail/1564103231830253",
+    "channelName": "Thần Ma Đại Lục Review #66",
+    "genres": [
+      "Donghua 3D",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-15641032_31830253",
+        "seriesId": "series-long-15641032_31830253",
+        "partNumber": 1,
+        "title": "Full SS1+SS2 | Vạn Năm Ngủ Say, Sau Khi Thức Tỉnh Sức Mạnh Tối Thượng, Ta Trấn Áp Chư Thiên Vạn Giới | Riview Film Không Có Phần kết (Full Trọn Bộ 5:14:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1564103231830253",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1564103231830253&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "5:14:27",
+        "thumbnail": "/api/thumbnail/1564103231830253",
+        "viewsCount": 37000,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-14440337_71270238",
     "slug": "tieu-su-muoi-duoc-ca-kiem-tong-cung-chieu-mua-5-tu-tien-review-full-tr-0238",
     "title": "Tiểu Sư Muội Được Cả Kiếm Tông Cưng Chiều Mùa 5 | Tu Tiên Review (Full Trọn Bộ 14:02:56)",
@@ -153876,7 +153913,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-20737606_63239595",
@@ -214385,7 +214422,7 @@
     ],
     "totalEpisodes": 2,
     "featured": true,
-    "updatedAt": "2026-11-04",
+    "updatedAt": "2026-11-27",
     "episodes": [
       {
         "id": "ep-long-20737606_63239595",
