@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-75469008_2534534",
+    "slug": "vietsub-full-duc-van-dau-tieu-xa-mua-2-tap-8-thuong-phong-khoi-duc-van-4534",
+    "title": "[VIETSUB FULL] ĐỨC VÂN ĐẤU TIẾU XÃ mùa 2 | Tập 8 thượng: Phong khởi Đức Vân Ai sẽ là người thừa kế ngai vàng trở thành Quốc công Vân Quốc? Là 1 trong 8 vị công tử của Quách Lãnh Công? Hay là Người hiền tài Tích Cốc Tử (Đại Lâm)? Hay chính là Phần Dương????? Một chút gia vị giải trí cho thứ 2 đầu tuần căng thẳng, mời mọi người thưởng thức món ngon hôm nay. | Tiệm Lẩu Đức Vân (Full Trọn Bộ 2:36:27)",
+    "description": "[VIETSUB FULL] ĐỨC VÂN ĐẤU TIẾU XÃ mùa 2 | Tập 8 thượng: Phong khởi Đức Vân Ai sẽ là người thừa kế ngai vàng trở thành Quốc công Vân Quốc? Là 1 trong 8 vị công tử của Quách Lãnh Công? Hay là Người...",
+    "thumbnail": "/api/thumbnail/754690082534534",
+    "coverImage": "/api/thumbnail/754690082534534",
+    "channelName": "Tiệm Lẩu Đức Vân",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-75469008_2534534",
+        "seriesId": "series-long-75469008_2534534",
+        "partNumber": 1,
+        "title": "[VIETSUB FULL] ĐỨC VÂN ĐẤU TIẾU XÃ mùa 2 | Tập 8 thượng: Phong khởi Đức Vân Ai sẽ là người thừa kế ngai vàng trở thành Quốc công Vân Quốc? Là 1 trong 8 vị công tử của Quách Lãnh Công? Hay là Người hiền tài Tích Cốc Tử (Đại Lâm)? Hay chính là Phần Dương????? Một chút gia vị giải trí cho thứ 2 đầu tuần căng thẳng, mời mọi người thưởng thức món ngon hôm nay. | Tiệm Lẩu Đức Vân (Full Trọn Bộ 2:36:27)",
+        "originalUrl": "https://www.facebook.com/watch/?v=754690082534534",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D754690082534534&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:36:27",
+        "thumbnail": "/api/thumbnail/754690082534534",
+        "viewsCount": 5300,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-13301242_42523050",
     "slug": "tu-bao-tien-bon-linh-gioi-thien-ngu-hanh-tap-linh-can-ta-co-tu-bao-tie-3050",
     "title": "Tụ Bảo Tiên Bồn Linh Giới Thiên_ Ngũ Hành Tạp Linh Căn, Ta Có Tụ Bảo Tiên Bồn Đăng lâm Linh Giới | Súp Lơ Review Phim (Full Trọn Bộ 8:05:12)",
