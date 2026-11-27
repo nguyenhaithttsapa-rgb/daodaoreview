@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-11442367_05253196",
+    "slug": "full-phim-hay-tron-bo-nguoi-thua-ke-phim-thuyet-minh-moi-nhat-phim-ai--3196",
+    "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 1:59:12)",
+    "description": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1144236705253196",
+    "coverImage": "/api/thumbnail/1144236705253196",
+    "channelName": "Hào Môn Thừa Kế Review Hay #102.5",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-11442367_05253196",
+        "seriesId": "series-long-11442367_05253196",
+        "partNumber": 1,
+        "title": "Full: Phim hay trọn bộ Người thừa kế , phim thuyết minh mới nhất, phim AI | Hội Quán Phim Trung Quốc (Full Trọn Bộ 1:59:12)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1144236705253196",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1144236705253196&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:59:12",
+        "thumbnail": "/api/thumbnail/1144236705253196",
+        "viewsCount": 50532,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-94730961_1555465",
     "slug": "tap-3-phim-hay-tron-bo-dai-tieu-thu-xuat-son-phim-thuyet-minh-moi-nhat-5465",
     "title": "Tập 3 : Phim hay trọn bộ Đại tiểu thư xuất sơn , phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 33:02)",
