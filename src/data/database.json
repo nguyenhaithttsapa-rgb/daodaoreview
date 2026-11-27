@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-27269348_37515751",
+    "slug": "review-phim-phuong-hoang-da-ca-tron-bo-khi-phuong-hoang-hoang-da-cat-t-5751",
+    "title": "REVIEW PHIM : PHƯỢNG HOÀNG DÃ CA.TRỌN BỘ Khi phượng hoàng hoang dã cất tiếng hót giữa Cửu Châu, tình yêu và quyền lực đan xen thành bản ca bất tận | AĐG Review (Full Trọn Bộ 1:25:17)",
+    "description": "REVIEW PHIM : PHƯỢNG HOÀNG DÃ CA.TRỌN BỘ Khi phượng hoàng hoang dã cất tiếng hót giữa Cửu Châu, tình yêu và quyền lực đan xen thành bản ca bất tận",
+    "thumbnail": "/api/thumbnail/2726934837515751",
+    "coverImage": "/api/thumbnail/2726934837515751",
+    "channelName": "Review Phim Ngắn Hay",
+    "genres": [
+      "Kịch Tính Gia Đấu",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-27269348_37515751",
+        "seriesId": "series-long-27269348_37515751",
+        "partNumber": 1,
+        "title": "REVIEW PHIM : PHƯỢNG HOÀNG DÃ CA.TRỌN BỘ Khi phượng hoàng hoang dã cất tiếng hót giữa Cửu Châu, tình yêu và quyền lực đan xen thành bản ca bất tận | AĐG Review (Full Trọn Bộ 1:25:17)",
+        "originalUrl": "https://www.facebook.com/watch/?v=2726934837515751",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2726934837515751&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:25:17",
+        "thumbnail": "/api/thumbnail/2726934837515751",
+        "viewsCount": 19975,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-40631480_50602164",
     "slug": "full-tron-bo-review-phim-hay-hoanh-dao-doat-ai-ammar-gaming-full-tron--2164",
     "title": "FULL TRỌN BỘ REVIEW PHIM HAY Hoành đao đoạt ái | عمار جيمنغ / Ammar Gaming (Full Trọn Bộ 1:34:10)",
