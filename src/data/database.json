@@ -1,5 +1,79 @@
 [
   {
+    "id": "series-long-11378303_11943077",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-3077",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: 2: Xuyên Không Thành Phò Mã Kích Hoạt Hệ Thống Tam Quốc Triệu Hồi Danh Tướng Tranh Bá Thiên Hạ | Trần Thành Trung (Full Trọn Bộ 2:06:33)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: 2: Xuyên Không Thành Phò Mã Kích Hoạt Hệ...",
+    "thumbnail": "/api/thumbnail/1137830311943077",
+    "coverImage": "/api/thumbnail/1137830311943077",
+    "channelName": "Ghiền Kịch Tra Nam Thuyết Minh #244",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-11378303_11943077",
+        "seriesId": "series-long-11378303_11943077",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: 2: Xuyên Không Thành Phò Mã Kích Hoạt Hệ Thống Tam Quốc Triệu Hồi Danh Tướng Tranh Bá Thiên Hạ | Trần Thành Trung (Full Trọn Bộ 2:06:33)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1137830311943077",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1137830311943077&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:06:33",
+        "thumbnail": "/api/thumbnail/1137830311943077",
+        "viewsCount": 30094,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
+    "id": "series-long-46799675_12281866",
+    "slug": "tron-bo-phim-full-hd-thuyet-minh-phim-hay-moi-ngay-cho-moi-nha-xem-tai-1866",
+    "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Thiếu Chủ Bị Ép Hiến Kiếm Cốt, Kích Hoạt Hệ Thống Triệu Hồi Diệt Thánh Triều | John Henry Arnold (Full Trọn Bộ 2:48:25)",
+    "description": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Thiếu Chủ Bị Ép Hiến Kiếm...",
+    "thumbnail": "/api/thumbnail/4679967512281866",
+    "coverImage": "/api/thumbnail/4679967512281866",
+    "channelName": "Ghiền Kịch Tra Nam Thuyết Minh #244",
+    "genres": [
+      "Đoản Kịch & Phim Ngắn Triệu View",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-27",
+    "episodes": [
+      {
+        "id": "ep-long-46799675_12281866",
+        "seriesId": "series-long-46799675_12281866",
+        "partNumber": 1,
+        "title": "[TRỌN BỘ PHIM FULL HD THUYẾT MINH] Phim hay mỗi ngày cho mọi nhà XEM TẠI: Xuyên Không Thành Thiếu Chủ Bị Ép Hiến Kiếm Cốt, Kích Hoạt Hệ Thống Triệu Hồi Diệt Thánh Triều | John Henry Arnold (Full Trọn Bộ 2:48:25)",
+        "originalUrl": "https://www.facebook.com/watch/?v=4679967512281866",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D4679967512281866&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "2:48:25",
+        "thumbnail": "/api/thumbnail/4679967512281866",
+        "viewsCount": 55333,
+        "publishedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "id": "series-long-16026322_88230316",
     "slug": "tap-3-phim-hay-tron-bo-me-ke-phim-thuyet-minh-moi-nhat-phim-ai-vitamin-0316",
     "title": "Tập 3: Phim hay trọn bộ Mẹ kế, Phim thuyết minh mới nhất, phim AI | Vitamin Sách 1988 (Full Trọn Bộ 32:49)",
