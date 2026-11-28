@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-16720000_30072267",
+    "slug": "review-full-tron-bo-anime-ong-chu-chuyen-sinh-den-binh-duong-animevui2-2267",
+    "title": "Review full trọn bộ Anime: Ông Chú Chuyển Sinh Đến Bình Dương | AnimeVui24h (Full Trọn Bộ 1:18:31)",
+    "description": "Review full trọn bộ Anime: Ông Chú Chuyển Sinh Đến Bình Dương",
+    "thumbnail": "/api/thumbnail/1672000030072267",
+    "coverImage": "/api/thumbnail/1672000030072267",
+    "channelName": "Review full trọn bộ",
+    "genres": [
+      "Chiến Thần & Dị Năng Đô Thị",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-28",
+    "episodes": [
+      {
+        "id": "ep-long-16720000_30072267",
+        "seriesId": "series-long-16720000_30072267",
+        "partNumber": 1,
+        "title": "Review full trọn bộ Anime: Ông Chú Chuyển Sinh Đến Bình Dương | AnimeVui24h (Full Trọn Bộ 1:18:31)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1672000030072267",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1672000030072267&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:18:31",
+        "thumbnail": "/api/thumbnail/1672000030072267",
+        "viewsCount": 24901,
+        "publishedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "series-long-10412396_42052458",
     "slug": "xem-tron-bo-tap-mp4-juanita-mcbride-full-tron-bo-1-12-43-2458",
     "title": " Xem trọn bộ tập .mp4 | Juanita Mcbride (Full Trọn Bộ 1:12:43)",
