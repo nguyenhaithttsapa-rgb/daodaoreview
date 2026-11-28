@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-25019545_68773039_8",
+    "slug": "review-phim-tron-bo-full-phim-hoa-dao-co-nhieu-canh-karot-me-phim-full-0398",
+    "title": "Review phim trọn bộ (full phim) Hoa Đào Có Nhiều Cánh | Karot Mê Phim (Full Trọn Bộ 1:58:59)",
+    "description": "Review phim trọn bộ (full phim) Hoa Đào Có Nhiều Cánh",
+    "thumbnail": "/api/thumbnail/25019545687730398",
+    "coverImage": "/api/thumbnail/25019545687730398",
+    "channelName": "Review Dạo",
+    "genres": [
+      "Tổng Tài Bá Đạo & Hào Môn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-28",
+    "episodes": [
+      {
+        "id": "ep-long-25019545_68773039_8",
+        "seriesId": "series-long-25019545_68773039_8",
+        "partNumber": 1,
+        "title": "Review phim trọn bộ (full phim) Hoa Đào Có Nhiều Cánh | Karot Mê Phim (Full Trọn Bộ 1:58:59)",
+        "originalUrl": "https://www.facebook.com/watch/?v=25019545687730398",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D25019545687730398&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "1:58:59",
+        "thumbnail": "/api/thumbnail/25019545687730398",
+        "viewsCount": 45613,
+        "publishedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "series-long-15442390_50032847",
     "slug": "full-toi-bat-ngo-tro-thanh-vo-cung-cua-thai-tu-gia-full-banh-cuon-radi-2847",
     "title": "[ FULL ] TÔI BẤT NGỜ TRỞ THÀNH VỢ CƯNG CỦA THÁI TỬ GIA  - FULL Bánh Cuốn Radio truyện ngọt ngào nhẹ nhàng | FULL Bánh Cuốn Radio (Full Trọn Bộ 45:01)",
