@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-18398884_61232087",
+    "slug": "full-phim-hay-tron-bo-qui-phi-tham-tien-phim-thuyet-minh-moi-nhat-phim-2087",
+    "title": "FULL: Phim hay trọn bộ Quí phi tham tiền, phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 51:15)",
+    "description": "FULL: Phim hay trọn bộ Quí phi tham tiền, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1839888461232087",
+    "coverImage": "/api/thumbnail/1839888461232087",
+    "channelName": "Thế Giới Donghua Tuyết Ưng Thuyết Minh Hay #196.2",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-28",
+    "episodes": [
+      {
+        "id": "ep-long-18398884_61232087",
+        "seriesId": "series-long-18398884_61232087",
+        "partNumber": 1,
+        "title": "FULL: Phim hay trọn bộ Quí phi tham tiền, phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 51:15)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1839888461232087",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1839888461232087&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "51:15",
+        "thumbnail": "/api/thumbnail/1839888461232087",
+        "viewsCount": 36004,
+        "publishedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "series-long-10687476_19078619",
     "slug": "xem-tron-bo-tap-mp4-eva-jacobs-full-tron-bo-1-12-43-8619",
     "title": " Xem trọn bộ tập .mp4 | Eva Jacobs (Full Trọn Bộ 1:12:43)",
