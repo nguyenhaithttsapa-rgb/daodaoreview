@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-33866161_18049889",
+    "slug": "tap-2-truyen-tao-hoa-tien-de-tac-gia-mo-vu-than-thien-khuong-tu-nam-tu-9889",
+    "title": "- TẬP 2 - Truyện TẠO HOÁ TIÊN ĐẾ - Tác giả: Mộ Vũ Thần Thiên . Khương Tư Nam từ khi sinh ra đã có tố chất xuất chúng, tài năng vượt tuổi, được coi là thiên tài từ lúc còn nhỏ. . Thế nhưng không hiểu tại sao cậu bỗng dưng không thể tiếp tục phá vỡ cảnh giới, mãi chỉ dừng lại 1 chỗ. . Cuối cùng Khương Tư Nam sẽ như thế nào? Mời các bạn theo dõi truyện nhé. | Truyện Tiên Hiệp Hay Nhất (Full Trọn Bộ 1:41:24)",
+    "description": "- TẬP 2 - Truyện TẠO HOÁ TIÊN ĐẾ - Tác giả: Mộ Vũ Thần Thiên . Khương Tư Nam từ khi sinh ra đã có tố chất xuất chúng, tài năng vượt tuổi, được coi là thiên tài từ lúc còn nhỏ. . Thế nhưng không...",
+    "thumbnail": "/api/thumbnail/3386616118049889",
+    "coverImage": "/api/thumbnail/3386616118049889",
+    "channelName": "Truyện Tiên Hiệp Hay Nhất",
+    "genres": [
+      "Donghua 3D Tu Tiên & Huyền Huyễn",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-28",
+    "episodes": [
+      {
+        "id": "ep-long-33866161_18049889",
+        "seriesId": "series-long-33866161_18049889",
+        "partNumber": 1,
+        "title": "- TẬP 2 - Truyện TẠO HOÁ TIÊN ĐẾ - Tác giả: Mộ Vũ Thần Thiên . Khương Tư Nam từ khi sinh ra đã có tố chất xuất chúng, tài năng vượt tuổi, được coi là thiên tài từ lúc còn nhỏ. . Thế nhưng không hiểu tại sao cậu bỗng dưng không thể tiếp tục phá vỡ cảnh giới, mãi chỉ dừng lại 1 chỗ. . Cuối cùng Khương Tư Nam sẽ như thế nào? Mời các bạn theo dõi truyện nhé. | Truyện Tiên Hiệp Hay Nhất (Full Trọn Bộ 1:41:24)",
+        "originalUrl": "https://www.facebook.com/watch/?v=3386616118049889",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D3386616118049889&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "16:9",
+        "duration": "1:41:24",
+        "thumbnail": "/api/thumbnail/3386616118049889",
+        "viewsCount": 36506,
+        "publishedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "series-long-25019545_68773039_8",
     "slug": "review-phim-tron-bo-full-phim-hoa-dao-co-nhieu-canh-karot-me-phim-full-0398",
     "title": "Review phim trọn bộ (full phim) Hoa Đào Có Nhiều Cánh | Karot Mê Phim (Full Trọn Bộ 1:58:59)",
