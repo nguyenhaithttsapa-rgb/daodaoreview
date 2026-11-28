@@ -1,5 +1,42 @@
 [
   {
+    "id": "series-long-11057948_08674468",
+    "slug": "phim-hay-tron-bo-noi-lai-to-duyen-phim-thuyet-minh-moi-nhat-phim-ai-me-4468",
+    "title": "Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Mèo Kể Truyện (Full Trọn Bộ 56:41)",
+    "description": "Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI",
+    "thumbnail": "/api/thumbnail/1105794808674468",
+    "coverImage": "/api/thumbnail/1105794808674468",
+    "channelName": "Mèo Mếu Review",
+    "genres": [
+      "Xuyên Không & Hài Hước Đổi Đời",
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "categories": [
+      "Phim Dài Full",
+      "Review Tóm Tắt"
+    ],
+    "totalEpisodes": 1,
+    "featured": true,
+    "updatedAt": "2026-11-28",
+    "episodes": [
+      {
+        "id": "ep-long-11057948_08674468",
+        "seriesId": "series-long-11057948_08674468",
+        "partNumber": 1,
+        "title": "Phim hay trọn bộ Nối lại tơ duyên, phim thuyết minh mới nhất, phim AI | Mèo Kể Truyện (Full Trọn Bộ 56:41)",
+        "originalUrl": "https://www.facebook.com/watch/?v=1105794808674468",
+        "embedUrl": "https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D1105794808674468&show_text=0&autoplay=0",
+        "platform": "facebook",
+        "aspectRatio": "9:16",
+        "duration": "56:41",
+        "thumbnail": "/api/thumbnail/1105794808674468",
+        "viewsCount": 49892,
+        "publishedAt": "2026-11-28"
+      }
+    ]
+  },
+  {
     "id": "series-long-18398884_61232087",
     "slug": "full-phim-hay-tron-bo-qui-phi-tham-tien-phim-thuyet-minh-moi-nhat-phim-2087",
     "title": "FULL: Phim hay trọn bộ Quí phi tham tiền, phim thuyết minh mới nhất, phim AI | News 36 (Full Trọn Bộ 51:15)",
